@@ -74,6 +74,10 @@ Populate BCJP data:
 
     ruby bin/build.rb jp
 
+Populate BCKR data:
+
+    ruby bin/build.rb kr
+
 ## Thanks:
 
 ### Tracking discovery for 7.2+
