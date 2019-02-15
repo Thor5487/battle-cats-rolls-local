@@ -2594,3 +2594,68 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-02-18_273:
+    start_on: 2019-02-18
+    end_on: 2019-02-20
+    version: '80200'
+    name: Metal Busters ★ With Increasing Capsule Discount!
+    id: 273
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-02-20_342:
+    start_on: 2019-02-20
+    end_on: 2019-02-22
+    version: '80200'
+    name: "★ Dark Heroes ★ Defend justice with superpowered Uber Cats!"
+    id: 342
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-02-22_369:
+    start_on: 2019-02-22
+    end_on: 2019-02-25
+    version: '80200'
+    name: The Dynamites★ 11-Draw Guarantee, with a new mystery member?!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-02-25_330:
+    start_on: 2019-02-25
+    end_on: 2019-02-27
+    version: '80200'
+    name: "★ Vajiras Wargods ★ Tactical Master Uber Cats, with a new mystery general?!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-02-25_368:
+    start_on: 2019-02-25
+    end_on: 2019-03-11
+    version: '80201'
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    id: 368
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-02-27_333:
+    start_on: 2019-02-27
+    end_on: 2019-03-01
+    version: '80200'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-03-01_360:
+    start_on: 2019-03-01
+    end_on: 2019-03-04
+    version: '80200'
+    name: New Uber "D'artanyan" is here! ★ Extra-high Uber drop rate for every draw!
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
