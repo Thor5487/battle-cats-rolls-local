@@ -7,20 +7,20 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         __method__,
-        '8.1.0',
+        '8.2.0',
         AwsAuth.event_url('en'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatsen/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatsen&key=4_jp.co.ponos.battlecatsen_2018-12-20.apk'
+        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatsen&key=4_jp.co.ponos.battlecatsen_2019-02-06.apk'
       ]
     end
 
     def self.tw
       @tw ||= [
         __method__,
-        '8.1.0',
+        '8.2.0',
         AwsAuth.event_url('tw'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatstw&key=5_jp.co.ponos.battlecatstw_2018-12-20.apk'
+        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatsen&key=5_jp.co.ponos.battlecatstw_2019-02-06.apk'
       ]
     end
 
