@@ -37,10 +37,10 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '8.1.1',
+        '8.2.0',
         AwsAuth.event_url('kr'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatskr/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatskr&key=5_jp.co.ponos.battlecatskr_2019-01-10.apk'
+        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecats&key=5_jp.co.ponos.battlecatskr_2019-02-06.apk'
       ]
     end
 
