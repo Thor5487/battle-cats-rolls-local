@@ -2565,3 +2565,33 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-02-27_354:
+    start_on: 2019-02-27
+    end_on: 2019-03-01
+    version: '80300'
+    name: 異世界より召喚された愉快なモンスター美少女達！★11連で超激レア確定!!
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-02-27_368:
+    start_on: 2019-02-27
+    end_on: 2019-03-04
+    version: '80300'
+    name: "【終了間近】劇場版「Fate/stay night [Heaven's Feel]」ガチャ★11連で超激レア確定!!"
+    id: 368
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-01_345:
+    start_on: 2019-03-01
+    end_on: 2019-03-04
+    version: '80300'
+    name: にゃんこワールドの偉大なる神々、ここに集結！★11連で超激レア確定!!
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
