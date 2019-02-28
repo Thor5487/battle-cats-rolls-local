@@ -2354,3 +2354,70 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-03-04_348:
+    start_on: 2019-03-04
+    end_on: 2019-03-06
+    version: '80202'
+    name: 貓咪軍團對抗不死生物的超級武器！★點圖可以看詳細內容喔！
+    id: 348
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-06_324:
+    start_on: 2019-03-06
+    end_on: 2019-03-08
+    version: '80202'
+    name: 神秘噁心又可愛的不明貓一族來了！★11連轉超激確定活動中！
+    id: 324
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-06_368:
+    start_on: 2019-03-06
+    end_on: 2019-03-11
+    version: '80202'
+    name: 劇場版「Fate/stay night [Heaven's Feel]」合作轉蛋★11連轉超激確定活動中！
+    id: 368
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-08_336:
+    start_on: 2019-03-08
+    end_on: 2019-03-11
+    version: '80202'
+    name: 強大可靠的龍皇們降臨啦！神秘角色新登場！？★點圖可以看詳細內容喔！
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-11_345:
+    start_on: 2019-03-11
+    end_on: 2019-03-13
+    version: '80202'
+    name: 貓咪世界的眾神，集結於此！★點圖可以看詳細內容喔！
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-13_245:
+    start_on: 2019-03-13
+    end_on: 2019-03-15
+    version: '80202'
+    name: 紅色破壞者轉蛋限定角色「貓飯拳派派」登場！★好康轉蛋活動中！
+    id: 245
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-03-15_361:
+    start_on: 2019-03-15
+    end_on: 2019-03-18
+    version: '80202'
+    name: 超強的限定角色「影傑漆黑達太貓」登場！★超激稀有角色出現率大幅上升！
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900

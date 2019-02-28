@@ -2659,3 +2659,70 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-03-04_348:
+    start_on: 2019-03-04
+    end_on: 2019-03-06
+    version: '80202'
+    name: "★ IRON LEGION ★ Heavy metal Uber Cats with Zombie-crushing powers!!"
+    id: 348
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-06_324:
+    start_on: 2019-03-06
+    end_on: 2019-03-08
+    version: '80202'
+    name: "★ Nekolugas ★  Super-creepy Uber Cats with 11-Draw Guarantee!"
+    id: 324
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-06_368:
+    start_on: 2019-03-06
+    end_on: 2019-03-11
+    version: '80202'
+    name: Fate/stay night [Heaven's Feel] Capsules! ★ With 11-Draw Guarantee!
+    id: 368
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-08_336:
+    start_on: 2019-03-08
+    end_on: 2019-03-11
+    version: '80202'
+    name: "★ Dragon Emperors ★ Mighty monstrous Ubers, with a new mystery member?!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-11_345:
+    start_on: 2019-03-11
+    end_on: 2019-03-13
+    version: '80202'
+    name: "★ The Almighties! ★ All-powerful Uber Cats, ready to be recruited!"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-13_245:
+    start_on: 2019-03-13
+    end_on: 2019-03-15
+    version: '80202'
+    name: "★ Red Busters w/ Pai-Pai! ★ Plus Increasing Capsules!"
+    id: 245
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-03-15_361:
+    start_on: 2019-03-15
+    end_on: 2019-03-18
+    version: '80202'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900

@@ -1641,3 +1641,70 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-03-04_348:
+    start_on: 2019-03-04
+    end_on: 2019-03-06
+    version: '80202'
+    name: "★냥코 군단의 신병기! 좀비 킬러 【강철군대 아이언워즈】 등장!★"
+    id: 348
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-06_324:
+    start_on: 2019-03-06
+    end_on: 2019-03-08
+    version: '80202'
+    name: "★10+1연속 뽑기 울슈레 1개 이상 확정! 진화하면 과연....? 【고양이 루가족】 등장!!★"
+    id: 324
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-06_368:
+    start_on: 2019-03-06
+    end_on: 2019-03-11
+    version: '80202'
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★10+1 연속 뽑기 울슈레 확정!★"
+    id: 368
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-08_336:
+    start_on: 2019-03-08
+    end_on: 2019-03-11
+    version: '80202'
+    name: 압도적인 존재감을 보여주는 드래곤들! 시크릿 참전!?★자세한 내용은 배너를 클릭!
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-11_345:
+    start_on: 2019-03-11
+    end_on: 2019-03-13
+    version: '80202'
+    name: "★냥코 월드에 위대한 신들이 집결★ 【궁극강림 기간트 제우스】 등장★"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-13_245:
+    start_on: 2019-03-13
+    end_on: 2019-03-15
+    version: '80202'
+    name: "★보너스☆UP 뽑기 개최 중!! 빨간 적에 강한  【레드 바스터즈】  등장!★"
+    id: 245
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-03-15_361:
+    start_on: 2019-03-15
+    end_on: 2019-03-18
+    version: '80202'
+    name: "★한정 캐릭터 「호걸 달타냥」 참전!★울슈레 확률 지금만 초 UP★"
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
