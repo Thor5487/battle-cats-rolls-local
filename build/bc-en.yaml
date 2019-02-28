@@ -228,7 +228,7 @@ cats:
       name: [Cat God the Great, Cat God the Awesome]
       desc: ["At long last, Cat God has joined the fight!\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "Shining with glorious purpose and divine charisma.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too."]
     458:
-      name: [Shirou the Cat, Novice Magus Shirou Cat]
+      name: [Shirou the Cat, Novice Mage Shirou Cat]
       desc: ["A Cat who strives to be a defender of justice.\nSpent months in his room trying to summon\na Heroic Spirit. Strong vs. Black enemies.", "Still hasn't succeeded at Heroic Spirit\nsummoning. Now leaves his room sometimes\nto do night patrols. Strong vs. Black enemies."]
   2:
     38:
@@ -412,10 +412,10 @@ cats:
       name: [Sakura the Cat, Apron Sakura Cat, Dreaming Sakura Cat]
       desc: ["Healthy and capable Cat filled with dreams.\nFine Western-style cuisine is her talent.\nHas a small chance of Critical Strike.", "Refining her household skills day by day.\nEvery morning must start with a proper greeting.\nHas a small chance of Critical Strike.", "She expresses her boundless hope in her cooking.\nHer overflowing optimism is unmistakable!\nChance of Critical Strike and Metal knockback."]
     372:
-      name: [Rin the Cat, Magus Rin Cat]
+      name: [Rin the Cat, Mage Rin Cat]
       desc: ["An Cat possessing elegance unrivaled at her\nschool. Beauty extends to behavior befitting\nan honor student. Might knockback Aliens.", "Endlessly seeks to improve on herself.\nLashes out when she feels her weakness\nmight be exposed. Might knockback Aliens."]
     373:
-      name: [Ilya the Cat, Snow Faerie Ilya]
+      name: [Illya the Cat, Snow Faerie Illya]
       desc: ["An uncanny Cat with silver hair and red eyes.\nOnce tried to care for a small bird.\nMight Slow Red enemies.", "Inheritor of the blood of a venerable House.\nRecently purchased new winter clothes.\nMight Slow Red enemies."]
     374:
       name: [Li'l Shirou, Li'l Shirou CC]

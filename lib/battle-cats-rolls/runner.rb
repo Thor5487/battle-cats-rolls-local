@@ -7,20 +7,20 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         __method__,
-        '8.2.0',
+        '8.2.2',
         AwsAuth.event_url('en'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatsen/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatsen&key=4_jp.co.ponos.battlecatsen_2019-02-06.apk'
+        'https://apkplz.net/app/jp.co.ponos.battlecatsen'
       ]
     end
 
     def self.tw
       @tw ||= [
         __method__,
-        '8.2.0',
+        '8.2.2',
         AwsAuth.event_url('tw'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecatsen&key=5_jp.co.ponos.battlecatstw_2019-02-06.apk'
+        'https://apkplz.net/app/jp.co.ponos.battlecatstw'
       ]
     end
 
@@ -30,17 +30,17 @@ module BattleCatsRolls
         '8.3.1',
         AwsAuth.event_url('jp'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecats/
-        'https://d-01.apkplz.info/dl.php?s=MTJYSWV0YjQ2dGtvK3ZIc1pOTmxwSWRQakhVQlpUMlpKelB4L25LYm1ha2tab25QK0RETDFwLzhkWEliUzlvY2JSWmNjWllCZUxvSzhlWXY5RkNjdkN3MGFNRE5BeFJaK21kTUZZVThOWGw5bmNPdWxzUzUxQnBzekJCVk9HMjJwcStSUjNwQ2x1UHhQdG9wbytFRFBBPT0='
+        'https://apkplz.net/app/jp.co.ponos.battlecats'
       ]
     end
 
     def self.kr
       @kr ||= [
         __method__,
-        '8.2.0',
+        '8.2.2',
         AwsAuth.event_url('kr'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatskr/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecats&key=5_jp.co.ponos.battlecatskr_2019-02-06.apk'
+        'https://apkplz.net/app/jp.co.ponos.battlecatskr'
       ]
     end
 
@@ -205,24 +205,37 @@ module BattleCatsRolls
 
       case apk_url
       when %r{apkmonk\.com/down_file}
-        require 'json'
         require 'open-uri'
+        require 'json'
 
-        json = open(URI.parse(apk_url), 'User-Agent' => 'Mozilla/5.0').read
-        apk = JSON.parse(json)
+        wget(JSON.parse(open_uri(apk_url).read)['url'], apk_path)
 
-        wget(apk['url'], apk_path)
+      when %r{apkplz\.net/app}
+        require 'open-uri'
+        require 'nokogiri'
+
+        wget(xpath_download_link(xpath_download_link(apk_url)), apk_path)
+
       else
         wget(apk_url, apk_path)
       end
     end
 
-    def wget(url, path)
+    def xpath_download_link url
+      Nokogiri::HTML.parse(open_uri(url)).
+        xpath('//a[contains(@title, "Download")]').first['href']
+    end
+
+    def wget url, path
       system(
         'wget',
         '--user-agent=Mozilla/5.0',
         '-O', path,
         url)
+    end
+
+    def open_uri uri
+      open(URI.parse(uri), 'User-Agent' => 'Mozilla/5.0')
     end
 
     def write_pack
