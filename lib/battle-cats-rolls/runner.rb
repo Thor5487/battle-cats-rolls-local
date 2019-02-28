@@ -27,10 +27,10 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         __method__,
-        '8.2.0',
+        '8.3.1',
         AwsAuth.event_url('jp'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecats/
-        'https://www.apkmonk.com/down_file?pkg=jp.co.ponos.battlecats&key=5_jp.co.ponos.battlecats_2019-01-17.apk'
+        'https://d-01.apkplz.info/dl.php?s=MTJYSWV0YjQ2dGtvK3ZIc1pOTmxwSWRQakhVQlpUMlpKelB4L25LYm1ha2tab25QK0RETDFwLzhkWEliUzlvY2JSWmNjWllCZUxvSzhlWXY5RkNjdkN3MGFNRE5BeFJaK21kTUZZVThOWGw5bmNPdWxzUzUxQnBzekJCVk9HMjJwcStSUjNwQ2x1UHhQdG9wbytFRFBBPT0='
       ]
     end
 
