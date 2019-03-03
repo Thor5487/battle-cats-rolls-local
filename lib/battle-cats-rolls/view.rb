@@ -14,7 +14,7 @@ module BattleCatsRolls
   class View < Struct.new(:controller, :arg)
     extend Forwardable
 
-    def_delegators :controller, *%w[request gacha details]
+    def_delegators :controller, *%w[request gacha]
 
     def render name
       erb(:layout){ erb(name) }
@@ -189,7 +189,11 @@ module BattleCatsRolls
     end
 
     def checked_details
-      'checked="checked"' if details
+      'checked="checked"' if controller.details
+    end
+
+    def show_details
+      arg&.dig(:details) && controller.details
     end
 
     def hidden_inputs *input_names
@@ -248,7 +252,7 @@ module BattleCatsRolls
     end
 
     def seed_column fruit
-      return unless details
+      return unless show_details
 
       <<~HTML
         <td>#{fruit.seed}</td>
@@ -293,7 +297,7 @@ module BattleCatsRolls
         no_guaranteed: controller.no_guaranteed,
         force_guaranteed: controller.force_guaranteed,
         ubers: controller.ubers,
-        details: details
+        details: controller.details
       }
     end
 
@@ -349,10 +353,10 @@ module BattleCatsRolls
       uri(path: "//#{seek_host}/seek")
     end
 
-    def erb name, arg=nil, &block
+    def erb name, nested_arg=nil, &block
       context =
-        if arg
-          self.class.new(controller, arg)
+        if nested_arg
+          self.class.new(controller, arg&.merge(nested_arg) || nested_arg)
         else
           self
         end

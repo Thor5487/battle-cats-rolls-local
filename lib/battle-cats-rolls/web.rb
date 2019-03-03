@@ -285,7 +285,7 @@ module BattleCatsRolls
           FindCat.search(gacha, find,
             cats: cats, guaranteed: !no_guaranteed, max: FindCat::Max)
 
-        render :index, cats: cats, found_cats: found_cats
+        render :index, cats: cats, found_cats: found_cats, details: true
       else
         render :index
       end

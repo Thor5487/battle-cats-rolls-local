@@ -2,23 +2,23 @@
   <table>
     <tr>
       <th>No.</th>
-      <% if details %>
+      <% if show_details %>
         <th>Seed</th>
         <th>Value</th>
       <% end %>
-      <% if details %>
+      <% if show_details %>
         <th>Score, slot</th>
       <% else %>
         <th>Result</th>
       <% end %>
       <th>Guaranteed</th>
-      <% if details %>
+      <% if show_details %>
         <th>Alt. score, slot</th>
       <% else %>
         <th>Alt. result</th>
       <% end %>
       <th>Alt. guaranteed</th>
-      <% if details %>
+      <% if show_details %>
         <th>Seed</th>
         <th>Value</th>
       <% end %>
@@ -39,7 +39,7 @@
           <td class="cat <%= color_label(prev_b) %>" <%= onclick_pick(prev_b) %>>
             <%= link_to_roll(prev_b) %></td>
           <%= seed_column(prev_b.slot_fruit) %>
-        <% elsif details %>
+        <% elsif show_details %>
           <td colspan="5"></td>
         <% else %>
           <td colspan="3"></td>
@@ -61,7 +61,7 @@
     <% end %>
 
     <tr>
-      <% if details %>
+      <% if show_details %>
         <td colspan="5"></td>
       <% else %>
         <td colspan="3"></td>
