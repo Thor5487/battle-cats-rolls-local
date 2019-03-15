@@ -2737,3 +2737,87 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-03-18_362:
+    start_on: 2019-03-18
+    end_on: 2019-03-20
+    version: '80300'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a new mystery member?!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-03-18_375:
+    start_on: 2019-03-18
+    end_on: 2019-04-01
+    version: '80300'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 375
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-20_330:
+    start_on: 2019-03-20
+    end_on: 2019-03-22
+    version: '80300'
+    name: "★ Vajiras Wargods ★ Tactical Master Uber Cats, with a new mystery general?!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-03-22_351:
+    start_on: 2019-03-22
+    end_on: 2019-03-25
+    version: '80300'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life as Uber Rare allies!"
+    id: 351
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-25_369:
+    start_on: 2019-03-25
+    end_on: 2019-03-27
+    version: '80300'
+    name: The mighty Dynamites are here! Variety and power await you!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-03-25_376:
+    start_on: 2019-03-25
+    end_on: 2019-04-01
+    version: '80300'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 376
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-03-27_333:
+    start_on: 2019-03-27
+    end_on: 2019-03-29
+    version: '80300'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-27_376:
+    start_on: 2019-03-27
+    end_on: 2019-04-01
+    version: '80300'
+    name: 'Ending Soon: Survive! Mola Mola! Collab Capsules! ★ With 11-Draw Guarantee!'
+    id: 376
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-03-29_342:
+    start_on: 2019-03-29
+    end_on: 2019-04-01
+    version: '80300'
+    name: "★ Dark Heroes ★ Superpowered Uber Cats with 11-Draw Guarantee!"
+    id: 342
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
