@@ -2821,3 +2821,67 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-04-01_360:
+    start_on: 2019-04-01
+    end_on: 2019-04-04
+    version: '80300'
+    name: New Uber "D'artanyan" is here! ★ Extra-high Uber drop rate for every draw!
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-04-04_345:
+    start_on: 2019-04-04
+    end_on: 2019-04-06
+    version: '80300'
+    name: "★ The Almighties! ★ All-powerful Uber Cats, ready to be recruited!"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-04-06_246:
+    start_on: 2019-04-06
+    end_on: 2019-04-08
+    version: '80300'
+    name: AIR BUSTERS plus R.E.I ★ With Increasing Capsules discount!
+    id: 246
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-04-08_259:
+    start_on: 2019-04-08
+    end_on: 2019-04-22
+    version: '80300'
+    name: Limited Edition Spring Cats ★ Check info for more details!
+    id: 259
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-04-08_336:
+    start_on: 2019-04-08
+    end_on: 2019-04-10
+    version: '80300'
+    name: "★ Dragon Emperors ★ Collect a mighty monstrous Uber Cat!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-04-10_351:
+    start_on: 2019-04-10
+    end_on: 2019-04-12
+    version: '80300'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life as Uber Rare allies!"
+    id: 351
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-04-12_361:
+    start_on: 2019-04-12
+    end_on: 2019-04-15
+    version: '80300'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
