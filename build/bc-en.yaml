@@ -2885,3 +2885,99 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-04-15_362:
+    start_on: 2019-04-15
+    end_on: 2019-04-17
+    version: '80400'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a new mystery member?!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-04-17_259:
+    start_on: 2019-04-17
+    end_on: 2019-04-22
+    version: '80400'
+    name: "★ Easter Carnival ★ Bright n' Blooming Capsules w/ Uber Guarantee!"
+    id: 259
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-17_330:
+    start_on: 2019-04-17
+    end_on: 2019-04-19
+    version: '80400'
+    name: "★ Vajiras Wargods ★ Tactical Master Uber Cats, with a new mystery general?!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-19_372:
+    start_on: 2019-04-19
+    end_on: 2019-04-22
+    version: '80400'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 372
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-22_333:
+    start_on: 2019-04-22
+    end_on: 2019-04-24
+    version: '80400'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-04-24_369:
+    start_on: 2019-04-24
+    end_on: 2019-04-26
+    version: '80400'
+    name: The mighty Dynamites are here! Variety and power await you!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-04-26_377:
+    start_on: 2019-04-26
+    end_on: 2019-04-29
+    version: '80400'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-29_273:
+    start_on: 2019-04-29
+    end_on: 2019-05-01
+    version: '80400'
+    name: Metal Busters ★ With Increasing Capsule Discount!
+    id: 273
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-05-01_360:
+    start_on: 2019-05-01
+    end_on: 2019-05-04
+    version: '80400'
+    name: New Uber "D'artanyan" is here! ★ Extra-high Uber drop rate for every draw!
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-05-04_245:
+    start_on: 2019-05-04
+    end_on: 2019-05-06
+    version: '80400'
+    name: "★ Red Busters w/ Pai-Pai! ★ Plus Increasing Capsules!"
+    id: 245
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
