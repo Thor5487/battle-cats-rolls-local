@@ -233,6 +233,9 @@ cats:
     463:
       name: [Filibuster Cat X, Filibuster Cat Y]
       desc: ["An ancient lifeform once annihilated by the \npower of Doge, but now restored with super glue. \nOmnistrike with 100% Freeze vs. Traitless.", "Mystery Cat once thought lost to the universe.\nUpdated his paint job with a more slimming color.\nOmnistrike with 100% Freeze vs. Traitless."]
+    465:
+      name: [Dogumaru, Doguemon]
+      desc: ["The Doge army put this artifact for sale on cBay to\nfund their next campaign, but only made $0.22 from it.\nHigh defense against Traitless (Area Attack)", "Analysis reveals that this was created by ancient Cats\nthen sold to Doges for use as flowerbed decorations.\nHigh defense against Traitless (Area Attack)"]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -599,8 +602,8 @@ cats:
       name: [Catornado, Hurricat, Catyphoon]
       desc: ["Wanted to skip school so badly, he became a\ntyphoon to cause a national weather alert.\nSuper high-speed Area attacks with Critical.", "A side effect of El Nino. Dangerously curious;\nsucks up anything he tries to get a peek at.\nSuper high-speed Area attacks with Critical.", "Swept up in a storm along with the rest of town.\nUsed to it by now, so he came prepared for weather.\nSuper high-speed Area attacks with Critical."]
     274:
-      name: [Cheerleader Cat, Waitress Cat]
-      desc: ["Leaping about on the football field, her youthful\nsongs fill the Battle Cats with determination.\n100% chance of a Critical Attack!", "The real world called, but her enthusiasm\nremains! Her speedy service fills the Cats\nwith determination! 100% Critical chance.", "The real world called, but her enthusiasm\nremains! Her speed service fills the Cats\nwith determination! 100% Critical chance."]
+      name: [Cheerleader Cat, Waitress Cat, Soba Cat]
+      desc: ["Leaping about on the football field, her youthful\nsongs fill the Battle Cats with determination.\n100% chance of a Critical Attack!", "The real world called, but her enthusiasm\nremains! Her speedy service fills the Cats\nwith determination! 100% Critical chance.", "Finally saved enough to buy her own restaurant!\nHer noodles are the best in the city, and her \nservice never lacks style. 100% Critical chance."]
     277:
       name: [Sunny Neneko, Seaside Neneko]
       desc: ["This year, she'll definitely take the gold medal at\nthe swim tournament, even though she won't take\nthe gloves off. 100% Critical attack chance.", "Everyone's favorite pure idol is ready to overcome\nher anxiety of being seen in a swimsuit. You can do\nit, Neneko! 100% Critical attack chance."]
@@ -700,7 +703,7 @@ cats:
       desc: ["A galaxy girl who can manipulate electricity.\nBrings down bolts from a distance.\nMassive damage to Red enemies. (Area Attack)", "Always worries about her chronic neck pain.\nLikes watching cartoons in her spare time.\nMassive damage to Red enemies. (Area Attack)", "When you have a goddess' body, it's tough to find\nclothes that fit. Long distance Area Attacks\ndeliver massive damage to Red enemies."]
     84:
       name: [Sodom, Earth King Sodom, God-Emperor Sodom]
-      desc: ["An awakened Ancient Cat Dragon.\nLeaves destruction in it's wake (Area Attack)\nMight knockback/resistant to Floating.", "An awakened Ancient Cat Dragon Weapon.\nSodom shifted to final Dragon form (Area Attack)\nMight knockback/resistant to Floating.", "Sodom unlocked his FINAL final Dragon form,\nRending the very earth asunder with power!\n100% area knockback/resistant vs Floating."]
+      desc: ["An awakened Ancient Cat Dragon.\nLeaves destruction in its wake (Area Attack)\nMight knockback/resistant to Floating.", "An awakened Ancient Cat Dragon Weapon.\nShifted to his final Dragon form (Area Attack)\nMight knockback/resistant to Floating.", "Sodom unlocked his FINAL final Dragon form,\nrending the very earth asunder with his power!\n100% area knockback/resistant vs Floating."]
     85:
       name: [Megidora, Holy Dragon Megidora, God-Emperor Megidora]
       desc: ["An awakened Ancient Cat Dragon.\nCreated to purify the world (Area Attack)\nMight knockback and slow Floating enemies.", "An awakened Ancient Cat Dragon.\nMegidora shifts to final Dragon form (Area Attack)\nMight knockback and slow Floating enemies.", "Possessor of the Divine Dragon Stone. Ready to\ndevour all to maintain its imperial throne.\nArea attacks might slow Floating enemies."]
@@ -858,14 +861,14 @@ cats:
       name: [Lilith Cat, Succubus Cat]
       desc: ["Snow is in short supply before November, so Ice\nCat changed to a more mischevious & spooky look.\nMight Freeze Angels with terror (Area Attack)", "Ice Cat has been overtaken by her love for\nHalloween pranks... Will winter revive her cold\nbut gentle heart? Might freeze Angels (Area Atk)", "Ice Cat has been overtaken by her love for\nHalloween pranks... Will winter revive her cold\nbut gentle heart? Might freeze Angels (Area Atk)"]
     305:
-      name: [Mighty Kat-A-Pult, CAT-6 Siege Engine]
-      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt an awesome land weapon! Powerful\nanti-Zombie long range attacks, might weaken!", "Featuring thick armor, an arsenal of long-range\ncannons, and loaded with shock troops, CAT-6\nis tough vs Zombies and weakens enemies.", "Featuring thick armor, an arsenal of long-range\ncannons, and loaded with shock troops, CAT-6\nis tough vs Zombies and weakens enemies."]
+      name: [Mighty Kat-A-Pult, CAT-6 Siege Engine, CAT-8 Behemoth]
+      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt an awesome land weapon! Powerful\nanti-Zombie long range attacks, might weaken!", "Featuring thick armor, an arsenal of long-range\ncannons, and loaded with shock troops, CAT-6\nis tough vs Zombies and weakens enemies.", "The culmination of centuries of feline technology,\nthis near-indestructable superweight tank has high\ndefense vs Zombies and weakens enemies."]
     306:
-      name: [Mighty Drednot, B.C.S. Lionheart]
-      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a retro battleship for marine dominance!\nArea atks deliver huge damage vs Red enemies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies."]
+      name: [Mighty Drednot, B.C.S. Lionheart, B.C.S. Tigerclaw]
+      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a retro battleship for marine dominance!\nArea atks deliver huge damage vs Red enemies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies.", "Cat Army Special Forces use this Nekonium drill-\nequipped destroyer to stage marine assaults.\nHuge area damage vs Reds and Zombies."]
     307:
-      name: [Mighty Bomburr, NEK-0 Sky Fortress]
-      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a super sweet tactical aircraft. Area atks\nknock back Zombie enemies with ease.", "The ultimate aerial threat, dropping endless\nmegatons of munition on ground threats. Area\nattacks deliver powerful knockback vs Zombies.", "The ultimate aerial threat, dropping endless\nmegatons of munition on ground threats. Area\nattacks deliver powerful knockback vs Zombies."]
+      name: [Mighty Bomburr, NEK-0 Sky Fortress, NEK-02 Air Citadel]
+      desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a super sweet tactical aircraft. Area atks\nknock back Zombie enemies with ease.", "The ultimate aerial threat, dropping endless\nmegatons of munition on ground threats. Area\nattacks deliver powerful knockback vs Zombies.", "A force of total aerial domination and a key weapon\nin the Cat's quest to create an ideal world.\nArea attacks have powerful knockback vs Zombies."]
     311:
       name: [Yuletide Nurse, Yule Knight Nurse]
       desc: ["Everyone's favorite Nurse is feeling the\nXmas spirit! Praying for health with a lucky\nholiday candle. Slow/knockback Angels/Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens."]
@@ -909,8 +912,8 @@ cats:
       name: [Seashore Kai, 'Seashore Kai, type μ']
       desc: ["She's actually terrified of water, but Kalisa dragged\nher to the beach for the first time in years.\nSuper tough vs Black/Zombies (Area Attack)", "Slowly growing more comfortable with the bikini\nlook. Is today the day she finds her cute surfer boy?\nSuper tough vs Black/Zombies (Area Attack)"]
     356:
-      name: [Mighty Rekon Korps, Orbital Platform Armageddon]
-      desc: ["Highly mobile artillery unit based on ancient\nengineering. Only attacks enemies with traits,\nbut deals massive area damage with each strike.", "Designed to control interstellar territory using\nwormhole physics and thermonuclear stikes.\nMassive area damage vs traited enemies only."]
+      name: [Mighty Rekon Korps, Orbital Platform Armageddon, Orbital Annihilator Ragnarok]
+      desc: ["Highly mobile artillery unit based on ancient\nengineering. Only attacks enemies with traits,\nbut deals massive area damage with each strike.", "Designed to control interstellar territory using\nwormhole physics and thermonuclear stikes.\nMassive area damage vs traited enemies only.", "Only the most elite among the Cat Army troops can\nbe trusted with this weapon of overwhelming power.\nMassive area damage vs traited enemies only."]
     358:
       name: [Wolfchild Deale, Wolf Princess Deale]
       desc: ["A lost cub from a mighty werewolf pack\nwho found her calling in show business.\nMight knockback Angels & Aliens (Area Atk)", "The one-wolf show has revealed her true colors\nto universal acclaim. Are you not entertained??\nMight knockback Angels & Aliens (Area Atk)"]
@@ -987,8 +990,8 @@ cats:
       name: [Moon Operators, NERV Moon]
       desc: ["Operators for the secret agency NERV, \nproviding support for the Eva pilots.\nArea attacks slow Red/Zombies.", "Elite command of the NERV agency. \nAn effective team since their school days.\nArea attacks slow Red/Zombies."]
     418:
-      name: [Mighty Thermae D-Lux, Subterra Guardians]
-      desc: ["World-famous mobile hot springs.\nTravel in comfort and style. Omni-strikes\nslow and cause massive damage to Zombies.", "A secret organization defending the Cat army\nfrom Doge sneak attacks from below. Omni-\nstrikes freeze + massive damage to Zombies."]
+      name: [Mighty Thermae D-Lux, Subterra Guardians, Subterra Sentinels]
+      desc: ["World-famous mobile hot springs.\nTravel in comfort and style. Omni-strikes\nslow and cause massive damage to Zombies.", "A secret organization defending the Cat army\nfrom Doge sneak attacks from below. Omni-\nstrikes freeze + massive damage to Zombies.", "At the frontlines of the Cat campaign to seek and\ndestroy underground Doge bases. Omni-strikes\nfreeze and deliver massive damage to Zombies."]
     428:
       name: [Cat Clan Heroes, Cat Guild Heroes]
       desc: ["A brave band of Cats out to defeat the King of Evil.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "The Chosen One and 11 courageous adventurers.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating."]
@@ -1032,6 +1035,9 @@ cats:
     462:
       name: [Legeluga, Legelan Pasalan]
       desc: ["Not sure if this is a Cat…\nThere's just something about that\npandimensional crystal...", "Gaze upon its might and tremble!\nThere's no doubt that this one is\nimmune to Wave damage (Omni-Strike)"]
+    464:
+      name: [Mighty Kristul Muu, Doom Engine Pandora]
+      desc: ["A pulsing gem focuses mystic forces into an\nunstable but insanely powerful blast. Omnistrike,\nWave shield, and High Def./Atk. vs. Zombies!", "All the Cats' tech genius can't guarantee that those\nextradimensional energies won't destroy the world.\nOmnistrike, Wave Shield , High Def./Atk. vs. Zombies"]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1410,6 +1416,9 @@ gacha:
   374: [462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 240, 239, 238, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   375: [175, 174, 174, 174, 174, 174, 174, 378, 377, 326, 308, 309, 201, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   376: [175, 174, 174, 174, 174, 174, 174, 378, 377, 326, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  377: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  378: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  379: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
