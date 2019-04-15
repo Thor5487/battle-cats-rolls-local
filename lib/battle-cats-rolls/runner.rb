@@ -188,7 +188,7 @@ module BattleCatsRolls
     def provider
       if File.exist?(extract_path)
         load_extract
-      elsif File.exist?(app_data_path)
+      elsif File.exist?(app_data_path) && Dir["#{app_data_path}/*"].any?
         load_pack
       else
         download_apk unless File.exist?(apk_path)
