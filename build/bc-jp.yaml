@@ -2839,3 +2839,33 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2019-04-18_259:
+    start_on: 2019-04-18
+    end_on: 2019-04-22
+    version: '80400'
+    name: 春限定のキュートなコスプレキャラを手に入れよう！★11連で超激レア確定!!
+    id: 259
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-18_369:
+    start_on: 2019-04-18
+    end_on: 2019-04-20
+    version: '80400'
+    name: 世界一即戦力になるにゃんこ達！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-04-20_345:
+    start_on: 2019-04-20
+    end_on: 2019-04-22
+    version: '80400'
+    name: にゃんこワールドの偉大なる神々、ここに集結！★11連で超激レア確定!!
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
