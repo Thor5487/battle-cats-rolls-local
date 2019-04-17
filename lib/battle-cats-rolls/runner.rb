@@ -224,7 +224,7 @@ module BattleCatsRolls
     def xpath_download_link url
       title = "'#{version} APK'"
       link = Nokogiri::HTML.parse(open_uri(url)).
-        xpath("//a[contains(@title, #{title})]").first&.dig('href')
+        xpath("//a[contains(@title, #{title})]").first&.attr('href')
 
       link || raise("Cannot find #{title} link")
     end
