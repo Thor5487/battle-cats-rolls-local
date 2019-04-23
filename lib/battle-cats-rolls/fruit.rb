@@ -1,9 +1,17 @@
 # frozen_string_literal: true
 
 module BattleCatsRolls
-  class Fruit < Struct.new(:seed)
+  class Fruit < Struct.new(:seed, :version)
     def value
-      @value ||= [seed, alternative_seed].min
+      @value ||=
+        case version
+        when '8.5'
+          seed
+        when '8.4'
+          [seed, alternative_seed].min
+        else
+          raise "Unknown version: #{version}"
+        end
     end
 
     private

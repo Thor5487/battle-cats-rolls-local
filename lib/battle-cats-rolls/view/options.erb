@@ -8,6 +8,16 @@
     <option value="kr" <%= selected_lang('kr') %>>BCKR</option>
   </select>
 
+  <% if controller.path_info.match?(%r{\A/(?:seek)?\z}) %>
+  <label for="version_select">Version:</label>
+  <select id="version_select" name="version" onchange="roll(this)">
+    <option value="8.5" <%= selected_version('8.5') %>>8.5</option>
+    <option value="8.4" <%= selected_version('8.4') %>>8.4</option>
+  </select>
+  <% else %>
+  <%= hidden_inputs('version') %>
+  <% end %>
+
   <% if controller.path_info != '/logs' %>
   <label for="name_select">Name:</label>
   <select id="name_select" name="name" onchange="roll(this)">
@@ -20,5 +30,5 @@
   <% end %>
 </div>
 <% else %>
-<%= hidden_inputs('lang', 'name') %>
+<%= hidden_inputs('lang', 'version', 'name') %>
 <% end %>

@@ -164,6 +164,10 @@ module BattleCatsRolls
       'selected="selected"' if controller.lang == lang_name
     end
 
+    def selected_version version_name
+      'selected="selected"' if controller.version == version_name
+    end
+
     def selected_name name_name
       'selected="selected"' if controller.name == name_name
     end
@@ -291,6 +295,7 @@ module BattleCatsRolls
         seed: controller.seed,
         event: controller.event,
         lang: controller.lang,
+        version: controller.version,
         name: controller.name,
         count: controller.count,
         find: controller.find,
@@ -306,6 +311,7 @@ module BattleCatsRolls
         if (key == :next_seed && (value == 0 || query[:seed].nonzero?)) ||
            (key == :seed && value == 0) ||
            (key == :lang && value == 'en') ||
+           (key == :version && value == controller.default_version) ||
            (key == :name && value == 0) ||
            (key == :count && value == 100) ||
            (key == :find && value == 0) ||

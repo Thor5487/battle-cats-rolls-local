@@ -48,6 +48,25 @@ module BattleCatsRolls
           end
       end
 
+      def version
+        @version ||=
+          case value = request.params['version']
+          when '8.5', '8.4'
+            value
+          else
+            default_version
+          end
+      end
+
+      def default_version
+        case lang
+        when 'jp'
+          '8.5'
+        else
+          '8.4'
+        end
+      end
+
       def name
         @name ||=
           case value = request.params['name'].to_i
@@ -63,7 +82,7 @@ module BattleCatsRolls
       end
 
       def gacha
-        @gacha ||= Gacha.new(ball, event, gacha_seed)
+        @gacha ||= Gacha.new(ball, event, gacha_seed, version)
       end
 
       # This is the seed we're using to calculate the tracks

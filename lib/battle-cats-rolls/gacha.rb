@@ -7,7 +7,7 @@ require_relative 'gacha_pool'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed)
+  class Gacha < Struct.new(:pool, :seed, :version)
     Rare   = 2
     Supa   = 3
     Uber   = 4
@@ -17,8 +17,8 @@ module BattleCatsRolls
 
     def_delegators :pool, *%w[rare supa uber legend]
 
-    def initialize crystal_ball, event_name, seed
-      super(GachaPool.new(crystal_ball, event_name), seed)
+    def initialize crystal_ball, event_name, seed, version
+      super(GachaPool.new(crystal_ball, event_name), seed, version)
     end
 
     %w[Rare Supa Uber Legend].each do |rarity|
@@ -84,7 +84,7 @@ module BattleCatsRolls
     end
 
     def roll_fruit
-      Fruit.new(seed)
+      Fruit.new(seed, version)
     end
 
     def roll_fruit!
