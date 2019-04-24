@@ -217,7 +217,7 @@ module BattleCatsRolls
 
       def seek_source
         @seek_source ||=
-          [gacha.rare, gacha.supa, gacha.uber, gacha.legend,
+          [version, gacha.rare, gacha.supa, gacha.uber, gacha.legend,
            gacha.rare_cats.size, gacha.supa_cats.size,
            gacha.uber_cats.size, gacha.legend_cats.size,
            *request.POST['rolls']].join(' ').squeeze(' ')
@@ -363,7 +363,9 @@ module BattleCatsRolls
       post '/seek/enqueue' do
         key = SeekSeed.enqueue(seek_source, cache, logger)
 
-        found "/seek/result/#{key}?event=#{event}&lang=#{lang}&name=#{name}"
+        found \
+          "/seek/result/#{key}?" \
+          "event=#{event}&lang=#{lang}&version=#{version}&name=#{name}"
       end
 
       get %r{^/seek/result/?(?<key>\w*)} do |m|

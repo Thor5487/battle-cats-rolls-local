@@ -18,7 +18,7 @@ main = do
   -- when the parent process receives sigINT
   installHandler sigINT (CatchOnce empty) Nothing
 
-  result <- map read <$> words <$> getContents :: IO [Word32]
-  let picks = sourcePicks (buildSource result)
-  workStart picks numCapabilities >>=
+  version : input <- words <$> getContents
+  let source = buildSource version (map read input)
+  workStart source numCapabilities >>=
     sequence . fmap (putStrLn . show . join (***) fromSeed)

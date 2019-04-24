@@ -1,17 +1,28 @@
 
-module Seeker(SeekResult, seekStart, seekRange, minSeed, maxSeed) where
+module Seeker
+  ( SeekResult
+  , SeekStep
+  , buildSeekStep
+  , seekRange
+  , minSeed
+  , maxSeed) where
 
 import Seed
 import Roll
 import Control.Applicative ((<|>))
 
 type SeekResult = (Seed, Seed)
+type SeekStep = (SeedValue, [Pick])
 
-seekStart :: [Pick] -> Maybe SeekResult
-seekStart = seekRange minSeed maxSeed
+buildSeekStep :: Source -> SeekStep
+buildSeekStep source = (seedValue, picks) where
+  picks = sourcePicks source
+  seedValue = case sourceVersion source of
+    "8.4" -> minSeedValue
+    "8.5" -> fromSeed
 
-seekRange :: Seed -> Seed -> [Pick] -> Maybe SeekResult
-seekRange startSeed@(Seed value) endSeed picks =
+seekRange :: SeekStep -> Seed -> Seed -> Maybe SeekResult
+seekRange step startSeed@(Seed value) endSeed =
   if value == 0 then
     seekNext
   else if startSeed == endSeed then
@@ -19,22 +30,22 @@ seekRange startSeed@(Seed value) endSeed picks =
   else
     found seek <|> seekNext
   where
-    seek = matchSeed startSeed picks
+    seek = matchSeed step startSeed
     nextSeed = Seed (succ value)
-    seekNext = seekRange nextSeed endSeed picks
+    seekNext = seekRange step nextSeed endSeed
 
     found Nothing = Nothing
     found (Just currentSeed) = Just (startSeed, currentSeed)
 
-matchSeed :: Seed -> [Pick] -> Maybe Seed
-matchSeed seed [] = Nothing
+matchSeed :: SeekStep -> Seed -> Maybe Seed
+matchSeed (seedValue, []) seed = Nothing
 -- We want the seed from last roll, not the advanced one
-matchSeed seed ([lastPick]) = matchPick seed lastPick
-matchSeed seed (pick:nextPicks) = do
-  lastSeed <- matchPick seed pick
-  matchSeed (advanceSeed lastSeed) nextPicks
+matchSeed (seedValue, [lastPick]) seed = matchPick seed seedValue lastPick
+matchSeed (seedValue, pick:nextPicks) seed = do
+  lastSeed <- matchPick seed seedValue pick
+  matchSeed (seedValue, nextPicks) (advanceSeed lastSeed)
 
-matchPick :: Seed -> Pick -> Maybe Seed
+matchPick :: Seed -> SeedValue -> Pick -> Maybe Seed
 matchPick = matchRoll
 
 minSeed :: Seed

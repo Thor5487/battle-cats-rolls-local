@@ -235,7 +235,8 @@ module BattleCatsRolls
     end
 
     def made10rolls? seeds
-      gacha = Gacha.new(controller.ball, controller.event, seeds.first)
+      gacha = Gacha.new(
+        controller.ball, controller.event, seeds.first, controller.version)
       gacha.send(:advance_seed!) # Account offset for next_seed
       9.times{ gacha.roll! } # Only 9 rolls left
 

@@ -4,7 +4,7 @@ module Roll
   , Roll(Roll)
   , Rarity(Rarity, begin, end, count)
   , Slot(Slot, DualSlot)
-  , Source(Source, sourcePicks)
+  , Source(Source, sourceVersion, sourcePicks)
   , scoreBase
   , buildSource) where
 
@@ -35,13 +35,13 @@ data Chance = Chance
   } deriving (Show, Eq)
 
 data Source = Source
-  { sourceChance :: Chance
+  { sourceVersion :: String
   , sourcePicks :: [Pick]
   } deriving (Show, Eq)
 
-buildSource :: [Word32] -> Source
-buildSource (r:s:u:l:rCount:sCount:uCount:lCount:picks) = Source
-  { sourceChance = chance
+buildSource :: String -> [Word32] -> Source
+buildSource version (r:s:u:l:rCount:sCount:uCount:lCount:picks) = Source
+  { sourceVersion = version
   , sourcePicks = buildPicks chance rolls }
   where
     chance = Chance
