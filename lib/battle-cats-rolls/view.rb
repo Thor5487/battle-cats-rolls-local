@@ -265,7 +265,7 @@ module BattleCatsRolls
       HTML
     end
 
-    def onclick_pick(cat)
+    def onclick_pick cat
       return unless cat && controller.path_info == '/'
 
       %Q{onclick="pick('#{cat.sequence_track}')"}
