@@ -2990,3 +2990,58 @@ events:
     supa: 2500
     uber: 500
     step_up: true
+  2019-05-06_342:
+    start_on: 2019-05-06
+    end_on: 2019-05-08
+    version: '80400'
+    name: "★ Dark Heroes ★ Defend justice with superpowered Uber Cats!"
+    id: 342
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-05-08_354:
+    start_on: 2019-05-08
+    end_on: 2019-05-10
+    version: '80400'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-05-10_345:
+    start_on: 2019-05-10
+    end_on: 2019-05-13
+    version: '80400'
+    name: "★ The Almighties! ★ Legendary Uber Cats with 11-Draw Guarantee!"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-05-13_336:
+    start_on: 2019-05-13
+    end_on: 2019-05-15
+    version: '80400'
+    name: "★ Dragon Emperors ★ Collect a mighty monstrous Uber Cat!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-05-15_333:
+    start_on: 2019-05-15
+    end_on: 2019-05-17
+    version: '80400'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-05-17_361:
+    start_on: 2019-05-17
+    end_on: 2019-05-20
+    version: '80400'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
