@@ -3011,3 +3011,13 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-05-10_380:
+    start_on: 2019-05-10
+    end_on: 2019-05-13
+    version: '80500'
+    name: 個性的で愉快な精霊を仲間にしよう！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
