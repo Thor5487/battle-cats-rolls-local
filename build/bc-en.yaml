@@ -167,6 +167,9 @@ cats:
     281:
       name: [Fortressy, Castley]
       desc: ["A mobile fortress able to defend\nagainst attacks from any direction.\nTough unit able to withstand siege.", "The fortress has been redesigned\nfor extra appeal to the Internet.\nTough unit able to withstand siege."]
+    301:
+      name: [Li'l Homura, Li'l Magical Girl Homura, Li'l Devil Homura]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nA young girl with an indomitable will.", "From Madoka Magica The Movie -Rebellion-!\nShe will continue fighting until Walpurgisnacht\nis defeated, at any cost. (Area Attack)", "From Madoka Magica The Movie -Rebellion-!\nShe will relentlessly consume all things holy.\nArea attacks might Weaken Black enemies."]
     312:
       name: [Li'l Fish Cat, Li'l Whale Cat, Li'l Island Cat]
       desc: ["A tiny guy with dreams of becoming that\nCat with exceptional melee capability.\nStrong against Red enemies.", "A tiny guy with dreams of becoming that Cat\nthat managed to become a carnivorous whale.\nStrong against Red enemies.", "A tiny guy with dreams of becoming that Cat\nwho can perfect his form while on vacation.\nStrong against Red enemies, might critical."]
@@ -390,6 +393,27 @@ cats:
     283:
       name: [Awa-Odori Cat, So-Ran Cat]
       desc: ["Whether a dancing Cat or a watching Cat,\neveryone's a Cat, so why not just dance?!\nSuper cheap to allow for big parades.", "Heave, ho! Heave, ho! A dance for fish,\nof course Cats can get behind this tradition!\nSuper cheap to allow for extra big catches."]
+    295:
+      name: [Madoka Cat, Magical Girl Madoka Cat]
+      desc: ["A kind-hearted Cat who admires Magical Girls.\nShe will do anything to help her friends.\nMight Slow Floating enemies.", "This Magical Cat made a contract with a suspicious\nwhite creature. Uses her powers only to help others.\nMight Slow Floating enemies."]
+    296:
+      name: [Homura Cat, Magical Girl Homura Cat]
+      desc: ["A Cat who admires cool and mysterious Magical\nGirls. She's still too excitable to pull it off though...\nMight Freeze Black enemies.", "This Magical Cat made a contract with a suspicious\nwhite creature. Don't be intimidated by her toy gun.\nMight Freeze Black enemies."]
+    297:
+      name: [Sayaka Cat, Magical Girl Sayaka Cat]
+      desc: ["A guileless Cat who admires Magical Girls.\nVisits her sick friend every day without fail.\nGrows stronger after taking damage!", "This Magical Cat made a contract with a suspicious\nwhite creature. Wields a magically summoned sword.\nGrows stronger after taking damage!"]
+    298:
+      name: [Mami Cat, Magical Girl Mami Cat]
+      desc: ["A wise guardian Cat who admires Magical Girls.\nGets excited whenever she sees a pretty ribbon.\nDelivers massive damage to Angels.", "This Magical Cat made a contract with a suspicious\nwhite creature. Gets dizzy after using Tiro Finale.\nDelivers massive damage to Angels."]
+    299:
+      name: [Kyoko Cat, Magical Girl Kyoko Cat]
+      desc: ["A Cat who admires Magical Girls with endless\nappetite. Don't waste good food or you'll get it!\nMight Weaken Red enemies.", "This Magical Cat made a contract with a suspicious\nwhite creature. Made her spear in shop class.\nMight Weaken Red enemies."]
+    300:
+      name: [Li'l Madoka, Li'l Magical Girl Madoka, Li'l Ultimate Madoka]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nA girl with vast potential hiding in her tiny body.", "From Madoka Magica The Movie -Rebellion-!\nBears the true power of a Magical Girl within her.\nMassive Long-range damage vs. Floating.", "From Madoka Magica The Movie -Rebellion-!\nCan alter the laws of time and space with her gift!\nMassive Long-range damage vs. Floating."]
+    302:
+      name: [Kyuubei Cat, Tank Kyuubei Cat]
+      desc: ["A ruthless Cat wearing a cute animal costume.\nSeeking girls who have a wish they want granted.\nMight Survive a lethal attack.", "A ruthless Cat wearing a cute animal costume.\nEvolved for improved stylishness and adorability.\nMight Survive a lethal attack."]
     304:
       name: [Food Stall Cat, Delivery Cat]
       desc: ["Planning to corner the grilled calamari market.\nForgot to pay taxes, so now business takes\nplace on the run. Massive damage vs Angels.", "Brings gifts from the Cat God for you! Of\ncourse, its all cash-on-delivery. Best pay up or\nrisk divine wrath. Massive damage vs Angels.", "Brings gifts from the Cat God for you! Of\ncourse, its all cash-on-delivery. Best pay up or\nrisk divine wrath. Massive damage vs Angels."]
@@ -608,11 +632,14 @@ cats:
       name: [Sunny Neneko, Seaside Neneko]
       desc: ["This year, she'll definitely take the gold medal at\nthe swim tournament, even though she won't take\nthe gloves off. 100% Critical attack chance.", "Everyone's favorite pure idol is ready to overcome\nher anxiety of being seen in a swimsuit. You can do\nit, Neneko! 100% Critical attack chance."]
     285:
-      name: [Express Cat, Maglev Cat]
-      desc: ["1-car train with a max speed of 222kph\n120% of seats were filled today.\nExtra money when defeating enemies!", "222-Cat seater with a max speed of \n2222kph, a blessing for all Cat commuters.\nExtra money when defeating enemies!"]
+      name: [Express Cat, Maglev Cat, Bullet Train Cat]
+      desc: ["1-car train with a max speed of 222kph\n120% of seats were filled today.\nExtra money when defeating enemies!", "222-Cat seater with a max speed of \n2222kph, a blessing for all Cat commuters.\nExtra money when defeating enemies!", "Can take a maximum of 2222 passengers on\na round-the-world journey at 20,000,000 km/h\nExtra money when defeating enemies!"]
     288:
       name: [Little Leaguer Cat, Major Leaguer Cat]
       desc: ["Young, but full of raw potential. Recruited \nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range."]
+    294:
+      name: [Kyuubei, Kyuubei & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nMake a contract with him and your wish will come true.\nTough vs. Aliens, might Survive a lethal attack", "From Madoka Magica The Movie -Rebellion-!\nHe seeks pure-hearted girls dreaming of a miracle.\nTough vs. Aliens, might Survive a lethal attack"]
     308:
       name: [Vaulter Cat, 'Polevaulter Cat ', 'Housewife Cat ']
       desc: ["Soaring through the blue sky using only a\nsingle pole, she is the height of athleticism.\nArea atks might slow Zombies.", "Certified by Guinness as the record-holder\nfor cats' polevaulting. Will marry her coach\nnext year. Area attacks might slow Zombies.", "Retired with four still-unbeaten world records.\nHer skills are surprisingly applicable to daily life!\nLong-range Area attacks might slow Zombies."]
@@ -857,6 +884,21 @@ cats:
     287:
       name: [Strike Unit R.E.I., Assault Unit R.E.I.]
       desc: ["Cheerful young mech, built for anti-air warfare\nusing future tech forbidden by international law.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating."]
+    289:
+      name: [Madoka Kaname, Madoka & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nA sweet girl who cares deeply for her friends.\nStrong vs Floating, with Long-Range Slow Area atks.", "From Madoka Magica The Movie -Rebellion-!\nLoyal Magical Girl bearing a tremendous power.\nStrong vs Floating, with Long-Range Slow Area atks."]
+    290:
+      name: [Homura Akemi, Homura & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nA cool-headed and mysterious Magical Girl.\nArea attacks might Freeze Black enemies", "From Madoka Magica The Movie -Rebellion-!\nA Magical Girl who can command time itself.\nArea attacks might Freeze Black enemies"]
+    291:
+      name: [Sayaka Miki, Sayaka & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nPractical Magical Girl, deals with trouble directly.\nSurvives once, Area Atk power grows after damage!", "From Madoka Magica The Movie -Rebellion-!\nMade a healing wish as part of her contract.\nSurvives once, Area Atk power grows after damage!"]
+    292:
+      name: [Mami Tomoe, Mami & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nVeteran Magical Girl who watches over rookies.\nMassive Long-Range Area damage vs. Angels.", "From Madoka Magica The Movie -Rebellion-!\nMagical Girl who endures painful loneliness.\nMassive Long-Range Area damage vs. Angels."]
+    293:
+      name: [Kyoko Sakura, Kyoko & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nSelfish Magical Girl, doesn't mind collateral damage.\nArea attacks might Weaken and Knockback Red.", "From Madoka Magica The Movie -Rebellion-!\nThis Magical Girl won't forgive those who waste food.\nArea attacks might Weaken and Knockback Red."]
     303:
       name: [Lilith Cat, Succubus Cat]
       desc: ["Snow is in short supply before November, so Ice\nCat changed to a more mischevious & spooky look.\nMight Freeze Angels with terror (Area Attack)", "Ice Cat has been overtaken by her love for\nHalloween pranks... Will winter revive her cold\nbut gentle heart? Might freeze Angels (Area Atk)", "Ice Cat has been overtaken by her love for\nHalloween pranks... Will winter revive her cold\nbut gentle heart? Might freeze Angels (Area Atk)"]
@@ -924,8 +966,8 @@ cats:
       name: [Bora, Bazibon, Bazibastra]
       desc: ["Cosmic fire, brought to life!\nThis drake spirit commands flames\nthat strike Aliens for extra damage!", "With the power of a burning sun,\nits flares annihilate Barriers.\nPowerful defense & attack vs. Aliens", "Carries a red giant's rage within its tiny body,\nready to unleash a supernova on enemy Barriers.\nPowerful defense & attack vs. Aliens"]
     361:
-      name: [Mizli, Marinmizu]
-      desc: ["Cosmic water, brought to life!\nThis nymph spirit controls waves\nthat knock Aliens far back!", "With waves that can split the Earth, its \nattacks wash away enemy Barriers. Tough \nAnti-Alien defense and knockback attacks."]
+      name: [Mizli, Marinmizu, Mizuririn]
+      desc: ["Cosmic water, brought to life!\nThis nymph spirit controls waves\nthat knock Aliens far back!", "With waves that can split the Earth, its \nattacks wash away enemy Barriers. Tough \nAnti-Alien defense and knockback attacks.", "Master of water, sends cleansing waves to purify\nmortal realms of evil, washing away Barriers.\nTough Anti-Alien defense and knockback attacks."]
     362:
       name: [Aer, Erphuan]
       desc: ["Cosmic storms, brought to life!\nThis sylph spirit summons winds\nfor long distance area attacks!", "With winds that blast away the mountains,\nno Barrier can stand against its assaults.\nTough, with long-range area attacks vs Aliens."]
@@ -1010,6 +1052,9 @@ cats:
     440:
       name: [Empress Chronos, Chronos the Infinite]
       desc: ["An almighty titaness who rescued the universe from\nchaos, keeping order with her Timepiece of Destiny.\nFreezes any traited enemy with long-range area atks.", "Molded our reality from primordial matter using her\nmastery of the Divine Timepiece. Don't mess with her.\nFreezes any traited enemy with long-range area atks."]
+    441:
+      name: [Bebe, Nagisa & Cat]
+      desc: ["From Madoka Magica The Movie -Rebellion-!\nMami's adorable, cheese-loving partner.\nArea attacks Weaken Aliens and Zombies.", "From Madoka Magica The Movie -Rebellion-!\nNew Magical Girl who appears before Madoka.\nArea attacks Weaken Aliens and Zombies."]
     442:
       name: [D'arktanyan, Valiant D'arktanyan]
       desc: ["Wandering warrior pursuing true justice, resembles\na certain Meowsketeer. Gains attack power\nwhen damaged, effective vs all traitless enemies!", "He values nothing more than justice and will happily\nsacrifice it all for his cause! Gains attack power\nwhen damaged, effective vs all traitless enemies!"]
@@ -1038,6 +1083,9 @@ cats:
     464:
       name: [Mighty Kristul Muu, Doom Engine Pandora]
       desc: ["A pulsing gem focuses mystic forces into an\nunstable but insanely powerful blast. Omnistrike,\nWave shield, and High Def./Atk. vs. Zombies!", "All the Cats' tech genius can't guarantee that those\nextradimensional energies won't destroy the world.\nOmnistrike, Wave Shield , High Def./Atk. vs. Zombies"]
+    479:
+      name: [Lumina, Luminalia]
+      desc: ["The ultimate elemental manifestation, projected\nfrom a dying star at the end of the universe.\nInsanely tough, might Weaken, Barrier Breaker.", "Omniscient cosmic visionary from the future,\nmastery of all elements allows it to ignore Barriers.\nInsanely tough, 100% Weaken, Barrier Breaker."]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1419,6 +1467,10 @@ gacha:
   377: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   378: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   379: [464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  380: [479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  381: [479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  382: [479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  383: [473, 473, 473, 473, 473, 473, 472, 471, 470, 469, 468, 467, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06

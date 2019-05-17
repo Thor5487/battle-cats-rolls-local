@@ -7,7 +7,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         __method__,
-        '8.4.0',
+        '8.5.0',
         AwsAuth.event_url('en'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatsen/
         'https://apkplz.net/app/jp.co.ponos.battlecatsen'
@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '8.4.0',
+        '8.5.0',
         AwsAuth.event_url('kr'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatskr/
         'https://apkplz.net/app/jp.co.ponos.battlecatskr'
