@@ -63,7 +63,7 @@ module BattleCatsRolls
         when 'jp'
           '8.5'
         else
-          '8.4'
+          '8.5'
         end
       end
 
