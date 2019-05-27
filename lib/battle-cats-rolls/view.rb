@@ -155,7 +155,7 @@ module BattleCatsRolls
     def pick_option cats
       cats.map.with_index do |cat, slot|
         <<~HTML
-          <option value="#{cat.rarity} #{slot}">#{cat_name(cat)}</option>
+          <option value="#{cat.rarity} #{slot}">#{slot} #{cat_name(cat)}</option>
         HTML
       end.join
     end
