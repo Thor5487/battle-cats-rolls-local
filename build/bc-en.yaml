@@ -412,7 +412,7 @@ cats:
       name: [Li'l Madoka, Li'l Magical Girl Madoka, Li'l Ultimate Madoka]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nA girl with vast potential hiding in her tiny body.", "From Madoka Magica The Movie -Rebellion-!\nBears the true power of a Magical Girl within her.\nMassive Long-range damage vs. Floating.", "From Madoka Magica The Movie -Rebellion-!\nCan alter the laws of time and space with her gift!\nMassive Long-range damage vs. Floating."]
     302:
-      name: [Kyuubei Cat, Tank Kyuubei Cat]
+      name: [Kyubey Cat, Tank Kyubey Cat]
       desc: ["A ruthless Cat wearing a cute animal costume.\nSeeking girls who have a wish they want granted.\nMight Survive a lethal attack.", "A ruthless Cat wearing a cute animal costume.\nEvolved for improved stylishness and adorability.\nMight Survive a lethal attack."]
     304:
       name: [Food Stall Cat, Delivery Cat]
@@ -638,7 +638,7 @@ cats:
       name: [Little Leaguer Cat, Major Leaguer Cat]
       desc: ["Young, but full of raw potential. Recruited \nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range."]
     294:
-      name: [Kyuubei, Kyuubei & Cat]
+      name: [Kyubey, Kyubey & Cat]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nMake a contract with him and your wish will come true.\nTough vs. Aliens, might Survive a lethal attack", "From Madoka Magica The Movie -Rebellion-!\nHe seeks pure-hearted girls dreaming of a miracle.\nTough vs. Aliens, might Survive a lethal attack"]
     308:
       name: [Vaulter Cat, 'Polevaulter Cat ', 'Housewife Cat ']
@@ -3128,7 +3128,7 @@ events:
   2019-05-27_318:
     start_on: 2019-05-27
     end_on: 2019-06-10
-    version: '80500'
+    version: '80501'
     name: Magoka Magica The Movie -Rebellion- Collab Capsules! ★ Tap for info!
     id: 318
     rare: 7000
@@ -3164,7 +3164,7 @@ events:
   2019-06-03_318:
     start_on: 2019-06-03
     end_on: 2019-06-10
-    version: '80500'
+    version: '80501'
     name: Magoka Magica The Movie -Rebellion- Collab Capsules! ★ Tap for info!
     id: 318
     rare: 7000
