@@ -7,7 +7,7 @@ require_relative 'gacha_pool'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed, :version)
+  class Gacha < Struct.new(:pool, :seed, :version, :last_both)
     Rare   = 2
     Supa   = 3
     Uber   = 4
@@ -44,16 +44,16 @@ module BattleCatsRolls
     def roll_both!
       a_fruit = roll_fruit!
       b_fruit = roll_fruit
-      a_cat = roll_cat!(a_fruit)
-      b_cat = roll_cat(b_fruit)
+      a_cat = roll_cat!(a_fruit, last_both&.first)
+      b_cat = roll_cat(b_fruit, last_both&.last)
       a_cat.track = 'A'
       b_cat.track = 'B'
 
-      [a_cat, b_cat]
+      self.last_both = [a_cat, b_cat]
     end
 
-    def roll!
-      roll_cat!(roll_fruit!)
+    def roll! last_cat
+      roll_cat!(roll_fruit!, last_cat)
     end
 
     def fill_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
@@ -91,7 +91,7 @@ module BattleCatsRolls
       roll_fruit.tap{ advance_seed! }
     end
 
-    def roll_cat rarity_fruit
+    def roll_cat rarity_fruit, last_cat
       score = rarity_fruit.value % GachaPool::Base
       rarity = dig_rarity(score)
       slot_fruit = if block_given? then yield else roll_fruit end
@@ -100,11 +100,36 @@ module BattleCatsRolls
       cat.rarity_fruit = rarity_fruit
       cat.score = score
 
-      cat
+      determine_cat(cat, last_cat)
     end
 
-    def roll_cat! rarity_fruit
-      roll_cat(rarity_fruit){ roll_fruit! }
+    def roll_cat! rarity_fruit, last_cat
+      roll_cat(rarity_fruit, last_cat){ roll_fruit! }
+    end
+
+    def determine_cat cat, last_cat
+      case version
+      when '8.6'
+        if cat.rarity == Rare # && cat.id == last_cat.id
+          cat.rerolled = reroll_cat
+          cat
+          # dupe detected!
+          # we need to show all potential results coming from above or
+          # the other track, because we don't know how people can get here:
+          #
+          # Original Cat | Dupe from above -> XB | Dupe from right -> YB
+          # Original Cat | XA <- Dupe from above | YA <- Dupe from left
+          #
+          # also we better to remember which is the last cat people get,
+          # so 1A can be more accurate
+        else
+          cat
+        end
+      when '8.5', '8.4'
+        cat
+      else
+        raise "Unknown version: #{version}"
+      end
     end
 
     def dig_rarity score
@@ -127,6 +152,10 @@ module BattleCatsRolls
       id = pool.dig_slot(rarity, slot)
 
       Cat.new(id, pool.dig_cat(rarity, id), rarity, slot_fruit, slot)
+    end
+
+    def reroll_cat
+      Cat.new(0, 'name' => ['Rerolled rare'])
     end
 
     def advance_seed!

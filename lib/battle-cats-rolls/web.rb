@@ -51,7 +51,7 @@ module BattleCatsRolls
       def version
         @version ||=
           case value = request.params['version']
-          when '8.5', '8.4'
+          when '8.6', '8.5', '8.4'
             value
           else
             default_version
@@ -61,7 +61,7 @@ module BattleCatsRolls
       def default_version
         case lang
         when 'jp'
-          '8.5'
+          '8.6'
         else
           '8.5'
         end

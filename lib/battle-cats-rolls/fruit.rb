@@ -5,7 +5,7 @@ module BattleCatsRolls
     def value
       @value ||=
         case version
-        when '8.5'
+        when '8.6', '8.5'
           seed
         when '8.4'
           [seed, alternative_seed].min
