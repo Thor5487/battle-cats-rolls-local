@@ -3179,3 +3179,78 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-06-04_342:
+    start_on: 2019-06-04
+    end_on: 2019-06-06
+    version: '80501'
+    name: "★ Dark Heroes ★ Defend justice with superpowered Uber Cats!"
+    id: 342
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-06-06_318:
+    start_on: 2019-06-06
+    end_on: 2019-06-10
+    version: '80501'
+    name: Magoka Magica The Movie -Rebellion- Capsules w/ 11-Draw Guarantee!
+    id: 318
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-06-06_362:
+    start_on: 2019-06-06
+    end_on: 2019-06-08
+    version: '80501'
+    name: "★ Ultra Souls★ Guaranteed 11-Draw for legendary Uber Rare Cats!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-06-08_369:
+    start_on: 2019-06-08
+    end_on: 2019-06-10
+    version: '80501'
+    name: The Dynamites★ 11-Draw Guarantee, with a new mystery member?!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-06-10_345:
+    start_on: 2019-06-10
+    end_on: 2019-06-12
+    version: '80501'
+    name: "★ The Almighties! ★ All-powerful Uber Cats, ready to be recruited!"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-06-12_330:
+    start_on: 2019-06-12
+    end_on: 2019-06-14
+    version: '80501'
+    name: "★ Vajiras Wargods ★ Tactical Master Uber Cats, with a new mystery general?!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-06-14_361:
+    start_on: 2019-06-14
+    end_on: 2019-06-17
+    version: '80501'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-06-17_372:
+    start_on: 2019-06-17
+    end_on: 2019-06-19
+    version: '80501'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 372
+    rare: 6970
+    supa: 2500
+    uber: 500
