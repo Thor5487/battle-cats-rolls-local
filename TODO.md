@@ -1,3 +1,7 @@
+## Top priority
+
+* Eliminate next_seed
+
 ## Features and utilities
 
 * Use browser timezone offset to calculate local time
