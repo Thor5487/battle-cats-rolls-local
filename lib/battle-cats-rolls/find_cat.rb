@@ -77,7 +77,7 @@ module BattleCatsRolls
     def search_from_cats cats, guaranteed, remaining_ids
       cats.each.inject({}) do |result, ab|
         (remaining_ids - result.keys).each do |id|
-          ab.each.with_index do |cat|
+          ab.each do |cat|
             case id
             when cat.id
               result[id] = cat
