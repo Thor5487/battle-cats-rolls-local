@@ -267,6 +267,7 @@ module BattleCatsRolls
 
     def onclick_pick cat
       return unless cat && controller.path_info == '/'
+      return if controller.version == '8.6'
 
       %Q{onclick="pick('#{cat.sequence_track}')"}
     end
