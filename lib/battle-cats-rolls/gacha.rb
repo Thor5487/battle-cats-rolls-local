@@ -7,7 +7,7 @@ require_relative 'gacha_pool'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed, :version, :last_both)
+  class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_last)
     Rare   = 2
     Supa   = 3
     Uber   = 4
@@ -49,6 +49,9 @@ module BattleCatsRolls
       a_cat.track = 'A'
       b_cat.track = 'B'
 
+      fill_rerolled_slot_fruit(a_cat, b_cat)
+
+      self.last_last = last_both
       self.last_both = [a_cat, b_cat]
     end
 
@@ -156,6 +159,16 @@ module BattleCatsRolls
 
     def reroll_cat
       Cat.new(0, 'name' => ['Rerolled rare'])
+    end
+
+    def fill_rerolled_slot_fruit *current
+      if last_last
+        last_last.each.with_index do |ll, index|
+          if ll.rerolled
+            ll.rerolled.slot_fruit = current[index].rarity_fruit
+          end
+        end
+      end
     end
 
     def advance_seed!

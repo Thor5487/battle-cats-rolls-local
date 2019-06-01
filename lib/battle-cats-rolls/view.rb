@@ -125,7 +125,24 @@ module BattleCatsRolls
           %Q{<a href="#{h uri_to_cat_db(cat)}">🐾</a>}
         else
           ''
+        end + link_to_rerolled_cat(cat)
+    end
+
+    def link_to_rerolled_cat cat
+      if rerolled = cat.rerolled
+        link = link_to_roll(rerolled)
+
+        case cat.track
+        when 'A'
+          "<br>#{link} -&gt; #{cat.sequence + 2}B"
+        when 'B'
+          "<br>&lt;- #{cat.sequence + 2}A #{link}"
+        else
+          raise "Unknown track: #{cat.track.inspect}"
         end
+      else
+        ''
+      end
     end
 
     def guaranteed_rolls
