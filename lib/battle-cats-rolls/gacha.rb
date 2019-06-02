@@ -111,9 +111,11 @@ module BattleCatsRolls
     end
 
     def determine_cat cat, last_cat
+      return cat unless last_cat
+
       case version
       when '8.6'
-        if cat.rarity == Rare # && cat.id == last_cat.id
+        if cat.rarity == Rare && cat.id == last_cat.id
           cat.rerolled = reroll_cat
           cat
           # dupe detected!
