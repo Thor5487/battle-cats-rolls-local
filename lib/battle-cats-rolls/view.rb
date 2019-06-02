@@ -197,6 +197,10 @@ module BattleCatsRolls
       'selected="selected"' if controller.find == cat.id
     end
 
+    def selected_last cat
+      'selected="selected"' if controller.last == cat.id
+    end
+
     def checked_no_guaranteed
       'checked="checked"' if controller.no_guaranteed
     end
@@ -290,7 +294,7 @@ module BattleCatsRolls
     end
 
     def uri_to_roll cat
-      uri(query: {seed: cat.slot_fruit.seed})
+      uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
 
     def uri_to_cat_db cat
@@ -318,6 +322,7 @@ module BattleCatsRolls
         name: controller.name,
         count: controller.count,
         find: controller.find,
+        last: controller.last,
         no_guaranteed: controller.no_guaranteed,
         force_guaranteed: controller.force_guaranteed,
         ubers: controller.ubers,
@@ -334,6 +339,7 @@ module BattleCatsRolls
            (key == :name && value == 0) ||
            (key == :count && value == 100) ||
            (key == :find && value == 0) ||
+           (key == :last && value == 0) ||
            (key == :no_guaranteed && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0)

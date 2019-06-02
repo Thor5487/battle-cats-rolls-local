@@ -22,7 +22,40 @@
     onclick="this.select()">
 
   <input type="submit" value="Roll">
+
+  <label for="last_select">Last roll:</label>
+  <select id="last_select" name="last" onchange="roll(this)">
+    <option></option>
+
+    <optgroup label="Rare:">
+      <% gacha.rare_cats.uniq(&:id).each do |cat| %>
+        <option value="<%= cat.id %>"
+          <%= selected_last(cat) %>><%= cat_name(cat) %></option>
+      <% end %>
+    </optgroup>
+
+    <optgroup label="Super:">
+      <% gacha.supa_cats.uniq(&:id).each do |cat| %>
+        <option value="<%= cat.id %>"
+          <%= selected_last(cat) %>><%= cat_name(cat) %></option>
+      <% end %>
+    </optgroup>
+
+    <optgroup label="Uber:">
+      <% gacha.uber_cats.uniq(&:id).each do |cat| %>
+        <option value="<%= cat.id %>"
+          <%= selected_last(cat) %>><%= cat_name(cat) %></option>
+      <% end %>
+    </optgroup>
+
+    <optgroup label="Legendary:">
+      <% gacha.legend_cats.uniq(&:id).each do |cat| %>
+        <option value="<%= cat.id %>"
+          <%= selected_last(cat) %>><%= cat_name(cat) %></option>
+      <% end %>
+    </optgroup>
+  </select>
 </div>
 <% else %>
-<%= hidden_inputs('seed', 'next_seed', 'details', 'count') %>
+<%= hidden_inputs('seed', 'next_seed', 'details', 'count', 'last') %>
 <% end %>

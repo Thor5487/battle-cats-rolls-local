@@ -140,6 +140,10 @@ module BattleCatsRolls
         @find ||= request.params['find'].to_i
       end
 
+      def last
+        @last ||= request.params['last'].to_i
+      end
+
       def pick
         @pick ||= request.params['pick'].to_s
       end
@@ -292,6 +296,7 @@ module BattleCatsRolls
         gacha.current_seed_mode! if next_seed.zero?
 
         gacha.pool.add_future_ubers(ubers) if ubers > 0
+        gacha.last_both = [Cat.new(last)] if last.nonzero?
 
         # Human counts from 1
         cats = 1.upto(count).map do |sequence|
