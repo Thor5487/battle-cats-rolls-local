@@ -49,7 +49,7 @@ module BattleCatsRolls
       a_cat.track = 'A'
       b_cat.track = 'B'
 
-      fill_rerolled_slot_fruit(b_cat)
+      fill_rerolled_slot_fruit(a_cat, b_cat)
 
       self.last_both = [a_cat, b_cat]
     end
@@ -162,10 +162,10 @@ module BattleCatsRolls
       Cat.new(0, 'name' => ['Rerolled rare'])
     end
 
-    def fill_rerolled_slot_fruit b_cat
+    def fill_rerolled_slot_fruit a_cat, b_cat
       if last_both
         if last_rerolled_a = last_both.first.rerolled
-          last_rerolled_a.slot_fruit = b_cat.slot_fruit
+          last_rerolled_a.slot_fruit = a_cat.rarity_fruit
         end
 
         # We know 0A but don't know 0B

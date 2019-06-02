@@ -134,7 +134,7 @@ module BattleCatsRolls
 
         case cat.track
         when 'A'
-          "<br>#{link} -&gt; #{cat.sequence + 2}B"
+          "<br>#{link} -&gt; #{cat.sequence + 1}B"
         when 'B'
           "<br>&lt;- #{cat.sequence + 2}A #{link}"
         else
