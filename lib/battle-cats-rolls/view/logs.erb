@@ -14,6 +14,20 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2019-06-02") %>
+<ul>
+  <li>Added experimental 8.6+ support. Keep in mind it might not be always correct!</li>
+  <ul>
+    <li>When the same rare cat was rolled in a row, the game will not just give you a fixed rare cat now, it'll instead move the seed at least once (we don't know if it's always just once yet) to roll another rare cat for you, therefore it'll <strong>switch your track!</strong></li>
+    <li>We don't know how the newly re-rolled rare cat is determined for now, nor do we know if this will affect another re-roll when the next cat happens to be the same as the re-rolled cat again.</li>
+    <li>The page will now try to remember the last cat you rolled, making sure 1A can be determined correctly. 1B is ignored in this case.</li>
+    <li>Highlighting is disabled for 8.6+ for now, because it might not be accurate due to switching upon duplicated rare.</li>
+    <li>Guaranteed roll is disabled for 8.6+ as well, again because it might not be accurate due to switching upon duplicated rare in the middle.</li>
+    <li>You can still get the same super rare cat in a row. The same is assumed for ubers and legendary cats. Only rare cats have this re-rolling effect.</li>
+  </ul>
+  <li>The page will now remember what's your last rolled cat. This will be used for the experimental 8.6+ support, but it has no use prior to 8.6.</li>
+</ul>
+
 <%= header(2, "2019-05-27") %>
 <ul>
   <li>Updated version option so that 8.5 is just 8.5. It doesn't work for 8.6</li>
