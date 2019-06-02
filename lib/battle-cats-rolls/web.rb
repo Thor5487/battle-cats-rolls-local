@@ -296,7 +296,7 @@ module BattleCatsRolls
         gacha.current_seed_mode! if next_seed.zero?
 
         gacha.pool.add_future_ubers(ubers) if ubers > 0
-        gacha.last_both = [Cat.new(last)] if last.nonzero?
+        gacha.last_both = [Cat.new(last), nil] if last.nonzero?
 
         # Human counts from 1
         cats = 1.upto(count).map do |sequence|

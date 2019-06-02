@@ -166,7 +166,7 @@ module BattleCatsRolls
     def fill_rerolled_slot_fruit *current
       if last_last
         last_last.each.with_index do |ll, index|
-          if ll.rerolled
+          if ll&.rerolled
             ll.rerolled.slot_fruit = current[index].rarity_fruit
           end
         end
