@@ -303,7 +303,7 @@ module BattleCatsRolls
           gacha.roll_both_with_sequence!(sequence)
         end
 
-        gacha.fill_guaranteed(cats, guaranteed_rolls)
+        gacha.fill_guaranteed(cats, guaranteed_rolls) if version != '8.6'
 
         found_cats =
           FindCat.search(gacha, find,
