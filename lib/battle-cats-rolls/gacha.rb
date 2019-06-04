@@ -158,13 +158,13 @@ module BattleCatsRolls
 
         if last_a.duped
           last_a.rerolled = reroll_cat(last_a, a_cat.rarity_fruit)
-          a_cat.duped = duped_cat?(last_a.rerolled, a_cat)
+          a_cat.duped = false # We switch track so it's impossible to be duped
         end
 
         # We know 0A but don't know 0B
         if last_b&.duped
           last_b.rerolled = reroll_cat(last_b, b_cat.rarity_fruit)
-          b_cat.duped = duped_cat?(last_b.rerolled, b_cat)
+          b_cat.duped = false
         end
       end
     end
