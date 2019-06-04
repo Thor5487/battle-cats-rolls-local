@@ -101,7 +101,7 @@ module BattleCatsRolls
 
       cat.rarity_fruit = rarity_fruit
       cat.score = score
-      cat.duped = last_cat && cat.rarity == Rare && cat.id == last_cat.id
+      cat.duped = duped_cat?(last_cat, cat)
 
       cat
     end
@@ -158,13 +158,19 @@ module BattleCatsRolls
 
         if last_a.duped
           last_a.rerolled = reroll_cat(last_a, a_cat.rarity_fruit)
+          a_cat.duped = duped_cat?(last_a.rerolled, a_cat)
         end
 
         # We know 0A but don't know 0B
         if last_b&.duped
           last_b.rerolled = reroll_cat(last_b, b_cat.rarity_fruit)
+          b_cat.duped = duped_cat?(last_b.rerolled, b_cat)
         end
       end
+    end
+
+    def duped_cat? last_cat, cat
+      last_cat && cat.rarity == Rare && cat.id == last_cat.id
     end
 
     def advance_seed!
