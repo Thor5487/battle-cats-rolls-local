@@ -6,7 +6,7 @@ module BattleCatsRolls
     :slot_fruit, :slot,
     :rarity_fruit, :rarity_label,
     :score, :sequence, :track,
-    :guaranteed, :rerolled)
+    :guaranteed, :duped, :rerolled)
 
     def name
       info.dig('name', 0)

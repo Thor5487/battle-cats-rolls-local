@@ -49,7 +49,7 @@ module BattleCatsRolls
       a_cat.track = 'A'
       b_cat.track = 'B'
 
-      fill_rerolled_slot_fruit(a_cat, b_cat)
+      fill_rerolled_cats(a_cat, b_cat) if version == '8.6'
 
       self.last_both = [a_cat, b_cat]
     end
@@ -66,7 +66,7 @@ module BattleCatsRolls
               cats.dig(index + guaranteed_rolls - 1, a_or_b, :rarity_fruit)
 
             if guaranteed_slot_fruit
-              rolled_cat.guaranteed = new_cat(Uber, guaranteed_slot_fruit)
+              rolled_cat.guaranteed = gen_cat(Uber, guaranteed_slot_fruit)
               rolled_cat.guaranteed.sequence = rolled_cat.sequence
               rolled_cat.guaranteed.track = "#{rolled_cat.track}G"
             end
@@ -97,26 +97,19 @@ module BattleCatsRolls
       score = rarity_fruit.value % GachaPool::Base
       rarity = dig_rarity(score)
       slot_fruit = if block_given? then yield else roll_fruit end
-      cat = new_cat(rarity, slot_fruit)
+      cat = gen_cat(rarity, slot_fruit)
 
       cat.rarity_fruit = rarity_fruit
       cat.score = score
+      cat.duped = last_cat && cat.rarity == Rare && cat.id == last_cat.id
 
-      determine_cat(cat, last_cat)
+      cat
     end
 
     def roll_cat! rarity_fruit, last_cat
       roll_cat(rarity_fruit, last_cat){ roll_fruit! }
     end
 
-    def determine_cat cat, last_cat
-      return cat unless last_cat
-
-      case version
-      when '8.6'
-        if cat.rarity == Rare && cat.id == last_cat.id
-          cat.rerolled = reroll_cat
-          cat
           # dupe detected!
           # we need to show all potential results coming from above or
           # the other track, because we don't know how people can get here:
@@ -126,15 +119,6 @@ module BattleCatsRolls
           #
           # also we better to remember which is the last cat people get,
           # so 1A can be more accurate
-        else
-          cat
-        end
-      when '8.5', '8.4'
-        cat
-      else
-        raise "Unknown version: #{version}"
-      end
-    end
 
     def dig_rarity score
       rare_supa = rare + supa
@@ -151,26 +135,34 @@ module BattleCatsRolls
       end
     end
 
-    def new_cat rarity, slot_fruit
-      slot = slot_fruit.value % pool.dig_slot(rarity).size
-      id = pool.dig_slot(rarity, slot)
+    def gen_cat rarity, slot_fruit
+      new_cat(rarity, slot_fruit, pool.dig_slot(rarity))
+    end
+
+    def new_cat rarity, slot_fruit, slots
+      slot = slot_fruit.value % slots.size
+      id = slots[slot]
 
       Cat.new(id, pool.dig_cat(rarity, id), rarity, slot_fruit, slot)
     end
 
-    def reroll_cat
-      Cat.new(0, 'name' => ['Rerolled rare'])
+    def reroll_cat duped_cat, slot_fruit
+      rarity = duped_cat.rarity
+
+      new_cat(rarity, slot_fruit, pool.dig_slot(rarity) - [duped_cat.id])
     end
 
-    def fill_rerolled_slot_fruit a_cat, b_cat
+    def fill_rerolled_cats a_cat, b_cat
       if last_both
-        if last_rerolled_a = last_both.first.rerolled
-          last_rerolled_a.slot_fruit = a_cat.rarity_fruit
+        last_a, last_b = last_both
+
+        if last_a.duped
+          last_a.rerolled = reroll_cat(last_a, a_cat.rarity_fruit)
         end
 
         # We know 0A but don't know 0B
-        if last_rerolled_b = last_both.last&.rerolled
-         last_rerolled_b.slot_fruit = b_cat.rarity_fruit
+        if last_b&.duped
+          last_b.rerolled = reroll_cat(last_b, b_cat.rarity_fruit)
         end
       end
     end
