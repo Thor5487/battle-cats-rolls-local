@@ -148,14 +148,14 @@ module BattleCatsRolls
 
       # Checking A with previous A
       if duped_cat?(last_a, a_cat) ||
-          # Checking A when previous B when swapping tracks
+          # Checking A with previous B when swapping tracks
           duped_cat?(last_last_b&.rerolled, a_cat)
         a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
       end
 
       # Checking B with previous B
       if duped_cat?(last_last_b, last_b) ||
-          # Checking B when previous A when swapping tracks
+          # Checking B with previous A when swapping tracks
           duped_cat?(last_last_a&.rerolled, last_b)
         last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
       end
