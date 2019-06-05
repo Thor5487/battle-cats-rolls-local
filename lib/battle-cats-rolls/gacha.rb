@@ -110,16 +110,6 @@ module BattleCatsRolls
       roll_cat(rarity_fruit){ roll_fruit! }
     end
 
-          # dupe detected!
-          # we need to show all potential results coming from above or
-          # the other track, because we don't know how people can get here:
-          #
-          # Original Cat | Dupe from above -> XB | Dupe from right -> YB
-          # Original Cat | XA <- Dupe from above | YA <- Dupe from left
-          #
-          # also we better to remember which is the last cat people get,
-          # so 1A can be more accurate
-
     def dig_rarity score
       rare_supa = rare + supa
 
