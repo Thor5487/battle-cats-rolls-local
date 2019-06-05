@@ -170,7 +170,8 @@ module BattleCatsRolls
     end
 
     def duped_cat? last_cat, cat
-      last_cat && cat.rarity == Rare && cat.id == last_cat.id
+      last_cat && last_cat.rerolled.nil? &&
+        cat.rarity == Rare && cat.id == last_cat.id
     end
 
     def advance_seed!
