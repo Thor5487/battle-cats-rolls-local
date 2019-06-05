@@ -259,7 +259,7 @@ module BattleCatsRolls
       gacha = Gacha.new(
         controller.ball, controller.event, seeds.first, controller.version)
       gacha.send(:advance_seed!) # Account offset for next_seed
-      9.times.inject(nil){ |last| gacha.roll!(last) } # Only 9 rolls left
+      9.times.inject(nil){ |last| gacha.roll! } # Only 9 rolls left
 
       if gacha.seed == seeds.last
         gacha.send(:advance_seed!) # Account for guaranteed roll
