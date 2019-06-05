@@ -153,19 +153,21 @@ module BattleCatsRolls
     end
 
     def fill_rerolled_cats a_cat, b_cat
-      if last_both
-        last_a, last_b = last_both
+      last_a, last_b = last_both
+      last_last_a, last_last_b = last_last
 
-        if duped_cat?(last_a, a_cat)
-          a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
-        end
+      # Checking A with previous A
+      if duped_cat?(last_a, a_cat) ||
+          # Checking A when previous B when swapping tracks
+          duped_cat?(last_last_b&.rerolled, a_cat)
+        a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
+      end
 
-        if last_last_b = last_last&.last
-          if duped_cat?(last_last_b, last_b)
-            last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
-          end
-        end
-        # last_last&.first
+      # Checking B with previous B
+      if duped_cat?(last_last_b, last_b) ||
+          # Checking B when previous A when swapping tracks
+          duped_cat?(last_last_a&.rerolled, last_b)
+        last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
       end
     end
 
