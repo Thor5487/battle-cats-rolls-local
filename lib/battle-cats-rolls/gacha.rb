@@ -7,7 +7,7 @@ require_relative 'gacha_pool'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed, :version, :last_both)
+  class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_last)
     Rare   = 2
     Supa   = 3
     Uber   = 4
@@ -44,18 +44,19 @@ module BattleCatsRolls
     def roll_both!
       a_fruit = roll_fruit!
       b_fruit = roll_fruit
-      a_cat = roll_cat!(a_fruit, last_both&.first)
-      b_cat = roll_cat(b_fruit, last_both&.last)
+      a_cat = roll_cat!(a_fruit)
+      b_cat = roll_cat(b_fruit)
       a_cat.track = 'A'
       b_cat.track = 'B'
 
       fill_rerolled_cats(a_cat, b_cat) if version == '8.6'
 
+      self.last_last = last_both
       self.last_both = [a_cat, b_cat]
     end
 
-    def roll! last_cat
-      roll_cat!(roll_fruit!, last_cat)
+    def roll!
+      roll_cat!(roll_fruit!)
     end
 
     def fill_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
@@ -93,7 +94,7 @@ module BattleCatsRolls
       roll_fruit.tap{ advance_seed! }
     end
 
-    def roll_cat rarity_fruit, last_cat
+    def roll_cat rarity_fruit
       score = rarity_fruit.value % GachaPool::Base
       rarity = dig_rarity(score)
       slot_fruit = if block_given? then yield else roll_fruit end
@@ -101,13 +102,12 @@ module BattleCatsRolls
 
       cat.rarity_fruit = rarity_fruit
       cat.score = score
-      cat.duped = duped_cat?(last_cat, cat)
 
       cat
     end
 
-    def roll_cat! rarity_fruit, last_cat
-      roll_cat(rarity_fruit, last_cat){ roll_fruit! }
+    def roll_cat! rarity_fruit
+      roll_cat(rarity_fruit){ roll_fruit! }
     end
 
           # dupe detected!
@@ -146,26 +146,26 @@ module BattleCatsRolls
       Cat.new(id, pool.dig_cat(rarity, id), rarity, slot_fruit, slot)
     end
 
-    def reroll_cat duped_cat, slot_fruit
-      rarity = duped_cat.rarity
+    def reroll_cat cat, slot_fruit
+      rarity = cat.rarity
 
-      new_cat(rarity, slot_fruit, pool.dig_slot(rarity) - [duped_cat.id])
+      new_cat(rarity, slot_fruit, pool.dig_slot(rarity) - [cat.id])
     end
 
     def fill_rerolled_cats a_cat, b_cat
       if last_both
         last_a, last_b = last_both
 
-        if last_a.duped
-          last_a.rerolled = reroll_cat(last_a, a_cat.rarity_fruit)
-          a_cat.duped = false # We switch track so it's impossible to be duped
+        if duped_cat?(last_a, a_cat)
+          a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
         end
 
-        # We know 0A but don't know 0B
-        if last_b&.duped
-          last_b.rerolled = reroll_cat(last_b, b_cat.rarity_fruit)
-          b_cat.duped = false
+        if last_last_b = last_last&.last
+          if duped_cat?(last_last_b, last_b)
+            last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
+          end
         end
+        # last_last&.first
       end
     end
 
