@@ -44,7 +44,7 @@
   <label for="force_guaranteed_input">Simulate guaranteed:</label>
   <select id="force_guaranteed_input" name="force_guaranteed"
     onchange="roll(this)">
-    <% [nil, 11, 15].each do |n| %>
+    <% [nil, 2, 11, 15].each do |n| %>
       <option value="<%= n %>"
         <%= selected_force_guaranteed(n) %>><%= n %></option>
     <% end %>

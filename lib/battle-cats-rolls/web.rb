@@ -63,7 +63,7 @@ module BattleCatsRolls
         when 'jp'
           '8.6'
         else
-          '8.5'
+          '8.6'
         end
       end
 
@@ -162,7 +162,11 @@ module BattleCatsRolls
       def guaranteed_rolls
         @guaranteed_rolls ||=
           if force_guaranteed.zero?
-            gacha.pool.guaranteed_rolls
+            if version == '8.6'
+              0
+            else
+              gacha.pool.guaranteed_rolls
+            end
           else
             force_guaranteed
           end
@@ -303,7 +307,7 @@ module BattleCatsRolls
           gacha.roll_both_with_sequence!(sequence)
         end
 
-        gacha.fill_guaranteed(cats, guaranteed_rolls) if version != '8.6'
+        gacha.fill_guaranteed(cats, guaranteed_rolls)
 
         found_cats =
           FindCat.search(gacha, find,
