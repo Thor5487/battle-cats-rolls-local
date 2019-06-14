@@ -188,6 +188,9 @@ cats:
     329:
       name: [Happy 100, Heartful Happy 100]
       desc: ["A chipper and bright computer virus,\nappearing as a guest from Crash Fever.\nAttacks have Area effect.", "Her dream is to infect the world's systems with\njoy. Appearing as a guest from Crash Fever.\nAttacks have Area effect.", "Her dream is to infect the world's systems with\njoy. Appearing as a guest from Crash Fever.\nAttacks have Area effect."]
+    343:
+      name: [Maneki Cat, Neo Maneki Cat]
+      desc: ["For this small-business Cat, the customer is king.\nAlways invests its profits back in the store.\nGet more money when defeating enemies!", "This Cat is thankful for you supporting it's business!\nHe'll thank you by fighting any enemy that troubles you.\nGet more money when defeating enemies!"]
     353:
       name: [Hermit Cat, Grandmaster Cat]
       desc: ["A legendary sage who infiltrated the Cat Base.\nMemory might be going, but true strength cannot be\nforgotten. Rapid area attacks fire powerful waves.", "Captured an enemy base with nothing but one sweet \nrice cake. Imagine what happens when he gets angry.\nRapid area attacks fire powerful waves."]
@@ -635,8 +638,8 @@ cats:
       name: [Express Cat, Maglev Cat, Bullet Train Cat]
       desc: ["1-car train with a max speed of 222kph\n120% of seats were filled today.\nExtra money when defeating enemies!", "222-Cat seater with a max speed of \n2222kph, a blessing for all Cat commuters.\nExtra money when defeating enemies!", "Can take a maximum of 2222 passengers on\na round-the-world journey at 20,000,000 km/h\nExtra money when defeating enemies!"]
     288:
-      name: [Little Leaguer Cat, Major Leaguer Cat]
-      desc: ["Young, but full of raw potential. Recruited \nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range."]
+      name: [Little Leaguer Cat, Major Leaguer Cat, Golfer Cat]
+      desc: ["Young, but full of raw potential. Recruited \nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range.", "Hole-in-One king of the local park. Interesting\nfairway technique inspired by his past career.\nResists Aliens, might break barriers, Long-range."]
     294:
       name: [Kyubey, Kyubey & Cat]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nMake a contract with him and your wish will come true.\nTough vs. Aliens, might Survive a lethal attack", "From Madoka Magica The Movie -Rebellion-!\nHe seeks pure-hearted girls dreaming of a miracle.\nTough vs. Aliens, might Survive a lethal attack"]
@@ -969,8 +972,8 @@ cats:
       name: [Mizli, Marinmizu, Mizuririn]
       desc: ["Cosmic water, brought to life!\nThis nymph spirit controls waves\nthat knock Aliens far back!", "With waves that can split the Earth, its \nattacks wash away enemy Barriers. Tough \nAnti-Alien defense and knockback attacks.", "Master of water, sends cleansing waves to purify\nmortal realms of evil, washing away Barriers.\nTough Anti-Alien defense and knockback attacks."]
     362:
-      name: [Aer, Erphuan]
-      desc: ["Cosmic storms, brought to life!\nThis sylph spirit summons winds\nfor long distance area attacks!", "With winds that blast away the mountains,\nno Barrier can stand against its assaults.\nTough, with long-range area attacks vs Aliens."]
+      name: [Aer, Erphuan, Aervanta]
+      desc: ["Cosmic storms, brought to life!\nThis sylph spirit summons winds\nfor long distance area attacks!", "With winds that blast away the mountains,\nno Barrier can stand against its assaults.\nTough, with long-range area attacks vs Aliens.", "Calling forth raging solar winds, can annihilate\neven a mighty nebula with the slightest of efforts.\nTough, with long-range area attacks vs Aliens."]
     363:
       name: [Saber, Saber CC, Saber Alter CC]
       desc: ["Joining the fight from Fate/stay night [HF]! Her\nsword is pledged to her Master, Shirou Emiya.\nMassive long-range area damage vs. Floating!", "Joining the fight from Fate/stay night [HF]! Peerless \nwarrior in possession of a Noble Phantasm.\nMassive long-range area damage vs. Floating!", "Joining the fight from Fate/stay night [HF]! A \nmenacing swordwoman who resembles Saber...\nMassive long-range area damage vs. Floating!"]
@@ -1086,6 +1089,9 @@ cats:
     479:
       name: [Lumina, Luminalia]
       desc: ["The ultimate elemental manifestation, projected\nfrom a dying star at the end of the universe.\nInsanely tough, might Weaken, Barrier Breaker.", "Omniscient cosmic visionary from the future,\nmastery of all elements allows it to ignore Barriers.\nInsanely tough, 100% Weaken, Barrier Breaker."]
+    482:
+      name: [Doktor Heaven, Professor Abyss]
+      desc: ["A fearsome scientist obsessed with using extra-\ndimensional power to instantly sublimate matter.\nTough vs Black & Aliens with Area Attacks.", "Renowned temporal researcher who has harnessed\narcane crystal power that obliterates mundane matter.\nArea Attacks deal massive damage to Black & Aliens."]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1471,6 +1477,12 @@ gacha:
   381: [479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   382: [479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   383: [473, 473, 473, 473, 473, 473, 472, 471, 470, 469, 468, 467, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  384: [482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 227, 213, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  385: [482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 227, 213, 201, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  386: [482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 240, 239, 238, 227, 213, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  387: [483, 342, 271, 181, 430, 430, 430, 430, 430, 430, 430, 430, 429, 429, 429, 429, 429, 429, 429, 429, 429, 429, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  388: [485, 362, 307, 260, 262, 138, 77, 85, 73, 144, 35, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  389: [436, 361, 418, 440, 197, 136, 76, 86, 72, 44, 241, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
