@@ -3266,3 +3266,50 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-06-19_377:
+    start_on: 2019-06-19
+    end_on: 2019-06-21
+    version: '80600'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-06-21_246:
+    start_on: 2019-06-21
+    end_on: 2019-06-24
+    version: '80600'
+    name: AIR BUSTERS plus R.E.I ★ With Increasing Capsules discount!
+    id: 246
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-06-24_380:
+    start_on: 2019-06-24
+    end_on: 2019-06-26
+    version: '80600'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-06-26_333:
+    start_on: 2019-06-26
+    end_on: 2019-06-28
+    version: '80600'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-06-28_336:
+    start_on: 2019-06-28
+    end_on: 2019-07-01
+    version: '80600'
+    name: "★ Dragon Emperors ★ Collect a mighty monstrous Uber Cat!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
