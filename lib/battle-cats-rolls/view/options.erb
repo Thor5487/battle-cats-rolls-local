@@ -11,7 +11,11 @@
   <% if controller.path_info.match?(%r{\A/(?:seek)?\z}) %>
   <label for="version_select">Version:</label>
   <select id="version_select" name="version" onchange="roll(this)">
-    <option value="8.6" <%= selected_version('8.6') %>>8.6+ (experimental)</option>
+    <% if controller.path_info == '/seek' %>
+      <option value="8.6" disabled="disabled">8.6+ (not functional yet)</option>
+    <% else %>
+      <option value="8.6" <%= selected_version('8.6') %>>8.6+ (experimental)</option>
+    <% end %>
     <option value="8.5" <%= selected_version('8.5') %>>8.5</option>
     <option value="8.4" <%= selected_version('8.4') %>>8.4</option>
   </select>
