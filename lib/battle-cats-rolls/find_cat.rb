@@ -45,8 +45,8 @@ module BattleCatsRolls
 
         if found.size < ids.size
           found.values + (ids - found.keys).map do |missing_id|
-            info = [Gacha::Legend, Gacha::Uber,
-                    Gacha::Supa, Gacha::Rare].find do |rarity|
+            info = [Cat::Legend, Cat::Uber,
+                    Cat::Supa, Cat::Rare].find do |rarity|
               found = gacha.pool.dig_cat(rarity, missing_id)
               break found if found
             end

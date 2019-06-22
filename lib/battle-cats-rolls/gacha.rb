@@ -8,11 +8,6 @@ require 'forwardable'
 
 module BattleCatsRolls
   class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_last)
-    Rare   = 2
-    Supa   = 3
-    Uber   = 4
-    Legend = 5
-
     extend Forwardable
 
     def_delegators :pool, *%w[rare supa uber legend]
@@ -27,7 +22,7 @@ module BattleCatsRolls
 
         instance_variable_get(name) ||
           instance_variable_set(name,
-            pick_cats(self.class.const_get(rarity)))
+            pick_cats(Cat.const_get(rarity)))
       end
     end
 
@@ -115,13 +110,13 @@ module BattleCatsRolls
 
       case score
       when 0...rare
-        Rare
+        Cat::Rare
       when rare...rare_supa
-        Supa
+        Cat::Supa
       when rare_supa...(rare_supa + uber)
-        Uber
+        Cat::Uber
       else
-        Legend
+        Cat::Legend
       end
     end
 
@@ -147,22 +142,18 @@ module BattleCatsRolls
       last_last_a, last_last_b = last_last
 
       # Checking A with previous A
-      if duped_cat?(last_a, a_cat) ||
+      if a_cat.duped?(last_a) ||
           # Checking A with previous B when swapping tracks
-          duped_cat?(last_last_b&.rerolled, a_cat)
+          a_cat.duped?(last_last_b&.rerolled)
         a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
       end
 
       # Checking B with previous B
-      if duped_cat?(last_last_b, last_b) ||
+      if last_b&.duped?(last_last_b) ||
           # Checking B with previous A when swapping tracks
-          duped_cat?(last_last_a&.rerolled, last_b)
+          last_b&.duped?(last_last_a&.rerolled)
         last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
       end
-    end
-
-    def duped_cat? last_cat, cat
-      last_cat && cat.rarity == Rare && cat.id == last_cat.id
     end
 
     def advance_seed!

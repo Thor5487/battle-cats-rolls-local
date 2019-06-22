@@ -8,6 +8,11 @@ module BattleCatsRolls
     :score, :sequence, :track,
     :guaranteed, :rerolled)
 
+    Rare   = 2
+    Supa   = 3
+    Uber   = 4
+    Legend = 5
+
     def name
       info.dig('name', 0)
     end
@@ -33,6 +38,10 @@ module BattleCatsRolls
 
     def == rhs
       id == rhs.id
+    end
+
+    def duped? rhs
+      rhs && rarity == Rare && id == rhs.id
     end
 
     def new_with(args={})
