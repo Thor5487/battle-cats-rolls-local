@@ -25,7 +25,7 @@ module BattleCatsRolls
     def lookup_cat_data gacha
       @lookup_cat_data ||= [[
         fake_cat(
-          319, gacha.pool.dig_cat(Gacha::Uber, 319, 'name', 0), 1, 'A'),
+          319, gacha.pool.dig_cat(Cat::Uber, 319, 'name', 0), 1, 'A'),
         fake_cat(-1, 'Cat', 1, 'B')
       ]]
     end
