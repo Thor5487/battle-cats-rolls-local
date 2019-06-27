@@ -2309,3 +2309,72 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-07-01_360:
+    start_on: 2019-07-01
+    end_on: 2019-07-04
+    version: '80600'
+    name: "★강력한 한정 캐릭터 「쾌걸 달타냥」 참전!★울슈레 확률 지금만 초 UP★"
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-07-04_384:
+    start_on: 2019-07-04
+    end_on: 2019-07-07
+    version: '80600'
+    name: "★정의와 암흑 2가지 힘을 가진 구세주! 시크릿 참전!?★자세한 내용은 배너를 클릭! ★"
+    id: 384
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-07_251:
+    start_on: 2019-07-07
+    end_on: 2019-07-10
+    version: '80600'
+    name: 한정 캐릭터도 참전! 특별 셀렉션 뽑기 등장!★10+1연속 뽑기 울슈레 확정!
+    id: 251
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-07_330:
+    start_on: 2019-07-07
+    end_on: 2019-07-10
+    version: '80600'
+    name: "★검은 적에게 강한 바사라즈! 비밀스럽게 무장하고 새롭게 참전?! ★자세한 내용은 배너를 클릭!!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-10_377:
+    start_on: 2019-07-10
+    end_on: 2019-07-13
+    version: '80600'
+    name: "★냥코 군단의 초비밀 병기! 시크릿 참전!?★자세한 내용은 배너를 클릭!!★"
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-13_345:
+    start_on: 2019-07-13
+    end_on: 2019-07-15
+    version: '80600'
+    name: "★10+1연속 뽑기 울슈레 1개 이상 확정! 위대한 신들이 집결!! 【기간트 제우스】 등장!!★"
+    id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-15_372:
+    start_on: 2019-07-15
+    end_on: 2019-07-18
+    version: '80600'
+    name: "★수수께끼 투성이인 징글 & 귀염 생명체! 시크릿 참전!?★자세한 내용은 배너를 클릭!!★"
+    id: 372
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
