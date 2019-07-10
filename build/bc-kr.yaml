@@ -2348,6 +2348,16 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-07-10_252:
+    start_on: 2019-07-10
+    end_on: 2019-07-13
+    version: '80600'
+    name: 한정 캐릭터도 참전! 특별 셀렉션 뽑기 등장!★10+1연속 뽑기 울슈레 확정!
+    id: 252
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
   2019-07-10_377:
     start_on: 2019-07-10
     end_on: 2019-07-13
@@ -2364,6 +2374,16 @@ events:
     version: '80600'
     name: "★10+1연속 뽑기 울슈레 1개 이상 확정! 위대한 신들이 집결!! 【기간트 제우스】 등장!!★"
     id: 345
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-13_388:
+    start_on: 2019-07-13
+    end_on: 2019-07-18
+    version: '80700'
+    name: 한정 캐릭터 「다크 꼬마 고양이 발키리」 새롭게 등장! 특별 셀렉션 뽑기 등장!★10+1연속 뽑기 울슈레 확정!★
+    id: 388
     rare: 7000
     supa: 2500
     uber: 500
