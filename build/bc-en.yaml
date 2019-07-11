@@ -457,8 +457,8 @@ cats:
       name: [Rover Cat, Rover Cat Mk II, Catellite]
       desc: ["The first Cat probe produced by NYASA.\nBuilt to resist extraterrestrial attacks, with\nWarp Blocking and tough defense vs Aliens.", "Cutting edge NYASA Cat probe. Transmission\npower is so advanced that it even gets the dirty \nchannels. Tough vs Aliens, with Warp Blocking.", "Experimental NYASA satellite made for remote\nobservation of areas as far as the corner store.\nTough vs Aliens, with Warp Blocking."]
     380:
-      name: [Volley Cat, Ballet Cat]
-      desc: ["Feared as the Queen of the Community Center.\nHer spikes routinely knock her rivals unconscious.\nLong Range attacks might unleash a Critical!", "Primadonna called the Rose of the Repertory.\nSoars through the sky and lands like a javelin.\nLong Range attacks might unleash a Critical!"]
+      name: [Volley Cat, Ballet Cat, Curry Cat]
+      desc: ["Feared as the Queen of the Community Center.\nHer spikes routinely knock her rivals unconscious.\nLong Range attacks might unleash a Critical!", "Primadonna called the Rose of the Repertory.\nSoars through the sky and lands like a javelin.\nLong Range attacks might unleash a Critical!", "Masterful chef called the Prince of Spices.\nMetal enemies can't stand the powerful flavor.\nLong Range attacks might unleash a Critical!"]
     383:
       name: [Glass Cat, Macho Glass Cat]
       desc: ["Made of fragile stuff, but his heart is sturdy!\nYou only get one chance at life, so go for it!\nOnly attacks once, slows traitless enemies.", "Made using slightly more durable glass, but\nit still doesn't have much effect on the battlefield.\nOnly attacks once, slows traitless enemies."]
@@ -481,8 +481,8 @@ cats:
       name: [Mentori, Mentori CC]
       desc: ["Dropping in from MENTORI! Trust me,\ntalking to it is more trouble than it's worth..\nTough vs Floating Enemies", "Dropping in from MENTORI! This weird\nbird specializes in obnoxious interjections.\nTough vs Floating Enemies"]
     403:
-      name: [Shinji & Cat, Plug Suit Shinji]
-      desc: ["Recruited from Evangelion!\nA boy suddenly forced to pilot Evangelion.\nResents his distant father. (Area Attack)", "Recruited from Evangelion!\nHoping to be respected by his comrades\nfor his piloting skills. (Area Attack)"]
+      name: [Shinji & Cat, Plug Suit Shinji, Plug Suit Shinji Black]
+      desc: ["Recruited from Evangelion!\nA boy suddenly forced to pilot Evangelion.\nResents his distant father. (Area Attack)", "Recruited from Evangelion!\nHoping to be respected by his comrades\nfor his piloting skills. (Area Attack)", "Recruited from Evangelion! Agreed to pilot \nEva once again for a chance at redemption.\nTough vs. Aliens/Zombies (Area Attack)"]
     405:
       name: [Giraffe Unit-01, Giraffe Unit-02]
       desc: ["A prototype Giraffe Cat-type weapon.\nEscaped with only the helmet equipped.\nMight survive a lethal strike.", "Received a new production-model\nhelmet for mightier headbutts. Still on\nthe run. Might survive a lethal strike."]
@@ -671,8 +671,8 @@ cats:
       name: [Rei Ayanami, Plug Suit Rei]
       desc: ["Recruited from Evangelion!\nAn aloof girl who guards her emotions.\nArea attacks might weaken Angels.", "Recruited from Evangelion!\nFeels a strong bond with her fellow pilots.\nArea attacks might weaken Angels."]
     411:
-      name: [Asuka Langley, Plug Suit Asuka]
-      desc: ["Recruited from Evangelion!\nA prideful and hot-tempered prodigy.\nStrong vs. Red Enemies (Area Attack)", "Recruited from Evangelion!\nWarming up to the idea of teamwork.\nStrong vs. Red Enemies (Area Attack)"]
+      name: [Asuka Langley, Plug Suit Asuka, Eyepatch Li'l Asuka]
+      desc: ["Recruited from Evangelion!\nA prideful and hot-tempered prodigy.\nStrong vs. Red Enemies (Area Attack)", "Recruited from Evangelion!\nWarming up to the idea of teamwork.\nStrong vs. Red Enemies (Area Attack)", "Recruited from Evangelion! Eva 02's pilot,\nmember of anti-NERV organization WILLE.\nStrong vs Red enemies, Area Atks might Knockback."]
     412:
       name: [Mari Illustrious, Plug Suit Mari]
       desc: ["Recruited from Evangelion!\nAn enigmatic girl who arrived via parachute.\nStrong vs. Floating (Area Attack)", "Recruited from Evangelion!\nHer love for piloting Eva is plain to see.\nStrong vs. Floating (Area Attack)"]
@@ -694,6 +694,15 @@ cats:
     461:
       name: [Kotomine & Gilgamesh Cats, Gilgamesh & Kotomine Cats]
       desc: ["A Cat-priest with a taste for extra-spicy mapo tofu,\nand a Cat Spirit with flawless tactical sense.\nMight weaken Black, stronger after damage.", "One Cat has begun to tire of the game of battle,\nbut the other still can't get enough mapo tofu.\nMight weaken Zombies, stronger after damage."]
+    490:
+      name: [Misato Katsuragi, Captain Misato]
+      desc: ["Recruited from Evangelion! A bright and \ncharismatic officer who acts as Shinji's guardian.\nMight break Barriers and Slow Aliens!", "Recruited from Evangelion! The ruthless \nleader of the anti-NERV organization WILLE.\nMight break Barriers and Slow Aliens!"]
+    491:
+      name: [Ritsuko Akagi, First Officer Ritsuko]
+      desc: ["Recruited from Evangelion! Cool researcher\nfrom NERV's technical development team.\nArea attacks might Weaken Aliens.", "Recruited from Evangelion! After becoming\na WILLE officer, treats Shinji coolly.\nArea attacks might Weaken Aliens."]
+    492:
+      name: ['Rei Ayanami (???)', Awakened Ayanami]
+      desc: ["Recruited from Evangelion!\nBut it seems she has no memory of Shinji...?\nTough vs Black, Area attacks might Weaken.", "Recruited from Evangelion!\nBeginning to wonder about her true identity...\nTough vs Black, Area attacks might Weaken."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1011,8 +1020,8 @@ cats:
       name: [Miyabi Oyama, Miyabi Oyama CC, Baseball Mask δ]
       desc: ["Dropping in from PowerPro Baseball!\nReliable and respected shortstop.\nArea attack power increases after taking damage.", "Dropping in from PowerPro Baseball!\nNo worries about seeming boyish if it helps to win!\nArea attack power increases after taking damage.", "Dropping in from PowerPro Baseball!\nJust between us, it's Miyabi... Immune to Waves.\nAttack power increases after taking damage."]
     397:
-      name: [Ganglion, Ganglion the Ancient]
-      desc: ["First emperor and founder of the Dragon dynasty.\nWho knows what overwhelming power he holds?\nLong-range attacks, strong vs Aliens and Zombies.", "Has cultivated his strength for millennia, only\ngrowing ever more powerful in his old age.\nLong-range attacks, strong vs Aliens and Zombies."]
+      name: [Ganglion, Ganglion the Ancient, Ganglion the Unleashed]
+      desc: ["First emperor and founder of the Dragon dynasty.\nWho knows what overwhelming power he holds?\nLong-range attacks, strong vs Aliens and Zombies.", "Has cultivated his strength for millennia, only\ngrowing ever more powerful in his old age.\nLong-range attacks, strong vs Aliens and Zombies.", "An unholy relic has undone the seals that kept his \ntrue might in check. Resist and meet your doom.\nLong-range attacks, strong vs Aliens and Zombies."]
     398:
       name: [Sakura Sonic, Afterschool Sakura]
       desc: ["A totally average schoolgirl who likes bubble\ntea and vanquishing demons. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies.", "It's tough to balance club activities and defending\nthe sacred legacy of your clan. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies."]
@@ -1026,8 +1035,8 @@ cats:
       name: [Eva Unit-01, Eva Unit-01 & Cat]
       desc: ["Recruited from Evangelion!\nA humanoid superweapon test-type.\nStrong vs. Aliens/Zombies (Area Attack)", "Recruited from Evangelion!\nGoes berserk when pilot is in danger.\nStrong vs. Aliens/Zombies (Area Attack)"]
     415:
-      name: [Eva Unit-02, Eva Unit-02 & Cat]
-      desc: ["Recruited from Evangelion!\nThe Evangelion production model.\nMassive Long-Range/Area damage vs Red", "Recruited from Evangelion!\nThe true Evangelion, or so says the pilot.\nMassive Long-Range/Area damage vs Red"]
+      name: [Eva Unit-02, Eva Unit-02 & Cat, 'Unit-02, Code 777']
+      desc: ["Recruited from Evangelion!\nThe Evangelion production model.\nMassive Long-Range/Area damage vs Red", "Recruited from Evangelion!\nThe true Evangelion, or so says the pilot.\nMassive Long-Range/Area damage vs Red", "Recruited from Evangelion! Eva 02's beast form,\nactivated with a backdoor code. Massive Long-range\nArea damage vs Red, grows stronger after damage."]
     416:
       name: [Shinji Cat, Toji & Kensuke Cats]
       desc: ["A Cat who becomes paralyzed by fear.\nWhen bullied, Eva comes to his defense!\nKnocks back Metal/Black, with Wave Attack!", "Cats who can't resist their curious nature.\nWhen bullied, Eva comes to their defense!\nKnocks back Metal/Black, with Wave Attack!"]
@@ -1064,6 +1073,15 @@ cats:
     457:
       name: [Sakura Matou, Sakura Matou CC]
       desc: ["Joining the fight from Fate/stay night [HF]!\nTakes charge of daily care for the Emiya house.\nTough vs Black/Aliens/Zombies (Area Attack)", "Joining the fight from Fate/stay night [HF]! Fears \nthat Shirou will fall victim to the Holy Grail War.\nTough vs Black/Aliens/Zombies (Area Attack)"]
+    488:
+      name: [Eva Unit-08, Eva Unit-08 & Cat]
+      desc: ["Recruited from Evangelion!\nAnti-NERV production model maintained by WILLE.\nLong-range debuffs versus Floating enemies!", "Recruited from Evangelion! Wields a variety \nof weapons but specializes in providing cover fire.\nLong-range debuffs versus Floating enemies!"]
+    489:
+      name: [AAA Wunder, NNN Wunder]
+      desc: ["Cats have taken over WILLE's flagship! Seems they\nrespected the original design and avoided customizing it.\nMassive Area damage vs. Angels and Zombies.", "Cat-powered airship built to overthrow NERV.\nA terrifying weapon staffed by capricious Cats...\nMassive Area damage vs. Angels and Zombies."]
+    495:
+      name: [Seabreeze Coppermine, Seabreeze Coppermine κ]
+      desc: ["A cool beauty who gained command of her own ship!\nNow she just has to keep Cats from sinking it.\nMight freeze Red, Black or Metal enemies!", "Her Cat crew's recommendation earned her another\ntour of duty. Ah, nothing like a lovely sunset with a Cat.\nMight freeze Red, Black or Metal enemies!"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1092,6 +1110,9 @@ cats:
     482:
       name: [Doktor Heaven, Professor Abyss]
       desc: ["A fearsome scientist obsessed with using extra-\ndimensional power to instantly sublimate matter.\nTough vs Black & Aliens with Area Attacks.", "Renowned temporal researcher who has harnessed\narcane crystal power that obliterates mundane matter.\nArea Attacks deal massive damage to Black & Aliens."]
+    494:
+      name: [Gaia the Creator, 'Gaia the Supreme ']
+      desc: ["The origin of all Life... and she can choose\n to undo it all whenever she pleases. Long-range\nArea attacks deal extreme damage to Traited.", "The ultimate Goddess, who directs mana birthed\nfrom the World Tree to annihilate enemies of Good.\nExtreme damage to Traited. (Long-range Area Atks)"]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1483,6 +1504,12 @@ gacha:
   387: [483, 342, 271, 181, 430, 430, 430, 430, 430, 430, 430, 430, 429, 429, 429, 429, 429, 429, 429, 429, 429, 429, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   388: [485, 362, 307, 260, 262, 138, 77, 85, 73, 144, 35, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   389: [436, 361, 418, 440, 197, 136, 76, 86, 72, 44, 241, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  390: [487, 486, 338, 162, 161, 65, 66, 67, 68, 69]
+  391: [489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 409, 408, 408, 408, 408, 407, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  392: [494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  393: [494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  394: [494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  395: [495, 439, 355, 276, 275, 277, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
