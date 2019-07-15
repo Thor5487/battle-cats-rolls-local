@@ -3396,3 +3396,81 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-07-18_361:
+    start_on: 2019-07-18
+    end_on: 2019-07-21
+    version: '80700'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-07-18_391:
+    start_on: 2019-07-18
+    end_on: 2019-08-01
+    version: '80700'
+    name: Rare Capsules with Limited Edition Evangelion Units! ★ Tap the banner for info!
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-07-21_362:
+    start_on: 2019-07-21
+    end_on: 2019-07-24
+    version: '80700'
+    name: "★ Ultra Souls★ Guaranteed 11-Draw for legendary Uber Rare Cats!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-21_391:
+    start_on: 2019-07-21
+    end_on: 2019-08-01
+    version: '80700'
+    name: Rare Capsules with Limited Edition Evangelion Units! ★ With 11-Draw Guarantee!
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-24_333:
+    start_on: 2019-07-24
+    end_on: 2019-07-26
+    version: '80700'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-26_380:
+    start_on: 2019-07-26
+    end_on: 2019-07-29
+    version: '80700'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-29_354:
+    start_on: 2019-07-29
+    end_on: 2019-08-01
+    version: '80700'
+    name: "★ Girls & Monsters! ★ Terrifying beauties with an 11-Draw Guarantee!"
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-29_391:
+    start_on: 2019-07-29
+    end_on: 2019-08-01
+    version: '80700'
+    name: "【Last Chance】 Evangelion Collab Capsules! ★ 11-Draw Uber Guarantee!"
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true

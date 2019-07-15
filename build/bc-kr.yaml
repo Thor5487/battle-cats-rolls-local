@@ -2425,3 +2425,81 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-07-18_361:
+    start_on: 2019-07-18
+    end_on: 2019-07-21
+    version: '80700'
+    name: "★한정 캐릭터 「호걸 달타냥」 참전!★울슈레 확률 지금만 초 UP★"
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-07-18_391:
+    start_on: 2019-07-18
+    end_on: 2019-08-01
+    version: '80700'
+    name: 에반게리온 캐릭터가 등장하는 콜라보 뽑기!★자세한 내용은 배너를 클릭!
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-07-21_362:
+    start_on: 2019-07-21
+    end_on: 2019-07-24
+    version: '80700'
+    name: "★10+1연속 뽑기 울슈레 1개 이상 확정! 초고대용사 【울트라 소울즈】 등장!★"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-21_391:
+    start_on: 2019-07-21
+    end_on: 2019-08-01
+    version: '80700'
+    name: 에반게리온 캐릭터가 등장하는 콜라보 뽑기!★10+1 연속 뽑기 울슈레 확정!★
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-24_333:
+    start_on: 2019-07-24
+    end_on: 2019-07-26
+    version: '80700'
+    name: 파워풀 & 큐트한 사이버학원 소녀전사들! 시크릿 참전!?★자세한 내용은 배너를 클릭!
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-26_380:
+    start_on: 2019-07-26
+    end_on: 2019-07-29
+    version: '80700'
+    name: "★우주에서 온 개성 넘치는 깜찍한 정령들!★시크릿 참전!?★자세한 내용은 배너를 클릭!!★"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-29_354:
+    start_on: 2019-07-29
+    end_on: 2019-08-01
+    version: '80700'
+    name: "♡이세계에서 소환 된 몬스터 미소녀들♡10+1연속 뽑기 울슈레 1개 확정! ♡"
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-07-29_391:
+    start_on: 2019-07-29
+    end_on: 2019-08-01
+    version: '80700'
+    name: "※종료임박※ 에반게리온 콜라보 뽑기★10+1연속 뽑기로 울슈레 확정!"
+    id: 391
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
