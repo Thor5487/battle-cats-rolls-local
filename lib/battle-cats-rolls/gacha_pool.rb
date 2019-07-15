@@ -42,14 +42,14 @@ module BattleCatsRolls
     end
 
     def slots
-      @slots ||= gacha.inject(Hash.new{|h,k|h[k]=[]}) do |result, cat_id|
+      @slots ||= gacha&.inject(default_slots) do |result, cat_id|
         if rarity = find_rarity(cat_id)
           result[rarity] << cat_id
           result
         else
           raise "Cannot find cat: #{cat_id}"
         end
-      end
+      end || default_slots
     end
 
     def guaranteed_rolls
@@ -86,6 +86,10 @@ module BattleCatsRolls
       cats.find do |(rarity, cats)|
         break rarity if cats.member?(cat_id)
       end
+    end
+
+    def default_slots
+      Hash.new{|h,k|h[k]=[]}
     end
   end
 end
