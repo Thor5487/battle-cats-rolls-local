@@ -70,11 +70,11 @@ module BattleCatsRolls
       if range.any?
         # Avoid modifying existing uber pool
         self.cats = cats.dup
-        cats[Gacha::Uber] = cats[Gacha::Uber].dup
+        cats[Cat::Uber] = cats[Cat::Uber].dup
 
         range.each do |n|
-          slots[Gacha::Uber].unshift(n)
-          cats[Gacha::Uber][n] =
+          slots[Cat::Uber].unshift(n)
+          cats[Cat::Uber][n] =
             {'name' => ["(#{n}?)"], 'desc' => ['An unknown future uber']}
         end
       end
