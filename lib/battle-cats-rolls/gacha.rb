@@ -128,12 +128,12 @@ module BattleCatsRolls
       rarity = cat.rarity
       rerolling_slots = pool.dig_slot(rarity).dup
       next_seed = cat.slot_fruit.value
-      slot = nil
+      slot = cat.slot
       id = nil
 
       steps = (1..rerolling_slots.count(cat.id)).find do
         next_seed = advance_seed(next_seed)
-        rerolling_slots.delete_at(rerolling_slots.index(cat.id))
+        rerolling_slots.delete_at(slot)
 
         slot = next_seed % rerolling_slots.size
         id = rerolling_slots[slot]
