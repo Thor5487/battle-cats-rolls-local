@@ -132,11 +132,11 @@ module BattleCatsRolls
       if rerolled = cat.rerolled
         link = link_to_roll(rerolled)
 
-        case cat.track
+        case rerolled.track
         when 'A'
-          "<br>#{link} -&gt; #{cat.sequence + 1}B"
+          "<br>&lt;- #{rerolled.sequence}A #{link}"
         when 'B'
-          "<br>&lt;- #{cat.sequence + 2}A #{link}"
+          "<br>#{link} -&gt; #{rerolled.sequence}B"
         else
           raise "Unknown track: #{cat.track.inspect}"
         end

@@ -100,7 +100,7 @@ module BattleCatsRolls
         if result.size == ids.size
           break result
         else
-          new_ab = gacha.roll_both_with_sequence!(sequence)
+          new_ab = gacha.roll_both!(sequence)
           # TODO: gacha.fill_guaranteed([new_ab])
           # will not work here because it's trying to fill guaranteed cats
           # with existing information, yet we're rolling one by one here,

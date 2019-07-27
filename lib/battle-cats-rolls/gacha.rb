@@ -30,19 +30,14 @@ module BattleCatsRolls
       advance_seed!
     end
 
-    def roll_both_with_sequence! sequence
-      roll_both!.each do |cat|
-        cat.sequence = sequence
-      end
-    end
-
-    def roll_both!
+    def roll_both! sequence=nil
       a_fruit = roll_fruit!
       b_fruit = roll_fruit
       a_cat = roll_cat!(a_fruit)
       b_cat = roll_cat(b_fruit)
       a_cat.track = 'A'
       b_cat.track = 'B'
+      a_cat.sequence = b_cat.sequence = sequence
 
       fill_rerolled_cats(a_cat, b_cat) if version == '8.6'
 
@@ -63,7 +58,7 @@ module BattleCatsRolls
 
             if guaranteed_slot_fruit
               rolled_cat.guaranteed =
-                gen_cat(Cat::Uber, guaranteed_slot_fruit)
+                new_cat(Cat::Uber, guaranteed_slot_fruit)
               rolled_cat.guaranteed.sequence = rolled_cat.sequence
               rolled_cat.guaranteed.track = "#{rolled_cat.track}G"
             end
@@ -82,8 +77,8 @@ module BattleCatsRolls
       end
     end
 
-    def roll_fruit
-      Fruit.new(seed, version)
+    def roll_fruit base_seed=seed
+      Fruit.new(base_seed, version)
     end
 
     def roll_fruit!
@@ -94,7 +89,7 @@ module BattleCatsRolls
       score = rarity_fruit.value % GachaPool::Base
       rarity = dig_rarity(score)
       slot_fruit = if block_given? then yield else roll_fruit end
-      cat = gen_cat(rarity, slot_fruit)
+      cat = new_cat(rarity, slot_fruit)
 
       cat.rarity_fruit = rarity_fruit
       cat.score = score
@@ -121,21 +116,45 @@ module BattleCatsRolls
       end
     end
 
-    def gen_cat rarity, slot_fruit
-      new_cat(rarity, slot_fruit, pool.dig_slot(rarity))
-    end
-
-    def new_cat rarity, slot_fruit, slots
+    def new_cat rarity, slot_fruit
+      slots = pool.dig_slot(rarity)
       slot = slot_fruit.value % slots.size
       id = slots[slot]
 
       Cat.new(id, pool.dig_cat(rarity, id), rarity, slot_fruit, slot)
     end
 
-    def reroll_cat cat, slot_fruit
+    def reroll_cat cat
       rarity = cat.rarity
+      rerolling_slots = pool.dig_slot(rarity).dup
+      next_seed = cat.slot_fruit.value
+      slot = nil
+      id = nil
 
-      new_cat(rarity, slot_fruit, pool.dig_slot(rarity) - [cat.id])
+      steps = (1..rerolling_slots.count(cat.id)).find do
+        next_seed = advance_seed(next_seed)
+        rerolling_slots.delete_at(rerolling_slots.index(cat.id))
+
+        slot = next_seed % rerolling_slots.size
+        id = rerolling_slots[slot]
+
+        id != cat.id
+      end
+
+      rerolled =
+        Cat.new(id, pool.dig_cat(rarity, id),
+          rarity, roll_fruit(next_seed), slot)
+
+      if steps.odd?
+        rerolled.track = ('A'.ord + %w[B A].index(cat.track)).chr
+        rerolled.sequence = cat.sequence.succ + steps / 2
+        rerolled.sequence += 1 if cat.track == 'B'
+      else
+        rerolled.track = cat.track
+        rerolled.sequence = cat.sequence.succ + steps / 2
+      end
+
+      rerolled
     end
 
     def fill_rerolled_cats a_cat, b_cat
@@ -146,14 +165,14 @@ module BattleCatsRolls
       if a_cat.duped?(last_a) ||
           # Checking A with previous B when swapping tracks
           a_cat.duped?(last_last_b&.rerolled)
-        a_cat.rerolled = reroll_cat(a_cat, b_cat.slot_fruit)
+        a_cat.rerolled = reroll_cat(a_cat)
       end
 
       # Checking B with previous B
       if last_b&.duped?(last_last_b) ||
           # Checking B with previous A when swapping tracks
           last_b&.duped?(last_last_a&.rerolled)
-        last_b.rerolled = reroll_cat(last_b, a_cat.slot_fruit)
+        last_b.rerolled = reroll_cat(last_b)
       end
     end
 

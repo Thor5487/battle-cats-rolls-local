@@ -12,7 +12,30 @@
   <% end %>
 </ul>
 
+<%= header(1, "Known bugs for 8.6+") %><p></p>
+<ol>
+  <li>Seed seeking does not work properly for 8.6+ yet. Pick 8.5 instead, and try your luck. If it can't find the seed, roll another cat, and put your new last 10 cats. When you don't have any duplicated rare cats in the last 10 rolls, it can find the seed.</li>
+  <li>Path highlighting does not work yet. (clicking on the cell)</li>
+  <li>11-rolls or 15-rolls guaranteed will not be accurate whenever there are duplicated rare cats sitting in the middle. Use 2-rolls guaranteed and count your path by yourself for now as the workaround.</li>
+  <li>There are some rare cases where you have a duplicated collaborate rare cat can move you more than 1 positions. When this happened, the table might not properly show that there might have another duplicated cat right after you jumped to that far away.</li>
+</ol>
+
 <%= header(1, "What's changed?") %><p></p>
+
+<%= header(2, "2019-07-28") %>
+<ul>
+  <li>Sorry for the long wait. I have been pretty busy recently :(</li>
+  <li>Added a section about known bugs in this page.</li>
+  <li>The bug that giving a wrong re-rolled cat upon duplicated collaborate rare cat has been fixed.</li>
+  <li>
+    The bug had two consequences:
+    <ol>
+      <li>It might give the wrong re-rolled cat upon duplicated collaborate rare cat.</li>
+      <li>It might give you the wrong destination, not just wrong cat.</li>
+    </ol>
+  </li>
+  <li>You can check seed <a href="/?seed=1815690119&event=2019-07-18_391">1815690119</a> to observe this. On 6A, the re-rolled cat should move you to 8A, rather than 7B. On 10A, now it's giving you a Tin cat rather than Mari cat, but move you to the same destination.</li>
+</ul>
 
 <%= header(2, "2019-06-22") %>
 <ul>

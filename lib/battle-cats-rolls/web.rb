@@ -304,7 +304,7 @@ module BattleCatsRolls
 
         # Human counts from 1
         cats = 1.upto(count).map do |sequence|
-          gacha.roll_both_with_sequence!(sequence)
+          gacha.roll_both!(sequence)
         end
 
         gacha.fill_guaranteed(cats, guaranteed_rolls)
