@@ -1,21 +1,6 @@
 <div class="note"><ul>
   <li><%= erb :help_seek %></li>
-  <li>
-    <p>
-      The game will rotate the rare cat if it's followed by the same rare cat.
-      You don't have to consider this while filling the picks because the
-      program will consider this for you.
-    </p>
-    <p>
-      For example, suppose you got Tin Cat, and then Rocker Cat. We won't
-      know if you really rolled that, or it's actually two Tin Cats in a row.
-      Again, the program will consider this possibility so you don't need to
-      worry about it.
-    </p>
-  </li>
-  <li>
-    There are <%= arg[:queue_size] %> people waiting for their seeds.
-  </li>
+  <li>There are <%= arg[:queue_size] %> people waiting for their seeds.</li>
 </ul></div>
 
 <form method="post" action="//<%= seek_host %>/seek/enqueue"
