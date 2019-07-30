@@ -3208,3 +3208,52 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-08-01_360:
+    start_on: 2019-08-01
+    end_on: 2019-08-04
+    version: '80700'
+    name: 超強的限定角色「幼傑達太貓」登場！★超激出現率大幅上升！
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-08-04_369:
+    start_on: 2019-08-04
+    end_on: 2019-08-07
+    version: '80700'
+    name: 具備各種獨特能力的貓咪們！還有新神秘角色！？★11連轉超激確定活動中！
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-08-07_330:
+    start_on: 2019-08-07
+    end_on: 2019-08-10
+    version: '80700'
+    name: 掃黑專家的戰國武將來了！神秘角色新登場！？★11連轉超激確定活動中！
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-08-07_389:
+    start_on: 2019-08-07
+    end_on: 2019-08-12
+    version: '80700'
+    name: 小小瓦爾基麗貓也會登場！特別仕樣轉蛋限定！★11連轉超激確定活動中！
+    id: 389
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-08-10_377:
+    start_on: 2019-08-10
+    end_on: 2019-08-12
+    version: '80700'
+    name: 貓咪軍團珍藏的超級武器！神秘角色新登場！？★11連轉超激確定活動中！
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
