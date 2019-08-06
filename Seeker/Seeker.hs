@@ -30,7 +30,7 @@ seekRange step startSeed@(Seed value) endSeed =
   else
     found seek <|> seekNext
   where
-    seek = matchSeed step startSeed
+    seek = matchSeed step (advanceSeed startSeed)
     nextSeed = Seed (succ value)
     seekNext = seekRange step nextSeed endSeed
 

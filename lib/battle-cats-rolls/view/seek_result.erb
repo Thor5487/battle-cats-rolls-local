@@ -22,9 +22,7 @@
           Your starting seed is:
           <ul>
             <li>
-              <a href="<%= uri(query: {next_seed: arg.dig(:seed, 0)}) %>"><%= arg.dig(:seed, 0) %></a>
-              (Note that this value has a half roll offset.
-              We're showing this only for reference and debugging purpose.)
+              <a href="<%= uri(query: {seed: arg.dig(:seed, 0)}) %>"><%= arg.dig(:seed, 0) %></a>
             </li>
           </ul>
         </li>

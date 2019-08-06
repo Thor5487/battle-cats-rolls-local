@@ -5,9 +5,6 @@
     type="number" id="seed_input" name="seed"
     value="<%= controller.seed %>"
     onclick="this.select()">
-  <input
-    type="hidden" id="seed_next_input" name="next_seed"
-    value="<%= controller.next_seed %>">
 
   <label for="details_input">Details:
     <input type="checkbox" id="details_input" name="details"
@@ -57,5 +54,5 @@
   </select>
 </div>
 <% else %>
-<%= hidden_inputs('seed', 'next_seed', 'details', 'count', 'last') %>
+<%= hidden_inputs('seed', 'details', 'count', 'last') %>
 <% end %>

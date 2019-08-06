@@ -14,6 +14,8 @@ module BattleCatsRolls
 
     def initialize crystal_ball, event_name, seed, version
       super(GachaPool.new(crystal_ball, event_name), seed, version)
+
+      advance_seed!
     end
 
     %w[Rare Supa Uber Legend].each do |rarity|
@@ -24,10 +26,6 @@ module BattleCatsRolls
           instance_variable_set(name,
             pick_cats(Cat.const_get(rarity)))
       end
-    end
-
-    def current_seed_mode!
-      advance_seed!
     end
 
     def roll_both! sequence=nil

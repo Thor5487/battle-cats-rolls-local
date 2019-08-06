@@ -258,7 +258,7 @@ module BattleCatsRolls
     def made10rolls? seeds
       gacha = Gacha.new(
         controller.ball, controller.event, seeds.first, controller.version)
-      gacha.send(:advance_seed!) # Account offset for next_seed
+      gacha.send(:advance_seed!) # Account offset
       9.times.inject(nil){ |last| gacha.roll! } # Only 9 rolls left
 
       if gacha.seed == seeds.last
@@ -314,7 +314,6 @@ module BattleCatsRolls
 
     def default_query
       {
-        next_seed: controller.next_seed,
         seed: controller.seed,
         last: controller.last,
         event: controller.event,
@@ -332,8 +331,7 @@ module BattleCatsRolls
 
     def cleanup_query query
       query.compact.select do |key, value|
-        if (key == :next_seed && (value == 0 || query[:seed].nonzero?)) ||
-           (key == :seed && value == 0) ||
+        if (key == :seed && value == 0) ||
            (key == :lang && value == 'en') ||
            (key == :version && value == controller.default_version) ||
            (key == :name && value == 0) ||
