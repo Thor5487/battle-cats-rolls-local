@@ -12,7 +12,7 @@
   <label for="version_select">Version:</label>
   <select id="version_select" name="version" onchange="roll(this)">
     <% if controller.path_info == '/seek' %>
-      <option value="8.6" disabled="disabled">8.6+ (not functional yet)</option>
+      <option value="8.6">8.6+ (experimental forgothowtoreddid)</option>
     <% else %>
       <option value="8.6" <%= selected_version('8.6') %>>8.6+ (experimental)</option>
     <% end %>

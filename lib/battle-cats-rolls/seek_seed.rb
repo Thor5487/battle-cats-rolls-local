@@ -72,14 +72,25 @@ module BattleCatsRolls
     end
 
     def seek
-      IO.popen([
-        "#{Web.root}/Seeker/Seeker",
-        *ENV['SEEKER_OPT'].to_s.split(' '),
-        err: %i[child out]], 'r+') do |io|
-        logger.info("Seeking seed with #{source}")
-        io.puts source
-        io.close_write
-        io.read.scan(/\d+/).map(&:to_i)
+      if source.start_with?('8.6 ')
+        IO.popen([
+          "#{Web.root}/Seeker/Seeker-8.6",
+          *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' '),
+          err: %i[child out]], 'r+') do |io|
+          logger.info("Seeking seed with #{source}")
+          io.close_write
+          io.read.scan(/\d+/).map(&:to_i)
+        end
+      else
+        IO.popen([
+          "#{Web.root}/Seeker/Seeker",
+          *ENV['SEEKER_OPT'].to_s.split(' '),
+          err: %i[child out]], 'r+') do |io|
+          logger.info("Seeking seed with #{source}")
+          io.puts source
+          io.close_write
+          io.read.scan(/\d+/).map(&:to_i)
+        end
       end
     end
   end

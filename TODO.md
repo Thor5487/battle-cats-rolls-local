@@ -24,7 +24,7 @@
 ## Tests
 
 * Check 2160402177
-* echo 7000 2500 500 23 16 7 0 7 0 0 0 22 0 15 0 6 2 4 0 19 1 2 0 1 1 10 | time ./Seeker
+* echo 8.5 6970 2500 500 30 23 21 7 1 3 20 2 15 2 22 2 12 3 16 2 8 2 0 2 15 3 19 5 0 | time ./Seeker
 * Above is 1027349002
 * Picking an invalid event
 * 3112486085 is a very nice testing seed
