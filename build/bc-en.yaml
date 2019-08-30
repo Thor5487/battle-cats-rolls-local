@@ -3606,3 +3606,58 @@ events:
     supa: 2500
     uber: 500
     step_up: true
+  2019-09-01_360:
+    start_on: 2019-09-01
+    end_on: 2019-09-04
+    version: '80800'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-09-04_330:
+    start_on: 2019-09-04
+    end_on: 2019-09-06
+    version: '80800'
+    name: "★ Vajiras Wargods ★ Tactical Master Uber Cats, with a new mystery general?!"
+    id: 330
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-09-06_392:
+    start_on: 2019-09-06
+    end_on: 2019-09-09
+    version: '80800'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Almighty!
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-09_380:
+    start_on: 2019-09-09
+    end_on: 2019-09-12
+    version: '80800'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-09-12_333:
+    start_on: 2019-09-12
+    end_on: 2019-09-14
+    version: '80800'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-09-14_361:
+    start_on: 2019-09-14
+    end_on: 2019-09-17
+    version: '80800'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 361
+    rare: 6500
+    supa: 2600
+    uber: 900
