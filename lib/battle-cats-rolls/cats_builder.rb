@@ -45,7 +45,7 @@ module BattleCatsRolls
 
     def store_rarities data
       data.lines.each.with_index.inject({}) do |result, (line, index)|
-        result[index + 1] = Integer(line.match(/\A(?:\d+,){13}(\d+)/)[1])
+        result[index + 1] = Integer(line[/\A(?:\d+,){13}(\d+)/, 1])
         result
       end
     end
