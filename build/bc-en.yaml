@@ -242,6 +242,18 @@ cats:
     465:
       name: [Dogumaru, Doguemon]
       desc: ["The Doge army put this artifact for sale on cBay to\nfund their next campaign, but only made $0.22 from it.\nHigh defense against Traitless (Area Attack)", "Analysis reveals that this was created by ancient Cats\nthen sold to Doges for use as flowerbed decorations.\nHigh defense against Traitless (Area Attack)"]
+    498:
+      name: [Shakurel Cat, Shakurel Macho Cat]
+      desc: ["With extinction looming, this Cat\nwill survive by evolving a mightier jaw.", "Sometimes a jaw isn't enough?\nGet swole for MORE POWER!", "Sometimes a jaw isn't enough?\nGet swole for MORE POWER!"]
+    499:
+      name: [Shakurel Lion, Shakurel Lion CC]
+      desc: ["Joining the fight from Shakurel Planet!\nDo you feel like that super chin makes\nthe King of the Beasts a bit less regal?", "Joining the fight from Shakurel Planet!\nThe symbol of power is no longer the mane, \nbut the JAW! ...said the press release.", "Joining the fight from Shakurel Planet!\nThe symbol of power is no longer the mane, \nbut the JAW! ...said the press release."]
+    500:
+      name: [Shakurel Tiger, Shakurel Tiger CC]
+      desc: ["Joining the fight from Shakurel Planet!\nI would have liked to grow wings, but\ninstead I evolved a powerful chin.", "Joining the fight from Shakurel Planet!\nHey, where are the stripes on my jaw?!\nCan't those Cats do anything right?", "Joining the fight from Shakurel Planet!\nHey, where are the stripes on my jaw?!\nCan't those Cats do anything right?"]
+    501:
+      name: [Shakurel Panda, Shakurel Panda CC]
+      desc: ["Joining the fight from Shakurel Planet!\nLeaves just don't satisfy anymore... maybe\nbones, trees and rocks are more filling.", "Joining the fight from Shakurel Planet!\nEven though I can now chew up bones,\ntrees and rocks, I can't give up on bamboo.", "Joining the fight from Shakurel Planet!\nEven though I can now chew up bones,\ntrees and rocks, I can't give up on bamboo."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -430,8 +442,8 @@ cats:
       name: [Killer Cat, True Killer Cat]
       desc: ["Opened his heart to the savage beast within.\nCosts a bit extra to recruit to fight for you.", "This savage beast is consumed by thirst for battle!\nCosts a bit extra to recruit to fight for you.", "This savage beast is consumed by thirst for battle!\nCosts a bit extra to recruit to fight for you."]
     325:
-      name: [Curling Cat, Zamboney Cat]
-      desc: ["Hard, heavy and precise winter weapon.\nHits hard once, then won't move again.\nUnharmed by wave attacks.", "Manufacturer not responsible for equipment\nfailure ...is what the manual says.\nUnharmed by wave attacks.", "Manufacturer not responsible for equipment\nfailure ...is what the manual says.\nUnharmed by wave attacks."]
+      name: [Curling Cat, Zamboney Cat, Green Shell Cat]
+      desc: ["Hard, heavy and precise winter weapon.\nHits hard once, then won't move again.\nUnharmed by wave attacks.", "Manufacturer not responsible for equipment\nfailure ...is what the manual says.\nUnharmed by wave attacks.", "Cutting edge tech that relentlessly rushes\nstraight to the enemy. Powered by driverless \ncar AI! Unharmed by Wave attacks."]
     326:
       name: [Welterweight Cat, Heavyweight Cat, Ectoweight Cat]
       desc: ["Successor to a legendary Japanese boxer.\nLooks the part, but he's always KO'ed in the \n2nd round. Might knockback Zombies.", "Unorthodox technique, sure, but this afro'd\nhero always gets up before the 10-count.\nMight knockback Zombies.", "Had a near death experience trying to lose weight\nfor the next bout, then revived after absorbing\nghostly energy. Might knockback Zombies."]
@@ -519,6 +531,9 @@ cats:
     460:
       name: [Rider the Cat, Heroic Spirit Rider Cat]
       desc: ["A Cat who wields dagger and chain with\ngrace. At a slight visual disadvantage thanks \nto her mask. Chance to Freeze Angels.", "Gained command of a legendary lifeform.\nCan't see much due to the mask and\nPegasus' head. Chance to Freeze Angels."]
+    502:
+      name: [Cat Bros, Baka Cat Bros]
+      desc: ["Joining the fight from The Battle Cats Together!\nWe love games and are Super friends!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -1026,8 +1041,8 @@ cats:
       name: [Sakura Sonic, Afterschool Sakura]
       desc: ["A totally average schoolgirl who likes bubble\ntea and vanquishing demons. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies.", "It's tough to balance club activities and defending\nthe sacred legacy of your clan. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies."]
     402:
-      name: [Voli, Volta]
-      desc: ["Cosmic thunder, brought to life!\nSummons lightning for a chance \nto freeze Aliens with Area attacks.", "With lightning that rends the sky,\nit annihilates enemy Barriers. Tough vs \nAliens, freezes with Area attacks."]
+      name: [Voli, Volta, Gigavolta]
+      desc: ["Cosmic thunder, brought to life!\nSummons lightning for a chance \nto freeze Aliens with Area attacks.", "With lightning that rends the sky,\nit annihilates enemy Barriers. Tough vs \nAliens, freezes with Area attacks.", "A mighty spirit who channels power from the\nstorm that will eventually consume the cosmos.\nTough vs Aliens, 100% chance to Freeze."]
     413:
       name: [Eva Unit-00, Eva Unit-00 & Cat]
       desc: ["Recruited from Evangelion!\nA humanoid superweapon prototype.\nTough vs Angel/Floating, negates Waves.", "Recruited from Evangelion!\nNotorious for violent incidents in testing.\nTough vs Angel/Floating, negates Waves."]
@@ -1082,6 +1097,9 @@ cats:
     495:
       name: [Seabreeze Coppermine, Seabreeze Coppermine κ]
       desc: ["A cool beauty who gained command of her own ship!\nNow she just has to keep Cats from sinking it.\nMight freeze Red, Black or Metal enemies!", "Her Cat crew's recommendation earned her another\ntour of duty. Ah, nothing like a lovely sunset with a Cat.\nMight freeze Red, Black or Metal enemies!"]
+    497:
+      name: [Narita Kaihime, Wargod Kaihime]
+      desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1510,6 +1528,12 @@ gacha:
   393: [494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   394: [494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   395: [495, 439, 355, 276, 275, 277, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  396: [497, 449, 448, 447, 446, 445, 444, 378, 377, 339, 326, 308, 309, 200, 199, 198, 159, 154, 153, 152, 151, 150, 149, 148, 147, 146, 125, 126, 74, 73, 72, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  397: [497, 449, 448, 447, 446, 445, 444, 378, 377, 339, 326, 308, 309, 201, 200, 199, 198, 159, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 125, 126, 74, 73, 72, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  398: [497, 449, 448, 447, 446, 445, 444, 378, 377, 339, 326, 308, 309, 240, 239, 238, 200, 199, 198, 159, 154, 153, 152, 151, 150, 149, 148, 147, 146, 125, 126, 74, 73, 72, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  399: [497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  400: [497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  401: [497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
