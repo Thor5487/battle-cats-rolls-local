@@ -472,8 +472,8 @@ cats:
       name: [Volley Cat, Ballet Cat, Curry Cat]
       desc: ["Feared as the Queen of the Community Center.\nHer spikes routinely knock her rivals unconscious.\nLong Range attacks might unleash a Critical!", "Primadonna called the Rose of the Repertory.\nSoars through the sky and lands like a javelin.\nLong Range attacks might unleash a Critical!", "Masterful chef called the Prince of Spices.\nMetal enemies can't stand the powerful flavor.\nLong Range attacks might unleash a Critical!"]
     383:
-      name: [Glass Cat, Macho Glass Cat]
-      desc: ["Made of fragile stuff, but his heart is sturdy!\nYou only get one chance at life, so go for it!\nOnly attacks once, slows traitless enemies.", "Made using slightly more durable glass, but\nit still doesn't have much effect on the battlefield.\nOnly attacks once, slows traitless enemies."]
+      name: [Glass Cat, Macho Glass Cat, Macho Crystal Cat]
+      desc: ["Made of fragile stuff, but his heart is sturdy!\nYou only get one chance at life, so go for it!\nOnly attacks once, slows traitless enemies.", "Made using slightly more durable glass, but\nit still doesn't have much effect on the battlefield.\nOnly attacks once, slows traitless enemies.", "His body has been perfectly polished to shine\neternally. Lets live forever in radiant glory!\nKnockback/Slow vs Traitless (Single Attack)"]
     386:
       name: [Akio Yabe, Akio Yabe CC, Akio & Gunder CC]
       desc: ["Dropping in from PowerPro Baseball!\nNo one can outrun this speedy outfielder!", "Dropping in from PowerPro Baseball!\nEnds every sentence with \"Donchaknow?\"", "Dropping in from PowerPro Baseball!\nMight love robot anime even more than baseball.\nArea attacks release waves of destruction."]
@@ -963,8 +963,8 @@ cats:
       name: [Shadow Gao, Diabolic Gao]
       desc: ["Alternate-dimension Gao from the darkest \ntimeline. Seeks power at any cost. (Area Atk)\nMassive damage vs non-attribute enemies.", "Appears only to those who have known true\ndespair. Massive damage vs non-attribute \nenemies. Freezes enemies briefly (Area Atk)", "Appears only to those who have known true\ndespair. Massive damage vs non-attribute \nenemies. Freezes enemies briefly (Area Atk)"]
     335:
-      name: [Trickster Himeyuri, Himeyuri Ninetails]
-      desc: ["Elusive vixen from a mystic realm. Hiding her\ntrue face, wanders mortal realms hunting for the\nweak-willed. Area atks might slow Floating/Angels.", "Her glorious true nature is revealed! Her mood has\nimproved with everyone's praise for her cute tails.\nArea Attacks might slow Floating/Angels.", "Her glorious true nature is revealed! Her mood has\nimproved with everyone's praise for her cute tails.\nArea Attacks might slow Floating/Angels."]
+      name: [Trickster Himeyuri, Himeyuri Ninetails, Fox Queen Himeyuri]
+      desc: ["Elusive vixen from a mystic realm. Hiding her\ntrue face, wanders mortal realms hunting for the\nweak-willed. Area atks might slow Floating/Angels.", "Her glorious true nature is revealed! Her mood has\nimproved with everyone's praise for her cute tails.\nArea Attacks might slow Floating/Angels.", "The lost harvest goddess has finally cast aside her\nmask and blessed the earth with her true face.\nArea Attacks might slow Floating/Angels."]
     336:
       name: [Sea Maiden Ruri, Sea Mistress Ruri]
       desc: ["A mermaid NEET from the mystic seas. Dreams\nof cute boys who'd risk drowning to date her.\nTough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies."]
@@ -1088,6 +1088,9 @@ cats:
     457:
       name: [Sakura Matou, Sakura Matou CC]
       desc: ["Joining the fight from Fate/stay night [HF]!\nTakes charge of daily care for the Emiya house.\nTough vs Black/Aliens/Zombies (Area Attack)", "Joining the fight from Fate/stay night [HF]! Fears \nthat Shirou will fall victim to the Holy Grail War.\nTough vs Black/Aliens/Zombies (Area Attack)"]
+    485:
+      name: [Li'l Valkyrie Dark, Dark Rider Valkyrie]
+      desc: ["Valkyrie's younger sister, marked by the darkness. \nValhalla's agent, smiting evil from within the abyss!\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!"]
     488:
       name: [Eva Unit-08, Eva Unit-08 & Cat]
       desc: ["Recruited from Evangelion!\nAnti-NERV production model maintained by WILLE.\nLong-range debuffs versus Floating enemies!", "Recruited from Evangelion! Wields a variety \nof weapons but specializes in providing cover fire.\nLong-range debuffs versus Floating enemies!"]
@@ -1100,6 +1103,9 @@ cats:
     497:
       name: [Narita Kaihime, Wargod Kaihime]
       desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows."]
+    503:
+      name: ['Myrcia ', 'Myrcia, type ξ']
+      desc: ["Money couldn't buy happiness, but it bought a small\narsenal that very much brings a smile to her face.\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1534,6 +1540,12 @@ gacha:
   399: [497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   400: [497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   401: [497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  402: [503, 450, 448, 447, 446, 445, 444, 378, 377, 352, 326, 308, 309, 200, 199, 198, 160, 154, 153, 152, 151, 150, 149, 148, 147, 146, 108, 107, 106, 76, 77, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  403: [503, 450, 448, 447, 446, 445, 444, 378, 377, 352, 326, 308, 309, 201, 200, 199, 198, 160, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 108, 107, 106, 76, 77, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  404: [503, 450, 448, 447, 446, 445, 444, 378, 377, 352, 326, 308, 309, 240, 239, 238, 200, 199, 198, 160, 154, 153, 152, 151, 150, 149, 148, 147, 146, 108, 107, 106, 76, 77, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  405: [503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  406: [503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  407: [503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
