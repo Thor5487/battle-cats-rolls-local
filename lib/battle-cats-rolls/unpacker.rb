@@ -27,9 +27,6 @@ module BattleCatsRolls
           decrypt_aes_128_ecb(data)
         end || safe_decrypt do
           decrypt_aes_128_cbc(data)
-        end || begin
-          warn "#{bad_data.class}:#{bad_data}, turning off decryption"
-          data
         end
       end
     end

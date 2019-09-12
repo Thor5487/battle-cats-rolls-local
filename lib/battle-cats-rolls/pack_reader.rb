@@ -37,7 +37,15 @@ module BattleCatsRolls
     def read line
       filename, offset, size = line.split(',')
       data = lambda do
-        pack_unpacker.decrypt(pack_data[offset.to_i, size.to_i])
+        result = pack_unpacker.decrypt(pack_data[offset.to_i, size.to_i])
+
+        if error = pack_unpacker.bad_data
+          warn "! [#{error.class}:#{error.message}]" \
+            " Failed decrypting #{filename} from #{pack_path}"
+          exit(1)
+        end
+
+        result
       end
 
       [filename, data]
