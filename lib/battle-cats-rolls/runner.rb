@@ -17,7 +17,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         __method__,
-        '8.8.0',
+        '8.9.0',
         AwsAuth.event_url('tw'),
         # https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/
         'https://apkplz.net/app/jp.co.ponos.battlecatstw'
@@ -277,7 +277,7 @@ module BattleCatsRolls
 
       require_relative 'pack_provider'
 
-      PackProvider.new(app_data_path)
+      PackProvider.new(lang, app_data_path)
     end
 
     def event_path

@@ -4,10 +4,10 @@ require_relative 'pack_reader'
 
 module BattleCatsRolls
   class PackProvider < Struct.new(:data_reader, :res_reader)
-    def initialize dir
+    def initialize lang, dir
       super(
-        PackReader.new("#{dir}/DataLocal.list"),
-        PackReader.new("#{dir}/resLocal.list"))
+        PackReader.new(lang, "#{dir}/DataLocal.list"),
+        PackReader.new(lang, "#{dir}/resLocal.list"))
     end
 
     def gacha

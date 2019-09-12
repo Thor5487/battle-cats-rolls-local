@@ -60,23 +60,23 @@ server will be shut down.
 
 Populate everything:
 
-    ruby bin/build.rb
+    env (cat .env) ruby bin/build.rb
 
 Populate BCEN data:
 
-    ruby bin/build.rb en
+    env (cat .env) ruby bin/build.rb en
 
 Populate BCTW data:
 
-    ruby bin/build.rb tw
+    env (cat .env) ruby bin/build.rb tw
 
 Populate BCJP data:
 
-    ruby bin/build.rb jp
+    env (cat .env) ruby bin/build.rb jp
 
 Populate BCKR data:
 
-    ruby bin/build.rb kr
+    env (cat .env) ruby bin/build.rb kr
 
 ## Thanks:
 

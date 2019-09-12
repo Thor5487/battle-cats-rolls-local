@@ -12,11 +12,11 @@ module BattleCatsRolls
       new(ecb_key: Digest::MD5.hexdigest('pack')[0, 16])
     end
 
-    def self.for_pack
+    def self.for_pack lang
       new(
         ecb_key: Digest::MD5.hexdigest('battlecats')[0, 16],
-        cbc_key: ['d754868de89d717fa9e7b06da45ae9e3'].pack('H*'),
-        cbc_iv: ['40b2131a9f388ad4e5002a98118f6128'].pack('H*'))
+        cbc_key: [ENV["#{lang.upcase}_KEY"]].pack('H*'),
+        cbc_iv: [ENV["#{lang.upcase}_IV"]].pack('H*'))
     end
 
     def decrypt data

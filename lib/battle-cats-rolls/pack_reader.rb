@@ -8,14 +8,14 @@ module BattleCatsRolls
 
     include Enumerable
 
-    def initialize new_list_path
+    def initialize lang, new_list_path
       pathname = new_list_path[0...new_list_path.rindex('.')]
 
       super(
         new_list_path,
         "#{pathname}.pack",
         Unpacker.for_list,
-        Unpacker.for_pack,
+        Unpacker.for_pack(lang),
         File.basename(pathname))
     end
 
