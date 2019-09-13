@@ -3697,3 +3697,102 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-09-17_369:
+    start_on: 2019-09-17
+    end_on: 2019-09-20
+    version: '80900'
+    name: The mighty Dynamites are here! Variety and power await you!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-09-20_377:
+    start_on: 2019-09-20
+    end_on: 2019-09-22
+    version: '80900'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-20_389:
+    start_on: 2019-09-20
+    end_on: 2019-09-25
+    version: '80900'
+    name: Limited Uber Set, with Li'l Valkyrie! Plus 11-Draw Uber Guarantee!
+    id: 389
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-22_362:
+    start_on: 2019-09-22
+    end_on: 2019-09-25
+    version: '80900'
+    name: "★ Ultra Souls★ Guaranteed 11-Draw for legendary Uber Rare Cats!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-23_362:
+    start_on: 2019-09-23
+    end_on: 2019-09-25
+    version: '80900'
+    name: "★ Ultra Souls★ Guaranteed 11-Draw for legendary Uber Rare Cats!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-23_389:
+    start_on: 2019-09-23
+    end_on: 2019-09-25
+    version: '80900'
+    name: Limited Uber Set, with Li'l Valkyrie! Plus 11-Draw Uber Guarantee!
+    id: 389
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-25_251:
+    start_on: 2019-09-25
+    end_on: 2019-09-28
+    version: '80900'
+    name: A limited edition Uber Set, with exclusive units! 11-Draw Uber Guarantee!
+    id: 251
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-25_336:
+    start_on: 2019-09-25
+    end_on: 2019-09-28
+    version: '80900'
+    name: "★ Dragon Emperors ★ Collect a mighty monstrous Uber Cat!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-28_354:
+    start_on: 2019-09-28
+    end_on: 2019-10-01
+    version: '80900'
+    name: "★ Girls & Monsters! ★ Terrifying beauties with an 11-Draw Guarantee!"
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-09-28_388:
+    start_on: 2019-09-28
+    end_on: 2019-10-03
+    version: '80900'
+    name: Exclusive Ubers including Li'l Valkyrie Dark! 11-Draw Uber Guarantee!
+    id: 388
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
