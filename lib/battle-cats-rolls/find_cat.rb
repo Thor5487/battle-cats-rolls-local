@@ -19,6 +19,7 @@ module BattleCatsRolls
         398, # "Sakura Sonic",
         436, # "Li'l Valkyrie",
         442, # "D'arktanyan",
+        485, # "Li'l Valkyrie Dark",
       ].freeze
     end
 
