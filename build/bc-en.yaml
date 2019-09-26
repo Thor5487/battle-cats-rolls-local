@@ -3796,3 +3796,101 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-10-01_380:
+    start_on: 2019-10-01
+    end_on: 2019-10-03
+    version: '80900'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-03_360:
+    start_on: 2019-10-03
+    end_on: 2019-10-06
+    version: '80900'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 360
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-10-06_252:
+    start_on: 2019-10-06
+    end_on: 2019-10-09
+    version: '80900'
+    name: A limited edition Uber Set, with exclusive units! 11-Draw Uber Guarantee!
+    id: 252
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-06_333:
+    start_on: 2019-10-06
+    end_on: 2019-10-09
+    version: '80900'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-07_252:
+    start_on: 2019-10-07
+    end_on: 2019-10-09
+    version: '80900'
+    name: A limited edition Uber Set, with exclusive units! 11-Draw Uber Guarantee!
+    id: 252
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-07_333:
+    start_on: 2019-10-07
+    end_on: 2019-10-09
+    version: '80900'
+    name: "★ Galaxy Gals★ Cute 'n' tough Uber Cats, with a new mystery member?!?!"
+    id: 333
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-09_392:
+    start_on: 2019-10-09
+    end_on: 2019-10-12
+    version: '80900'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Almighty!
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-12_396:
+    start_on: 2019-10-12
+    end_on: 2019-10-15
+    version: '80900'
+    name: Narita Kaihime awaits your command! ★ Tap banner for more info!
+    id: 396
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-12_401:
+    start_on: 2019-10-12
+    end_on: 2030-01-01
+    version: '80900'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 401
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
+  2019-10-15_384:
+    start_on: 2019-10-15
+    end_on: 2019-10-18
+    version: '80900'
+    name: Dark Heroes ★ Defend justice with Uber Cats, plus a hidden Legend!
+    id: 384
+    rare: 6970
+    supa: 2500
+    uber: 500
