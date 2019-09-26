@@ -1,6 +1,8 @@
 ## Top priority
 
-* Eliminate next_seed
+* Display guaranteed from duped rare:
+  https://old.reddit.com/r/battlecats/comments/d3mzyo/bcen_global_ver_event_data_last_half_of_september/f0bkyoy/
+* Highlighting for 8.6+
 
 ## Features and utilities
 
