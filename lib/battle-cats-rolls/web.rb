@@ -166,7 +166,8 @@ module BattleCatsRolls
 
           all_events.group_by do |_, value|
             if value['platinum']
-              current_platinum['id'] == value['id']
+              current_platinum['id'] == value['id'] ||
+                today <= value['start_on'] # Include upcoming platinum
             else
               today <= value['end_on']
             end
@@ -177,9 +178,15 @@ module BattleCatsRolls
       def current_platinum
         @current_platinum ||= begin
           past = Date.new
+          today = Date.today
 
           all_events.max_by do |_, value|
-            if value['platinum'] then value['start_on'] else past end
+            # Ignore upcoming platinum
+            if value['platinum'] && value['start_on'] <= today
+              value['start_on']
+            else
+              past
+            end
           end.last
         end
       end
