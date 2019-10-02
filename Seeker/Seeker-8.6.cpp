@@ -121,7 +121,8 @@ int main(int argc, char** argv)
 
 	auto result = calculateSeedThread(1, UINT32_MAX-2);
 
-	cout << result.first << endl << result.second;
+	if (result.first != 0)
+		cout << result.first << endl << result.second;
 
 	return 0;
 }
