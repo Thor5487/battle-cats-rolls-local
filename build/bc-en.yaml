@@ -3894,3 +3894,87 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-10-18_257:
+    start_on: 2019-10-18
+    end_on: 2019-11-01
+    version: '80900'
+    name: Limited Halloween Units! Get spooky special editions of Uber Cats!
+    id: 257
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-10-18_400:
+    start_on: 2019-10-18
+    end_on: 2019-10-21
+    version: '80900'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 400
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-10-21_373:
+    start_on: 2019-10-21
+    end_on: 2019-10-23
+    version: '80900'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 373
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-10-23_370:
+    start_on: 2019-10-23
+    end_on: 2019-10-25
+    version: '80900'
+    name: The mighty Dynamites are here! Variety and power await you!
+    id: 370
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-10-25_378:
+    start_on: 2019-10-25
+    end_on: 2019-10-27
+    version: '80900'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 378
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-10-27_364:
+    start_on: 2019-10-27
+    end_on: 2019-10-29
+    version: '80900'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a new mystery member?!"
+    id: 364
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-10-29_257:
+    start_on: 2019-10-29
+    end_on: 2019-11-01
+    version: '80900'
+    name: "★ Halloween Gals ★  Guaranteed Uber with any 11-Capsule Draw!"
+    id: 257
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-29_404:
+    start_on: 2019-10-29
+    end_on: 2019-11-01
+    version: '80900'
+    name: Myrcia is here to grant you her powers! ★ Tap banner for more info!
+    id: 404
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-29_407:
+    start_on: 2019-10-29
+    end_on: 2030-01-01
+    version: '80900'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 407
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
