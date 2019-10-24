@@ -3986,3 +3986,53 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-10-26_257:
+    start_on: 2019-10-26
+    end_on: 2019-11-01
+    version: '81000'
+    name: ハロウィン限定のコスプレキャラを手に入れよう！★11連で超激レア確定!!
+    id: 257
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-26_380:
+    start_on: 2019-10-26
+    end_on: 2019-10-28
+    version: '81000'
+    name: 個性的で愉快な精霊を仲間にしよう！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-26_414:
+    start_on: 2019-10-26
+    end_on: 2019-10-30
+    version: '81000'
+    name: "【終了間近】『メルクストーリア』キャラ限定コラボガチャ！★11連で超激レア確定!!"
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-28_392:
+    start_on: 2019-10-28
+    end_on: 2019-10-30
+    version: '81000'
+    name: にゃんこワールドの偉大なる神々！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-10-30_354:
+    start_on: 2019-10-30
+    end_on: 2019-11-01
+    version: '81000'
+    name: 異世界より召喚された愉快なモンスター美少女達！★11連で超激レア確定!!
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
