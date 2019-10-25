@@ -254,6 +254,9 @@ cats:
     501:
       name: [Shakurel Panda, Shakurel Panda CC]
       desc: ["Joining the fight from Shakurel Planet!\nLeaves just don't satisfy anymore... maybe\nbones, trees and rocks are more filling.", "Joining the fight from Shakurel Planet!\nEven though I can now chew up bones,\ntrees and rocks, I can't give up on bamboo.", "Joining the fight from Shakurel Planet!\nEven though I can now chew up bones,\ntrees and rocks, I can't give up on bamboo."]
+    510:
+      name: [Chun-Li Cat, Chun-Li Cat CC]
+      desc: ["A Cat who seems to have stuck buns in her\nhair. Trying to learn the Spinning Bird Kick.\nSmall chance of Critical.", "Beautiful Cat working for the ICPO.\nMesmerizing kicks stun her opponents.\nSmall chance of Critical."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -520,8 +523,8 @@ cats:
       name: [Betakkuma, Black Betakkuma]
       desc: ["Joining the fight from Betakkuma!\nWeirdly cute white bear with some slick moves.\nMight knockback Aliens.", "Joining the fight from Betakkuma!\nChanged colors after training by an assassin's guild.\nMight knockback Aliens."]
     443:
-      name: [Lone Cat and Kitten, Vendor Cat and Kitten]
-      desc: ["Master assassin who wanders the park with his\ncheeky child seeking vengeance against litterers.\nTough + knockback + freeze vs Traitless.", "Lone Cat is sick in bed, so naughty Kitten is\nhelping mama while she sells drinks on the\ntrain. Tough + knockback + freeze vs Traitless."]
+      name: [Lone Cat and Kitten, Vendor Cat and Kitten, Tourist Cat]
+      desc: ["Master assassin who wanders the park with his\ncheeky child seeking vengeance against litterers.\nTough + knockback + freeze vs Traitless.", "Lone Cat is sick in bed, so naughty Kitten is\nhelping mama while she sells drinks on the\ntrain. Tough + knockback + freeze vs Traitless.", "Papa and kitten are on a well-deserved tropical\ngetaway. Saved on airfare by packing away baby.\nTough + knockback + freeze vs Traitless."]
     453:
       name: [Primordial Cat, Modern Cat]
       desc: ["A primitive felinoid from an ancient time, with\na charming finned tail and useful gills.\nTough versus Metal and Relic enemies.", "This strange Cat(?) was found napping on the\nwindowsill. What unusual proportions she has!\nTough versus Metal and Relic enemies."]
@@ -534,6 +537,15 @@ cats:
     502:
       name: [Cat Bros, Baka Cat Bros]
       desc: ["Joining the fight from The Battle Cats Together!\nWe love games and are Super friends!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)"]
+    508:
+      name: [Mightycat, Supercat]
+      desc: ["Heroic caped Cat who soars through the air (while\nworrying about being fired from his part-time job.)\nWeaken Traitless, nullfies Wave Attacks", "Grew Macho thanks to his nervous eating habit.\nPractices singing in the park when no one's around.\nWeaken Traitless, nullfies Wave Attacks"]
+    509:
+      name: [Ryu Cat, Ryu Cat CC]
+      desc: ["A Cat endlessly training to fight the strongest\nwarriors. Sadly, none seem to be around now.\nMight Freeze Black enemies.", "I hoped to meet one warrior stronger than me.\nSadly, everyone seems to fit that description.\nMight Freeze Black enemies."]
+    519:
+      name: [Akuma Giraffe, Akuma Lion]
+      desc: ["Giraffe Cat awoke filled with killing spirit.\nAll who witness his new look tremble.\nStrong vs Traitless, with Wave Shield! (Omni)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Omni)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Omni)"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -966,8 +978,8 @@ cats:
       name: [Trickster Himeyuri, Himeyuri Ninetails, Fox Queen Himeyuri]
       desc: ["Elusive vixen from a mystic realm. Hiding her\ntrue face, wanders mortal realms hunting for the\nweak-willed. Area atks might slow Floating/Angels.", "Her glorious true nature is revealed! Her mood has\nimproved with everyone's praise for her cute tails.\nArea Attacks might slow Floating/Angels.", "The lost harvest goddess has finally cast aside her\nmask and blessed the earth with her true face.\nArea Attacks might slow Floating/Angels."]
     336:
-      name: [Sea Maiden Ruri, Sea Mistress Ruri]
-      desc: ["A mermaid NEET from the mystic seas. Dreams\nof cute boys who'd risk drowning to date her.\nTough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies."]
+      name: [Sea Maiden Ruri, Sea Mistress Ruri, Mer-Queen Ruri]
+      desc: ["A mermaid NEET from the mystic seas. Dreams\nof cute boys who'd risk drowning to date her.\nTough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies.", "Built a undersea palace hoping her crush will drop\nby. Until he grows gills, it's just her top-class gamer\nden. Tough vs Red, with 100% Weaken chance."]
     337:
       name: [Queen Reika, Pharoah Reika]
       desc: ["A royal mummy from a mystic past. Actually, she\nmummified herself by over-applying foundation.\nMassive damage vs Aliens/Zombies (Area Atk)", "She may have died from it, but overdoing makeup\nkeeps her looking stunning even 5000 years later.\nMassive damage vs Aliens/Zombies (Area Atk)", "She may have died from it, but overdoing makeup\nkeeps her looking stunning even 5000 years later.\nMassive damage vs Aliens/Zombies (Area Atk)"]
@@ -1106,6 +1118,30 @@ cats:
     503:
       name: ['Myrcia ', 'Myrcia, type ξ']
       desc: ["Money couldn't buy happiness, but it bought a small\narsenal that very much brings a smile to her face.\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks."]
+    506:
+      name: [Relentless Gladios, Gladios the Annihilator]
+      desc: ["Gargantuan horned beast, spitting vicious\nthunderbolts that shake the very firmament.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies."]
+    512:
+      name: [Ryu, Ryu CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nA hero walking the path of a true fighter.\nChance to deliver a Savage Blow (Area Attack)", "Joining the fight from Street Fighter V AE!\nSeeking a rival who will finally test his skills.\nChance to deliver a Savage Blow (Area Attack)"]
+    513:
+      name: [Chun-Li, Chun-Li CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nICPO agent searching for her lost father.\nMight Knockback Red, Black, and Aliens.", "Joining the fight from Street Fighter V AE!\nCan you withstand her lightning kicks?\nMight Knockback Red, Black, and Aliens."]
+    514:
+      name: [Guile, Guile CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nHardened soldier seeking peace for his home.\nTough vs Floating, 100% Slow/Weaken", "Joining the fight from Street Fighter V AE!\nCrush villains with a Somersault Kick!\nTough vs Floating, 100% Slow/Weaken"]
+    515:
+      name: [Zangief, Zangief CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nA towering wrestler called \"Red Cyclone\".\nOmnistrike, might avoid Zombie damage", "Joining the fight from Street Fighter V AE!\nSubmit to the force of his Cyclone Lariat!\nOmnistrike, might avoid Zombie damage"]
+    516:
+      name: [Blanka, Blanka CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nGentle defender of the Amazon forests.\nMassive Omnistrike damage vs Aliens", "Joining the fight from Street Fighter V AE!\nStrikes with a chaotic Rolling Attack!\nMassive Omnistrike damage vs Aliens"]
+    517:
+      name: [Dhalsim, Dhalsim CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nMystic who has mastered the arts of yoga.\n100% Weaken vs Traitless (Area Attack)", "Joining the fight from Street Fighter V AE!\nCalls upon Agni to command holy fires.\n100% Weaken vs Traitless (Area Attack)"]
+    518:
+      name: [Ken, Ken CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nLike a brother to Ryu, and his greatest rival.\nKnockback/Strong vs Red, Floating, Angels (Omni)", "Joining the fight from Street Fighter V AE!\nRyu's ultimate rival, master of the Shoryuken.\nKnockback/Strong vs Red, Floating, Angels (Omni)"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1137,6 +1173,9 @@ cats:
     494:
       name: [Gaia the Creator, 'Gaia the Supreme ']
       desc: ["The origin of all Life... and she can choose\n to undo it all whenever she pleases. Long-range\nArea attacks deal extreme damage to Traited.", "The ultimate Goddess, who directs mana birthed\nfrom the World Tree to annihilate enemies of Good.\nExtreme damage to Traited. (Long-range Area Atks)"]
+    511:
+      name: [Akuma, Akuma CC]
+      desc: ["Joining the fight from Street Fighter V AE!\nSeeks mighty warriors to fight to the death.\nInsane Area damage vs. Traitless.", "Joining the fight from Street Fighter V AE!\nMaster of the Fist, attacks with pure killing spirit.\nInsane Area damage vs. Traitless."]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1546,6 +1585,14 @@ gacha:
   405: [503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   406: [503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   407: [503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  408: [506, 451, 448, 447, 446, 445, 444, 397, 378, 377, 326, 308, 309, 200, 199, 198, 178, 154, 153, 152, 151, 150, 149, 148, 147, 146, 85, 84, 88, 86, 87, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  409: [506, 451, 448, 447, 446, 445, 444, 397, 378, 377, 326, 308, 309, 201, 200, 199, 198, 178, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 85, 84, 88, 86, 87, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  410: [506, 451, 448, 447, 446, 445, 444, 397, 378, 377, 326, 308, 309, 240, 239, 238, 200, 199, 198, 178, 154, 153, 152, 151, 150, 149, 148, 147, 146, 85, 84, 88, 86, 87, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  411: [506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  412: [506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  413: [506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  414: [507, 347, 346, 345, 191, 190, 189, 188, 187, 186, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+  415: [511, 512, 513, 514, 515, 516, 517, 518, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
