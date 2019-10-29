@@ -3701,3 +3701,89 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2019-11-01_405:
+    start_on: 2019-11-01
+    end_on: 2019-11-04
+    version: '81000'
+    name: 超強的限定角色「幼傑達太貓」登場！★超激出現率大幅上升！
+    id: 405
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-11-01_415:
+    start_on: 2019-11-01
+    end_on: 2019-11-15
+    version: '81000'
+    name: "『快打旋風V AE』合作轉蛋新登場！★點擊圖片確認詳細!!"
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-04_336:
+    start_on: 2019-11-04
+    end_on: 2019-11-06
+    version: '81000'
+    name: 破壞力強大，勇猛可靠的龍皇們降臨啦！★點圖可以看詳細內容喔！
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-06_354:
+    start_on: 2019-11-06
+    end_on: 2019-11-08
+    version: '81000'
+    name: 從異世界被召喚來的怪物美少女★點圖可以看詳細內容喔！
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-11-08_380:
+    start_on: 2019-11-08
+    end_on: 2019-11-10
+    version: '81000'
+    name: 來自宇宙盡頭的各種精靈們！還有新神秘角色！？★點圖可以看詳細內容喔！
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-08_415:
+    start_on: 2019-11-08
+    end_on: 2019-11-15
+    version: '81000'
+    name: "『快打旋風V AE』合作轉蛋新登場！★11連轉超激確定活動中!!"
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-10_392:
+    start_on: 2019-11-10
+    end_on: 2019-11-12
+    version: '81000'
+    name: 貓咪世界的偉大眾神集結！想知道誰秘密參戰！？★點圖確認詳細吧！！
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-12_384:
+    start_on: 2019-11-12
+    end_on: 2019-11-15
+    version: '81000'
+    name: 正義的暗黑英雄，貓咪軍團的異星戰士剋星！★點圖可以看詳細內容喔！
+    id: 384
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-12_415:
+    start_on: 2019-11-12
+    end_on: 2019-11-15
+    version: '81000'
+    name: "【即將結束】『快打旋風V AE』合作轉蛋！★11連轉超激確定活動中!!"
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

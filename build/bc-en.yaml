@@ -4025,3 +4025,89 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2019-11-01_405:
+    start_on: 2019-11-01
+    end_on: 2019-11-04
+    version: '81000'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 405
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-11-01_415:
+    start_on: 2019-11-01
+    end_on: 2019-11-15
+    version: '81000'
+    name: 'Street Fighter V: AE Collab Capsules! ★ Tap banner for details!'
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-04_336:
+    start_on: 2019-11-04
+    end_on: 2019-11-06
+    version: '81000'
+    name: "★ Dragon Emperors ★ Collect a mighty monstrous Uber Cat!"
+    id: 336
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-06_354:
+    start_on: 2019-11-06
+    end_on: 2019-11-08
+    version: '81000'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 354
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2019-11-08_380:
+    start_on: 2019-11-08
+    end_on: 2019-11-10
+    version: '81000'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-08_415:
+    start_on: 2019-11-08
+    end_on: 2019-11-15
+    version: '81000'
+    name: 'Street Fighter V: AE Collab Capsules! ★ With 11-Draw Guaranteed Uber!'
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-10_392:
+    start_on: 2019-11-10
+    end_on: 2019-11-12
+    version: '81000'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Almighty!
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-12_384:
+    start_on: 2019-11-12
+    end_on: 2019-11-15
+    version: '81000'
+    name: Dark Heroes ★ Defend justice with Uber Cats, plus a hidden Legend!
+    id: 384
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-12_415:
+    start_on: 2019-11-12
+    end_on: 2019-11-15
+    version: '81000'
+    name: "【Last Chance】Street Fighter V: AE Capsules w/ 11-Draw Guarantee!"
+    id: 415
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
