@@ -4111,3 +4111,58 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-11-15_406:
+    start_on: 2019-11-15
+    end_on: 2019-11-18
+    version: '81000'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 406
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-11-18_396:
+    start_on: 2019-11-18
+    end_on: 2019-11-20
+    version: '81000'
+    name: Narita Kaihime awaits your command! ★ Tap banner for more info!
+    id: 396
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-20_372:
+    start_on: 2019-11-20
+    end_on: 2019-11-22
+    version: '81000'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 372
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-22_273:
+    start_on: 2019-11-22
+    end_on: 2019-11-25
+    version: '81000'
+    name: Metal Busters ★ With Increasing Capsule Discount!
+    id: 273
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-11-25_369:
+    start_on: 2019-11-25
+    end_on: 2019-11-27
+    version: '81000'
+    name: The mighty Dynamites are here! Variety and power await you!
+    id: 369
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-11-27_377:
+    start_on: 2019-11-27
+    end_on: 2019-11-29
+    version: '81000'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 377
+    rare: 6970
+    supa: 2500
+    uber: 500
