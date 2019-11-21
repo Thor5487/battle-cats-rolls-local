@@ -4230,6 +4230,16 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2019-11-12_471:
+    start_on: 2019-11-12
+    end_on: 2030-01-01
+    version: '90000'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 471
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
   2019-11-15_420:
     start_on: 2019-11-15
     end_on: 2019-11-18
