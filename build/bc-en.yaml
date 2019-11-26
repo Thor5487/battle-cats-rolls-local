@@ -4240,3 +4240,50 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-11-29_408:
+    start_on: 2019-11-29
+    end_on: 2019-12-02
+    version: '90000'
+    name: GLADIOS joins the Dragon Emperors ★ Collect a monstrous Uber!
+    id: 408
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-11-29_413:
+    start_on: 2019-11-29
+    end_on: 2030-01-01
+    version: '90000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 413
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
+  2019-12-02_402:
+    start_on: 2019-12-02
+    end_on: 2019-12-04
+    version: '90000'
+    name: Myrcia is here to grant you her powers! ★ Tap banner for more info!
+    id: 402
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-12-04_362:
+    start_on: 2019-12-04
+    end_on: 2019-12-06
+    version: '90000'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a new mystery member?!"
+    id: 362
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-12-06_411:
+    start_on: 2019-12-06
+    end_on: 2019-12-09
+    version: '90000'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 411
+    rare: 6500
+    supa: 2600
+    uber: 900
