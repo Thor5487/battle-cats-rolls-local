@@ -129,6 +129,8 @@ module BattleCatsRolls
       slot = cat.slot
       id = nil
 
+      # See https://bc.godfat.org/?seed=3419147157&event=2019-07-18_391
+      # This can run up to the number of duplicated cats
       steps = (1..rerolling_slots.count(cat.id)).find do
         next_seed = advance_seed(next_seed)
         rerolling_slots.delete_at(slot)
@@ -162,6 +164,8 @@ module BattleCatsRolls
       # Checking A with previous A
       if a_cat.duped?(last_a) ||
           # Checking A with previous B when swapping tracks
+          # See https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
+          # For bouncing around
           a_cat.duped?(last_last_b&.rerolled)
         a_cat.rerolled = reroll_cat(a_cat)
       end
@@ -169,6 +173,8 @@ module BattleCatsRolls
       # Checking B with previous B
       if last_b&.duped?(last_last_b) ||
           # Checking B with previous A when swapping tracks
+          # See https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
+          # For bouncing around
           last_b&.duped?(last_last_a&.rerolled)
         last_b.rerolled = reroll_cat(last_b)
       end
