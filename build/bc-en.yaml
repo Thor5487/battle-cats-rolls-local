@@ -4287,3 +4287,59 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2019-12-09_245:
+    start_on: 2019-12-09
+    end_on: 2019-12-11
+    version: '90000'
+    name: "★ Red Busters w/ Pai-Pai! ★ Plus Increasing Capsules!"
+    id: 245
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-12-09_246:
+    start_on: 2019-12-09
+    end_on: 2019-12-11
+    version: '90000'
+    name: AIR BUSTERS plus R.E.I ★ With Increasing Capsules discount!
+    id: 246
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2019-12-11_380:
+    start_on: 2019-12-11
+    end_on: 2019-12-13
+    version: '90000'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 380
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-12-13_412:
+    start_on: 2019-12-13
+    end_on: 2019-12-16
+    version: '90000'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 412
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2019-12-16_392:
+    start_on: 2019-12-16
+    end_on: 2019-12-18
+    version: '90000'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Almighty!
+    id: 392
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2019-12-18_384:
+    start_on: 2019-12-18
+    end_on: 2019-12-20
+    version: '90000'
+    name: Dark Heroes ★ Defend justice with Uber Cats, plus a hidden Legend!
+    id: 384
+    rare: 6970
+    supa: 2500
+    uber: 500
