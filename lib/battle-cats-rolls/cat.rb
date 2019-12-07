@@ -6,7 +6,8 @@ module BattleCatsRolls
     :slot_fruit, :slot,
     :rarity_fruit, :rarity_label,
     :score, :sequence, :track,
-    :guaranteed, :rerolled)
+    :guaranteed, :rerolled,
+    :rerolled_from_same, :rerolled_from_other)
 
     Rare   = 2
     Supa   = 3
@@ -52,6 +53,15 @@ module BattleCatsRolls
       end
 
       result
+    end
+
+    def reroll last_cat, last_cat_from_other
+      self.rerolled_from_same = duped?(last_cat)
+      # Checking from the other track. Check this for bouncing around
+      # See https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
+      self.rerolled_from_other = duped?(last_cat_from_other&.rerolled)
+
+      self.rerolled = yield(self) if rerolled_from_same || rerolled_from_other
     end
 
     def rarity_label

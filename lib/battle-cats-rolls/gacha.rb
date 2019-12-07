@@ -37,7 +37,7 @@ module BattleCatsRolls
       b_cat.track = 'B'
       a_cat.sequence = b_cat.sequence = sequence
 
-      fill_rerolled_cats(a_cat, b_cat) if version == '8.6'
+      fill_rerolled_cats(a_cat) if version == '8.6'
 
       self.last_last = last_both
       self.last_both = [a_cat, b_cat]
@@ -157,27 +157,12 @@ module BattleCatsRolls
       rerolled
     end
 
-    def fill_rerolled_cats a_cat, b_cat
+    def fill_rerolled_cats a_cat
       last_a, last_b = last_both
       last_last_a, last_last_b = last_last
 
-      # Checking A with previous A
-      if a_cat.duped?(last_a) ||
-          # Checking A with previous B when swapping tracks
-          # See https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
-          # For bouncing around
-          a_cat.duped?(last_last_b&.rerolled)
-        a_cat.rerolled = reroll_cat(a_cat)
-      end
-
-      # Checking B with previous B
-      if last_b&.duped?(last_last_b) ||
-          # Checking B with previous A when swapping tracks
-          # See https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
-          # For bouncing around
-          last_b&.duped?(last_last_a&.rerolled)
-        last_b.rerolled = reroll_cat(last_b)
-      end
+      a_cat.reroll(last_a, last_last_b, &method(:reroll_cat))
+      last_b.reroll(last_last_b, last_last_a, &method(:reroll_cat)) if last_b
     end
 
     def advance_seed!
