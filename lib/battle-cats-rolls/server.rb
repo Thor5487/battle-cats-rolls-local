@@ -34,19 +34,23 @@ module BattleCatsRolls
     print Rack::MockRequest.new(app).get("#{base}/warmup").errors
 
     @shutdown = false
-    monitor_memory if ENV['MONITOR_MEMORY']
+
+    if ENV['MONITOR_MEMORY']
+      monitor_memory
+      Kernel.at_exit(&method(:shutdown))
+    end
+
+    Kernel.at_exit(&SeekSeed::Pool.method(:shutdown))
   end
 
   def self.shutdown
     @shutdown = true
     monitor_memory.wakeup
     monitor_memory.join
-    SeekSeed::Pool.shutdown
   end
 
   def self.monitor_memory
     @monitor_memory ||= Thread.new do
-      Kernel.at_exit(&method(:shutdown))
 
       until @shutdown do
         printf \
