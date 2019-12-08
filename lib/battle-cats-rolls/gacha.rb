@@ -65,35 +65,11 @@ module BattleCatsRolls
       end
     end
 
-    def fill_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
+    def finish_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
       return unless guaranteed_rolls > 0
 
-      each_cat(cats) do |rolled_cat, index, track|
-        # Excluding rolled_cat, therefore - 1
-        rolls = (guaranteed_rolls - 1).times.inject([rolled_cat]) do |result|
-          result << result.last&.next
-        end
-
-        next unless rolls.all?
-
-        last = rolls.last
-
-        next_index = last.sequence - (last.track ^ 1)
-        next_track = last.track ^ 1
-        next_cat = cats.dig(next_index, next_track)
-
-        if next_cat
-          guaranteed_slot_fruit =
-            cats.dig(last.sequence - 1, last.track, :rarity_fruit)
-
-          rolled_cat.guaranteed =
-            new_cat(
-              Cat::Uber, guaranteed_slot_fruit,
-              klass: CatGuaranteed,
-              sequence: rolled_cat.sequence,
-              track: rolled_cat.track,
-              next: next_cat)
-        end
+      each_cat(cats) do |rolled_cat|
+        fill_guaranteed(cats, guaranteed_rolls, rolled_cat)
       end
     end
 
@@ -195,6 +171,34 @@ module BattleCatsRolls
         row.each.with_index do |rolled_cat, track|
           yield(rolled_cat, index, track)
         end
+      end
+    end
+
+    def fill_guaranteed cats, guaranteed_rolls, rolled_cat
+      # Excluding cat, therefore - 1
+      return unless last = follow_cat(rolled_cat, guaranteed_rolls - 1)
+
+      next_index = last.sequence - (last.track ^ 1)
+      next_track = last.track ^ 1
+      next_cat = cats.dig(next_index, next_track)
+
+      if next_cat
+        guaranteed_slot_fruit =
+          cats.dig(last.sequence - 1, last.track, :rarity_fruit)
+
+        rolled_cat.guaranteed =
+          new_cat(
+            Cat::Uber, guaranteed_slot_fruit,
+            klass: CatGuaranteed,
+            sequence: rolled_cat.sequence,
+            track: rolled_cat.track,
+            next: next_cat)
+      end
+    end
+
+    def follow_cat cat, steps
+      steps.times.inject(cat) do |result|
+        result&.next
       end
     end
 

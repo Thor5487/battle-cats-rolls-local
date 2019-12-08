@@ -278,7 +278,7 @@ module BattleCatsRolls
         end
 
         gacha.finish_rerolled_links(cats)
-        gacha.fill_guaranteed(cats, guaranteed_rolls)
+        gacha.finish_guaranteed(cats, guaranteed_rolls)
 
         found_cats =
           FindCat.search(gacha, find,
