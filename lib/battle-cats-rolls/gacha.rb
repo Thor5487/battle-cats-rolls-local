@@ -70,6 +70,7 @@ module BattleCatsRolls
 
       each_cat(cats) do |rolled_cat|
         fill_guaranteed(cats, guaranteed_rolls, rolled_cat)
+        fill_guaranteed(cats, guaranteed_rolls, rolled_cat.rerolled)
       end
     end
 
@@ -196,6 +197,9 @@ module BattleCatsRolls
       end
     end
 
+    # We should find a way to optimize this so that
+    # we don't have to follow tightly in a loop!
+    # How do we reuse the calculation?
     def follow_cat cat, steps
       steps.times.inject(cat) do |result|
         result&.next

@@ -112,43 +112,45 @@ module BattleCatsRolls
           %Q{<a href="#{h uri_to_cat_db(cat)}">🐾</a>}
         else
           ''
-        end + link_to_rerolled_cat(cat)
+        end + link_to_rerolled(cat)
     end
 
-    def link_to_rerolled_cat cat
+    def link_to_rerolled cat
       if rerolled = cat.rerolled
-        link = link_to_roll(rerolled)
-        next_cat = rerolled.next
-
-        case next_cat&.track
-        when 0
-          "<br>&lt;- #{next_cat.number} #{link}"
-        when 1
-          "<br>#{link} -&gt; #{next_cat.number}"
-        when nil
-          "<br>&lt;?&gt; #{link}"
-        else
-          raise "Unknown track: #{next_cat.track.inspect}"
-        end
+        "<br>#{point_next_cat(rerolled)}"
       else
         ''
       end
     end
 
-    def guaranteed_cat cat
+    def link_to_guaranteed cat
       if guaranteed = cat.guaranteed
-        link = link_to_roll(guaranteed)
-        next_cat = guaranteed.next
-
-        case next_cat.track
-        when 0
-          "#{link}<br>&lt;- #{next_cat.number}"
-        when 1
-          "#{link}<br>-&gt; #{next_cat.number}"
+        if rerolled = cat.rerolled
+          upper = point_next_cat(guaranteed)
+          lower = point_next_cat(rerolled.guaranteed)
         else
-          raise "Unknown track: #{next_cat.track.inspect}"
+          upper = link_to_roll(guaranteed)
+          lower = point_next_cat(guaranteed, link: false)
         end
+
+        "#{upper}<br>#{lower}"
       end
+    end
+
+    def point_next_cat cat, link: true
+      cat_link = link_to_roll(cat) if link
+      next_cat = cat.next
+
+      case next_cat&.track
+      when 0
+        "&lt;- #{next_cat.number} #{cat_link}"
+      when 1
+        "#{cat_link} -&gt; #{next_cat.number}"
+      when nil
+        "&lt;?&gt; #{cat_link}"
+      else
+        raise "Unknown track: #{next_cat.track.inspect}"
+      end.strip
     end
 
     def guaranteed_rolls
