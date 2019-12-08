@@ -28,16 +28,22 @@
     <% each_ab_cat do |prev_b, (a, b)| %>
       <tr>
         <td rowspan="2" id="N<%= a.number %>"><%= a.number %></td>
+
         <%= seed_column(a.rarity_fruit) %>
+
         <td class="score <%= color_label(a) %>" <%= onclick_pick(a) %>>
           <%= a.score %>, <%= a.slot %></td>
-        <td rowspan="2" class="<%= color_label_guaranteed(a) %>"
-          <%= onclick_pick(a.guaranteed) %>>
-          <%= link_to_guaranteed(a) %></td>
+
+        <td class="score <%= color_label_guaranteed(a) %>"></td>
 
         <% if prev_b %>
           <td class="cat <%= color_label(prev_b) %>" <%= onclick_pick(prev_b) %>>
             <%= link_to_roll(prev_b) %></td>
+
+          <td class="cat <%= color_label_guaranteed(prev_b) %>"
+            <%= onclick_pick(prev_b.guaranteed) %>>
+            <%= link_to_guaranteed(prev_b) %></td>
+
           <%= seed_column(prev_b.slot_fruit) %>
         <% elsif show_details %>
           <td colspan="5"></td>
@@ -48,14 +54,21 @@
 
       <tr>
         <%= seed_column(a.slot_fruit) %>
+
         <td class="cat <%= color_label(a) %>" <%= onclick_pick(a) %>>
           <%= link_to_roll(a) %></td>
+
+        <td class="cat <%= color_label_guaranteed(a) %>"
+          <%= onclick_pick(a.guaranteed) %>>
+          <%= link_to_guaranteed(a) %></td>
+
         <td class="score <%= color_label(b) %>" <%= onclick_pick(b) %>>
           <%= b.score %>, <%= b.slot %></td>
-        <td rowspan="2" class="<%= color_label_guaranteed(b) %>"
-          <%= onclick_pick(b.guaranteed) %>>
-          <%= link_to_guaranteed(b) %></td>
+
+        <td class="score <%= color_label_guaranteed(b) %>"></td>
+
         <%= seed_column(b.rarity_fruit) %>
+
         <td rowspan="2" id="N<%= b.number %>"><%= b.number %></td>
       </tr>
     <% end %>

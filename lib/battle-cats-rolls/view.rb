@@ -35,12 +35,12 @@ module BattleCatsRolls
     end
 
     def color_label cat
-      "pick #{color_rarity(cat)} #{color_picked(cat)}"
+      "pick #{color_rarity(cat)} #{color_picked(cat)}".strip
     end
 
     def color_label_guaranteed cat
       if cat.guaranteed
-        "pick #{color_guaranteed(cat)} #{color_picked_guaranteed(cat)}"
+        "pick #{color_guaranteed(cat)} #{color_picked_guaranteed(cat)}".strip
       end
     end
 
@@ -128,12 +128,11 @@ module BattleCatsRolls
         if rerolled = cat.rerolled
           upper = point_next_cat(guaranteed)
           lower = point_next_cat(rerolled.guaranteed)
-        else
-          upper = link_to_roll(guaranteed)
-          lower = point_next_cat(guaranteed, link: false)
-        end
 
-        "#{upper}<br>#{lower}"
+          "#{upper}<br>#{lower}"
+        else
+          point_next_cat(guaranteed)
+        end
       end
     end
 
