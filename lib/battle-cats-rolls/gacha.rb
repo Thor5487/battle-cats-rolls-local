@@ -69,16 +69,30 @@ module BattleCatsRolls
       return unless guaranteed_rolls > 0
 
       each_cat(cats) do |rolled_cat, index, track|
+        # Excluding rolled_cat, therefore - 1
+        rolls = (guaranteed_rolls - 1).times.inject([rolled_cat]) do |result|
+          result << result.last&.next
+        end
+
+        next unless rolls.all?
+
+        last = rolls.last
+
         guaranteed_slot_fruit =
-          cats.dig(index + guaranteed_rolls - 1, track, :rarity_fruit)
+          cats.dig(last.sequence - 1, last.track, :rarity_fruit)
 
         if guaranteed_slot_fruit
+          next_index = last.sequence - (last.track ^ 1)
+          next_track = last.track ^ 1
+          next_cat = cats.dig(next_index, next_track)
+
           rolled_cat.guaranteed =
             new_cat(
               Cat::Uber, guaranteed_slot_fruit,
               klass: CatGuaranteed,
               sequence: rolled_cat.sequence,
-              track: rolled_cat.track)
+              track: rolled_cat.track,
+              next: next_cat) if next_cat
         end
       end
     end

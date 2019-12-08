@@ -34,19 +34,6 @@ module BattleCatsRolls
       end
     end
 
-    def guaranteed_cat cat, offset
-      if guaranteed = cat.guaranteed
-        link = link_to_roll(guaranteed)
-        next_sequence = cat.sequence + controller.guaranteed_rolls + offset
-
-        if offset < 0
-          "#{link}<br>-&gt; #{next_sequence}B"
-        else
-          "#{link}<br>&lt;- #{next_sequence}A"
-        end
-      end
-    end
-
     def color_label cat
       "pick #{color_rarity(cat)} #{color_picked(cat)}"
     end
@@ -145,6 +132,22 @@ module BattleCatsRolls
         end
       else
         ''
+      end
+    end
+
+    def guaranteed_cat cat
+      if guaranteed = cat.guaranteed
+        link = link_to_roll(guaranteed)
+        next_cat = guaranteed.next
+
+        case next_cat.track
+        when 0
+          "#{link}<br>&lt;- #{next_cat.number}"
+        when 1
+          "#{link}<br>-&gt; #{next_cat.number}"
+        else
+          raise "Unknown track: #{next_cat.track.inspect}"
+        end
       end
     end
 
