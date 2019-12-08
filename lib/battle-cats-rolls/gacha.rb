@@ -91,6 +91,8 @@ module BattleCatsRolls
       else
         picked.picked_label = :picked
       end
+
+      fill_picking_backward(cats, picked)
     end
 
     private
@@ -222,6 +224,27 @@ module BattleCatsRolls
     def follow_cat cat, steps
       steps.times.inject(cat) do |result|
         result&.next
+      end
+    end
+
+    def fill_picking_backward cats, picked
+      number = picked.number
+
+      fill_picking_backward_from(number, [cats.dig(0, 0)])
+      fill_picking_backward_from(number, [cats.dig(0, 1)])
+    end
+
+    def fill_picking_backward_from number, path
+      while next_cat = path.last.next
+        if number == next_cat.number
+          path.each do |passed_cat|
+            passed_cat.picked_label = :picked
+          end
+
+          break
+        else
+          path << next_cat
+        end
       end
     end
 
