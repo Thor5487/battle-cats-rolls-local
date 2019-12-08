@@ -34,7 +34,8 @@
         <td class="score <%= color_label(a) %>" <%= onclick_pick(a) %>>
           <%= a.score %>, <%= a.slot %></td>
 
-        <td class="score <%= color_label_guaranteed(a) %>"></td>
+        <td class="score <%= color_label_guaranteed(a) %>"
+          <%= onclick_pick(a.guaranteed) %>></td>
 
         <% if prev_b %>
           <td class="cat <%= color_label(prev_b) %>" <%= onclick_pick(prev_b) %>>
@@ -65,7 +66,8 @@
         <td class="score <%= color_label(b) %>" <%= onclick_pick(b) %>>
           <%= b.score %>, <%= b.slot %></td>
 
-        <td class="score <%= color_label_guaranteed(b) %>"></td>
+        <td class="score <%= color_label_guaranteed(b) %>"
+          <%= onclick_pick(b.guaranteed) %>></td>
 
         <%= seed_column(b.rarity_fruit) %>
 

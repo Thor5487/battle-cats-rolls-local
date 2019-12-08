@@ -45,31 +45,12 @@ module BattleCatsRolls
     end
 
     def color_picked cat
-      sequence = cat.sequence
-      guaranteed_sequence = pick_sequence + guaranteed_rolls
-
-      if pick_sequence > 0
-        if cat.track_label == pick_track_label
-          if pick_guaranteed
-            if sequence < pick_sequence
-              :picked
-            elsif sequence < guaranteed_sequence - 1
-              :picked_cumulatively
-            end
-          elsif sequence <= pick_sequence
-            :picked
-          elsif sequence == pick_sequence + 1
-            :next_position
-          end
-        elsif pick_guaranteed &&
-              sequence == guaranteed_sequence - cat.track
-          :next_position
-        end
-      end
+      cat.picked_label || cat.rerolled&.picked_label
     end
 
     def color_picked_guaranteed cat
-      :picked_cumulatively if pick == cat.guaranteed.number
+      cat.guaranteed.picked_label ||
+        (cat.rerolled && cat.rerolled.guaranteed.picked_label)
     end
 
     def color_rarity cat
@@ -159,21 +140,6 @@ module BattleCatsRolls
 
     def pick
       @pick ||= arg[:pick] || controller.pick
-    end
-
-    def pick_sequence
-      @pick_sequence ||= pick.to_i
-    end
-
-    def pick_track_label
-      @pick_track_label ||= pick[/\A\d+(\w)/, 1]
-    end
-
-    def pick_guaranteed
-      return @pick_guaranteed if
-        instance_variable_defined?(:@pick_guaranteed)
-
-      @pick_guaranteed = pick.end_with?('G')
     end
 
     def pick_option cats
@@ -295,7 +261,6 @@ module BattleCatsRolls
 
     def onclick_pick cat
       return unless cat && controller.path_info == '/'
-      return if controller.version == '8.6'
 
       %Q{onclick="pick('#{cat.number}')"}
     end

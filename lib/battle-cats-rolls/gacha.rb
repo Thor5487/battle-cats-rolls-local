@@ -72,6 +72,27 @@ module BattleCatsRolls
       end
     end
 
+    def finish_picking cats, sequence, track_label, pick_guaranteed,
+      guaranteed_rolls=pool.guaranteed_rolls
+
+      index = sequence - 1
+      track = track_label.ord - 'A'.ord
+      picked = cats.dig(index, track)
+
+      if pick_guaranteed
+        guaranteed = picked.guaranteed
+        guaranteed.picked_label = :picked_cumulatively
+        guaranteed.next.picked_label = :next_position
+
+        (guaranteed_rolls - 1).times.inject(picked) do |rolled|
+          rolled.picked_label = :picked_cumulatively
+          rolled.next
+        end
+      else
+        picked.picked_label = :picked
+      end
+    end
+
     private
 
     def pick_cats rarity

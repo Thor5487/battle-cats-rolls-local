@@ -7,7 +7,7 @@ module BattleCatsRolls
     :slot, :slot_fruit,
     :sequence, :track, :guaranteed,
     :rerolled, :steps, :next,
-    :rarity_label,
+    :rarity_label, :picked_label,
     keyword_init: true)
 
     Rare   = 2
