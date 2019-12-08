@@ -59,10 +59,9 @@ module BattleCatsRolls
 
         next_index = index + rerolled.steps + track
         next_track = ((track + rerolled.steps - 1) ^ 1) & 1
-        next_cat = cats.dig(next_index, next_track) ||
-          Cat.new(sequence: next_index + 1, track: next_track)
+        next_cat = cats.dig(next_index, next_track)
 
-        fill_cat_links(next_cat, rerolled)
+        fill_cat_links(next_cat, rerolled) if next_cat
       end
     end
 

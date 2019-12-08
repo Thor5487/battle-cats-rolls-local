@@ -133,11 +133,13 @@ module BattleCatsRolls
         link = link_to_roll(rerolled)
         next_cat = rerolled.next
 
-        case next_cat.track
+        case next_cat&.track
         when 0
           "<br>&lt;- #{next_cat.number} #{link}"
         when 1
           "<br>#{link} -&gt; #{next_cat.number}"
+        when nil
+          "<br>&lt;?&gt; #{link}"
         else
           raise "Unknown track: #{next_cat.track.inspect}"
         end
