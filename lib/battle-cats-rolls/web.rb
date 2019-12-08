@@ -273,8 +273,13 @@ module BattleCatsRolls
           gacha.roll_both!(sequence)
         end
 
-        gacha.finish_rerolled_links(cats)
-        gacha.finish_guaranteed(cats, guaranteed_rolls)
+        if version == '8.6'
+          gacha.finish_rerolled_links(cats)
+        end
+
+        if guaranteed_rolls > 0
+          gacha.finish_guaranteed(cats, guaranteed_rolls)
+        end
 
         found_cats =
           FindCat.search(gacha, find,

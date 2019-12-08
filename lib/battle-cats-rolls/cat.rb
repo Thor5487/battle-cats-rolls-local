@@ -70,6 +70,6 @@ module BattleCatsRolls
         else
           :legend
         end
-      end
+    end
   end
 end

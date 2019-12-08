@@ -51,11 +51,8 @@ module BattleCatsRolls
     # Existing dupes can cause more dupes, see this for bouncing around:
     # https://bc.godfat.org/?seed=2263031574&event=2019-11-27_377
     def finish_rerolled_links cats
-      return unless version == '8.6'
-
       each_cat(cats) do |rolled_cat, index, track|
         next unless rerolled = rolled_cat.rerolled
-        next if rerolled.next
 
         next_index = index + rerolled.steps + track
         next_track = ((track + rerolled.steps - 1) ^ 1) & 1
@@ -66,8 +63,6 @@ module BattleCatsRolls
     end
 
     def finish_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
-      return unless guaranteed_rolls > 0
-
       each_cat(cats) do |rolled_cat|
         fill_guaranteed(cats, guaranteed_rolls, rolled_cat)
 
