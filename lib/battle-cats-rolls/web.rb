@@ -127,11 +127,7 @@ module BattleCatsRolls
       def guaranteed_rolls
         @guaranteed_rolls ||=
           if force_guaranteed.zero?
-            if version == '8.6'
-              0
-            else
-              gacha.pool.guaranteed_rolls
-            end
+            gacha.pool.guaranteed_rolls
           else
             force_guaranteed
           end
