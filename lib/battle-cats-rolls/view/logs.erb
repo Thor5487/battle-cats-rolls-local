@@ -14,13 +14,20 @@
 
 <%= header(1, "Known bugs for 8.6+") %><p></p>
 <ol>
-  <li>Seed seeking does not work properly for 8.6+ yet. Pick 8.5 instead, and try your luck. If it can't find the seed, roll another cat, and put your new last 10 cats. When you don't have any duplicated rare cats in the last 10 rolls, it can find the seed.</li>
-  <li>Path highlighting does not work yet. (clicking on the cell)</li>
-  <li>11-rolls or 15-rolls guaranteed will not be accurate whenever there are duplicated rare cats sitting in the middle. Use 2-rolls guaranteed and count your path by yourself for now as the workaround.</li>
-  <li>There are some rare cases where you have a duplicated collaborate rare cat can move you more than 1 positions. When this happened, the table might not properly show that there might have another duplicated cat right after you jumped to that far away.</li>
+  <li>Help page is bugged due to the new changes. I'll fix it soon.</li>
+  <li>Seed seeking does not fully work for 8.6+ yet. If it can't find the seed, roll another cat, and put your new last 10 cats. When you don't have any duplicated rare cats in the last 10 rolls, it can find the seed.</li>
 </ol>
 
 <%= header(1, "What's changed?") %><p></p>
+
+<%= header(2, "2019-12-09") %>
+<ul>
+  <li>Guaranteed columns should be fully working for 8.6+ now. You don't have to set force guaranteed to 2 and count manually anymore.</li>
+  <li>Guaranteed columns may have two rows when there's a dupe rare, because you might be starting from the re-rolled cat, and in that case you need to look at the second row.</li>
+  <li>Highlighting the rolling path is done for 8.6+. Try clicking on the cells.</li>
+  <li>The super duper edge case for duplicated collaborate rare cats has been fixed. Everything should be predicted correctly now.</li>
+  <li>8.6+ is no longer considered experimental. There are still improvements I want to make, but all the basic functionalities are there. Next I'll improve the highlighting that it'll only highlight the exact cats you'll get.</li>
+</ul>
 
 <%= header(2, "2019-08-06") %>
 <ul>

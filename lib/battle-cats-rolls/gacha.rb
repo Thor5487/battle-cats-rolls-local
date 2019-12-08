@@ -197,7 +197,6 @@ module BattleCatsRolls
     end
 
     def fill_guaranteed cats, guaranteed_rolls, rolled_cat
-      # Excluding cat, therefore - 1
       return unless last = follow_cat(rolled_cat, guaranteed_rolls - 1)
 
       next_index = last.sequence - (last.track ^ 1)
