@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'cat'
+require_relative 'cat_guaranteed'
 require_relative 'gacha'
 
 module BattleCatsRolls
@@ -18,15 +19,15 @@ module BattleCatsRolls
     def swap_the_tracks
       @swap_the_tracks ||=
         advance_the_tracks.map do |(a, b)|
-          [b.new_with(track: 'A'), a.new_with(track: 'B')]
+          [b.new_with(track: 0), a.new_with(track: 1)]
         end
     end
 
     def lookup_cat_data gacha
       @lookup_cat_data ||= [[
         fake_cat(
-          319, gacha.pool.dig_cat(Cat::Uber, 319, 'name', 0), 1, 'A'),
-        fake_cat(-1, 'Cat', 1, 'B')
+          319, gacha.pool.dig_cat(Cat::Uber, 319, 'name', 0), 1, 0),
+        fake_cat(-1, 'Cat', 1, 1)
       ]]
     end
 
@@ -34,9 +35,9 @@ module BattleCatsRolls
       @guaranteed_tracks ||= begin
         tracks = fake_tracks.map(&:dup)
         tracks[0][0] = tracks.dig(0, 0).
-          new_with(guaranteed: fake_cat(-1, '1A guaranteed uber', 1, 'AG'))
+          new_with(guaranteed: fake_cat(-1, '1A guaranteed uber', 1, 0))
         tracks[0][1] = tracks.dig(0, 1).
-          new_with(guaranteed: fake_cat(-1, '1B guaranteed uber', 1, 'BG'))
+          new_with(guaranteed: fake_cat(-1, '1B guaranteed uber', 1, 1))
         tracks
       end
     end
@@ -47,12 +48,12 @@ module BattleCatsRolls
       @fake_tracks ||= [
         %i[rare supa rare rare supa supa rare uber supa rare legend rare],
         %i[supa rare uber supa rare rare supa rare rare supa rare uber]
-      ].map.with_index do |column, a_or_b|
+      ].map.with_index do |column, track|
         column.map.with_index do |rarity_label, index|
           sequence = index + 1
-          track = ('A'.ord + a_or_b).chr
-          cat = fake_cat(
-            -1, "#{sequence}#{track} #{rarity_label} cat", sequence, track)
+          track_label = (track + 'A'.ord).chr
+          name = "#{sequence}#{track_label} #{rarity_label} cat"
+          cat = fake_cat(-1, name, sequence, track)
           cat.rarity_label = rarity_label
           cat
         end
@@ -60,7 +61,14 @@ module BattleCatsRolls
     end
 
     def fake_cat id, name, sequence, track
-      Cat.new(
+      klass =
+        if name.include?('guaranteed')
+          CatGuaranteed
+        else
+          Cat
+        end
+
+      klass.new(
         id: id, info: {'name' => [name]},
         sequence: sequence, track: track)
     end

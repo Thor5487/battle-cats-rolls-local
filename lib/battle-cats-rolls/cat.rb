@@ -34,8 +34,12 @@ module BattleCatsRolls
       info.dig('desc', index) || pick_description(index - 1) if index >= 0
     end
 
-    def sequence_track
-      "#{sequence}#{track}"
+    def number
+      "#{sequence}#{track_label}"
+    end
+
+    def track_label
+      (track + 'A'.ord).chr
     end
 
     def == rhs
@@ -46,14 +50,8 @@ module BattleCatsRolls
       rhs && rarity == Rare && id == rhs.id
     end
 
-    def new_with(args={})
-      result = self.class.new(*to_a)
-
-      args.each do |key, value|
-        result.public_send("#{key}=", value)
-      end
-
-      result
+    def new_with **args
+      self.class.new(to_h.merge(args))
     end
 
     def rarity_label

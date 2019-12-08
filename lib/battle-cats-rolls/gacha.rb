@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'cat'
+require_relative 'cat_guaranteed'
 require_relative 'fruit'
 require_relative 'gacha_pool'
 
@@ -33,14 +34,12 @@ module BattleCatsRolls
       b_fruit = roll_fruit
       a_cat = roll_cat!(a_fruit)
       b_cat = roll_cat(b_fruit)
-      a_cat.track = 'A'
-      b_cat.track = 'B'
+      a_cat.track = 0
+      b_cat.track = 1
       a_cat.sequence = b_cat.sequence = sequence
 
-      if version == '8.6'
-        fill_cat_links(a_cat, last_both.first)
-        fill_cat_links(b_cat, last_both.last)
-      end
+      fill_cat_links(a_cat, last_both.first)
+      fill_cat_links(b_cat, last_both.last)
 
       self.last_both = [a_cat, b_cat]
     end
@@ -54,35 +53,35 @@ module BattleCatsRolls
     def finish_rerolled_links cats
       return unless version == '8.6'
 
-      each_ab_cat(cats) do |rolled_cat, index, a_or_b|
+      each_cat(cats) do |rolled_cat, index, track|
         next unless rerolled = rolled_cat.rerolled
         next if rerolled.next
 
-        next_index = index + rerolled.steps + a_or_b
-        next_track = ((a_or_b + rerolled.steps - 1) ^ 1) & 1
+        next_index = index + rerolled.steps + track
+        next_track = ((track + rerolled.steps - 1) ^ 1) & 1
         next_cat = cats.dig(next_index, next_track) ||
-          fake_cat(next_index, next_track)
+          Cat.new(sequence: next_index + 1, track: next_track)
 
         fill_cat_links(next_cat, rerolled)
       end
     end
 
     def fill_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
-      if guaranteed_rolls > 0
-        each_ab_cat(cats) do |rolled_cat, index, a_or_b|
-          guaranteed_slot_fruit =
-            cats.dig(index + guaranteed_rolls - 1, a_or_b, :rarity_fruit)
+      return unless guaranteed_rolls > 0
 
-          if guaranteed_slot_fruit
-            rolled_cat.guaranteed =
-              new_cat(Cat::Uber, guaranteed_slot_fruit)
-            rolled_cat.guaranteed.sequence = rolled_cat.sequence
-            rolled_cat.guaranteed.track = "#{rolled_cat.track}G"
-          end
+      each_cat(cats) do |rolled_cat, index, track|
+        guaranteed_slot_fruit =
+          cats.dig(index + guaranteed_rolls - 1, track, :rarity_fruit)
+
+        if guaranteed_slot_fruit
+          rolled_cat.guaranteed =
+            new_cat(
+              Cat::Uber, guaranteed_slot_fruit,
+              klass: CatGuaranteed,
+              sequence: rolled_cat.sequence,
+              track: rolled_cat.track)
         end
       end
-
-      guaranteed_rolls
     end
 
     private
@@ -132,19 +131,16 @@ module BattleCatsRolls
       end
     end
 
-    def new_cat rarity, slot_fruit
+    def new_cat rarity, slot_fruit, klass: Cat, **args
       slots = pool.dig_slot(rarity)
       slot = slot_fruit.value % slots.size
       id = slots[slot]
 
-      Cat.new(
+      klass.new(
         id: id, info: pool.dig_cat(rarity, id),
         rarity: rarity,
-        slot_fruit: slot_fruit, slot: slot)
-    end
-
-    def fake_cat index, a_or_b
-      Cat.new(sequence: index + 1, track: ('A'.ord + a_or_b).chr)
+        slot_fruit: slot_fruit, slot: slot,
+        **args)
     end
 
     def reroll_cat cat
@@ -174,17 +170,17 @@ module BattleCatsRolls
     end
 
     def fill_cat_links cat, last_cat
-      if cat.duped?(last_cat)
+      if version == '8.6' && cat.duped?(last_cat)
         last_cat.next = cat.rerolled = reroll_cat(cat)
       elsif last_cat
         last_cat.next = cat
       end
     end
 
-    def each_ab_cat cats
-      cats.each.with_index do |ab, index|
-        ab.each.with_index do |rolled_cat, a_or_b|
-          yield(rolled_cat, index, a_or_b)
+    def each_cat cats
+      cats.each.with_index do |row, index|
+        row.each.with_index do |rolled_cat, track|
+          yield(rolled_cat, index, track)
         end
       end
     end
