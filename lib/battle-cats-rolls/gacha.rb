@@ -78,13 +78,13 @@ module BattleCatsRolls
 
         last = rolls.last
 
-        guaranteed_slot_fruit =
-          cats.dig(last.sequence - 1, last.track, :rarity_fruit)
+        next_index = last.sequence - (last.track ^ 1)
+        next_track = last.track ^ 1
+        next_cat = cats.dig(next_index, next_track)
 
-        if guaranteed_slot_fruit
-          next_index = last.sequence - (last.track ^ 1)
-          next_track = last.track ^ 1
-          next_cat = cats.dig(next_index, next_track)
+        if next_cat
+          guaranteed_slot_fruit =
+            cats.dig(last.sequence - 1, last.track, :rarity_fruit)
 
           rolled_cat.guaranteed =
             new_cat(
@@ -92,7 +92,7 @@ module BattleCatsRolls
               klass: CatGuaranteed,
               sequence: rolled_cat.sequence,
               track: rolled_cat.track,
-              next: next_cat) if next_cat
+              next: next_cat)
         end
       end
     end
