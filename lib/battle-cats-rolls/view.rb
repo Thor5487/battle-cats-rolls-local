@@ -22,7 +22,7 @@ module BattleCatsRolls
 
     def each_ball_cat
       arg[:cats].each do |rarity, data|
-        yield(rarity, data.map{ |id, info| Cat.new(id, info) })
+        yield(rarity, data.map{ |id, info| Cat.new(id: id, info: info) })
       end
     end
 
@@ -131,14 +131,15 @@ module BattleCatsRolls
     def link_to_rerolled_cat cat
       if rerolled = cat.rerolled
         link = link_to_roll(rerolled)
+        next_cat = rerolled.next
 
-        case rerolled.track
+        case next_cat.track
         when 'A'
-          "<br>&lt;- #{rerolled.sequence}A #{link}"
+          "<br>&lt;- #{next_cat.sequence}A #{link}"
         when 'B'
-          "<br>#{link} -&gt; #{rerolled.sequence}B"
+          "<br>#{link} -&gt; #{next_cat.sequence}B"
         else
-          raise "Unknown track: #{cat.track.inspect}"
+          raise "Unknown track: #{next_cat.track.inspect}"
         end
       else
         ''

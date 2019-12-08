@@ -52,10 +52,7 @@ module BattleCatsRolls
               break found if found
             end
 
-            cat = Cat.new(missing_id, info)
-            cat.sequence = max
-
-            cat
+            Cat.new(id: missing_id, info: info, sequence: max)
           end
         else
           found.values

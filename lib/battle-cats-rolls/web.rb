@@ -270,13 +270,14 @@ module BattleCatsRolls
     get '/' do
       if event && seed.nonzero? && gacha.pool.exist?
         gacha.pool.add_future_ubers(ubers) if ubers > 0
-        gacha.last_both = [Cat.new(last), nil] if last.nonzero?
+        gacha.last_both = [Cat.new(id: last), nil] if last.nonzero?
 
         # Human counts from 1
         cats = 1.upto(count).map do |sequence|
           gacha.roll_both!(sequence)
         end
 
+        gacha.finish_rerolled_links(cats)
         gacha.fill_guaranteed(cats, guaranteed_rolls)
 
         found_cats =

@@ -61,9 +61,8 @@ module BattleCatsRolls
 
     def fake_cat id, name, sequence, track
       Cat.new(
-        id, {'name' => [name]}, nil,
-        nil, nil, nil, nil, nil,
-        sequence, track)
+        id: id, info: {'name' => [name]},
+        sequence: sequence, track: track)
     end
   end
 end
