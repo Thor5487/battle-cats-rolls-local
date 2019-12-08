@@ -39,7 +39,11 @@ module BattleCatsRolls
     end
 
     def track_label
-      (track + 'A'.ord).chr
+      if track
+        (track + 'A'.ord).chr
+      else
+        '+'
+      end
     end
 
     def == rhs
