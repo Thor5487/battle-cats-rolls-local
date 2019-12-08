@@ -70,7 +70,10 @@ module BattleCatsRolls
 
       each_cat(cats) do |rolled_cat|
         fill_guaranteed(cats, guaranteed_rolls, rolled_cat)
-        fill_guaranteed(cats, guaranteed_rolls, rolled_cat.rerolled)
+
+        if rolled_cat.rerolled
+          fill_guaranteed(cats, guaranteed_rolls, rolled_cat.rerolled)
+        end
       end
     end
 
