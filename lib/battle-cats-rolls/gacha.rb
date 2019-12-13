@@ -161,8 +161,9 @@ module BattleCatsRolls
       slot = cat.slot
       id = nil
 
-      # See https://bc.godfat.org/?seed=3419147157&event=2019-07-18_391
       # This can run up to the number of duplicated cats
+      # 2: https://bc.godfat.org/?seed=3419147157&event=2019-07-18_391
+      # 4: https://bc.godfat.org/?seed=2116007321&event=2019-07-21_391&pick=1AG
       steps = (1..rerolling_slots.count(cat.id)).find do
         next_seed = advance_seed(next_seed)
         rerolling_slots.delete_at(slot)
