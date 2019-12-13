@@ -79,17 +79,23 @@ module BattleCatsRolls
       track = track_label.ord - 'A'.ord
       picked = cats.dig(index, track)
 
+      return unless picked # Users can give arbitrary numbers
+
       if pick_guaranteed
         guaranteed = picked.guaranteed
+
+        return unless guaranteed # This event might not even have guaranteed
+
         guaranteed.picked_label = :picked_cumulatively
-        guaranteed.next.picked_label = :next_position
+        guaranteed.next&.picked_label = :next_position
 
         (guaranteed_rolls - 1).times.inject(picked) do |rolled|
           rolled.picked_label = :picked_cumulatively
-          rolled.next
+          rolled.next || break
         end
       else
         picked.picked_label = :picked
+        picked.next&.picked_label = :next_position
       end
 
       fill_picking_backward(cats, picked)
@@ -223,7 +229,7 @@ module BattleCatsRolls
     # How do we reuse the calculation?
     def follow_cat cat, steps
       steps.times.inject(cat) do |result|
-        result&.next
+        result.next || break
       end
     end
 
