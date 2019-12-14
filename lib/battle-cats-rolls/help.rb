@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'cat'
-require_relative 'cat_guaranteed'
 require_relative 'gacha'
 
 module BattleCatsRolls
@@ -61,14 +60,7 @@ module BattleCatsRolls
     end
 
     def fake_cat id, name, sequence, track
-      klass =
-        if name.include?('guaranteed')
-          CatGuaranteed
-        else
-          Cat
-        end
-
-      klass.new(
+      Cat.new(
         id: id, info: {'name' => [name]},
         sequence: sequence, track: track)
     end

@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'cat'
-require_relative 'cat_guaranteed'
 require_relative 'fruit'
 require_relative 'gacha_pool'
 
@@ -72,16 +71,20 @@ module BattleCatsRolls
       end
     end
 
-    def finish_picking cats, sequence, track_label, pick_guaranteed,
-      guaranteed_rolls=pool.guaranteed_rolls
+    def finish_picking cats, pick, guaranteed_rolls=pool.guaranteed_rolls
+      index = pick.to_i - 1
+      track = (pick[/\A\d+(\w)/, 1] || 'A').ord - 'A'.ord
+      located = cats.dig(index, track)
+      picked =
+        if pick.include?('R')
+          located.rerolled
+        else
+          located
+        end
 
-      index = sequence - 1
-      track = track_label.ord - 'A'.ord
-      picked = cats.dig(index, track)
+      return unless picked # Users can give arbitrary input
 
-      return unless picked # Users can give arbitrary numbers
-
-      if pick_guaranteed
+      if pick.include?('G')
         guaranteed = picked.guaranteed
 
         return unless guaranteed # This event might not even have guaranteed
@@ -148,12 +151,12 @@ module BattleCatsRolls
       end
     end
 
-    def new_cat rarity, slot_fruit, klass: Cat, **args
+    def new_cat rarity, slot_fruit, **args
       slots = pool.dig_slot(rarity)
       slot = slot_fruit.value % slots.size
       id = slots[slot]
 
-      klass.new(
+      Cat.new(
         id: id, info: pool.dig_cat(rarity, id),
         rarity: rarity,
         slot_fruit: slot_fruit, slot: slot,
@@ -184,7 +187,8 @@ module BattleCatsRolls
         id: id, info: pool.dig_cat(rarity, id),
         rarity: rarity,
         slot_fruit: roll_fruit(next_seed), slot: slot,
-        sequence: cat.sequence, track: cat.track, steps: steps)
+        sequence: cat.sequence, track: cat.track, steps: steps,
+        extra_label: "#{cat.extra_label}R")
     end
 
     def fill_cat_links cat, last_cat
@@ -217,10 +221,10 @@ module BattleCatsRolls
         rolled_cat.guaranteed =
           new_cat(
             Cat::Uber, guaranteed_slot_fruit,
-            klass: CatGuaranteed,
             sequence: rolled_cat.sequence,
             track: rolled_cat.track,
-            next: next_cat)
+            next: next_cat,
+            extra_label: "#{rolled_cat.extra_label}G")
       end
     end
 

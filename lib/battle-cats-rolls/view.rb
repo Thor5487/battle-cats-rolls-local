@@ -20,6 +20,8 @@ module BattleCatsRolls
       erb(:layout){ erb(name) }
     end
 
+    private
+
     def each_ball_cat
       arg[:cats].each do |rarity, data|
         yield(rarity, data.map{ |id, info| Cat.new(id: id, info: info) })
@@ -35,22 +37,9 @@ module BattleCatsRolls
     end
 
     def color_label cat
-      "pick #{color_rarity(cat)} #{color_picked(cat)}".strip
-    end
-
-    def color_label_guaranteed cat
-      if cat.guaranteed
-        "pick #{color_guaranteed(cat)} #{color_picked_guaranteed(cat)}".strip
+      if cat
+        "pick #{color_rarity(cat)} #{cat.picked_label}".strip
       end
-    end
-
-    def color_picked cat
-      cat.picked_label || cat.rerolled&.picked_label
-    end
-
-    def color_picked_guaranteed cat
-      cat.guaranteed.picked_label ||
-        (cat.rerolled && cat.rerolled.guaranteed.picked_label)
     end
 
     def color_rarity cat
@@ -80,6 +69,51 @@ module BattleCatsRolls
       end
     end
 
+    def number_td cat, other_cat
+      rowspan = 2 + [cat.rerolled, other_cat&.rerolled].compact.size
+
+      <<~HTML
+        <td rowspan="#{rowspan}" id="N#{cat.number}">#{cat.number}</td>
+      HTML
+    end
+
+    def score_tds cat, other_cat
+      rowspan =
+        if other_cat&.rerolled
+          2
+        else
+          1
+        end
+
+      content = "#{cat.score}, #{cat.slot}"
+      single = td(cat, :score, rowspan: rowspan, content: content)
+      guaranteed = td(cat.guaranteed, :score, rowspan: rowspan)
+
+      "#{single}\n#{guaranteed}"
+    end
+
+    def cat_tds cat, type=:roll
+      single = td_to_cat(cat, type)
+      guaranteed = td_to_cat(cat.guaranteed, :next)
+
+      "#{single}\n#{guaranteed}"
+    end
+
+    def td_to_cat cat, link_type
+      td(cat, :cat, content: cat && __send__("link_to_#{link_type}", cat))
+    end
+
+    def td cat, type, rowspan: 1, content: nil
+      <<~HTML
+        <td
+          rowspan="#{rowspan}"
+          class="#{type} #{color_label(cat)}"
+          #{onclick_pick(cat)}>
+          #{content}
+        </td>
+      HTML
+    end
+
     def link_to_roll cat
       name = h cat.pick_name(controller.name)
       title = h cat.pick_title(controller.name)
@@ -93,32 +127,11 @@ module BattleCatsRolls
           %Q{<a href="#{h uri_to_cat_db(cat)}">🐾</a>}
         else
           ''
-        end + link_to_rerolled(cat)
-    end
-
-    def link_to_rerolled cat
-      if rerolled = cat.rerolled
-        "<br>#{point_next_cat(rerolled)}"
-      else
-        ''
-      end
-    end
-
-    def link_to_guaranteed cat
-      if guaranteed = cat.guaranteed
-        if rerolled = cat.rerolled
-          upper = point_next_cat(guaranteed)
-          lower = point_next_cat(rerolled.guaranteed)
-
-          "#{upper}<br>#{lower}"
-        else
-          point_next_cat(guaranteed)
         end
-      end
     end
 
-    def point_next_cat cat, link: true
-      cat_link = link_to_roll(cat) if link
+    def link_to_next cat
+      cat_link = link_to_roll(cat)
       next_cat = cat.next
 
       case next_cat&.track
@@ -130,7 +143,7 @@ module BattleCatsRolls
         "&lt;?&gt; #{cat_link}"
       else
         raise "Unknown track: #{next_cat.track.inspect}"
-      end.strip
+      end
     end
 
     def guaranteed_rolls
@@ -240,8 +253,6 @@ module BattleCatsRolls
       end
     end
 
-    private
-
     def header n, name
       id = name.to_s.downcase.gsub(/\W+/, '-')
 
@@ -250,12 +261,26 @@ module BattleCatsRolls
       HTML
     end
 
-    def seed_column fruit
+    def seed_tds fruit, cat
       return unless show_details
 
+      rowspan =
+        if cat&.rerolled
+          2
+        else
+          1
+        end
+
+      value =
+        if fruit.seed == fruit.value
+          '-'
+        else
+          fruit.value
+        end
+
       <<~HTML
-        <td>#{fruit.seed}</td>
-        <td>#{if fruit.seed == fruit.value then '-' else fruit.value end}</td>
+        <td rowspan="#{rowspan}">#{fruit.seed}</td>
+        <td rowspan="#{rowspan}">#{value}</td>
       HTML
     end
 

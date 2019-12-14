@@ -27,25 +27,14 @@
 
     <% each_ab_cat do |prev_b, (a, b)| %>
       <tr>
-        <td rowspan="2" id="N<%= a.number %>"><%= a.number %></td>
-
-        <%= seed_column(a.rarity_fruit) %>
-
-        <td class="score <%= color_label(a) %>" <%= onclick_pick(a) %>>
-          <%= a.score %>, <%= a.slot %></td>
-
-        <td class="score <%= color_label_guaranteed(a) %>"
-          <%= onclick_pick(a.guaranteed) %>></td>
+        <%= number_td(a, prev_b) %>
+        <%= seed_tds(a.rarity_fruit, prev_b) %>
+        <%= score_tds(a, prev_b) %>
 
         <% if prev_b %>
-          <td class="cat <%= color_label(prev_b) %>" <%= onclick_pick(prev_b) %>>
-            <%= link_to_roll(prev_b) %></td>
+          <%= cat_tds(prev_b) %>
+          <%= seed_tds(prev_b.slot_fruit, prev_b) %>
 
-          <td class="cat <%= color_label_guaranteed(prev_b) %>"
-            <%= onclick_pick(prev_b.guaranteed) %>>
-            <%= link_to_guaranteed(prev_b) %></td>
-
-          <%= seed_column(prev_b.slot_fruit) %>
         <% elsif show_details %>
           <td colspan="5"></td>
         <% else %>
@@ -53,26 +42,23 @@
         <% end %>
       </tr>
 
+      <% if pbr = prev_b&.rerolled %>
+        <tr><%= cat_tds(pbr, :next) %></tr>
+      <% end %>
+
       <tr>
-        <%= seed_column(a.slot_fruit) %>
+        <%= seed_tds(a.slot_fruit, a) %>
+        <%= cat_tds(a) %>
 
-        <td class="cat <%= color_label(a) %>" <%= onclick_pick(a) %>>
-          <%= link_to_roll(a) %></td>
+        <%= score_tds(b, a) %>
 
-        <td class="cat <%= color_label_guaranteed(a) %>"
-          <%= onclick_pick(a.guaranteed) %>>
-          <%= link_to_guaranteed(a) %></td>
-
-        <td class="score <%= color_label(b) %>" <%= onclick_pick(b) %>>
-          <%= b.score %>, <%= b.slot %></td>
-
-        <td class="score <%= color_label_guaranteed(b) %>"
-          <%= onclick_pick(b.guaranteed) %>></td>
-
-        <%= seed_column(b.rarity_fruit) %>
-
-        <td rowspan="2" id="N<%= b.number %>"><%= b.number %></td>
+        <%= seed_tds(b.rarity_fruit, a) %>
+        <%= number_td(b, a) %>
       </tr>
+
+      <% if ar = a.rerolled %>
+        <tr><%= cat_tds(ar, :next) %></tr>
+      <% end %>
     <% end %>
 
     <tr>
@@ -83,9 +69,8 @@
       <% end %>
 
       <% last_b = arg.dig(:cats, -1, -1) %>
-      <td class="cat <%= color_label(last_b) %>">
-        <%= link_to_roll(last_b) %></td>
-      <%= seed_column(last_b.slot_fruit) %>
+      <%= cat_tds(last_b) %>
+      <%= seed_tds(last_b.slot_fruit, last_b) %>
     </tr>
   </table>
 </div>

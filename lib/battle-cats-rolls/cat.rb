@@ -5,9 +5,9 @@ module BattleCatsRolls
     :id, :info,
     :rarity, :rarity_fruit, :score,
     :slot, :slot_fruit,
-    :sequence, :track, :guaranteed,
-    :rerolled, :steps, :next,
-    :rarity_label, :picked_label,
+    :sequence, :track, :steps,
+    :next, :parent, :rerolled, :guaranteed,
+    :rarity_label, :picked_label, :extra_label,
     keyword_init: true)
 
     Rare   = 2
@@ -35,7 +35,7 @@ module BattleCatsRolls
     end
 
     def number
-      "#{sequence}#{track_label}"
+      "#{sequence}#{track_label}#{extra_label}"
     end
 
     def track_label

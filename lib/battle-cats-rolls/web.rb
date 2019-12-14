@@ -109,25 +109,6 @@ module BattleCatsRolls
         @last ||= request.params['last'].to_i
       end
 
-      def pick
-        @pick ||= request.params['pick'].to_s
-      end
-
-      def pick_sequence
-        @pick_sequence ||= pick.to_i
-      end
-
-      def pick_track_label
-        @pick_track_label ||= pick[/\A\d+(\w)/, 1]
-      end
-
-      def pick_guaranteed
-        return @pick_guaranteed if
-          instance_variable_defined?(:@pick_guaranteed)
-
-        @pick_guaranteed = pick.end_with?('G')
-      end
-
       def no_guaranteed
         return @no_guaranteed if instance_variable_defined?(:@no_guaranteed)
 
@@ -296,10 +277,8 @@ module BattleCatsRolls
           gacha.finish_guaranteed(cats, guaranteed_rolls)
         end
 
-        if pick_sequence > 0
-          gacha.finish_picking(
-            cats, pick_sequence, pick_track_label, pick_guaranteed,
-            guaranteed_rolls)
+        if pick = request.params['pick']
+          gacha.finish_picking(cats, pick, guaranteed_rolls)
         end
 
         found_cats =

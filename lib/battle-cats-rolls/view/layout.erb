@@ -62,7 +62,7 @@
       };
       function pick(position) {
         window.location = '<%= uri %>' + '&pick=' + position
-          + '#N' + position.replace(/G$/, '');
+          + '#N' + position.replace(/[RG]/g, '');
       };
     </script>
   </head>
