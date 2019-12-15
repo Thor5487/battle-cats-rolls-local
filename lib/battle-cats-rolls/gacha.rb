@@ -226,7 +226,7 @@ module BattleCatsRolls
 
       Cat.new(
         id: id, info: pool.dig_cat(rarity, id),
-        rarity: rarity,
+        rarity: rarity, score: cat.score,
         slot_fruit: roll_fruit(next_seed), slot: slot,
         sequence: cat.sequence, track: cat.track, steps: steps,
         extra_label: "#{cat.extra_label}R")
