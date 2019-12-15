@@ -36,10 +36,17 @@ module BattleCatsRolls
       end
     end
 
-    def color_label cat
-      if cat
-        "pick #{color_rarity(cat)} #{cat.picked_label}".strip
+    def color_label cat, type, rerolled
+      return unless cat
+
+      if type == :cat || !(rerolled || cat.rerolled)
+        picked = cat.picked_label
+        cursor = :pick
+      else
+        cursor = :navigate
       end
+
+      "#{cursor} #{color_rarity(cat)} #{picked}".chomp(' ')
     end
 
     def color_rarity cat
@@ -93,7 +100,8 @@ module BattleCatsRolls
         end
 
       single = td(cat, :score, rowspan: rowspan, content: content)
-      guaranteed = td(cat.guaranteed, :score, rowspan: rowspan)
+      guaranteed = td(cat.guaranteed, :score, rowspan: rowspan,
+        rerolled: cat.rerolled&.guaranteed)
 
       "#{single}\n#{guaranteed}"
     end
@@ -109,11 +117,11 @@ module BattleCatsRolls
       td(cat, :cat, content: cat && __send__("link_to_#{link_type}", cat))
     end
 
-    def td cat, type, rowspan: 1, content: nil
+    def td cat, type, rowspan: 1, content: nil, rerolled: nil
       <<~HTML
         <td
           rowspan="#{rowspan}"
-          class="#{type} #{color_label(cat)}"
+          class="#{type} #{color_label(cat, type, rerolled)}"
           #{onclick_pick(cat, type)}>
           #{content}
         </td>
