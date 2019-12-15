@@ -85,7 +85,13 @@ module BattleCatsRolls
           1
         end
 
-      content = "#{cat.score}, #{cat.slot}"
+      content =
+        if show_details
+          "#{cat.score}, #{cat.slot}"
+        else
+          "\u00A0"
+        end
+
       single = td(cat, :score, rowspan: rowspan, content: content)
       guaranteed = td(cat.guaranteed, :score, rowspan: rowspan)
 
