@@ -114,7 +114,7 @@ module BattleCatsRolls
         <td
           rowspan="#{rowspan}"
           class="#{type} #{color_label(cat)}"
-          #{onclick_pick(cat)}>
+          #{onclick_pick(cat, type)}>
           #{content}
         </td>
       HTML
@@ -290,10 +290,18 @@ module BattleCatsRolls
       HTML
     end
 
-    def onclick_pick cat
+    def onclick_pick cat, type
       return unless cat && controller.path_info == '/'
 
-      %Q{onclick="pick('#{cat.number}')"}
+      number =
+        case type
+        when :cat
+          cat.number
+        else
+          "#{cat.number}X"
+        end
+
+      %Q{onclick="pick('#{number}')"}
     end
 
     def uri_to_roll cat
