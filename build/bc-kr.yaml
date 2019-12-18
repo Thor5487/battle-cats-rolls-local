@@ -3302,3 +3302,43 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-12-20_427:
+    start_on: 2019-12-20
+    end_on: 2019-12-23
+    version: '90100'
+    name: "★미네르바 참전! 검은 적에 강한 환수들을 GET하자냥! 자세한 내용은 배너를 클릭!★"
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-20_472:
+    start_on: 2019-12-20
+    end_on: 2019-12-26
+    version: '90100'
+    name: "♡겨울 한정의 깜찍한 코스프레 캐릭터들을 획득할 찬스!♡ 【크리스마스 걸즈】♡"
+    id: 472
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_424:
+    start_on: 2019-12-23
+    end_on: 2019-12-26
+    version: '90100'
+    name: "★라스트 보스 참전! 세계 최강 전력의 냥코 군단!★자세한 내용은 배너를 클릭!★"
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_471:
+    start_on: 2019-12-23
+    end_on: 2030-01-01
+    version: '90100'
+    name: 울트라 슈퍼 레어 캐릭터를 반드시 뽑을 수 있는 「플래티넘 뽑기」
+    id: 471
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true

@@ -4022,3 +4022,43 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-12-20_427:
+    start_on: 2019-12-20
+    end_on: 2019-12-23
+    version: '90100'
+    name: 成田甲斐參戰！對上黑敵有強大效果最靠得住的戰國武將們！★點圖確認詳細吧！！
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-20_472:
+    start_on: 2019-12-20
+    end_on: 2019-12-26
+    version: '90100'
+    name: 冬季限定！快來獲得可愛的聖誕節貓咪吧！★11連轉超激確定活動中！
+    id: 472
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_424:
+    start_on: 2019-12-23
+    end_on: 2019-12-26
+    version: '90100'
+    name: 拉斯沃斯參戰！世界第一即戰力的貓咪們！★點圖可以看詳細內容喔！
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_471:
+    start_on: 2019-12-23
+    end_on: 2030-01-01
+    version: '90100'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 471
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true

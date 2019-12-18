@@ -4343,3 +4343,43 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2019-12-20_427:
+    start_on: 2019-12-20
+    end_on: 2019-12-23
+    version: '90100'
+    name: Narita Kaihime awaits your command! ★ Tap banner for more info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-20_472:
+    start_on: 2019-12-20
+    end_on: 2019-12-26
+    version: '90100'
+    name: Winter ladies, here for a limited time! ★ Get the Xmas Gals, only now!
+    id: 472
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_424:
+    start_on: 2019-12-23
+    end_on: 2019-12-26
+    version: '90100'
+    name: Embrace darkness with new Uber LASVOSS! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-23_471:
+    start_on: 2019-12-23
+    end_on: 2030-01-01
+    version: '90100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 471
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
