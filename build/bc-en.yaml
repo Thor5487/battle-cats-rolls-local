@@ -555,6 +555,12 @@ cats:
     524:
       name: [Wushu Cat, Sifu Cat]
       desc: ["Top student at a discount martial arts school that\ncosts $40 per month. Goes twice weekly after work.\nTough vs Zombies.", "Owner of a discount martial arts school. His insistence\non using custom equipment disqualifies him from\nofficial competitions. Tough vs Zombies."]
+    528:
+      name: [Slime Cat, Jellycat]
+      desc: ["When I woke up, I found myself turned into a slime.\nNow I wander the city bullying low-level heroes.\n100% Wave Attack chance.", "Uncanny beasts that appear en masse, soothing\nthe eyes and stinging the skin of passersby.\nBewilder your enemy with Wave Attacks!"]
+    529:
+      name: [Cossack Cat, Vodka Cat]
+      desc: ["A Cat of the steppes, master of the dance.\nYears of practice developed powerful thighs\nto deliver massive damage to Relics.", "On fearsome winter nights, enjoys a powerful\nliquor to warm himself and enhance his\nleg power. Massive damage to Relics!"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -885,22 +891,22 @@ cats:
       name: [Warlock and Pierre, Dark Merchant Babil, Mad Doctor Klay]
       desc: ["A precocious young sorcerer who has enslaved\na nightmare. Its infernal powers deliver massive\ndamage only to Aliens, Floating and enemy bases.", "With his nightmare's true form revealed, they now\njourney collecting wicked souls. Huge damage only to\nAngel/Alien, gets big money for each enemy defeat.", "Picked up an online degree in occult anatomy. 1st \nattempt at a soul transplant: GREAT SUCCESS!(?)\nDelivers extreme damage, but only to Aliens/bases!"]
     230:
-      name: [Hallowindy, Hallowindy α]
+      name: [Hallowindy, 'Hallowindy, type α']
       desc: ["The mistress of wind really gets into Halloween each year.\nBlasts enemies with unearthly plasma beams.\nMassive damage against Alien enemies from range.", "This hyper-maiden's idea of a good Halloween prank\nis a plasma beam shot when its least expected.\nMassive damage against Alien enemies from range."]
     231:
-      name: [Spooky Thundia, Spooky Thundia β]
+      name: [Spooky Thundia, 'Spooky Thundia, type β']
       desc: ["The thunder queen really gets into Halloween each year.\nShocks baddies with volleys of spectral lightning.\nMassive damage against Black enemies from range.", "Halloween is the best chance to tease nice boys.\nShocks baddies with volleys of spectral lightning.\nMassive damage against Black enemies from range."]
     241:
       name: [Togeluga, Togelan Pasalan, Shishilan Pasalan]
       desc: ["Not sure if this is a Cat…\nThere's just something about\nthose… spikes???", "No. Way. This can't be right…\nSurvives one lethal strike, gets stronger the\nmore damage he takes. (Area Attack)", "Ancient god who bridges the worlds of the living \nand the dead. Survives once, grows stronger\nas he takes more damage. (Area Attack)"]
     242:
-      name: [Frosty Kai, 'Frosty Kai, Type μ']
+      name: [Frosty Kai, 'Frosty Kai, type μ']
       desc: ["A clumsy gal, dressed up just for Xmas!\nFires a powerful, short-range ice beam.\nResistant to Aliens/Angels. (Area Atk.)", "Crushes on any skier who is nice to her.\nFalling in love, or just slipping on ice?\nResistant to Aliens/Angels. (Area Atk.)"]
     243:
-      name: [Santa Kuu, 'Santa Kuu, Type γ']
+      name: [Santa Kuu, 'Santa Kuu, type γ']
       desc: ["A passionate gal dressed up for Xmas!\nBig damage from her long range Tree attack!\nStrong vs Aliens/Angels. (Area Atk)", "Dressing up for Xmas brings out her sweet\nside! Mistletoe still makes her nervous.\nStrong vs Aliens/Angels. (Area Atk)"]
     244:
-      name: [Holy Coppermine, 'Holy Coppermine, Type κ']
+      name: [Holy Coppermine, 'Holy Coppermine, type κ']
       desc: ["A sacred guardian, dressed up for Xmas!\nHer holy blessings obliterate evil!\nMight freeze Aliens/Angels. (Area Atk.)", "A girl who never smiles, but Xmas spirit\nalways brings a gentle smirk to her face.\nMight freeze Aliens/Angels. (Area Atk.)"]
     258:
       name: [Thunder God Zeus, The Majestic Zeus]
@@ -927,7 +933,7 @@ cats:
       name: [Splendid Ganesha, Exalted Ganesha]
       desc: ["Lord of scholarship and splendor, guardian of the\nsacred treasures that ward against misfortune.\nGains power when damaged (Long Range Area Atk)", "All who follow him will grow prosperous and wise,\nas he smites his enemies with infinite might. Gains\npower when damaged (Long Range Area Atk)"]
     275:
-      name: [Tropical Kalisa, Tropical Kalisa X]
+      name: [Tropical Kalisa, 'Tropical Kalisa, type X']
       desc: ["Spends lazy summer days cursing couples on\nthe beach from the deck of her vacation house.\nMassive area damage to Red enemies.", "Slipped into the netherworld when she was two, but\nsummer days almost make her feel human again.\nMassive area damage to Red enemies."]
     276:
       name: [Midsummer Rabbit, Midsummer Cat]
@@ -1002,7 +1008,7 @@ cats:
       name: [Imagawa Yoshimoto, Wargod Yoshimoto, Immortal Yoshimoto]
       desc: ["His impeccable virtue allows him to wield\nthe cursed Cat Fan. Strong against Black,\n100% chance to weaken (Long-range)", "Possessed by an all-knowing fox spirit, he\nstrikes with golden arrows. Strong vs Black,\n100% chance to weaken (Long-range)", "Stained crimson with the blood of his rivals, the\nCat Fan burns with an unearthly fire for even greater\ndamage and weakening against Black enemies."]
     352:
-      name: [Twinstars, 'Twinstars, type Φ', 'Ultima Twinstars, type Φ']
+      name: [Twinstars, 'Twinstars, type Φ', Divine Twinstars]
       desc: ["The two purehearted sisters, Cici and Koma.\nDivine breath controls their mighty mecha claws.\nMassive area damage to Aliens/Black.", "The mechanical catpaws \"AH\" and \"UN\" sweetly \nsweep away any threat to these cutie-pie demigods.\nMassive area damage to Aliens/Black.", "Undisputed masters of the coordinated assault.\nThey skipped detention today to join the battle!\nMassive area damage to Aliens/Black."]
     355:
       name: [Seashore Kai, 'Seashore Kai, type μ']
@@ -1089,8 +1095,8 @@ cats:
       name: [Mighty Thermae D-Lux, Subterra Guardians, Subterra Sentinels]
       desc: ["World-famous mobile hot springs.\nTravel in comfort and style. Omni-strikes\nslow and cause massive damage to Zombies.", "A secret organization defending the Cat army\nfrom Doge sneak attacks from below. Omni-\nstrikes freeze + massive damage to Zombies.", "At the frontlines of the Cat campaign to seek and\ndestroy underground Doge bases. Omni-strikes\nfreeze and deliver massive damage to Zombies."]
     428:
-      name: [Cat Clan Heroes, Cat Guild Heroes]
-      desc: ["A brave band of Cats out to defeat the King of Evil.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "The Chosen One and 11 courageous adventurers.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating."]
+      name: [Cat Clan Heroes, Cat Guild Heroes, Cat Quest Heroes]
+      desc: ["A brave band of Cats out to defeat the King of Evil.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "The Chosen One and 11 courageous adventurers.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "Our adventurers take their quest to the skies!\nLong-range Area strikes have chance of Critical.\n100% Weaken vs Red, Black, Floating, Relics."]
     432:
       name: [Detective Vigler, Inspector Gabriel]
       desc: ["Prodigy in the netherworld's Office of Infernal\nInvestigations, with just over 665 cases solved.\nWave attacks might freeze Aliens/Floating.", "This hardened veteran got too close to the truth\nand uncovered a conspiracy scarier than hell itself.\nWave attacks might freeze Aliens/Zombies."]
@@ -1101,7 +1107,7 @@ cats:
       name: [Nobiluga, Nobilan Pasalan]
       desc: ["Not sure if this is a Cat...\nThere's just something about\nthat cool 'stache...", "I can't stand it anymore...\nSeems like this one is immune to\nWave attacks. (Long Range Area Attack)"]
     439:
-      name: [Waverider Kuu, Waverider Kuu γ]
+      name: [Waverider Kuu, 'Waverider Kuu, type γ']
       desc: ["A fiery lass who runs a tiki bar by the sea.\nBoys at the beach don't seem to mind her abuse\ntoo much? Strong vs. Zombies/Floating (Area Atk)", "A rowdy beach babe who keeps the seaside bullies\nin check by patrolling on her custom speedboard.\nStrong vs. Zombies/Floating (Area Atk)"]
     440:
       name: [Empress Chronos, Chronos the Infinite]
@@ -1125,7 +1131,7 @@ cats:
       name: [AAA Wunder, NNN Wunder]
       desc: ["Cats have taken over WILLE's flagship! Seems they\nrespected the original design and avoided customizing it.\nMassive Area damage vs. Angels and Zombies.", "Cat-powered airship built to overthrow NERV.\nA terrifying weapon staffed by capricious Cats...\nMassive Area damage vs. Angels and Zombies."]
     495:
-      name: [Seabreeze Coppermine, Seabreeze Coppermine κ]
+      name: [Seabreeze Coppermine, 'Seabreeze Coppermine, type κ']
       desc: ["A cool beauty who gained command of her own ship!\nNow she just has to keep Cats from sinking it.\nMight freeze Red, Black or Metal enemies!", "Her Cat crew's recommendation earned her another\ntour of duty. Ah, nothing like a lovely sunset with a Cat.\nMight freeze Red, Black or Metal enemies!"]
     497:
       name: [Narita Kaihime, Wargod Kaihime]
@@ -1160,6 +1166,12 @@ cats:
     520:
       name: [Lasvoss, Ultimate Lasvoss]
       desc: ["Incarnation of Evil summoned to eradicate the forces\nof Good. May strike a Savage Blow imbued with dark\npower. Survives once, stronger after taking damage.", "His final form, revealed for the final confrontation with\nthe heroes. Smites adventurers with Savage Blows,\nSurvives once, Stronger after taking damage."]
+    526:
+      name: [Kintaro, Kinrangers RoboForce]
+      desc: ["Young exec at AxeCorp, managing operations\nat the mountain office with intern Li'l Bear.\nMight Slow Angels and strike a Savage Blow.", "Gathered the whole Beast Division for a unified\nfight against a very hostile acquisition attempt.\nMight Slow Angels and strike a Savage Blow."]
+    527:
+      name: [Snow Angel Twinstars, 'Snow Angel Twinstars, type Φ']
+      desc: ["Overflowing with holiday cheer, they'll smash\nany grumps who won't get into the Xmas spirit.\nMassive Area damage to Angels and Floating.", "Two good kids who are never on Santa's naughty\nlist. Always the first to help with Xmas decorations.\nMassive Area damage to Angels and Floating."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1667,6 +1679,16 @@ gacha:
   469: [524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   470: [524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   471: [520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  472: [527, 311, 244, 243, 242, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  473: [171, 428, 497, 506, 352, 137, 213, 272, 307, 362, 287, 439, 456, 450, 452, 494, 479, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  474: [35, 44, 159, 87, 503, 323, 197, 259, 418, 361, 398, 495, 449, 451, 482, 464, 462, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  475: [526, 524, 523, 496, 452, 448, 447, 446, 445, 444, 378, 377, 323, 326, 308, 309, 204, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 139, 138, 137, 136, 135, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  476: [526, 524, 523, 496, 452, 448, 447, 446, 445, 444, 378, 377, 323, 326, 308, 309, 204, 201, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 139, 138, 137, 136, 135, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  477: [526, 524, 523, 496, 452, 448, 447, 446, 445, 444, 378, 377, 323, 326, 308, 309, 240, 239, 238, 204, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 139, 138, 137, 136, 135, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  478: [526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  479: [526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  480: [526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  481: [521, 485, 436, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
