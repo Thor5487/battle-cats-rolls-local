@@ -20,6 +20,20 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2019-12-22") %>
+<ul>
+  <li>Fixed some bugs in the new highlighting system. It should be more consistent now.</li>
+</ul>
+
+<%= header(2, "2019-12-18") %>
+<ul>
+  <li>This is a late update log from 2019-12-22. It was released earlier because I want to update event data, and I didn't bother to branch it.</li>
+  <li>Now we use R to indicate a rerolled cat. For example, 11AR is the cat at 11A rerolled into. 11ARG is the cat at 11A guaranteed, but starting from the rerolled position.</li>
+  <li>Highlighting system is greatly improved. Now it can properly highlight if you would be picking the rerolled cat or not.</li>
+  <li>In the new highlighting system, you can click on the upper part of a cell, which will automatically find which cats you'll be rolling into, from the past to the future. Your cursor will show a "help" icon in this case.</li>
+  <li>Or you can click on the lower part of a cell, just beside the cat's name. In this case, the system will specifically show how it'll work if you're rolling into that specific cat. Your cursor will show a "plus" icon.</li>
+</ul>
+
 <%= header(2, "2019-12-09") %>
 <ul>
   <li>Guaranteed columns should be fully working for 8.6+ now. You don't have to set force guaranteed to 2 and count manually anymore.</li>

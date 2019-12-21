@@ -71,6 +71,8 @@ module BattleCatsRolls
       end
     end
 
+    # This can see A and B are passing each other:
+    # https://bc.godfat.org/?seed=2390649859&event=2019-06-06_318
     def finish_picking cats, pick, guaranteed_rolls=pool.guaranteed_rolls
       index = pick.to_i - 1
       track = (pick[/\A\d+(\w)/, 1] || 'A').ord - 'A'.ord
