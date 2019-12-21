@@ -83,65 +83,20 @@ module BattleCatsRolls
         end
 
       return unless picked # Users can give arbitrary input
+      return unless picked.guaranteed if pick.include?('G')
 
       if pick.include?('X')
         if pick.include?('G')
-          guaranteed = picked.guaranteed
-
-          return unless guaranteed # This event might not even have guaranteed
-
-          detected =
-            fill_picking_backward(
-              cats,
-              /\A#{picked.number}/,
-              :guaranteed
-            ).find(&:itself)
-
-          if detected
-            detected.guaranteed.picked_label = :picked_cumulatively
-            detected.guaranteed.next&.picked_label = :next_position
-
-            (guaranteed_rolls - 1).times.inject(detected) do |rolled|
-              rolled.picked_label = :picked_cumulatively
-              rolled.next || break
-            end
-          else # Can't reach, highlight both cats and don't give next
-            # https://bc.godfat.org/?seed=3419147157&event=2019-07-21_391&pick=44AGX#N44A
-            guaranteed.picked_label = :picked
-            picked.rerolled&.guaranteed&.picked_label = :picked
-          end
+          fill_picking_guaranteed(cats, picked, /\A#{picked.number}/,
+            guaranteed_rolls)
         else
-          detected =
-            fill_picking_backward(cats, /\A#{picked.number}/).find(&:itself)
-
-          if detected
-            detected.picked_label = :picked
-            detected.next&.picked_label = :next_position
-          else # Can't reach, highlight both cats and don't give next
-            # https://bc.godfat.org/?seed=3419147157&event=2019-07-21_391&pick=44AX#N44A
-            picked.picked_label = :picked
-            picked.rerolled&.picked_label = :picked
-          end
+          fill_picking_single(cats, picked, /\A#{picked.number}/)
         end
       elsif pick.include?('G')
-        guaranteed = picked.guaranteed
-
-        return unless guaranteed # This event might not even have guaranteed
-
-        fill_picking_backward(cats, picked.number)
-
-        guaranteed.picked_label = :picked_cumulatively
-        guaranteed.next&.picked_label = :next_position
-
-        (guaranteed_rolls - 1).times.inject(picked) do |rolled|
-          rolled.picked_label = :picked_cumulatively
-          rolled.next || break
-        end
+        fill_picking_guaranteed(cats, picked, "#{picked.number}G",
+          guaranteed_rolls)
       else
-        fill_picking_backward(cats, picked.number)
-
-        picked.picked_label = :picked
-        picked.next&.picked_label = :next_position
+        fill_picking_single(cats, picked, picked.number)
       end
     end
 
@@ -278,14 +233,40 @@ module BattleCatsRolls
       end
     end
 
-    def fill_picking_backward cats, number, which_cat=:itself
-      [
-        fill_picking_backward_from(cats.dig(0, 0), number, which_cat),
-        fill_picking_backward_from(cats.dig(0, 1), number, which_cat)
-      ]
+    def fill_picking_single cats, picked, number
+      detected = fill_picking_backtrack(cats, number)
+
+      # Might not find the way back
+      # https://bc.godfat.org/?seed=3419147157&event=2019-07-21_391&pick=44AX#N44A
+      the_cat = detected || picked
+      the_cat.picked_label = :picked
+      the_cat.next&.picked_label = :next_position
     end
 
-    def fill_picking_backward_from cat, number, which_cat=:itself
+    def fill_picking_guaranteed cats, picked, number, guaranteed_rolls
+      detected = fill_picking_backtrack(cats, number, :guaranteed)
+
+      # Might not find the way back
+      # https://bc.godfat.org/?seed=3419147157&event=2019-07-21_391&pick=44AGX#N44A
+      the_cat = detected || picked
+      guaranteed = the_cat.guaranteed
+      guaranteed.picked_label = :picked_cumulatively
+      guaranteed.next&.picked_label = :next_position
+
+      (guaranteed_rolls - 1).times.inject(the_cat) do |rolled|
+        rolled.picked_label = :picked_cumulatively
+        rolled.next || break
+      end
+    end
+
+    def fill_picking_backtrack cats, number, which_cat=:itself
+      [
+        fill_picking_backtrack_from(cats.dig(0, 0), number, which_cat),
+        fill_picking_backtrack_from(cats.dig(0, 1), number, which_cat)
+      ].find(&:itself)
+    end
+
+    def fill_picking_backtrack_from cat, number, which_cat=:itself
       path = []
 
       begin
@@ -293,7 +274,7 @@ module BattleCatsRolls
 
         if checking_cat.nil? # Guaranteed might not exist due to missing seeds
           break
-        elsif number.match?(checking_cat.number)
+        elsif number === checking_cat.number # String or Regexp matching
           path.each do |passed_cat|
             passed_cat.picked_label = :picked
           end
