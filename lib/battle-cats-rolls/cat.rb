@@ -15,6 +15,10 @@ module BattleCatsRolls
     Uber   = 4
     Legend = 5
 
+    def inspect
+      %Q{#<BattleCatsRolls::Cat number="#{number}" name="#{name}"}
+    end
+
     def name
       info.dig('name', 0)
     end
