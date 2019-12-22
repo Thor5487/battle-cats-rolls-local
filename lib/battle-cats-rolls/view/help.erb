@@ -45,7 +45,7 @@
   <li><strong>3A rare cat</strong> will also be <span class="next_position">highlighted</span> in zebra, indicating your next position after the rolls.</li>
 </ul>
 
-<%= erb :table, cats: arg[:help].read_the_tracks, pick: '2A' %>
+<%= erb :table, cats: arg[:help].pick(arg[:help].read_the_tracks, 2, 0) %>
 
 <%= header(2, 'Advance the tracks') %>
 <ul>
@@ -96,7 +96,7 @@
   <li>This will lead to the next topic: <a href="#switch-tracks">Switch tracks</a>.</li>
 </ul>
 
-<%= erb :table, cats: arg[:help].guaranteed_tracks, pick: '1AG', guaranteed_rolls: 11 %>
+<%= erb :table, cats: arg[:help].pick(arg[:help].guaranteed_tracks, 1, 0, true) %>
 
 <%= header(2, 'Switch tracks') %>
 <ul>
@@ -106,7 +106,7 @@
   <li>Due to the offset, we jump from 1B to <strong>12A</strong>.</li>
 </ul>
 
-<%= erb :table, cats: arg[:help].guaranteed_tracks, pick: '1BG', guaranteed_rolls: 11 %>
+<%= erb :table, cats: arg[:help].pick(arg[:help].guaranteed_tracks, 1, 1, true) %>
 
 <%= header(2, 'Tracks perspective') %>
 <ul>
@@ -114,7 +114,7 @@
   <li>To observe the perspective, let's look at this example. Suppose we click on <strong>2B rare cat</strong>'s cell, highlighting the rolls:</li>
 </ul>
 
-<%= erb :table, cats: arg[:help].read_the_tracks, pick: '2B' %>
+<%= erb :table, cats: arg[:help].pick(arg[:help].read_the_tracks, 2, 1) %>
 
 <ul>
   <li>And then we click on <strong>2B rare cat</strong>'s name to roll to that position.</li>

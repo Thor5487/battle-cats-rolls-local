@@ -160,15 +160,6 @@ module BattleCatsRolls
       end
     end
 
-    def guaranteed_rolls
-      @guaranteed_rolls ||=
-        arg[:guaranteed_rolls] || controller.guaranteed_rolls
-    end
-
-    def pick
-      @pick ||= arg[:pick] || controller.pick
-    end
-
     def pick_option cats
       cats.map.with_index do |cat, slot|
         <<~HTML

@@ -33,12 +33,43 @@ module BattleCatsRolls
     def guaranteed_tracks
       @guaranteed_tracks ||= begin
         tracks = fake_tracks.map(&:dup)
-        tracks[0][0] = tracks.dig(0, 0).
-          new_with(guaranteed: fake_cat(-1, '1A guaranteed uber', 1, 0))
-        tracks[0][1] = tracks.dig(0, 1).
-          new_with(guaranteed: fake_cat(-1, '1B guaranteed uber', 1, 1))
+
+        fake_1AG = fake_cat(-1, '(1A guaranteed uber)', 1, 0)
+        fake_1AG.next = tracks.dig(10, 1)
+        tracks[0][0] = tracks.dig(0, 0).new_with(guaranteed: fake_1AG)
+
+        fake_1BG = fake_cat(-1, '(1B guaranteed uber)', 1, 1)
+        fake_1BG.next = tracks.dig(11, 0)
+        tracks[0][1] = tracks.dig(0, 1).new_with(guaranteed: fake_1BG)
+
         tracks
       end
+    end
+
+    alias_method :guaranteed_tracks_pick_1AG, :guaranteed_tracks
+    alias_method :guaranteed_tracks_pick_1BG, :guaranteed_tracks
+
+    def pick cats, sequence, track, guaranteed=false
+      result = cats.map(&:dup)
+
+      if guaranteed
+        index = sequence - 1
+        index_end = sequence + 9
+
+        pick_sequence(result, index_end, track, :picked_cumulatively)
+
+        dup_modify(result, index, track, guaranteed:
+          result.dig(index, track).guaranteed.
+            new_with(picked_label: :picked_cumulatively))
+
+        dup_modify(result, index_end + track ^ 0, track ^ 1,
+          picked_label: :next_position)
+      else
+        pick_sequence(result, sequence, track, :picked)
+        dup_modify(result, sequence, track, picked_label: :next_position)
+      end
+
+      result
     end
 
     private
@@ -51,7 +82,7 @@ module BattleCatsRolls
         column.map.with_index do |rarity_label, index|
           sequence = index + 1
           track_label = (track + 'A'.ord).chr
-          name = "#{sequence}#{track_label} #{rarity_label} cat"
+          name = "(#{sequence}#{track_label} #{rarity_label} cat)"
           cat = fake_cat(-1, name, sequence, track)
           cat.rarity_label = rarity_label
           cat
@@ -63,6 +94,16 @@ module BattleCatsRolls
       Cat.new(
         id: id, info: {'name' => [name]},
         sequence: sequence, track: track)
+    end
+
+    def pick_sequence result, sequence, track, label
+      (0...sequence).each do |index|
+        dup_modify(result, index, track, picked_label: label)
+      end
+    end
+
+    def dup_modify result, index, track, **args
+      result[index][track] = result.dig(index, track).new_with(**args)
     end
   end
 end
