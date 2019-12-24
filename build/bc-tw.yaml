@@ -4084,3 +4084,82 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2019-12-26_421:
+    start_on: 2019-12-26
+    end_on: 2019-12-28
+    version: '90100'
+    name: 噁心又可愛的神秘生物！神秘角色新登場！？★點圖可以看詳細內容喔！
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-26_473:
+    start_on: 2019-12-26
+    end_on: 2020-01-01
+    version: '90100'
+    name: 特製歲末年終轉蛋來了！還有限時限定角色喔！★11連轉超激確定活動中！
+    id: 473
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-28_454:
+    start_on: 2019-12-28
+    end_on: 2019-12-30
+    version: '90100'
+    name: 從異世界被召喚來的怪物美少女★點圖可以看詳細內容喔！
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-30_445:
+    start_on: 2019-12-30
+    end_on: 2020-01-01
+    version: '90100'
+    name: 貓咪軍團珍藏的超級武器！神秘角色新登場！？★點圖可以看詳細內容喔！
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-01_469:
+    start_on: 2020-01-01
+    end_on: 2020-01-04
+    version: '90100'
+    name: 超強的限定角色「幼傑達太貓」登場！★超激出現率大幅上升！
+    id: 469
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-01-04_430:
+    start_on: 2020-01-04
+    end_on: 2020-01-06
+    version: '90100'
+    name: 英雄令媛蜜斯參戰！充滿力量可愛的電腦少女們！★點圖確認詳細吧！！
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-04_474:
+    start_on: 2020-01-04
+    end_on: 2020-01-09
+    version: '90100'
+    name: 特製歡慶新年轉蛋來了！還有限時限定角色喔！★11連轉超激確定活動中！
+    id: 474
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-06_448:
+    start_on: 2020-01-06
+    end_on: 2020-01-09
+    version: '90100'
+    name: 來自宇宙盡頭的各種精靈們！還有新神秘角色！？★點圖可以看詳細內容喔！
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

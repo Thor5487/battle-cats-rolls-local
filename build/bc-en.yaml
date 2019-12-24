@@ -4405,3 +4405,82 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2019-12-26_421:
+    start_on: 2019-12-26
+    end_on: 2019-12-28
+    version: '90100'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-26_473:
+    start_on: 2019-12-26
+    end_on: 2020-01-01
+    version: '90100'
+    name: 2019 Year's End Limited Edition Capsules! ★ With 11-Draw Guarantee!
+    id: 473
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-28_454:
+    start_on: 2019-12-28
+    end_on: 2019-12-30
+    version: '90100'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2019-12-30_445:
+    start_on: 2019-12-30
+    end_on: 2020-01-01
+    version: '90100'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-01_469:
+    start_on: 2020-01-01
+    end_on: 2020-01-04
+    version: '90100'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 469
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-01-04_430:
+    start_on: 2020-01-04
+    end_on: 2020-01-06
+    version: '90100'
+    name: Myrcia is here to grant you her powers! ★ Tap banner for more info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-04_474:
+    start_on: 2020-01-04
+    end_on: 2020-01-09
+    version: '90100'
+    name: 2020 New Year's Limited Edition Capsules!★ With 11-Draw Guarantee!
+    id: 474
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-06_448:
+    start_on: 2020-01-06
+    end_on: 2020-01-09
+    version: '90100'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
