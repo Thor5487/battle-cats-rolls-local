@@ -22,10 +22,9 @@ module BattleCatsRolls
         end
     end
 
-    def lookup_cat_data gacha
+    def lookup_cat_data
       @lookup_cat_data ||= [[
-        fake_cat(
-          319, gacha.pool.dig_cat(Cat::Uber, 319, 'name', 0), 1, 0),
+        fake_cat(319, 'Miko Mitama', 1, 0),
         fake_cat(-1, 'Cat', 1, 1)
       ]]
     end
@@ -46,8 +45,18 @@ module BattleCatsRolls
       end
     end
 
-    alias_method :guaranteed_tracks_pick_1AG, :guaranteed_tracks
-    alias_method :guaranteed_tracks_pick_1BG, :guaranteed_tracks
+    def dupe_rare_track
+      @dupe_rare_track ||= begin
+        tracks = read_the_tracks.map(&:dup)
+
+        tracks[2][0] = fake_cat(148, 'Tin Cat', 3, 0)
+        tracks[3][0] = fake_cat(148, 'Tin Cat', 4, 0,
+          rerolled: fake_cat(38, 'Pogo Cat', 4, 0,
+            next: tracks.dig(4, 1)))
+
+        tracks
+      end
+    end
 
     def pick cats, sequence, track, guaranteed=false
       result = cats.map(&:dup)
@@ -66,7 +75,15 @@ module BattleCatsRolls
           picked_label: :next_position)
       else
         pick_sequence(result, sequence, track, :picked)
-        dup_modify(result, sequence, track, picked_label: :next_position)
+
+        if rerolled = result.dig(sequence - 1, track).rerolled
+          next_index = rerolled.next.sequence - 1
+          next_track = track ^ 1
+          dup_modify(result, next_index, next_track,
+            picked_label: :next_position)
+        else
+          dup_modify(result, sequence, track, picked_label: :next_position)
+        end
       end
 
       result
@@ -90,15 +107,21 @@ module BattleCatsRolls
       end.transpose
     end
 
-    def fake_cat id, name, sequence, track
+    def fake_cat id, name, sequence, track, **args
       Cat.new(
         id: id, info: {'name' => [name]},
-        sequence: sequence, track: track)
+        sequence: sequence, track: track,
+        **args)
     end
 
     def pick_sequence result, sequence, track, label
       (0...sequence).each do |index|
-        dup_modify(result, index, track, picked_label: label)
+        if rerolled = result.dig(index, track).rerolled
+          dup_modify(result, index, track,
+            rerolled: rerolled.new_with(picked_label: label))
+        else
+          dup_modify(result, index, track, picked_label: label)
+        end
       end
     end
 

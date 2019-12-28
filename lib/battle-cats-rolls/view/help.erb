@@ -62,7 +62,7 @@
 <ul>
   <li>You can click on <strong>🐾</strong> beside the cat's name, which will show you the cat's data.</li>
 </ul>
-<%= erb :table, cats: arg[:help].lookup_cat_data(gacha) %>
+<%= erb :table, cats: arg[:help].lookup_cat_data %>
 
 <%= header(2, 'What is a guaranteed event') %>
 <ul>
@@ -124,6 +124,46 @@
 
 <%= erb :table, cats: arg[:help].swap_the_tracks %>
 
+<%= header(2, 'Consecutive duplicated rare cats') %>
+<ul>
+  <li>
+    When there are consecutive duplicated rare cats in a row:
+    <ul>
+      <li>
+        Before 8.5-, the game will just shift the second rare cat you'll get,
+        avoiding consecutive duplicated rare cats. For example, suppose the
+        game rolled two Tin Cats in a row, the second Tin Cat will be changed
+        to Rocker Cat. You can predict the change by subtracting one to the
+        original slot code, like Tin Cat (slot 9) becomes Rocker Cat (slot 8).
+        Check <a href="#read-the-details">Read the details</a> to understand
+        what is a slot code.
+      </li>
+      <li>
+        <strong>After 8.6+</strong>, the game will instead consume the seed
+        again to roll another rare cat for you. As a result,
+        <strong>it'll move you to the other track</strong> upon hitting into a
+        consecutive duplicated rare cat. The reason you'll switch the track is
+        exactly the same as rolling a guaranteed uber cat, that it'll consume
+        the seed once, moving you half way forward, resulting track switch.
+      </li>
+    </ul>
+  </li>
+  <li>Let's look at an example for <strong>8.6+</strong>, where we have a consecutive duplicated rare cat at <strong>4A</strong>, a Tin Cat can turn into a <strong>Pogo Cat</strong>.</li>
+  <li>Assuming you're clicking on the cell for 4A, highlighting the path toward it.</li>
+  <li>You'll see that Pogo Cat was highlighted rather than the Tin Cat, and your next position will jump to <strong>5B</strong> instead of 5A.</li>
+</ul>
+
+<%= erb :table, cats: arg[:help].pick(arg[:help].dupe_rare_track, 4, 0) %>
+
+<%= header(3, 'Bouncing with consecutive duplicated rare cats') %>
+<ul></ul>
+
+<%= header(3, 'Not necessarily a consecutive duplicated rare cat') %>
+<ul></ul>
+
+<%= header(3, 'Skipping with a platinum ticket') %>
+<ul></ul>
+
 <%= header(2, 'Find specific cat') %>
 <ul></ul>
 
@@ -134,6 +174,9 @@
 <ul></ul>
 
 <%= header(2, 'Read the details') %>
+<ul></ul>
+
+<%= header(2, 'Higher chances with repeated cats') %>
 <ul></ul>
 
 <%= header(1, 'How this works') %>
