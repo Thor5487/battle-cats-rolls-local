@@ -153,13 +153,17 @@
   <li>You'll see that Pogo Cat was highlighted rather than the Tin Cat, and your next position will jump to <strong>5B</strong> instead of 5A.</li>
 </ul>
 
-<%= erb :table, cats: arg[:help].pick(arg[:help].dupe_rare_track, 4, 0) %>
+<%= erb :table, cats: arg[:help].pick(arg[:help].dupe_rare_tracks, 4, 0) %>
 
 <%= header(3, 'Bouncing with consecutive duplicated rare cats') %>
 <ul></ul>
 
+<%= erb :table, cats: arg[:help].pick(arg[:help].bouncing_tracks, 4, 0) %>
+
 <%= header(3, 'Not necessarily a consecutive duplicated rare cat') %>
 <ul></ul>
+
+<%= erb :table, cats: arg[:help].pick(arg[:help].go_straight_tracks, 7, 1) %>
 
 <%= header(3, 'Skipping with a platinum ticket') %>
 <ul></ul>

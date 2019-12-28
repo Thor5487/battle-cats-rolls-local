@@ -45,14 +45,33 @@ module BattleCatsRolls
       end
     end
 
-    def dupe_rare_track
-      @dupe_rare_track ||= begin
-        tracks = read_the_tracks.map(&:dup)
+    def dupe_rare_tracks
+      @dupe_rare_tracks ||= begin
+        tracks = fill_dupes(read_the_tracks.map(&:dup))
 
-        tracks[2][0] = fake_cat(148, 'Tin Cat', 3, 0)
-        tracks[3][0] = fake_cat(148, 'Tin Cat', 4, 0,
-          rerolled: fake_cat(38, 'Pogo Cat', 4, 0,
-            next: tracks.dig(4, 1)))
+        dup_modify(tracks, 4, 1, picked_label: :next_position)
+
+        tracks
+      end
+    end
+
+    def bouncing_tracks
+      @bouncing_tracks ||= begin
+        tracks = bouncing_base.map(&:dup)
+
+        dup_modify(tracks, 6, 0, picked_label: :picked)
+        dup_modify(tracks, 7, 0, picked_label: :next_position)
+
+        tracks
+      end
+    end
+
+    def go_straight_tracks
+      @go_straight_tracks ||= begin
+        tracks = bouncing_base.map(&:dup)
+
+        dup_modify(tracks, 4, 1, picked_label: :picked,
+          rerolled: tracks.dig(4, 1).rerolled.new_with(picked_label: ''))
 
         tracks
       end
@@ -76,12 +95,8 @@ module BattleCatsRolls
       else
         pick_sequence(result, sequence, track, :picked)
 
-        if rerolled = result.dig(sequence - 1, track).rerolled
-          next_index = rerolled.next.sequence - 1
-          next_track = track ^ 1
-          dup_modify(result, next_index, next_track,
-            picked_label: :next_position)
-        else
+        # Handle rerolled case by case...
+        if result.dig(sequence - 1, track).rerolled.nil?
           dup_modify(result, sequence, track, picked_label: :next_position)
         end
       end
@@ -94,7 +109,7 @@ module BattleCatsRolls
     def fake_tracks
       @fake_tracks ||= [
         %i[rare supa rare rare supa supa rare uber supa rare legend rare],
-        %i[supa rare uber supa rare rare supa rare rare supa rare uber]
+        %i[supa rare uber rare rare rare supa rare rare supa rare uber]
       ].map.with_index do |column, track|
         column.map.with_index do |rarity_label, index|
           sequence = index + 1
@@ -117,8 +132,10 @@ module BattleCatsRolls
     def pick_sequence result, sequence, track, label
       (0...sequence).each do |index|
         if rerolled = result.dig(index, track).rerolled
-          dup_modify(result, index, track,
-            rerolled: rerolled.new_with(picked_label: label))
+          if rerolled.picked_label.nil?
+            dup_modify(result, index, track,
+              rerolled: rerolled.new_with(picked_label: label))
+          end
         else
           dup_modify(result, index, track, picked_label: label)
         end
@@ -127,6 +144,33 @@ module BattleCatsRolls
 
     def dup_modify result, index, track, **args
       result[index][track] = result.dig(index, track).new_with(**args)
+    end
+
+    def bouncing_base
+      @bouncing_base ||= begin
+        tracks = fill_dupes(fake_tracks.first(8).map(&:dup))
+
+        tracks[3][1] = fake_cat(149, 'Rocker Cat', 4, 1)
+        tracks[4][1] = fake_cat(38, 'Pogo Cat', 5, 1,
+          rerolled: fake_cat(51, 'Bishop Cat', 5, 1,
+            extra_label: 'R', picked_label: :picked,
+            next: tracks.dig(6, 0)))
+
+        dup_modify(tracks, 3, 0,
+          rerolled: tracks.dig(3, 0).rerolled.new_with(
+            next: tracks.dig(4, 1).rerolled))
+
+        tracks
+      end
+    end
+
+    def fill_dupes tracks
+      tracks[2][0] = fake_cat(148, 'Tin Cat', 3, 0)
+      tracks[3][0] = fake_cat(148, 'Tin Cat', 4, 0,
+        rerolled: fake_cat(38, 'Pogo Cat', 4, 0,
+          next: tracks.dig(4, 1)))
+
+      tracks
     end
   end
 end

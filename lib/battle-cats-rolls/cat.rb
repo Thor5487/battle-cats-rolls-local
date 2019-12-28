@@ -16,7 +16,7 @@ module BattleCatsRolls
     Legend = 5
 
     def inspect
-      %Q{#<BattleCatsRolls::Cat number="#{number}" name="#{name}"}
+      %Q{#<BattleCatsRolls::Cat number="#{number}" name="#{name}">}
     end
 
     def name
