@@ -56,11 +56,11 @@ module BattleCatsRolls
         index = sequence - 1
         index_end = sequence + 9
 
-        pick_sequence(result, index_end, track, :picked_cumulatively)
+        pick_sequence(result, index_end, track, :picked_consecutively)
 
         dup_modify(result, index, track, guaranteed:
           result.dig(index, track).guaranteed.
-            new_with(picked_label: :picked_cumulatively))
+            new_with(picked_label: :picked_consecutively))
 
         dup_modify(result, index_end + track ^ 0, track ^ 1,
           picked_label: :next_position)

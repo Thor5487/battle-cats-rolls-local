@@ -252,11 +252,11 @@ module BattleCatsRolls
       # https://bc.godfat.org/?seed=3419147157&event=2019-07-21_391&pick=44AGX#N44A
       the_cat = detected || picked
       guaranteed = the_cat.guaranteed
-      guaranteed.picked_label = :picked_cumulatively
+      guaranteed.picked_label = :picked_consecutively
       guaranteed.next&.picked_label = :next_position
 
       (guaranteed_rolls - 1).times.inject(the_cat) do |rolled|
-        rolled.picked_label = :picked_cumulatively
+        rolled.picked_label = :picked_consecutively
         rolled.next || break
       end
     end
