@@ -1,14 +1,10 @@
-## Top priority
-
-* Fix help page
-* Split rolled and rerolled into different cells so we can highlight
-  individually
-
 ## Features and utilities
 
+* Multi-select for finding cats
+* Collection low-lighting
+* Tracking history (by recording rolls we click)
 * Use browser timezone offset to calculate local time
 * Update event data for each 11 hours automatically
-* Tracking history (by recording rolls we click)
 * Find a better event when switching languages with an invalid event
 
 ## Architecture
