@@ -19,6 +19,23 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2019-12-31") %>
+<ul>
+  <li>Added a new feature so that you can pick which cats you owned from the <a href="<%= cats_uri %>">cats list</a>.</li>
+  <li>When you pick the cats, it'll save the list in URL with <code>owned</code> query string, which can be very long if you have a lot of cats.</li>
+  <li>Cats which you owned will be low-lighted with <span class="owned">azure color</span>, making it less obvious even if it's an uber cat.</li>
+  <li>
+    Color priority updated to:
+    <span class="legend"><a>Legendary</a></span> &gt;
+    <span class="found"><a>Found</a></span> &gt;
+    <span class="owned"><a>Owned</a></span> &gt;
+    <span class="exclusive"><a>Exclusive</a></span> &gt;
+    others
+  </li>
+  <li>Legendary cats are too rare so it should never be hidden.</li>
+  <li>Two links to help you pick all and drop all, in case you have almost all cats already, so it'll be easier to tick off cats you don't own yet.</li>
+</ul>
+
 <%= header(2, "2019-12-28") %>
 <ul>
   <li>Added some new sections in the help page:</li>

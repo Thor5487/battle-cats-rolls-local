@@ -3,6 +3,7 @@
 require_relative 'crystal_ball'
 require_relative 'gacha'
 require_relative 'find_cat'
+require_relative 'owned'
 require_relative 'seek_seed'
 require_relative 'cache'
 require_relative 'aws_auth'
@@ -185,6 +186,28 @@ module BattleCatsRolls
 
       def all_events
         @all_events ||= ball.dig('events')
+      end
+
+      def ticked
+        @ticked ||= request.params['ticked'].to_a.map(&:to_i).sort.uniq
+      end
+
+      def owned
+        @owned ||=
+          if owned_decoded.empty?
+            ''
+          else
+            Owned.encode(owned_decoded)
+          end
+      end
+
+      def owned_decoded
+        @owned_decoded ||=
+          if ticked.empty?
+            Owned.decode(request.params['owned'].to_s).sort.uniq
+          else
+            ticked
+          end
       end
 
       def seek_source

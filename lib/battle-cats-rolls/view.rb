@@ -23,7 +23,7 @@ module BattleCatsRolls
     private
 
     def each_ball_cat
-      arg[:cats].each do |rarity, data|
+      arg[:cats].reverse_each do |rarity, data|
         yield(rarity, data.map{ |id, info| Cat.new(id: id, info: info) })
       end
     end
@@ -57,6 +57,8 @@ module BattleCatsRolls
         case cat.id
         when controller.find
           :found
+        when *controller.owned_decoded
+          :owned
         when *FindCat.exclusives
           :exclusive
         else
@@ -208,6 +210,16 @@ module BattleCatsRolls
       'checked="checked"' if controller.details
     end
 
+    def checked_cat cat
+      ticked = controller.ticked
+
+      if ticked.empty?
+        'checked="checked"' if controller.owned_decoded.include?(cat.id)
+      elsif ticked.include?(cat.id)
+        'checked="checked"'
+      end
+    end
+
     def show_details
       arg&.dig(:details) && controller.details
     end
@@ -311,6 +323,15 @@ module BattleCatsRolls
       "https://battlecats-db.com/unit/#{sprintf('%03d', cat.id)}.html"
     end
 
+    def uri_to_own_all_cats
+      cats_uri(query: {owned:
+        Owned.encode(arg[:cats].values.flat_map{ |data| data.map(&:first) })})
+    end
+
+    def uri_to_drop_all_cats
+      cats_uri(query: {owned: ''})
+    end
+
     def uri path: "//#{web_host}/", query: {}
       # keep query hash order
       query = cleanup_query(query.merge(default_query).merge(query))
@@ -335,7 +356,8 @@ module BattleCatsRolls
         no_guaranteed: controller.no_guaranteed,
         force_guaranteed: controller.force_guaranteed,
         ubers: controller.ubers,
-        details: controller.details
+        details: controller.details,
+        owned: controller.owned
       }
     end
 
@@ -350,7 +372,8 @@ module BattleCatsRolls
            (key == :last && value == 0) ||
            (key == :no_guaranteed && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
-           (key == :ubers && value == 0)
+           (key == :ubers && value == 0) ||
+           (key == :owned && value == '')
           false
         else
           true
@@ -376,8 +399,8 @@ module BattleCatsRolls
       "#{request.scheme}://#{seek_host}/seek"
     end
 
-    def cats_uri
-      uri(path: "//#{web_host}/cats")
+    def cats_uri **args
+      uri(path: "//#{web_host}/cats", **args)
     end
 
     def help_uri
