@@ -194,7 +194,7 @@ module BattleCatsRolls
       end
 
       def ticked
-        @ticked ||= request.params['t'].to_a.map(&:to_i).sort.uniq
+        @ticked ||= Array(request.params['t']).map(&:to_i).sort.uniq
       end
 
       def owned
