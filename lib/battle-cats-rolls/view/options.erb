@@ -42,7 +42,7 @@
         <% cats.each do |c| %>
           <li>
             <input type="checkbox" onchange="roll(this)"
-              name="ticked[]" id="cat-<%= c.id %>" value="<%= c.id %>"
+              name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
               <%= checked_cat(c) %>>
             <label for="cat-<%= c.id %>"><%= link_to_roll(c) %></label>
           </li>

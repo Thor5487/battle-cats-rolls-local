@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'request'
 require_relative 'crystal_ball'
 require_relative 'gacha'
 require_relative 'find_cat'
@@ -39,6 +40,10 @@ module BattleCatsRolls
     end
 
     module Imp
+      def request
+        @request ||= Request.new(env)
+      end
+
       def lang
         @lang ||=
           case value = request.params['lang']
@@ -189,7 +194,7 @@ module BattleCatsRolls
       end
 
       def ticked
-        @ticked ||= request.params['ticked'].to_a.map(&:to_i).sort.uniq
+        @ticked ||= request.params['t'].to_a.map(&:to_i).sort.uniq
       end
 
       def owned
