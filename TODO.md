@@ -1,7 +1,10 @@
+## High priorities
+
+* Collection low-lighting. Revisiting the URL. Maybe we should not compress
+
 ## Features and utilities
 
 * Multi-select for finding cats
-* Collection low-lighting
 * Tracking history (by recording rolls we click)
 * Use browser timezone offset to calculate local time
 * Update event data for each 11 hours automatically
@@ -9,7 +12,6 @@
 
 ## Architecture
 
-* Use server-sent event to pull seek result
 * Queue in memcached rather than in-process! Otherwise can't do great
   zero down time restarting.
 
