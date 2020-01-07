@@ -4484,3 +4484,59 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-01-09_433:
+    start_on: 2020-01-09
+    end_on: 2020-01-11
+    version: '90100'
+    name: The Dragon Emperors return! ★ Collect a monstrous Uber!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-01-11_475:
+    start_on: 2020-01-11
+    end_on: 2020-01-14
+    version: '90100'
+    name: KINTARO is ready to fight! ★ Tap for more info on this new Uber!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-01-11_480:
+    start_on: 2020-01-11
+    end_on: 2030-01-01
+    version: '90100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 480
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
+  2020-01-14_442:
+    start_on: 2020-01-14
+    end_on: 2020-01-17
+    version: '90100'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Almighty!
+    id: 442
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-01-17_479:
+    start_on: 2020-01-17
+    end_on: 2020-01-20
+    version: '90100'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 479
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-01-20_439:
+    start_on: 2020-01-20
+    end_on: 2020-01-23
+    version: '90100'
+    name: Dark Heroes ★ Defend justice with Uber Cats, plus a hidden Legend!
+    id: 439
+    rare: 6970
+    supa: 2500
+    uber: 500
