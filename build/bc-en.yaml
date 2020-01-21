@@ -4540,3 +4540,78 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-01-23_481:
+    start_on: 2020-01-23
+    end_on: 2020-01-29
+    version: '90100'
+    name: 'Li''l Valkyries: Light & Dark! ★ Tap for more info on this special Uberfest!'
+    id: 481
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-01-29_427:
+    start_on: 2020-01-29
+    end_on: 2020-01-31
+    version: '90200'
+    name: Narita Kaihime awaits your command! ★ Tap banner for more info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-01-31_424:
+    start_on: 2020-01-31
+    end_on: 2020-02-02
+    version: '90200'
+    name: Embrace darkness with Dynamite LASVOSS! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-02_421:
+    start_on: 2020-02-02
+    end_on: 2020-02-04
+    version: '90200'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-04_454:
+    start_on: 2020-02-04
+    end_on: 2020-02-07
+    version: '90200'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-02-07_451:
+    start_on: 2020-02-07
+    end_on: 2020-02-10
+    version: '90200'
+    name: "★ Red Busters w/ Pai-Pai! ★ Plus Increasing Capsules!"
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-02-07_452:
+    start_on: 2020-02-07
+    end_on: 2020-02-10
+    version: '90200'
+    name: AIR BUSTERS plus R.E.I ★ With Increasing Capsules discount!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-02-07_453:
+    start_on: 2020-02-07
+    end_on: 2020-02-10
+    version: '90200'
+    name: Metal Busters! With Sakura Sonic & Increasing Capsules discount!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
