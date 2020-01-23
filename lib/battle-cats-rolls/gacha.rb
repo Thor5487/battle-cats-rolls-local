@@ -255,10 +255,7 @@ module BattleCatsRolls
       guaranteed.picked_label = :picked_consecutively
       guaranteed.next&.picked_label = :next_position
 
-      (guaranteed_rolls - 1).times.inject(the_cat) do |rolled|
-        rolled.picked_label = :picked_consecutively
-        rolled.next || break
-      end
+      fill_picked_consecutively_label(guaranteed_rolls, the_cat)
     end
 
     def fill_picking_backtrack cats, number, which_cat=:itself
@@ -286,6 +283,21 @@ module BattleCatsRolls
           path << cat
         end
       end while cat = cat.next
+    end
+
+    def fill_picked_consecutively_label guaranteed_rolls, cat
+      step_up = guaranteed_rolls == 15
+
+      (guaranteed_rolls - 1).times.inject(cat) do |rolled, index|
+        rolled.picked_label =
+          if step_up && (3 <= index && index < 8)
+            :picked # Try to highlight 3, 5, 7 differently
+          else
+            :picked_consecutively
+          end
+
+        rolled.next || break
+      end
     end
 
     def advance_seed!
