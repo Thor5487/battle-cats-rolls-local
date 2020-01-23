@@ -238,7 +238,7 @@ module BattleCatsRolls
 
     def show_gacha_slots cats
       cats.map.with_index do |cat, i|
-        "#{i} #{cat_name(cat)}"
+        %Q{#{i} <a href="#{uri_to_cat_db(cat)}">#{cat_name(cat)}</a>}
       end.join(', ')
     end
 
