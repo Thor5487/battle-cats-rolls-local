@@ -257,6 +257,9 @@ cats:
     510:
       name: [Chun-Li Cat, Chun-Li Cat CC]
       desc: ["A Cat who seems to have stuck buns in her\nhair. Trying to learn the Spinning Bird Kick.\nSmall chance of Critical.", "Beautiful Cat working for the ICPO.\nMesmerizing kicks stun her opponents.\nSmall chance of Critical."]
+    533:
+      name: [Urs & Fenrir, Urs & Minka]
+      desc: ["The weak shall serve the strong! Or so they say.\nThe founding ancestor of a proud warrior clan.\nArea attacks might weaken non-Metal enemies.", "The first of their line to terrorize enemies by\nriding a ferocious Cat-beast into the enemy lines.\nArea attacks might weaken non-Metal enemies."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -561,6 +564,9 @@ cats:
     529:
       name: [Cossack Cat, Vodka Cat]
       desc: ["A Cat of the steppes, master of the dance.\nYears of practice developed powerful thighs\nto deliver massive damage to Relics.", "On fearsome winter nights, enjoys a powerful\nliquor to warm himself and enhance his\nleg power. Massive damage to Relics!"]
+    532:
+      name: [Teacher BearCat, Assassin BearCat]
+      desc: ["Lead in the hit drama \"Trial of Teacher Bear\".\nSmashes anyone who steals his spotlight.\nDelivers insane area damage to Traitless.", "Production assistant on the set of \"Teacher Bear\".\nObliterates anyone who stands in front of him.\nDelivers insane area damage to Black."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -1098,8 +1104,8 @@ cats:
       name: [Cat Clan Heroes, Cat Guild Heroes, Cat Quest Heroes]
       desc: ["A brave band of Cats out to defeat the King of Evil.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "The Chosen One and 11 courageous adventurers.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "Our adventurers take their quest to the skies!\nLong-range Area strikes have chance of Critical.\n100% Weaken vs Red, Black, Floating, Relics."]
     432:
-      name: [Detective Vigler, Inspector Gabriel]
-      desc: ["Prodigy in the netherworld's Office of Infernal\nInvestigations, with just over 665 cases solved.\nWave attacks might freeze Aliens/Floating.", "This hardened veteran got too close to the truth\nand uncovered a conspiracy scarier than hell itself.\nWave attacks might freeze Aliens/Zombies."]
+      name: [Detective Vigler, Inspector Gabriel, Section Chief Gravicci]
+      desc: ["Prodigy in the netherworld's Office of Infernal\nInvestigations, with just over 665 cases solved.\nWave attacks might freeze Aliens/Floating.", "This hardened veteran got too close to the truth\nand uncovered a conspiracy scarier than hell itself.\nWave attacks might freeze Aliens/Zombies.", "Realized his true power after bringing the corrupt\narchdemons to justice. Time for the final judgment!\nWave attacks 100% Freeze Zombies."]
     436:
       name: [Li'l Valkyrie, Wind Dancer Valkyrie]
       desc: ["Valkyrie's younger sister. Top agent of Valhalla,\nentrusted with high-risk missions to defend the\nmortal realms. Area atk might break Barriers.", "Valkyrie's youngest sister. Nature itself has\nblessed her with command over all forces of\nthe Earth. Area attacks might break Barriers."]
@@ -1172,6 +1178,9 @@ cats:
     527:
       name: [Snow Angel Twinstars, 'Snow Angel Twinstars, type Φ']
       desc: ["Overflowing with holiday cheer, they'll smash\nany grumps who won't get into the Xmas spirit.\nMassive Area damage to Angels and Floating.", "Two good kids who are never on Santa's naughty\nlist. Always the first to help with Xmas decorations.\nMassive Area damage to Angels and Floating."]
+    530:
+      name: [Kasli the Scourge, Ritual Saint Kasli]
+      desc: ["Young wanderer whose soul is a prison to 1000\nvengeful ghosts. Trifle with her at your peril.\nLong-range Surges might Knockback Traited!", "Having at last encountered kindness and love, she\nnow commands her wraiths for the cause of light!\nLong-range Surges w/ chance to Knockback Traited!"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1689,6 +1698,11 @@ gacha:
   479: [526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   480: [526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   481: [521, 485, 436, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  482: [531, 487, 486, 338, 162, 161, 65, 66, 67, 68, 69]
+  483: [530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  484: [530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  485: [175, 174, 496, 523, 524, 378, 377, 326, 308, 309, 201, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  486: [175, 174, 496, 523, 524, 378, 377, 326, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06

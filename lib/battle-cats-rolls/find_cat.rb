@@ -20,7 +20,7 @@ module BattleCatsRolls
         436, # "Li'l Valkyrie",
         442, # "D'arktanyan",
         485, # "Li'l Valkyrie Dark",
-        530, # "厄災の子キャスリィ",
+        530, # "Kasli the Scourge",
       ].freeze
     end
 
