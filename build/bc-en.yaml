@@ -4615,3 +4615,39 @@ events:
     supa: 2500
     uber: 500
     step_up: true
+  2020-02-10_445:
+    start_on: 2020-02-10
+    end_on: 2020-02-12
+    version: '90200'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-10_485:
+    start_on: 2020-02-10
+    end_on: 2020-02-24
+    version: '90200'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 485
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-02-12_430:
+    start_on: 2020-02-12
+    end_on: 2020-02-14
+    version: '90200'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-14_479:
+    start_on: 2020-02-14
+    end_on: 2020-02-17
+    version: '90200'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 479
+    rare: 6500
+    supa: 2600
+    uber: 900
