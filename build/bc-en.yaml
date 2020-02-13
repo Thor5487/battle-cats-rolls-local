@@ -4665,3 +4665,50 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-02-17_448:
+    start_on: 2020-02-17
+    end_on: 2020-02-18
+    version: '90200'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-18_439:
+    start_on: 2020-02-18
+    end_on: 2020-02-21
+    version: '90200'
+    name: Dark Heroes ★ Defend justice with Uber Cats, plus a hidden Legend!
+    id: 439
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-18_486:
+    start_on: 2020-02-18
+    end_on: 2020-02-24
+    version: '90200'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-02-21_433:
+    start_on: 2020-02-21
+    end_on: 2020-02-24
+    version: '90200'
+    name: The Dragon Emperors return! ★ Collect a monstrous Uber!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-02-21_486:
+    start_on: 2020-02-21
+    end_on: 2020-02-24
+    version: '90200'
+    name: 'Ending Soon: Survive! Mola Mola! Collab Capsules! ★ With 11-Draw Guarantee!'
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
