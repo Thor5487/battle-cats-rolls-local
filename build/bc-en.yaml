@@ -104,6 +104,12 @@ cats:
     109:
       name: [Cat Bros, Secret Base]
       desc: ["Living happily in a plastic bubble.\nNo need for the outside world!!!\n(Don't make them a role model, kids…)", "A homemade fortress as resilient as the $0.75\nbudget allows. Tough against various attacks,\nexcept moisture… a bit weak against that."]
+    121:
+      name: [Healer, Healer CC, Healer Cat CC]
+      desc: ["The hero of Merc Storia joins the fight!\nCan soothe the heart of savage beasts.\nSmall chance to Freeze enemies.", "The hero of Merc Storia joins the fight!\nA weak and monster-phobic young lad.\nSmall chance to Freeze enemies.", "The hero of Merc Storia joins the fight!\nTransformed into a Cat by his own experiments.\nArea Attacks have 100% Freeze!"]
+    122:
+      name: [Merc, Merc CC, Merc & Cat CC]
+      desc: ["Joining the fight from Merc Storia!\nMystic girl in a jar, bought for 10 Gold.\nSmall chance of Critical Attack.", "Joining the fight from Merc Storia!\nCat joins her in the jar for the big fight!\nSmall chance of Critical Attack.", "Joining the fight from Merc Storia!\nThe girl in a jar bought a Cat for 10 Gold.\nMight Critical Attack."]
     124:
       name: [Bean Cats, Brah Cats]
       desc: ["Said to also have the \"MeowMeow\" alias.\nAlways play nice with each other.\nMight knockback Red enemies.", "Earned the nickname \"Sweater Brahs\" when\nthey traded their beanpod for fine French silk.\nMight knockback Red enemies."]
@@ -128,6 +134,9 @@ cats:
     185:
       name: [Mr. Ninja, Mint]
       desc: ["Mr. Ninja!!Fever joins the fight!\nLeaps gracefully from planet to planet dicing up aliens.\nMassive damage to Alien enemies (Area Attack)", "A kunoichi from \"Mr. Ninja!!Fever\"!\nAs bright and beautiful as her peerless swordplay.\nMassive damage to Alien enemies (Area Attack)"]
+    192:
+      name: [Titi, Titi CC, Titi Cat CC]
+      desc: ["Joining the fight from Merc Storia!\nEveryone's favorite PR pro is here!\nMight Slow a single enemy", "Joining the fight from Merc Storia! Not\nonly PR, she's an apple merchant too!\nMight Slow a single enemy", "Joining the fight from Merc Storia!\nThe Battle Cats needs PR help too, right?\nMight Slow a single enemy"]
     203:
       name: [Baozi Cat, Big Baozi]
       desc: ["Celebrating The Battle Cats' Taiwan version,\nthis Cat got too excited and steamed itself in a basket.\nIs that meat inside, or PURE PASSION?!", "Celebrating The Battle Cats' Taiwan version,\ngrew bigger to satisfy more hungry people. There's\nno basis to rumors he's got pizza filling inside."]
@@ -339,6 +348,27 @@ cats:
     110:
       name: [Madam Bride, Madam King, Madam the Savannah]
       desc: ["Bringing back those lost memories.\nActs as a shield using her great health.\nShe can also do some damage (Area Attack)", "Now that she's captured her dream man, her\nrulership over the home has become indisputable.\nHigh resistance & good damage. (Area Attack)", "Not content to rule the home, she now dominates\na vast wilderness of beasts. Authority shields her\nwell, even allows her to avoid death once (Area Atk)"]
+    111:
+      name: [Celesse, Celesse CC]
+      desc: ["Joining the fight from Merc Storia! Kind-\nhearted girl who will do anything for others.\nSmall chance to Slow Red enemies.", "Joining the fight from Merc Storia!\nHer fan club grows daily across the land.\nSmall chance to Slow Red enemies."]
+    112:
+      name: [Nono, Nono CC]
+      desc: ["Joining the fight from Merc Storia!\nA gentle and naive young lady.\nTough vs Black enemies.", "Joining the fight from Merc Storia!\nDon't be fooled, her tail is incredibly powerful!\nTough vs Black enemies."]
+    113:
+      name: [Olga, Olga CC]
+      desc: ["Joining the fight from Merc Storia!\nLeft her homeland to learn about the world.\nSmall chance to Knockback Red.", "Joining the fight from Merc Storia!\nHas a kind face but a sadistic nature.\nSmall chance to Knockback Red."]
+    114:
+      name: [Norn, Norn CC]
+      desc: ["Joining the fight from Merc Storia!\nA gentle young lad who loves stargazing.\nSmall chance to Freeze Red.", "Joining the fight from Merc Storia!\nSerene but slightly absentminded youth. \nSmall chance to Freeze Red."]
+    115:
+      name: [Yoichi, Yoichi CC]
+      desc: ["Joining the fight from Merc Storia!\nA genteel youth with a reckless nature.\nSmall chance to Slow Black enemies.", "Joining the fight from Merc Storia! Enjoys\ndrinking under the moon, but he's a light-weight.\nSmall chance to Slow Black enemies."]
+    116:
+      name: [Serum, Serum CC]
+      desc: ["Joining the fight from Merc Storia!\nLoyal to her master in the Sky Country.\nSmall chance to Knockback Black.", "Joining the fight from Merc Storia! Known \namong the people for devotion to justice!\nSmall chance to Knockback Black."]
+    117:
+      name: [Fuu, Fuu CC]
+      desc: ["Joining the fight from Merc Storia! A lass from\nthe Sky Country, horned due to her mixed blood.\nMight Freeze Black enemies.", "Joining the fight from Merc Storia! Taking grand-\ndad's teachings to heart, she travels the world.\nMight Freeze Black enemies."]
     123:
       name: [Vacation Queen, Office Lady Cat, Call Center Cat]
       desc: ["A timid office worker and midrange attacker.\nLikes to break bad while on vacation!\nFast attack and strong against Red enemies.", "Just like it says - a typical office worker.\nBut what happens after work…?\nFast attack speed, strong against Red enemies.", "Takes abuse from customers and bosses all day.\nAfter she clocks out, the story is very different…\nStrong against Red enemies, might knockback."]
@@ -622,6 +652,12 @@ cats:
     100:
       name: [Crazed Titan Cat, Crazed M. Titan Cat, Manic Jamiera Cat]
       desc: ["Blessed with extreme attack power\nand ridiculous amounts of health (Area Attack)\nCrazed Version grants Wave Attacks.", "Blessed with extreme attack power\nExtreme attack power and health.\nCrazed Version grants Wave Attacks.", "Once manic, none can withstand his godlike\ndefense or offense, or outrun his godspeed.\nHis wave attacks occur more frequently too!"]
+    118:
+      name: [Aura, Aura CC]
+      desc: ["Joining the fight from Merc Storia! Normally \nshy, but if you get her talking about guns...\nArea attacks might Knockback Black.", "Joining the fight from Merc Storia!\nGun maintenance is her number one hobby.\nArea attacks might Knockback Black."]
+    119:
+      name: [Rei, Rei CC]
+      desc: ["Joining the fight from Merc Storia! Her strong\nemotions cause shocks to people nearby.\nArea attacks might Slow Black.", "Joining the fight from Merc Storia!\nMonsters flee from her presence.\nArea attacks might Slow Black."]
     130:
       name: [Gold Cat, Gold Macho Cat]
       desc: ["Rolled in gold dust for a luxurious look.\n…though it is just the same old Cat.\nExchange it for XP to level up other Cats!", "Rolled in gold dust for a luxurious look.\nSays it aimed for the no-sleeve look\nbut painting its arms just slipped its mind."]
@@ -646,6 +682,12 @@ cats:
     174:
       name: [Baby Mola, Young Man Mola]
       desc: ["Dropping in from \"Survive! Mola Mola!\"\nThe lone survivor of 300,000,000 brothers -\nthe ocean's a harsh realm, man.", "Playing life on Hard Mode, a Mola Mola\nis always within sight of paradise.\nAttacks from range by screaming… then dying."]
+    190:
+      name: [Alois, Alois CC]
+      desc: ["Joining the fight from Merc Storia! Master\nsorcerer cursed for unknown reasons.\nArea attacks might Knockback Angels.", "Joining the fight from Merc Storia! Recovered\ntreasured items thanks to loyal disciples.\nArea attacks might Knockback Angels."]
+    191:
+      name: [Citrouille, Citrouille CC]
+      desc: ["Joining the fight from Merc Storia! Gentleman of \nthe dark, here thanks to a pact with a certain lad.\nMight Knockback/Slow Red & Black (Area)", "Joining the fight from Merc Storia! An eccentric\ncitizen of the dreamworld. (Area Attacks)\nMight Knockback/Slow Red & Black"]
     200:
       name: [Surfer Cat, Castaway Cat, Seafarer Cat]
       desc: ["Spent so long hunting the perfect wave.\nNow he's reached 40 without truly living life(?)\nMight stop Aliens and survive lethal strikes. (Area)", "Says he wants to escape his desert island, but\nhe's secretly enjoying his permenant vacation.\nMight stop Aliens and survive lethal strikes. (Area)", "Giving up on rescue, he is now married to the sea.\nWill the waves be kind or cruel today? Might stop\nAliens, will 100% survive one lethal strike. (Area)"]
@@ -703,6 +745,9 @@ cats:
     333:
       name: [Easter Neneko, Hoppity Neneko]
       desc: ["The adorable idol gets a new springtime look!\nAlways overthinks where to hide the eggs and\nends up panicking. Might critical attack.", "Moneko was busy, so Nene stands in! Loves\ncute cosplay, but the attention always\nembarrasses her. Might critical attack.", "Moneko was busy, so Nene stands in! Loves\ncute cosplay, but the attention always\nembarrasses her. Might critical attack."]
+    345:
+      name: [Orthos, Orthos CC, Artist Orthos CC]
+      desc: ["Joining the fight from Merc Storia!\nA wingless boy from the Sky Country.\nArea attacks might Knockback Floating.", "Joining the fight from Merc Storia! A saints'\nmiracle granted him the wings he long desired.\nArea attacks might Knockback Floating.", "Joining the fight from Merc Storia! Son of the\nSky, who wanders with sketchbook in hand.\nArea attacks might Knockback Floating."]
     378:
       name: [Fencer Cat, Kendo Cat, The Kitty of Liberty]
       desc: ["Invincible swordscat unbeaten in 400 matches.\nHas to use his left hand to actually feel\nchallenged. 100% chance of breaking Barriers.", "Decided to try a new form of swordplay, but\ncan't quite make the switch from his original\nspecialty. 100% chance of breaking Barriers.", "Retired from competition to enter the tourism\nindustry. Everyone uses him as a meeting spot.\n100% chance of breaking Barriers."]
@@ -818,6 +863,9 @@ cats:
     108:
       name: [Coppermine, 'Coppermine, type κ', Divine Coppermine]
       desc: ["Magicial beauty powered by her staff\nReleases beams of light (Area Attack)\nMight freeze floating enemies.", "Doesn't smile that often. (Area Attack)\nIn front of cats, however.. different story.\nMight stop floating enemies.", "What can you do for her that her favorite\nCat doesn't already? Come back in 100\nyears, kid. Might stop Floating (Area Attack)"]
+    120:
+      name: [Wyvern, Wyvern Cat]
+      desc: ["Joining the fight from Merc Storia! Delivering\npowerful blows from above that cause\nMassive Area damage vs Black enemies.", "The Cats adopted a poor lost Wyvern from\nMerc Storia to research Cat-Dragon fusion.\nMassive Area damage vs Black enemies."]
     125:
       name: [Date Masamune, Wargod Masamune, Immortal Masamune]
       desc: ["The curse of the Legendary Cat Shield\nhas made him a killing machine. (Area Attack)\nMight knockback Black and Red enemies.", "Cat Shield's Hell Mode - activate!\nInfernal (Area) attacks slice through his foes!\nMight knockback Black and Red enemies.", "Infernal hatred has fully infused the Shield.\nKarmic blades sweep through all enemies!\nArea atks. knockback Black and Red enemies."]
@@ -866,6 +914,18 @@ cats:
     178:
       name: [Dioramos, Archdragon Dioramos, God-Emperor Dioramos]
       desc: ["This dragon lord seeks to set it all ablaze.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "An ancient dragon of unquestioned authority.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "Brutal attacks powered by hate - a family \ntradition of mercilessness. 100% Barrier break,\nplus Knockback & Slow vs Angels (Area Atk)"]
+    186:
+      name: [Hearscht, Hearscht CC, Revolutionary Hearscht CC]
+      desc: ["Joining the fight from Merc Storia! Silver\nbeast with a blunt and logical attitude.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nA beguiling and handsome lady beast.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nPartisan fencer with radical fashion sense.\nMight Critical Attack, Tough vs Metal."]
+    187:
+      name: [Cornelia, Cornelia CC]
+      desc: ["Joining the fight from Merc Storia! Lady who\nadmires dragons, dreaming of a celestial bridge. \nArea attacks might Freeze Red/Black.", "Joining the fight from Merc Storia! Can't resist\nthe dragon scales that build heaven's bridge.\nArea attacks might Freeze Red/Black."]
+    188:
+      name: [Juvens, Juvens CC, Holiday Juvens CC]
+      desc: ["Joining the fight from Merc Storia! A kind\nknight troubled by uncanny strength from birth.\nTough vs Angel enemies.", "Joining the fight from Merc Storia!\nMerc says he's full of secrets.\nTough vs Angel enemies.", "Joining the fight from Merc Storia! Merc says he\nfawns over cute things when no one is looking.\nTough vs Angel enemies, might Dodge."]
+    189:
+      name: [Mystica, Mystica CC]
+      desc: ["Joining the fight from Merc Storia! Odd girl\nwho has made pacts with creatures of night.\nLong-range Area attacks, Strong vs Black.", "Joining the fight from Merc Storia! Touching\nher coffin will cause it to crumble to dust.\nLong-range Area attacks, Strong vs Black."]
     195:
       name: [Akira, Shadow Akira, Inferno Akira]
       desc: ["A super-genius who dreamed of alien invasion.\nRecreated himself as a cyborg hero to defend\nthe planet! Area attacks might freeze Aliens.", "A bullied kid who hid in his room for years. No more!\nNow channels his fear into fighting for justice!\nAttack power increases when damaged! (Area)", "Reinventing himself, he has changed his destiny!\nBut can he change society with his powers?\nStrong vs. Aliens, immune to wave attacks."]
@@ -1013,6 +1073,12 @@ cats:
     339:
       name: [Imagawa Yoshimoto, Wargod Yoshimoto, Immortal Yoshimoto]
       desc: ["His impeccable virtue allows him to wield\nthe cursed Cat Fan. Strong against Black,\n100% chance to weaken (Long-range)", "Possessed by an all-knowing fox spirit, he\nstrikes with golden arrows. Strong vs Black,\n100% chance to weaken (Long-range)", "Stained crimson with the blood of his rivals, the\nCat Fan burns with an unearthly fire for even greater\ndamage and weakening against Black enemies."]
+    346:
+      name: [Michelia, Michelia CC, Naptime Michelia CC]
+      desc: ["Joining the fight from Merc Storia!\nCalled \"Holy Wings\" for obvious reasons.\nStrong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Only by\ncasting aside wings can you realize true\nsainthood. Strong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Saint\nwho avoids dependence on God's miracles.\nStrong vs/100% Freeze vs Floating"]
+    347:
+      name: [Todomeki, Todomeki CC]
+      desc: ["Joining the fight from Merc Storia! Japanese\nmaiden searching this world for her brother.\nArea attacks might Slow Aliens/Zombies", "Joining the fight from Merc Storia! Treasures\nthe kimono gifted by her dear brother.\nArea attacks might Slow Aliens/Zombies"]
     352:
       name: [Twinstars, 'Twinstars, type Φ', Divine Twinstars]
       desc: ["The two purehearted sisters, Cici and Koma.\nDivine breath controls their mighty mecha claws.\nMassive area damage to Aliens/Black.", "The mechanical catpaws \"AH\" and \"UN\" sweetly \nsweep away any threat to these cutie-pie demigods.\nMassive area damage to Aliens/Black.", "Undisputed masters of the coordinated assault.\nThey skipped detention today to join the battle!\nMassive area damage to Aliens/Black."]
@@ -1110,8 +1176,8 @@ cats:
       name: [Li'l Valkyrie, Wind Dancer Valkyrie]
       desc: ["Valkyrie's younger sister. Top agent of Valhalla,\nentrusted with high-risk missions to defend the\nmortal realms. Area atk might break Barriers.", "Valkyrie's youngest sister. Nature itself has\nblessed her with command over all forces of\nthe Earth. Area attacks might break Barriers."]
     437:
-      name: [Nobiluga, Nobilan Pasalan]
-      desc: ["Not sure if this is a Cat...\nThere's just something about\nthat cool 'stache...", "I can't stand it anymore...\nSeems like this one is immune to\nWave attacks. (Long Range Area Attack)"]
+      name: [Nobiluga, Nobilan Pasalan, Mystican Pasalan]
+      desc: ["Not sure if this is a Cat...\nThere's just something about\nthat cool 'stache...", "I can't stand it anymore...\nSeems like this one is immune to\nWave attacks. (Long Range Area Attack)", "Monster? Magician? ...Or just a Cat?\nNo one can explain how its powers work.\nImmune to Wave attacks (Long-Range Area)"]
     439:
       name: [Waverider Kuu, 'Waverider Kuu, type γ']
       desc: ["A fiery lass who runs a tiki bar by the sea.\nBoys at the beach don't seem to mind her abuse\ntoo much? Strong vs. Zombies/Floating (Area Atk)", "A rowdy beach babe who keeps the seaside bullies\nin check by patrolling on her custom speedboard.\nStrong vs. Zombies/Floating (Area Atk)"]
@@ -1148,6 +1214,9 @@ cats:
     506:
       name: [Relentless Gladios, Gladios the Annihilator]
       desc: ["Gargantuan horned beast, spitting vicious\nthunderbolts that shake the very firmament.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies."]
+    507:
+      name: [Eyewaltz, Eyewaltz CC]
+      desc: ["Joining the fight from Merc Storia!\nRenounced his pirate past to become a marine.\n100% Survives, Chance of Savage Blow. (Area)", "Joining the fight from Merc Storia!\nWields power for the cause of one special person.\n100% Survives, Chance of Savage Blow. (Area)"]
     512:
       name: [Ryu, Ryu CC]
       desc: ["Joining the fight from Street Fighter V AE!\nA hero walking the path of a true fighter.\nChance to deliver a Savage Blow (Area Attack)", "Joining the fight from Street Fighter V AE!\nSeeking a rival who will finally test his skills.\nChance to deliver a Savage Blow (Area Attack)"]
@@ -1181,6 +1250,9 @@ cats:
     530:
       name: [Kasli the Scourge, Ritual Saint Kasli]
       desc: ["Young wanderer whose soul is a prison to 1000\nvengeful ghosts. Trifle with her at your peril.\nLong-range Surges might Knockback Traited!", "Having at last encountered kindness and love, she\nnow commands her wraiths for the cause of light!\nLong-range Surges w/ chance to Knockback Traited!"]
+    534:
+      name: [Sharpshooter Saki, Nighthunter Saki]
+      desc: ["A sniper prodigy, small but effective. Can change\nthe entire course of battle with a single bullet.\nLong-range attacks only hit Aliens & Red.", "The watchful guardian over the night city. Genius\nwith a rifle, who still has to help Mom with the dishes.\nLong-range attacks only hit Aliens & Zombies."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1703,6 +1775,13 @@ gacha:
   484: [530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   485: [175, 174, 496, 523, 524, 378, 377, 326, 308, 309, 201, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   486: [175, 174, 496, 523, 524, 378, 377, 326, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  487: [534, 524, 523, 496, 482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 227, 213, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  488: [534, 524, 523, 496, 482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 227, 213, 201, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  489: [534, 524, 523, 496, 482, 448, 447, 446, 445, 444, 432, 378, 377, 326, 308, 309, 262, 240, 239, 238, 227, 213, 200, 199, 198, 197, 196, 195, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  490: [534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  491: [534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  492: [534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  493: [530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -4712,3 +4791,40 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-02-24_442:
+    start_on: 2020-02-24
+    end_on: 2020-02-26
+    version: '90300'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Legend!
+    id: 442
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-26_475:
+    start_on: 2020-02-26
+    end_on: 2020-02-28
+    version: '90300'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a mystery Legend?!"
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-02-28_483:
+    start_on: 2020-02-28
+    end_on: 2020-03-02
+    version: '90300'
+    name: Embrace the darkness! ★ NEW UNIT Kasli the Scourge & higher drop rate!
+    id: 483
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-02-28_484:
+    start_on: 2020-02-28
+    end_on: 2030-01-01
+    version: '90300'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 484
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
