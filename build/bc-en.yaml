@@ -4828,3 +4828,30 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-03-02_427:
+    start_on: 2020-03-02
+    end_on: 2020-03-04
+    version: '90300'
+    name: Narita Kaihime awaits your command! ★ Tap banner for more info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-04_424:
+    start_on: 2020-03-04
+    end_on: 2020-03-06
+    version: '90300'
+    name: Embrace darkness with Dynamite LASVOSS! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-06_421:
+    start_on: 2020-03-06
+    end_on: 2020-03-09
+    version: '90300'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
