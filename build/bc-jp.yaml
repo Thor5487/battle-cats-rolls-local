@@ -4844,3 +4844,23 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-03-06_497:
+    start_on: 2020-03-06
+    end_on: 2020-03-09
+    version: '90400'
+    name: 冥界神ハデス参戦！にゃんこワールドの偉大なる神々！★詳細はバナーをタップ!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-03-06_504:
+    start_on: 2020-03-06
+    end_on: 2030-01-01
+    version: '90400'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 504
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
