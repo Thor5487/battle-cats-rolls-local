@@ -4855,3 +4855,39 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-03-09_414:
+    start_on: 2020-03-09
+    end_on: 2020-03-23
+    version: '90300'
+    name: Limited Ed. Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-03-09_454:
+    start_on: 2020-03-09
+    end_on: 2020-03-11
+    version: '90300'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-03-11_445:
+    start_on: 2020-03-11
+    end_on: 2020-03-13
+    version: '90300'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-13_479:
+    start_on: 2020-03-13
+    end_on: 2020-03-16
+    version: '90300'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 479
+    rare: 6500
+    supa: 2600
+    uber: 900
