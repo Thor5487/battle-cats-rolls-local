@@ -4891,3 +4891,51 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-03-16_430:
+    start_on: 2020-03-16
+    end_on: 2020-03-18
+    version: '90300'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-18_448:
+    start_on: 2020-03-18
+    end_on: 2020-03-20
+    version: '90300'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-20_414:
+    start_on: 2020-03-20
+    end_on: 2020-03-23
+    version: '90300'
+    name: 'LAST CHANCE: Merc Storia Capsules, with 11-Draw Guaranteed Uber!'
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-03-20_487:
+    start_on: 2020-03-20
+    end_on: 2020-03-23
+    version: '90300'
+    name: Sharpshooter Saki is here to defend justice!  ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-03-20_492:
+    start_on: 2020-03-20
+    end_on: 2030-01-01
+    version: '90300'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 492
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
