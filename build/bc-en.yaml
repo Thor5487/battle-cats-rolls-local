@@ -4939,3 +4939,30 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-03-23_442:
+    start_on: 2020-03-23
+    end_on: 2020-03-25
+    version: '90300'
+    name: The Almighties ★ Supreme beings of Catkind, with a hidden Legend!
+    id: 442
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-25_433:
+    start_on: 2020-03-25
+    end_on: 2020-03-27
+    version: '90300'
+    name: The Dragon Emperors return! ★ Collect a monstrous Uber!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-27_475:
+    start_on: 2020-03-27
+    end_on: 2020-03-30
+    version: '90300'
+    name: "★ Ultra Souls ★ Mythical Uber Cats, with a mystery Legend?!"
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
