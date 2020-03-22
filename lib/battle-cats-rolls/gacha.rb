@@ -191,7 +191,11 @@ module BattleCatsRolls
 
     def fill_cat_links cat, last_cat
       if version == '8.6' && cat.duped?(last_cat)
-        last_cat.next = cat.rerolled = reroll_cat(cat)
+        # We need ||= to avoid rerolling the same cat, because it can
+        # dupe from both A and B, thus it can be called twice.
+        # Given the same cat in the same position, result is the same.
+        # https://bc.godfat.org/?seed=3785770978&event=2020-03-20_414
+        last_cat.next = cat.rerolled ||= reroll_cat(cat)
       elsif last_cat
         last_cat.next = cat
       end

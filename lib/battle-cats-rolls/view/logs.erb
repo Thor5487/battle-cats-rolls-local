@@ -19,6 +19,16 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2020-03-22") %>
+<ul>
+  <li>
+    Fixed an edge case where guaranteed cats might be missing for some cells.
+    It was happening when one of the cells had a dupe from both A and B, and
+    when that happened next cat data would be lost causing missing guaranteed.
+    It was only discovered with Merc Storia because it has the most dupes.
+  </li>
+</ul>
+
 <%= header(2, "2020-01-23") %>
 <ul>
   <li>Highlight the middle 5 rolls differently for step-up events. This may help you plan out when we have multiple step-up events happening at the same time.</li>
