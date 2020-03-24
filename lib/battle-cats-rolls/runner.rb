@@ -7,7 +7,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         __method__,
-        '9.3.0',
+        '9.4.0',
         AwsAuth.event_url('en'),
         # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatsen/'
         'https://apkplz.net/app/jp.co.ponos.battlecatsen'
@@ -17,7 +17,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         __method__,
-        '9.3.0',
+        '9.4.0',
         AwsAuth.event_url('tw'),
         # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/'
         'https://apkplz.net/app/jp.co.ponos.battlecatstw'
@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '9.3.0',
+        '9.4.0',
         AwsAuth.event_url('kr'),
         # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatskr/'
         'https://apkplz.net/app/jp.co.ponos.battlecatskr'
@@ -238,7 +238,7 @@ module BattleCatsRolls
     end
 
     def open_uri uri
-      open(URI.parse(uri), 'User-Agent' => 'Mozilla/5.0')
+      URI.open(URI.parse(uri), 'User-Agent' => 'Mozilla/5.0')
     end
 
     def write_pack

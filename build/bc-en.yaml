@@ -597,6 +597,12 @@ cats:
     532:
       name: [Teacher BearCat, Assassin BearCat]
       desc: ["Lead in the hit drama \"Trial of Teacher Bear\".\nSmashes anyone who steals his spotlight.\nDelivers insane area damage to Traitless.", "Production assistant on the set of \"Teacher Bear\".\nObliterates anyone who stands in front of him.\nDelivers insane area damage to Black."]
+    539:
+      name: [Miku Cat, Miku Cat CC]
+      desc: ["Die-hard fan of a cute & stylish pop diva.\nBroke a mirror trying to cover Miku's songs.\nMight Dodge Floating enemy attacks", "Taking first steps toward global pop stardom.\nHas front row seats for Miku's next show.\nMight Dodge Floating enemy attacks"]
+    540:
+      name: [Rugby Cat, Quarterback Cat]
+      desc: ["Young and talented winger for Cat Empire F.C.\nKey attacker in recent wins against the Doges.\nStrong vs. Black, Immune to Waves. (Area Atk.)", "Moved across the sea and started a new sport.\nHe seems to enjoy the extra padding. Strong\nvs Black, Immune to Waves (Long-range Area)"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -1089,8 +1095,8 @@ cats:
       name: [Mighty Rekon Korps, Orbital Platform Armageddon, Orbital Annihilator Ragnarok]
       desc: ["Highly mobile artillery unit based on ancient\nengineering. Only attacks enemies with traits,\nbut deals massive area damage with each strike.", "Designed to control interstellar territory using\nwormhole physics and thermonuclear stikes.\nMassive area damage vs traited enemies only.", "Only the most elite among the Cat Army troops can\nbe trusted with this weapon of overwhelming power.\nMassive area damage vs traited enemies only."]
     358:
-      name: [Wolfchild Deale, Wolf Princess Deale]
-      desc: ["A lost cub from a mighty werewolf pack\nwho found her calling in show business.\nMight knockback Angels & Aliens (Area Atk)", "The one-wolf show has revealed her true colors\nto universal acclaim. Are you not entertained??\nMight knockback Angels & Aliens (Area Atk)"]
+      name: [Wolfchild Deale, Wolf Princess Deale, Jester Queen Deale]
+      desc: ["A lost cub from a mighty werewolf pack\nwho found her calling in show business.\nMight knockback Angels & Aliens (Area Atk)", "The one-wolf show has revealed her true colors\nto universal acclaim. Are you not entertained??\nMight knockback Angels & Aliens (Area Atk)", "Started streaming her comedy act and earned\na million bucks! Follow her for a special reward~☆\nArea attacks might knockback Angels/Aliens"]
     359:
       name: [Graveflower Verbena, Verbena the Bride]
       desc: ["A lost soul who came home from the other side. \nHunting for a groom to fill her heart... or her stomach.\nMight deliver critical strikes (Area Attacks)", "Her hunger sated, she now looks forward to\nthe wedding day of her undead dreams.\nMight deliver critical strikes (Area Attacks)"]
@@ -1225,7 +1231,7 @@ cats:
       desc: ["Joining the fight from Street Fighter V AE!\nICPO agent searching for her lost father.\nMight Knockback Red, Black, and Aliens.", "Joining the fight from Street Fighter V AE!\nCan you withstand her lightning kicks?\nMight Knockback Red, Black, and Aliens."]
     514:
       name: [Guile, Guile CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nHardened soldier seeking peace for his home.\nTough vs Floating, 100% Slow/Weaken", "Joining the fight from Street Fighter V AE!\nCrush villains with a Somersault Kick!\nTough vs Floating, 100% Slow/Weaken"]
+      desc: ["Joining the fight from Street Fighter V AE!\nHardened soldier seeking peace for his home.\nTough vs Floating, Slow/Weaken", "Joining the fight from Street Fighter V AE!\nCrush villains with a Somersault Kick!\nTough vs Floating, Slow/Weaken"]
     515:
       name: [Zangief, Zangief CC]
       desc: ["Joining the fight from Street Fighter V AE!\nA towering wrestler called \"Red Cyclone\".\nOmnistrike, might avoid Zombie damage", "Joining the fight from Street Fighter V AE!\nSubmit to the force of his Cyclone Lariat!\nOmnistrike, might avoid Zombie damage"]
@@ -1253,6 +1259,18 @@ cats:
     534:
       name: [Sharpshooter Saki, Nighthunter Saki]
       desc: ["A sniper prodigy, small but effective. Can change\nthe entire course of battle with a single bullet.\nLong-range attacks only hit Aliens & Red.", "The watchful guardian over the night city. Genius\nwith a rifle, who still has to help Mom with the dishes.\nLong-range attacks only hit Aliens & Zombies."]
+    535:
+      name: [Hades the Punisher, Hades the Deathdealer]
+      desc: ["Supreme overlord and judge of the dead.\nCondemns evil souls with his infernal scythe.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the underworld who reaps the spirits\nof sinners, bringing them to their ultimate fate.\nImmune to Toxic & Warp (Area Attack)"]
+    536:
+      name: [Hatsune Miku, Hatsune Miku CC]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nCute & stylish electric pop diva. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels.", "Virtual singer loved by the entire Cat Empire!\nHer voice is famous around the globe. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels.", "Virtual singer loved by the entire Cat Empire!\nHer voice is famous around the globe. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels."]
+    537:
+      name: [Sakura Miku, Sakura Miku CC]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nCute & stylish diva dressed for spring! Long-range\nArea attacks Freeze Aliens, might break Barriers.", "Virtual singer loved by the entire Cat Empire!\nDiva who dances among the cherry blossoms.\nArea attacks Freeze Aliens, might break Barriers.", "Virtual singer loved by the entire Cat Empire!\nDiva who dances among the cherry blossoms.\nArea attacks Freeze Aliens, might break Barriers."]
+    538:
+      name: [Kagamine Rin & Len, Kagamine Rin & Len CC]
+      desc: ["Virtual singers loved by the entire Cat Empire!\nPowerful and charming twin vocals. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1782,6 +1800,17 @@ gacha:
   491: [534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   492: [534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   493: [530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  494: [536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  495: [175, 174, 174, 174, 174, 174, 174, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  496: [175, 174, 174, 174, 174, 174, 174, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  497: [535, 524, 523, 496, 494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  498: [535, 524, 523, 496, 494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  499: [535, 524, 523, 496, 494, 448, 447, 446, 445, 444, 440, 378, 377, 326, 317, 273, 272, 260, 259, 258, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  500: [535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  501: [535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  502: [524, 523, 496, 332, 331, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  503: [535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  504: [535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
