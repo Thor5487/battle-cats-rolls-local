@@ -4995,3 +4995,39 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-03-30_424:
+    start_on: 2020-03-30
+    end_on: 2020-04-01
+    version: '90400'
+    name: Embrace darkness with Dynamite LASVOSS! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-03-30_494:
+    start_on: 2020-03-30
+    end_on: 2020-04-13
+    version: '90400'
+    name: Virtual Singers in the Cat Army! Hatsune Miku is here for a limted time!
+    id: 494
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-04-01_421:
+    start_on: 2020-04-01
+    end_on: 2020-04-03
+    version: '90400'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-04-03_490:
+    start_on: 2020-04-03
+    end_on: 2020-04-06
+    version: '90400'
+    name: Embrace the darkness! ★ NEW UNIT Kasli the Scourge & higher drop rate!
+    id: 490
+    rare: 6500
+    supa: 2600
+    uber: 900
