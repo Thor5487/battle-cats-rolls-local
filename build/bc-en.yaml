@@ -5031,3 +5031,13 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-04-03_503:
+    start_on: 2020-01-01
+    end_on: 2020-12-31
+    version: '90400'
+    name: Superfest! ★ Unknown date, but get ready to roll (not an actual event)!
+    id: 503
+    rare: 6500
+    supa: 2500
+    uber: 1000
+
