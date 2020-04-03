@@ -190,7 +190,7 @@ module BattleCatsRolls
       end
 
       def all_events
-        @all_events ||= ball.dig('events')
+        @all_events ||= ball.events
       end
 
       def ticked
@@ -329,7 +329,7 @@ module BattleCatsRolls
     end
 
     get '/cats' do
-      render :cats, cats: ball.dig('cats')
+      render :cats, cats: ball.cats
     end
 
     get '/help' do

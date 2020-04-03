@@ -22,14 +22,11 @@ module BattleCatsRolls
     end
 
     def initialize ball, event_name
-      events = ball.dig('events')
+      events = ball.events
       picked = events[event_name] || events.first.last
       # If there's no such event, pick the first active one
 
-      super(
-        ball.dig('cats'),
-        ball.dig('gacha', picked['id']),
-        picked)
+      super(ball.cats, ball.gacha[picked['id']], picked)
     end
 
     def exist?

@@ -19,7 +19,17 @@ module BattleCatsRolls
 
     extend Forwardable
 
-    def_delegators :data, :dig
+    def cats
+      data['cats']
+    end
+
+    def gacha
+      data['gacha']
+    end
+
+    def events
+      data['events']
+    end
 
     def dump dir, lang
       require 'fileutils'
