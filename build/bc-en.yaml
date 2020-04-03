@@ -5031,13 +5031,41 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
-  2020-04-03_503:
-    start_on: 2020-01-01
-    end_on: 2020-12-31
+  2020-04-06_454:
+    start_on: 2020-04-06
+    end_on: 2020-04-08
     version: '90400'
-    name: Superfest! ★ Unknown date, but get ready to roll (not an actual event)!
-    id: 503
-    rare: 6500
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
     supa: 2500
-    uber: 1000
-
+    uber: 500
+  2020-04-08_445:
+    start_on: 2020-04-08
+    end_on: 2020-04-10
+    version: '90400'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-04-10_427:
+    start_on: 2020-04-10
+    end_on: 2020-04-13
+    version: '90400'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-04-10_494:
+    start_on: 2020-04-10
+    end_on: 2020-04-13
+    version: '90400'
+    name: Pick up Hatsune Miku and friends with an 11-draw Uber guarantee!
+    id: 494
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
