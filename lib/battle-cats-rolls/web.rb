@@ -2,6 +2,7 @@
 
 require_relative 'request'
 require_relative 'crystal_ball'
+require_relative 'gacha_pool'
 require_relative 'gacha'
 require_relative 'find_cat'
 require_relative 'owned'
@@ -87,8 +88,25 @@ module BattleCatsRolls
         @ball ||= Web.public_send("ball_#{lang}")
       end
 
+      def pool
+        @pool ||=
+          case event
+          when 'custom'
+            event_data = {
+              'id' => custom,
+              'rare' => c_rare,
+              'supa' => c_supa,
+              'uber' => c_uber
+            }
+
+            GachaPool.new(ball, event_data: event_data)
+          else
+            GachaPool.new(ball, event_name: event)
+          end
+      end
+
       def gacha
-        @gacha ||= Gacha.new(ball, event, seed, version)
+        @gacha ||= Gacha.new(pool, seed, version)
       end
 
       # This is the seed from the seed input field
@@ -98,6 +116,24 @@ module BattleCatsRolls
 
       def event
         @event ||= request.params['event'] || current_event
+      end
+
+      def custom
+        @custom ||=
+          (request.params['custom'] ||
+            ball.gacha.each_key.reverse_each.first).to_i
+      end
+
+      def c_rare
+        @c_rare ||= [(request.params['c_rare'] || 6970).to_i.abs, 10000].min
+      end
+
+      def c_supa
+        @c_supa ||= [(request.params['c_supa'] || 2500).to_i.abs, 10000].min
+      end
+
+      def c_uber
+        @c_uber ||= [(request.params['c_uber'] || 500).to_i.abs, 10000].min
       end
 
       def count

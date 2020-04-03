@@ -55,7 +55,7 @@ module BattleCatsRolls
     end
 
     def duped? rhs
-      rhs && rarity == Rare && id == rhs.id
+      rhs && rarity == Rare && id == rhs.id && id > 0
     end
 
     def new_with **args

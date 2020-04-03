@@ -11,6 +11,11 @@
       <% end %>
     </optgroup>
 
+    <optgroup label="Custom:">
+      <option value="custom"
+        <%= selected_current_event('custom') %>>Customize...</option>
+    </optgroup>
+
     <optgroup label="Past:">
       <% controller.past_events.reverse_each do |(event_name, info)| %>
         <option
@@ -20,6 +25,37 @@
       <% end %>
     </optgroup>
   </select>
+
+  <% if controller.event == 'custom' %>
+    <div class="custom">
+      <label for="custom_select">Custom gacha:</label>
+      <select id="custom_select" name="custom" onchange="roll(this)">
+        <% controller.ball.gacha.each_key.reverse_each do |id| %>
+          <option
+            value="<%= id %>"
+            <%= selected_custom_gacha(id) %>><%= id %></option>
+        <% end %>
+      </select>
+
+      <label for="rare_input">Rare:</label>
+      <input
+        type="number" id="rare_input" name="c_rare"
+        min="0" max="10000" value="<%= controller.c_rare %>"
+        onclick="this.select()">
+
+      <label for="supa_input">Super:</label>
+      <input
+        type="number" id="supa_input" name="c_supa"
+        min="0" max="10000" value="<%= controller.c_supa %>"
+        onclick="this.select()">
+
+      <label for="uber_input">Uber:</label>
+      <input
+        type="number" id="uber_input" name="c_uber"
+        min="0" max="10000" value="<%= controller.c_uber %>"
+        onclick="this.select()">
+    </div>
+  <% end %>
 </div>
 <% else %>
 <%= hidden_inputs('event') %>

@@ -186,6 +186,10 @@ module BattleCatsRolls
       'selected="selected"' if controller.event == event_name
     end
 
+    def selected_custom_gacha gacha_id
+      'selected="selected"' if controller.custom == gacha_id
+    end
+
     def selected_find cat
       'selected="selected"' if controller.find == cat.id
     end
@@ -259,8 +263,7 @@ module BattleCatsRolls
     end
 
     def made10rolls? seeds
-      gacha = Gacha.new(
-        controller.ball, controller.event, seeds.first, controller.version)
+      gacha = Gacha.new(controller.pool, seeds.first, controller.version)
       gacha.send(:advance_seed!) # Account offset
       9.times.inject(nil){ |last| gacha.roll! } # Only 9 rolls left
 
@@ -348,6 +351,10 @@ module BattleCatsRolls
         seed: controller.seed,
         last: controller.last,
         event: controller.event,
+        custom: controller.custom,
+        c_rare: controller.c_rare,
+        c_supa: controller.c_supa,
+        c_uber: controller.c_uber,
         lang: controller.lang,
         version: controller.version,
         name: controller.name,
@@ -373,7 +380,10 @@ module BattleCatsRolls
            (key == :no_guaranteed && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0) ||
-           (key == :owned && value == '')
+           (key == :owned && value == '') ||
+           (query[:event] != 'custom' &&
+              (key == :custom || key == :c_rare ||
+               key == :c_supa || key == :c_uber))
           false
         else
           true

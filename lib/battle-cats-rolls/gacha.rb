@@ -2,7 +2,6 @@
 
 require_relative 'cat'
 require_relative 'fruit'
-require_relative 'gacha_pool'
 
 require 'forwardable'
 
@@ -12,8 +11,8 @@ module BattleCatsRolls
 
     def_delegators :pool, *%w[rare supa uber legend]
 
-    def initialize crystal_ball, event_name, seed, version
-      super(GachaPool.new(crystal_ball, event_name), seed, version, [])
+    def initialize gacha_pool, seed, version
+      super(gacha_pool, seed, version, [])
 
       advance_seed!
     end
@@ -151,11 +150,19 @@ module BattleCatsRolls
 
     def new_cat rarity, slot_fruit, **args
       slots = pool.dig_slot(rarity)
-      slot = slot_fruit.value % slots.size
-      id = slots[slot]
+
+      if slots.empty? # Cats for this rarity cannot be found
+        slot = nil
+        id = -1
+        info = {'name' => ['N/A']}
+      else
+        slot = slot_fruit.value % slots.size
+        id = slots[slot]
+        info = pool.dig_cat(rarity, id)
+      end
 
       Cat.new(
-        id: id, info: pool.dig_cat(rarity, id),
+        id: id, info: info,
         rarity: rarity,
         slot_fruit: slot_fruit, slot: slot,
         **args)

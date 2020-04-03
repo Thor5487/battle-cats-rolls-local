@@ -21,12 +21,11 @@ module BattleCatsRolls
       @legend ||= Base - rare - supa - uber
     end
 
-    def initialize ball, event_name
-      events = ball.events
-      picked = events[event_name] || events.first.last
+    def initialize ball, event_data: nil, event_name: nil
+      event_data ||= ball.events[event_name] || ball.events.first.last
       # If there's no such event, pick the first active one
 
-      super(ball.cats, ball.gacha[picked['id']], picked)
+      super(ball.cats, ball.gacha[event_data['id']], event_data)
     end
 
     def exist?
