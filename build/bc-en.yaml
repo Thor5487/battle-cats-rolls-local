@@ -5069,3 +5069,39 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-04-13_448:
+    start_on: 2020-04-13
+    end_on: 2020-04-15
+    version: '90400'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-04-13_502:
+    start_on: 2020-04-13
+    end_on: 2020-04-27
+    version: '90400'
+    name: Limited Edition Spring Cats ★ Check info for more details!
+    id: 502
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-04-15_430:
+    start_on: 2020-04-15
+    end_on: 2020-04-17
+    version: '90400'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-04-17_491:
+    start_on: 2020-04-17
+    end_on: 2020-04-20
+    version: '90400'
+    name: D'arktanyan is here! ★ Plus higher drop rate for Uber Rares!
+    id: 491
+    rare: 6500
+    supa: 2600
+    uber: 900
