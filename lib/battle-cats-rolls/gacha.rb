@@ -6,7 +6,7 @@ require_relative 'fruit'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed, :version, :last_both)
+  class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_cat)
     extend Forwardable
 
     def_delegators :pool, *%w[rare supa uber legend]
@@ -270,9 +270,12 @@ module BattleCatsRolls
     end
 
     def fill_picking_backtrack cats, number, which_cat=:itself
+      a = last_cat || cats.dig(0, 0)
+      b = cats.dig(0, 1)
+
       [
-        fill_picking_backtrack_from(cats.dig(0, 0), number, which_cat),
-        fill_picking_backtrack_from(cats.dig(0, 1), number, which_cat)
+        fill_picking_backtrack_from(a, number, which_cat),
+        fill_picking_backtrack_from(b, number, which_cat)
       ].find(&:itself)
     end
 

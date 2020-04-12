@@ -69,7 +69,11 @@ module BattleCatsRolls
 
     def prepare_tracks
       gacha.pool.add_future_ubers(ubers) if ubers > 0
-      gacha.last_both = [Cat.new(id: last), nil] if last.nonzero?
+
+      if last.nonzero?
+        gacha.last_cat = Cat.new(id: last)
+        gacha.last_both = [gacha.last_cat, nil]
+      end
 
       # Human counts from 1
       cats = 1.upto(count).map do |sequence|
