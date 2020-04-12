@@ -85,7 +85,11 @@ module BattleCatsRolls
     controller_include NormalizedPath, Imp
 
     get '/' do
-      if route.show_tracks?
+      canonical_uri = route.uri(path: '/')
+
+      if request.fullpath != canonical_uri
+        found canonical_uri
+      elsif route.show_tracks?
         cats, found_cats = route.prepare_tracks
 
         render :index, cats: cats, found_cats: found_cats, details: true
