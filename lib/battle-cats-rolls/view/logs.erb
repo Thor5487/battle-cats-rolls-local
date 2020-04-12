@@ -19,6 +19,25 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2020-04-13") %>
+<ul>
+  <li>
+    We now redirect you to the canonical URL if you're not at it.
+    Note that every time you change something in the control panel
+    (e.g. switching the event), you'll move to non-canonical URL.
+    It wasn't a big concern when we didn't have so many options, but
+    since we're having more and more options, it's adding up. This
+    effort is trying to keep the URL short.
+  </li>
+  <li>
+    Ideally it should not redirect you, but just stick with the
+    cleanest canonical URL when you touch the control panel, but
+    I just hate writing JavaScript so simply redirecting from the
+    server is so much easier to implement, and it seems fast enough
+    anyway.
+  </li>
+</ul>
+
 <%= header(2, "2020-04-04") %>
 <ul>
   <li>
