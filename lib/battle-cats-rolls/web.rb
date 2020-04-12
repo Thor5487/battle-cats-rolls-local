@@ -87,7 +87,7 @@ module BattleCatsRolls
     get '/' do
       canonical_uri = route.uri(path: '/')
 
-      if request.fullpath != canonical_uri
+      if request.fullpath.sub(/&pick=[^&]+\z/, '') != canonical_uri
         found canonical_uri
       elsif route.show_tracks?
         cats, found_cats = route.prepare_tracks
