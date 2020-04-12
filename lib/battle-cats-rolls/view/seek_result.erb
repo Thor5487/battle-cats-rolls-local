@@ -15,7 +15,7 @@
             <li>The formula changed and we didn't update the code yet.</li>
           </ul>
         </li>
-        <li>Do you want to <a href="<%= seek_uri %>">try again</a>?</li>
+        <li>Do you want to <a href="<%= route.seek_uri %>">try again</a>?</li>
       </ul>
     <% else %>
       <ul>
@@ -23,7 +23,7 @@
           Your starting seed is:
           <ul>
             <li>
-              <a href="<%= uri(query: {seed: arg.dig(:seed, 0)}) %>"><%= arg.dig(:seed, 0) %></a>
+              <a href="<%= route.uri(query: {seed: arg.dig(:seed, 0)}) %>"><%= arg.dig(:seed, 0) %></a>
             </li>
           </ul>
         </li>
@@ -31,7 +31,7 @@
           After rolling the cats you entered, your last seed is:
           <ul>
             <li>
-              <a href="<%= uri(query: {seed: arg.dig(:seed, 1)}) %>"><%= arg.dig(:seed, 1) %></a>
+              <a href="<%= route.uri(query: {seed: arg.dig(:seed, 1)}) %>"><%= arg.dig(:seed, 1) %></a>
             </li>
           </ul>
         </li>
@@ -43,7 +43,7 @@
             then your seed should be:
             <ul>
               <li>
-                <a href="<%= uri(query: {seed: offset_seed}) %>"><%= offset_seed %></a> (1A here is the same as 1B in the above link)
+                <a href="<%= route.uri(query: {seed: offset_seed}) %>"><%= offset_seed %></a> (1A here is the same as 1B in the above link)
               </li>
             </ul>
           </li>
@@ -60,6 +60,6 @@
       window.setTimeout(function(){ window.location.reload(true) }, 5000);
     </script>
   <% else %>
-    <ul><li>Are you <a href="<%= seek_uri %>">seeking</a> the seed?</li></ul>
+    <ul><li>Are you <a href="<%= route.seek_uri %>">seeking</a> the seed?</li></ul>
   <% end %>
 </p>

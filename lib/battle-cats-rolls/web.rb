@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'route'
 require_relative 'request'
-require_relative 'crystal_ball'
-require_relative 'gacha_pool'
-require_relative 'gacha'
-require_relative 'find_cat'
-require_relative 'owned'
 require_relative 'seek_seed'
 require_relative 'cache'
 require_relative 'aws_auth'
@@ -14,249 +10,18 @@ require_relative 'help'
 
 require 'jellyfish'
 
-require 'date'
 require 'json'
 require 'net/http'
 
 module BattleCatsRolls
   class Web
-    def self.root
-      @root ||= "#{__dir__}/../.."
-    end
-
-    def self.ball_en
-      @ball_en ||= CrystalBall.load("#{root}/build", 'en')
-    end
-
-    def self.ball_tw
-      @ball_tw ||= CrystalBall.load("#{root}/build", 'tw')
-    end
-
-    def self.ball_jp
-      @ball_jp ||= CrystalBall.load("#{root}/build", 'jp')
-    end
-
-    def self.ball_kr
-      @ball_kr ||= CrystalBall.load("#{root}/build", 'kr')
-    end
-
     module Imp
+      def route
+        @route ||= Route.new(request)
+      end
+
       def request
         @request ||= Request.new(env)
-      end
-
-      def lang
-        @lang ||=
-          case value = request.params['lang']
-          when 'tw', 'jp', 'kr'
-            value
-          else
-            'en'
-          end
-      end
-
-      def version
-        @version ||=
-          case value = request.params['version']
-          when '8.6', '8.5', '8.4'
-            value
-          else
-            default_version
-          end
-      end
-
-      def default_version
-        case lang
-        when 'jp'
-          '8.6'
-        else
-          '8.6'
-        end
-      end
-
-      def name
-        @name ||=
-          case value = request.params['name'].to_i
-          when 1, 2
-            value
-          else
-            0
-          end
-      end
-
-      def ball
-        @ball ||= Web.public_send("ball_#{lang}")
-      end
-
-      def pool
-        @pool ||=
-          case event
-          when 'custom'
-            event_data = {
-              'id' => custom,
-              'rare' => c_rare,
-              'supa' => c_supa,
-              'uber' => c_uber
-            }
-
-            GachaPool.new(ball, event_data: event_data)
-          else
-            GachaPool.new(ball, event_name: event)
-          end
-      end
-
-      def gacha
-        @gacha ||= Gacha.new(pool, seed, version)
-      end
-
-      # This is the seed from the seed input field
-      def seed
-        @seed ||= request.params['seed'].to_i
-      end
-
-      def event
-        @event ||= request.params['event'] || current_event
-      end
-
-      def custom
-        @custom ||=
-          (request.params['custom'] ||
-            ball.gacha.each_key.reverse_each.first).to_i
-      end
-
-      def c_rare
-        @c_rare ||= [(request.params['c_rare'] || 6970).to_i.abs, 10000].min
-      end
-
-      def c_supa
-        @c_supa ||= [(request.params['c_supa'] || 2500).to_i.abs, 10000].min
-      end
-
-      def c_uber
-        @c_uber ||= [(request.params['c_uber'] || 500).to_i.abs, 10000].min
-      end
-
-      def count
-        @count ||=
-          [1,
-           [(request.params['count'] || 100).to_i, FindCat::Max].min
-          ].max
-      end
-
-      def find
-        @find ||= request.params['find'].to_i
-      end
-
-      def last
-        @last ||= request.params['last'].to_i
-      end
-
-      def no_guaranteed
-        return @no_guaranteed if instance_variable_defined?(:@no_guaranteed)
-
-        @no_guaranteed =
-          !request.params['no_guaranteed'].to_s.strip.empty? || nil
-      end
-
-      def force_guaranteed
-        @force_guaranteed ||= request.params['force_guaranteed'].to_i
-      end
-
-      def guaranteed_rolls
-        @guaranteed_rolls ||=
-          if force_guaranteed.zero?
-            gacha.pool.guaranteed_rolls
-          else
-            force_guaranteed
-          end
-      end
-
-      def ubers
-        @ubers ||= request.params['ubers'].to_i
-      end
-
-      def details
-        return @details if instance_variable_defined?(:@details)
-
-        @details = !request.params['details'].to_s.strip.empty? || nil
-      end
-
-      def current_event
-        @current_event ||=
-          upcoming_events.find{ |_, info| info['platinum'].nil? }&.first
-      end
-
-      def upcoming_events
-        @upcoming_events ||= grouped_events[true] || []
-      end
-
-      def past_events
-        @past_events ||= grouped_events[false] || []
-      end
-
-      def grouped_events
-        @grouped_events ||= begin
-          today = Date.today
-
-          all_events.group_by do |_, value|
-            if value['platinum']
-              current_platinum['id'] == value['id'] ||
-                today <= value['start_on'] # Include upcoming platinum
-            else
-              today <= value['end_on']
-            end
-          end
-        end
-      end
-
-      def current_platinum
-        @current_platinum ||= begin
-          past = Date.new
-          today = Date.today
-
-          all_events.max_by do |_, value|
-            # Ignore upcoming platinum
-            if value['platinum'] && value['start_on'] <= today
-              value['start_on']
-            else
-              past
-            end
-          end.last
-        end
-      end
-
-      def all_events
-        @all_events ||= ball.events
-      end
-
-      def ticked
-        @ticked ||= Array(request.params['t']).map(&:to_i).sort.uniq
-      end
-
-      def owned
-        @owned ||=
-          if owned_decoded.empty?
-            ''
-          else
-            Owned.encode(owned_decoded)
-          end
-      end
-
-      def owned_decoded
-        @owned_decoded ||=
-          if ticked.empty?
-            Owned.decode(request.params['owned'].to_s).sort.uniq
-          else
-            ticked
-          end
-      end
-
-      def seek_source
-        @seek_source ||=
-          [version, gacha.rare, gacha.supa, gacha.uber, gacha.legend,
-           gacha.rare_cats.size, gacha.supa_cats.size,
-           gacha.uber_cats.size, gacha.legend_cats.size,
-           *request.POST['rolls']].join(' ').squeeze(' ')
       end
 
       def serve_tsv lang, file
@@ -264,7 +29,7 @@ module BattleCatsRolls
 
         cache[key] ||
           cache.store(
-            key, request_tsv(lang, file), expires_in: tsv_expires_in)
+            key, request_tsv(lang, file), expires_in: route.tsv_expires_in)
       end
 
       def request_tsv lang, file
@@ -283,10 +48,6 @@ module BattleCatsRolls
         end
 
         response.body
-      end
-
-      def tsv_expires_in
-        600
       end
 
       def aws_auth lang, file
@@ -316,7 +77,7 @@ module BattleCatsRolls
       end
 
       def render name, arg=nil
-        View.new(self, arg).render(name)
+        View.new(route, arg).render(name)
       end
     end
 
@@ -324,30 +85,8 @@ module BattleCatsRolls
     controller_include NormalizedPath, Imp
 
     get '/' do
-      if event && seed.nonzero? && gacha.pool.exist?
-        gacha.pool.add_future_ubers(ubers) if ubers > 0
-        gacha.last_both = [Cat.new(id: last), nil] if last.nonzero?
-
-        # Human counts from 1
-        cats = 1.upto(count).map do |sequence|
-          gacha.roll_both!(sequence)
-        end
-
-        if version == '8.6'
-          gacha.finish_rerolled_links(cats)
-        end
-
-        if guaranteed_rolls > 0
-          gacha.finish_guaranteed(cats, guaranteed_rolls)
-        end
-
-        if pick = request.params['pick']
-          gacha.finish_picking(cats, pick, guaranteed_rolls)
-        end
-
-        found_cats =
-          FindCat.search(gacha, find,
-            cats: cats, guaranteed: !no_guaranteed, max: FindCat::Max)
+      if route.show_tracks?
+        cats, found_cats = route.prepare_tracks
 
         render :index, cats: cats, found_cats: found_cats, details: true
       else
@@ -357,15 +96,15 @@ module BattleCatsRolls
 
     get '/warmup' do
       cache
-      Web.ball_en
-      Web.ball_tw
-      Web.ball_jp
+      Route.ball_en
+      Route.ball_tw
+      Route.ball_jp
       View.warmup
       'OK'
     end
 
     get '/cats' do
-      render :cats, cats: ball.cats
+      render :cats, cats: route.cats
     end
 
     get '/help' do
@@ -406,11 +145,9 @@ module BattleCatsRolls
       end
 
       post '/seek/enqueue' do
-        key = SeekSeed.enqueue(seek_source, cache, logger)
+        key = SeekSeed.enqueue(route.seek_source, cache, logger)
 
-        found \
-          "/seek/result/#{key}?" \
-          "event=#{event}&lang=#{lang}&version=#{version}&name=#{name}"
+        found route.seek_result(key)
       end
 
       get %r{^/seek/result/?(?<key>\w*)} do |m|

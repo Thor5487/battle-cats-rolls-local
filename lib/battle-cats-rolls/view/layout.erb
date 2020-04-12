@@ -63,22 +63,22 @@
         element.form.submit();
       };
       function pick(position) {
-        window.location = '<%= uri %>' + '&pick=' + position
+        window.location = '<%= route.uri %>' + '&pick=' + position
           + '#N' + position.replace(/[RGX]/g, '');
       };
     </script>
   </head>
   <body>
     <div id="menu">
-      <a href="<%= uri %>" title="Home / Permalink">
+      <a href="<%= route.uri %>" title="Home / Permalink">
         <img class="menu" src="/asset/image/treasure.png"></a>
-      <a href="<%= cats_uri %>" title="Show me all cats">
+      <a href="<%= route.cats_uri %>" title="Show me all cats">
         <img class="menu" src="/asset/image/cats.png"></a>
-      <a href="<%= help_uri %>" title="Help!">
+      <a href="<%= route.help_uri %>" title="Help!">
         <img class="menu" src="/asset/image/help.png"></a>
-      <a href="<%= logs_uri %>" title="What's changed?">
+      <a href="<%= route.logs_uri %>" title="What's changed?">
         <img class="menu" src="/asset/image/logs.png"></a>
-      <a href="<%= seek_uri %>" title="Looking for your seed?">
+      <a href="<%= route.seek_uri %>" title="Looking for your seed?">
         <img class="menu" src="/asset/image/seek.png"></a>
       <hr>
     </div>
@@ -92,7 +92,7 @@
 
     <div id="footer">
       <hr>
-      <a href="//<%= web_host %>/help">Help</a>
+      <a href="//<%= route.web_host %>/help">Help</a>
       /
       <a href="https://gitlab.com/godfat/battle-cats-rolls">Source</a>
       &copy;

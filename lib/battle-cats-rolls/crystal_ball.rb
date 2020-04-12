@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'forwardable'
-
 module BattleCatsRolls
   class CrystalBall < Struct.new(:data)
     def self.from_pack_and_events pack, events
@@ -16,8 +14,6 @@ module BattleCatsRolls
 
       new(YAML.load_file("#{dir}/bc-#{lang}.yaml"))
     end
-
-    extend Forwardable
 
     def cats
       data['cats']

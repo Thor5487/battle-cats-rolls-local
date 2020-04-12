@@ -1,4 +1,4 @@
-<% if controller.path_info.match?(%r{\A/(?:cats|logs|seek)?\z}) %>
+<% if route.path_info.match?(%r{\A/(?:cats|logs|seek)?\z}) %>
 <div class="options">
   <label for="lang_select">Language:</label>
   <select id="lang_select" name="lang" onchange="roll(this)">
@@ -8,10 +8,10 @@
     <option value="kr" <%= selected_lang('kr') %>>BCKR</option>
   </select>
 
-  <% if controller.path_info.match?(%r{\A/(?:seek)?\z}) %>
+  <% if route.path_info.match?(%r{\A/(?:seek)?\z}) %>
   <label for="version_select">Version:</label>
   <select id="version_select" name="version" onchange="roll(this)">
-    <% if controller.path_info == '/seek' %>
+    <% if route.path_info == '/seek' %>
       <option value="8.6">8.6+ (forgothowtoreddid)</option>
     <% else %>
       <option value="8.6" <%= selected_version('8.6') %>>8.6+</option>
@@ -23,7 +23,7 @@
   <%= hidden_inputs('version') %>
   <% end %>
 
-  <% if controller.path_info != '/logs' %>
+  <% if route.path_info != '/logs' %>
   <label for="name_select">Name:</label>
   <select id="name_select" name="name" onchange="roll(this)">
     <option value="0" <%= selected_name(0) %>>Base</option>
@@ -34,7 +34,7 @@
   <%= hidden_inputs('name') %>
   <% end %>
 
-  <% if controller.path_info == '/cats' %>
+  <% if route.path_info == '/cats' %>
   <div class="cats">
     <% each_ball_cat do |rarity, cats| %>
       <%= header(1, rarity) %>

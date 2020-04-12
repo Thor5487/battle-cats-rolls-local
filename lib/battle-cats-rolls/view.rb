@@ -2,19 +2,20 @@
 
 require_relative 'cat'
 require_relative 'find_cat'
-require_relative 'aws_auth'
+require_relative 'gacha'
+require_relative 'owned'
+
+require 'tilt'
 
 require 'cgi'
 require 'erb'
-require 'tilt'
-
 require 'forwardable'
 
 module BattleCatsRolls
-  class View < Struct.new(:controller, :arg)
+  class View < Struct.new(:route, :arg)
     extend Forwardable
 
-    def_delegators :controller, *%w[request gacha]
+    def_delegator :route, :gacha
 
     def render name
       erb(:layout){ erb(name) }
@@ -55,9 +56,9 @@ module BattleCatsRolls
         :legend
       else
         case cat.id
-        when controller.find
+        when route.find
           :found
-        when *controller.owned_decoded
+        when *route.owned_decoded
           :owned
         when *FindCat.exclusives
           :exclusive
@@ -69,7 +70,7 @@ module BattleCatsRolls
 
     def color_guaranteed cat
       case cat.guaranteed.id
-      when controller.find
+      when route.find
         :found
       when *FindCat.exclusives
         :exclusive
@@ -131,11 +132,11 @@ module BattleCatsRolls
     end
 
     def link_to_roll cat
-      name = h cat.pick_name(controller.name)
-      title = h cat.pick_title(controller.name)
+      name = h cat.pick_name(route.name)
+      title = h cat.pick_title(route.name)
 
       if cat.slot_fruit
-        %Q{<a href="#{h uri_to_roll(cat)}" title="#{title}">#{name}</a>}
+        %Q{<a href="#{h route.uri_to_roll(cat)}" title="#{title}">#{name}</a>}
       else
         %Q{<span title="#{title}">#{name}</span>}
       end +
@@ -171,67 +172,67 @@ module BattleCatsRolls
     end
 
     def selected_lang lang_name
-      'selected="selected"' if controller.lang == lang_name
+      'selected="selected"' if route.lang == lang_name
     end
 
     def selected_version version_name
-      'selected="selected"' if controller.version == version_name
+      'selected="selected"' if route.version == version_name
     end
 
     def selected_name name_name
-      'selected="selected"' if controller.name == name_name
+      'selected="selected"' if route.name == name_name
     end
 
     def selected_current_event event_name
-      'selected="selected"' if controller.event == event_name
+      'selected="selected"' if route.event == event_name
     end
 
     def selected_custom_gacha gacha_id
-      'selected="selected"' if controller.custom == gacha_id
+      'selected="selected"' if route.custom == gacha_id
     end
 
     def selected_find cat
-      'selected="selected"' if controller.find == cat.id
+      'selected="selected"' if route.find == cat.id
     end
 
     def selected_last cat
-      'selected="selected"' if controller.last == cat.id
+      'selected="selected"' if route.last == cat.id
     end
 
     def checked_no_guaranteed
-      'checked="checked"' if controller.no_guaranteed
+      'checked="checked"' if route.no_guaranteed
     end
 
     def selected_force_guaranteed n
-      'selected="selected"' if controller.force_guaranteed == n
+      'selected="selected"' if route.force_guaranteed == n
     end
 
     def selected_ubers n
-      'selected="selected"' if controller.ubers == n
+      'selected="selected"' if route.ubers == n
     end
 
     def checked_details
-      'checked="checked"' if controller.details
+      'checked="checked"' if route.details
     end
 
     def checked_cat cat
-      ticked = controller.ticked
+      ticked = route.ticked
 
       if ticked.empty?
-        'checked="checked"' if controller.owned_decoded.include?(cat.id)
+        'checked="checked"' if route.owned_decoded.include?(cat.id)
       elsif ticked.include?(cat.id)
         'checked="checked"'
       end
     end
 
     def show_details
-      arg&.dig(:details) && controller.details
+      arg&.dig(:details) && route.details
     end
 
     def hidden_inputs *input_names
       input_names.map do |name|
         <<~HTML
-          <input type="hidden" name="#{name}" value="#{controller.public_send(name)}">
+          <input type="hidden" name="#{name}" value="#{route.public_send(name)}">
         HTML
       end.join("\n")
     end
@@ -247,23 +248,16 @@ module BattleCatsRolls
     end
 
     def cat_name cat
-      h cat.pick_name(controller.name)
-    end
-
-    def event_url *args, **options
-      AwsAuth.event_url(*args, base_uri: event_base_uri, **options)
+      h cat.pick_name(route.name)
     end
 
     def h str
       CGI.escape_html(str)
     end
 
-    def u str
-      CGI.escape(str)
-    end
-
     def made10rolls? seeds
-      gacha = Gacha.new(controller.pool, seeds.first, controller.version)
+      gacha = Gacha.new(
+        route.gacha.pool, seeds.first, route.version)
       gacha.send(:advance_seed!) # Account offset
       9.times.inject(nil){ |last| gacha.roll! } # Only 9 rolls left
 
@@ -305,7 +299,7 @@ module BattleCatsRolls
     end
 
     def onclick_pick cat, type
-      return unless cat && controller.path_info == '/'
+      return unless cat && route.path_info == '/'
 
       number =
         case type
@@ -318,117 +312,23 @@ module BattleCatsRolls
       %Q{onclick="pick('#{number}')"}
     end
 
-    def uri_to_roll cat
-      uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
-    end
-
     def uri_to_cat_db cat
       "https://battlecats-db.com/unit/#{sprintf('%03d', cat.id)}.html"
     end
 
     def uri_to_own_all_cats
-      cats_uri(query: {owned:
+      route.cats_uri(query: {owned:
         Owned.encode(arg[:cats].values.flat_map{ |data| data.map(&:first) })})
     end
 
     def uri_to_drop_all_cats
-      cats_uri(query: {owned: ''})
-    end
-
-    def uri path: "//#{web_host}/", query: {}
-      # keep query hash order
-      query = cleanup_query(query.merge(default_query).merge(query))
-
-      if query.empty?
-        path
-      else
-        "#{path}?#{query_string(query)}"
-      end
-    end
-
-    def default_query
-      {
-        seed: controller.seed,
-        last: controller.last,
-        event: controller.event,
-        custom: controller.custom,
-        c_rare: controller.c_rare,
-        c_supa: controller.c_supa,
-        c_uber: controller.c_uber,
-        lang: controller.lang,
-        version: controller.version,
-        name: controller.name,
-        count: controller.count,
-        find: controller.find,
-        no_guaranteed: controller.no_guaranteed,
-        force_guaranteed: controller.force_guaranteed,
-        ubers: controller.ubers,
-        details: controller.details,
-        owned: controller.owned
-      }
-    end
-
-    def cleanup_query query
-      query.compact.select do |key, value|
-        if (key == :seed && value == 0) ||
-           (key == :lang && value == 'en') ||
-           (key == :version && value == controller.default_version) ||
-           (key == :name && value == 0) ||
-           (key == :count && value == 100) ||
-           (key == :find && value == 0) ||
-           (key == :last && value == 0) ||
-           (key == :no_guaranteed && value == 0) ||
-           (key == :force_guaranteed && value == 0) ||
-           (key == :ubers && value == 0) ||
-           (key == :owned && value == '') ||
-           (query[:event] != 'custom' &&
-              (key == :custom || key == :c_rare ||
-               key == :c_supa || key == :c_uber))
-          false
-        else
-          true
-        end
-      end
-    end
-
-    def query_string query
-      query.map do |key, value|
-        "#{u key.to_s}=#{u value.to_s}"
-      end.join('&')
-    end
-
-    def seek_host
-      ENV['SEEK_HOST'] || request.host_with_port
-    end
-
-    def web_host
-      ENV['WEB_HOST'] || request.host_with_port
-    end
-
-    def event_base_uri
-      "#{request.scheme}://#{seek_host}/seek"
-    end
-
-    def cats_uri **args
-      uri(path: "//#{web_host}/cats", **args)
-    end
-
-    def help_uri
-      uri(path: "//#{web_host}/help")
-    end
-
-    def logs_uri
-      uri(path: "//#{web_host}/logs")
-    end
-
-    def seek_uri
-      uri(path: "//#{seek_host}/seek")
+      route.cats_uri(query: {owned: ''})
     end
 
     def erb name, nested_arg=nil, &block
       context =
         if nested_arg
-          self.class.new(controller, arg&.merge(nested_arg) || nested_arg)
+          self.class.new(route, arg&.merge(nested_arg) || nested_arg)
         else
           self
         end

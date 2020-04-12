@@ -1,9 +1,9 @@
-<% if controller.path_info.match?(%r{\A/(?:seek)?\z}) %>
+<% if route.path_info.match?(%r{\A/(?:seek)?\z}) %>
 <div class="events">
   <label for="event_select">Event:</label>
   <select id="event_select" name="event" onchange="roll(this)">
     <optgroup label="Upcoming:">
-      <% controller.upcoming_events.each do |(event_name, info)| %>
+      <% route.upcoming_events.each do |(event_name, info)| %>
         <option
           value="<%= event_name %>"
           <%= selected_current_event(event_name) %>>
@@ -17,7 +17,7 @@
     </optgroup>
 
     <optgroup label="Past:">
-      <% controller.past_events.reverse_each do |(event_name, info)| %>
+      <% route.past_events.reverse_each do |(event_name, info)| %>
         <option
           value="<%= event_name %>"
           <%= selected_current_event(event_name) %>>
@@ -26,11 +26,11 @@
     </optgroup>
   </select>
 
-  <% if controller.event == 'custom' %>
+  <% if route.event == 'custom' %>
     <div class="custom">
       <label for="custom_select">Custom gacha:</label>
       <select id="custom_select" name="custom" onchange="roll(this)">
-        <% controller.ball.gacha.each_key.reverse_each do |id| %>
+        <% route.ball.gacha.each_key.reverse_each do |id| %>
           <option
             value="<%= id %>"
             <%= selected_custom_gacha(id) %>><%= id %></option>
@@ -40,19 +40,19 @@
       <label for="rare_input">Rare:</label>
       <input
         type="number" id="rare_input" name="c_rare"
-        min="0" max="10000" value="<%= controller.c_rare %>"
+        min="0" max="10000" value="<%= route.c_rare %>"
         onclick="this.select()">
 
       <label for="supa_input">Super:</label>
       <input
         type="number" id="supa_input" name="c_supa"
-        min="0" max="10000" value="<%= controller.c_supa %>"
+        min="0" max="10000" value="<%= route.c_supa %>"
         onclick="this.select()">
 
       <label for="uber_input">Uber:</label>
       <input
         type="number" id="uber_input" name="c_uber"
-        min="0" max="10000" value="<%= controller.c_uber %>"
+        min="0" max="10000" value="<%= route.c_uber %>"
         onclick="this.select()">
     </div>
   <% end %>
