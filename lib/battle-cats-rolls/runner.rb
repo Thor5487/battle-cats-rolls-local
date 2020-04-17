@@ -27,7 +27,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         __method__,
-        '9.5.0',
+        '9.5.1',
         AwsAuth.event_url('jp'),
         # 'https://www.apkmonk.com/app/jp.co.ponos.battlecats/'
         'https://apkplz.net/app/jp.co.ponos.battlecats'
