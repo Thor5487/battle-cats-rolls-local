@@ -39,7 +39,7 @@
     <% each_ball_cat do |rarity, cats| %>
       <%= header(1, rarity) %>
       <ol>
-        <% cats.each do |c| %>
+        <% cats.reverse_each do |c| %>
           <li>
             <input type="checkbox" onchange="roll(this)"
               name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
