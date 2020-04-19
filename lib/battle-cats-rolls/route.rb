@@ -199,16 +199,31 @@ module BattleCatsRolls
           ball.gacha.each_key.reverse_each.first).to_i
     end
 
+    def predefined_rates
+      @predefined_rates ||= {
+        regular: {name: 'Regular', rate: [6970, 2500, 500]},
+        no_legend: {name: 'Regular without legend', rate: [7000, 2500, 500]},
+        festival: {name: 'Uberfest / Epicfest', rate: [6500, 2600, 900]},
+        superfest: {name: 'Superfest', rate: [6500, 2500, 1000]},
+        platinum: {name: 'Platinum', rate: [0, 0, 10000]},
+        '': {name: 'Customize...'}
+      }
+    end
+
+    def rate
+      @rate ||= request.params['rate'].to_s.to_sym
+    end
+
     def c_rare
-      @c_rare ||= [(request.params['c_rare'] || 6970).to_i.abs, 10000].min
+      @c_rare ||= get_rate('c_rare', 0)
     end
 
     def c_supa
-      @c_supa ||= [(request.params['c_supa'] || 2500).to_i.abs, 10000].min
+      @c_supa ||= get_rate('c_supa', 1)
     end
 
     def c_uber
-      @c_uber ||= [(request.params['c_uber'] || 500).to_i.abs, 10000].min
+      @c_uber ||= get_rate('c_uber', 2)
     end
 
     def count
@@ -347,6 +362,12 @@ module BattleCatsRolls
       @all_events ||= ball.events
     end
 
+    def get_rate name, index
+      int = request.params[name] || predefined_rates.dig(rate, :rate, index)
+
+      [int.to_i.abs, 10000].min
+    end
+
     def event_base_uri
       "#{request.scheme}://#{seek_host}/seek"
     end
@@ -359,7 +380,7 @@ module BattleCatsRolls
 
     def default_query query={}
       %i[
-        seed last event custom c_rare c_supa c_uber lang version
+        seed last event custom rate c_rare c_supa c_uber lang version
         name count find no_guaranteed force_guaranteed ubers details
         o
       ].inject({}) do |result, key|
@@ -382,8 +403,14 @@ module BattleCatsRolls
            (key == :ubers && value == 0) ||
            (key == :o && value == '') ||
            (query[:event] != 'custom' &&
-              (key == :custom || key == :c_rare ||
-               key == :c_supa || key == :c_uber))
+              (key == :custom || key == :rate ||
+               key == :c_rare || key == :c_supa || key == :c_uber)) ||
+           (query[:event] == 'custom' &&
+              (
+                (key == :rate && value == :'') ||
+                (query[:rate] != :'' &&
+                  (key == :c_rare || key == :c_supa || key == :c_uber))
+              ))
           false
         else
           true

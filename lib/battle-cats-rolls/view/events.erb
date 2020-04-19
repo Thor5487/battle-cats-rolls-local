@@ -37,23 +37,36 @@
         <% end %>
       </select>
 
-      <label for="rare_input">Rare:</label>
-      <input
-        type="number" id="rare_input" name="c_rare"
-        min="0" max="10000" value="<%= route.c_rare %>"
-        onclick="this.select()">
+      <label for="rate_input">Rate:</label>
+      <select id="rate_select" name="rate" onchange="roll(this)">
+        <% route.predefined_rates.each do |rate, data| %>
+          <option
+            value="<%= rate %>"
+            <%= selected_rate(rate) %>><%= data[:name] %></option>
+        <% end %>
+      </select>
 
-      <label for="supa_input">Super:</label>
-      <input
-        type="number" id="supa_input" name="c_supa"
-        min="0" max="10000" value="<%= route.c_supa %>"
-        onclick="this.select()">
+      <% if route.rate == :'' %>
+        <label for="rare_input">Rare:</label>
+        <input
+          type="number" id="rare_input" name="c_rare"
+          min="0" max="10000" value="<%= route.c_rare %>"
+          onclick="this.select()">
 
-      <label for="uber_input">Uber:</label>
-      <input
-        type="number" id="uber_input" name="c_uber"
-        min="0" max="10000" value="<%= route.c_uber %>"
-        onclick="this.select()">
+        <label for="supa_input">Super:</label>
+        <input
+          type="number" id="supa_input" name="c_supa"
+          min="0" max="10000" value="<%= route.c_supa %>"
+          onclick="this.select()">
+
+        <label for="uber_input">Uber:</label>
+        <input
+          type="number" id="uber_input" name="c_uber"
+          min="0" max="10000" value="<%= route.c_uber %>"
+          onclick="this.select()">
+      <% else %>
+        <%= hidden_inputs('c_rare', 'c_supa', 'c_uber') %>
+      <% end %>
     </div>
   <% end %>
 </div>

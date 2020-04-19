@@ -191,6 +191,10 @@ module BattleCatsRolls
       'selected="selected"' if route.custom == gacha_id
     end
 
+    def selected_rate rate
+      'selected="selected"' if route.rate == rate
+    end
+
     def selected_find cat
       'selected="selected"' if route.find == cat.id
     end
