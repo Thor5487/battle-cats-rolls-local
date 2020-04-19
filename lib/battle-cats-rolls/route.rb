@@ -379,7 +379,7 @@ module BattleCatsRolls
     end
 
     def default_query query={}
-      %i[
+      ret = %i[
         seed last event custom rate c_rare c_supa c_uber lang version
         name count find no_guaranteed force_guaranteed ubers details
         o
@@ -387,6 +387,12 @@ module BattleCatsRolls
         result[key] = query[key] || __send__(key)
         result
       end
+
+      if %i[c_rare c_supa c_uber].all?{ |c| ret[c].zero? }
+        ret[:rate] = :regular
+      end
+
+      ret
     end
 
     def cleanup_query query
