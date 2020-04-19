@@ -1,8 +1,6 @@
 ## High priorities
 
-* Collection low-lighting. Revisiting the URL. Maybe we should not compress
 * Fix guessing 10 rolls link when seeking seed
-* Cleaning up URL
 * Finishing the help page
 * Multi-select for finding cats
 
