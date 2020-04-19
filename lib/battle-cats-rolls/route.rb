@@ -116,8 +116,7 @@ module BattleCatsRolls
     end
 
     def uri path: "//#{web_host}/", query: {}
-      # keep query hash order
-      query = cleanup_query(query.merge(default_query).merge(query))
+      query = cleanup_query(default_query(query))
 
       if query.empty?
         path
@@ -257,22 +256,24 @@ module BattleCatsRolls
       @details = !request.params['details'].to_s.strip.empty? || nil
     end
 
-    def owned
-      @owned ||=
-        if owned_decoded.empty?
-          ''
+    def o
+      @o ||=
+        if owned.any?
+          Owned.encode(owned)
         else
-          Owned.encode(owned_decoded)
+          ''
         end
     end
 
-    def owned_decoded
-      @owned_decoded ||=
-        if ticked.empty?
-          Owned.decode(request.params['owned'].to_s).sort.uniq
-        else
+    def owned
+      @owned ||=
+        if ticked.any?
           ticked
-        end
+        elsif (result = Owned.decode(request.params['o'].to_s)).any?
+          result
+        else
+          Owned.decode_old(request.params['owned'].to_s)
+        end.sort.uniq
     end
 
     def ticked
@@ -356,26 +357,15 @@ module BattleCatsRolls
       end.join('&')
     end
 
-    def default_query
-      {
-        seed: seed,
-        last: last,
-        event: event,
-        custom: custom,
-        c_rare: c_rare,
-        c_supa: c_supa,
-        c_uber: c_uber,
-        lang: lang,
-        version: version,
-        name: name,
-        count: count,
-        find: find,
-        no_guaranteed: no_guaranteed,
-        force_guaranteed: force_guaranteed,
-        ubers: ubers,
-        details: details,
-        owned: owned
-      }
+    def default_query query={}
+      %i[
+        seed last event custom c_rare c_supa c_uber lang version
+        name count find no_guaranteed force_guaranteed ubers details
+        o
+      ].inject({}) do |result, key|
+        result[key] = query[key] || __send__(key)
+        result
+      end
     end
 
     def cleanup_query query
@@ -390,7 +380,7 @@ module BattleCatsRolls
            (key == :no_guaranteed && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0) ||
-           (key == :owned && value == '') ||
+           (key == :o && value == '') ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :c_rare ||
                key == :c_supa || key == :c_uber))

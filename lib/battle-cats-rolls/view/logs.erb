@@ -19,6 +19,26 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2020-04-19") %>
+<ul>
+  <li>
+    Owned cats encoding revised. Previously, it was a list of cat ids,
+    compressed and base64 encoded. It turned out that it was super long.
+    Now we just use a bit mask using bit fields to indicate the cat ids,
+    and use radix 62 to encode the integer. This turned out to be pretty
+    concise that turning 912 characters into 89 characters, about 10 times
+    better.
+  </li>
+  <li>
+    We also changed the query name from <code>owned</code> to just
+    <code>o</code>. I would prefer spelling it out but we need a different
+    name to distinguish them.
+  </li>
+  <li>
+    We also redirect to the canonical URL while picking cats.
+  </li>
+</ul>
+
 <%= header(2, "2020-04-13") %>
 <ul>
   <li>

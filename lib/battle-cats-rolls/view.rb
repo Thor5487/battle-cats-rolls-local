@@ -58,7 +58,7 @@ module BattleCatsRolls
         case cat.id
         when route.find
           :found
-        when *route.owned_decoded
+        when *route.owned
           :owned
         when *FindCat.exclusives
           :exclusive
@@ -219,7 +219,7 @@ module BattleCatsRolls
       ticked = route.ticked
 
       if ticked.empty?
-        'checked="checked"' if route.owned_decoded.include?(cat.id)
+        'checked="checked"' if route.owned.include?(cat.id)
       elsif ticked.include?(cat.id)
         'checked="checked"'
       end
@@ -317,12 +317,12 @@ module BattleCatsRolls
     end
 
     def uri_to_own_all_cats
-      route.cats_uri(query: {owned:
+      route.cats_uri(query: {o:
         Owned.encode(arg[:cats].values.flat_map{ |data| data.map(&:first) })})
     end
 
     def uri_to_drop_all_cats
-      route.cats_uri(query: {owned: ''})
+      route.cats_uri(query: {o: ''})
     end
 
     def erb name, nested_arg=nil, &block

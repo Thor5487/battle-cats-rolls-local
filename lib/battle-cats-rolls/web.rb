@@ -108,7 +108,13 @@ module BattleCatsRolls
     end
 
     get '/cats' do
-      render :cats, cats: route.cats
+      canonical_uri = route.uri(path: '/cats')
+
+      if request.fullpath != canonical_uri
+        found canonical_uri
+      else
+        render :cats, cats: route.cats
+      end
     end
 
     get '/help' do
