@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'cat'
+
 module BattleCatsRolls
   class CrystalBall < Struct.new(:data)
     def self.from_pack_and_events pack, events
@@ -25,6 +27,37 @@ module BattleCatsRolls
 
     def events
       data['events']
+    end
+
+    def each_custom_gacha name_index
+      cat_data = cats.values.inject(&:merge)
+
+      ubers = cats[Cat::Uber].keys
+      legends = cats[Cat::Legend].keys
+
+      gacha.reverse_each do |gacha_id, cat_ids|
+        prefix_id =
+          cat_ids.find(&legends.method(:member?)) ||
+          cat_ids.find(&ubers.method(:member?))
+
+        suffix_id =
+          cat_ids.reverse_each.find(&ubers.method(:member?))
+
+        prefix_cat = cat_data[prefix_id]
+        suffix_cat = cat_data[suffix_id]
+
+        prefix = Cat.new(info: prefix_cat).pick_name(name_index) if prefix_cat
+        suffix = Cat.new(info: suffix_cat).pick_name(name_index) if suffix_cat
+
+        title =
+          if prefix || suffix
+            [*prefix, *suffix].join(', ')
+          else
+            '?'
+          end
+
+        yield(gacha_id, "#{gacha_id}: #{title}")
+      end
     end
 
     def dump dir, lang

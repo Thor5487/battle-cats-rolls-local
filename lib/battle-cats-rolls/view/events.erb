@@ -30,10 +30,10 @@
     <div class="custom">
       <label for="custom_select">Custom gacha:</label>
       <select id="custom_select" name="custom" onchange="roll(this)">
-        <% route.ball.gacha.each_key.reverse_each do |id| %>
+        <% route.ball.each_custom_gacha(route.name) do |id, name| %>
           <option
             value="<%= id %>"
-            <%= selected_custom_gacha(id) %>><%= id %></option>
+            <%= selected_custom_gacha(id) %>><%= name %></option>
         <% end %>
       </select>
 

@@ -29,7 +29,7 @@ module BattleCatsRolls
     end
 
     def exist?
-      !!gacha
+      !!gacha && slots.any?
     end
 
     def version
@@ -42,8 +42,8 @@ module BattleCatsRolls
         if rarity = find_rarity(cat_id)
           result[rarity] << cat_id
           result
-        else
-          raise "Cannot find cat: #{cat_id}"
+        else # Ignore when a cat can't be found
+          return @slots = default_slots
         end
       end || default_slots
     end
