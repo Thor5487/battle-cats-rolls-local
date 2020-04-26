@@ -223,8 +223,8 @@ module BattleCatsRolls
       ticked = route.ticked
 
       if ticked.empty?
-        'checked="checked"' if route.owned.include?(cat.id)
-      elsif ticked.include?(cat.id)
+        'checked="checked"' if route.owned.member?(cat.id)
+      elsif ticked.member?(cat.id)
         'checked="checked"'
       end
     end
