@@ -15,6 +15,14 @@ module BattleCatsRolls
     Uber   = 4
     Legend = 5
 
+    def self.none
+      @none ||= {'name' => ['N/A']}.freeze
+    end
+
+    def self.future_uber n
+      {'name' => ["(#{n}?)"], 'desc' => ['An unknown future uber']}
+    end
+
     def inspect
       %Q{#<BattleCatsRolls::Cat number="#{number}" name="#{name}">}
     end

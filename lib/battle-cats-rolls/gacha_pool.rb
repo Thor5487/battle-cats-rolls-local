@@ -70,8 +70,7 @@ module BattleCatsRolls
 
         range.each do |n|
           slots[Cat::Uber].unshift(n)
-          cats[Cat::Uber][n] =
-            {'name' => ["(#{n}?)"], 'desc' => ['An unknown future uber']}
+          cats[Cat::Uber][n] = Cat.future_uber(n)
         end
       end
     end

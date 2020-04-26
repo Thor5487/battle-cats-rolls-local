@@ -154,7 +154,7 @@ module BattleCatsRolls
       if slots.empty? # Cats for this rarity cannot be found
         slot = nil
         id = -1
-        info = {'name' => ['N/A']}
+        info = Cat.none
       else
         slot = slot_fruit.value % slots.size
         id = slots[slot]
