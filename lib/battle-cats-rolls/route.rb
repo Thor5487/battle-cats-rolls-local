@@ -176,6 +176,10 @@ module BattleCatsRolls
         end
     end
 
+    def theme
+      @theme ||= request.params['theme'].to_s
+    end
+
     # This is the seed from the seed input field
     def seed
       @seed ||= request.params['seed'].to_i
@@ -381,7 +385,7 @@ module BattleCatsRolls
     def default_query query={}
       ret = %i[
         seed last event custom rate c_rare c_supa c_uber lang version
-        name count find no_guaranteed force_guaranteed ubers details
+        name theme count find no_guaranteed force_guaranteed ubers details
         o
       ].inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -401,6 +405,7 @@ module BattleCatsRolls
            (key == :lang && value == 'en') ||
            (key == :version && value == default_version) ||
            (key == :name && value == 0) ||
+           (key == :theme && value == '') ||
            (key == :count && value == 100) ||
            (key == :find && value == 0) ||
            (key == :last && value == 0) ||

@@ -183,6 +183,10 @@ module BattleCatsRolls
       'selected="selected"' if route.name == name_name
     end
 
+    def selected_theme theme_name
+      'selected="selected"' if route.theme == theme_name
+    end
+
     def selected_current_event event_name
       'selected="selected"' if route.event == event_name
     end

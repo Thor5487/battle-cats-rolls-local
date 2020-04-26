@@ -19,14 +19,25 @@
         text-align: center;
       }
       .rare { background-color: white; }
+      .owned { background-color: azure; }
+      <% case route.theme; when 'mkweb' %>
+      /* http://mkweb.bcgsc.ca/colorblind/img/colorblindness.8.13.palettes.pdf */
+      .supa_fest { background-color: #FAE6BE; }
+      .supa { background-color: #EAD644; }
+      .uber_fest { background-color: #FF825F; }
+      .uber { background-color: #FA78FA; }
+      .exclusive { background-color: #14D2DC; }
+      .found { background-color: #A0FA82; }
+      .legend { background-color: #8214A0; }
+      <% else %>
       .supa_fest { background-color: yellow; }
       .supa { background-color: gold; }
       .uber_fest { background-color: salmon; }
       .uber { background-color: red; }
       .exclusive { background-color: aqua; }
-      .owned { background-color: azure; }
       .found { background-color: lime; }
       .legend { background-color: darkviolet; }
+      <% end %>
       .legend a, .legend { color: #d8a56f; }
       .navigate { cursor: help; }
       .pick { cursor: cell; }

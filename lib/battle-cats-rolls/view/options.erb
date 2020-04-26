@@ -34,6 +34,16 @@
   <%= hidden_inputs('name') %>
   <% end %>
 
+  <% if route.path_info == '/' %>
+  <label for="theme_select">Theme:</label>
+  <select id="theme_select" name="theme" onchange="roll(this)">
+    <option value="" <%= selected_theme('') %>>Default</option>
+    <option value="mkweb" <%= selected_theme('mkweb') %>>mkweb</option>
+  </select>
+  <% else %>
+  <%= hidden_inputs('theme') %>
+  <% end %>
+
   <% if route.path_info == '/cats' %>
   <div class="cats">
     <% each_ball_cat do |rarity, cats| %>
