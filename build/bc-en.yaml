@@ -5171,3 +5171,67 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-05-01_503:
+    start_on: 2020-05-01
+    end_on: 2020-05-04
+    version: '90400'
+    name: All Limited Ubers from Uberfest/Epicfest! Huge Uber drop rate boost!
+    id: 503
+    rare: 6500
+    supa: 2500
+    uber: 1000
+  2020-05-04_421:
+    start_on: 2020-05-04
+    end_on: 2020-05-06
+    version: '90400'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-06_454:
+    start_on: 2020-05-06
+    end_on: 2020-05-08
+    version: '90400'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-05-08_448:
+    start_on: 2020-05-08
+    end_on: 2020-05-10
+    version: '90400'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-05-10_445:
+    start_on: 2020-05-10
+    end_on: 2020-05-12
+    version: '90400'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-12_427:
+    start_on: 2020-05-12
+    end_on: 2020-05-15
+    version: '90400'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-15_501:
+    start_on: 2020-05-15
+    end_on: 2020-05-18
+    version: '90400'
+    name: Epicfest is here with 3 exclusive heroes and higher drop rates!
+    id: 501
+    rare: 6500
+    supa: 2600
+    uber: 900
