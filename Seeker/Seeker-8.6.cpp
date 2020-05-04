@@ -122,7 +122,7 @@ int main(int argc, char** argv)
 	auto result = calculateSeedThread(1, UINT32_MAX-2);
 
 	if (result.first != 0)
-		cout << result.first << endl << result.second;
+		cout << result.first << endl << result.second << endl;
 
 	return 0;
 }
