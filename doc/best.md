@@ -32,7 +32,7 @@ Feedbacks are welcome via any channel you can reach me (godfat).
   under 60%, the DPS is much higher than Diabolic Gao, and they're only
   slightly less tanky than Diabolic Gao, having much cheaper price and much
   lower cooldown, rushing fast, attacking fast, and damage lands on range
-  200 ~ 550, what more we can expect?
+  200 ~ 550, what more can we expect?
   [🐾](https://battlecats-db.com/unit/442.html)
 * Great, (Uber) [Diabolic Gao](https://battle-cats.fandom.com/wiki/Shadow_Gao_(Uber_Rare_Cat)):
   While they're not as impressive as Valiant D'arktanyan, still crazy DPS and
