@@ -5235,3 +5235,58 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-05-18_431:
+    start_on: 2020-05-18
+    end_on: 2020-05-20
+    version: '90400'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 431
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-20_488:
+    start_on: 2020-05-20
+    end_on: 2020-05-22
+    version: '90400'
+    name: Sharpshooter Saki is here to defend justice! ★ Tap banner for info!
+    id: 488
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-22_425:
+    start_on: 2020-05-22
+    end_on: 2020-05-25
+    version: '90400'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 425
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-05-25_435:
+    start_on: 2020-05-25
+    end_on: 2020-05-27
+    version: '90400'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 435
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-27_499:
+    start_on: 2020-05-27
+    end_on: 2020-05-29
+    version: '90400'
+    name: Hades of the Underworld lends his strength! ★ Tap banner for info!
+    id: 499
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-05-29_500:
+    start_on: 2020-05-29
+    end_on: 2020-06-01
+    version: '90400'
+    name: Embrace the darkness! ★ Kasli the Scourge & higher drop rate!
+    id: 500
+    rare: 6500
+    supa: 2600
+    uber: 900
