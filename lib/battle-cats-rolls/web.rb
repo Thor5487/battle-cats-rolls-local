@@ -5,6 +5,7 @@ require_relative 'request'
 require_relative 'seek_seed'
 require_relative 'cache'
 require_relative 'aws_auth'
+require_relative 'aws_cf'
 require_relative 'view'
 require_relative 'help'
 
@@ -148,6 +149,12 @@ module BattleCatsRolls
             body JSON.dump(aws_auth(lang, file).headers)
           end
         end
+      end
+
+      get %r{^/seek/webview/(?<path>.+)} do |m|
+        aws = AwsCf.new("https://nyanko-webview.ponosgames.com/#{m[:path]}")
+
+        found aws.generate
       end
 
       get '/seek' do
