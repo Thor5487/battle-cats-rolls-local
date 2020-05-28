@@ -5290,3 +5290,77 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-06-01_475:
+    start_on: 2020-06-01
+    end_on: 2020-06-03
+    version: '90500'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-01_511:
+    start_on: 2020-06-01
+    end_on: 2020-06-15
+    version: '90500'
+    name: Limited Shoumetsu Toshi Collab Capsules! ★ Tap banner for info!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-06-03_421:
+    start_on: 2020-06-03
+    end_on: 2020-06-05
+    version: '90500'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-05_448:
+    start_on: 2020-06-05
+    end_on: 2020-06-07
+    version: '90500'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-07_454:
+    start_on: 2020-06-07
+    end_on: 2020-06-09
+    version: '90500'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 454
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-06-09_427:
+    start_on: 2020-06-09
+    end_on: 2020-06-12
+    version: '90500'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-12_445:
+    start_on: 2020-06-12
+    end_on: 2020-06-15
+    version: '90500'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-06-12_511:
+    start_on: 2020-06-12
+    end_on: 2020-06-15
+    version: '90500'
+    name: Last Chance! Shoumetsu Toshi Set with 11-Draw Guarantee!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
