@@ -131,6 +131,9 @@ cats:
     176:
       name: [Meowla Meowla, Catorpedo]
       desc: ["A cat trained by Molas for marine combat.\nStill kinda wishes he became a meteorologist.\nResistant to Red enemy attacks. (Area Atk)", "Evolved arms instead of legs… weird.\nHates being stepped all over. Stop it!!!\nResistant to Red enemy attacks. (Area Atk)"]
+    182:
+      name: [Yuki Cat, Lovely Yuki Cat]
+      desc: ["Girl lost during the city's destruction, reborn as\na Cat but retaining all her mysterious powers.\nSmall chance to Freeze Floating.", "Girl who became a Cat after the city's destruction,\nnow slowly regaining her former charisma.\nSmall chance to Freeze Floating."]
     185:
       name: [Mr. Ninja, Mint]
       desc: ["Mr. Ninja!!Fever joins the fight!\nLeaps gracefully from planet to planet dicing up aliens.\nMassive damage to Alien enemies (Area Attack)", "A kunoichi from \"Mr. Ninja!!Fever\"!\nAs bright and beautiful as her peerless swordplay.\nMassive damage to Alien enemies (Area Attack)"]
@@ -402,6 +405,9 @@ cats:
     177:
       name: [Marshmallow Cat, Creepmallow]
       desc: ["A sugary treat who likes cuddling rough!\nWraps his enemy in jet-puffed sweetness\nbefore viciously smashing them over and over.", "Quickly toasted over a roaring bonfire,\nhis burning body brings back happy memories.\nDelivers powerful beatings with his soft body!"]
+    180:
+      name: [Takuya ＆ Yuki, 'Takuya, Yuki ＆ Cat', Takuya＆ Lovely Yuki]
+      desc: ["Heroes from Shoumetsu Toshi! A brave \ndeliveryman and a girl of mystery.\nTough vs Floating (Area Attack)", "Gave a stray Cat a ride, thinking it was Sophia.\nSeeking answers in the destroyed metropolis.\nTough vs Floating (Area Attack)", "Travelling with a mysterious being that is the\nkey to find missing Yuki. Tough vs Floating\nExtra money from enemies (Area Atk)"]
     184:
       name: [Cat Kart R, Cat Kart G, Cat Kart P]
       desc: ["Celebrate \"The Battle Cats POP!\" on 3DS!\nOther hobbies: Parties, Tennis, Medicine.\nGets lots of money from defeated enemies!", "Celebrate \"The Battle Cats POP!\" on 3DS!\nHas a complex thanks to his popular brother.\nGets lots of money from defeated enemies!", "Celebrate \"The Battle Cats POP!\" on 3DS!\nThis Cat always seems to be in another castle.\nGets lots of money from defeated enemies!"]
@@ -486,6 +492,9 @@ cats:
     330:
       name: [Eggy Cat, Easter Cat]
       desc: ["Dressed to the nines for Spring! Didn't think \nabout ease of movement when choosing a look.\nAttacks slow Angel movement for a moment.", "Determined to be reborn for Spring, he sheds his\nshell to reveal a whole new self hiding inside.\nAttacks slow Angel movement for a moment.", "Determined to be reborn for Spring, he sheds his\nshell to reveal a whole new self hiding inside.\nAttacks slow Angel movement for a moment."]
+    341:
+      name: [Redhead Yuki Cat, Redhead Lovely Yuki Cat]
+      desc: ["Girl lost during the city's destruction, reborn as\na Cat but retaining all her mysterious powers.\nSmall chance to Freeze Aliens.", "Girl who became a Cat after the city's destruction,\nhad a stylish outfit tailored to fit her new propotions.\nSmall chance to Freeze Aliens.", "Girl who became a Cat after the city's destruction,\nhad a stylish outfit tailored to fit her new propotions.\nSmall chance to Freeze Aliens."]
     344:
       name: [Slug Jockey Cat, Slugcat]
       desc: ["One rainy day, a Slug befriended a Cat.\nHer will is strong, but her body is weak (to salt).\nArea attack Slows enemies for a moment.", "They thought it wasn't fair for the Cat to always\nride, so now they take turns. No effect on race\ntimes. Area attack Slows enemies for a moment."]
@@ -552,6 +561,9 @@ cats:
     422:
       name: [Coco, Coco CC]
       desc: ["Joining the fight from LINE Pokopang!\nA burly bear who lives for peace, flowers\nand tasty fish! Might weaken Black!", "Joining the fight from LINE Pokopang!\nDespite tough looks, loves a nice cup of \nherbal tea most. Might weaken Black!"]
+    429:
+      name: [Souma Cat, Stylish Souma Cat]
+      desc: ["A boy lost to the destruction, reborn as a\nCat who makes ominous statements.\n100% chance of Wave Attack.", "Over time, the boy-turned-Cat evolved the \npowerful legs from his time as a human.\n100% chance of Wave Attack."]
     433:
       name: [Betakkuma, Black Betakkuma]
       desc: ["Joining the fight from Betakkuma!\nWeirdly cute white bear with some slick moves.\nMight knockback Aliens.", "Joining the fight from Betakkuma!\nChanged colors after training by an assassin's guild.\nMight knockback Aliens."]
@@ -567,6 +579,9 @@ cats:
     460:
       name: [Rider the Cat, Heroic Spirit Rider Cat]
       desc: ["A Cat who wields dagger and chain with\ngrace. At a slight visual disadvantage thanks \nto her mask. Chance to Freeze Angels.", "Gained command of a legendary lifeform.\nCan't see much due to the mask and\nPegasus' head. Chance to Freeze Angels."]
+    484:
+      name: [Kano ＆ Souma, Kano ＆ Souma ＆ Cat]
+      desc: ["Heroes from Shoumetsu Toshi! Two wanderers in\nthe ruins of the city, confronting their own sins.\nTough vs Aliens, Area Attack", "Joined by a Cat picked up at the seaside, our\nwanderers set their sights on the ruined city.\nTough vs Aliens, Area Attack"]
     496:
       name: [Matador Cat, Flamenco Cat]
       desc: ["Fearless bullfighter dodging danger with a hearty Olé!\nPacifist at heart, his only weapon is his crimson cape.\nHas a chance to dodge Red attacks.", "Graceful dancer dodging danger to hearty Olés!\nWell trained in the art of Dodging Red attacks (as\nwell as unwanted advances from certain tomcats.)"]
@@ -603,6 +618,9 @@ cats:
     540:
       name: [Rugby Cat, Quarterback Cat]
       desc: ["Young and talented winger for Cat Empire F.C.\nKey attacker in recent wins against the Doges.\nStrong vs. Black, Immune to Waves. (Area Atk.)", "Moved across the sea and started a new sport.\nHe seems to enjoy the extra padding. Strong\nvs Black, Immune to Waves (Long-range Area)"]
+    546:
+      name: [Phantom Cat, Miasma Cat]
+      desc: ["A vague shape that kind of resembles a Cat.\nFinds it tough to keep it together in windy places.\nLong-range Area attacks hit Angels for massive damage.", "An ambiguously Cat-like being made of dark vapor.\nBelches up foul gasses when he has tummy trouble.\nLong-range Area attacks hit Angels for massive damage."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -775,6 +793,9 @@ cats:
     412:
       name: [Mari Illustrious, Plug Suit Mari]
       desc: ["Recruited from Evangelion!\nAn enigmatic girl who arrived via parachute.\nStrong vs. Floating (Area Attack)", "Recruited from Evangelion!\nHer love for piloting Eva is plain to see.\nStrong vs. Floating (Area Attack)"]
+    430:
+      name: [Otaku Geek Cat, Hacker Geek Cat]
+      desc: ["Cat bearing the spirit of a legendary programmer\ndedicated to teaching the world through his blog.\nLong-distance attacks 100% Weaken non-Metal.", "An expert techie who knows any machine inside\nand out. Yesterday, his own blog was hacked...\nLong-distance attacks 100% Weaken non-Metal."]
     444:
       name: [Driller Cat, Power Driller Cat]
       desc: ["The heart of the Grandon mining team,\nhis dream is to drill right to the Earth's core.\nLong-range attacks Weaken Traitless enemies.", "Digging specialist of the brave Grandon Cats.\nHis antenna is detecting a long-buried treasure!\nLong-range attacks Weaken Traitless enemies.", "Unofficial leader of the brave Grandon Cats.\nHis antenna is detecting a long-buried treasure!\nLong-range attacks Weaken Traitless enemies."]
@@ -920,6 +941,9 @@ cats:
     178:
       name: [Dioramos, Archdragon Dioramos, God-Emperor Dioramos]
       desc: ["This dragon lord seeks to set it all ablaze.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "An ancient dragon of unquestioned authority.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "Brutal attacks powered by hate - a family \ntradition of mercilessness. 100% Barrier break,\nplus Knockback & Slow vs Angels (Area Atk)"]
+    181:
+      name: [Mystery Girl Yuki, Mystery Yuki ＆ Cat, Mystery Catgirl Yuki]
+      desc: ["Mysteriously reappeared after being lost in\nthe city's destruction, with strange new powers...\nMassive Area damage to Floating enemies.", "Enigmatic girl with the power to call forth\nsouls (with some help from the Cat).\nMassive Area damage to Floating enemies.", "Since growing cat ears to better speak with\nCats, her soul communion has also improved?\nMassive Area damage to Floating enemies."]
     186:
       name: [Hearscht, Hearscht CC, Revolutionary Hearscht CC]
       desc: ["Joining the fight from Merc Storia! Silver\nbeast with a blunt and logical attitude.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nA beguiling and handsome lady beast.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nPartisan fencer with radical fashion sense.\nMight Critical Attack, Tough vs Metal."]
@@ -996,8 +1020,8 @@ cats:
       name: [Baby Gao, Mighty Lord Gao]
       desc: ["Might be a crybaby, but he's still young!\nHe just doesn't realize the power within himself.\nStrong against any enemy with a trait. (Area Atk)", "Only appears to those who seek true power.\nStrong against any enemy with a trait, immune\nto Wave attacks. Might Critical (Area Atk)"]
     271:
-      name: [Crazed Yuki, Crazed Yuki Cat]
-      desc: ["Possessed by a dark soul, she feverishly hunts\ndown the mystery behind the annihiliation.\nMassive area damage against Red and Black.", "Desperate to solve the mystery, she has given\nherself totally over to darkness and Catness.\nMassive area damage against Red and Black."]
+      name: [Crazed Yuki, Crazed Yuki ＆ Cat, Crazed Catgirl Yuki]
+      desc: ["Possessed by a dark soul, she feverishly hunts\ndown the mystery behind the annihiliation.\nMassive Area damage against Red and Black.", "Desperate to solve the mystery, she has given\nherself totally over to darkness and Catness.\nMassive Area damage against Red and Black.", "Darkness has given Yuki cute Cat ears, a tail,\nand the power to call forth stronger corrupt souls.\nMassive Area damage against Red and Black."]
     272:
       name: [Shining Amaterasu, Glorious Amaterasu]
       desc: ["The might and beauty of the Sun personified.\nSubdues enemies using her sacred mirror.\nMassive area damage to any enemy with a trait.", "No one can stand against the radiance of this\ngoddess. Dark souls kneel before her holy mirror!\nMassive area damage to any enemy with a trait."]
@@ -1054,7 +1078,7 @@ cats:
       desc: ["Chosen as a holy servant by the God of Cats,\ninfinite power lies hidden within her. Strong defense \nvs. all enemies with traits. (Long Range/Area Atk)", "Dressed in bridal gowns, she appears to the blessed\nas a sign of Cat God's favor. Her groom's identity is\nunknown... Strong vs all traits, 100% chance to Slow.", "Dressed in bridal gowns, she appears to the blessed\nas a sign of Cat God's favor. Her groom's identity is\nunknown... Strong vs all traits, 100% chance to Slow."]
     323:
       name: [Sarukani, Rock Revengers, The One-Hit Wonders]
-      desc: ["Won best supporting actor as a li'l monkey for \n\"Selfish Persimmons\". Everyone hates working\nwith him. Strong area atk vs Angels/Zombies.", "The kids Sarukani did wrong formed the metal\nact: Causin' Effect. Revenge is a dish best served \nheavy. Strong area atk vs Angels/Zombies.", "Saru convinced the rockers to reform the\nband to try to capitalize on every pop trend\nat once. Strong area atk vs Angels/Zombies."]
+      desc: ["Won best supporting actor as a li'l monkey for\n\"Selfish Persimmons\". Everyone hates working\nwith him. Strong area atk vs Angels/Zombies.", "The kids Sarukani did wrong formed the metal\nact: Causin' Effect. Revenge is a dish best served\nheavy. Strong area atk vs Angels/Zombies.", "Saru convinced the rockers to reform the\nband to try to capitalize on every pop trend\nat once. Strong area atk vs Angels/Zombies."]
     327:
       name: [Mobius, Miraculous Mobius]
       desc: ["Earnest lady scholar with a strong heart,\ndropping in from Crash Fever (Area Atk)\nHuge damage/100% knockback vs Red", "Through dedicated effort she has perfected\nher skills. A guest from Crash Fever. Huge \ndamage/100% knockback vs Red. (Area Atk)", "Through dedicated effort she has perfected\nher skills. A guest from Crash Fever. Huge \ndamage/100% knockback vs Red. (Area Atk)"]
@@ -1079,6 +1103,9 @@ cats:
     339:
       name: [Imagawa Yoshimoto, Wargod Yoshimoto, Immortal Yoshimoto]
       desc: ["His impeccable virtue allows him to wield\nthe cursed Cat Fan. Strong against Black,\n100% chance to weaken (Long-range)", "Possessed by an all-knowing fox spirit, he\nstrikes with golden arrows. Strong vs Black,\n100% chance to weaken (Long-range)", "Stained crimson with the blood of his rivals, the\nCat Fan burns with an unearthly fire for even greater\ndamage and weakening against Black enemies."]
+    342:
+      name: [Lost World Yuki, Lost World Yuki ＆ Cat, Lost World Catgirl Yuki]
+      desc: ["Visitor from a world lost to annihilation.\nHates it when others are too familiar with her.\nMassive Area damage to Angels and Aliens.", "Yuki of the annihilated world, travelling with a\nCat who aids her in calling forth crimson souls.\nMassive Area damage to Angels and Aliens.", "Relying too much on the power of Cats, Yuki\nhas grown a tail and ears as consequence.\nMassive Area damage to Angels and Aliens."]
     346:
       name: [Michelia, Michelia CC, Naptime Michelia CC]
       desc: ["Joining the fight from Merc Storia!\nCalled \"Holy Wings\" for obvious reasons.\nStrong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Only by\ncasting aside wings can you realize true\nsainthood. Strong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Saint\nwho avoids dependence on God's miracles.\nStrong vs/100% Freeze vs Floating"]
@@ -1199,6 +1226,9 @@ cats:
     457:
       name: [Sakura Matou, Sakura Matou CC]
       desc: ["Joining the fight from Fate/stay night [HF]!\nTakes charge of daily care for the Emiya house.\nTough vs Black/Aliens/Zombies (Area Attack)", "Joining the fight from Fate/stay night [HF]! Fears \nthat Shirou will fall victim to the Holy Grail War.\nTough vs Black/Aliens/Zombies (Area Attack)"]
+    483:
+      name: [Benevolent Souma, Souma ＆ Cat]
+      desc: ["Yuki's brother, who arrived in the world beyond as a \nboy. Seeking to advance past the sins of the past.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was saved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was aved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens."]
     485:
       name: [Li'l Valkyrie Dark, Dark Rider Valkyrie]
       desc: ["Valkyrie's younger sister, marked by the darkness. \nValhalla's agent, smiting evil from within the abyss!\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!"]
@@ -1212,8 +1242,8 @@ cats:
       name: [Seabreeze Coppermine, 'Seabreeze Coppermine, type κ']
       desc: ["A cool beauty who gained command of her own ship!\nNow she just has to keep Cats from sinking it.\nMight freeze Red, Black or Metal enemies!", "Her Cat crew's recommendation earned her another\ntour of duty. Ah, nothing like a lovely sunset with a Cat.\nMight freeze Red, Black or Metal enemies!"]
     497:
-      name: [Narita Kaihime, Wargod Kaihime]
-      desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows."]
+      name: [Narita Kaihime, Wargod Kaihime, Immortal Kaihime]
+      desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "This dignified heroine has withstood the corruption\nof the cursed weapons and seeks only to bring peace.\n100% Slow vs Black/Zombies, chance of Savage blows."]
     503:
       name: ['Myrcia ', 'Myrcia, type ξ']
       desc: ["Money couldn't buy happiness, but it bought a small\narsenal that very much brings a smile to her face.\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks."]
@@ -1271,6 +1301,9 @@ cats:
     538:
       name: [Kagamine Rin & Len, Kagamine Rin & Len CC]
       desc: ["Virtual singers loved by the entire Cat Empire!\nPowerful and charming twin vocals. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal"]
+    544:
+      name: [Kasli the Bane, 'Kasli, Daughter of Chaos']
+      desc: ["As the curses within whisper to her, she wanders the\nland desperately seeking to finally find inner peace.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1305,6 +1338,9 @@ cats:
     511:
       name: [Akuma, Akuma CC]
       desc: ["Joining the fight from Street Fighter V AE!\nSeeks mighty warriors to fight to the death.\nInsane Area damage vs. Traitless.", "Joining the fight from Street Fighter V AE!\nMaster of the Fist, attacks with pure killing spirit.\nInsane Area damage vs. Traitless."]
+    545:
+      name: [Kyosaka Nanaho, True Kyosaka Nanaho]
+      desc: ["Curious maiden exploring the fantastic Cat Empire\nStrikes down demons with her blade Honoka.\nInsanely Tough vs Metal, Area attacks Might Critical.", "Her experiences in our world have made her wiser.\nHonoka has protected her in many a fierce battle.\nInsanely Tough vs Metal, Area attacks Might Critical.", "Her experiences in our world have made her wiser.\nHonoka has protected her in many a fierce battle.\nInsanely Tough vs Metal, Area attacks Might Critical."]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1811,6 +1847,14 @@ gacha:
   502: [524, 523, 496, 332, 331, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   503: [535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   504: [535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  505: [524, 523, 496, 483, 342, 271, 181, 430, 430, 430, 430, 430, 430, 429, 429, 429, 429, 429, 429, 429, 429, 429, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  506: [545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  507: [545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  508: [545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  509: [544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  510: [544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  511: [524, 523, 496, 483, 342, 271, 181, 430, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  512: [544, 535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
