@@ -211,22 +211,43 @@ module BattleCatsRolls
         wget(JSON.parse(open_uri(apk_url).read)['url'], apk_path)
 
       when %r{apkplz\.net/app}
-        require 'open-uri'
+        require 'net/http'
         require 'nokogiri'
 
-        wget(xpath_download_link(xpath_download_link(apk_url)), apk_path)
+        wget(css_download_link(*css_download_link(apk_url)).first, apk_path)
 
       else
         wget(apk_url, apk_path)
       end
     end
 
-    def xpath_download_link url
-      title = "'#{version} APK'"
-      link = Nokogiri::HTML.parse(open_uri(url)).
-        xpath("//a[contains(@title, #{title})]").first&.attr('href')
+    def css_download_link url, laravel_session=nil
+      doc, new_laravel_session = net_get(url, laravel_session)
 
-      link || raise("Cannot find #{title} link")
+      title = "#{version} APK"
+      link = Nokogiri::HTML.parse(doc).
+        css("a[title~='#{title}']").first&.attr('href')
+
+      if link
+        [link, new_laravel_session]
+      else
+        raise("Cannot find #{title} link")
+      end
+    end
+
+    def net_get url, laravel_session
+      uri = URI.parse(url)
+      get = Net::HTTP::Get.new(uri)
+      get['Cookie'] = "laravel_session=#{laravel_session}" if laravel_session
+
+      response =
+        Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+          http.request(get)
+        end
+
+      new_laravel_session = response['set-cookie'][/laravel_session=(.+);/, 1]
+
+      [response.body, new_laravel_session]
     end
 
     def wget url, path
