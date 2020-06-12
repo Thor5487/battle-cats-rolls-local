@@ -5408,3 +5408,57 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-06-15_430:
+    start_on: 2020-06-15
+    end_on: 2020-06-17
+    version: '90500'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-17_487:
+    start_on: 2020-06-17
+    end_on: 2020-06-19
+    version: '90500'
+    name: Sharpshooter Saki is here to defend justice! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-19_501:
+    start_on: 2020-06-19
+    end_on: 2020-06-22
+    version: '90500'
+    name: Epicfest is here with 3 exclusive heroes and higher drop rates!
+    id: 501
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-06-22_424:
+    start_on: 2020-06-22
+    end_on: 2020-06-24
+    version: '90600'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-24_433:
+    start_on: 2020-06-24
+    end_on: 2020-06-26
+    version: '90600'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-06-26_497:
+    start_on: 2020-06-26
+    end_on: 2020-06-29
+    version: '90600'
+    name: Hades of the Underworld lends his strength! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
