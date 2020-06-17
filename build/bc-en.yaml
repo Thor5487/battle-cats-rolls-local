@@ -272,6 +272,9 @@ cats:
     533:
       name: [Urs & Fenrir, Urs & Minka]
       desc: ["The weak shall serve the strong! Or so they say.\nThe founding ancestor of a proud warrior clan.\nArea attacks might weaken non-Metal enemies.", "The first of their line to terrorize enemies by\nriding a ferocious Cat-beast into the enemy lines.\nArea attacks might weaken non-Metal enemies."]
+    555:
+      name: [Master Uril, Mystic Uril]
+      desc: ["The will of one in flowing robes is the law!\nAnd so, he forced his way into the Cat Army.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -621,6 +624,9 @@ cats:
     546:
       name: [Phantom Cat, Miasma Cat]
       desc: ["A vague shape that kind of resembles a Cat.\nFinds it tough to keep it together in windy places.\nLong-range Area attacks hit Angels for massive damage.", "An ambiguously Cat-like being made of dark vapor.\nBelches up foul gasses when he has tummy trouble.\nLong-range Area attacks hit Angels for massive damage."]
+    554:
+      name: [Bakery Cat, Boomerang Cat]
+      desc: ["Cat who ran away from home to become a baker in\nthe big city. His croissants are tasty AND battle-ready!\nLong-range atks 100% Curse Angels/Aliens/Zombies", "Disillusioned by city life, returned home to reclaim his place\nas a proud hunter wielding a high-tech homing weapon.\nLong-range atks 100% Curse Angels/Aliens/Zombies"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -847,7 +853,7 @@ cats:
       desc: ["Unlocked by meeting all the legends.\nFreezes enemies in place.\nSummon when you are losing ground.", "Uses special powers to interrupt time.\nStops the movement of enemies.\nSummon when you are losing ground."]
     58:
       name: [Marauder Cat, Berserker Cat, Paladin Cat]
-      desc: ["Its cursed sword reduces the offensive power\nbut might deliver critical hits.\nKnown as the \"Metal Killer\".", "The cursed sword has taken over and\nand turned the Cat into the Cursed Knight.\nKnown as the \"Dark Metal Knight\". (Area Atk)", "This Cat's righteous heart finally conquered\nthe cursed sword, turning it into a holy axe.\nMight critical attack. (Area Attack)"]
+      desc: ["Its cursed sword reduces the offensive power\nbut might deliver critical hits.\nKnown as the \"Metal Killer\".", "The cursed sword has taken over and\nturned the Cat into the Cursed Knight.\nKnown as the \"Dark Metal Knight\". (Area Atk)", "This Cat's righteous heart finally conquered\nthe cursed sword, turning it into a holy axe.\nMight critical attack. (Area Attack)"]
     60:
       name: [Baby Cat, Baby Cats, Cats in the Cradle]
       desc: ["A baby Cat that still can't do anything\nby itself. Luckily, daddy is there to help.\nMight knockback Floating & Aliens (Area Atk)", "Brought along it's baby sister.\nDad has his work cut out for him.\nMight knockback Floating & Aliens (Area Atk)", "Even 7 kittens together can't do much…\nLuckily Dad's still keeping an eye out for bullies.\nArea wave attacks knockback Floating/Alien."]
@@ -1125,8 +1131,8 @@ cats:
       name: [Wolfchild Deale, Wolf Princess Deale, Jester Queen Deale]
       desc: ["A lost cub from a mighty werewolf pack\nwho found her calling in show business.\nMight knockback Angels & Aliens (Area Atk)", "The one-wolf show has revealed her true colors\nto universal acclaim. Are you not entertained??\nMight knockback Angels & Aliens (Area Atk)", "Started streaming her comedy act and earned\na million bucks! Follow her for a special reward~☆\nArea attacks might knockback Angels/Aliens"]
     359:
-      name: [Graveflower Verbena, Verbena the Bride]
-      desc: ["A lost soul who came home from the other side. \nHunting for a groom to fill her heart... or her stomach.\nMight deliver critical strikes (Area Attacks)", "Her hunger sated, she now looks forward to\nthe wedding day of her undead dreams.\nMight deliver critical strikes (Area Attacks)"]
+      name: [Graveflower Verbena, Verbena the Bride, 'Opulent Verbena ']
+      desc: ["A lost soul who came home from the other side. \nHunting for a groom to fill her heart... or her stomach.\nMight deliver critical strikes (Area Attacks)", "Her hunger sated, she now looks forward to\nthe wedding day of her undead dreams.\nMight deliver critical strikes (Area Attacks)", "Using her late love's estate to live the afterlife of\nher dreams. Now both her heart and stomach are\nfull to bursting. Area attacks might Critical."]
     360:
       name: [Bora, Bazibon, Bazibastra]
       desc: ["Cosmic fire, brought to life!\nThis drake spirit commands flames\nthat strike Aliens for extra damage!", "With the power of a burning sun,\nits flares annihilate Barriers.\nPowerful defense & attack vs. Aliens", "Carries a red giant's rage within its tiny body,\nready to unleash a supernova on enemy Barriers.\nPowerful defense & attack vs. Aliens"]
@@ -1304,6 +1310,9 @@ cats:
     544:
       name: [Kasli the Bane, 'Kasli, Daughter of Chaos']
       desc: ["As the curses within whisper to her, she wanders the\nland desperately seeking to finally find inner peace.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows."]
+    547:
+      name: [Papaluga, Papalan Pasalan]
+      desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1855,6 +1864,16 @@ gacha:
   510: [544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   511: [524, 523, 496, 483, 342, 271, 181, 430, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   512: [544, 535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  513: [524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 409, 408, 408, 408, 408, 407, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  514: [524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  515: [524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 408, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  516: [524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  517: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+  518: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 201, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+  519: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 240, 239, 238, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
+  520: [547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  521: [547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  522: [547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
