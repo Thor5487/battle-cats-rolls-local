@@ -5481,3 +5481,30 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-06-29_475:
+    start_on: 2020-06-29
+    end_on: 2020-07-01
+    version: '90600'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-01_448:
+    start_on: 2020-07-01
+    end_on: 2020-07-03
+    version: '90600'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-03_500:
+    start_on: 2020-07-03
+    end_on: 2020-07-06
+    version: '90600'
+    name: Embrace darkness with Kasli the Scourge! Plus higher Uber drop rates!
+    id: 500
+    rare: 6500
+    supa: 2600
+    uber: 900
