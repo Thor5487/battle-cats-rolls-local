@@ -5508,3 +5508,49 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-07-06_421:
+    start_on: 2020-07-06
+    end_on: 2020-07-08
+    version: '90600'
+    name: Eldritch Cats(?) from beyond, with a mystery Legend! ★ Tap banner for info!
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-08_427:
+    start_on: 2020-07-08
+    end_on: 2020-07-10
+    version: '90600'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-10_506:
+    start_on: 2020-07-10
+    end_on: 2020-07-13
+    version: '90600'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-13_445:
+    start_on: 2020-07-13
+    end_on: 2020-07-15
+    version: '90600'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-15_430:
+    start_on: 2020-07-15
+    end_on: 2020-07-17
+    version: '90600'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500

@@ -4470,3 +4470,53 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-07-06_421:
+    start_on: 2020-07-06
+    end_on: 2020-07-08
+    version: '90600'
+    name: "★수수께끼 투성이인 징글 & 귀염 생명체! 시크릿 참전!?★자세한 내용은 배너를 클릭!!★"
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-08_427:
+    start_on: 2020-07-08
+    end_on: 2020-07-10
+    version: '90600'
+    name: "★검은 적에 강한 멋진 환수들! 자세한 내용은 배너를 클릭!★"
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-10_506:
+    start_on: 2020-07-10
+    end_on: 2020-07-13
+    version: '90600'
+    name: 이세계에서 소환된 유쾌한 미소녀들! 시크릿 미소녀 참전!★자세한 내용은 배너를 클릭!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-13_445:
+    start_on: 2020-07-13
+    end_on: 2020-07-15
+    version: '90600'
+    name: "★냥코 군단의 초비밀 병기! 시크릿 참전!?★자세한 내용은 배너를 클릭!!★"
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-15_430:
+    start_on: 2020-07-15
+    end_on: 2020-07-17
+    version: '90600'
+    name: "♡파워풀&큐트한 소녀들♡자세한 내용은 배너를 클릭♡"
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

@@ -5121,3 +5121,53 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-07-06_421:
+    start_on: 2020-07-06
+    end_on: 2020-07-08
+    version: '90600'
+    name: 噁心又可愛的神秘生物！神秘角色新登場！？★點圖可以看詳細內容喔！
+    id: 421
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-08_427:
+    start_on: 2020-07-08
+    end_on: 2020-07-10
+    version: '90600'
+    name: 對上黑敵能力大爆發！有強大效果的戰國武將們！★點圖確認詳細吧！！
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-10_506:
+    start_on: 2020-07-10
+    end_on: 2020-07-13
+    version: '90600'
+    name: 異世界召喚來的快樂美少女們！隱藏版美少女也參戰！★點圖確認詳細吧！！
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-13_445:
+    start_on: 2020-07-13
+    end_on: 2020-07-15
+    version: '90600'
+    name: 貓咪軍團珍藏的超級武器！神秘角色新登場！？★點圖可以看詳細內容喔！
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-15_430:
+    start_on: 2020-07-15
+    end_on: 2020-07-17
+    version: '90600'
+    name: 打倒阻礙的敵人！戰鬥力十足又可愛的電腦少女們！★點圖可看詳細內容！
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
