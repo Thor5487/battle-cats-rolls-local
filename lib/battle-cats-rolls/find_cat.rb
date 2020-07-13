@@ -21,7 +21,8 @@ module BattleCatsRolls
         442, # "D'arktanyan",
         485, # "Li'l Valkyrie Dark",
         530, # "Kasli the Scourge",
-        544, # 禍根の魔女キャスリィ,
+        544, # "Kasli the Bane",
+        560, # "Hell Warden Emma",
       ].freeze
     end
 
