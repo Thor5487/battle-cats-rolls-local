@@ -17,10 +17,10 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         __method__,
-        '9.6.0',
+        '9.7.0',
         AwsAuth.event_url('tw'),
-        # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/'
-        'https://apkplz.net/app/jp.co.ponos.battlecatstw'
+        'https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/'
+        # 'https://apkplz.net/app/jp.co.ponos.battlecatstw'
       ]
     end
 
@@ -204,29 +204,46 @@ module BattleCatsRolls
       FileUtils.mkdir_p(app_data_path)
 
       case apk_url
-      when %r{apkmonk\.com/down_file}
-        require 'open-uri'
-        require 'json'
-
-        wget(JSON.parse(open_uri(apk_url).read)['url'], apk_path)
-
+      when %r{apkmonk\.com/app}
+        wget(monk_donwload_link(apk_url), apk_path)
       when %r{apkplz\.net/app}
-        require 'net/http'
-        require 'nokogiri'
-
-        wget(css_download_link(*css_download_link(apk_url)).first, apk_path)
-
+        wget(plz_download_link(*plz_download_link(apk_url)).first, apk_path)
       else
         wget(apk_url, apk_path)
       end
     end
 
+    def monk_donwload_link url
+      require 'json'
+
+      uri = URI.parse(url)
+
+      path, = css_download_link(url) do |title|
+        "a[title~='#{title.downcase}']"
+      end
+
+      *, pkg, key = path.split('/')
+      json_uri =
+        "#{uri.scheme}://#{uri.host}/down_file/?pkg=#{pkg}&key=#{key}"
+
+      json, = net_get(json_uri)
+
+      JSON.parse(json)['url']
+    end
+
+    def plz_download_link url, laravel_session=nil
+      css_download_link(url, laravel_session) do |title|
+        "a[title~='#{title}']"
+      end
+    end
+
     def css_download_link url, laravel_session=nil
+      require 'nokogiri'
+
       doc, new_laravel_session = net_get(url, laravel_session)
 
       title = "#{version} APK"
-      link = Nokogiri::HTML.parse(doc).
-        css("a[title~='#{title}']").first&.attr('href')
+      link = Nokogiri::HTML.parse(doc).css(yield(title)).first&.attr('href')
 
       if link
         [link, new_laravel_session]
@@ -235,9 +252,12 @@ module BattleCatsRolls
       end
     end
 
-    def net_get url, laravel_session
+    def net_get url, laravel_session=nil
+      require 'net/http'
+
       uri = URI.parse(url)
       get = Net::HTTP::Get.new(uri)
+      get['User-Agent'] = 'Mozilla/5.0'
       get['Cookie'] = "laravel_session=#{laravel_session}" if laravel_session
 
       response =
