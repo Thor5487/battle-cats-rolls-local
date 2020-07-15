@@ -4535,3 +4535,82 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-07-17_487:
+    start_on: 2020-07-17
+    end_on: 2020-07-20
+    version: '90700'
+    name: 매드슈터 사키 참전! 정의와 어둠의 힘을 가진 구세주들!★자세한 내용은 배너를 클릭!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-17_526:
+    start_on: 2020-07-17
+    end_on: 2020-07-20
+    version: '90700'
+    name: 신 캐릭터가 다수 추가된 6주년 기념 특별 뽑기!★자세한 내용은 배너를 클릭!
+    id: 526
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-20_424:
+    start_on: 2020-07-20
+    end_on: 2020-07-22
+    version: '90700'
+    name: 세계 최강 전력의 냥코 군단!★자세한 내용은 배너를 클릭!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-20_530:
+    start_on: 2020-07-20
+    end_on: 2020-07-22
+    version: '90700'
+    name: 6주년 기념! 감사의 마음을 담은 특별 셀렉션 뽑기!★자세한 내용은 배너를 클릭!
+    id: 530
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-22_433:
+    start_on: 2020-07-22
+    end_on: 2020-07-24
+    version: '90700'
+    name: 압도적인 존재감을 내뿜는 강력한 드래곤들!★자세한 내용은 배너를 클릭!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-22_531:
+    start_on: 2020-07-22
+    end_on: 2020-07-24
+    version: '90700'
+    name: 6주년 기념! 감사의 마음을 담은 특별 셀렉션 뽑기!★자세한 내용은 배너를 클릭!
+    id: 531
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-24_509:
+    start_on: 2020-07-24
+    end_on: 2020-07-27
+    version: '90700'
+    name: 한정 캐릭터 '화근의 마녀 캐슬리'가 새롭게 참전!★울슈레 확률 지금만 초 UP!!
+    id: 509
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-07-24_510:
+    start_on: 2020-07-24
+    end_on: 2030-01-01
+    version: '90700'
+    name: 울트라 슈퍼 레어 캐릭터를 반드시 뽑을 수 있는 ★플래티넘 뽑기★
+    id: 510
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
