@@ -4614,3 +4614,42 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-07-27_497:
+    start_on: 2020-07-27
+    end_on: 2020-07-29
+    version: '90700'
+    name: 명계신 하데스 참전! 냥코 월드의 위대한 신들!★자세한 내용은 배너를 클릭!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-27_527:
+    start_on: 2020-07-27
+    end_on: 2020-07-31
+    version: '90700'
+    name: 신 캐릭터가 다수 추가된 6주년 기념 특별 뽑기!★자세한 내용은 배너를 클릭!
+    id: 527
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-29_475:
+    start_on: 2020-07-29
+    end_on: 2020-07-31
+    version: '90700'
+    name: 냥코 월드 최대급 진화! 초고대 전설의 용사들!★자세한 내용은 배너를 클릭!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-31_500:
+    start_on: 2020-07-31
+    end_on: 2020-08-03
+    version: '90700'
+    name: 강력한 한정 캐릭터 '재앙의 캐슬리' 참전!★울트라 슈퍼 레어 캐릭터 지금만 확률 초 UP!!
+    id: 500
+    rare: 6500
+    supa: 2600
+    uber: 900

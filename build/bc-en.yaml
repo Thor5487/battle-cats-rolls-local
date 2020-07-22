@@ -5615,3 +5615,30 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-07-27_497:
+    start_on: 2020-07-27
+    end_on: 2020-07-29
+    version: '90700'
+    name: Hades of the Underworld lends his strength! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-29_475:
+    start_on: 2020-07-29
+    end_on: 2020-07-31
+    version: '90700'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-07-31_500:
+    start_on: 2020-07-31
+    end_on: 2020-08-03
+    version: '90700'
+    name: Embrace darkness with Kasli the Scourge! Plus higher Uber drop rates!
+    id: 500
+    rare: 6500
+    supa: 2600
+    uber: 900

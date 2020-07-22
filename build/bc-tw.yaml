@@ -5265,3 +5265,42 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-07-27_497:
+    start_on: 2020-07-27
+    end_on: 2020-07-29
+    version: '90700'
+    name: 冥界神黑帝斯參戰！貓咪世界再加一偉大神！★點圖確認詳細吧!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-27_527:
+    start_on: 2020-07-27
+    end_on: 2020-07-31
+    version: '90700'
+    name: 追加多數新角色的「5週年紀念特別版轉蛋」！★點圖確認詳細吧!!
+    id: 527
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-29_475:
+    start_on: 2020-07-29
+    end_on: 2020-07-31
+    version: '90700'
+    name: 貓咪世界最大級的驚人進化樣貌之古代勇者們！★點圖確認詳細吧!!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-07-31_500:
+    start_on: 2020-07-31
+    end_on: 2020-08-03
+    version: '90700'
+    name: 超強戰力角色「災難少女凱斯莉」參戰！★超激稀有出現率只有現在上升中！
+    id: 500
+    rare: 6500
+    supa: 2600
+    uber: 900
