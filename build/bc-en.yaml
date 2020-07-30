@@ -5642,3 +5642,41 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-08-03_448:
+    start_on: 2020-08-03
+    end_on: 2020-08-05
+    version: '90700'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-05_427:
+    start_on: 2020-08-05
+    end_on: 2020-08-07
+    version: '90700'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-07_517:
+    start_on: 2020-08-07
+    end_on: 2020-08-10
+    version: '90700'
+    name: Papaluga joins the Nekoluga clan, plus 11-draw Uber guarantee!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-08-07_522:
+    start_on: 2020-08-07
+    end_on: 2030-01-01
+    version: '90700'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 522
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
