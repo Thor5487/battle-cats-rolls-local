@@ -5680,3 +5680,98 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-08-10_506:
+    start_on: 2020-08-10
+    end_on: 2020-08-12
+    version: '90700'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-10_515:
+    start_on: 2020-08-10
+    end_on: 2020-08-17
+    version: '90700'
+    name: Rare Capsules with Limited Edition Evangelion Units! ★ Tap the banner for info!
+    id: 515
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-08-12_445:
+    start_on: 2020-08-12
+    end_on: 2020-08-14
+    version: '90700'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-14_430:
+    start_on: 2020-08-14
+    end_on: 2020-08-17
+    version: '90700'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-08-14_515:
+    start_on: 2020-08-14
+    end_on: 2020-08-17
+    version: '90700'
+    name: Rare Capsules with Limited Edition Evangelion Units! ★ Tap the banner for info!
+    id: 515
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-08-17_433:
+    start_on: 2020-08-17
+    end_on: 2020-08-19
+    version: '90700'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-19_451:
+    start_on: 2020-08-19
+    end_on: 2020-08-21
+    version: '90700'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-08-19_452:
+    start_on: 2020-08-19
+    end_on: 2020-08-21
+    version: '90700'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-08-19_453:
+    start_on: 2020-08-19
+    end_on: 2020-08-21
+    version: '90700'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-08-21_521:
+    start_on: 2020-08-21
+    end_on: 2020-08-24
+    version: '90700'
+    name: Kasli the Bane, only in this set! ★ Plus higher Uber drop rates!
+    id: 521
+    rare: 6500
+    supa: 2600
+    uber: 900
