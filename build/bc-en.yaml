@@ -5775,3 +5775,50 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-08-24_487:
+    start_on: 2020-08-24
+    end_on: 2020-08-26
+    version: '90800'
+    name: Sharpshooter Saki is here to defend justice! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-24_534:
+    start_on: 2020-08-24
+    end_on: 2020-08-31
+    version: '90800'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 534
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-08-26_424:
+    start_on: 2020-08-26
+    end_on: 2020-08-28
+    version: '90800'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-28_475:
+    start_on: 2020-08-28
+    end_on: 2020-08-31
+    version: '90800'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-08-28_534:
+    start_on: 2020-08-28
+    end_on: 2020-08-31
+    version: '90800'
+    name: New heroes appear for summer fun, with 11-Draw Uber Guarantee!
+    id: 534
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
