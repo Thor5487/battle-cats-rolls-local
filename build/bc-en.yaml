@@ -630,6 +630,9 @@ cats:
     554:
       name: [Bakery Cat, Boomerang Cat]
       desc: ["Cat who ran away from home to become a baker in\nthe big city. His croissants are tasty AND battle-ready!\nLong-range atks 100% Curse Angels/Aliens/Zombies", "Disillusioned by city life, returned home to reclaim his place\nas a proud hunter wielding a high-tech homing weapon.\nLong-range atks 100% Curse Angels/Aliens/Zombies"]
+    563:
+      name: [Luka Cat, Luka Cat CC]
+      desc: ["Die-hard fan of a cool & mysterious singer.\nAvoids dancing to preserve her mysterious allure.\nChance to Dodge Alien attacks", "To better be like that cool & mysterious singer,\ndances with a tuna and talks like a salty sea dog.\nChance to Dodge Alien attacks"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -838,6 +841,15 @@ cats:
     523:
       name: [Nymph Cat, Medalist Cat]
       desc: ["Some rude \"hero\" dropped his axes right in her pond.\nNo time for litterbugs, no matter how handsome they\nmight be! Long Range Area attacks.", "Somehow this Cat qualified for the tournament...\nSomehow she won Gold. An investigation is\nunderway. Long-range Area Attacks."]
+    562:
+      name: [MEIKO & Cat, MEIKO & Cat CC]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nTalented vocalist who transcends genre.\nMassive Long-Range Area Damage to Red", "Virtual singer loved by the entire Cat Empire!\nHeartfelt singer with a world-class voice.\nMassive Long-Range Area Damage to Red"]
+    566:
+      name: [Suntan Cat, Macho Suntan Cat]
+      desc: ["Bronzed to perfection in the midsummer sun.\nBetter to worry about future wrinkles later.\nChance to Dodge Traitless attacks", "Bronzed to perfection while doing pull-ups\nat the beachside gym. Sun's out, guns out!\nChance to Dodge Traitless attacks"]
+    567:
+      name: [Lifeguard Cats, Sweet Bro Cats]
+      desc: ["Best friends who keep the beaches safe and fun,\nendlessly scanning the surf with 20/20 vision.\nLong-range Area attacks have chance to Slow Traitless", "Three loyal brothers who resemble a sugary\ntreat. The one on top is surprisingly not the oldest.\nLong-range Area attacks have chance to Slow Traitless"]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1254,8 +1266,8 @@ cats:
       name: [Narita Kaihime, Wargod Kaihime, Immortal Kaihime]
       desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "This dignified heroine has withstood the corruption\nof the cursed weapons and seeks only to bring peace.\n100% Slow vs Black/Zombies, chance of Savage blows."]
     503:
-      name: ['Myrcia ', 'Myrcia, type ξ']
-      desc: ["Money couldn't buy happiness, but it bought a small\narsenal that very much brings a smile to her face.\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks."]
+      name: ['Myrcia ', 'Myrcia, type ξ', Divine Myrcia]
+      desc: ["Money couldn't buy happiness, but it bought a small\narsenal that very much brings a smile to her face.\nWave Attacks, might dodge Traitless enemy attacks.", "RoboButler is endlessly apologizing for Myr's rich-girl\nfaux pas (and the trail of destruction left in her wake).\nWave Attacks, might dodge Traitless enemy attacks.", "Bourgeois space princess living a high-class life,\nbut can't resist cravings for cheap cheeseburgers.\nWave Attacks, might dodge Traitless enemy attacks."]
     506:
       name: [Relentless Gladios, Gladios the Annihilator, God-Emperor Gladios]
       desc: ["Gargantuan horned beast, spitting vicious\nthunderbolts that shake the very firmament.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies.", "Bathed in the light of obliteration at a holy mountain\nand realized the power to destroy all life. (Area Atk)\n100% Chance to Knockback/Slow Traitless."]
@@ -1312,13 +1324,22 @@ cats:
       desc: ["Virtual singers loved by the entire Cat Empire!\nPowerful and charming twin vocals. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal", "Virtual singers loved by the entire Cat Empire!\nVoices filled with the dreams of youth. Long-range\nArea attacks might Knockback/Slow Black & Metal"]
     544:
       name: [Kasli the Bane, 'Kasli, Daughter of Chaos']
-      desc: ["As the curses within whisper to her, she wanders the\nland desperately seeking to finally find inner peace.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area attacks Curse, release Savage Blows."]
+      desc: ["As the curses within whisper to her, she wanders the\nland desperately seeking to finally find inner peace.\nLong-range Area Surge attacks will 100% Curse.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area Surge attacks will 100% Curse.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area Surge attacks will 100% Curse."]
     547:
       name: [Papaluga, Papalan Pasalan]
       desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal."]
     560:
       name: [Hell Warden Emma, Hell Sentinel Emma]
       desc: ["Hunter of evil souls trying to escape their\neternal punishment. Back to the pit with you!\nOmnistrikes might Weaken. Immune to Waves.", "Judge, jury and executioner of the treacherous\ndead who cast aside all honor for victory in battle.\nOmnistrikes might Weaken. Immune to Waves."]
+    561:
+      name: [Megurine Luka, Megurine Luka CC]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nBilingual vocalist with just a bit of mystery to her.\nMassive Long-Range Area Damage to Floating/Black", "Virtual singer loved by the entire Cat Empire!\nLaid-back bilingual vocalist with a silky smooth voice.\nMassive Long-Range Area Damage to Floating/Black"]
+    564:
+      name: [Squirtgun Saki, Aquabuster Saki]
+      desc: ["Waterguns are harder to aim... but at least\naccidental TKs only get summer camp friends wet.\nLong-Range Area attacks only hit Floating/Black", "Watches over the starlit beaches, protecting sea\n turtles from rowdy partiers with illegal fireworks.\nLong-Range Area attacks only hit Floating/Angels"]
+    565:
+      name: [Summerluga , Bikinilan Pasalan]
+      desc: ["Not sure if this is a Cat... or a Gal?\nThere's just something about\nthat taste in swimwear...", "Blistering barnacles! Seems like\nthis bodacious beach babe has\n100% chance of Area Surge attacks"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1889,6 +1910,10 @@ gacha:
   529: [497, 494, 479, 456, 452, 450, 439, 428, 398, 362, 352, 335, 333, 307, 272, 213, 178, 171, 137, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
   530: [503, 495, 482, 464, 462, 451, 449, 418, 361, 359, 323, 287, 277, 258, 197, 159, 87, 44, 35, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
   531: [497, 494, 479, 456, 452, 450, 439, 428, 398, 362, 352, 335, 333, 307, 272, 213, 178, 171, 137, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
+  532: [563, 563, 563, 563, 563, 563, 563, 563, 563, 563, 562, 562, 562, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  533: [567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  534: [567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  535: [563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
