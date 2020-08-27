@@ -5847,3 +5847,95 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-08-31_497:
+    start_on: 2020-08-31
+    end_on: 2020-09-02
+    version: '90800'
+    name: Hades of the Underworld lends his strength! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-08-31_535:
+    start_on: 2020-08-31
+    end_on: 2020-09-14
+    version: '90800'
+    name: Limited Hatsune Miku collab with NEW heroes! Tap banner for info!
+    id: 535
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-09-02_448:
+    start_on: 2020-09-02
+    end_on: 2020-09-04
+    version: '90800'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-09-04_520:
+    start_on: 2020-09-04
+    end_on: 2020-09-07
+    version: '90800'
+    name: Embrace darkness with Kasli the Scourge! Plus higher Uber drop rates!
+    id: 520
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-09-04_535:
+    start_on: 2020-09-04
+    end_on: 2020-09-14
+    version: '90800'
+    name: Limited Hatsune Miku collab with NEW heroes! Tap banner for info!
+    id: 535
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-09-07_427:
+    start_on: 2020-09-07
+    end_on: 2020-09-09
+    version: '90800'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-09-07_535:
+    start_on: 2020-09-07
+    end_on: 2020-09-14
+    version: '90800'
+    name: Limited Hatsune Miku collab with NEW heroes! Tap banner for info!
+    id: 535
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-09-09_517:
+    start_on: 2020-09-09
+    end_on: 2020-09-11
+    version: '90800'
+    name: Papaluga joins the uncanny Nekolugas! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-09-11_433:
+    start_on: 2020-09-11
+    end_on: 2020-09-14
+    version: '90800'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-11_535:
+    start_on: 2020-09-11
+    end_on: 2020-09-14
+    version: '90800'
+    name: Hatsune Miku collab capsules, with 11-Draw Uber Guarantee!
+    id: 535
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
