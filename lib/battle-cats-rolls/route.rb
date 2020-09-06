@@ -71,8 +71,8 @@ module BattleCatsRolls
       gacha.pool.add_future_ubers(ubers) if ubers > 0
 
       if last.nonzero?
-        gacha.last_cat = Cat.new(id: last)
-        gacha.last_both = [gacha.last_cat, nil]
+        gacha.last_roll = Cat.new(id: last)
+        gacha.last_both = [gacha.last_roll, nil]
       end
 
       # Human counts from 1
@@ -85,7 +85,7 @@ module BattleCatsRolls
       end
 
       if last.nonzero?
-        gacha.finish_last_cat(cats.dig(0, 0))
+        gacha.finish_last_roll(cats.dig(0, 0))
       end
 
       if guaranteed_rolls > 0

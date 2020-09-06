@@ -6,7 +6,7 @@ require_relative 'fruit'
 require 'forwardable'
 
 module BattleCatsRolls
-  class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_cat)
+  class Gacha < Struct.new(:pool, :seed, :version, :last_both, :last_roll)
     extend Forwardable
 
     def_delegators :pool, *%w[rare supa uber legend]
@@ -60,8 +60,8 @@ module BattleCatsRolls
       end
     end
 
-    def finish_last_cat first_cat
-      fill_cat_links(first_cat, last_cat)
+    def finish_last_roll first_cat
+      fill_cat_links(first_cat, last_roll)
     end
 
     def finish_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
@@ -274,7 +274,7 @@ module BattleCatsRolls
     end
 
     def fill_picking_backtrack cats, number, which_cat=:itself
-      a = last_cat || cats.dig(0, 0)
+      a = last_roll || cats.dig(0, 0)
       b = cats.dig(0, 1)
 
       found_a = fill_picking_backtrack_from(a, number, which_cat)
@@ -290,7 +290,7 @@ module BattleCatsRolls
         checking_cat = cat.public_send(which_cat)
 
         # checking_cat might not be there for out of range guaranteed
-        # do not break the loop because last_cat doesn't have one either
+        # do not break the loop because last_roll doesn't have one either
         if number === checking_cat&.number # String or Regexp matching
           if found && found != cat
             # don't highlight different paths for different cats because
