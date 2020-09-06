@@ -84,6 +84,10 @@ module BattleCatsRolls
         gacha.finish_rerolled_links(cats)
       end
 
+      if last.nonzero?
+        gacha.finish_last_cat(cats.dig(0, 0))
+      end
+
       if guaranteed_rolls > 0
         gacha.finish_guaranteed(cats, guaranteed_rolls)
       end

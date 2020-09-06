@@ -60,6 +60,10 @@ module BattleCatsRolls
       end
     end
 
+    def finish_last_cat first_cat
+      fill_cat_links(first_cat, last_cat)
+    end
+
     def finish_guaranteed cats, guaranteed_rolls=pool.guaranteed_rolls
       each_cat(cats) do |rolled_cat|
         fill_guaranteed(cats, guaranteed_rolls, rolled_cat)
@@ -273,26 +277,34 @@ module BattleCatsRolls
       a = last_cat || cats.dig(0, 0)
       b = cats.dig(0, 1)
 
-      [
-        fill_picking_backtrack_from(a, number, which_cat),
-        fill_picking_backtrack_from(b, number, which_cat)
-      ].find(&:itself)
+      found_a = fill_picking_backtrack_from(a, number, which_cat)
+      found_b = fill_picking_backtrack_from(b, number, which_cat, found_a)
+
+      found_a || found_b
     end
 
-    def fill_picking_backtrack_from cat, number, which_cat=:itself
+    def fill_picking_backtrack_from cat, number, which_cat=:itself, found=nil
       path = []
 
       begin
         checking_cat = cat.public_send(which_cat)
 
-        if checking_cat.nil? # Guaranteed might not exist due to missing seeds
-          break
-        elsif number === checking_cat.number # String or Regexp matching
-          path.each do |passed_cat|
-            passed_cat.picked_label = :picked
-          end
+        # checking_cat might not be there for out of range guaranteed
+        # do not break the loop because last_cat doesn't have one either
+        if number === checking_cat&.number # String or Regexp matching
+          if found && found != cat
+            # don't highlight different paths for different cats because
+            # it would be very confusing. see:
+            # https://bc.godfat.org/?seed=650315141&last=50&event=2020-09-11_433&pick=2BGX#N2B
+            # https://bc.godfat.org/?seed=3626964723&last=49&event=2020-09-11_433&pick=2BGX#N2B
+            break
+          else
+            path.each do |passed_cat|
+              passed_cat.picked_label = :picked
+            end
 
-          break cat
+            break cat
+          end
         else
           path << cat
         end
