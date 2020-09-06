@@ -28,7 +28,7 @@ module BattleCatsRolls
     end
 
     def name
-      info.dig('name', 0)
+      info&.dig('name', 0) || id
     end
 
     def pick_name index
