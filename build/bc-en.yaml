@@ -5939,3 +5939,52 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-09-14_507:
+    start_on: 2020-09-14
+    end_on: 2020-09-16
+    version: '90800'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 507
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-16_446:
+    start_on: 2020-09-16
+    end_on: 2020-09-18
+    version: '90800'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 446
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-18_521:
+    start_on: 2020-09-18
+    end_on: 2020-09-21
+    version: '90800'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 521
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-09-21_432:
+    start_on: 2020-09-21
+    end_on: 2020-09-23
+    version: '90800'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 432
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-23_489:
+    start_on: 2020-09-23
+    end_on: 2020-09-25
+    version: '90800'
+    name: For Justice and Cats! The Dark Heroes, with 11-draw guaranteed Uber!
+    id: 489
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
