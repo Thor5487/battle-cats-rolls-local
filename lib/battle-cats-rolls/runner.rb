@@ -3,24 +3,24 @@
 require_relative 'aws_auth'
 
 module BattleCatsRolls
-  class Runner < Struct.new(:lang, :version, :event_url, :apk_url)
+  class Runner < Struct.new(:lang, :version, :event_url, :apk_id)
+    VersionNotFound = Class.new(RuntimeError)
+
     def self.en
       @en ||= [
         __method__,
-        '9.8.0',
+        '9.9.0',
         AwsAuth.event_url('en'),
-        # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatsen/'
-        'https://apkplz.net/app/jp.co.ponos.battlecatsen'
+        'jp.co.ponos.battlecatsen'
       ]
     end
 
     def self.tw
       @tw ||= [
         __method__,
-        '9.8.0',
+        '9.9.0',
         AwsAuth.event_url('tw'),
-        'https://www.apkmonk.com/app/jp.co.ponos.battlecatstw/'
-        # 'https://apkplz.net/app/jp.co.ponos.battlecatstw'
+        'jp.co.ponos.battlecatstw'
       ]
     end
 
@@ -29,18 +29,16 @@ module BattleCatsRolls
         __method__,
         '9.9.0',
         AwsAuth.event_url('jp'),
-        # 'https://www.apkmonk.com/app/jp.co.ponos.battlecats/'
-        'https://apkplz.net/app/jp.co.ponos.battlecats'
+        'jp.co.ponos.battlecats'
       ]
     end
 
     def self.kr
       @kr ||= [
         __method__,
-        '9.8.0',
+        '9.9.0',
         AwsAuth.event_url('kr'),
-        # 'https://www.apkmonk.com/app/jp.co.ponos.battlecatskr/'
-        'https://apkplz.net/app/jp.co.ponos.battlecatskr'
+        'jp.co.ponos.battlecatskr'
       ]
     end
 
@@ -171,12 +169,14 @@ module BattleCatsRolls
       require_relative 'events_reader'
       require_relative 'crystal_ball'
 
-      events = EventsReader.read(event_path)
-      ball = CrystalBall.from_pack_and_events(cats_pack, events)
+      if provider
+        events = EventsReader.read(event_path)
+        ball = CrystalBall.from_pack_and_events(cats_pack, events)
 
-      puts "Writing data..."
+        puts "Writing data..."
 
-      ball.dump('build', lang)
+        ball.dump('build', lang)
+      end
     end
 
     def cats_pack
@@ -186,19 +186,32 @@ module BattleCatsRolls
     end
 
     def provider
-      if File.exist?(extract_path)
-        load_extract
-      elsif File.exist?(app_data_path) && Dir["#{app_data_path}/*"].any?
-        load_pack
-      else
-        download_apk unless File.exist?(apk_path)
-        write_pack
-        load_pack
-      end
+      @provider ||=
+        if File.exist?(extract_path)
+          load_extract
+        elsif File.exist?(app_data_path) && Dir["#{app_data_path}/*"].any?
+          load_pack
+        elsif !File.exist?(apk_path)
+          if download_apk
+            write_pack
+            load_pack
+          else
+            puts "Cannot find '#{version}' for #{lang}"
+          end
+        end
     end
 
     def download_apk
-      puts "Downloading APK..."
+      %w[
+          https://www.apkmonk.com/app/%{id}/
+          https://apkplz.net/app/%{id}
+      ].find do |template|
+        download_apk_from(sprintf(template, id: apk_id))
+      end
+    end
+
+    def download_apk_from apk_url
+      puts "Downloading APK from #{apk_url}"
 
       require 'fileutils'
       FileUtils.mkdir_p(app_data_path)
@@ -211,6 +224,10 @@ module BattleCatsRolls
       else
         wget(apk_url, apk_path)
       end
+    rescue VersionNotFound
+      false
+    else
+      true
     end
 
     def monk_donwload_link url
@@ -248,7 +265,7 @@ module BattleCatsRolls
       if link
         [link, new_laravel_session]
       else
-        raise("Cannot find #{title} link")
+        raise(VersionNotFound.new("Cannot find #{title} link"))
       end
     end
 
