@@ -254,6 +254,18 @@ cats:
     465:
       name: [Dogumaru, Doguemon]
       desc: ["The Doge army put this artifact for sale on cBay to\nfund their next campaign, but only made $0.22 from it.\nHigh defense against Traitless (Area Attack)", "Analysis reveals that this was created by ancient Cats\nthen sold to Doges for use as flowerbed decorations.\nHigh defense against Traitless (Area Attack)"]
+    475:
+      name: [Rosary Angel, Cross Angel, Strike Angel]
+      desc: ["Generates radiant light by the power of Amen\nand Wink Eye that subdues even the fiercest\ndevil. Might Weaken Red enemies.", "Shoots down invading demons with her Golden\nCross cannon. Her devotion to the cause of the\nholy egg is unshakeable. Might Weaken Red/Black.", "Watches over the holy labyrinth with the teachings\nof the sages behind her. Smashes evil with her\nrighteous cross. Might Weaken Red/Black/Zombies."]
+    476:
+      name: [Wakamiko Cat, Warrior King Cat]
+      desc: ["Angel born in the Holy Cat realm. Sworn to slay\nthe wicked devil-doges by the power of Light.\nStrong vs Black (Area Attack)", "Gathers the divine harmonic forces of the Cats to\nopen the gates to a new realm of holy potential.\nStrong vs Black (Area Attack)"]
+    477:
+      name: [Devil Cat, Infernal Cat]
+      desc: ["Behold the next stage of devilish evolution!\nGimme a Catfruit and I might let you live!\nStrong vs Angels (Area Attack)", "The lord of devils. His ambition threatens\nto consume all light, love, and Cat Food.\nStrong vs Angels (Area Attack)"]
+    478:
+      name: [Nekonosuke, Old Guardian Cat]
+      desc: ["My mighty body will fend off devilish attacks!\n(If it's too much, I'll just get an angel to step in.)\nStrong vs Aliens (Area Attack)", "Defender of a profitable holy meatball business.\nStill, sometimes the angels have to lend a hand.\nStrong vs Aliens (Area Attack)"]
     498:
       name: [Shakurel Cat, Shakurel Macho Cat]
       desc: ["With extinction looming, this Cat\nwill survive by evolving a mightier jaw.", "Sometimes a jaw isn't enough?\nGet swole for MORE POWER!", "Sometimes a jaw isn't enough?\nGet swole for MORE POWER!"]
@@ -275,9 +287,15 @@ cats:
     555:
       name: [Master Uril, Mystic Uril]
       desc: ["The will of one in flowing robes is the law!\nAnd so, he forced his way into the Cat Army.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks."]
+    558:
+      name: [Heavenly Jack, Heavenly Lord Jack]
+      desc: ["An angel who frolics through the elysian fields.\nMake the devils dance before crushing them!\nExtra money earned by defeating enemies!", "Divine King who uses godlike speed to fulfill\nthe prophecies of the heavenly realms.\nExtra money earned by defeating enemies!"]
     559:
       name: [Gacha Cat, Lucky Gacha Cat]
       desc: ["Escaped the Capsule Machine to celebrate\nanother year of fun! Spin, spin, and spin some\nmore! Might Knockback enemies.", "You fool! This isn't even my luckiest form!\nIs there such a thing as TOO much spinning?\nMight Knockback enemies."]
+    569:
+      name: ['Idi:N', 'Idi:N2']
+      desc: ["Mystery lifeform that seems to be analyzing \nthe Cats. No one knows why it has joined\ntheir army. Massive Area damage to Relics.", "Appears out of nowhere to perform scans\nof powerful Cats. Its mission is still unknown.\nMassive Area damage to Relics."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -585,6 +603,9 @@ cats:
     460:
       name: [Rider the Cat, Heroic Spirit Rider Cat]
       desc: ["A Cat who wields dagger and chain with\ngrace. At a slight visual disadvantage thanks \nto her mask. Chance to Freeze Angels.", "Gained command of a legendary lifeform.\nCan't see much due to the mask and\nPegasus' head. Chance to Freeze Angels."]
+    474:
+      name: [Prince Yamato, Holy Yamato, Rampaging Yamato]
+      desc: ["Angel born from the heart of heavenly power,\nwielding a sword that strikes down devils.\nMassive Area damage to Aliens/Zombies", "Revealed the next world via harmonic power.\nWith dawn blade in hand, the prophecy is fulfilled!\nMassive Area damage to Aliens/Zombies", "Hidden strength emerges from within thanks\nto the blessings of Rococo's sacred light.\nMassive Area damage to Aliens/Zombies"]
     484:
       name: [Kano ＆ Souma, Kano ＆ Souma ＆ Cat]
       desc: ["Heroes from Shoumetsu Toshi! Two wanderers in\nthe ruins of the city, confronting their own sins.\nTough vs Aliens, Area Attack", "Joined by a Cat picked up at the seaside, our\nwanderers set their sights on the ruined city.\nTough vs Aliens, Area Attack"]
@@ -701,8 +722,8 @@ cats:
       name: [Neneko, Miss NENEKO]
       desc: ["A kid sister type who dreams of stardom.\nIf only she had the guts to actually sing!\nAdmires Moneko. (Might perform Critical Attacks)", "Made to perform despite her stage fright.\nStill wants to sing but her voice won't come\nout onstage. (Might perform Critical Attacks)"]
     145:
-      name: [Cat Base Mini, Cat Base Jr.]
-      desc: ["Who can say why, but this Cat has undergone\nrigorous training to become a splendid fort.\nHis wave attack is actually just loud yelling.", "Bought a cosplay helmet by mail order.\nLikes to stalk strangers while pretending to be\na tower; his wave fires if he gets too excited."]
+      name: [Cat Base Mini, Cat Base Jr., Cat Base Ultra]
+      desc: ["Who can say why, but this Cat has undergone\nrigorous training to become a splendid fort.\nHis wave attack is actually just loud yelling.", "Bought a cosplay helmet by mail order.\nLikes to stalk strangers while pretending to be\na tower; his wave fires if he gets too excited.", "Through sheer willpower, transformed themself into\nthe ideal Cat Base with cutting-edge LAZERBEAMS!\nStill makes pew-pew mouth noises when firing."]
     151:
       name: [Juliet Cat, Princess Juliet Cat, Juliet the Maiko]
       desc: ["Dreams of a Romeo she met online.\nFavorite book: \"Pride, Prejudice and Haircuts\"\nBriefly freezes Angels (Area Attack)", "All grown up, but still dreaming of her\ncyber-Romeo. Likes chicken kebabs.\nBriefly freezes Angels (Area Attack)", "Romeo turned out to be a real jerk. Now aiming\nfor a total image change (and a cute samurai\nlord). Briefly freezes Angels (Area Attack)"]
@@ -740,14 +761,14 @@ cats:
       name: [Gloomy Neneko, Witchy Neneko]
       desc: ["Everyone's favorite cutie, dressed up for\nHalloween but doesn't have the heart to\npull any pranks on others. Might Critical.", "No magic talent, but she seemed so excited\nthey made her a witch anyhow. A little more\nconfidence might make all the difference (Critical)"]
     238:
-      name: [Freshman Cat Jobs, Prof. Cat Jobs]
-      desc: ["A li'l smart aleck who aced his entrance exams\nfor Nyarvard U. Uses his wit to spy enemy weak\npoints and greatly weaken their offense.", "Won the Nyabel Prize in economics last year.\nHis debate skills can confuse enemies so badly\nthey lose much of their offensive power.", "Won the Nyabel Prize in economics last year.\nHis debate skills confuse enemies so badly\ntheir offensive power is greatly weakened."]
+      name: [Freshman Cat Jobs, Prof. Cat Jobs, Headmaster Cat Jobs]
+      desc: ["A li'l smart aleck who aced his entrance exams\nfor Nyarvard U. Uses his wit to spy enemy weak\npoints and greatly weaken their offense.", "Won the Nyabel Prize in economics last year.\nHis debate skills can confuse enemies so badly\nthey lose much of their offensive power.", "Legend of unmatched brainpower and experience.\nBuilds up incredible amounts of XP in his sleep!\nWeakens enemies with Surge attacks"]
     239:
-      name: [Rich Cat III, Rich Cat Sr.]
-      desc: ["Heir of the legendary Rich Cat. Born wealthy,\nstill pinches every penny. Goes through the\npockets of defeated enemies for extra cash.", "Father of the legendary Rich Cat. Got rich by\nnever spending profits from his small business.\nLives off of defeated enemies' pocket money."]
+      name: [Rich Cat III, Rich Cat Sr., Richest Cat]
+      desc: ["Heir of the legendary Rich Cat. Born wealthy,\nstill pinches every penny. Goes through the\npockets of defeated enemies for extra cash.", "Father of the legendary Rich Cat. Got rich by\nnever spending profits from his small business.\nLives off of defeated enemies' pocket money.", "Grandfather of the legendary Rich Cat. Invested\nsix dollars in NekoSoft two hundred years ago.\nEvery fallen enemy adds more $ to their account."]
     240:
-      name: [Sniper the Recruit, Sniper the Heavy]
-      desc: ["Before the battlefield, boot camp. Only given\na potato gun, so don't expect TOO much\nknockback from his super long-distance attack.", "A grim assassin who never fails a contract.\nStill uses potato guns for the extra challenge.\nLong distance atk. with non-metal knockback."]
+      name: [Sniper the Recruit, Sniper the Heavy, Sniper the Deadeye]
+      desc: ["Before the battlefield, boot camp. Only given\na potato gun, so don't expect TOO much\nknockback from his super long-distance attack.", "A grim assassin who never fails a contract.\nStill uses potato guns for the extra challenge.\nLong distance atk. with non-metal knockback.", "Free agent sniper, 31 years old, who bought all\ntheir equipment secondhand off of Daveslist.\nLong distance atk. with non-metal knockback."]
     261:
       name: [Catway, Drone Cat, Time Traveller Cat]
       desc: ["A tech CEO who patrols the office in style,\nlooking for lazy interns to punish! Strong Vs.\nRed, Black, and Angels (Area Attack)", "A cutting edge Unmanned Aerial Feline (UAF).\nTends to crash regularly… tech still under\ndevelopment! Strong vs. Red, Black, Angels (Area)", "A future timeline's envoy to the present Cats.\nOften time slips into the movie theater for free...\nStrong vs. Red, Black & Angels. (Area attack)"]
@@ -826,6 +847,9 @@ cats:
     461:
       name: [Kotomine & Gilgamesh Cats, Gilgamesh & Kotomine Cats]
       desc: ["A Cat-priest with a taste for extra-spicy mapo tofu,\nand a Cat Spirit with flawless tactical sense.\nMight weaken Black, stronger after damage.", "One Cat has begun to tire of the game of battle,\nbut the other still can't get enough mapo tofu.\nMight weaken Zombies, stronger after damage."]
+    473:
+      name: [Fiendish Nero, Beastly Nero]
+      desc: ["A chaos too great for even the netherworld bursts\nforth... will this flame consume even the heavens?\nMassive Omnistrike damage to Zombies", "The infernal kings' power brought this\nnemesis of the angels to his full potential.\nMassive Omnistrike damage to Zombies"]
     490:
       name: [Misato Katsuragi, Captain Misato]
       desc: ["Recruited from Evangelion! A bright and \ncharismatic officer who acts as Shinji's guardian.\nMight break Barriers and Slow Aliens!", "Recruited from Evangelion! The ruthless \nleader of the anti-NERV organization WILLE.\nMight break Barriers and Slow Aliens!"]
@@ -841,6 +865,9 @@ cats:
     523:
       name: [Nymph Cat, Medalist Cat]
       desc: ["Some rude \"hero\" dropped his axes right in her pond.\nNo time for litterbugs, no matter how handsome they\nmight be! Long Range Area attacks.", "Somehow this Cat qualified for the tournament...\nSomehow she won Gold. An investigation is\nunderway. Long-range Area Attacks."]
+    557:
+      name: [Holy Knight Alibaba, Holy King Alibaba, Ghost Alibaba]
+      desc: ["An angel born in the realm of dreams, who soars\nthrough the heavens sealing away stray devils.\nMassive long-range damage to Black/Angels!", "Sealing demons with his righteous blade,\nthe true scion of the heavenly realms!\nMassive long-range damage to Black/Angels!", "Heaven's hero, corrupted by infernal magics?!\nCan this fallen knight's rampage be stopped??\nMassive long-range damage to Black/Angels!"]
     562:
       name: [MEIKO & Cat, MEIKO & Cat CC]
       desc: ["Virtual singer loved by the entire Cat Empire!\nTalented vocalist who transcends genre.\nMassive Long-Range Area Damage to Red", "Virtual singer loved by the entire Cat Empire!\nHeartfelt singer with a world-class voice.\nMassive Long-Range Area Damage to Red"]
@@ -1247,6 +1274,21 @@ cats:
     457:
       name: [Sakura Matou, Sakura Matou CC]
       desc: ["Joining the fight from Fate/stay night [HF]!\nTakes charge of daily care for the Emiya house.\nTough vs Black/Aliens/Zombies (Area Attack)", "Joining the fight from Fate/stay night [HF]! Fears \nthat Shirou will fall victim to the Holy Grail War.\nTough vs Black/Aliens/Zombies (Area Attack)"]
+    468:
+      name: [Super Zeus, All-Powerful Super Zeus, Super S-Zeus]
+      desc: ["The highest power of the heavenly realms created\nby Nadia, with a weakness for women and money.\nTough vs Traited, Area attacks 100% Weaken.", "Bearing unlimited strength, he holds back the\nforces of darkness from invading the mortal realms.\nTough vs Traited, Area attacks 100% Weaken.", "All-powerful god, beloved of the sun, whose\ngrowing power now befits the title of holy emperor.\nTough vs Traited, Area attacks 100% Weaken."]
+    469:
+      name: [Holy Phoenix, Holy Warrior Phoenix, Head Rococo]
+      desc: ["The embodiment of perfect love and courage,\nbecoming yet greater with every new rebirth.\nChance to Freeze Floating/Black/Aliens", "Denizen of a realm beyond time and space, who\nachieves his highest form after reaching lightspeed. \nChance to Freeze Floating/Black/Aliens (Area Atk)", "Pioneering a realm of being beyond mortal vision,\nthe fires of heaven feed his growing powers.\nStrong vs/Freeze Floating/Black/Aliens"]
+    470:
+      name: [Super Devil, Imposter Super Devil, Super D-Devil]
+      desc: ["Reigning over the realms of darkness, all demons\nare bound to obey his infernal commandments! \nLong-range Area attacks Slow Angels.", "Deceiver who captures naive angels and\nrecruits them to the cause of the netherworld!\nLong-range Area attacks Slow Angels.", "The embrace of an uncanny moonlight has granted\nhim the ultimate dark power to rule over all reality.\nLong-range Area attacks Slow Angels."]
+    471:
+      name: [Satanmaria, Wondermaria]
+      desc: ["Having stolen the six sacred orbs of power\nShe has achieved unspeakable strength!\nImmune to Waves, Massive damage to Red", "Veteran of countless battles, she commands the\norbs to open to the gates to a higher dimension.\nImmune to Waves, Massive damage to Red"]
+    472:
+      name: [Heracrist, Perfect Heracrist]
+      desc: ["Holy android created by 12 archangels. Rumors\nsay that its powers unbalanced could undo reality.\nStrong vs. Floating enemies.", "The ultimate sacred weapon created by the highest\nauthority in Heaven to suppress the forces of evil.\nStrong vs. Alien enemies."]
     483:
       name: [Benevolent Souma, Souma ＆ Cat]
       desc: ["Yuki's brother, who arrived in the world beyond as a \nboy. Seeking to advance past the sins of the past.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was saved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was aved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens."]
@@ -1328,6 +1370,9 @@ cats:
     547:
       name: [Papaluga, Papalan Pasalan]
       desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal."]
+    556:
+      name: [Shaman Khan, All-Loving Shaman Khan]
+      desc: ["Heavenly hero serving the will of Nadia.\nAlso the parent of Super Zeus. Long-range\nattacks might Knockback traited enemies.", "The ultimate manifestation of compassion\nraising his sword to defend innocents from evil!!\nLong-range attacks Knockback traited enemies."]
     560:
       name: [Hell Warden Emma, Hell Sentinel Emma]
       desc: ["Hunter of evil souls trying to escape their\neternal punishment. Back to the pit with you!\nOmnistrikes might Weaken. Immune to Waves.", "Judge, jury and executioner of the treacherous\ndead who cast aside all honor for victory in battle.\nOmnistrikes might Weaken. Immune to Waves."]
@@ -1362,6 +1407,9 @@ cats:
     464:
       name: [Mighty Kristul Muu, Doom Engine Pandora]
       desc: ["A pulsing gem focuses mystic forces into an\nunstable but insanely powerful blast. Omnistrike,\nWave shield, and High Def./Atk. vs. Zombies!", "All the Cats' tech genius can't guarantee that those\nextradimensional energies won't destroy the world.\nOmnistrike, Wave Shield , High Def./Atk. vs. Zombies"]
+    467:
+      name: [Black Zeus, Dark Lord Zeus]
+      desc: ["The younger twin of Super Zeus,\nsecond child of the goddess Nadia.\nInsane Long-range Area damage to Traitless.", "Soars in the sky while wielding magic power from\nthe 6 sacred eggs. Is he a devil, or an angel?\nInsane Long-range Area damage to Traitless."]
     479:
       name: [Lumina, Luminalia]
       desc: ["The ultimate elemental manifestation, projected\nfrom a dying star at the end of the universe.\nInsanely tough, might Weaken, Barrier Breaker.", "Omniscient cosmic visionary from the future,\nmastery of all elements allows it to ignore Barriers.\nInsanely tough, 100% Weaken, Barrier Breaker."]
@@ -1914,6 +1962,8 @@ gacha:
   533: [567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   534: [567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   535: [563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  536: [547, 544, 535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  537: [557, 556, 473, 472, 471, 470, 469, 468, 467, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
