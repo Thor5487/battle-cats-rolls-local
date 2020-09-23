@@ -196,7 +196,7 @@ module BattleCatsRolls
             write_pack
             load_pack
           else
-            puts "Cannot find '#{version}' for #{lang}"
+            puts "! Cannot find '#{version}' for #{lang}"
           end
         end
     end
