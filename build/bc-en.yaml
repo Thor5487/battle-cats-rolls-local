@@ -5988,3 +5988,72 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-09-25_426:
+    start_on: 2020-09-25
+    end_on: 2020-09-28
+    version: '90800'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 426
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-25_526:
+    start_on: 2020-09-25
+    end_on: 2020-09-28
+    version: '90800'
+    name: Best of the Best, with a new collection of heroes! ★ Tap banner for info!
+    id: 526
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-28_475:
+    start_on: 2020-09-28
+    end_on: 2020-09-30
+    version: '90800'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-28_530:
+    start_on: 2020-09-28
+    end_on: 2020-09-30
+    version: '90800'
+    name: '6 Year Celebration: Ultra Selection! ★ Tap banner for info!'
+    id: 530
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-30_497:
+    start_on: 2020-09-30
+    end_on: 2020-10-02
+    version: '90800'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-09-30_531:
+    start_on: 2020-09-30
+    end_on: 2020-10-02
+    version: '90800'
+    name: '6 Year Celebration: Miracle Chance! ★ Tap banner for info!'
+    id: 531
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-02_536:
+    start_on: 2020-10-02
+    end_on: 2020-10-05
+    version: '90900'
+    name: All Limited Ubers from Uberfest/Epicfest! Huge Uber drop rate boost!
+    id: 536
+    rare: 6500
+    supa: 2500
+    uber: 1000
