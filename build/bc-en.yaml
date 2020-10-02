@@ -6107,3 +6107,53 @@ events:
     rare: 6500
     supa: 2500
     uber: 1000
+  2020-10-05_448:
+    start_on: 2020-10-05
+    end_on: 2020-10-07
+    version: '90900'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 448
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-05_527:
+    start_on: 2020-10-05
+    end_on: 2020-10-09
+    version: '90900'
+    name: New Heroes appear to celebrate 6 Years! ★ Tap banner for info!
+    id: 527
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-07_427:
+    start_on: 2020-10-07
+    end_on: 2020-10-09
+    version: '90900'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-09_523:
+    start_on: 2020-10-09
+    end_on: 2020-10-12
+    version: '90900'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-10-09_525:
+    start_on: 2020-10-09
+    end_on: 2030-01-01
+    version: '90900'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 525
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
