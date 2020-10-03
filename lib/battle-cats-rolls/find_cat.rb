@@ -20,6 +20,7 @@ module BattleCatsRolls
         436, # "Li'l Valkyrie",
         442, # "D'arktanyan",
         485, # "Li'l Valkyrie Dark",
+        521, # "Good-Luck Ebisu",
         530, # "Kasli the Scourge",
         544, # "Kasli the Bane",
         560, # "Hell Warden Emma",
