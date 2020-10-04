@@ -101,9 +101,7 @@ module BattleCatsRolls
 
     get '/warmup' do
       cache
-      Route.ball_en
-      Route.ball_tw
-      Route.ball_jp
+      Route.reload_balls
       View.warmup
       'OK'
     end

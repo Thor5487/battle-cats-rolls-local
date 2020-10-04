@@ -35,6 +35,7 @@ module BattleCatsRolls
 
     @shutdown = false
 
+    auto_update_event_data
     monitor_memory if ENV['MONITOR_MEMORY']
 
     Kernel.at_exit(&Task.method(:shutdown))
@@ -64,6 +65,28 @@ module BattleCatsRolls
     def shutdown
       @thread.wakeup
       @thread.join
+    end
+  end
+
+  def self.auto_update_event_data
+    require_relative 'runner'
+
+    Task.create(__method__) do
+      sleep(11 * 60)
+
+      next if Task.shutting_down
+
+      %w[en tw jp kr].each do |lang|
+        break if Task.shutting_down
+
+        puts "Building data for #{lang}..."
+        BattleCatsRolls::Runner.build(lang)
+      end
+
+      next if Task.shutting_down
+
+      puts "Reloading balls..."
+      Route.reload_balls
     end
   end
 

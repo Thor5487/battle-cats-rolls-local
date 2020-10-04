@@ -18,21 +18,17 @@ module BattleCatsRolls
       @root ||= "#{__dir__}/../.."
     end
 
-    def self.ball_en
-      @ball_en ||= CrystalBall.load("#{root}/build", 'en')
+    def self.load_ball lang
+      CrystalBall.load("#{root}/build", lang)
     end
 
-    def self.ball_tw
-      @ball_tw ||= CrystalBall.load("#{root}/build", 'tw')
+    def self.reload_balls
+      %w[en tw jp kr].each do |lang|
+        self.public_send("ball_#{lang}=", load_ball(lang))
+      end
     end
 
-    def self.ball_jp
-      @ball_jp ||= CrystalBall.load("#{root}/build", 'jp')
-    end
-
-    def self.ball_kr
-      @ball_kr ||= CrystalBall.load("#{root}/build", 'kr')
-    end
+    singleton_class.attr_accessor :ball_en, :ball_tw, :ball_jp, :ball_kr
 
     extend Forwardable
 
