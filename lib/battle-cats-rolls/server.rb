@@ -85,8 +85,10 @@ module BattleCatsRolls
 
       next if Task.shutting_down
 
-      puts "Reloading balls..."
-      Route.reload_balls
+      unless `git status --porcelain -- build`.empty?
+        puts "Reloading balls..."
+        Route.reload_balls
+      end
     end
   end
 
