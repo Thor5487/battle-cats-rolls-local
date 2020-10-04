@@ -35,31 +35,45 @@ module BattleCatsRolls
 
     @shutdown = false
 
-    if ENV['MONITOR_MEMORY']
-      monitor_memory
-      Kernel.at_exit(&method(:shutdown))
-    end
+    monitor_memory if ENV['MONITOR_MEMORY']
 
+    Kernel.at_exit(&Task.method(:shutdown))
     Kernel.at_exit(&SeekSeed::Pool.method(:shutdown))
   end
 
-  def self.shutdown
-    @shutdown = true
-    monitor_memory.wakeup
-    monitor_memory.join
+  class Task
+    singleton_class.attr_accessor :shutting_down
+
+    def self.create name, &block
+      (@tasks ||= []) << new(name, &block)
+    end
+
+    def self.shutdown
+      self.shutting_down = true
+      @tasks.each(&:shutdown)
+    end
+
+    def initialize name
+      @thread = Thread.new do
+        yield until self.class.shutting_down
+
+        puts "Shutting down #{name}"
+      end
+    end
+
+    def shutdown
+      @thread.wakeup
+      @thread.join
+    end
   end
 
   def self.monitor_memory
-    @monitor_memory ||= Thread.new do
+    Task.create(__method__) do
+      printf \
+        "Memory total: %.2fM, current: %.2fM, CPU: %.2f%%,%s\n",
+        *ps, `uptime`[/(?<=users,).+/]
 
-      until @shutdown do
-        printf \
-          "Memory total: %.2fM, current: %.2fM, CPU: %.2f%%,%s\n",
-          *ps, `uptime`[/(?<=users,).+/]
-        sleep(10)
-      end
-
-      puts "Shutting down"
+      sleep(10)
     end
   end
 
