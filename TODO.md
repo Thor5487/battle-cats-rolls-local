@@ -10,7 +10,6 @@
   at the same time! Each can take different seeds.
 * Tracking history (by recording rolls we click)
 * Use browser timezone offset to calculate local time
-* Update event data for each 11 hours automatically
 * Find a better event when switching languages with an invalid event
 
 ## Architecture
