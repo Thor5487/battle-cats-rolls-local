@@ -15,7 +15,8 @@
 ## Architecture
 
 * Queue in memcached rather than in-process! Otherwise can't do great
-  zero down time restarting.
+  zero down time restarting. But we might want to find a way to clear
+  the queue without clearing the whole memcached.
 
 ## Build script, language and APK
 
