@@ -1,6 +1,7 @@
 #!/bin/sh
 
-chown -R bcat:bcat data build
+root=$(realpath $(dirname $0)/..)
+chown -R bcat:bcat $root/data $root/build
 
 systemctl start battlecatsrolls@2
 sleep 2
