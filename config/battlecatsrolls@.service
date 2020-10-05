@@ -41,8 +41,8 @@ Environment = WEB_HOST=bc.godfat.org
 Environment = SEEK_YAHNS=127.0.0.1:13600
 Environment = SEEK_HOST=bc-seek.godfat.org
 KillSignal = SIGQUIT
-User = nobody
-Group = nobody
+User = bcat
+Group = bcat
 ExecReload = /bin/kill -HUP $MAINPID
 
 # this should match the shutdown_timeout value in yahns_config(5)

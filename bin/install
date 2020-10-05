@@ -1,5 +1,6 @@
 #!/bin/sh
 
+useradd -r bcat -s /bin/false
 cp config/battlecatsrolls@.service /etc/systemd/system/
 cp config/battlecatsrolls.socket /etc/systemd/system/
 systemctl enable battlecatsrolls@1

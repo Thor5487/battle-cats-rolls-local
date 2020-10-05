@@ -1,5 +1,7 @@
 #!/bin/sh
 
+chown -R bcat:bcat data build
+
 systemctl start battlecatsrolls@2
 sleep 2
 systemctl restart battlecatsrolls@1
