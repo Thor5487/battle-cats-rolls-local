@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module BattleCatsRolls
-  Root = "#{__dir__}/../.."
+  Root = File.expand_path("#{__dir__}/../..")
 end
