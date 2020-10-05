@@ -80,7 +80,7 @@ module BattleCatsRolls
         break if Task.shutting_down
 
         puts "Building data for #{lang}..."
-        BattleCatsRolls::Runner.build(lang)
+        Runner.build(lang)
       end
 
       next if Task.shutting_down
