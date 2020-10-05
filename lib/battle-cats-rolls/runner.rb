@@ -176,7 +176,7 @@ module BattleCatsRolls
 
         puts "Writing data..."
 
-        ball.dump('build', lang)
+        ball.dump("#{Root}/build", lang)
       end
     end
 
