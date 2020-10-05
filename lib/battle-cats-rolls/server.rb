@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'root'
 require_relative 'web'
 
 require 'jellyfish'
@@ -85,7 +86,7 @@ module BattleCatsRolls
 
       next if Task.shutting_down
 
-      unless `git status --porcelain -- build`.empty?
+      unless `git -C #{Root} status --porcelain -- build`.empty?
         puts "Reloading balls..."
         Route.reload_balls
       end
