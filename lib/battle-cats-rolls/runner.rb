@@ -52,6 +52,8 @@ module BattleCatsRolls
 
       runner.write_events
       runner.write_data
+    rescue Errno::EACCES => e
+      puts "! Ignore: #{e}"
     end
 
     def self.extract lang=nil, dir=nil
