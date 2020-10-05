@@ -35,7 +35,7 @@ module BattleCatsRolls
 
     @shutdown = false
 
-    auto_update_event_data
+    auto_update_event_data if ENV['AUTO_UPDATE_EVENT_DATA']
     monitor_memory if ENV['MONITOR_MEMORY']
 
     Kernel.at_exit(&Task.method(:shutdown))
