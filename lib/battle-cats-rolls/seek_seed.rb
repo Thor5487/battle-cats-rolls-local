@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'root'
 require_relative 'route'
 
 require 'promise_pool'
@@ -76,7 +77,7 @@ module BattleCatsRolls
     def seek
       if source.start_with?('8.6 ')
         IO.popen([
-          "#{Route.root}/Seeker/Seeker-8.6",
+          "#{Root}/Seeker/Seeker-8.6",
           *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' '),
           err: %i[child out]], 'r+') do |io|
           logger.info("Seeking seed with #{source}")
@@ -85,7 +86,7 @@ module BattleCatsRolls
         end
       else
         IO.popen([
-          "#{Route.root}/Seeker/Seeker",
+          "#{Root}/Seeker/Seeker",
           *ENV['SEEKER_OPT'].to_s.split(' '),
           err: %i[child out]], 'r+') do |io|
           logger.info("Seeking seed with #{source}")

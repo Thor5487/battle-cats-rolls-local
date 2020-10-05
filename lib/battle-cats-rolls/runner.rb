@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'root'
 require_relative 'aws_auth'
 
 module BattleCatsRolls
@@ -346,19 +347,19 @@ module BattleCatsRolls
     end
 
     def event_path
-      @event_path ||= "data/#{lang}/events"
+      @event_path ||= "#{Root}/data/#{lang}/events"
     end
 
     def extract_path
-      @extract_path ||= "extract/#{lang}/#{version}"
+      @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
     end
 
     def app_data_path
-      @data_path ||= "data/#{lang}/#{version}/app"
+      @data_path ||= "#{Root}/data/#{lang}/#{version}/app"
     end
 
     def apk_path
-      @apk_path ||= "data/#{lang}/#{version}/bc-#{lang}.apk"
+      @apk_path ||= "#{Root}/data/#{lang}/#{version}/bc-#{lang}.apk"
     end
   end
 end

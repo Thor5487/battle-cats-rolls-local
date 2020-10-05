@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'root'
 require_relative 'crystal_ball'
 require_relative 'gacha_pool'
 require_relative 'gacha'
@@ -14,12 +15,8 @@ require 'forwardable'
 
 module BattleCatsRolls
   class Route < Struct.new(:request)
-    def self.root
-      @root ||= "#{__dir__}/../.."
-    end
-
     def self.load_ball lang
-      CrystalBall.load("#{root}/build", lang)
+      CrystalBall.load("#{Root}/build", lang)
     end
 
     def self.reload_balls
