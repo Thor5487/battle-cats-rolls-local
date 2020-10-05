@@ -51,7 +51,7 @@ module BattleCatsRolls
 
     def self.shutdown
       self.shutting_down = true
-      @tasks.each(&:shutdown)
+      @tasks&.each(&:shutdown)
     end
 
     def initialize name
