@@ -19,7 +19,6 @@
 
 ## Build script, language and APK
 
-* Verify APK checksum
 * Only show the languages which are built, no need to force all of them
 
 ## Tests
