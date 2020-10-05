@@ -19,7 +19,6 @@
 
 ## Build script, language and APK
 
-* Make fetching APK optional as long as the YAML is built already
 * Verify APK checksum
 * Only show the languages which are built, no need to force all of them
 
