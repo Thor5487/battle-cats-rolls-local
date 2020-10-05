@@ -1,0 +1,16 @@
+#!/bin/sh
+
+root=$(realpath $(dirname $0)/..)
+chown -R godfat:godfat $root/data $root/build
+
+user_git(){
+  sudo -u godfat git -C $root $*
+}
+
+user_git add .
+user_git stash
+user_git pull
+user_git stash pop
+user_git reset
+
+$root/bin/restart-zero-down
