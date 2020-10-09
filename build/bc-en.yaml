@@ -6157,3 +6157,95 @@ events:
     supa: 0
     uber: 10000
     platinum: true
+  2020-10-12_519:
+    start_on: 2020-10-12
+    end_on: 2020-10-14
+    version: '90900'
+    name: Papaluga joins the uncanny Nekolugas! ★ Tap banner for info!
+    id: 519
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-12_537:
+    start_on: 2020-10-12
+    end_on: 2020-10-26
+    version: '90900'
+    name: Devils vs Angels! Bikkuriman capsules are here! ★ Tap banner for info!
+    id: 537
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-14_435:
+    start_on: 2020-10-14
+    end_on: 2020-10-16
+    version: '90900'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 435
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-16_521:
+    start_on: 2020-10-16
+    end_on: 2020-10-19
+    version: '90900'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 521
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-10-16_537:
+    start_on: 2020-10-16
+    end_on: 2020-10-26
+    version: '90900'
+    name: Devils vs Angels! Bikkuriman capsules are here! ★ Tap banner for info!
+    id: 537
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-19_507:
+    start_on: 2020-10-19
+    end_on: 2020-10-21
+    version: '90900'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 507
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-19_537:
+    start_on: 2020-10-19
+    end_on: 2020-10-26
+    version: '90900'
+    name: Devils vs Angels! Bikkuriman capsules are here! ★ Tap banner for info!
+    id: 537
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-21_446:
+    start_on: 2020-10-21
+    end_on: 2020-10-23
+    version: '90900'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 446
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-23_488:
+    start_on: 2020-10-23
+    end_on: 2020-10-26
+    version: '90900'
+    name: For Justice and Cats! The Dark Heroes, with 11-draw guaranteed Uber!
+    id: 488
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-23_537:
+    start_on: 2020-10-23
+    end_on: 2020-10-26
+    version: '90900'
+    name: Last chance for Devils vs Angels! Bikkuriman! ★ 11-Draw Guarantee!
+    id: 537
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
