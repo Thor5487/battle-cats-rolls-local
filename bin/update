@@ -12,5 +12,3 @@ user_git stash
 user_git pull
 user_git stash pop
 user_git reset
-
-$root/bin/restart-zero-down
