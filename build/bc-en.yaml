@@ -637,8 +637,8 @@ cats:
       name: [Cossack Cat, Vodka Cat]
       desc: ["A Cat of the steppes, master of the dance.\nYears of practice developed powerful thighs\nto deliver massive damage to Relics.", "On fearsome winter nights, enjoys a powerful\nliquor to warm himself and enhance his\nleg power. Massive damage to Relics!"]
     532:
-      name: [Teacher BearCat, Assassin BearCat]
-      desc: ["Lead in the hit drama \"Trial of Teacher Bear\".\nSmashes anyone who steals his spotlight.\nDelivers insane area damage to Traitless.", "Production assistant on the set of \"Teacher Bear\".\nObliterates anyone who stands in front of him.\nDelivers insane area damage to Black."]
+      name: [Teacher BearCat, Assassin BearCat, Cadaver BearCat]
+      desc: ["Lead in the hit drama \"Trial of Teacher Bear\".\nSmashes anyone who steals his spotlight.\nDelivers insane area damage to Traitless.", "Production assistant on the set of \"Teacher Bear\".\nObliterates anyone who stands in front of him.\nDelivers insane area damage to Black.", "B-movie actor famous for \"Bear of the Living Dead\".\nNow he's so typecast that he can't get other work.\nDelivers Insane Area damage to Zombies."]
     539:
       name: [Miku Cat, Miku Cat CC]
       desc: ["Die-hard fan of a cute & stylish pop diva.\nBroke a mirror trying to cover Miku's songs.\nMight Dodge Floating enemy attacks", "Taking first steps toward global pop stardom.\nHas front row seats for Miku's next show.\nMight Dodge Floating enemy attacks"]
@@ -1053,14 +1053,14 @@ cats:
       name: [Holy Coppermine, 'Holy Coppermine, type κ']
       desc: ["A sacred guardian, dressed up for Xmas!\nHer holy blessings obliterate evil!\nMight freeze Aliens/Angels. (Area Atk.)", "A girl who never smiles, but Xmas spirit\nalways brings a gentle smirk to her face.\nMight freeze Aliens/Angels. (Area Atk.)"]
     258:
-      name: [Thunder God Zeus, The Majestic Zeus]
-      desc: ["The highest authority among the old gods\nof Olympus. Rains down destruction with his\nHeavenly Lance. Strong vs. Angels. (Area Atk)", "Empowered by divine fury, his might grows\never more! His Heavenly Blade reduces existence\nto ashes. Strong vs. Angels. (Area Atk)"]
+      name: [Thunder God Zeus, The Majestic Zeus, Almighty Zeus]
+      desc: ["The highest authority among the old gods\nof Olympus. Rains down destruction with his\nHeavenly Lance. Strong vs. Angels. (Area Atk)", "Empowered by divine fury, his might grows\never more! His Heavenly Blade reduces existence\nto ashes. Strong vs. Angels. (Area Atk)", "Inheritor of Mana's blessing, wields the power\nof the fruit of creation to create a new paradise.\nWeak to Hera's anger, Strong vs. Angels. (Area Atk)"]
     259:
-      name: [Anubis the Protector, Anubis the Unblemished]
-      desc: ["God of Death who escorts human souls to the\nunderworld. His Nether Staff purges mortals of\nsin. Unharmed by wave attacks. (Area Attack)", "His dominance of the underworld is complete.\nA single touch from his Sacred Staff will extinguish\nany life. Unharmed by wave attacks. (Area Attack)"]
+      name: [Anubis the Protector, Anubis the Unblemished, Almighty Anubis]
+      desc: ["God of Death who escorts human souls to the\nunderworld. His Nether Staff purges mortals of\nsin. Unharmed by wave attacks. (Area Attack)", "His dominance of the underworld is complete.\nA single touch from his Sacred Staff will extinguish\nany life. Unharmed by wave attacks. (Area Attack)", "God of Death who uses the fruit of creation to sever\nthe ties that bind souls of the dead to mortal realms.\nUnharmed by wave attacks. (Area Attack)"]
     260:
-      name: [Radiant Aphrodite, Megaphrodite]
-      desc: ["Deity of beauty, pride, love and… other stuff.\nHer Golden Bow always strikes true from afar.\nDeals massive damage to Aliens. (Long Distance)", "Her Brilliant Bow can grant long life, or take it all\naway… watch your mouth around this goddess!\nDeals massive damage to Aliens. (Long Distance)"]
+      name: [Radiant Aphrodite, Megaphrodite, Almighty Aphrodite]
+      desc: ["Deity of beauty, pride, love and… other stuff.\nHer Golden Bow always strikes true from afar.\nDeals massive damage to Aliens. (Long Distance)", "Her Brilliant Bow can grant long life, or take it all\naway… watch your mouth around this goddess!\nDeals massive damage to Aliens. (Long Distance)", "Goddess of love, beauty and pride. Blessed by the\nfruit of creation, life and death serve her pleasure.\nMassive Long-Range Area damage to Aliens."]
     262:
       name: [Hayabusa, Oni Hayabusa, Akuma Hayabusa]
       desc: ["Seals away evil with his clan's mystic blade.\nThe way of the Ninja knows no mercy.\nLong Distance, Area Attacks, Critical Attacks.", "The otherworldly power in his chest now threatens\nto consume him. To destroy evil, will he lose his soul?\nLong Area Attacks, Knockback & Slow vs Aliens.", "Cybernetically enhanced his demon's power with an\nexperimental Inferno Engine replacing his heart.\nLong Area Attacks, Knockback & Slow vs Zombies."]
@@ -1071,11 +1071,11 @@ cats:
       name: [Crazed Yuki, Crazed Yuki ＆ Cat, Crazed Catgirl Yuki]
       desc: ["Possessed by a dark soul, she feverishly hunts\ndown the mystery behind the annihiliation.\nMassive Area damage against Red and Black.", "Desperate to solve the mystery, she has given\nherself totally over to darkness and Catness.\nMassive Area damage against Red and Black.", "Darkness has given Yuki cute Cat ears, a tail,\nand the power to call forth stronger corrupt souls.\nMassive Area damage against Red and Black."]
     272:
-      name: [Shining Amaterasu, Glorious Amaterasu]
-      desc: ["The might and beauty of the Sun personified.\nSubdues enemies using her sacred mirror.\nMassive area damage to any enemy with a trait.", "No one can stand against the radiance of this\ngoddess. Dark souls kneel before her holy mirror!\nMassive area damage to any enemy with a trait."]
+      name: [Shining Amaterasu, Glorious Amaterasu, Almighty Amaterasu]
+      desc: ["The might and beauty of the Sun personified.\nSubdues enemies using her sacred mirror.\nMassive area damage to any enemy with a trait.", "No one can stand against the radiance of this\ngoddess. Dark souls kneel before her holy mirror!\nMassive area damage to any enemy with a trait.", "Merciful goddess who uses the powers of the fruit\nof creation to bless the earth with the light of the Sun.\nMassive Area damage to any enemy with a trait."]
     273:
-      name: [Splendid Ganesha, Exalted Ganesha]
-      desc: ["Lord of scholarship and splendor, guardian of the\nsacred treasures that ward against misfortune.\nGains power when damaged (Long Range Area Atk)", "All who follow him will grow prosperous and wise,\nas he smites his enemies with infinite might. Gains\npower when damaged (Long Range Area Atk)"]
+      name: [Splendid Ganesha, Exalted Ganesha, Almighty Ganesha]
+      desc: ["Lord of scholarship and splendor, guardian of the\nsacred treasures that ward against misfortune.\nGains power when damaged (Long Range Area Atk)", "All who follow him will grow prosperous and wise,\nas he smites his enemies with infinite might. Gains\npower when damaged (Long Range Area Atk)", "The god of prosperity who uses the fruit of creation\nto bless mankind with wealth, wisdom and fortune.\nLong-Range Area attacks gain power when damaged."]
     275:
       name: [Tropical Kalisa, 'Tropical Kalisa, type X']
       desc: ["Spends lazy summer days cursing couples on\nthe beach from the deck of her vacation house.\nMassive area damage to Red enemies.", "Slipped into the netherworld when she was two, but\nsummer days almost make her feel human again.\nMassive area damage to Red enemies."]
@@ -1119,8 +1119,8 @@ cats:
       name: [Yuletide Nurse, Yule Knight Nurse]
       desc: ["Everyone's favorite Nurse is feeling the\nXmas spirit! Praying for health with a lucky\nholiday candle. Slow/knockback Angels/Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens."]
     317:
-      name: [Wrathful Poseidon, Valiant Poseidon]
-      desc: ["Master of storms and seas, one of the 12 \nsupreme Olympian gods. Sacred Trident's\narea attack 100% freezes Zombies/Metal foes.", "Undisputed lord of the waters. Can command\nsea serpents to obliterate those who defy him.\nArea attack 100% freezes Zombies/Metal foes.", "Undisputed lord of the waters. Can command\nsea serpents to obliterate those who defy him.\nArea attack 100% freezes Zombies/Metal foes."]
+      name: [Wrathful Poseidon, Valiant Poseidon, Almighty Poseidon]
+      desc: ["Master of storms and seas, one of the 12 \nsupreme Olympian gods. Sacred Trident's\narea attack 100% freezes Zombies/Metal foes.", "Undisputed lord of the waters. Can command\nsea serpents to obliterate those who defy him.\nArea attack 100% freezes Zombies/Metal foes.", "Lord of the seas, who wields the powers of the\nfruit of creation to bring order to the wind and waves.\nArea attack 100% freezes Zombies/Metal foes."]
     319:
       name: [Miko Mitama, Mitama the Oracle]
       desc: ["Chosen as a holy servant by the God of Cats,\ninfinite power lies hidden within her. Strong defense \nvs. all enemies with traits. (Long Range/Area Atk)", "Dressed in bridal gowns, she appears to the blessed\nas a sign of Cat God's favor. Her groom's identity is\nunknown... Strong vs all traits, 100% chance to Slow.", "Dressed in bridal gowns, she appears to the blessed\nas a sign of Cat God's favor. Her groom's identity is\nunknown... Strong vs all traits, 100% chance to Slow."]
@@ -1263,8 +1263,8 @@ cats:
       name: [Waverider Kuu, 'Waverider Kuu, type γ']
       desc: ["A fiery lass who runs a tiki bar by the sea.\nBoys at the beach don't seem to mind her abuse\ntoo much? Strong vs. Zombies/Floating (Area Atk)", "A rowdy beach babe who keeps the seaside bullies\nin check by patrolling on her custom speedboard.\nStrong vs. Zombies/Floating (Area Atk)"]
     440:
-      name: [Empress Chronos, Chronos the Infinite]
-      desc: ["An almighty titaness who rescued the universe from\nchaos, keeping order with her Timepiece of Destiny.\nFreezes any traited enemy with long-range area atks.", "Molded our reality from primordial matter using her\nmastery of the Divine Timepiece. Don't mess with her.\nFreezes any traited enemy with long-range area atks."]
+      name: [Empress Chronos, Chronos the Infinite, Almighty Chronos]
+      desc: ["An almighty titaness who rescued the universe from\nchaos, keeping order with her Timepiece of Destiny.\nFreezes any traited enemy with long-range area atks.", "Molded our reality from primordial matter using her\nmastery of the Divine Timepiece. Don't mess with her.\nFreezes any traited enemy with long-range area atks.", "With the power of the fruit of creation, holds back\nthe chaos that threatens to consume the universe.\nLong-Range Area attacks Freeze Traited enemies."]
     441:
       name: [Bebe, Nagisa & Cat]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nMami's adorable, cheese-loving partner.\nArea attacks Weaken Aliens and Zombies.", "From Madoka Magica The Movie -Rebellion-!\nNew Magical Girl who appears before Madoka.\nArea attacks Weaken Aliens and Zombies."]
@@ -1353,8 +1353,8 @@ cats:
       name: [Sharpshooter Saki, Nighthunter Saki]
       desc: ["A sniper prodigy, small but effective. Can change\nthe entire course of battle with a single bullet.\nLong-range attacks only hit Aliens & Red.", "The watchful guardian over the night city. Genius\nwith a rifle, who still has to help Mom with the dishes.\nLong-range attacks only hit Aliens & Zombies."]
     535:
-      name: [Hades the Punisher, Hades the Deathdealer]
-      desc: ["Supreme overlord and judge of the dead.\nCondemns evil souls with his infernal scythe.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the underworld who reaps the spirits\nof sinners, bringing them to their ultimate fate.\nImmune to Toxic & Warp (Area Attack)"]
+      name: [Hades the Punisher, Hades the Deathdealer, Almighty Hades]
+      desc: ["Supreme overlord and judge of the dead.\nCondemns evil souls with his infernal scythe.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the underworld who reaps the spirits\nof sinners, bringing them to their ultimate fate.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the nether realms, who uses the fruit of\ncreation to draw the sinful dead to his kingdom.\nImmune to Toxic & Warp (Area Attack)"]
     536:
       name: [Hatsune Miku, Hatsune Miku CC]
       desc: ["Virtual singer loved by the entire Cat Empire!\nCute & stylish electric pop diva. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels.", "Virtual singer loved by the entire Cat Empire!\nHer voice is famous around the globe. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels.", "Virtual singer loved by the entire Cat Empire!\nHer voice is famous around the globe. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels."]
@@ -1385,6 +1385,12 @@ cats:
     565:
       name: [Summerluga , Bikinilan Pasalan]
       desc: ["Not sure if this is a Cat... or a Gal?\nThere's just something about\nthat taste in swimwear...", "Blistering barnacles! Seems like\nthis bodacious beach babe has\n100% chance of Area Surge attacks"]
+    570:
+      name: [Gravi, Gravolo]
+      desc: ["A stone spirit who traversed the universe,\ngathering cosmic power as it soared through space.\n100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack."]
+    571:
+      name: [Skull Rider Vars, Nightmare King Vars]
+      desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1964,6 +1970,15 @@ gacha:
   535: [563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   536: [547, 544, 535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   537: [557, 556, 473, 472, 471, 470, 469, 468, 467, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  538: [570, 524, 523, 496, 479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  539: [570, 524, 523, 496, 479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  540: [570, 524, 523, 496, 479, 448, 447, 446, 445, 444, 402, 378, 377, 362, 361, 360, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  541: [570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  542: [570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  543: [570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  544: [571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 229, 229, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  545: [571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  546: [328, 524, 523, 496, 327, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
