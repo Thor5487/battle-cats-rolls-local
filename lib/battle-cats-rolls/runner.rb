@@ -73,7 +73,7 @@ module BattleCatsRolls
       require 'fileutils'
 
       each_list(dir) do |file|
-        reader = PackReader.new(file)
+        reader = PackReader.new(lang, file)
 
         dir = "#{extract_path}/#{reader.name}.pack"
         FileUtils.mkdir_p(dir)
