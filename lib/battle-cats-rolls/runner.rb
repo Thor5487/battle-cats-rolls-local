@@ -102,7 +102,7 @@ module BattleCatsRolls
       require_relative 'pack_reader'
       require 'fileutils'
 
-      reader = PackReader.new("#{app_data_path}/ImageLocal.list")
+      reader = PackReader.new(lang, "#{app_data_path}/ImageLocal.list")
 
       dir = "#{extract_path}/#{reader.name}.pack"
       asset = "lib/battle-cats-rolls/asset/image"

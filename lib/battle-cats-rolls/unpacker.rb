@@ -19,13 +19,13 @@ module BattleCatsRolls
         cbc_iv: [ENV["#{lang.upcase}_IV"]].pack('H*'))
     end
 
-    def decrypt data
+    def decrypt data, binary: false
       if bad_data
         data
       else
-        safe_decrypt do
+        safe_decrypt(binary) do
           decrypt_aes_128_ecb(data)
-        end || safe_decrypt do
+        end || safe_decrypt(binary) do
           decrypt_aes_128_cbc(data)
         end
       end
@@ -33,10 +33,14 @@ module BattleCatsRolls
 
     private
 
-    def safe_decrypt
+    def safe_decrypt binary
       self.bad_data = nil
-      result = yield.force_encoding('UTF-8')
-      result if result.valid_encoding?
+      if binary
+        yield
+      else
+        result = yield.force_encoding('UTF-8')
+        result if result.valid_encoding?
+      end
     rescue OpenSSL::Cipher::CipherError => e
       self.bad_data = e
       nil

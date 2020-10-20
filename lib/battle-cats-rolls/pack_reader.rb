@@ -36,8 +36,10 @@ module BattleCatsRolls
 
     def read line
       filename, offset, size = line.split(',')
+      binary = filename.end_with?('.png')
       data = lambda do
-        result = pack_unpacker.decrypt(pack_data[offset.to_i, size.to_i])
+        result = pack_unpacker.decrypt(
+          pack_data[offset.to_i, size.to_i], binary: binary)
 
         if error = pack_unpacker.bad_data
           warn "! [#{error.class}:#{error.message}]" \
