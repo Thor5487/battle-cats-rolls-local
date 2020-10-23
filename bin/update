@@ -12,3 +12,5 @@ user_git stash
 user_git pull
 user_git stash pop
 user_git reset
+
+chown -R bcat:bcat $root/data $root/build
