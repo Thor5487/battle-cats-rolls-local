@@ -5227,3 +5227,60 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-10-26_430:
+    start_on: 2020-10-26
+    end_on: 2020-10-28
+    version: '91000'
+    name: "♡파워풀&큐트한 소녀들♡자세한 내용은 배너를 클릭♡"
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-26_545:
+    start_on: 2020-10-26
+    end_on: 2020-11-04
+    version: '91000'
+    name: 신 캐릭터 등장! 할로윈 한정 캐릭터 GET!!★자세한 내용은 배너를 클릭!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-10-28_424:
+    start_on: 2020-10-28
+    end_on: 2020-10-30
+    version: '91000'
+    name: 세계 최강 전력의 냥코 군단!★자세한 내용은 배너를 클릭!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-30_427:
+    start_on: 2020-10-30
+    end_on: 2020-11-01
+    version: '91000'
+    name: "★검은 적에 강한 멋진 환수들! 자세한 내용은 배너를 클릭!★"
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-30_545:
+    start_on: 2020-10-30
+    end_on: 2020-11-04
+    version: '91000'
+    name: 신 캐릭터 등장! 할로윈 한정 캐릭터 GET!!★자세한 내용은 배너를 클릭!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-01_497:
+    start_on: 2020-11-01
+    end_on: 2020-11-04
+    version: '91000'
+    name: 냥코 월드의 위대한 신들이 이곳에 집결!★자세한 내용은 배너를 클릭!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

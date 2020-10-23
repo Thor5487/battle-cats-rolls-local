@@ -6264,3 +6264,60 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-10-26_430:
+    start_on: 2020-10-26
+    end_on: 2020-10-28
+    version: '91000'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-26_545:
+    start_on: 2020-10-26
+    end_on: 2020-11-04
+    version: '91000'
+    name: New spooky limited Halloween heroes! ★ Tap banner for more info!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-10-28_424:
+    start_on: 2020-10-28
+    end_on: 2020-10-30
+    version: '91000'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-30_427:
+    start_on: 2020-10-30
+    end_on: 2020-11-01
+    version: '91000'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-30_545:
+    start_on: 2020-10-30
+    end_on: 2020-11-04
+    version: '91000'
+    name: New spooky limited Halloween heroes! ★ Tap banner for more info!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-01_497:
+    start_on: 2020-11-01
+    end_on: 2020-11-04
+    version: '91000'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

@@ -5878,3 +5878,60 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-10-26_430:
+    start_on: 2020-10-26
+    end_on: 2020-10-28
+    version: '91000'
+    name: 打倒阻礙的敵人！戰鬥力十足又可愛的電腦少女們！★點圖可看詳細內容！
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-26_545:
+    start_on: 2020-10-26
+    end_on: 2020-11-04
+    version: '91000'
+    name: 追加新角色！使用轉蛋蒐集所有萬聖節限定角色吧！★點圖可確認詳細!!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-10-28_424:
+    start_on: 2020-10-28
+    end_on: 2020-10-30
+    version: '91000'
+    name: 豐富多樣性的世界第一即戰力貓咪們！★點圖確認詳細吧!!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-10-30_427:
+    start_on: 2020-10-30
+    end_on: 2020-11-01
+    version: '91000'
+    name: 對上黑敵能力大爆發！有強大效果的戰國武將們！★點圖確認詳細吧！！
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-30_545:
+    start_on: 2020-10-30
+    end_on: 2020-11-04
+    version: '91000'
+    name: 追加新角色！使用轉蛋蒐集所有萬聖節限定角色吧！★點圖可確認詳細!!
+    id: 545
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-01_497:
+    start_on: 2020-11-01
+    end_on: 2020-11-04
+    version: '91000'
+    name: 貓咪世界的偉大神們，都齊聚在此啦！★點圖確認詳細吧!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true

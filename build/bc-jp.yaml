@@ -6308,3 +6308,72 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-10-26_414:
+    start_on: 2020-10-26
+    end_on: 2020-10-30
+    version: '81000'
+    name: "【終了間近】『メルクストーリア』キャラ限定コラボガチャ！★11連で超激レア確定!!"
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-26_430:
+    start_on: 2020-10-26
+    end_on: 2020-10-28
+    version: '91000'
+    name: 邪魔する敵をやっつける！パワフルでキュートな電脳少女達！★詳細はバナーをタップ!!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-26_544:
+    start_on: 2020-10-26
+    end_on: 2020-11-01
+    version: '91000'
+    name: 新キャラ追加！ハロウィン限定のキャラクターをGET！★詳細はバナーをタップ!!
+    id: 544
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-28_445:
+    start_on: 2020-10-28
+    end_on: 2020-10-30
+    version: '91000'
+    name: にゃんこ軍団秘蔵の超兵器達！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-30_497:
+    start_on: 2020-10-30
+    end_on: 2020-11-01
+    version: '91000'
+    name: にゃんこワールドの偉大なる神々、ここに集結！★詳細はバナーをタップ!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-10-30_544:
+    start_on: 2020-10-30
+    end_on: 2020-11-01
+    version: '91000'
+    name: 新キャラ追加！ハロウィン限定のキャラクターをGET！★詳細はバナーをタップ!!
+    id: 544
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-01_541:
+    start_on: 2020-11-01
+    end_on: 2020-11-04
+    version: '91000'
+    name: 超激レアキャラが一堂に集結!!★超激レア出現率超アップの「超ネコ祭」開催中!!
+    id: 541
+    rare: 6500
+    supa: 2600
+    uber: 900
