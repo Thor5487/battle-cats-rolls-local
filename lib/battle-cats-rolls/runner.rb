@@ -326,9 +326,14 @@ module BattleCatsRolls
 
     def each_list dir=nil
       root = dir || app_data_path
+      ext = File.extname(root)
 
-      Dir["#{root}/**/*.list"].each do |file|
-        yield(file)
+      if ext.empty?
+        Dir["#{root}/**/*.list"].each do |file|
+          yield(file)
+        end
+      else
+        yield("#{root.delete_suffix(ext)}.list")
       end
     end
 
