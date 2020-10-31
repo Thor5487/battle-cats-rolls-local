@@ -311,7 +311,7 @@ module BattleCatsRolls
 
     def write_pack
       paths =
-        %w[DataLocal resLocal ImageLocal].product(
+        %w[DataLocal resLocal ImageLocal UnitLocal].product(
           ['.list', '.pack']).map(&:join).map do |name|
           "assets/#{name}"
         end
