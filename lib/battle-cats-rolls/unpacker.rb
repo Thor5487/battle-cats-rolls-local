@@ -22,6 +22,10 @@ module BattleCatsRolls
         ecb_key: Digest::MD5.hexdigest('battlecats')[0, 16])
     end
 
+    def self.for_text
+      TextUnpacker.new
+    end
+
     def decrypt data, binary: false
       if cipher_mode
         safe_decrypt(data, binary: binary)
@@ -65,6 +69,15 @@ module BattleCatsRolls
       cipher.key = cbc_key
       cipher.iv = cbc_iv
       cipher.update(data) + cipher.final
+    end
+  end
+
+  class TextUnpacker
+    def decrypt data, binary: false
+      data.force_encoding('UTF-8')
+    end
+
+    def bad_data
     end
   end
 end

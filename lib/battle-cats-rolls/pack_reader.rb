@@ -3,9 +3,7 @@
 require_relative 'unpacker'
 
 module BattleCatsRolls
-  class PackReader < Struct.new(
-    :list_path, :pack_path, :list_unpacker, :pack_unpacker, :name)
-
+  class PackReader < Struct.new(:list_path, :pack_path, :name)
     include Enumerable
 
     def initialize lang, new_list_path
@@ -14,9 +12,15 @@ module BattleCatsRolls
       super(
         new_list_path,
         "#{pathname}.pack",
-        Unpacker.for_list,
-        Unpacker.for_pack(lang),
         File.basename(pathname))
+
+      @list_unpacker = Unpacker.for_list
+      @pack_unpacker =
+        if `file #{pack_path}`.include?('UTF-8')
+          Unpacker.for_text
+        else
+          Unpacker.for_pack(lang)
+        end
     end
 
     def each
@@ -60,6 +64,8 @@ module BattleCatsRolls
     end
 
     private
+
+    attr_reader :list_unpacker, :pack_unpacker
 
     def list_data
       @list_data ||= File.binread(list_path)
