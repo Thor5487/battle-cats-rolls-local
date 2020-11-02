@@ -5935,3 +5935,88 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-11-04_475:
+    start_on: 2020-11-04
+    end_on: 2020-11-06
+    version: '91000'
+    name: 貓咪世界最大級的驚人進化樣貌之古代勇者們！★點圖確認詳細吧!!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-11-04_546:
+    start_on: 2020-11-04
+    end_on: 2020-11-18
+    version: '91000'
+    name: "【限時開放】『Crash Fever』合作轉蛋登場！★點圖可以看詳細內容喔！"
+    id: 546
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-11-06_520:
+    start_on: 2020-11-06
+    end_on: 2020-11-09
+    version: '91000'
+    name: 超激稀有角色齊聚一堂!!超激角色出現率大增的「超級貓咪祭」進行中!!
+    id: 520
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-11-09_517:
+    start_on: 2020-11-09
+    end_on: 2020-11-11
+    version: '91000'
+    name: 新角色「角擊貓」參戰！充滿謎的噁心可愛生命體來啦！★點圖確認詳細吧!!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-11-11_433:
+    start_on: 2020-11-11
+    end_on: 2020-11-13
+    version: '91000'
+    name: 展現壓倒性的存在感，快點入手強力的龍皇吧!★點圖確認詳細吧!!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-11-13_538:
+    start_on: 2020-11-13
+    end_on: 2020-11-16
+    version: '91000'
+    name: 新角色「石精靈滾瓦」參戰！有個性又快樂的精靈！★點圖確認詳細吧!!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-13_543:
+    start_on: 2020-11-13
+    end_on: 2030-01-01
+    version: '91000'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 543
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: true
+  2020-11-13_546:
+    start_on: 2020-11-13
+    end_on: 2020-11-18
+    version: '91000'
+    name: "【限時開放】『Crash Fever』合作轉蛋登場！★11連轉超激確定活動中！"
+    id: 546
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-11-16_506:
+    start_on: 2020-11-16
+    end_on: 2020-11-18
+    version: '91000'
+    name: 異世界召喚來的快樂美少女們！隱藏版美少女也參戰！★點圖確認詳細吧！！
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
