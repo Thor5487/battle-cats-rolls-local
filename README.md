@@ -5,6 +5,11 @@
     gem install bundler
     bundle install
 
+And pick one:
+
+* Set up memcached and run `gem install dalli`
+* Use LRU cache so run `gem install lru_redux`
+
 ## How to build the Haskell seed seeker:
 
 First install [GHC](https://www.haskell.org/ghc/), then:
