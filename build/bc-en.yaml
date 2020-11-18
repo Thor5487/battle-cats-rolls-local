@@ -6406,3 +6406,40 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2020-11-18_523:
+    start_on: 2020-11-18
+    end_on: 2020-11-20
+    version: '91000'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-11-20_542:
+    start_on: 2020-11-20
+    end_on: 2020-11-23
+    version: '91000'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 542
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-11-23_445:
+    start_on: 2020-11-23
+    end_on: 2020-11-25
+    version: '91000'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-11-25_487:
+    start_on: 2020-11-25
+    end_on: 2020-11-27
+    version: '91000'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
