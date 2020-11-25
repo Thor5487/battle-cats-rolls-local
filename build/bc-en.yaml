@@ -6443,3 +6443,51 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-11-27_541:
+    start_on: 2020-11-27
+    end_on: 2020-11-30
+    version: '100000'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 541
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2020-11-30_451:
+    start_on: 2020-11-30
+    end_on: 2020-12-02
+    version: '100000'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-11-30_452:
+    start_on: 2020-11-30
+    end_on: 2020-12-02
+    version: '100000'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-11-30_453:
+    start_on: 2020-11-30
+    end_on: 2020-12-02
+    version: '100000'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2020-12-02_430:
+    start_on: 2020-12-02
+    end_on: 2020-12-04
+    version: '100000'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
