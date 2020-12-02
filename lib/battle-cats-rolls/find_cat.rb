@@ -24,6 +24,7 @@ module BattleCatsRolls
         530, # "Kasli the Scourge",
         544, # "Kasli the Bane",
         560, # "Hell Warden Emma",
+        586, # "幼獣ガル",
       ].freeze
     end
 
