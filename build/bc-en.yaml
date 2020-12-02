@@ -6491,3 +6491,40 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-12-04_517:
+    start_on: 2020-12-04
+    end_on: 2020-12-07
+    version: '100000'
+    name: Papaluga joins the uncanny Nekolugas! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-12-07_424:
+    start_on: 2020-12-07
+    end_on: 2020-12-09
+    version: '100000'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-12-09_427:
+    start_on: 2020-12-09
+    end_on: 2020-12-11
+    version: '100000'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-12-11_497:
+    start_on: 2020-12-11
+    end_on: 2020-12-14
+    version: '100000'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
