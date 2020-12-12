@@ -192,6 +192,11 @@ module BattleCatsRolls
       # 2: https://bc.godfat.org/?seed=2116007321&event=2019-07-21_391&pick=1AG
       # 3: https://bc.godfat.org/?seed=1773704064&event=2020-12-11_563&lang=jp&pick=3AR
       # 3: https://bc.godfat.org/?seed=1773704064&event=2020-12-11_563&lang=jp&pick=6BR
+      # 4: https://bc.godfat.org/?seed=4229260466&last=496&event=2020-12-11_563&lang=jp&pick=5BR
+      # 4: https://bc.godfat.org/?seed=1204266455&last=562&event=2020-12-11_563&lang=jp&pick=4AR
+      # 5: https://bc.godfat.org/?seed=4275004160&event=2020-12-11_563&lang=jp&pick=5AR
+      # 5: https://bc.godfat.org/?seed=2810505815&event=2020-12-11_563&lang=jp&pick=4BR
+      # 2 into R: https://bc.godfat.org/?seed=3322538705&event=2020-12-11_563&lang=jp&pick=8AR
       steps = (1..rerolling_slots.count(cat.id)).find do
         next_seed = advance_seed(next_seed)
         rerolling_slots.delete_at(slot)
