@@ -52,12 +52,20 @@ module BattleCatsRolls
       each_cat(cats) do |rolled_cat, index, track|
         next unless rerolled = rolled_cat.rerolled
 
-        next_index = index + rerolled.steps + track
-        next_track = ((track + rerolled.steps - 1) ^ 1) & 1
+        next_index = index + self.class.next_index(track, rerolled.steps)
+        next_track = self.class.next_track(track, rerolled.steps)
         next_cat = cats.dig(next_index, next_track)
 
         fill_cat_links(next_cat, rerolled) if next_cat
       end
+    end
+
+    def self.next_index track, steps
+      steps + track
+    end
+
+    def self.next_track track, steps
+      ((track + steps - 1) ^ 1) & 1
     end
 
     def finish_last_roll first_cat

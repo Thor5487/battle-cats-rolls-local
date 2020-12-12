@@ -27,6 +27,8 @@ module BattleCatsRolls
       %Q{#<BattleCatsRolls::Cat number="#{number}" name="#{name}">}
     end
 
+    alias_method :to_s, :inspect
+
     def name
       info&.dig('name', 0) || id
     end
