@@ -2730,6 +2730,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2018-12-04_358:
     start_on: 2018-12-04
     end_on: 2018-12-07
@@ -2760,6 +2761,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2018-12-09_359:
     start_on: 2018-12-09
     end_on: 2018-12-13
@@ -2780,6 +2782,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2018-12-13_361:
     start_on: 2018-12-13
     end_on: 2018-12-16
@@ -2885,6 +2888,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2018-12-30_354:
     start_on: 2018-12-30
     end_on: 2019-01-01
@@ -2914,6 +2918,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-01-04_366:
     start_on: 2019-01-04
     end_on: 2019-01-09
@@ -2934,6 +2939,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-01-09_336:
     start_on: 2019-01-09
     end_on: 2019-01-11
@@ -2943,6 +2949,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-01-11_361:
     start_on: 2019-01-11
     end_on: 2019-01-14
@@ -2980,6 +2987,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-01-21_245:
     start_on: 2019-01-21
     end_on: 2019-01-23
@@ -3055,6 +3063,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-02-09_330:
     start_on: 2019-02-09
     end_on: 2019-02-11
@@ -3065,6 +3074,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-02-11_333:
     start_on: 2019-02-11
     end_on: 2019-02-13
@@ -3074,6 +3084,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-02-13_336:
     start_on: 2019-02-13
     end_on: 2019-02-15
@@ -3083,6 +3094,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-02-15_361:
     start_on: 2019-02-15
     end_on: 2019-02-18
@@ -3128,6 +3140,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-02-24_360:
     start_on: 2019-02-24
     end_on: 2019-02-27
@@ -3185,6 +3198,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-03-08_373:
     start_on: 2019-03-08
     end_on: 2019-03-11
@@ -3195,6 +3209,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-03-11_332:
     start_on: 2019-03-11
     end_on: 2019-03-13
@@ -3204,6 +3219,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-03-13_335:
     start_on: 2019-03-13
     end_on: 2019-03-15
@@ -3213,6 +3229,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-03-15_361:
     start_on: 2019-03-15
     end_on: 2019-03-18
@@ -3231,6 +3248,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-03-18_375:
     start_on: 2019-03-18
     end_on: 2019-04-01
@@ -3258,6 +3276,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-03-25_345:
     start_on: 2019-03-25
     end_on: 2019-03-27
@@ -3306,6 +3325,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-04-01_360:
     start_on: 2019-04-01
     end_on: 2019-04-04
@@ -3324,6 +3344,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-05_377:
     start_on: 2019-04-05
     end_on: 2019-04-08
@@ -3334,6 +3355,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-04-08_259:
     start_on: 2019-04-08
     end_on: 2019-04-22
@@ -3352,6 +3374,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-10_333:
     start_on: 2019-04-10
     end_on: 2019-04-12
@@ -3361,6 +3384,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-12_361:
     start_on: 2019-04-12
     end_on: 2019-04-15
@@ -3379,6 +3403,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-17_351:
     start_on: 2019-04-17
     end_on: 2019-04-18
@@ -3408,6 +3433,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-04-20_345:
     start_on: 2019-04-20
     end_on: 2019-04-22
@@ -3436,6 +3462,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-25_342:
     start_on: 2019-04-25
     end_on: 2019-04-27
@@ -3454,6 +3481,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-04-29_360:
     start_on: 2019-04-29
     end_on: 2019-05-02
@@ -3473,6 +3501,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-05-02_383:
     start_on: 2019-05-02
     end_on: 2019-05-06
@@ -3483,6 +3512,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-05-04_330:
     start_on: 2019-05-04
     end_on: 2019-05-06
@@ -3493,6 +3523,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-05-06_377:
     start_on: 2019-05-06
     end_on: 2019-05-08
@@ -3502,6 +3533,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-05-08_333:
     start_on: 2019-05-08
     end_on: 2019-05-10
@@ -3511,6 +3543,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-05-10_380:
     start_on: 2019-05-10
     end_on: 2019-05-13
@@ -3521,6 +3554,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-05-13_336:
     start_on: 2019-05-13
     end_on: 2019-05-15
@@ -3530,6 +3564,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-05-15_245:
     start_on: 2019-05-15
     end_on: 2019-05-17
@@ -3568,6 +3603,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-05-24_273:
     start_on: 2019-05-24
     end_on: 2019-05-26
@@ -3605,6 +3641,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-05-29_387:
     start_on: 2019-05-29
     end_on: 2019-06-12
@@ -3632,6 +3669,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-05_330:
     start_on: 2019-06-05
     end_on: 2019-06-07
@@ -3641,6 +3679,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-07_377:
     start_on: 2019-06-07
     end_on: 2019-06-08
@@ -3650,6 +3689,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-08_333:
     start_on: 2019-06-08
     end_on: 2019-06-10
@@ -3660,6 +3700,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-06-08_387:
     start_on: 2019-06-08
     end_on: 2019-06-12
@@ -3680,6 +3721,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-06-10_387:
     start_on: 2019-06-10
     end_on: 2019-06-12
@@ -3699,6 +3741,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-14_361:
     start_on: 2019-06-14
     end_on: 2019-06-17
@@ -3717,6 +3760,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-19_345:
     start_on: 2019-06-19
     end_on: 2019-06-21
@@ -3736,6 +3780,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-06-24_362:
     start_on: 2019-06-24
     end_on: 2019-06-26
@@ -3745,6 +3790,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-26_372:
     start_on: 2019-06-26
     end_on: 2019-06-28
@@ -3754,6 +3800,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-06-28_360:
     start_on: 2019-06-28
     end_on: 2019-07-01
@@ -3772,6 +3819,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-01_390:
     start_on: 2019-07-01
     end_on: 2019-07-15
@@ -3790,6 +3838,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-05_355:
     start_on: 2019-07-05
     end_on: 2019-07-07
@@ -3808,6 +3857,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-09_338:
     start_on: 2019-07-09
     end_on: 2019-07-11
@@ -3817,6 +3867,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-11_382:
     start_on: 2019-07-11
     end_on: 2019-07-13
@@ -3827,6 +3878,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-07-11_390:
     start_on: 2019-07-11
     end_on: 2019-07-15
@@ -3847,6 +3899,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-07-15_361:
     start_on: 2019-07-15
     end_on: 2019-07-18
@@ -3865,6 +3918,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-18_391:
     start_on: 2019-07-18
     end_on: 2019-08-01
@@ -3883,6 +3937,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-22_384:
     start_on: 2019-07-22
     end_on: 2019-07-24
@@ -3892,6 +3947,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-24_372:
     start_on: 2019-07-24
     end_on: 2019-07-25
@@ -3901,6 +3957,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-25_330:
     start_on: 2019-07-25
     end_on: 2019-07-27
@@ -3910,6 +3967,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-07-27_377:
     start_on: 2019-07-27
     end_on: 2019-07-29
@@ -3920,6 +3978,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-07-27_391:
     start_on: 2019-07-27
     end_on: 2019-08-01
@@ -3940,6 +3999,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-08-01_360:
     start_on: 2019-08-01
     end_on: 2019-08-04
@@ -3958,6 +4018,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-05_380:
     start_on: 2019-08-05
     end_on: 2019-08-07
@@ -3967,6 +4028,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-05_395:
     start_on: 2019-08-05
     end_on: 2019-08-19
@@ -3985,6 +4047,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-09_369:
     start_on: 2019-08-09
     end_on: 2019-08-11
@@ -3994,6 +4057,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-11_384:
     start_on: 2019-08-11
     end_on: 2019-08-12
@@ -4003,6 +4067,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-12_361:
     start_on: 2019-08-12
     end_on: 2019-08-15
@@ -4022,6 +4087,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-08-15_395:
     start_on: 2019-08-15
     end_on: 2019-08-19
@@ -4042,6 +4108,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-08-17_401:
     start_on: 2019-08-17
     end_on: 2030-01-01
@@ -4071,6 +4138,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-23_246:
     start_on: 2019-08-23
     end_on: 2019-08-25
@@ -4090,6 +4158,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-08-27_273:
     start_on: 2019-08-27
     end_on: 2019-08-30
@@ -4127,6 +4196,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-06_402:
     start_on: 2019-09-06
     end_on: 2019-09-09
@@ -4137,6 +4207,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-09-06_407:
     start_on: 2019-09-06
     end_on: 2030-01-01
@@ -4156,6 +4227,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-11_392:
     start_on: 2019-09-11
     end_on: 2019-09-13
@@ -4165,6 +4237,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-13_406:
     start_on: 2019-09-13
     end_on: 2019-09-16
@@ -4183,6 +4256,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-18_384:
     start_on: 2019-09-18
     end_on: 2019-09-20
@@ -4192,6 +4266,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-20_362:
     start_on: 2019-09-20
     end_on: 2019-09-23
@@ -4201,6 +4276,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-23_396:
     start_on: 2019-09-23
     end_on: 2019-09-25
@@ -4210,6 +4286,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-25_372:
     start_on: 2019-09-25
     end_on: 2019-09-27
@@ -4219,6 +4296,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-27_377:
     start_on: 2019-09-27
     end_on: 2019-09-28
@@ -4228,6 +4306,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-09-28_405:
     start_on: 2019-09-28
     end_on: 2019-10-01
@@ -4246,6 +4325,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-03_381:
     start_on: 2019-10-03
     end_on: 2019-10-04
@@ -4255,6 +4335,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-04_409:
     start_on: 2019-10-04
     end_on: 2019-10-07
@@ -4265,6 +4346,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-10-04_413:
     start_on: 2019-10-04
     end_on: 2030-01-01
@@ -4284,6 +4366,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-09_371:
     start_on: 2019-10-09
     end_on: 2019-10-11
@@ -4293,6 +4376,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-11_412:
     start_on: 2019-10-11
     end_on: 2019-10-14
@@ -4311,6 +4395,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-16_362:
     start_on: 2019-10-16
     end_on: 2019-10-18
@@ -4320,6 +4405,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-16_414:
     start_on: 2019-10-16
     end_on: 2019-10-30
@@ -4347,6 +4433,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-20_372:
     start_on: 2019-10-20
     end_on: 2019-10-22
@@ -4356,6 +4443,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-22_377:
     start_on: 2019-10-22
     end_on: 2019-10-24
@@ -4365,6 +4453,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-24_402:
     start_on: 2019-10-24
     end_on: 2019-10-26
@@ -4374,6 +4463,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-10-26_257:
     start_on: 2019-10-26
     end_on: 2019-11-01
@@ -4394,6 +4484,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-10-26_414:
     start_on: 2019-10-26
     end_on: 2019-10-30
@@ -4414,6 +4505,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-10-30_354:
     start_on: 2019-10-30
     end_on: 2019-11-01
@@ -4442,6 +4534,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-04_408:
     start_on: 2019-11-04
     end_on: 2019-11-06
@@ -4451,6 +4544,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-06_384:
     start_on: 2019-11-06
     end_on: 2019-11-08
@@ -4460,6 +4554,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-08_396:
     start_on: 2019-11-08
     end_on: 2019-11-10
@@ -4470,6 +4565,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-11-08_415:
     start_on: 2019-11-08
     end_on: 2019-11-15
@@ -4480,6 +4576,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-11-10_372:
     start_on: 2019-11-10
     end_on: 2019-11-12
@@ -4490,6 +4587,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-11-12_415:
     start_on: 2019-11-12
     end_on: 2019-11-15
@@ -4500,6 +4598,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-11-12_416:
     start_on: 2019-11-12
     end_on: 2019-11-15
@@ -4510,6 +4609,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-11-12_471:
     start_on: 2019-11-12
     end_on: 2030-01-01
@@ -4558,6 +4658,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-22_460:
     start_on: 2019-11-22
     end_on: 2019-11-26
@@ -4576,6 +4677,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-26_466:
     start_on: 2019-11-26
     end_on: 2019-11-29
@@ -4585,6 +4687,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-11-29_469:
     start_on: 2019-11-29
     end_on: 2019-12-02
@@ -4603,6 +4706,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-12-02_467:
     start_on: 2019-12-02
     end_on: 2019-12-05
@@ -4612,6 +4716,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-12-05_448:
     start_on: 2019-12-05
     end_on: 2019-12-09
@@ -4621,6 +4726,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-12-05_461:
     start_on: 2019-12-05
     end_on: 2019-12-09
@@ -4640,6 +4746,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-09_480:
     start_on: 2019-12-09
     end_on: 2030-01-01
@@ -4677,6 +4784,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2019-12-16_472:
     start_on: 2019-12-16
     end_on: 2019-12-26
@@ -4696,6 +4804,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-20_472:
     start_on: 2019-12-20
     end_on: 2019-12-26
@@ -4716,6 +4825,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-24_427:
     start_on: 2019-12-24
     end_on: 2019-12-26
@@ -4726,6 +4836,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-26_421:
     start_on: 2019-12-26
     end_on: 2019-12-28
@@ -4736,6 +4847,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-26_473:
     start_on: 2019-12-26
     end_on: 2020-01-01
@@ -4746,6 +4858,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-28_424:
     start_on: 2019-12-28
     end_on: 2019-12-30
@@ -4756,6 +4869,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2019-12-30_445:
     start_on: 2019-12-30
     end_on: 2020-01-01
@@ -4766,6 +4880,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-01-01_481:
     start_on: 2020-01-01
     end_on: 2020-01-04
@@ -4785,6 +4900,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-01-04_474:
     start_on: 2020-01-04
     end_on: 2020-01-09
@@ -4795,6 +4911,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-01-06_442:
     start_on: 2020-01-06
     end_on: 2020-01-09
@@ -4805,6 +4922,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-01-09_453:
     start_on: 2020-01-09
     end_on: 2020-01-11
@@ -4824,6 +4942,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-13_448:
     start_on: 2020-01-13
     end_on: 2020-01-15
@@ -4833,6 +4952,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-15_433:
     start_on: 2020-01-15
     end_on: 2020-01-17
@@ -4842,6 +4962,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-17_479:
     start_on: 2020-01-17
     end_on: 2020-01-20
@@ -4860,6 +4981,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-22_427:
     start_on: 2020-01-22
     end_on: 2020-01-24
@@ -4869,6 +4991,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-24_452:
     start_on: 2020-01-24
     end_on: 2020-01-27
@@ -4888,6 +5011,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-27_482:
     start_on: 2020-01-27
     end_on: 2020-02-10
@@ -4906,6 +5030,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-01-31_483:
     start_on: 2020-01-31
     end_on: 2020-02-03
@@ -4934,6 +5059,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-05_430:
     start_on: 2020-02-05
     end_on: 2020-02-07
@@ -4944,6 +5070,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-02-05_482:
     start_on: 2020-02-05
     end_on: 2020-02-10
@@ -4964,6 +5091,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-02-10_475:
     start_on: 2020-02-10
     end_on: 2020-02-12
@@ -4973,6 +5101,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-12_448:
     start_on: 2020-02-12
     end_on: 2020-02-14
@@ -4982,6 +5111,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-14_493:
     start_on: 2020-02-14
     end_on: 2020-02-17
@@ -5000,6 +5130,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-19_427:
     start_on: 2020-02-19
     end_on: 2020-02-21
@@ -5009,6 +5140,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-21_487:
     start_on: 2020-02-21
     end_on: 2020-02-24
@@ -5019,6 +5151,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-02-21_492:
     start_on: 2020-02-21
     end_on: 2030-01-01
@@ -5038,6 +5171,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-02-26_454:
     start_on: 2020-02-26
     end_on: 2020-02-28
@@ -5075,6 +5209,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-03-06_497:
     start_on: 2020-03-06
     end_on: 2020-03-09
@@ -5085,6 +5220,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-03-06_504:
     start_on: 2020-03-06
     end_on: 2030-01-01
@@ -5104,6 +5240,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-03-09_494:
     start_on: 2020-03-09
     end_on: 2020-03-23
@@ -5122,6 +5259,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-03-13_501:
     start_on: 2020-03-13
     end_on: 2020-03-16
@@ -5140,6 +5278,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-03-19_448:
     start_on: 2020-03-19
     end_on: 2020-03-21
@@ -5150,6 +5289,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-03-19_494:
     start_on: 2020-03-19
     end_on: 2020-03-23
@@ -5170,6 +5310,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-03-23_453:
     start_on: 2020-03-23
     end_on: 2020-03-25
@@ -5198,6 +5339,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-03-27_500:
     start_on: 2020-03-27
     end_on: 2020-03-30
@@ -5216,6 +5358,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-01_421:
     start_on: 2020-04-01
     end_on: 2020-04-02
@@ -5225,6 +5368,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-02_424:
     start_on: 2020-04-02
     end_on: 2020-04-04
@@ -5235,6 +5379,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-04-02_458:
     start_on: 2020-04-02
     end_on: 2020-04-06
@@ -5255,6 +5400,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-04-06_445:
     start_on: 2020-04-06
     end_on: 2020-04-08
@@ -5264,6 +5410,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-06_495:
     start_on: 2020-04-06
     end_on: 2020-04-20
@@ -5282,6 +5429,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-10_501:
     start_on: 2020-04-10
     end_on: 2020-04-13
@@ -5300,6 +5448,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-13_496:
     start_on: 2020-04-13
     end_on: 2020-04-20
@@ -5318,6 +5467,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-16_427:
     start_on: 2020-04-16
     end_on: 2020-04-18
@@ -5328,6 +5478,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-04-16_496:
     start_on: 2020-04-16
     end_on: 2020-04-20
@@ -5348,6 +5499,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-04-20_421:
     start_on: 2020-04-20
     end_on: 2020-04-22
@@ -5357,6 +5509,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-22_424:
     start_on: 2020-04-22
     end_on: 2020-04-25
@@ -5366,6 +5519,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-22_466:
     start_on: 2020-04-22
     end_on: 2020-04-25
@@ -5375,6 +5529,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-25_506:
     start_on: 2020-04-25
     end_on: 2020-04-28
@@ -5385,6 +5540,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-04-28_445:
     start_on: 2020-04-28
     end_on: 2020-05-01
@@ -5394,6 +5550,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-04-28_468:
     start_on: 2020-04-28
     end_on: 2020-05-01
@@ -5403,6 +5560,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-01_510:
     start_on: 2020-05-01
     end_on: 2030-01-01
@@ -5432,6 +5590,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-05-04_467:
     start_on: 2020-05-04
     end_on: 2020-05-07
@@ -5442,6 +5601,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-05-07_451:
     start_on: 2020-05-07
     end_on: 2020-05-11
@@ -5481,6 +5641,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-13_497:
     start_on: 2020-05-13
     end_on: 2020-05-15
@@ -5490,6 +5651,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-15_509:
     start_on: 2020-05-15
     end_on: 2020-05-18
@@ -5508,6 +5670,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-21_448:
     start_on: 2020-05-21
     end_on: 2020-05-23
@@ -5517,6 +5680,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-23_427:
     start_on: 2020-05-23
     end_on: 2020-05-25
@@ -5526,6 +5690,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-25_487:
     start_on: 2020-05-25
     end_on: 2020-05-27
@@ -5535,6 +5700,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-27_421:
     start_on: 2020-05-27
     end_on: 2020-05-29
@@ -5544,6 +5710,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-05-29_500:
     start_on: 2020-05-29
     end_on: 2020-06-01
@@ -5562,6 +5729,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-01_505:
     start_on: 2020-06-01
     end_on: 2020-06-15
@@ -5580,6 +5748,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-05_430:
     start_on: 2020-06-05
     end_on: 2020-06-07
@@ -5589,6 +5758,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-07_433:
     start_on: 2020-06-07
     end_on: 2020-06-09
@@ -5598,6 +5768,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-09_506:
     start_on: 2020-06-09
     end_on: 2020-06-11
@@ -5607,6 +5778,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-11_475:
     start_on: 2020-06-11
     end_on: 2020-06-13
@@ -5617,6 +5789,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-06-11_505:
     start_on: 2020-06-11
     end_on: 2020-06-15
@@ -5637,6 +5810,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-06-13_522:
     start_on: 2020-06-13
     end_on: 2030-01-01
@@ -5656,6 +5830,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-17_448:
     start_on: 2020-06-17
     end_on: 2020-06-19
@@ -5665,6 +5840,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-19_521:
     start_on: 2020-06-19
     end_on: 2020-06-22
@@ -5683,6 +5859,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-24_487:
     start_on: 2020-06-24
     end_on: 2020-06-25
@@ -5692,6 +5869,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-25_424:
     start_on: 2020-06-25
     end_on: 2020-06-27
@@ -5701,6 +5879,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-25_513:
     start_on: 2020-06-25
     end_on: 2020-07-02
@@ -5719,6 +5898,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-06-29_430:
     start_on: 2020-06-29
     end_on: 2020-07-02
@@ -5728,6 +5908,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-02_433:
     start_on: 2020-07-02
     end_on: 2020-07-03
@@ -5737,6 +5918,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-03_520:
     start_on: 2020-07-03
     end_on: 2020-07-06
@@ -5755,6 +5937,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-08_519:
     start_on: 2020-07-08
     end_on: 2020-07-10
@@ -5764,6 +5947,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-10_523:
     start_on: 2020-07-10
     end_on: 2020-07-13
@@ -5793,6 +5977,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-13_524:
     start_on: 2020-07-13
     end_on: 2020-07-27
@@ -5802,6 +5987,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-15_448:
     start_on: 2020-07-15
     end_on: 2020-07-17
@@ -5811,6 +5997,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-17_521:
     start_on: 2020-07-17
     end_on: 2020-07-20
@@ -5829,6 +6016,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-20_427:
     start_on: 2020-07-20
     end_on: 2020-07-22
@@ -5838,6 +6026,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-20_524:
     start_on: 2020-07-20
     end_on: 2020-07-27
@@ -5847,6 +6036,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-22_487:
     start_on: 2020-07-22
     end_on: 2020-07-24
@@ -5857,6 +6047,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-07-22_524:
     start_on: 2020-07-22
     end_on: 2020-07-27
@@ -5867,6 +6058,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-07-24_424:
     start_on: 2020-07-24
     end_on: 2020-07-27
@@ -5877,6 +6069,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-07-27_520:
     start_on: 2020-07-27
     end_on: 2020-07-30
@@ -5895,6 +6088,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-07-30_533:
     start_on: 2020-07-30
     end_on: 2020-08-11
@@ -5913,6 +6107,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-03_430:
     start_on: 2020-08-03
     end_on: 2020-08-05
@@ -5922,6 +6117,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-05_433:
     start_on: 2020-08-05
     end_on: 2020-08-07
@@ -5931,6 +6127,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-07_497:
     start_on: 2020-08-07
     end_on: 2020-08-09
@@ -5941,6 +6138,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-08-07_532:
     start_on: 2020-08-07
     end_on: 2020-08-11
@@ -5971,6 +6169,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-08-11_475:
     start_on: 2020-08-11
     end_on: 2020-08-13
@@ -5980,6 +6179,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-11_532:
     start_on: 2020-08-11
     end_on: 2020-08-21
@@ -5998,6 +6198,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-14_521:
     start_on: 2020-08-14
     end_on: 2020-08-17
@@ -6025,6 +6226,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-17_532:
     start_on: 2020-08-17
     end_on: 2020-08-21
@@ -6043,6 +6245,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-21_451:
     start_on: 2020-08-21
     end_on: 2020-08-24
@@ -6082,6 +6285,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-26_430:
     start_on: 2020-08-26
     end_on: 2020-08-28
@@ -6091,6 +6295,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-28_523:
     start_on: 2020-08-28
     end_on: 2020-08-31
@@ -6110,6 +6315,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-08-31_532:
     start_on: 2020-08-31
     end_on: 2020-09-01
@@ -6137,6 +6343,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-06_433:
     start_on: 2020-09-06
     end_on: 2020-09-08
@@ -6146,6 +6353,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-08_448:
     start_on: 2020-09-08
     end_on: 2020-09-10
@@ -6155,6 +6363,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-10_517:
     start_on: 2020-09-10
     end_on: 2020-09-11
@@ -6164,6 +6373,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-11_475:
     start_on: 2020-09-11
     end_on: 2020-09-13
@@ -6174,6 +6384,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-09-13_427:
     start_on: 2020-09-13
     end_on: 2020-09-15
@@ -6184,6 +6395,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-09-15_487:
     start_on: 2020-09-15
     end_on: 2020-09-18
@@ -6193,6 +6405,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-18_521:
     start_on: 2020-09-18
     end_on: 2020-09-21
@@ -6211,6 +6424,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-23_424:
     start_on: 2020-09-23
     end_on: 2020-09-25
@@ -6220,6 +6434,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-25_523:
     start_on: 2020-09-25
     end_on: 2020-09-27
@@ -6239,6 +6454,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-09-29_445:
     start_on: 2020-09-29
     end_on: 2020-10-01
@@ -6248,6 +6464,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-01_520:
     start_on: 2020-10-01
     end_on: 2020-10-04
@@ -6266,6 +6483,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-07_433:
     start_on: 2020-10-07
     end_on: 2020-10-09
@@ -6275,6 +6493,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-09_538:
     start_on: 2020-10-09
     end_on: 2020-10-12
@@ -6285,6 +6504,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-10-09_543:
     start_on: 2020-10-09
     end_on: 2030-01-01
@@ -6304,6 +6524,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-14_427:
     start_on: 2020-10-14
     end_on: 2020-10-16
@@ -6313,6 +6534,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-16_414:
     start_on: 2020-10-16
     end_on: 2020-10-30
@@ -6349,6 +6571,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-19_544:
     start_on: 2020-10-19
     end_on: 2020-11-01
@@ -6367,6 +6590,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-23_475:
     start_on: 2020-10-23
     end_on: 2020-10-26
@@ -6376,6 +6600,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-10-26_414:
     start_on: 2020-10-26
     end_on: 2020-10-30
@@ -6396,6 +6621,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-10-26_544:
     start_on: 2020-10-26
     end_on: 2020-11-01
@@ -6416,6 +6642,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-10-30_497:
     start_on: 2020-10-30
     end_on: 2020-11-01
@@ -6426,6 +6653,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-10-30_544:
     start_on: 2020-10-30
     end_on: 2020-11-01
@@ -6454,6 +6682,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-04_433:
     start_on: 2020-11-04
     end_on: 2020-11-06
@@ -6463,6 +6692,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-04_549:
     start_on: 2020-11-04
     end_on: 2020-11-16
@@ -6472,6 +6702,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-06_538:
     start_on: 2020-11-06
     end_on: 2020-11-08
@@ -6481,6 +6712,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-06_549:
     start_on: 2020-11-06
     end_on: 2020-11-16
@@ -6490,6 +6722,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-08_517:
     start_on: 2020-11-08
     end_on: 2020-11-10
@@ -6499,6 +6732,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-10_427:
     start_on: 2020-11-10
     end_on: 2020-11-12
@@ -6508,6 +6742,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-12_487:
     start_on: 2020-11-12
     end_on: 2020-11-14
@@ -6518,6 +6753,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-11-12_549:
     start_on: 2020-11-12
     end_on: 2020-11-16
@@ -6528,6 +6764,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-11-14_424:
     start_on: 2020-11-14
     end_on: 2020-11-16
@@ -6538,6 +6775,7 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+    legend: 30
   2020-11-16_542:
     start_on: 2020-11-16
     end_on: 2020-11-19
@@ -6556,6 +6794,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-20_506:
     start_on: 2020-11-20
     end_on: 2020-11-24
@@ -6565,6 +6804,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-20_547:
     start_on: 2020-11-20
     end_on: 2020-11-24
@@ -6583,6 +6823,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-24_552:
     start_on: 2020-11-24
     end_on: 2020-11-27
@@ -6592,6 +6833,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-27_475:
     start_on: 2020-11-27
     end_on: 2020-11-29
@@ -6601,6 +6843,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-27_553:
     start_on: 2020-11-27
     end_on: 2020-11-29
@@ -6610,6 +6853,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-11-29_541:
     start_on: 2020-11-29
     end_on: 2020-12-02
@@ -6628,6 +6872,8 @@ events:
     rare: 0
     supa: 0
     uber: 9500
+    legend: 500
+    platinum: true
   2020-12-02_497:
     start_on: 2020-12-02
     end_on: 2020-12-04
@@ -6637,6 +6883,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-12-02_554:
     start_on: 2020-12-02
     end_on: 2020-12-04
@@ -6646,6 +6893,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-12-04_433:
     start_on: 2020-12-04
     end_on: 2020-12-08
@@ -6655,6 +6903,7 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+    legend: 30
   2020-12-04_548:
     start_on: 2020-12-04
     end_on: 2020-12-08
@@ -6673,3 +6922,71 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-12-11_538:
+    start_on: 2020-12-11
+    end_on: 2020-12-14
+    version: '100100'
+    name: 新キャラ「石の精霊ゴロー」参戦！個性的で愉快な精霊達！★詳細はバナーをタップ!!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-11_563:
+    start_on: 2020-12-11
+    end_on: 2020-12-26
+    version: '100100'
+    name: "【期間限定】新キャラ追加！『初音ミク』コラボガチャ！★詳細はバナーをタップ!!"
+    id: 563
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-12-14_517:
+    start_on: 2020-12-14
+    end_on: 2020-12-16
+    version: '100100'
+    name: 新キャラ「オイルガ」参戦！謎だらけのキモかわ生命体！★詳細はバナーをタップ!!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-14_565:
+    start_on: 2020-12-14
+    end_on: 2020-12-26
+    version: '100100'
+    name: 新キャラ追加！クリスマス限定キャラを手に入れよう！★詳細はバナーをタップ!!
+    id: 565
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-12-16_427:
+    start_on: 2020-12-16
+    end_on: 2020-12-18
+    version: '100100'
+    name: 黒い敵相手に大暴れ！強力な効果を持つ戦国武将達！★詳細はバナーをタップ!!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-18_487:
+    start_on: 2020-12-18
+    end_on: 2020-12-20
+    version: '100100'
+    name: 正義と闇の力を併せ持つ、にゃんこ軍団の救世主達！★詳細はバナーをタップ!!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-20_424:
+    start_on: 2020-12-20
+    end_on: 2020-12-22
+    version: '100100'
+    name: バラエティ豊富な世界一即戦力になるにゃんこ達！★詳細はバナーをタップ!!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
