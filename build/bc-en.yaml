@@ -6528,3 +6528,30 @@ events:
     rare: 6970
     supa: 2500
     uber: 500
+  2020-12-14_475:
+    start_on: 2020-12-14
+    end_on: 2020-12-16
+    version: '100000'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-12-16_433:
+    start_on: 2020-12-16
+    end_on: 2020-12-18
+    version: '100000'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+  2020-12-18_542:
+    start_on: 2020-12-18
+    end_on: 2020-12-21
+    version: '100000'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 542
+    rare: 6500
+    supa: 2600
+    uber: 900
