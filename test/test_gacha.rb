@@ -9,6 +9,8 @@ describe BattleCatsRolls::Gacha do
       [1, 1, 2, 0], # 1B -> 3A
       [2, 0, 2, 0], # 1A -> 3A
       [2, 1, 2, 1], # 1B -> 3B
+      [3, 0, 2, 1], # 1A -> 3B
+      [3, 1, 3, 0], # 1B -> 4A
     ].each do |(steps, track, expected_index, expected_track)|
       would "steps: #{steps}, track: #{track}" do
         next_index = BattleCatsRolls::Gacha.next_index(track, steps)

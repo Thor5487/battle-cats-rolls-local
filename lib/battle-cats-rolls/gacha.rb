@@ -61,7 +61,7 @@ module BattleCatsRolls
     end
 
     def self.next_index track, steps
-      steps + track
+      ((track + steps) / 2) + 1
     end
 
     def self.next_track track, steps
@@ -190,6 +190,8 @@ module BattleCatsRolls
       # This can run up to the number of duplicated cats
       # 2: https://bc.godfat.org/?seed=2458231674&event=2019-07-18_391&pick=4AX
       # 2: https://bc.godfat.org/?seed=2116007321&event=2019-07-21_391&pick=1AG
+      # 3: https://bc.godfat.org/?seed=1773704064&event=2020-12-11_563&lang=jp&pick=3AR
+      # 3: https://bc.godfat.org/?seed=1773704064&event=2020-12-11_563&lang=jp&pick=6BR
       steps = (1..rerolling_slots.count(cat.id)).find do
         next_seed = advance_seed(next_seed)
         rerolling_slots.delete_at(slot)

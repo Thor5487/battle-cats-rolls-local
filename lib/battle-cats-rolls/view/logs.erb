@@ -19,6 +19,25 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2020-12-12") %>
+<ul>
+  <li>
+    Fixed tracking/highlighting path when it rerolled 2 times and in B track. (in A it's correct) Here's an <a href="/?seed=2116007321&event=2019-07-21_391&pick=3AGX#N3A">example</a>:
+    <ul>
+      <li>5B -&gt; 8B was wrong. It should be 5B -&gt; 7B, therefore guaranteed for 3A "AAA Wunder" is wrong.</li>
+      <li>In <a href="/?seed=1732891581&event=2019-07-21_391&pick=1BGX#N1B">track A</a> now it's 4A -&gt; 6A, which is correct, therefore guaranteed for 1B "Eva Unit-01" is correct for the same slot.</li>
+    </ul>
+  </li>
+  <li>
+    Fixed tracking/highlighting path when it rerolled 3 times. Both tracks were wrong. Here's an <a href="/?seed=1773704064&event=2020-12-11_563&lang=jp&pick=6BR">example</a>:
+    <ul>
+      <li>3A -&gt; 6B was wrong. It should be 3A -&gt; 5B.</li>
+      <li>6B -&gt; 10A was wrong. It should be 6B -&gt; 9A.</li>
+    </ul>
+  </li>
+  <li>Note that in all cases, the links are all correct, but the shown arrows and guaranteed through the path could be wrong. All of them should be fixed now.</li>
+</ul>
+
 <%= header(2, "2020-10-04") %>
 <ul>
   <li>Good-Luck Ebisu is added to the list of exclusive cats.</li>
