@@ -2018,7 +2018,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2018-06-14_221:
     start_on: 2018-06-14
     end_on: 2018-06-16
@@ -2149,7 +2149,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2018-07-14_302:
     start_on: 2018-07-14
     end_on: 2018-07-17
@@ -2243,7 +2243,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2018-08-06_289:
     start_on: 2018-08-06
     end_on: 2018-08-08
@@ -2392,7 +2392,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2018-09-10_305:
     start_on: 2018-09-10
     end_on: 2018-09-12
@@ -2578,7 +2578,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2018-10-16_283:
     start_on: 2018-10-16
     end_on: 2018-10-18
@@ -4383,7 +4383,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2019-10-15_384:
     start_on: 2019-10-15
     end_on: 2019-10-18
@@ -4482,7 +4482,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2019-11-01_405:
     start_on: 2019-11-01
     end_on: 2019-11-04
@@ -4655,7 +4655,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2019-12-02_402:
     start_on: 2019-12-02
     end_on: 2019-12-04
@@ -4785,7 +4785,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2019-12-26_421:
     start_on: 2019-12-26
     end_on: 2019-12-28
@@ -4901,7 +4901,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-01-14_442:
     start_on: 2020-01-14
     end_on: 2020-01-17
@@ -5135,7 +5135,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-03-02_427:
     start_on: 2020-03-02
     end_on: 2020-03-04
@@ -5253,7 +5253,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-03-23_442:
     start_on: 2020-03-23
     end_on: 2020-03-25
@@ -5450,7 +5450,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-04-27_424:
     start_on: 2020-04-27
     end_on: 2020-04-29
@@ -5865,7 +5865,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-07-27_497:
     start_on: 2020-07-27
     end_on: 2020-07-29
@@ -5935,7 +5935,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-08-10_506:
     start_on: 2020-08-10
     end_on: 2020-08-12
@@ -6360,7 +6360,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-10-12_519:
     start_on: 2020-10-12
     end_on: 2020-10-14
@@ -6591,7 +6591,7 @@ events:
     rare: 0
     supa: 0
     uber: 10000
-    platinum: true
+    platinum: platinum
   2020-11-13_546:
     start_on: 2020-11-13
     end_on: 2020-11-18

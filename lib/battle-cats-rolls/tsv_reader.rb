@@ -50,8 +50,14 @@ module BattleCatsRolls
           if pool['id'] > 0
             data.merge!(pool)
             data['step_up'] = true if data.delete('step_up') # reorder
-            data['platinum'] = true if
-              data['uber'] + data['legend'] == GachaPool::Base
+
+            case GachaPool::Base
+            when data['uber']
+              data['platinum'] = 'platinum'
+            when data['uber'] + data['legend']
+              data['platinum'] = 'legend'
+            end
+
             data.delete('legend') if data['legend'] == 0
 
             result["#{data['start_on']}_#{data['id']}"] = data

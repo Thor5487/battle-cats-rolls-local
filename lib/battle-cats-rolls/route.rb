@@ -332,30 +332,18 @@ module BattleCatsRolls
       @grouped_events ||= begin
         today = Date.today
 
-        all_events.group_by do |_, value|
-          if value['platinum']
-            current_platinum['id'] == value['id'] ||
-              today <= value['start_on'] # Include upcoming platinum
-          else
-            today <= value['end_on']
-          end
+        events = all_events.group_by do |_, value|
+          today <= value['start_on'] || # upcoming
+            today <= value['end_on']    # ongoing
         end
-      end
-    end
 
-    def current_platinum
-      @current_platinum ||= begin
-        past = Date.new
-        today = Date.today
+        # keep each types of platinum just once for upcoming events
+        # uniq will keep the first occurrence so we reverse and reverse
+        events[true] = events[true].reverse_each.uniq do |id, event|
+          event['platinum'] || id
+        end.reverse!
 
-        all_events.max_by do |_, value|
-          # Ignore upcoming platinum
-          if value['platinum'] && value['start_on'] <= today
-            value['start_on']
-          else
-            past
-          end
-        end.last
+        events
       end
     end
 
