@@ -207,6 +207,7 @@ module BattleCatsRolls
         festival: {name: 'Uberfest / Epicfest', rate: [6500, 2600, 900]},
         superfest: {name: 'Superfest', rate: [6500, 2500, 1000]},
         platinum: {name: 'Platinum', rate: [0, 0, 10000]},
+        legend: {name: 'Legend', rate: [0, 0, 9500]},
         '': {name: 'Customize...'}
       }
     end
