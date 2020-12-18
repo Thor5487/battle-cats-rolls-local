@@ -6990,3 +6990,45 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2020-12-22_475:
+    start_on: 2020-12-22
+    end_on: 2020-12-24
+    version: '100100'
+    name: にゃんこワールド最大級の仰天進化を遂げる古代の勇者達！★詳細はバナーをタップ!!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2020-12-22_563:
+    start_on: 2020-12-22
+    end_on: 2020-12-26
+    version: '100100'
+    name: "【終了間近】新キャラ追加！『初音ミク』コラボガチャ！★11連で超激レア確定!!"
+    id: 563
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-12-22_565:
+    start_on: 2020-12-22
+    end_on: 2020-12-26
+    version: '100100'
+    name: 新キャラ追加！クリスマス限定キャラを手に入れよう！★詳細はバナーをタップ!!
+    id: 565
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-12-24_433:
+    start_on: 2020-12-24
+    end_on: 2020-12-26
+    version: '100100'
+    name: 圧倒的な存在感を放つ、強力なドラゴン達を手に入れよう！★詳細はバナーをタップ!!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
