@@ -243,8 +243,8 @@ cats:
       name: [Nekokkuma, Killer Nekokkuma]
       desc: ["Inspired by a weirdly cute white\nbear, has mastered those slick moves.\nMight knockback Black enemies.", "Embracing its savage instincts, it\nrains rapid-fire blows on its enemy.\nMight knockback Black enemies."]
     438:
-      name: [Cat God the Great, Cat God the Awesome]
-      desc: ["At long last, Cat God has joined the fight!\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "Shining with glorious purpose and divine charisma.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too."]
+      name: [Cat God the Great, Cat God the Awesome, Cat God the Golden]
+      desc: ["At long last, Cat God has joined the fight!\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "Shining with glorious purpose and divine charisma.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "A deity so resplendent that it's actually obnoxious.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too."]
     458:
       name: [Shirou the Cat, Novice Mage Shirou Cat]
       desc: ["A Cat who strives to be a defender of justice.\nSpent months in his room trying to summon\na Heroic Spirit. Strong vs. Black enemies.", "Still hasn't succeeded at Heroic Spirit\nsummoning. Now leaves his room sometimes\nto do night patrols. Strong vs. Black enemies."]
@@ -261,7 +261,7 @@ cats:
       name: [Wakamiko Cat, Warrior King Cat]
       desc: ["Angel born in the Holy Cat realm. Sworn to slay\nthe wicked devil-doges by the power of Light.\nStrong vs Black (Area Attack)", "Gathers the divine harmonic forces of the Cats to\nopen the gates to a new realm of holy potential.\nStrong vs Black (Area Attack)"]
     477:
-      name: [Devil Cat, Infernal Cat]
+      name: [Cat Devil, Infernal Cat]
       desc: ["Behold the next stage of devilish evolution!\nGimme a Catfruit and I might let you live!\nStrong vs Angels (Area Attack)", "The lord of devils. His ambition threatens\nto consume all light, love, and Cat Food.\nStrong vs Angels (Area Attack)"]
     478:
       name: [Nekonosuke, Old Guardian Cat]
@@ -654,6 +654,18 @@ cats:
     563:
       name: [Luka Cat, Luka Cat CC]
       desc: ["Die-hard fan of a cool & mysterious singer.\nAvoids dancing to preserve her mysterious allure.\nChance to Dodge Alien attacks", "To better be like that cool & mysterious singer,\ndances with a tuna and talks like a salty sea dog.\nChance to Dodge Alien attacks"]
+    578:
+      name: [Balrog Cat, Balrog Cat CC]
+      desc: ["Aiming to take the grand prize and get rich!\n...but he's been disqualified for repeated fouls.\nStrong vs Black enemies", "An underworld legend with a flawless hook.\nCan't sleep after fights due to muscle pain.\nStrong vs Black enemies", "Legendary underworld Cat with a flawless hook.\nCan't sleep after fights due to muscle pain.\nStrong vs Black enemies"]
+    579:
+      name: [Vega Cat, Vega Cat CC]
+      desc: ["Narcissist Cat drunk on his own beauty.\nWears a mask to protect his flawless looks.\nStrong vs. Angels", "Cat who mastered the beautiful art of\nSpanish Ninjutsu. Mask is more beautiful\nthan his own face. Strong vs. Angels"]
+    580:
+      name: [Sagat Cat, Sagat Cat CC]
+      desc: ["A prideful Cat known as The Emperor.\nHis personal Muay Thai style is undefeated.\nStrong vs Floating, Immune to Waves!", "Foolish defiance of the weak will not be tolerated.\nSeeks a higher reason to achieve true strength.\nStrong vs Floating, Immune to Waves!"]
+    581:
+      name: [M. Bison Cat, M. Bison Cat CC]
+      desc: ["Wielding psycho-power, this deadly Cat aims to\ntear down this world to build a new paradise.\nStrong vs Aliens, with Long-Range Area Atk", "The villainous leader of an evil secret society,\ncontrolling the global Cat Food smuggling cartel.\nStrong vs Aliens, with Long-Range Area Atk"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -877,6 +889,9 @@ cats:
     567:
       name: [Lifeguard Cats, Sweet Bro Cats]
       desc: ["Best friends who keep the beaches safe and fun,\nendlessly scanning the surf with 20/20 vision.\nLong-range Area attacks have chance to Slow Traitless", "Three loyal brothers who resemble a sugary\ntreat. The one on top is surprisingly not the oldest.\nLong-range Area attacks have chance to Slow Traitless"]
+    577:
+      name: [C. Honda, C. Honda CC]
+      desc: ["A Cat driven to spread the love of Sumo.\nWinner of the Li'l Sumo Tournament for 20 \nyears running. Tough vs Angels (Area Attack)", "Cultivated his body to become a testament to\nthe healing powers of Japan's hot spring culture.\nTough vs Angels (Area Attack)", "Cultivated his body to become a testament to\nthe healing powers of Japan's hot spring culture.\nTough vs Aliens (Area Attack)"]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1083,8 +1098,8 @@ cats:
       name: [Midsummer Rabbit, Midsummer Cat]
       desc: ["Wearing her undercover(?) Rabbit uniform, used for\ntracking villains on sunny Mediterranean beaches.\n100% Slow against Angels/Black (Area Attack)", "After identifying the target, she slips into another\nsummer outfit made for stealth. Time to move in\nfor the kill! Strong against Angels/Black (Area Atk)"]
     284:
-      name: [Pai-Pai, Pai-Pai Z]
-      desc: ["Poster girl for a famous dim sum restaurant.\nAlways carries her heirloom Scarlet Hammer.\nResists Red attacks, massive area damage.", "Mystic seals were broken, unleashing the\nsexy power of the Red Panda Hammer. \nResists Red attacks, massive area damage."]
+      name: [Pai-Pai, Pai-Pai Z, Pai-Pai DX]
+      desc: ["Poster girl for a famous dim sum restaurant.\nAlways carries her heirloom Scarlet Hammer.\nResists Red attacks, massive area damage.", "Mystic seals were broken, unleashing the\nsexy power of the Red Panda Hammer. \nResists Red attacks, massive area damage.", "Obliterates rivals in the underground arena with \nthe crushing power of the Master Panda Hammer!\nResists Red attacks, massive Area damage."]
     287:
       name: [Strike Unit R.E.I., Assault Unit R.E.I.]
       desc: ["Cheerful young mech, built for anti-air warfare\nusing future tech forbidden by international law.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating."]
@@ -1224,8 +1239,8 @@ cats:
       name: [Ganglion, Ganglion the Ancient, Ganglion the Unleashed]
       desc: ["First emperor and founder of the Dragon dynasty.\nWho knows what overwhelming power he holds?\nLong-range attacks, strong vs Aliens and Zombies.", "Has cultivated his strength for millennia, only\ngrowing ever more powerful in his old age.\nLong-range attacks, strong vs Aliens and Zombies.", "An unholy relic has undone the seals that kept his \ntrue might in check. Resist and meet your doom.\nLong-range attacks, strong vs Aliens and Zombies."]
     398:
-      name: [Sakura Sonic, Afterschool Sakura]
-      desc: ["A totally average schoolgirl who likes bubble\ntea and vanquishing demons. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies.", "It's tough to balance club activities and defending\nthe sacred legacy of your clan. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies."]
+      name: [Sakura Sonic, Afterschool Sakura, Sacred Blade Sakura]
+      desc: ["A totally average schoolgirl who likes bubble\ntea and vanquishing demons. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies.", "It's tough to balance club activities and defending\nthe sacred legacy of your clan. Tough vs. Metal,\nCritical attacks slow & weaken Metal enemies.", "If you must deliver heaven's punishment, you might\nas well look really cute doing it. Might Critical, plus\nSlows, Weakens and Insanely tough vs Metal."]
     402:
       name: [Voli, Volta, Gigavolta]
       desc: ["Cosmic thunder, brought to life!\nSummons lightning for a chance \nto freeze Aliens with Area attacks.", "With lightning that rends the sky,\nit annihilates enemy Barriers. Tough vs \nAliens, freezes with Area attacks.", "A mighty spirit who channels power from the\nstorm that will eventually consume the cosmos.\nTough vs Aliens, 100% chance to Freeze."]
@@ -1317,26 +1332,26 @@ cats:
       name: [Eyewaltz, Eyewaltz CC]
       desc: ["Joining the fight from Merc Storia!\nRenounced his pirate past to become a marine.\n100% Survives, Chance of Savage Blow. (Area)", "Joining the fight from Merc Storia!\nWields power for the cause of one special person.\n100% Survives, Chance of Savage Blow. (Area)"]
     512:
-      name: [Ryu, Ryu CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nA hero walking the path of a true fighter.\nChance to deliver a Savage Blow (Area Attack)", "Joining the fight from Street Fighter V AE!\nSeeking a rival who will finally test his skills.\nChance to deliver a Savage Blow (Area Attack)"]
+      name: [Ryu, Ryu CC, Kage]
+      desc: ["Joining the fight from Street Fighter V!\nA hero walking the path of a true fighter.\nChance to deliver a Savage Blow (Area Attack)", "Joining the fight from Street Fighter V!\nSeeking a rival who will finally test his skills.\nChance to deliver a Savage Blow (Area Attack)", "Joining the fight from Street Fighter V!\nEmbraced the forbidden power of the Dark Hado.\nStronger after damage, chance of Savage Blow!"]
     513:
       name: [Chun-Li, Chun-Li CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nICPO agent searching for her lost father.\nMight Knockback Red, Black, and Aliens.", "Joining the fight from Street Fighter V AE!\nCan you withstand her lightning kicks?\nMight Knockback Red, Black, and Aliens."]
+      desc: ["Joining the fight from Street Fighter V!\nICPO agent searching for her lost father.\nMight Knockback Red, Black, and Aliens.", "Joining the fight from Street Fighter V!\nCan you withstand her lightning kicks?\nMight Knockback Red, Black, and Aliens.", "Joining the fight from Street Fighter V!\nCan you withstand her lightning kicks?\nMight Knockback Red, Black, and Aliens."]
     514:
       name: [Guile, Guile CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nHardened soldier seeking peace for his home.\nTough vs Floating, Slow/Weaken", "Joining the fight from Street Fighter V AE!\nCrush villains with a Somersault Kick!\nTough vs Floating, Slow/Weaken"]
+      desc: ["Joining the fight from Street Fighter V!\nHardened soldier seeking peace for his home.\nTough vs Floating, Slow/Weaken", "Joining the fight from Street Fighter V!\nCrush villains with a Somersault Kick!\nTough vs Floating, Slow/Weaken"]
     515:
       name: [Zangief, Zangief CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nA towering wrestler called \"Red Cyclone\".\nOmnistrike, might avoid Zombie damage", "Joining the fight from Street Fighter V AE!\nSubmit to the force of his Cyclone Lariat!\nOmnistrike, might avoid Zombie damage"]
+      desc: ["Joining the fight from Street Fighter V!\nA towering wrestler called \"Red Cyclone\".\nOmnistrike, might avoid Zombie damage", "Joining the fight from Street Fighter V!\nSubmit to the force of his Cyclone Lariat!\nOmnistrike, might avoid Zombie damage"]
     516:
       name: [Blanka, Blanka CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nGentle defender of the Amazon forests.\nMassive Omnistrike damage vs Aliens", "Joining the fight from Street Fighter V AE!\nStrikes with a chaotic Rolling Attack!\nMassive Omnistrike damage vs Aliens"]
+      desc: ["Joining the fight from Street Fighter V!\nGentle defender of the Amazon forests.\nMassive Omnistrike damage vs Aliens", "Joining the fight from Street Fighter V!\nStrikes with a chaotic Rolling Attack!\nMassive Omnistrike damage vs Aliens"]
     517:
       name: [Dhalsim, Dhalsim CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nMystic who has mastered the arts of yoga.\n100% Weaken vs Traitless (Area Attack)", "Joining the fight from Street Fighter V AE!\nCalls upon Agni to command holy fires.\n100% Weaken vs Traitless (Area Attack)"]
+      desc: ["Joining the fight from Street Fighter V!\nMystic who has mastered the arts of yoga.\n100% Weaken vs Traitless (Area Attack)", "Joining the fight from Street Fighter V!\nCalls upon Agni to command holy fires.\n100% Weaken vs Traitless (Area Attack)"]
     518:
       name: [Ken, Ken CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nLike a brother to Ryu, and his greatest rival.\nKnockback/Strong vs Red, Floating, Angels (Omni)", "Joining the fight from Street Fighter V AE!\nRyu's ultimate rival, master of the Shoryuken.\nKnockback/Strong vs Red, Floating, Angels (Omni)"]
+      desc: ["Joining the fight from Street Fighter V!\nLike a brother to Ryu, and his greatest rival.\nKnockback/Strong vs Red, Floating, Angels (Omni)", "Joining the fight from Street Fighter V!\nRyu's ultimate rival, master of the Shoryuken.\nKnockback/Strong vs Red, Floating, Angels (Omni)"]
     520:
       name: [Lasvoss, Ultimate Lasvoss]
       desc: ["Incarnation of Evil summoned to eradicate the forces\nof Good. May strike a Savage Blow imbued with dark\npower. Survives once, stronger after taking damage.", "His final form, revealed for the final confrontation with\nthe heroes. Smites adventurers with Savage Blows,\nSurvives once, Stronger after taking damage."]
@@ -1391,6 +1406,33 @@ cats:
     571:
       name: [Skull Rider Vars, Nightmare King Vars]
       desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies."]
+    572:
+      name: [E. Honda, E. Honda CC]
+      desc: ["Joining the fight from Street Fighter V!\nThe world will know the majestic art of Sumo!\nTough vs Angels, with 100% Knockback! (Area Atk)", "Joining the fight from Street Fighter V!\nFlying onto the world stage with a Super Head Ram!\nTough vs Angels, with 100% Knockback! (Area Atk)"]
+    573:
+      name: [Balrog, Balrog CC]
+      desc: ["Joining the fight from Street Fighter V!\nFormer pro boxer, steadfast in his convictions.\nArea Attacks only hit Red/Black/Zombies!", "Joining the fight from Street Fighter V!\nHis Turn Punch guarantees a quick knockout!\nArea Attacks only hit Red/Black/Zombies!"]
+    574:
+      name: [Vega, Vega CC]
+      desc: ["Joining the fight from Street Fighter V!\nA pure narcissist who strives to fight beautifully.\nFreezes Metal, Long-Range Strikes might Critical!", "Joining the fight from Street Fighter V!\nDance with death using a \"Flying Barcelona Attack\"\nFreezes Metal, Long-Range Strikes might Critical!"]
+    575:
+      name: [Sagat, Sagat CC]
+      desc: ["Joining the fight from Street Fighter V!\nUltimate strength and masterful technique. Massive\ndamage vs Floating, stronger after taking damage!", "Joining the fight from Street Fighter V!\nCrush fools with a Tiger Uppercut! Massive\ndamage vs Floating, stronger after taking damage!", "Joining the fight from Street Fighter V!\nTiger Uppercut crushes foolishness! Massive\ndamage vs Floating, stronger after taking damage!"]
+    576:
+      name: [M. Bison, M. Bison CC]
+      desc: ["Joining the fight from Street Fighter V!\nMastermind of the evil organization Shadaloo.\nStrong vs Floating/Aliens/Zombies!", "Joining the fight from Street Fighter V!\nBring the world to heel with a Psycho Crusher!\nStrong vs Floating/Aliens/Zombies!"]
+    583:
+      name: ['Hatsune Miku: MM2020 Osaka', 'Hatsune Miku CC: MM2020 Osaka']
+      desc: ["Virtual singer loved by the entire Cat Empire!\nNext performance: Magical Mirai 2020 in OSAKA\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow."]
+    584:
+      name: ['Hatsune Miku: MM2020 Tokyo', 'Hatsune Miku CC: MM2020 Tokyo']
+      desc: ["Virtual singer loved by the entire Cat Empire!\nNext performance: Magical Mirai 2020 in TOKYO\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks."]
+    585:
+      name: [Keiji Claus, Maeda Christmas]
+      desc: ["Leading the charge in the war for Xmas! Gifts for\ngood little warriors, and a sack 'o pain for bad kids!\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!"]
+    586:
+      name: [Baby Garu, Mighty Aegis Garu]
+      desc: ["Defends the helpless with all his power. He might\nbe small now, but great potential lies within him...\nOmnistrikes, Tough vs. all traits, Immune to Waves.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1427,10 +1469,13 @@ cats:
       desc: ["The origin of all Life... and she can choose\n to undo it all whenever she pleases. Long-range\nArea attacks deal extreme damage to Traited.", "The ultimate Goddess, who directs mana birthed\nfrom the World Tree to annihilate enemies of Good.\nExtreme damage to Traited. (Long-range Area Atks)"]
     511:
       name: [Akuma, Akuma CC]
-      desc: ["Joining the fight from Street Fighter V AE!\nSeeks mighty warriors to fight to the death.\nInsane Area damage vs. Traitless.", "Joining the fight from Street Fighter V AE!\nMaster of the Fist, attacks with pure killing spirit.\nInsane Area damage vs. Traitless."]
+      desc: ["Joining the fight from Street Fighter V!\nSeeks mighty warriors to fight to the death.\nInsane Area damage vs. Traitless.", "Joining the fight from Street Fighter V!\nMaster of the Fist, attacks with pure killing spirit.\nInsane Area damage vs. Traitless.", "Joining the fight from Street Fighter V!\nMaster of the Fist, attacks with pure killing spirit.\nInsane Area damage vs. Traitless."]
     545:
       name: [Kyosaka Nanaho, True Kyosaka Nanaho]
       desc: ["Curious maiden exploring the fantastic Cat Empire\nStrikes down demons with her blade Honoka.\nInsanely Tough vs Metal, Area attacks Might Critical.", "Her experiences in our world have made her wiser.\nHonoka has protected her in many a fierce battle.\nInsanely Tough vs Metal, Area attacks Might Critical.", "Her experiences in our world have made her wiser.\nHonoka has protected her in many a fierce battle.\nInsanely Tough vs Metal, Area attacks Might Critical."]
+    587:
+      name: [Emperor Cat, Tyrant Cat]
+      desc: ["By braving the ancient forest, he obtained peerless\nmagical power that allowed him to tame all of Catkind.\nArea atks inflict negative status on Traited enemies.", "The uncanny magics came at an unseen cost, and\na piece of his soul is consumed with every battle.\nArea atks inflict negative status on Traited enemies.", "The uncanny magics came at an unseen cost, and\na piece of his soul is consumed with every battle.\nArea atks inflict negative status on Traited enemies."]
 gacha:
   0: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   1: [154, 153, 152, 151, 150, 149, 148, 147, 146, 144, 60, 58, 45, 44, 43, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -1979,6 +2024,26 @@ gacha:
   544: [571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 229, 229, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   545: [571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   546: [328, 524, 523, 496, 327, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  547: [270, 524, 523, 496, 521, 436, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  548: [334, 524, 523, 496, 521, 485, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  549: [581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 577, 577, 577, 577, 577, 577, 576, 575, 574, 573, 572, 511, 512, 513, 514, 515, 516, 517, 518, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  550: [581, 580, 579, 578, 577, 576, 575, 574, 573, 572, 511, 512, 513, 514, 515, 516, 517, 518, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  551: [494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  552: [449, 450, 452, 547, 520, 339, 506, 107, 204, 432, 440, 305, 361, 358, 284, 565, 229, 229, 229, 229, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  553: [451, 494, 482, 545, 437, 45, 125, 397, 503, 323, 534, 259, 306, 570, 359, 560, 331, 277, 277, 277, 277, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  554: [456, 479, 464, 462, 169, 428, 497, 84, 160, 526, 262, 535, 418, 360, 335, 287, 571, 333, 333, 333, 333, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  555: [586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  556: [586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  557: [587, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  558: [587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  559: [586, 521, 485, 436, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  560: [545, 494, 479, 560, 315, 315, 315, 315, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  561: [545, 494, 479, 560, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  562: [587, 585, 571, 567, 567, 567, 566, 566, 566, 565, 564, 527, 495, 439, 355, 333, 333, 333, 332, 331, 315, 315, 315, 311, 303, 277, 277, 277, 276, 275, 244, 243, 242, 231, 230, 229, 229, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  563: [584, 583, 563, 563, 563, 563, 563, 563, 563, 563, 563, 563, 562, 562, 562, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  564: [584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  565: [585, 527, 311, 244, 243, 242, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  566: [587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
