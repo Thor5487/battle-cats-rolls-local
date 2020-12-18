@@ -19,7 +19,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         __method__,
-        '9.10.0',
+        '10.1.0',
         AwsAuth.event_url('tw'),
         'jp.co.ponos.battlecatstw'
       ]
