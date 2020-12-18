@@ -6771,3 +6771,32 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2020-12-21_540:
+    start_on: 2020-12-21
+    end_on: 2020-12-23
+    version: '100100'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 540
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-21_565:
+    start_on: 2020-12-21
+    end_on: 2020-12-28
+    version: '100100'
+    name: NEW Xmas-Only Hero! ★ Tap the banner for more info!
+    id: 565
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2020-12-23_508:
+    start_on: 2020-12-23
+    end_on: 2020-12-25
+    version: '100100'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 508
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
