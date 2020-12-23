@@ -6865,3 +6865,80 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2020-12-25_447:
+    start_on: 2020-12-25
+    end_on: 2020-12-28
+    version: '100100'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 447
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2020-12-25_565:
+    start_on: 2020-12-25
+    end_on: 2020-12-28
+    version: '100100'
+    name: NEW Xmas-Only Hero! ★ Tap the banner for more info!
+    id: 565
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2020-12-28_487:
+    start_on: 2020-12-28
+    end_on: 2021-01-01
+    version: '100100'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2020-12-28_547:
+    start_on: 2020-12-28
+    end_on: 2021-01-01
+    version: '100100'
+    name: Your favorite Cats join forces for a Year's-End blowout!
+    id: 547
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-01-01_541:
+    start_on: 2021-01-01
+    end_on: 2021-01-04
+    version: '100100'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 541
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-01-04_430:
+    start_on: 2021-01-04
+    end_on: 2021-01-07
+    version: '100100'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-04_548:
+    start_on: 2021-01-04
+    end_on: 2021-01-07
+    version: '100100'
+    name: Your favorite Cats join forces to kick off a brand new year!
+    id: 548
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-01-04_564:
+    start_on: 2021-01-04
+    end_on: 2021-01-18
+    version: '100100'
+    name: Limited Hatsune Miku collab with NEW heroes! Tap banner for info!
+    id: 564
+    rare: 7000
+    supa: 2500
+    uber: 500
