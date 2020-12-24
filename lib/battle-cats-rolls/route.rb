@@ -187,11 +187,12 @@ module BattleCatsRolls
     end
 
     def upcoming_events
-      @upcoming_events ||= grouped_events[true] || []
+      @upcoming_events ||=
+        grouped_events[:ongoing] + grouped_events[:upcoming] || []
     end
 
     def past_events
-      @past_events ||= grouped_events[false] || []
+      @past_events ||= grouped_events[:past] || []
     end
 
     def custom
@@ -334,13 +335,18 @@ module BattleCatsRolls
         today = Date.today
 
         events = all_events.group_by do |_, value|
-          today <= value['start_on'] || # upcoming
-            today <= value['end_on']    # ongoing
+          if today <= value['start_on']
+            :upcoming
+          elsif today <= value['end_on']
+            :ongoing
+          else
+            :past
+          end
         end
 
-        # keep each types of platinum just once for upcoming events
+        # keep each types of platinum just once for ongoing events
         # uniq will keep the first occurrence so we reverse and reverse
-        events[true] = events[true].reverse_each.uniq do |id, event|
+        events[:ongoing] = events[:ongoing].reverse_each.uniq do |id, event|
           event['platinum'] || id
         end.reverse!
 
