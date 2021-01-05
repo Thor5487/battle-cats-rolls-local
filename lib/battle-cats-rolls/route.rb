@@ -188,7 +188,7 @@ module BattleCatsRolls
 
     def upcoming_events
       @upcoming_events ||=
-        grouped_events[:ongoing] + grouped_events[:upcoming] || []
+        [*grouped_events[:ongoing], *grouped_events[:upcoming]] || []
     end
 
     def past_events
@@ -344,11 +344,13 @@ module BattleCatsRolls
           end
         end
 
-        # keep each types of platinum just once for ongoing events
-        # uniq will keep the first occurrence so we reverse and reverse
-        events[:ongoing] = events[:ongoing].reverse_each.uniq do |id, event|
-          event['platinum'] || id
-        end.reverse!
+        if events[:ongoing]
+          # keep each types of platinum just once for ongoing events
+          # uniq will keep the first occurrence so we reverse and reverse
+          events[:ongoing] = events[:ongoing].reverse_each.uniq do |id, event|
+            event['platinum'] || id
+          end.reverse!
+        end
 
         events
       end
