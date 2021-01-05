@@ -6942,3 +6942,64 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2021-01-07_425:
+    start_on: 2021-01-07
+    end_on: 2021-01-09
+    version: '100100'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 425
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-09_428:
+    start_on: 2021-01-09
+    end_on: 2021-01-11
+    version: '100100'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 428
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-11_498:
+    start_on: 2021-01-11
+    end_on: 2021-01-13
+    version: '100100'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 498
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-13_476:
+    start_on: 2021-01-13
+    end_on: 2021-01-15
+    version: '100100'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 476
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-15_434:
+    start_on: 2021-01-15
+    end_on: 2021-01-18
+    version: '100100'
+    name: Ancient dragons of unmatched might, with 11-Draw Uber Guarantee!
+    id: 434
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-01-15_564:
+    start_on: 2021-01-15
+    end_on: 2021-01-18
+    version: '100100'
+    name: Limited Hatsune Miku collab with NEW heroes! Tap banner for info!
+    id: 564
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
