@@ -7003,3 +7003,84 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-01-18_538:
+    start_on: 2021-01-18
+    end_on: 2021-01-20
+    version: '100100'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-18_550:
+    start_on: 2021-01-18
+    end_on: 2021-02-01
+    version: '100100'
+    name: NEW Street Fighter V Collab Heroes! ★ Tap banner for info!
+    id: 550
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-20_506:
+    start_on: 2021-01-20
+    end_on: 2021-01-22
+    version: '100100'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-22_542:
+    start_on: 2021-01-22
+    end_on: 2021-01-25
+    version: '100100'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 542
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-01-25_445:
+    start_on: 2021-01-25
+    end_on: 2021-01-27
+    version: '100100'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-27_487:
+    start_on: 2021-01-27
+    end_on: 2021-01-29
+    version: '100100'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-01-29_430:
+    start_on: 2021-01-29
+    end_on: 2021-02-01
+    version: '100100'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-01-29_550:
+    start_on: 2021-01-29
+    end_on: 2021-02-01
+    version: '100100'
+    name: NEW Street Fighter V Heroes, with 11-Capsule Draw Guarantee!
+    id: 550
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
