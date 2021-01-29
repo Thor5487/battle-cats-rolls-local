@@ -7084,3 +7084,101 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2021-02-01_541:
+    start_on: 2021-02-01
+    end_on: 2021-02-04
+    version: '100100'
+    name: Uberfest is here! ★ Extra-high Uber drop rate for every draw!
+    id: 541
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-02-04_451:
+    start_on: 2021-02-04
+    end_on: 2021-02-06
+    version: '100100'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-02-04_452:
+    start_on: 2021-02-04
+    end_on: 2021-02-06
+    version: '100100'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-02-06_453:
+    start_on: 2021-02-06
+    end_on: 2021-02-08
+    version: '100100'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-02-06_523:
+    start_on: 2021-02-06
+    end_on: 2021-02-08
+    version: '100100'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-02-08_424:
+    start_on: 2021-02-08
+    end_on: 2021-02-10
+    version: '100100'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-08_566:
+    start_on: 2021-02-08
+    end_on: 2021-02-12
+    version: '100100'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 566
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2021-02-10_427:
+    start_on: 2021-02-10
+    end_on: 2021-02-12
+    version: '100100'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-12_556:
+    start_on: 2021-02-12
+    end_on: 2030-01-01
+    version: '100200'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 556
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-02-12_571:
+    start_on: 2021-02-12
+    end_on: 2021-02-15
+    version: '100200'
+    name: Set-exclusive hero GARU is here, with higher Uber drop rates!
+    id: 571
+    rare: 6500
+    supa: 2500
+    uber: 1000
