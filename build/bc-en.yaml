@@ -648,6 +648,9 @@ cats:
     546:
       name: [Phantom Cat, Miasma Cat]
       desc: ["A vague shape that kind of resembles a Cat.\nFinds it tough to keep it together in windy places.\nLong-range Area attacks hit Angels for massive damage.", "An ambiguously Cat-like being made of dark vapor.\nBelches up foul gasses when he has tummy trouble.\nLong-range Area attacks hit Angels for massive damage."]
+    553:
+      name: [Kaworu Cat, Moon Kaworu Cat]
+      desc: ["Cat resembling a mysterious boy who enjoys\nplaying piano and making ominous statements.\nTough vs Black enemies, with Massive Damage.", "Recently seen on the moon performing his original\ncomposition, \"The Promised Time of Shinji Cat\"\nTough vs Black enemies, with Massive Damage.", "Recently seen on the moon performing his original\ncomposition, \"The Promised Time of Shinji Cat\"\nTough vs Black enemies, with Massive Damage."]
     554:
       name: [Bakery Cat, Boomerang Cat]
       desc: ["Cat who ran away from home to become a baker in\nthe big city. His croissants are tasty AND battle-ready!\nLong-range atks 100% Curse Angels/Aliens/Zombies", "Disillusioned by city life, returned home to reclaim his place\nas a proud hunter wielding a high-tech homing weapon.\nLong-range atks 100% Curse Angels/Aliens/Zombies"]
@@ -666,6 +669,9 @@ cats:
     581:
       name: [M. Bison Cat, M. Bison Cat CC]
       desc: ["Wielding psycho-power, this deadly Cat aims to\ntear down this world to build a new paradise.\nStrong vs Aliens, with Long-Range Area Atk", "The villainous leader of an evil secret society,\ncontrolling the global Cat Food smuggling cartel.\nStrong vs Aliens, with Long-Range Area Atk"]
+    582:
+      name: [Stone Cat, Boulder Cat]
+      desc: ["A mineral-based lifeform recovered by GAMATOTO\nfrom deep beneath the earth. Finally made useful\nafter eight years of research. Attacks exactly once.", "Stone-like primal Cat that is surprisingly fragile,\nboth emotionally and physically. Please take care\nnot to injure its fragile heart. Attacks exactly once."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -798,7 +804,7 @@ cats:
       desc: ["1-car train with a max speed of 222kph\n120% of seats were filled today.\nExtra money when defeating enemies!", "222-Cat seater with a max speed of \n2222kph, a blessing for all Cat commuters.\nExtra money when defeating enemies!", "Can take a maximum of 2222 passengers on\na round-the-world journey at 20,000,000 km/h\nExtra money when defeating enemies!"]
     288:
       name: [Little Leaguer Cat, Major Leaguer Cat, Golfer Cat]
-      desc: ["Young, but full of raw potential. Recruited \nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range.", "Hole-in-One king of the local park. Interesting\nfairway technique inspired by his past career.\nResists Aliens, might break barriers, Long-range."]
+      desc: ["Young, but full of raw potential. Recruited\nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range.", "Hole-in-One king of the local park. Interesting\nfairway technique inspired by his past career.\nResists Aliens, might break barriers, Long-range."]
     294:
       name: [Kyubey, Kyubey & Cat]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nMake a contract with him and your wish will come true.\nTough vs. Aliens, might Survive a lethal attack", "From Madoka Magica The Movie -Rebellion-!\nHe seeks pure-hearted girls dreaming of a miracle.\nTough vs. Aliens, might Survive a lethal attack"]
@@ -892,6 +898,9 @@ cats:
     577:
       name: [C. Honda, C. Honda CC]
       desc: ["A Cat driven to spread the love of Sumo.\nWinner of the Li'l Sumo Tournament for 20 \nyears running. Tough vs Angels (Area Attack)", "Cultivated his body to become a testament to\nthe healing powers of Japan's hot spring culture.\nTough vs Angels (Area Attack)", "Cultivated his body to become a testament to\nthe healing powers of Japan's hot spring culture.\nTough vs Aliens (Area Attack)"]
+    590:
+      name: [Valentine's Neneko, Sweetheart Neneko]
+      desc: ["Homemade chocolates in hand, she's ready to overcome\nher fear and finally talk to her crush. This is the year!\n100% Mini-Wave attack that might Critical.", "Actually talking to them was too scary, so she just\nleft her chocolates and love letter in their shoe box.\nOh well... 100% Mini-Wave attack that might Critical."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -901,9 +910,9 @@ cats:
       desc: ["A Cat that was entranced by a girl\nhailing from the Land of Ice. It is frozen.\nMight freeze Red enemies. (Area Attack)", "Forgot to mention that the Cat is an\neternal icicle. Don't think it complains much.\nMight freeze Red enemies. (Area Attack)", "The Ice Queen's reign grows more secure,\nand so does her Cat companion's crystal shell.\nFreezes Red enemies in place (Area Attack)."]
     44:
       name: [Cat Machine, Cat Machine Mk 2, Cat Machine Mk 3]
-      desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResitant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResitant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
+      desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResitant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResistant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
     45:
-      name: [Lesser Demon Cat, Greater Demon Cat, Balrog Cat]
+      name: [Lesser Demon Cat, Greater Demon Cat, Greater Balrog Cat]
       desc: ["A mad cat that sacrificed itself to a\na demon from the netherworld.\nAttacks with extreme force.", "The mad cat managed to control the\na demon from the netherworld.\nAttacks with extreme force.", "His wanderings through the abyss have\ndriven him mad with infernal ambitions.\nTremendous damage to a single enemy."]
     54:
       name: [Evangelist Cat, Filibuster Cat]
@@ -1101,8 +1110,8 @@ cats:
       name: [Pai-Pai, Pai-Pai Z, Pai-Pai DX]
       desc: ["Poster girl for a famous dim sum restaurant.\nAlways carries her heirloom Scarlet Hammer.\nResists Red attacks, massive area damage.", "Mystic seals were broken, unleashing the\nsexy power of the Red Panda Hammer. \nResists Red attacks, massive area damage.", "Obliterates rivals in the underground arena with \nthe crushing power of the Master Panda Hammer!\nResists Red attacks, massive Area damage."]
     287:
-      name: [Strike Unit R.E.I., Assault Unit R.E.I.]
-      desc: ["Cheerful young mech, built for anti-air warfare\nusing future tech forbidden by international law.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating."]
+      name: [Strike Unit R.E.I., Assault Unit R.E.I., Flight Unit R.E.I.]
+      desc: ["Cheerful young mech, built for anti-air warfare\nusing future tech forbidden by international law.\nResistant to/Massive area damage vs Floating.", "After an upgrade, escaped from govt. custody \nto use her powerful arsenal to help the innocent.\nResistant to/Massive area damage vs Floating.", "Upgraded for aerial assault with long-hidden tech!\nRains searing rays down as she soars through the skies.\nResistant to/Massive Area damage vs Floating."]
     289:
       name: [Madoka Kaname, Madoka & Cat]
       desc: ["From Madoka Magica The Movie -Rebellion-!\nA sweet girl who cares deeply for her friends.\nStrong vs Floating, with Long-Range Slow Area atks.", "From Madoka Magica The Movie -Rebellion-!\nLoyal Magical Girl bearing a tremendous power.\nStrong vs Floating, with Long-Range Slow Area atks."]
@@ -1385,6 +1394,21 @@ cats:
     547:
       name: [Papaluga, Papalan Pasalan]
       desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal."]
+    548:
+      name: [Night Oracle Rei, Heavenly Herald Rei]
+      desc: ["Being of purity who heralds the world's end.\nWhere lies the exit from this shining night?\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow."]
+    549:
+      name: [The 4th Angel, 4th Angel Cat]
+      desc: ["Terrifying being appearing with unknown intent.\nStriking out with piercing light from its palms.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core. Massive\nLong-Range Area damage & Knockback vs Black enemies."]
+    550:
+      name: [The 6th Angel, 6th Angel Cat]
+      desc: ["Terrifying being appearing with unknown intent. An \never-shifting form of incomprehensible power. Massive\nLong-Range Area damage & Slow vs Floating enemies.", "A Cat Army-produced replica of the 6th Angel. Already \nforgot what their original form looks like. Massive\nLong-Range Area damage & Slow vs Floating enemies.", "A Cat Army-produced replica of the 6th Angel. Already \nforgot what their original form looks like. Massive\nLong-Range Area damage & Slow vs Floating enemies."]
+    551:
+      name: [The 10th Angel, 10th Angel Cat]
+      desc: ["Terrifying being appearing with unknown intent.\nLashes out by extending its mighty A.T. Field. Massive\nOmnistrike Damage & Freeze vs Angelic enemies.", "A Cat Army-produced replica of the 10th Angel.\nUnknown genomes spliced into Gross Cat DNA. Massive\nOmnistrike Damage & Freeze vs Angelic enemies.", "A Cat Army-produced replica of the 10th Angel.\nUnknown genomes spliced into Gross Cat DNA. Massive\nOmnistrike Damage & Freeze vs Angelic enemies."]
+    552:
+      name: [The 9th Angel, 9th Angel Cat]
+      desc: ["Terrifying being appearing with unknown intent.\nPossessing the physical form of Eva Unit-03. Massive\nLong-range Area Damage & Weaken vs Alien enemies.", "A Cat Army-produced replica of the 9th Angel.\nControlled by Tank Cat like a dummy plug. Massive\nLong-range Area Damage & Weaken vs Alien enemies.", "A Cat Army-produced replica of the 9th Angel.\nControlled by Tank Cat like a dummy plug. Massive\nLong-range Area Damage & Weaken vs Alien enemies."]
     556:
       name: [Shaman Khan, All-Loving Shaman Khan]
       desc: ["Heavenly hero serving the will of Nadia.\nAlso the parent of Super Zeus. Long-range\nattacks might Knockback traited enemies.", "The ultimate manifestation of compassion\nraising his sword to defend innocents from evil!!\nLong-range attacks Knockback traited enemies."]
@@ -1433,6 +1457,12 @@ cats:
     586:
       name: [Baby Garu, Mighty Aegis Garu]
       desc: ["Defends the helpless with all his power. He might\nbe small now, but great potential lies within him...\nOmnistrikes, Tough vs. all traits, Immune to Waves.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes."]
+    588:
+      name: [Sweet Aphrodite, Chocoladite]
+      desc: ["Proud love goddess who only changes her look for one\nspecial day each year. Her bow strikes for massive \nLong-range Area damage vs. Red & Black enemies.", "The queen of love, dressed for Valentines and in\nthe mood for romance. Her bow strikes for massive \nLong-range Area damage vs. Red & Black enemies."]
+    589:
+      name: [First-Love Myrcia, First-Love Myrcia ξ]
+      desc: ["This year, our bourgeois princess has hired a 3-star\npatissier to teach her how to make homemade chocolate.\nMight Dodge Red/Floating attacks, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -1991,9 +2021,9 @@ gacha:
   511: [524, 523, 496, 483, 342, 271, 181, 430, 429, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   512: [544, 535, 534, 530, 381, 319, 270, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   513: [524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 409, 408, 408, 408, 408, 407, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
-  514: [524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  514: [553, 553, 553, 552, 551, 550, 549, 548, 492, 491, 490, 412, 411, 410, 409, 409, 409, 408, 408, 408, 407, 407, 407, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   515: [524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 408, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
-  516: [524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  516: [553, 552, 551, 550, 549, 548, 492, 491, 490, 412, 411, 410, 409, 408, 407, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   517: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   518: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 201, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 145, 132, 130, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
   519: [547, 524, 523, 496, 462, 448, 447, 446, 445, 444, 437, 378, 377, 326, 308, 309, 241, 240, 239, 238, 200, 199, 198, 172, 171, 170, 169, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -2044,6 +2074,11 @@ gacha:
   564: [584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   565: [585, 527, 311, 244, 243, 242, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   566: [587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  567: [590, 590, 590, 590, 589, 588, 534, 497, 139, 144, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  568: [590, 589, 588, 534, 497, 139, 144, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  569: [553, 553, 553, 524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 408, 408, 408, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  570: [553, 524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 408, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  571: [586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
