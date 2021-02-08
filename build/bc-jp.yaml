@@ -7395,3 +7395,45 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2021-02-09_445:
+    start_on: 2021-02-09
+    end_on: 2021-02-11
+    version: '100200'
+    name: にゃんこ軍団秘蔵の超兵器達！シークレット新参戦！？★詳細はバナーをタップ!!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-11_430:
+    start_on: 2021-02-11
+    end_on: 2021-02-13
+    version: '100200'
+    name: 邪魔する敵をやっつける！パワフルでキュートな電脳少女達！★詳細はバナーをタップ!!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-02-11_567:
+    start_on: 2021-02-11
+    end_on: 2021-02-15
+    version: '100200'
+    name: バレンタイン期間限定のスイートなガチャが新登場！★11連で超激レア確定!!
+    id: 567
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-02-13_497:
+    start_on: 2021-02-13
+    end_on: 2021-02-15
+    version: '100200'
+    name: にゃんこワールドの偉大なる神々、ここに集結！★詳細はバナーをタップ!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
