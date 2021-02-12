@@ -7217,3 +7217,83 @@ events:
     rare: 6500
     supa: 2500
     uber: 1000
+  2021-02-15_497:
+    start_on: 2021-02-15
+    end_on: 2021-02-17
+    version: '100200'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-15_568:
+    start_on: 2021-02-15
+    end_on: 2021-03-01
+    version: '100200'
+    name: Super-sweet limited Valentine's heroes! ★ Tap banner for info!
+    id: 568
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-02-17_517:
+    start_on: 2021-02-17
+    end_on: 2021-02-19
+    version: '100200'
+    name: Papaluga joins the uncanny Nekolugas! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-19_433:
+    start_on: 2021-02-19
+    end_on: 2021-02-22
+    version: '100200'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-22_538:
+    start_on: 2021-02-22
+    end_on: 2021-02-24
+    version: '100200'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-24_506:
+    start_on: 2021-02-24
+    end_on: 2021-02-26
+    version: '100200'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-02-26_475:
+    start_on: 2021-02-26
+    end_on: 2021-03-01
+    version: '100200'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-02-26_568:
+    start_on: 2021-02-26
+    end_on: 2021-03-01
+    version: '100200'
+    name: Super-sweet limited Valentine's heroes! ★ Tap banner for info!
+    id: 568
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
