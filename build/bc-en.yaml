@@ -595,8 +595,8 @@ cats:
       name: [Lone Cat and Kitten, Vendor Cat and Kitten, Tourist Cat]
       desc: ["Master assassin who wanders the park with his\ncheeky child seeking vengeance against litterers.\nTough + knockback + freeze vs Traitless.", "Lone Cat is sick in bed, so naughty Kitten is\nhelping mama while she sells drinks on the\ntrain. Tough + knockback + freeze vs Traitless.", "Papa and kitten are on a well-deserved tropical\ngetaway. Saved on airfare by packing away baby.\nTough + knockback + freeze vs Traitless."]
     453:
-      name: [Primordial Cat, Modern Cat]
-      desc: ["A primitive felinoid from an ancient time, with\na charming finned tail and useful gills.\nTough versus Metal and Relic enemies.", "This strange Cat(?) was found napping on the\nwindowsill. What unusual proportions she has!\nTough versus Metal and Relic enemies."]
+      name: [Primordial Cat, Modern Cat, Future Cat]
+      desc: ["A primitive felinoid from an ancient time, with\na charming finned tail and useful gills.\nTough versus Metal and Relic enemies.", "This strange Cat(?) was found napping on the\nwindowsill. What unusual proportions she has!\nTough versus Metal and Relic enemies.", "Visitor from a distant time of cultured, bipedal\nCats. Enjoys Cat Food in a gourmet spice curry.\nInsanely Tough vs Metal & Relic Enemies"]
     459:
       name: [Archer the Cat, Heroic Spirit Archer Cat]
       desc: ["A Heroic Cat Spirit proficient with both bow\nand blade. Who knows why he dislikes\nShirou the Cat so? Immune to Wave Attacks.", "Mastered the bow in order to claim the title\nof Archer. His hate for Shirou the Cat keeps\nhim up at night. Long-range, Immune to Waves."]
@@ -672,6 +672,12 @@ cats:
     582:
       name: [Stone Cat, Boulder Cat]
       desc: ["A mineral-based lifeform recovered by GAMATOTO\nfrom deep beneath the earth. Finally made useful\nafter eight years of research. Attacks exactly once.", "Stone-like primal Cat that is surprisingly fragile,\nboth emotionally and physically. Please take care\nnot to injure its fragile heart. Attacks exactly once."]
+    593:
+      name: [Neko Rin, Neko Rin CC]
+      desc: ["Die-hard fan of a fresh-faced popstar.\nKnown for gifting fresh oranges to the crowd.\nMight Dodge attacks from Black enemies.", "Die-hard fan of a charming popstar.\nDreams of her voice being heard around the world.\nMight Dodge attacks from Black enemies."]
+    594:
+      name: [Neko Len, Neko Len CC]
+      desc: ["Die-hard fan of a powerful popstar.\nAdolescence has recently developed his voice.\nMight Dodge attacks from Metal enemies.", "Die-hard fan of a dignified popstar.\nTouring the world in a handmade banana boat.\nMight Dodge attacks from Metal enemies."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -901,6 +907,9 @@ cats:
     590:
       name: [Valentine's Neneko, Sweetheart Neneko]
       desc: ["Homemade chocolates in hand, she's ready to overcome\nher fear and finally talk to her crush. This is the year!\n100% Mini-Wave attack that might Critical.", "Actually talking to them was too scary, so she just\nleft her chocolates and love letter in their shoe box.\nOh well... 100% Mini-Wave attack that might Critical."]
+    592:
+      name: [Kaito & Cat, Kaito & Cat CC]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nA talented singer with a wide vocal range.\nTough vs. Zombies, with Area Attack.", "Virtual singer loved by the entire Cat Empire.\nBlessed with expressive, manly voice.\nTough vs. Zombies, with Area Attack."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1365,8 +1374,8 @@ cats:
       name: [Lasvoss, Ultimate Lasvoss]
       desc: ["Incarnation of Evil summoned to eradicate the forces\nof Good. May strike a Savage Blow imbued with dark\npower. Survives once, stronger after taking damage.", "His final form, revealed for the final confrontation with\nthe heroes. Smites adventurers with Savage Blows,\nSurvives once, Stronger after taking damage."]
     526:
-      name: [Kintaro, Kinrangers RoboForce]
-      desc: ["Young exec at AxeCorp, managing operations\nat the mountain office with intern Li'l Bear.\nMight Slow Angels and strike a Savage Blow.", "Gathered the whole Beast Division for a unified\nfight against a very hostile acquisition attempt.\nMight Slow Angels and strike a Savage Blow."]
+      name: [Kintaro, Kinrangers RoboForce, Kinrangers GigaForce]
+      desc: ["Young exec at AxeCorp, managing operations\nat the mountain office with intern Li'l Bear.\nMight Slow Angels and strike a Savage Blow.", "Gathered the whole Beast Division for a unified\nfight against a very hostile acquisition attempt.\nMight Slow Angels and strike a Savage Blow.", "Beast Division Elites with upgraded tech to better\ndefend the stock portfolios of the future. Long-Range\nArea atk. might Slow/Curse Angels, with Savage Blow."]
     527:
       name: [Snow Angel Twinstars, 'Snow Angel Twinstars, type Φ']
       desc: ["Overflowing with holiday cheer, they'll smash\nany grumps who won't get into the Xmas spirit.\nMassive Area damage to Angels and Floating.", "Two good kids who are never on Santa's naughty\nlist. Always the first to help with Xmas decorations.\nMassive Area damage to Angels and Floating."]
@@ -1399,7 +1408,7 @@ cats:
       desc: ["Being of purity who heralds the world's end.\nWhere lies the exit from this shining night?\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow."]
     549:
       name: [The 4th Angel, 4th Angel Cat]
-      desc: ["Terrifying being appearing with unknown intent.\nStriking out with piercing light from its palms.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core. Massive\nLong-Range Area damage & Knockback vs Black enemies."]
+      desc: ["Terrifying being appearing with unknown intent.\nStriking out with piercing light from its palms.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core.\nMassive Area damage & Knockback vs Black enemies.", "A Cat Army-produced replica of the 4th Angel.\nModified by fusing a Cat to the Angel's core.\nMassive Area damage & Knockback vs Black enemies."]
     550:
       name: [The 6th Angel, 6th Angel Cat]
       desc: ["Terrifying being appearing with unknown intent. An \never-shifting form of incomprehensible power. Massive\nLong-Range Area damage & Slow vs Floating enemies.", "A Cat Army-produced replica of the 6th Angel. Already \nforgot what their original form looks like. Massive\nLong-Range Area damage & Slow vs Floating enemies.", "A Cat Army-produced replica of the 6th Angel. Already \nforgot what their original form looks like. Massive\nLong-Range Area damage & Slow vs Floating enemies."]
@@ -1447,10 +1456,10 @@ cats:
       desc: ["Joining the fight from Street Fighter V!\nMastermind of the evil organization Shadaloo.\nStrong vs Floating/Aliens/Zombies!", "Joining the fight from Street Fighter V!\nBring the world to heel with a Psycho Crusher!\nStrong vs Floating/Aliens/Zombies!"]
     583:
       name: ['Hatsune Miku: MM2020 Osaka', 'Hatsune Miku CC: MM2020 Osaka']
-      desc: ["Virtual singer loved by the entire Cat Empire!\nNext performance: Magical Mirai 2020 in OSAKA\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow."]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nPerformed at Magical Mirai 2020 in OSAKA!!\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow.", "Virtual singer loved by the entire Cat Empire!\nDressed for summer festivals in her best yukata!\nMassive damage vs Red/Angels, might Savage Blow."]
     584:
       name: ['Hatsune Miku: MM2020 Tokyo', 'Hatsune Miku CC: MM2020 Tokyo']
-      desc: ["Virtual singer loved by the entire Cat Empire!\nNext performance: Magical Mirai 2020 in TOKYO\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks."]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nPerformed at Magical Mirai 2020 in TOKYO!!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks."]
     585:
       name: [Keiji Claus, Maeda Christmas]
       desc: ["Leading the charge in the war for Xmas! Gifts for\ngood little warriors, and a sack 'o pain for bad kids!\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!"]
@@ -1463,6 +1472,15 @@ cats:
     589:
       name: [First-Love Myrcia, First-Love Myrcia ξ]
       desc: ["This year, our bourgeois princess has hired a 3-star\npatissier to teach her how to make homemade chocolate.\nMight Dodge Red/Floating attacks, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack."]
+    591:
+      name: [Snow Miku 2021, Snow Miku CC 2021]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nA majestic snow sculpture brought to life!\nStrong vs.Traitless, with chance to Slow.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs.Traitless, with chance to Slow.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs.Traitless, with chance to Slow."]
+    595:
+      name: [Mighty Aethur Ltd., Atlantis Logistix]
+      desc: ["Treasure merchants travelling the world by zeppelin.\nhauling a strange artifact emitting cosmic energy.\nOmnistrikes deal Insane Damage to Zombies.", "The mystery artifact is being delivered to a covert\nmilitary unit under the supervision of elite security.\nOmnistrikes deal Insane Damage to Zombies.", "The mystery artifact is being delivered to a covert\nmilitary unit under the supervision of elite security.\nOmnistrikes deal Insane Damage to Zombies."]
+    596:
+      name: [Blooming Kamukura, Everbloom Kamukura]
+      desc: ["Mythic Dragon announcing the arrival of spring,\nwho appears after collecting 7 Easter Eggs.\nArea Attacks might Slow & Knockback Metal.", "Mythic Dragon summoned with 7 Easter Eggs.\nAnything his magic breath touches bursts into life.\nArea Attacks might Slow & Knockback Metal.", "Mythic Dragon summoned with 7 Easter Eggs.\nAnything his magic breath touches bursts into life.\nArea Attacks might Slow & Knockback Metal."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2079,6 +2097,19 @@ gacha:
   569: [553, 553, 553, 524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 408, 408, 408, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   570: [553, 524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 408, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   571: [586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  572: [595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  573: [595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  574: [595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  575: [595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  576: [595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  577: [595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  578: [595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  579: [596, 524, 523, 496, 332, 331, 333, 333, 333, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  580: [596, 524, 523, 496, 332, 331, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  581: [590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  582: [590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  583: [594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  584: [594, 593, 592, 591, 584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -7427,6 +7458,85 @@ events:
     version: '100201'
     name: The return of the classic Evangelion collab capsule set!
     id: 570
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-03-15_517:
+    start_on: 2021-03-15
+    end_on: 2021-03-17
+    version: '100300'
+    name: Papaluga joins the uncanny Nekolugas! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-03-15_584:
+    start_on: 2021-03-15
+    end_on: 2021-03-29
+    version: '100300'
+    name: Hatsune Miku is back! 12 Limited heroes including 7 Ubers!
+    id: 584
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-03-17_497:
+    start_on: 2021-03-17
+    end_on: 2021-03-19
+    version: '100300'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-03-19_542:
+    start_on: 2021-03-19
+    end_on: 2021-03-22
+    version: '100300'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 542
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-03-22_433:
+    start_on: 2021-03-22
+    end_on: 2021-03-24
+    version: '100300'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-03-24_538:
+    start_on: 2021-03-24
+    end_on: 2021-03-26
+    version: '100300'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-03-26_487:
+    start_on: 2021-03-26
+    end_on: 2021-03-29
+    version: '100300'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-03-26_584:
+    start_on: 2021-03-26
+    end_on: 2021-03-29
+    version: '100300'
+    name: 12 Limited Hatsune Miku heroes, with 11-Draw Uber Guarantee!
+    id: 584
     rare: 7000
     supa: 2500
     uber: 500
