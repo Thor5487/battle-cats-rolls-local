@@ -7541,3 +7541,82 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-03-29_506:
+    start_on: 2021-03-29
+    end_on: 2021-03-31
+    version: '100300'
+    name: A Legend now fights alongside the spooky cuties! ★ Tap banner for info!
+    id: 506
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-03-29_580:
+    start_on: 2021-03-29
+    end_on: 2021-04-12
+    version: '100300'
+    name: New limited hero with a bright spring look!　★ Tap banner for info!
+    id: 580
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-03-31_475:
+    start_on: 2021-03-31
+    end_on: 2021-04-02
+    version: '100300'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-02_555:
+    start_on: 2021-04-02
+    end_on: 2021-04-05
+    version: '100300'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 555
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-04-05_445:
+    start_on: 2021-04-05
+    end_on: 2021-04-07
+    version: '100300'
+    name: Ultimate Cat artillery, with a top-secret Legend?! ★ Tap banner for info!
+    id: 445
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-07_430:
+    start_on: 2021-04-07
+    end_on: 2021-04-09
+    version: '100300'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-09_427:
+    start_on: 2021-04-09
+    end_on: 2021-04-12
+    version: '100300'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-04-09_580:
+    start_on: 2021-04-09
+    end_on: 2021-04-12
+    version: '100300'
+    name: Limited springtime Uber heroes!　★ With 11-capsule draw guarantee!
+    id: 580
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
