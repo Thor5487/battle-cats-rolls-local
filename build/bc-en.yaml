@@ -296,6 +296,9 @@ cats:
     569:
       name: ['Idi:N', 'Idi:N2']
       desc: ["Mystery lifeform that seems to be analyzing \nthe Cats. No one knows why it has joined\ntheir army. Massive Area damage to Relics.", "Appears out of nowhere to perform scans\nof powerful Cats. Its mission is still unknown.\nMassive Area damage to Relics."]
+    607:
+      name: [Panda Cat, Genma Cat]
+      desc: ["A Cat who admires the Saotome school master,\nand always trains wearing a cute panda outfit.\nCollects Extra Money after defeating enemies!", "A Cat who admires the Saotome school master.\nSold his panda outfit for a cool martial arts gi.\nCollects Extra Money after defeating enemies!", "A Cat who admires the Saotome school master.\nSold his panda outfit for a cool martial arts gi.\nCollects Extra Money after defeating enemies!"]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -678,6 +681,12 @@ cats:
     594:
       name: [Neko Len, Neko Len CC]
       desc: ["Die-hard fan of a powerful popstar.\nAdolescence has recently developed his voice.\nMight Dodge attacks from Metal enemies.", "Die-hard fan of a dignified popstar.\nTouring the world in a handmade banana boat.\nMight Dodge attacks from Metal enemies."]
+    605:
+      name: [Ranma Cat (M), Ranma Cat (F)]
+      desc: ["Die hard fan of Anything Goes Martial Arts.\nCat Fist technique is deadly at close range.\nMassive damage to Floating, with chance to Slow!", "Turned into a lady Cat for some reason. Can't\nfigure out why, looking for a way to turn back.\nChance to Slow and Dodge Floating attacks."]
+    606:
+      name: [Akane Cat, Akane Cat (Gi)]
+      desc: ["A pure-hearted Cat loved by all the guys.\nAwaiting the fiance of her dreams.\nChance to strike a Savage Blow!", "A Cat who just can't stand boys! Trains while\nimagining she's beating up that one rude guy!\nChance to strike a Savage Blow!"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -761,8 +770,8 @@ cats:
       name: [Cat Toaster, Cat Projector, Catophone]
       desc: ["Fed up with making toast every day, went on\nstrike by firing bread at Dad's face.\nMight slow Angelic enemies. (Area Attack)", "Used to projecting Hollywood stars, now worries\nit might be obsolete thanks to digital video.\nMight slow Angelic enemies. (Area Attack)", "Melancholy melodies strip enemies of their will\nto fight! Area attacks might slow Angelic\nenemies and break Barriers!"]
     174:
-      name: [Baby Mola, Young Man Mola]
-      desc: ["Dropping in from \"Survive! Mola Mola!\"\nThe lone survivor of 300,000,000 brothers -\nthe ocean's a harsh realm, man.", "Playing life on Hard Mode, a Mola Mola\nis always within sight of paradise.\nAttacks from range by screaming… then dying."]
+      name: [Baby Mola, Young Man Mola, Citizen Mola]
+      desc: ["Dropping in from \"Survive! Mola Mola!\"\nThe lone survivor of 300,000,000 brothers -\nthe ocean's a harsh realm, man.", "Playing life on Hard Mode, a Mola Mola\nis always within sight of paradise.\nAttacks from range by screaming… then dying.", "Vanishes as soon as it sees a larger fish. Or it\nwould, if it didn't take so long to turn about and run.\nWhat looks like a beard is really just parasites."]
     190:
       name: [Alois, Alois CC]
       desc: ["Joining the fight from Merc Storia! Master\nsorcerer cursed for unknown reasons.\nArea attacks might Knockback Angels.", "Joining the fight from Merc Storia! Recovered\ntreasured items thanks to loyal disciples.\nArea attacks might Knockback Angels."]
@@ -910,6 +919,15 @@ cats:
     592:
       name: [Kaito & Cat, Kaito & Cat CC]
       desc: ["Virtual singer loved by the entire Cat Empire!\nA talented singer with a wide vocal range.\nTough vs. Zombies, with Area Attack.", "Virtual singer loved by the entire Cat Empire.\nBlessed with expressive, manly voice.\nTough vs. Zombies, with Area Attack."]
+    602:
+      name: [Happosai, Happosai (Lewd)]
+      desc: ["Joining from Ranma 1/2! Founder of Anything\nGoes style, who even Ranma cannot challenge.\nArea atks might Knockback Red/Floating/Zombies.", "Joining from Ranma 1/2! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies.", "Joining from Ranma 1/2! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies."]
+    603:
+      name: [Ukyo Kuonji (GR), Ukyo Kuonji]
+      desc: ["Joining from Ranma 1/2! Ranma's OTHER\nfiancee, a commanding fighter (with a girlish heart).\nChance to Weaken Metal, might Critical.", "Joining from Ranma 1/2! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical.", "Joining from Ranma 1/2! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical."]
+    604:
+      name: [Tatewaki Kuno (Gi), Tatewaki Kuno]
+      desc: ["Joining from Ranma 1/2! Rising star of the\nkendo world, and hopelessly in love with Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from Ranma 1/2! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from Ranma 1/2! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!"]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -922,7 +940,7 @@ cats:
       desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResitant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResistant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
     45:
       name: [Lesser Demon Cat, Greater Demon Cat, Greater Balrog Cat]
-      desc: ["A mad cat that sacrificed itself to a\na demon from the netherworld.\nAttacks with extreme force.", "The mad cat managed to control the\na demon from the netherworld.\nAttacks with extreme force.", "His wanderings through the abyss have\ndriven him mad with infernal ambitions.\nTremendous damage to a single enemy."]
+      desc: ["A mad cat that sacrificed itself to a\na demon from the netherworld.\nAttacks with extreme force.", "The mad cat managed to control\nthe demon from the netherworld.\nAttacks with extreme force.", "His wanderings through the abyss have\ndriven him mad with infernal ambitions.\nTremendous damage to a single enemy."]
     54:
       name: [Evangelist Cat, Filibuster Cat]
       desc: ["Unlocked by meeting all the legends.\nFreezes enemies in place.\nSummon when you are losing ground.", "Uses special powers to interrupt time.\nStops the movement of enemies.\nSummon when you are losing ground."]
@@ -1017,8 +1035,8 @@ cats:
       name: [Balaluga, Balalan Pasalan, Piccolan Pasalan]
       desc: ["Not sure if this is a Cat…\nThere's just something about\nthat belly…", "No. Way. This can't be right…\nSeems like this one freezes all\nenemies in range.", "A totally unknown extraterrestrial lifeform of\nunimaginable power... or maybe just a weird Cat?\nFreezes and weakens all enemies in area atk range."]
     175:
-      name: [Mola King, Living Legend]
-      desc: ["Dropping in from \"Survive! Mola Mola!\"\nHis size is almost without equal, and so\nis his royal arrogance. (Area Attack)", "Bears the burden of a watery destiny,\nRegrets? A good long scream can take\ncare of doubt and worries! (Area Attack)"]
+      name: [Mola King, Living Legend, Master of the Pacific]
+      desc: ["Dropping in from \"Survive! Mola Mola!\"\nHis size is almost without equal, and so\nis his royal arrogance. (Area Attack)", "Bears the burden of a watery destiny,\nRegrets? A good long scream can take\ncare of doubt and worries! (Area Attack)", "A body so large matches well with the vastness\nof the ocean. Death can come at any time, so\nlive as if this day was your last. (Area attack)"]
     178:
       name: [Dioramos, Archdragon Dioramos, God-Emperor Dioramos]
       desc: ["This dragon lord seeks to set it all ablaze.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "An ancient dragon of unquestioned authority.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "Brutal attacks powered by hate - a family \ntradition of mercilessness. 100% Barrier break,\nplus Knockback & Slow vs Angels (Area Atk)"]
@@ -1371,8 +1389,8 @@ cats:
       name: [Ken, Ken CC]
       desc: ["Joining the fight from Street Fighter V!\nLike a brother to Ryu, and his greatest rival.\nKnockback/Strong vs Red, Floating, Angels (Omni)", "Joining the fight from Street Fighter V!\nRyu's ultimate rival, master of the Shoryuken.\nKnockback/Strong vs Red, Floating, Angels (Omni)"]
     520:
-      name: [Lasvoss, Ultimate Lasvoss]
-      desc: ["Incarnation of Evil summoned to eradicate the forces\nof Good. May strike a Savage Blow imbued with dark\npower. Survives once, stronger after taking damage.", "His final form, revealed for the final confrontation with\nthe heroes. Smites adventurers with Savage Blows,\nSurvives once, Stronger after taking damage."]
+      name: [Lasvoss, Ultimate Lasvoss, Lasvoss Reborn]
+      desc: ["Incarnation of Evil summoned to eradicate the forces\nof Good. May strike a Savage Blow imbued with dark\npower. Survives once, stronger after taking damage.", "His final form, revealed for the final confrontation with\nthe heroes. Smites adventurers with Savage Blows,\nSurvives once, Stronger after taking damage.", "Will arise only on the eve of the world's destruction.\nCloaked in darkness, his claws obliterate naive\nheroes, leaving no trace of their pitiful existence."]
     526:
       name: [Kintaro, Kinrangers RoboForce, Kinrangers GigaForce]
       desc: ["Young exec at AxeCorp, managing operations\nat the mountain office with intern Li'l Bear.\nMight Slow Angels and strike a Savage Blow.", "Gathered the whole Beast Division for a unified\nfight against a very hostile acquisition attempt.\nMight Slow Angels and strike a Savage Blow.", "Beast Division Elites with upgraded tech to better\ndefend the stock portfolios of the future. Long-Range\nArea atk. might Slow/Curse Angels, with Savage Blow."]
@@ -1481,6 +1499,24 @@ cats:
     596:
       name: [Blooming Kamukura, Everbloom Kamukura]
       desc: ["Mythic Dragon announcing the arrival of spring,\nwho appears after collecting 7 Easter Eggs.\nArea Attacks might Slow & Knockback Metal.", "Mythic Dragon summoned with 7 Easter Eggs.\nAnything his magic breath touches bursts into life.\nArea Attacks might Slow & Knockback Metal.", "Mythic Dragon summoned with 7 Easter Eggs.\nAnything his magic breath touches bursts into life.\nArea Attacks might Slow & Knockback Metal."]
+    597:
+      name: [Ranma Saotome (M), Ranma Saotome (F)]
+      desc: ["Joining from Ranma 1/2! Heir to the\nSaotome style of Anything Goes Martial Arts.\nMassive Omnistrike damage to Red/Floating.", "Joining from Ranma 1/2! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating.", "Joining from Ranma 1/2! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating."]
+    598:
+      name: [Akane Tendo, Akane Tendo (Gi)]
+      desc: ["Joining from Ranma 1/2! Strong and clumsy,\nbut pure-hearted girl engaged to Ranma.\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!"]
+    599:
+      name: [Hibiki Ryoga (Pig), Hibiki Ryoga]
+      desc: ["Joining from Ranma 1/2! Cute piglet pampered\nby Akane. But when doused in hot water...\nTough vs Metal/Black enemies, might Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback"]
+    600:
+      name: [Shampoo (Cat), Shampoo]
+      desc: ["Joining from Ranma 1/2! When doused in\nwater, Cursed Springs magic turns her into a cat.\nAttacks have chance of Mini-Wave.", "Joining from Ranma 1/2! Mighty Amazon who'll\nfight anyone standing between her and Ranma.\n100% chance of Mini-Wave."]
+    601:
+      name: [Mousse (Duck), Mousse]
+      desc: ["Joining from Ranma 1/2! When doused in water,\nCursed Springs magic turns him into a duck.\nLong-range strikes might Curse Aliens/Zombies.", "Joining from Ranma 1/2! Dirty tricks master in\nlove with Shampoo... who has no feelings for him.\nLong-range strikes 100% Curse Aliens/Zombies."]
+    608:
+      name: [Adventurer Kanna, Swashbuckler Kanna]
+      desc: ["Fearless swordswoman from a world of fantasy!\nStumbled into a portal to the Cat Empire. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2110,6 +2146,11 @@ gacha:
   582: [590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   583: [594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   584: [594, 593, 592, 591, 584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  585: [608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  586: [608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  587: [608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  588: [601, 600, 599, 598, 597, 602, 602, 603, 603, 604, 604, 606, 606, 606, 606, 606, 606, 606, 606, 606, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
+  589: [601, 600, 599, 598, 597, 602, 603, 604, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
