@@ -196,8 +196,7 @@ module BattleCatsRolls
           load_pack
         else
           if File.exist?(apk_path) || download_apk
-            write_pack
-            load_pack
+            write_pack && load_pack
           else
             puts "! Cannot find '#{version}' for #{lang}"
           end
@@ -316,12 +315,18 @@ module BattleCatsRolls
           "assets/#{name}"
         end
 
-      system('unzip', apk_path, *paths, '-d', app_data_path)
-
       require 'fileutils'
-      assets = Dir["#{app_data_path}/assets/*"]
-      FileUtils.mv(assets, app_data_path, verbose: true)
-      FileUtils.rmdir("#{app_data_path}/assets", verbose: true)
+
+      if system('unzip', apk_path, *paths, '-d', app_data_path)
+        assets = Dir["#{app_data_path}/assets/*"]
+        FileUtils.mv(assets, app_data_path, verbose: true)
+        FileUtils.rmdir("#{app_data_path}/assets", verbose: true)
+        true
+      else
+        puts "Removing bogus #{apk_path}..."
+        FileUtils.rm(apk_path)
+        false
+      end
     end
 
     def each_list dir=nil
