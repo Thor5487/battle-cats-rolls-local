@@ -7661,3 +7661,82 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-04-12_414:
+    start_on: 2021-04-12
+    end_on: 2021-04-26
+    version: '100400'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-04-12_424:
+    start_on: 2021-04-12
+    end_on: 2021-04-14
+    version: '100400'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-14_517:
+    start_on: 2021-04-14
+    end_on: 2021-04-16
+    version: '100400'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-16_542:
+    start_on: 2021-04-16
+    end_on: 2021-04-19
+    version: '100400'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 542
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-04-19_497:
+    start_on: 2021-04-19
+    end_on: 2021-04-21
+    version: '100400'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-21_433:
+    start_on: 2021-04-21
+    end_on: 2021-04-23
+    version: '100400'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-04-23_414:
+    start_on: 2021-04-23
+    end_on: 2021-04-26
+    version: '100400'
+    name: 'LAST CHANCE: Merc Storia Capsules, with 11-Draw Guaranteed Uber!'
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-04-23_538:
+    start_on: 2021-04-23
+    end_on: 2021-04-26
+    version: '100400'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
