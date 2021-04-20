@@ -28,7 +28,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         __method__,
-        '10.4.0',
+        '10.5.0',
         AwsAuth.event_url('jp'),
         'jp.co.ponos.battlecats'
       ]
