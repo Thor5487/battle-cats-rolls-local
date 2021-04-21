@@ -25,6 +25,7 @@ module BattleCatsRolls
         544, # "Kasli the Bane",
         560, # "Hell Warden Emma",
         586, # "Baby Garu",
+        610, # "Shadow Garu",
       ].freeze
     end
 
