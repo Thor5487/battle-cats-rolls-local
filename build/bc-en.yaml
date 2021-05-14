@@ -7859,3 +7859,83 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2021-05-17_427:
+    start_on: 2021-05-17
+    end_on: 2021-05-19
+    version: '100400'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-05-17_589:
+    start_on: 2021-05-17
+    end_on: 2021-05-31
+    version: '100400'
+    name: Nine Limited Heroes in the Ranma 1/2 Collab Capsules! Tap for info!
+    id: 589
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-05-19_424:
+    start_on: 2021-05-19
+    end_on: 2021-05-21
+    version: '100400'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-05-21_517:
+    start_on: 2021-05-21
+    end_on: 2021-05-24
+    version: '100400'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-05-24_433:
+    start_on: 2021-05-24
+    end_on: 2021-05-26
+    version: '100400'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-05-26_538:
+    start_on: 2021-05-26
+    end_on: 2021-05-28
+    version: '100400'
+    name: Elemental Pixies, with new hero GRAVI ★ Tap banner for info!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-05-28_497:
+    start_on: 2021-05-28
+    end_on: 2021-05-31
+    version: '100400'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-05-28_589:
+    start_on: 2021-05-28
+    end_on: 2021-05-31
+    version: '100400'
+    name: Limited Ranma 1/2 Collab Heroes , with 11-draw Uber guarantee!
+    id: 589
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
