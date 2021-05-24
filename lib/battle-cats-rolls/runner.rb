@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '10.4.0',
+        '10.5.0',
         AwsAuth.event_url('kr'),
         'jp.co.ponos.battlecatskr'
       ]
@@ -291,7 +291,8 @@ module BattleCatsRolls
           http.request(get)
         end
 
-      new_laravel_session = response['set-cookie'][/laravel_session=(.+);/, 1]
+      cookie = response['set-cookie']
+      new_laravel_session = cookie[/laravel_session=(.+);/, 1] if cookie
 
       [response.body, new_laravel_session]
     end
