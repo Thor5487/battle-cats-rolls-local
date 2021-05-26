@@ -299,6 +299,9 @@ cats:
     607:
       name: [Panda Cat, Genma Cat]
       desc: ["A Cat who admires the Saotome school master,\nand always trains wearing a cute panda outfit.\nCollects Extra Money after defeating enemies!", "A Cat who admires the Saotome school master.\nSold his panda outfit for a cool martial arts gi.\nCollects Extra Money after defeating enemies!", "A Cat who admires the Saotome school master.\nSold his panda outfit for a cool martial arts gi.\nCollects Extra Money after defeating enemies!"]
+    611:
+      name: [Gold Brick Cat, King Ingot Cat, King Nekokhamen]
+      desc: ["A hefty hunk of pure gold that was worth\ntwice as much before Tank Cat got mixed up in it.\nTough vs. Floating (Area Attack)", "A squad of Gold Brick Cats got together to form\na single, shiny fighting unit. Hail to the King!\nTough vs. Floating (Area Attack)", "Golden Cat pharoah unseen since the ancient Empire.\nTourists now come from all around to behold his glory.\nTough vs. Floating, Immune to Toxic (Area Atk)"]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -631,8 +634,8 @@ cats:
       name: [Medusa Cat, Twintail Medusa Cat]
       desc: ["Fiercely proud of her edgy hairstyle. Uses extra\nspray to prevent her locks from slithering out of\nplace. Long-range area attacks may Freeze Relics.", "The spray couldn't hold them down, so she had to\ntie her unruly locks up to keep them under control.\nLong-range area attacks may Freeze Relics."]
     524:
-      name: [Wushu Cat, Sifu Cat]
-      desc: ["Top student at a discount martial arts school that\ncosts $40 per month. Goes twice weekly after work.\nTough vs Zombies.", "Owner of a discount martial arts school. His insistence\non using custom equipment disqualifies him from\nofficial competitions. Tough vs Zombies."]
+      name: [Wushu Cat, Sifu Cat, Shigong Cat]
+      desc: ["Top student at a discount martial arts school that\ncosts $40 per month. Goes twice weekly after work.\nTough vs Zombies.", "Owner of a discount martial arts school. His insistence\non using custom equipment disqualifies him from\nofficial competitions. Tough vs Zombies.", "His peerless fighting instincts obliterate any enemy in\nhis path. Even his battle aura sends foes fleeing in fear!\nTough vs Zombies"]
     528:
       name: [Slime Cat, Jellycat]
       desc: ["When I woke up, I found myself turned into a slime.\nNow I wander the city bullying low-level heroes.\n100% Wave Attack chance.", "Uncanny beasts that appear en masse, soothing\nthe eyes and stinging the skin of passersby.\nBewilder your enemy with Wave Attacks!"]
@@ -1401,8 +1404,8 @@ cats:
       name: [Kasli the Scourge, Ritual Saint Kasli]
       desc: ["Young wanderer whose soul is a prison to 1000\nvengeful ghosts. Trifle with her at your peril.\nLong-range Surges might Knockback Traited!", "Having at last encountered kindness and love, she\nnow commands her wraiths for the cause of light!\nLong-range Surges w/ chance to Knockback Traited!"]
     534:
-      name: [Sharpshooter Saki, Nighthunter Saki]
-      desc: ["A sniper prodigy, small but effective. Can change\nthe entire course of battle with a single bullet.\nLong-range attacks only hit Aliens & Red.", "The watchful guardian over the night city. Genius\nwith a rifle, who still has to help Mom with the dishes.\nLong-range attacks only hit Aliens & Zombies."]
+      name: [Sharpshooter Saki, Nighthunter Saki, Bad Blaster Saki]
+      desc: ["A sniper prodigy, small but effective. Can change\nthe entire course of battle with a single bullet.\nLong-range attacks only hit Aliens & Red.", "The watchful guardian over the night city. Genius\nwith a rifle, who still has to help Mom with the dishes.\nLong-range attacks only hit Aliens & Zombies.", "Too many contracts means she always cancels on\nher friends. Can upgraded gear save her social life?\nLong-range attacks only hit Aliens & Relics."]
     535:
       name: [Hades the Punisher, Hades the Deathdealer, Almighty Hades]
       desc: ["Supreme overlord and judge of the dead.\nCondemns evil souls with his infernal scythe.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the underworld who reaps the spirits\nof sinners, bringing them to their ultimate fate.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the nether realms, who uses the fruit of\ncreation to draw the sinful dead to his kingdom.\nImmune to Toxic & Warp (Area Attack)"]
@@ -1506,7 +1509,7 @@ cats:
       name: [Akane Tendo, Akane Tendo (Gi)]
       desc: ["Joining from Ranma 1/2! Strong and clumsy,\nbut pure-hearted girl engaged to Ranma.\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!"]
     599:
-      name: [Hibiki Ryoga (Pig), Hibiki Ryoga]
+      name: [Ryoga Hibiki (Pig), Ryoga Hibiki]
       desc: ["Joining from Ranma 1/2! Cute piglet pampered\nby Akane. But when doused in hot water...\nTough vs Metal/Black enemies, might Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback"]
     600:
       name: [Shampoo (Cat), Shampoo]
@@ -2143,7 +2146,7 @@ gacha:
   579: [596, 524, 523, 496, 332, 331, 333, 333, 333, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   580: [596, 524, 523, 496, 332, 331, 333, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   581: [590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
-  582: [590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  582: [596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   583: [594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   584: [594, 593, 592, 591, 584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   585: [608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
@@ -2151,6 +2154,18 @@ gacha:
   587: [608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   588: [601, 600, 599, 598, 597, 602, 602, 603, 603, 604, 604, 606, 606, 606, 606, 606, 606, 606, 606, 606, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
   589: [601, 600, 599, 598, 597, 602, 603, 604, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
+  590: [610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  591: [610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  592: [610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  593: [610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  594: [524, 523, 496, 521, 436, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 560, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  595: [524, 523, 496, 521, 485, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 560, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  596: [449, 450, 452, 547, 520, 339, 506, 107, 204, 432, 440, 305, 361, 358, 398, 564, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  597: [451, 494, 482, 545, 437, 45, 125, 397, 503, 323, 534, 259, 306, 570, 359, 287, 585, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  598: [456, 479, 464, 462, 169, 428, 497, 84, 160, 526, 262, 535, 418, 360, 335, 284, 571, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  599: [449, 450, 452, 547, 520, 339, 506, 107, 204, 432, 440, 305, 361, 358, 398, 564, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  600: [451, 494, 482, 545, 437, 45, 125, 397, 503, 323, 534, 259, 306, 570, 359, 287, 585, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  601: [456, 479, 464, 462, 169, 428, 497, 84, 160, 526, 262, 535, 418, 360, 335, 284, 571, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
