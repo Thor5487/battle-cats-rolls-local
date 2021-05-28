@@ -7954,3 +7954,63 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-05-31_488:
+    start_on: 2021-05-31
+    end_on: 2021-06-02
+    version: '100500'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 488
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-02_476:
+    start_on: 2021-06-02
+    end_on: 2021-06-04
+    version: '100500'
+    name: Heroes of Japanese fantasy with 2 battle modes! ★ Tap banner for info!
+    id: 476
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-04_575:
+    start_on: 2021-06-04
+    end_on: 2021-06-07
+    version: '100500'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 575
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-06-07_573:
+    start_on: 2021-06-07
+    end_on: 2021-06-09
+    version: '100500'
+    name: NEW Iron Legion Hero Mighty Aethur Ltd. ★ Tap banner for info!
+    id: 573
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-09_431:
+    start_on: 2021-06-09
+    end_on: 2021-06-11
+    version: '100500'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 431
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-11_586:
+    start_on: 2021-06-11
+    end_on: 2021-06-14
+    version: '100500'
+    name: Summon Adventurer Kanna to your army!　★ Tap banner for info!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
