@@ -26,6 +26,7 @@ module BattleCatsRolls
         560, # "Hell Warden Emma",
         586, # "Baby Garu",
         610, # "Shadow Garu",
+        613, # "ネコ王女",
       ].freeze
     end
 
