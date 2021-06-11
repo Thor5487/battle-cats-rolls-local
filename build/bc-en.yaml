@@ -8014,3 +8014,52 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2021-06-14_427:
+    start_on: 2021-06-14
+    end_on: 2021-06-16
+    version: '100500'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-16_424:
+    start_on: 2021-06-16
+    end_on: 2021-06-18
+    version: '100500'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-18_576:
+    start_on: 2021-06-18
+    end_on: 2021-06-21
+    version: '100500'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 576
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-06-21_517:
+    start_on: 2021-06-21
+    end_on: 2021-06-23
+    version: '100500'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-23_433:
+    start_on: 2021-06-23
+    end_on: 2021-06-25
+    version: '100500'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
