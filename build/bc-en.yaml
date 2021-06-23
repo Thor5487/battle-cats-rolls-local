@@ -8063,3 +8063,62 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-06-25_538:
+    start_on: 2021-06-25
+    end_on: 2021-06-28
+    version: '100500'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-28_497:
+    start_on: 2021-06-28
+    end_on: 2021-06-30
+    version: '100500'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-06-30_487:
+    start_on: 2021-06-30
+    end_on: 2021-07-02
+    version: '100600'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-02_575:
+    start_on: 2021-07-02
+    end_on: 2021-07-05
+    version: '100600'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 575
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-07-05_475:
+    start_on: 2021-07-05
+    end_on: 2021-07-07
+    version: '100600'
+    name: Super-sweet limited Valentine's heroes! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-07_572:
+    start_on: 2021-07-07
+    end_on: 2021-07-09
+    version: '100600'
+    name: NEW Iron Legion Hero Mighty Aethur Ltd. ★ Tap banner fo info!
+    id: 572
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
