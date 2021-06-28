@@ -302,6 +302,9 @@ cats:
     611:
       name: [Gold Brick Cat, King Ingot Cat, King Nekokhamen]
       desc: ["A hefty hunk of pure gold that was worth\ntwice as much before Tank Cat got mixed up in it.\nTough vs. Floating (Area Attack)", "A squad of Gold Brick Cats got together to form\na single, shiny fighting unit. Hail to the King!\nTough vs. Floating (Area Attack)", "Golden Cat pharoah unseen since the ancient Empire.\nTourists now come from all around to behold his glory.\nTough vs. Floating, Immune to Toxic (Area Atk)"]
+    614:
+      name: [Elder Mask Doron, Cat Mask Doron]
+      desc: ["Ancient hero now allied with the trendy Cats.\nRedesigned his look without telling his parents.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -690,6 +693,9 @@ cats:
     606:
       name: [Akane Cat, Akane Cat (Gi)]
       desc: ["A pure-hearted Cat loved by all the guys.\nAwaiting the fiance of her dreams.\nChance to strike a Savage Blow!", "A Cat who just can't stand boys! Trains while\nimagining she's beating up that one rude guy!\nChance to strike a Savage Blow!"]
+    612:
+      name: [Godzilla Cat, Shin Godzilla Cat]
+      desc: ["A Cat who loves to play Godzilla, rampaging\nthrough the city streets meowing furiously.\nStrong vs Black Enemies", "Wants to become the king of monsters like Godzilla.\nDrinks milk daily, hoping to grow to 118.5 meters tall.\nStrong vs Black Enemies"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -866,20 +872,20 @@ cats:
       name: [Otaku Geek Cat, Hacker Geek Cat]
       desc: ["Cat bearing the spirit of a legendary programmer\ndedicated to teaching the world through his blog.\nLong-distance attacks 100% Weaken non-Metal.", "An expert techie who knows any machine inside\nand out. Yesterday, his own blog was hacked...\nLong-distance attacks 100% Weaken non-Metal."]
     444:
-      name: [Driller Cat, Power Driller Cat]
-      desc: ["The heart of the Grandon mining team,\nhis dream is to drill right to the Earth's core.\nLong-range attacks Weaken Traitless enemies.", "Digging specialist of the brave Grandon Cats.\nHis antenna is detecting a long-buried treasure!\nLong-range attacks Weaken Traitless enemies.", "Unofficial leader of the brave Grandon Cats.\nHis antenna is detecting a long-buried treasure!\nLong-range attacks Weaken Traitless enemies."]
+      name: [Driller Cat, Power Driller Cat, Neo Driller Cat]
+      desc: ["The heart of the Grandon mining team,\nhis dream is to drill right to the Earth's core.\nLong-range attacks Weaken Traitless enemies.", "Digging specialist of the brave Grandon Cats.\nHis antenna is detecting a long-buried treasure!\nLong-range attacks Weaken Traitless enemies.", "Digging specialist of the brave Grandon Cats.\nNew antenna for better treasure tracking?! Strong\nvs Traitless, with Weakening Long-range attacks."]
     445:
-      name: [Piledriver Cat, Power Piledriver Cat]
-      desc: ["Drives stakes deep in the earth! She doesn't need\nyour permission, she'll hammer where she likes!\nTough & Knockback vs Zombies! (Omni-Strike)", "The rest of Grandon is a little scared of her.\nDon't like it? She'll put a stake right up your nose!\nTough & Knockback vs Zombies! (Omni-Strike)"]
+      name: [Piledriver Cat, Power Piledriver Cat, Neo Piledriver Cat]
+      desc: ["Drives stakes deep in the earth! She doesn't need\nyour permission, she'll hammer where she likes!\nTough & Knockback vs Zombies! (Omni-Strike)", "The rest of Grandon is a little scared of her.\nDon't like it? She'll put a stake right up your nose!\nTough & Knockback vs Zombies! (Omni-Strike)", "Stake-driving specialist of the Grandon Corps.\nGuides her points like a needle through thread.\nTough & Knockback vs Zombies! (Omni-Strike)"]
     446:
-      name: [Cutter Cat, Power Cutter Cat]
-      desc: ["Does double duty cutting and cooking for\nthe Grandon Cats. Huge Area damage vs Red,\nSurvives, gets stronger after taking damage.", "Gained a cutting-edge stove-top for more efficient\nmeal prep. Huge Area damage vs Red,\nSurvives, gets stronger after taking damage."]
+      name: [Cutter Cat, Power Cutter Cat, Neo Cutter Cat]
+      desc: ["Does double duty cutting and cooking for\nthe Grandon Cats. Huge Area damage vs Red,\nSurvives, gets stronger after taking damage.", "Gained a cutting-edge stove-top for more efficient\nmeal prep. Huge Area damage vs Red,\nSurvives, gets stronger after taking damage.", "Cutting (and cooking) specialist of the Grandon Corps.\nSupreme blue-collar flavor. Massive Area Damage vs\nRed, 100% Survive, stronger after taking damage."]
     447:
-      name: [Backhoe Cat, Power Backhoe Cat]
-      desc: ["No one digs like this guy. Don't even try, you'll lose.\nOnly attacks Metal, with Critical chance!\nGains extra money when defeating enemies!", "The way he picks up dirt is just... glorious.\nOnly attacks Metal, with Critical chance!\nGains extra money when defeating enemies!"]
+      name: [Backhoe Cat, Power Backhoe Cat, Neo Backhoe Cat]
+      desc: ["No one digs like this guy. Don't even try, you'll lose.\nOnly attacks Metal, with Critical chance!\nGains extra money when defeating enemies!", "The way he picks up dirt is just... glorious.\nOnly attacks Metal, with Critical chance!\nGains extra money when defeating enemies!", "Digging the perfect hole is a divine act, he says.\nOnly attacks Metal, with Critical & Surge Attack!\nGains extra money when defeating enemies!"]
     448:
-      name: [Miter Saw Cat, Power Saw Cat]
-      desc: ["The sawmaster-in-residence of Grandon.\nHates it when things aren't cut in half.\nMassive Damage and Tough vs. Aliens!", "It's so boring when there's nothing to cut...\nThe box has groceries for mommy in it.\nMassive Damage and Tough vs. Aliens!"]
+      name: [Miter Saw Cat, Power Saw Cat, Neo Saw Cat]
+      desc: ["The sawmaster-in-residence of Grandon.\nHates it when things aren't cut in half.\nMassive Damage and Tough vs. Aliens!", "It's so boring when there's nothing to cut...\nThe box has groceries for mommy in it.\nMassive Damage and Tough vs. Aliens!", "Guru of the power saw, who has become one \nwith his machine. His potential is now limitless.\nMassive Damage and Tough vs. Aliens!"]
     461:
       name: [Kotomine & Gilgamesh Cats, Gilgamesh & Kotomine Cats]
       desc: ["A Cat-priest with a taste for extra-spicy mapo tofu,\nand a Cat Spirit with flawless tactical sense.\nMight weaken Black, stronger after damage.", "One Cat has begun to tire of the game of battle,\nbut the other still can't get enough mapo tofu.\nMight weaken Zombies, stronger after damage."]
@@ -1455,8 +1461,8 @@ cats:
       name: [Summerluga , Bikinilan Pasalan]
       desc: ["Not sure if this is a Cat... or a Gal?\nThere's just something about\nthat taste in swimwear...", "Blistering barnacles! Seems like\nthis bodacious beach babe has\n100% chance of Area Surge attacks"]
     570:
-      name: [Gravi, Gravolo]
-      desc: ["A stone spirit who traversed the universe,\ngathering cosmic power as it soared through space.\n100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack."]
+      name: [Gravi, Gravolo, Gravolodon]
+      desc: ["A stone spirit who traversed the universe,\ngathering cosmic power as it soared through space.\n100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack.", "Boulder spirit willed into being by the god of meteors.\nShatters Barriers with holy energy of the cosmos!\nTough vs Aliens, 100% chance of Wave Attack."]
     571:
       name: [Skull Rider Vars, Nightmare King Vars]
       desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies."]
@@ -1520,6 +1526,12 @@ cats:
     608:
       name: [Adventurer Kanna, Swashbuckler Kanna]
       desc: ["Fearless swordswoman from a world of fantasy!\nStumbled into a portal to the Cat Empire. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!"]
+    610:
+      name: [Dark Aegis Garu, Dark Beastlord Garu]
+      desc: ["Mirror version of the stalwart guardian beast,\nborn into a cold, harsh reality. Tough vs Traitless,\nMini-Wave Omnistrikes, with Wave Immunity.", "A vision of despair by one who could not protect those\nmost dear to them.Tough vs Traitless, Mini-Wave Omni-\nstrikes get stronger after damage, with Wave Immunity.", "A vision of despair by one who could not protect those\nmost dear to them.Tough vs Traitless, Mini-Wave Omni-\nstrikes get stronger after damage, with Wave Immunity."]
+    613:
+      name: [Princess Cat, Empress Cat]
+      desc: ["In a hidden Cat Kingdom, a 9-year old genius\nhas memorized the entirely of the royal libraries.\nWeakens Red, Angels, Zombies, with Mini-Wave.", "With her vast intellect (and forbidden spellbooks),\nshe has guided the Cat Kingdom to a golden age.\nWeakens Red, Angels, Zombies, with Mini-Wave.", "With her vast intellect (and forbidden spellbooks),\nshe has guided the Cat Kingdom to a golden age.\nWeakens Red, Angels, Zombies, with Mini-Wave."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2166,6 +2178,9 @@ gacha:
   599: [449, 450, 452, 547, 520, 339, 506, 107, 204, 432, 440, 305, 361, 358, 398, 564, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   600: [451, 494, 482, 545, 437, 45, 125, 397, 503, 323, 534, 259, 306, 570, 359, 287, 585, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   601: [456, 479, 464, 462, 169, 428, 497, 84, 160, 526, 262, 535, 418, 360, 335, 284, 571, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  602: [613, 545, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 565, 534, 527, 503, 497, 359, 331, 272, 260, 230, 196, 139, 107, 43, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
+  603: [613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  604: [613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
