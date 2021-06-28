@@ -14,7 +14,10 @@ module BattleCatsRolls
     def self.load dir, lang
       require 'yaml'
 
-      new(YAML.load_file("#{dir}/bc-#{lang}.yaml"))
+      new(
+        YAML.safe_load_file(
+          "#{dir}/bc-#{lang}.yaml",
+          permitted_classes: [Date]))
     end
 
     def cats
