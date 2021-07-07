@@ -8137,3 +8137,72 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-07-09_590:
+    start_on: 2021-07-09
+    end_on: 2021-07-12
+    version: '100600'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 590
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-07-09_592:
+    start_on: 2021-07-09
+    end_on: 2030-01-01
+    version: '100600'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 592
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-07-12_430:
+    start_on: 2021-07-12
+    end_on: 2021-07-14
+    version: '100600'
+    name: Galaxy Gals, here from the future to win the day! ★ Tap banner for info!
+    id: 430
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-14_585:
+    start_on: 2021-07-14
+    end_on: 2021-07-16
+    version: '100600'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-16_427:
+    start_on: 2021-07-16
+    end_on: 2021-07-19
+    version: '100600'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-19_433:
+    start_on: 2021-07-19
+    end_on: 2021-07-21
+    version: '100600'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-21_424:
+    start_on: 2021-07-21
+    end_on: 2021-07-23
+    version: '100600'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
