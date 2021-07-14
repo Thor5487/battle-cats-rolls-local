@@ -8508,3 +8508,44 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-07-15_482:
+    start_on: 2021-07-15
+    end_on: 2021-07-19
+    version: '100700'
+    name: "『ケリ姫スイーツ』のキャラだけが登場する特別ガチャ！★11連で超激レア確定!!"
+    id: 482
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-07-15_517:
+    start_on: 2021-07-15
+    end_on: 2021-07-17
+    version: '100700'
+    name: 謎に包まれたキモかわ生命体！「伝説のネコルガ族」★詳細はバナーをタップ!!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-07-17_487:
+    start_on: 2021-07-17
+    end_on: 2021-07-19
+    version: '100700'
+    name: 正義と闇の力を併せ持つ、にゃんこ軍団の救世主達！★詳細はバナーをタップ!!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-07-19_590:
+    start_on: 2021-07-19
+    end_on: 2021-07-22
+    version: '100700'
+    name: 新キャラ「黒獣ガルディアン」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    id: 590
+    rare: 6500
+    supa: 2600
+    uber: 900
