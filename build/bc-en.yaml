@@ -305,6 +305,12 @@ cats:
     614:
       name: [Elder Mask Doron, Cat Mask Doron]
       desc: ["Ancient hero now allied with the trendy Cats.\nRedesigned his look without telling his parents.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack."]
+    616:
+      name: [Kabuto Cat, Golden Kabuto Cat]
+      desc: ["An armored Cat who loves oak sap.\nCan't be caught using a normal net.\nStrong vs Red & Black enemies", "The mighty one-horned King of Summer.\nUndefeated in the insect sumo tournament.\nStrong vs Red & Black enemies"]
+    617:
+      name: [Kuwagata Cat, King Kuwagata Cat]
+      desc: ["An armored Cat who loves melon rinds.\nCan only be caught with a special net.\nStrong vs Floating & Alien enemies", "Champion of Summer with a sturdy, shiny\nbody. Keeps fighting even after the match\nis over. Strong vs Floating & Alien enemies"]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -1532,6 +1538,9 @@ cats:
     613:
       name: [Princess Cat, Empress Cat]
       desc: ["In a hidden Cat Kingdom, a 9-year old genius\nhas memorized the entirely of the royal libraries.\nWeakens Red, Angels, Zombies, with Mini-Wave.", "With her vast intellect (and forbidden spellbooks),\nshe has guided the Cat Kingdom to a golden age.\nWeakens Red, Angels, Zombies, with Mini-Wave.", "With her vast intellect (and forbidden spellbooks),\nshe has guided the Cat Kingdom to a golden age.\nWeakens Red, Angels, Zombies, with Mini-Wave."]
+    615:
+      name: [Kaguya of the Coast, The Southern Sun]
+      desc: ["Left behind her palace on the moon for a\nholiday enjoying fresh watermelon on Earth.\nArea attacks might Slow Black/Alien enemies.", "Ancient superweapon built to defend a\ntropical paradise by blasting coconuts at invaders.\nArea attacks 100% Slow Black/Alien enemies.", "Ancient superweapon built to defend a\ntropical paradise by blasting coconuts at invaders.\nArea attacks 100% Slow Black/Alien enemies."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2181,6 +2190,9 @@ gacha:
   602: [613, 545, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 565, 534, 527, 503, 497, 359, 331, 272, 260, 230, 196, 139, 107, 43, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
   603: [613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   604: [613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  605: [615, 567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  606: [596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  607: [615, 567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
