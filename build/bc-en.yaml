@@ -8218,3 +8218,43 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-07-23_517:
+    start_on: 2021-07-23
+    end_on: 2021-07-26
+    version: '100700'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-07-26_538:
+    start_on: 2021-07-26
+    end_on: 2021-07-28
+    version: '100700'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-28_497:
+    start_on: 2021-07-28
+    end_on: 2021-07-30
+    version: '100700'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-07-30_575:
+    start_on: 2021-07-30
+    end_on: 2021-08-02
+    version: '100700'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 575
+    rare: 6500
+    supa: 2600
+    uber: 900
