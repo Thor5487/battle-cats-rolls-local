@@ -8635,3 +8635,125 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-08-04_605:
+    start_on: 2021-08-04
+    end_on: 2021-08-09
+    version: '100802'
+    name: 新キャラ追加！開放的な夏限定のキャラクターをGET！★11連で超激レア確定!!
+    id: 605
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-08-04_611:
+    start_on: 2021-08-04
+    end_on: 2021-08-07
+    version: '100802'
+    name: 悪魔属性に強い新キャラクター「妖賢女リリン」参戦！★詳細はバナーをタップ!!
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-08-04_616:
+    start_on: 2021-08-04
+    end_on: 2030-01-01
+    version: '100802'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 616
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-08-04_618:
+    start_on: 2021-08-04
+    end_on: 2030-01-01
+    version: '100802'
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    id: 618
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2021-08-07_497:
+    start_on: 2021-08-07
+    end_on: 2021-08-09
+    version: '100802'
+    name: にゃんこワールドの偉大なる神々、ここに集結！★詳細はバナーをタップ!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-08-07_605:
+    start_on: 2021-08-07
+    end_on: 2021-08-09
+    version: '100802'
+    name: 新キャラ追加！開放的な夏限定のキャラクターをGET！★11連で超激レア確定!!
+    id: 605
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-08-09_435:
+    start_on: 2021-08-09
+    end_on: 2021-08-11
+    version: '100802'
+    name: 圧倒的な存在感を放つ、強力なドラゴン達を手に入れよう！★詳細はバナーをタップ!!
+    id: 435
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-08-11_451:
+    start_on: 2021-08-11
+    end_on: 2021-08-13
+    version: '100802'
+    name: 赤い敵対策はお任せ！限定キャラも登場する特別版！★おまけアップイベント開催中!!
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-08-11_452:
+    start_on: 2021-08-11
+    end_on: 2021-08-13
+    version: '100802'
+    name: 浮いてる敵に対して強力効果の「エアバスターズ」！★おまけアップイベント開催中!!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-08-11_453:
+    start_on: 2021-08-11
+    end_on: 2021-08-13
+    version: '100802'
+    name: メタルな敵に効果絶大！限定キャラも登場の特別版！★おまけアップイベント開催中!!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-08-13_615:
+    start_on: 2021-08-13
+    end_on: 2021-08-16
+    version: '100802'
+    name: 新キャラ「黒獣ガルディアン」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    id: 615
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-08-16_487:
+    start_on: 2021-08-16
+    end_on: 2021-08-18
+    version: '100802'
+    name: 正義と闇の力を併せ持つ、にゃんこ軍団の救世主達！★詳細はバナーをタップ!!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
