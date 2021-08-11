@@ -8337,3 +8337,133 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2021-08-16_427:
+    start_on: 2021-08-16
+    end_on: 2021-08-18
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 427
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-16_430:
+    start_on: 2021-08-16
+    end_on: 2021-08-18
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 430
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-18_433:
+    start_on: 2021-08-18
+    end_on: 2021-08-20
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 433
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-18_585:
+    start_on: 2021-08-18
+    end_on: 2021-08-20
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 585
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-20_424:
+    start_on: 2021-08-20
+    end_on: 2021-08-22
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 424
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-20_517:
+    start_on: 2021-08-20
+    end_on: 2021-08-22
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 517
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-22_487:
+    start_on: 2021-08-22
+    end_on: 2021-08-24
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 487
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-22_497:
+    start_on: 2021-08-22
+    end_on: 2021-08-24
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 497
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-24_475:
+    start_on: 2021-08-24
+    end_on: 2021-08-26
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 475
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-24_538:
+    start_on: 2021-08-24
+    end_on: 2021-08-26
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 538
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-26_572:
+    start_on: 2021-08-26
+    end_on: 2021-08-27
+    version: '100700'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 572
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2021-08-27_602:
+    start_on: 2021-08-27
+    end_on: 2021-08-30
+    version: '100700'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 602
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2021-08-27_603:
+    start_on: 2021-08-27
+    end_on: 2030-01-01
+    version: '100700'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 603
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
