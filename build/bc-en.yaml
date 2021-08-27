@@ -8467,3 +8467,70 @@ events:
     supa: 0
     uber: 10000
     platinum: platinum
+  2021-08-30_427:
+    start_on: 2021-08-30
+    end_on: 2021-09-01
+    version: '100800'
+    name: Slay your foes with the mighty Vajiras! ★ Tap banner for info!
+    id: 427
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-08-30_607:
+    start_on: 2021-08-30
+    end_on: 2021-09-20
+    version: '100800'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 607
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-09-01_585:
+    start_on: 2021-09-01
+    end_on: 2021-09-03
+    version: '100800'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-03_575:
+    start_on: 2021-09-03
+    end_on: 2021-09-06
+    version: '100800'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 575
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-09-06_424:
+    start_on: 2021-09-06
+    end_on: 2021-09-08
+    version: '100800'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-06_607:
+    start_on: 2021-09-06
+    end_on: 2021-09-20
+    version: '100800'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 607
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-09-08_517:
+    start_on: 2021-09-08
+    end_on: 2021-09-10
+    version: '100800'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
