@@ -10,7 +10,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         __method__,
-        '10.7.0',
+        '10.8.0',
         AwsAuth.event_url('en'),
         'jp.co.ponos.battlecatsen'
       ]
@@ -19,7 +19,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         __method__,
-        '10.7.0',
+        '10.8.0',
         AwsAuth.event_url('tw'),
         'jp.co.ponos.battlecatstw'
       ]
@@ -28,7 +28,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         __method__,
-        '10.8.0',
+        '10.9.0',
         AwsAuth.event_url('jp'),
         'jp.co.ponos.battlecats'
       ]
@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '10.7.0',
+        '10.8.0',
         AwsAuth.event_url('kr'),
         'jp.co.ponos.battlecatskr'
       ]

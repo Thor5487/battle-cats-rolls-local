@@ -88,7 +88,7 @@ cats:
       desc: ["A cat who travels the world in order to seek true beauty.\nHe admired a princess he has met in the middle of the\njourney and bought an item in a wig shop.", "A cat who travels the world in order to seek true beauty.\nHe admired a princess he has met in the middle of the\njourney and spent an entire fortune on plastic surgery."]
     29:
       name: [Capsule Cat, Cramped Cats]
-      desc: ["An experimental weapon: one speedy Cat,\nprotected by state-of-the-art gashapon plastic.\nPacks a punch, but definitely can't take one.", "Capsule Cat felt lonely and posted an ad for\nroommates. Overestimated the space in his flat.\nIt's always cuddle time, whether they like it or not!"]
+      desc: ["An experimental weapon: one speedy Cat,\nprotected by state-of-the-art capsule plastic.\nPacks a punch, definitely can't take one.", "Capsule Cat felt lonely and posted an ad for\nroommates. Overestimated the space in his flat.\nIt's always cuddle time, whether they like it or not!"]
     30:
       name: [Masked Cat, Luchador Cat]
       desc: ["Wears the mask which he borrowed without permission\nfrom the adventurer Gamatoto who found the mask.\nHis only capability is wearing the mask though.", "Finally became a wrestler.\nDue to his class change, his talents\nhave increased considerably. (Area)"]
@@ -96,7 +96,7 @@ cats:
       name: [Maiko Cat, Geisha Cat]
       desc: ["A sweet rookie entertainer, allergic to\ngreen tea, better at keytar than shamisen.", "Years of life in the floating world made\nher a cool cynic. Her distant attitude\nbefits her long-distance attacking power."]
     63:
-      name: [Capsule Cat, Vendor Cat]
+      name: [Toy Machine Cat, Vendor Cat]
       desc: ["Plastic capsule toy machine.\nA Cat that got into a tank (Area attack).\nShielded, so a bit more sturdy than Tank Cat.", "Plastic capsule toy machine.\nLonger Cat that got into a tank (Area attack).\nShielded, so a bit more sturdy than Tank Cat."]
     83:
       name: [Blue Shinobi, Orange Shinobi]
@@ -625,8 +625,8 @@ cats:
       name: [Kano ＆ Souma, Kano ＆ Souma ＆ Cat]
       desc: ["Heroes from Shoumetsu Toshi! Two wanderers in\nthe ruins of the city, confronting their own sins.\nTough vs Aliens, Area Attack", "Joined by a Cat picked up at the seaside, our\nwanderers set their sights on the ruined city.\nTough vs Aliens, Area Attack"]
     496:
-      name: [Matador Cat, Flamenco Cat]
-      desc: ["Fearless bullfighter dodging danger with a hearty Olé!\nPacifist at heart, his only weapon is his crimson cape.\nHas a chance to dodge Red attacks.", "Graceful dancer dodging danger to hearty Olés!\nWell trained in the art of Dodging Red attacks (as\nwell as unwanted advances from certain tomcats.)"]
+      name: [Matador Cat, Flamenco Cat, Bellydance Cat]
+      desc: ["Fearless bullfighter dodging danger with a hearty Olé!\nPacifist at heart, his only weapon is his crimson cape.\nHas a chance to dodge Red attacks.", "Graceful dancer dodging danger to hearty Olés!\nWell trained in the art of Dodging Red attacks (as\nwell as unwanted advances from certain tomcats.)", "Supreme virtuoso of an vigorous, beautiful\ndance. A glittering veil and hypnotic movements\nhelp her confuse enemies and Dodge Red attacks."]
     502:
       name: [Cat Bros, Baka Cat Bros]
       desc: ["Joining the fight from The Battle Cats Together!\nWe love games and are Super friends!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)"]
@@ -702,6 +702,9 @@ cats:
     612:
       name: [Godzilla Cat, Shin Godzilla Cat]
       desc: ["A Cat who loves to play Godzilla, rampaging\nthrough the city streets meowing furiously.\nStrong vs Black Enemies", "Wants to become the king of monsters like Godzilla.\nDrinks milk daily, hoping to grow to 118.5 meters tall.\nStrong vs Black Enemies"]
+    622:
+      name: [Aku Researcher, Evil Aku Researcher]
+      desc: ["A brave scholar who ventured into Vortex\nto understand the true nature of the Aku,\npouring his entire fortune into his obsession.", "The more forbidden knowledge gained, the\nmore Aku he himself becomes. Chance \nof Critical attack, with Piercing attacks.", "The more forbidden knowledge gained, the\nmore Aku he himself becomes. Chance \nof Critical attack, with Piercing attacks."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -1541,6 +1544,12 @@ cats:
     615:
       name: [Kaguya of the Coast, The Southern Sun]
       desc: ["Left behind her palace on the moon for a\nholiday enjoying fresh watermelon on Earth.\nArea attacks might Slow Black/Alien enemies.", "Ancient superweapon built to defend a\ntropical paradise by blasting coconuts at invaders.\nArea attacks 100% Slow Black/Alien enemies.", "Ancient superweapon built to defend a\ntropical paradise by blasting coconuts at invaders.\nArea attacks 100% Slow Black/Alien enemies."]
+    619:
+      name: [Shiro Amakusa, Wargod Amakusa]
+      desc: ["Clockwork creation imbued with a young zealot's\nsoul. Driven to bloody battle for his righteous cause.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies."]
+    620:
+      name: [Lilin, Lilin π]
+      desc: ["This mad researcher experimented on her own \nclassmates to synthesize the vile Mateki elixir.\nStrong vs Angels & Aku, with Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2193,6 +2202,20 @@ gacha:
   605: [615, 567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   606: [596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   607: [615, 567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  608: [619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  609: [619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  610: [619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  611: [620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  612: [620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  613: [620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  614: [620, 619, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  615: [620, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  616: [620, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  617: [620, 619, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  618: [620, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  619: [620, 619, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  622: [620, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  623: [615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
