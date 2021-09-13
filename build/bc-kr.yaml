@@ -7572,3 +7572,83 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-09-10_538:
+    start_on: 2021-09-10
+    end_on: 2021-09-13
+    version: '100800'
+    name: "★우주에서 온 개성 넘치는 깜찍한 정령들!★자세한 내용은 배너를 클릭!!★"
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-13_486:
+    start_on: 2021-09-13
+    end_on: 2021-09-20
+    version: '100800'
+    name: "★「살아남아라! 개복치!」콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!!★"
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-09-13_498:
+    start_on: 2021-09-13
+    end_on: 2021-09-15
+    version: '100800'
+    name: 냥코 월드의 위대한 신들이 이곳에 집결!★자세한 내용은 배너를 클릭!
+    id: 498
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-15_434:
+    start_on: 2021-09-15
+    end_on: 2021-09-17
+    version: '100800'
+    name: 압도적인 존재감을 내뿜는 강력한 드래곤들!★자세한 내용은 배너를 클릭!
+    id: 434
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-17_486:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: "【종료 임박】 「살아남아라! 개복치!」콜라보 뽑기 등장!★10+1 연속 뽑기 울슈레 확정!★"
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-09-17_607:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: 신 캐릭터 등장! 개방적인 여름 한정의 캐릭터들을 GET!★11연속 뽑기 울슈레 확정!
+    id: 607
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-09-17_611:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: 악마 속성에 강한 신 캐릭터 '리린' 참전!★자세한 내용은 배너를 클릭!!★
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-09-17_616:
+    start_on: 2021-09-17
+    end_on: 2030-01-01
+    version: '100800'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 616
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum

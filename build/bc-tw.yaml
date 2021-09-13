@@ -8229,3 +8229,83 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-09-10_538:
+    start_on: 2021-09-10
+    end_on: 2021-09-13
+    version: '100800'
+    name: 來自宇宙的盡頭，有個性又愉快的精靈們！★點圖確認詳細吧!!
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-13_486:
+    start_on: 2021-09-13
+    end_on: 2021-09-20
+    version: '100800'
+    name: "『活下去！曼波魚！』合作轉蛋登場！★點圖可以看詳細內容喔！"
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-09-13_498:
+    start_on: 2021-09-13
+    end_on: 2021-09-15
+    version: '100800'
+    name: 貓咪世界的偉大神們，都齊聚在此啦！★點圖確認詳細吧!!
+    id: 498
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-15_434:
+    start_on: 2021-09-15
+    end_on: 2021-09-17
+    version: '100800'
+    name: 展現壓倒性的存在感，快點入手強力的龍皇吧!★點圖確認詳細吧!!
+    id: 434
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-09-17_486:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: "【倒數計時】『活下去！曼波魚！』合作轉蛋登場！★11連轉超激確定活動中！"
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-09-17_607:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: 新角色追加！滿滿開放感的夏日限定角色來GET吧！★11連轉超激確定活動中!!
+    id: 607
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-09-17_611:
+    start_on: 2021-09-17
+    end_on: 2021-09-20
+    version: '100800'
+    name: 有效對付惡魔屬性的角色「妖賢女莉莉」參戰！★點圖可以看詳細內容喔！
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-09-17_616:
+    start_on: 2021-09-17
+    end_on: 2030-01-01
+    version: '100800'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 616
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
