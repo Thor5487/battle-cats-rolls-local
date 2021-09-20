@@ -1,0 +1,7 @@
+<%= header(1, 'Your IP is already in the queue') %>
+
+<div class="note"><ul><li>
+  Your IP <code><%= route.request.ip %></code> is already in the queue.
+  You can seek again after the previous request is done, or wait for
+  <%= route.throttle_ip_expires_in / 60 %> minutes.
+</li></ul></div>

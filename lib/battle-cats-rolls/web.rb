@@ -13,6 +13,7 @@ require 'jellyfish'
 
 require 'json'
 require 'net/http'
+require 'digest/sha1'
 
 module BattleCatsRolls
   class Web
@@ -64,6 +65,17 @@ module BattleCatsRolls
           "https://nyanko-events-prd.s3.ap-northeast-1.amazonaws.com/battlecats#{prefix}_production/#{file}"
 
         AwsAuth.new(:get, url)
+      end
+
+      def throttle_ip
+        key = "#{request.path} #{request.ip}"
+
+        if cache[key]
+          render :throttled
+        else
+          cache.store(key, '1', expires_in: route.throttle_ip_expires_in)
+          yield(lambda{ cache.delete(key) })
+        end
       end
 
       def cache
@@ -160,9 +172,18 @@ module BattleCatsRolls
       end
 
       post '/seek/enqueue' do
-        key = SeekSeed.enqueue(route.seek_source, cache, logger)
+        source = route.seek_source
+        key = Digest::SHA1.hexdigest(source)
 
-        found route.seek_result(key)
+        if cache[key]
+          found route.seek_result(key)
+        else
+          throttle_ip do |clear_throttle|
+            SeekSeed.enqueue(source, key, logger, cache, clear_throttle)
+
+            found route.seek_result(key)
+          end
+        end
       end
 
       get %r{^/seek/result/?(?<key>\w*)} do |m|

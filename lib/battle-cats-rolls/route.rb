@@ -134,6 +134,10 @@ module BattleCatsRolls
       600
     end
 
+    def throttle_ip_expires_in
+      600
+    end
+
     def lang
       @lang ||=
         case value = request.params['lang']

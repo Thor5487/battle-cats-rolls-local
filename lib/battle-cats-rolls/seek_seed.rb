@@ -4,11 +4,10 @@ require_relative 'root'
 require_relative 'route'
 
 require 'promise_pool'
-require 'digest/sha1'
 
 module BattleCatsRolls
   class SeekSeed < Struct.new(
-    :source, :key, :logger, :cache,
+    :source, :key, :logger, :cache, :done_callback,
     :promise, :seed, :previous_count)
     Pool = PromisePool::ThreadPool.new(1)
     Mutex = Mutex.new
@@ -25,12 +24,8 @@ module BattleCatsRolls
       end
     end
 
-    def self.enqueue source, cache, logger
-      key = Digest::SHA1.hexdigest(source)
-
-      cache[key] || queue[key] = new(source, key, logger, cache).start
-
-      key
+    def self.enqueue source, key, logger, cache, done_callback
+      queue[key] = new(source, key, logger, cache, done_callback).start
     end
 
     def self.queue
@@ -70,6 +65,7 @@ module BattleCatsRolls
 
         self.class.finishing(key) do
           cache[key] = seed if $?.success?
+          done_callback.call
         end
       end
     end
