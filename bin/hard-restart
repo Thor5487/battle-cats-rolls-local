@@ -1,0 +1,4 @@
+#!/bin/sh
+
+systemctl stop -f battlecatsrolls@1
+systemctl start battlecatsrolls@1
