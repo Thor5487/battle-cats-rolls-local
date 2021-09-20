@@ -25,7 +25,9 @@ module BattleCatsRolls
     end
 
     def self.enqueue source, key, logger, cache, done_callback
-      queue[key] = new(source, key, logger, cache, done_callback).start
+      Mutex.synchronize do
+        queue[key] ||= new(source, key, logger, cache, done_callback).start
+      end
     end
 
     def self.queue
@@ -33,9 +35,7 @@ module BattleCatsRolls
     end
 
     def start
-      Mutex.synchronize do
-        enqueue
-      end
+      enqueue
 
       self
     end
