@@ -19,6 +19,21 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2021-09-20") %>
+<ul>
+  <li>
+    Given that recently the queue for seeking seeds are way too large
+    (1000 ~ 3000), and someone might be potentially abusing the system by
+    constantly seeking seeds, effectively making Denial of Service (DoS)
+    attack.
+  </li>
+  <li>
+    Now the same IP can only enter the queue for once. Or the same IP has to
+    be waiting for 10 minutes before it can enter the queue again. I hope this
+    can make it more fair for regular users.
+  </li>
+</ul>
+
 <%= header(2, "2020-12-24") %>
 <ul>
   <li>Fix displaying Platinum and Legend gacha properly, again. It should show the current active ones and all the upcoming ones.</li>
