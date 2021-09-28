@@ -181,9 +181,11 @@ module BattleCatsRolls
       @theme ||= request.params['theme'].to_s
     end
 
+    MaxSeed = 2 ** 32
+
     # This is the seed from the seed input field
     def seed
-      @seed ||= request.params['seed'].to_i
+      @seed ||= request.params['seed'].to_i.abs % MaxSeed
     end
 
     def event
