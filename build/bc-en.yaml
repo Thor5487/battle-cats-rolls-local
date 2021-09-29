@@ -8754,3 +8754,100 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-10-01_622:
+    start_on: 2021-10-01
+    end_on: 2021-10-04
+    version: '100900'
+    name: All Limited Ubers from Uberfest/Epicfest! Huge Uber drop rate boost!
+    id: 622
+    rare: 6500
+    supa: 2500
+    uber: 1000
+  2021-10-04_517:
+    start_on: 2021-10-04
+    end_on: 2021-10-06
+    version: '100900'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-04_600:
+    start_on: 2021-10-04
+    end_on: 2021-10-08
+    version: '100900'
+    name: '7 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 600
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-04_620:
+    start_on: 2021-10-04
+    end_on: 2021-10-18
+    version: '100900'
+    name: Pick up mighty teammates to fight by your side in a Hotblooded Clash!
+    id: 620
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-10-06_585:
+    start_on: 2021-10-06
+    end_on: 2021-10-08
+    version: '100900'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-08_424:
+    start_on: 2021-10-08
+    end_on: 2021-10-11
+    version: '100900'
+    name: A wacky variety set of mighty Uber Cats! ★ Tap banner for info!
+    id: 424
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-08_595:
+    start_on: 2021-10-08
+    end_on: 2021-10-11
+    version: '100900'
+    name: New Heroes appear to celebrate 7 Years! ★ Tap banner for info!
+    id: 595
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-10-11_538:
+    start_on: 2021-10-11
+    end_on: 2021-10-13
+    version: '100900'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-11_601:
+    start_on: 2021-10-11
+    end_on: 2021-10-15
+    version: '100900'
+    name: '7 Year Celebration: Excellent Selection! ★ Tap banner for info!'
+    id: 601
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-13_433:
+    start_on: 2021-10-13
+    end_on: 2021-10-15
+    version: '100900'
+    name: Ancient dragons of unmatched might! ★ Tap banner for info!
+    id: 433
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
