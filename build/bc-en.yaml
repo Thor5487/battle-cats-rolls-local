@@ -8851,3 +8851,73 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-10-15_615:
+    start_on: 2021-10-15
+    end_on: 2021-10-18
+    version: '100900'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 615
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-10-18_451:
+    start_on: 2021-10-18
+    end_on: 2021-10-20
+    version: '100900'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 451
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-10-18_452:
+    start_on: 2021-10-18
+    end_on: 2021-10-20
+    version: '100900'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-10-20_453:
+    start_on: 2021-10-20
+    end_on: 2021-10-22
+    version: '100900'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 453
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-10-20_523:
+    start_on: 2021-10-20
+    end_on: 2021-10-22
+    version: '100900'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-10-22_608:
+    start_on: 2021-10-22
+    end_on: 2021-10-25
+    version: '100900'
+    name: Mighty NEW hero Shiro Amakusa, good against Black & Aku! ★Tap banner for info!
+    id: 608
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-10-22_617:
+    start_on: 2021-10-22
+    end_on: 2030-01-01
+    version: '100900'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 617
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
