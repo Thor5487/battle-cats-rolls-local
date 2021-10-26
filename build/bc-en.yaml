@@ -8921,3 +8921,120 @@ events:
     supa: 0
     uber: 10000
     platinum: platinum
+  2021-10-25_497:
+    start_on: 2021-10-25
+    end_on: 2021-10-27
+    version: '100900'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-25_511:
+    start_on: 2021-10-25
+    end_on: 2021-11-08
+    version: '100900'
+    name: Limited Shoumetsu Toshi Collab Capsules! ★ Tap banner for info!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-10-27_611:
+    start_on: 2021-10-27
+    end_on: 2021-10-29
+    version: '100900'
+    name: New Hero LILIN joins the fight to crush the Aku! ★ Tap for more info!
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-29_511:
+    start_on: 2021-10-29
+    end_on: 2021-11-08
+    version: '101000'
+    name: Limited Shoumetsu Toshi Collab Capsules! ★ Tap banner for info!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-10-29_517:
+    start_on: 2021-10-29
+    end_on: 2021-10-31
+    version: '100900'
+    name: Uncanny Cats(?) from eldritch realms! ★ Tap banner for info!
+    id: 517
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-10-29_650:
+    start_on: 2021-10-29
+    end_on: 2021-11-08
+    version: '101000'
+    name: Limited Halloween Capsules, with a NEW True form for Lilith Cat!
+    id: 650
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-10-31_487:
+    start_on: 2021-10-31
+    end_on: 2021-11-02
+    version: '101000'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-02_614:
+    start_on: 2021-11-02
+    end_on: 2021-11-05
+    version: '101000'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 614
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-11-05_511:
+    start_on: 2021-11-05
+    end_on: 2021-11-08
+    version: '101000'
+    name: Last Chance! Shoumetsu Toshi Set with 11-Draw Guarantee!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-11-05_627:
+    start_on: 2021-11-05
+    end_on: 2021-11-08
+    version: '101000'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 627
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-11-05_635:
+    start_on: 2021-11-05
+    end_on: 2030-01-01
+    version: '101000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 635
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-11-05_650:
+    start_on: 2021-11-05
+    end_on: 2021-11-08
+    version: '101000'
+    name: Limited Halloween Capsules, with a NEW True form for Lilith Cat!
+    id: 650
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
