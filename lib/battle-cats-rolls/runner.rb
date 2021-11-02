@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         __method__,
-        '10.9.0',
+        '10.10.0',
         AwsAuth.event_url('kr'),
         'jp.co.ponos.battlecatskr'
       ]
