@@ -9064,3 +9064,92 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-11-08_475:
+    start_on: 2021-11-08
+    end_on: 2021-11-10
+    version: '101000'
+    name: Heroes of Japanese Fantasy:! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-08_642:
+    start_on: 2021-11-08
+    end_on: 2021-11-22
+    version: '101000'
+    name: Magoka Magica The Movie -Rebellion- Collab Capsules! ★ Tap for info!
+    id: 642
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-11-10_572:
+    start_on: 2021-11-10
+    end_on: 2021-11-12
+    version: '101000'
+    name: NEW Iron Legion Hero Mighty Aethur Ltd. ★ Tap banner for info!
+    id: 572
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-12_641:
+    start_on: 2021-11-12
+    end_on: 2021-11-15
+    version: '101000'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 641
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-11-15_585:
+    start_on: 2021-11-15
+    end_on: 2021-11-17
+    version: '101000'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-17_538:
+    start_on: 2021-11-17
+    end_on: 2021-11-19
+    version: '101000'
+    name: "★ Elemental Pixies ★ Cosmic powers brought to life, with a mystery elemental!"
+    id: 538
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-19_630:
+    start_on: 2021-11-19
+    end_on: 2021-11-22
+    version: '101000'
+    name: NEW hero Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 630
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-11-19_636:
+    start_on: 2021-11-19
+    end_on: 2030-01-01
+    version: '101000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 636
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-11-19_642:
+    start_on: 2021-11-19
+    end_on: 2021-11-22
+    version: '101000'
+    name: Magoka Magica The Movie -Rebellion- Capsules w/ 11-Draw Guarantee!
+    id: 642
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
