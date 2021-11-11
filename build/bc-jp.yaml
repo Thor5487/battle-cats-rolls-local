@@ -9550,3 +9550,66 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-11-10_414:
+    start_on: 2021-11-10
+    end_on: 2021-11-15
+    version: '110000'
+    name: "【終了間近】『メルクストーリア』キャラ限定コラボガチャ！★11連で超激レア確定!!"
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-11-10_585:
+    start_on: 2021-11-10
+    end_on: 2021-11-12
+    version: '110000'
+    name: "「冒険者カンナ」新登場！異世界より召喚された愉快な美少女達！★詳細はバナーをタップ!!"
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-11-12_414:
+    start_on: 2021-11-12
+    end_on: 2021-11-15
+    version: '110000'
+    name: "【終了間近】『メルクストーリア』キャラ限定コラボガチャ！★11連で超激レア確定!!"
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-11-12_660:
+    start_on: 2021-11-12
+    end_on: 2021-11-15
+    version: '110000'
+    name: 悪魔とエイリアンに強い新キャラ「白騎士キュクロプス」参戦！★詳細はバナーをタップ!!
+    id: 660
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-11-12_671:
+    start_on: 2021-11-12
+    end_on: 2030-01-01
+    version: '110000'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 671
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-11-12_673:
+    start_on: 2021-11-12
+    end_on: 2030-01-01
+    version: '110000'
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    id: 673
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
