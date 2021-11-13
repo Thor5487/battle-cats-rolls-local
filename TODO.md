@@ -9,6 +9,8 @@
 
 * Retreat seed
 * Client-side seed seeker
+* Don't use the hard coded version. Check on the disk and see if there's
+  a newer version apk and use that instead.
 * Show multiple instances horizontally so we can look at different events
   at the same time! Each can take different seeds.
 * Tracking history (by recording rolls we click)
