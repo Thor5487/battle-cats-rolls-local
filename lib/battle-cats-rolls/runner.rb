@@ -4,47 +4,43 @@ require_relative 'root'
 require_relative 'aws_auth'
 
 module BattleCatsRolls
-  class Runner < Struct.new(:lang, :version, :event_url, :apk_id)
+  class Runner < Struct.new(:lang, :version, :apk_id)
     VersionNotFound = Class.new(RuntimeError)
 
     def self.en
       @en ||= [
-        __method__,
+        'en',
         '10.10.0',
-        AwsAuth.event_url('en'),
         'jp.co.ponos.battlecatsen'
       ]
     end
 
     def self.tw
       @tw ||= [
-        __method__,
+        'tw',
         '10.10.0',
-        AwsAuth.event_url('tw'),
         'jp.co.ponos.battlecatstw'
       ]
     end
 
     def self.jp
       @jp ||= [
-        __method__,
+        'jp',
         '11.0.0',
-        AwsAuth.event_url('jp'),
         'jp.co.ponos.battlecats'
       ]
     end
 
     def self.kr
       @kr ||= [
-        __method__,
+        'kr',
         '10.10.0',
-        AwsAuth.event_url('kr'),
         'jp.co.ponos.battlecatskr'
       ]
     end
 
     def self.locale lang
-      public_send(lang || :en)
+      public_send(lang || 'en')
     end
 
     def self.build lang=nil
@@ -165,7 +161,7 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      TsvReader.download(event_url, 'https://bc.godfat.org/')
+      TsvReader.download(AwsAuth.event_url(lang), 'https://bc.godfat.org/')
     end
 
     def write_data
