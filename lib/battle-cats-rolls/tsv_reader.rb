@@ -9,10 +9,19 @@ module BattleCatsRolls
     PoolOffset = 9
     PoolFields = 15
 
-    def self.download url
+    def self.download url, referrer
       require 'net/http'
 
-      new(Net::HTTP.get(URI.parse(url)).force_encoding('UTF-8'))
+      uri = URI.parse(url)
+      get = Net::HTTP::Get.new(uri)
+      get['Referer'] = referrer
+
+      response =
+        Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+          http.request(get)
+        end
+
+      new(response.body.force_encoding('UTF-8'))
     end
 
     def self.read path

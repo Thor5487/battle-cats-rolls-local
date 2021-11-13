@@ -165,7 +165,7 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      TsvReader.download(event_url)
+      TsvReader.download(event_url, 'https://bc.godfat.org/')
     end
 
     def write_data
