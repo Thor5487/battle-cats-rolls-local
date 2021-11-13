@@ -1,6 +1,5 @@
 ## High priorities
 
-* Save other tsv files
 * Fix guessing 10 rolls link when seeking seed
 * Finishing the help page
 * Multi-select for finding cats

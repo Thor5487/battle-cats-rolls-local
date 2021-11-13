@@ -48,6 +48,7 @@ module BattleCatsRolls
 
       runner.write_events
       runner.write_data
+      # runner.write_item_and_sale
     rescue Errno::EACCES => e
       puts "! Ignore: #{e}"
     end
@@ -142,26 +143,34 @@ module BattleCatsRolls
     end
 
     def write_events
-      current = download_current_event_data
-
-      last_date = current.gacha.
-        delete_if { |_, data| data['platinum'] }.
-        sort_by { |key, data| data['end_on'] }.
-        dig(-1, -1, 'end_on').
-        strftime('%Y%m%d')
-
-      require 'fileutils'
-      FileUtils.mkdir_p(event_path)
-
-      File.write("#{event_path}/#{last_date}.tsv", current.tsv)
+      write_tsv('gatya.tsv', 'events') do |reader|
+        last_date(reader.gacha.reject { |_, data| data['platinum'] })
+      end
     end
 
-    def download_current_event_data
-      puts "Downloading event data..."
+    def write_item_and_sale
+      %w[item.tsv sale.tsv].each do |tsv|
+        write_tsv(tsv) do |reader|
+          last_date(reader.item_or_sale)
+        end
+      end
+    end
+
+    def write_tsv file, dir=File.basename(file, '.*')
+      puts "Downloading #{file}..."
 
       require_relative 'tsv_reader'
 
-      TsvReader.download(AwsAuth.event_url(lang), 'https://bc.godfat.org/')
+      file_url = AwsAuth.event_url(lang, file: file)
+      reader = TsvReader.download(file_url, 'https://bc.godfat.org/')
+
+      file_name = yield(reader)
+      dir_path = data_path(dir)
+
+      require 'fileutils'
+      FileUtils.mkdir_p(dir_path)
+
+      File.write("#{dir_path}/#{file_name}.tsv", reader.tsv)
     end
 
     def write_data
@@ -315,6 +324,12 @@ module BattleCatsRolls
 
     def open_uri uri
       URI.open(URI.parse(uri), 'User-Agent' => 'Mozilla/5.0')
+    end
+
+    def last_date items
+      items.sort_by { |_, data| data['end_on'] }.
+        dig(-1, -1, 'end_on').
+        strftime('%Y%m%d')
     end
 
     def write_pack

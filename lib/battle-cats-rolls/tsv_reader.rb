@@ -43,6 +43,12 @@ module BattleCatsRolls
       }
     end
 
+    def self.voodoo_fields
+      @voodoo_fields ||= {
+        'end_on' => 2, 'type' => 3, 'offset' => 9
+      }
+    end
+
     def == rhs
       gacha == rhs.gacha
     end
@@ -75,6 +81,16 @@ module BattleCatsRolls
 
         result
       end
+    end
+
+    def item_or_sale
+      @item_or_sale ||= parsed_data.map.with_index do |row, index|
+        { 'index' => index }.merge(
+          convert_event(read_row(row, self.class.voodoo_fields))
+        )
+      end.select do |item|
+        item['type'] > 0 && item['offset'] > 0
+      end.group_by { |item| item['index'] }.transform_values(&:last)
     end
 
     private
