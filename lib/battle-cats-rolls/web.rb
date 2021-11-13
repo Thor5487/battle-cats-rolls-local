@@ -78,6 +78,14 @@ module BattleCatsRolls
         end
       end
 
+      def guard_referrer host
+        if %r{\Ahttps?://#{Regexp.escape(host)}/}.match?(request.referrer)
+          yield
+        else
+          not_found
+        end
+      end
+
       def cache
         @cache ||= Cache.default(logger)
       end
@@ -145,18 +153,24 @@ module BattleCatsRolls
           lang = prefix[1..-1] || 'jp'
 
           get "/seek#{prefix}/#{file}" do
-            headers 'Content-Type' => 'text/plain; charset=utf-8'
-            body serve_tsv(lang, file)
+            guard_referrer(route.web_host) do
+              headers 'Content-Type' => 'text/plain; charset=utf-8'
+              body serve_tsv(lang, file)
+            end
           end
 
           get "/seek#{prefix}/curl/#{file}" do
-            headers 'Content-Type' => 'text/plain; charset=utf-8'
-            body "#{aws_auth(lang, file).to_curl}\n"
+            guard_referrer(route.web_host) do
+              headers 'Content-Type' => 'text/plain; charset=utf-8'
+              body "#{aws_auth(lang, file).to_curl}\n"
+            end
           end
 
           get "/seek#{prefix}/json/#{file}" do
-            headers 'Content-Type' => 'application/json; charset=utf-8'
-            body JSON.dump(aws_auth(lang, file).headers)
+            guard_referrer(route.web_host) do
+              headers 'Content-Type' => 'application/json; charset=utf-8'
+              body JSON.dump(aws_auth(lang, file).headers)
+            end
           end
         end
       end

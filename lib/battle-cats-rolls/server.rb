@@ -20,17 +20,17 @@ module BattleCatsRolls
       run Rack::File.new(File.expand_path('asset', __dir__))
     end
 
-    map '/seek', to: '/seek', host: ENV['SEEK_HOST'] do
+    map '/seek', to: '/seek', host: SeekHost do
       run Web::Seek.new
     end
 
-    map '/', host: ENV['WEB_HOST'] do
+    map '/', host: WebHost do
       run Web.new
     end
   end
 
   def self.warmup app
-    base = "http://#{ENV['WEB_HOST']}" if ENV['WEB_HOST']
+    base = "http://#{WebHost}" if WebHost
 
     print Rack::MockRequest.new(app).get("#{base}/warmup").errors
 

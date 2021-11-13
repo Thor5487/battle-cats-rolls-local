@@ -123,11 +123,11 @@ module BattleCatsRolls
     end
 
     def seek_host
-      ENV['SEEK_HOST'] || request.host_with_port
+      SeekHost || request.host_with_port
     end
 
     def web_host
-      ENV['WEB_HOST'] || request.host_with_port
+      WebHost || request.host_with_port
     end
 
     def tsv_expires_in
