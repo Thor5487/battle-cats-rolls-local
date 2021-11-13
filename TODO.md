@@ -1,5 +1,6 @@
 ## High priorities
 
+* Save other tsv files
 * Fix guessing 10 rolls link when seeking seed
 * Finishing the help page
 * Multi-select for finding cats
@@ -7,6 +8,7 @@
 ## Features and utilities
 
 * Retreat seed
+* Client-side seed seeker
 * Show multiple instances horizontally so we can look at different events
   at the same time! Each can take different seeds.
 * Tracking history (by recording rolls we click)
