@@ -367,20 +367,24 @@ module BattleCatsRolls
       PackProvider.new(lang, app_data_path)
     end
 
+    def data_path dir
+      "#{Root}/data/#{lang}/#{dir}"
+    end
+
     def event_path
-      @event_path ||= "#{Root}/data/#{lang}/events"
+      @event_path ||= data_path('events')
+    end
+
+    def app_data_path
+      @app_data_path ||= data_path("#{version}/app")
+    end
+
+    def apk_path
+      @apk_path ||= data_path("#{version}/bc-#{lang}.apk")
     end
 
     def extract_path
       @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
-    end
-
-    def app_data_path
-      @data_path ||= "#{Root}/data/#{lang}/#{version}/app"
-    end
-
-    def apk_path
-      @apk_path ||= "#{Root}/data/#{lang}/#{version}/bc-#{lang}.apk"
     end
   end
 end
