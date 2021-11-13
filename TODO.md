@@ -6,6 +6,7 @@
 
 ## Features and utilities
 
+* Retreat seed
 * Show multiple instances horizontally so we can look at different events
   at the same time! Each can take different seeds.
 * Tracking history (by recording rolls we click)

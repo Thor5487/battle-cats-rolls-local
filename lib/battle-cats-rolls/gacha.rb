@@ -351,6 +351,14 @@ module BattleCatsRolls
       base_seed = shift(:<<, 15, base_seed)
     end
 
+    def retreat_seed base_seed=seed
+      base_seed = shift(:<<, 15, base_seed)
+      base_seed = shift(:<<, 30, base_seed)
+      base_seed = shift(:>>, 17, base_seed)
+      base_seed = shift(:<<, 13, base_seed)
+      base_seed = shift(:<<, 26, base_seed)
+    end
+
     def shift direction, bits, base_seed=seed
       base_seed ^= base_seed.public_send(direction, bits) % 0x100000000
     end
