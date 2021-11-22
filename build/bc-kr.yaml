@@ -8119,3 +8119,86 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-11-22_610:
+    start_on: 2021-11-22
+    end_on: 2021-11-24
+    version: '101000'
+    name: 검은 적과 악마에 강한 신캐릭터 '아레스' 참전!★자세한 내용은 배너를 클릭!!★
+    id: 610
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-22_639:
+    start_on: 2021-11-22
+    end_on: 2030-01-01
+    version: '101000'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 639
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2021-11-24_499:
+    start_on: 2021-11-24
+    end_on: 2021-11-26
+    version: '101000'
+    name: 냥코 월드의 위대한 신들이 이곳에 집결!★자세한 내용은 배너를 클릭!
+    id: 499
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-11-26_626:
+    start_on: 2021-11-26
+    end_on: 2021-11-29
+    version: '101000'
+    name: 베리어도 쉴드도 파괴하는 신캐릭터  '오코루가' 참전!★자세한 내용은 배너를 클릭!!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-11-26_637:
+    start_on: 2021-11-26
+    end_on: 2030-01-01
+    version: '101000'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 637
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-11-26_640:
+    start_on: 2021-11-26
+    end_on: 2030-01-01
+    version: '101000'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 640
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2021-11-29_613:
+    start_on: 2021-11-29
+    end_on: 2021-12-01
+    version: '101000'
+    name: 악마 속성에 강한 신캐릭터 '리린' 참전!★자세한 내용은 배너를 클릭!!★
+    id: 613
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-01_489:
+    start_on: 2021-12-01
+    end_on: 2021-12-03
+    version: '101000'
+    name: 정의와 어둠의 힘을 둘 다 갖춘 냥코 군단의 구세주들!★자세한 내용은 배너를 탭!
+    id: 489
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
