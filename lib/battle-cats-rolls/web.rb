@@ -78,7 +78,7 @@ module BattleCatsRolls
         end
       end
 
-      def guard_referrer host
+      def guard_referrer host=route.web_host
         if %r{\Ahttps?://#{Regexp.escape(host)}/}.match?(request.referrer)
           yield
         else
@@ -141,7 +141,9 @@ module BattleCatsRolls
     end
 
     get '/logs' do
-      render :logs
+      guard_referrer do
+        render :logs
+      end
     end
 
     class Seek
@@ -153,21 +155,21 @@ module BattleCatsRolls
           lang = prefix[1..-1] || 'jp'
 
           get "/seek#{prefix}/#{file}" do
-            guard_referrer(route.web_host) do
+            guard_referrer do
               headers 'Content-Type' => 'text/plain; charset=utf-8'
               body serve_tsv(lang, file)
             end
           end
 
           get "/seek#{prefix}/curl/#{file}" do
-            guard_referrer(route.web_host) do
+            guard_referrer do
               headers 'Content-Type' => 'text/plain; charset=utf-8'
               body "#{aws_auth(lang, file).to_curl}\n"
             end
           end
 
           get "/seek#{prefix}/json/#{file}" do
-            guard_referrer(route.web_host) do
+            guard_referrer do
               headers 'Content-Type' => 'application/json; charset=utf-8'
               body JSON.dump(aws_auth(lang, file).headers)
             end
