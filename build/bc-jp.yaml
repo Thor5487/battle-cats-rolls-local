@@ -9691,6 +9691,17 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-11-26_657:
+    start_on: 2021-11-26
+    end_on: 2021-11-29
+    version: '110000'
+    name: 悪魔と天使に強い新キャラクター「舌切りすずめ」参戦！★詳細はバナーをタップ!!
+    id: 657
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
   2021-11-26_672:
     start_on: 2021-11-26
     end_on: 2030-01-01
