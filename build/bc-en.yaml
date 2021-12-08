@@ -51,8 +51,8 @@ cats:
       name: [Panties Cat, Leaf Cat, Lollycat]
       desc: ["The cold weather is nothing\nagainst the warm woolen material.\nAdvanced variation of Sexy Legs Cat", "Has the only important point covered.\nNot sure if it offers any protection.\nAdvanced variation of Sexy Legs Cat", "Used to be ashamed to go into battle exposed,\nbut a kind cat came along and lent a hand…\nerr… lollipop. Gained Area attacks!"]
     17:
-      name: [Moneko, Miss MONEKO]
-      desc: ["Hoping to become an idol.\nShe sings on the streets everyday.\nYou might see her around, please say hi.", "Thanks to everyone, she made it to stardom!\nNow she's everyone's favorite star!\nPlease support her! The future is still bright!"]
+      name: [Moneko, Miss MONEKO, Superstar MONEKO]
+      desc: ["Hoping to become an idol.\nShe sings on the streets everyday.\nYou might see her around, please say hi.", "Thanks to everyone, she made it to stardom!\nNow she's everyone's favorite star!\nPlease support her! The future is still bright!", "Moneko is now the Cat Empire's Queen of Pop,\nbut she never forgets her precious fans from the\nearly days. Mini-Waves, with chance of Critical!"]
     18:
       name: [Tricycle Cat, Biker Cat, Unicycle Cat]
       desc: ["The coolest Cat on the block. (Area Attack)\nCan't ride a real bike - parents said no.", "Born to be wild! (Area Attack)\nMoved out and finally got his motorcycle!", "Was forced to scale down the number of wheels\nthanks to a recession, but still stays positive.\nAttacks groups of enemies (Area attack)"]
@@ -204,8 +204,8 @@ cats:
       name: [Maneki Cat, Neo Maneki Cat]
       desc: ["For this small-business Cat, the customer is king.\nAlways invests its profits back in the store.\nGet more money when defeating enemies!", "This Cat is thankful for you supporting it's business!\nHe'll thank you by fighting any enemy that troubles you.\nGet more money when defeating enemies!"]
     353:
-      name: [Hermit Cat, Grandmaster Cat]
-      desc: ["A legendary sage who infiltrated the Cat Base.\nMemory might be going, but true strength cannot be\nforgotten. Rapid area attacks fire powerful waves.", "Captured an enemy base with nothing but one sweet \nrice cake. Imagine what happens when he gets angry.\nRapid area attacks fire powerful waves."]
+      name: [Hermit Cat, Grandmaster Cat, Masked Grandmaster Cat]
+      desc: ["A legendary sage who infiltrated the Cat Base.\nMemory might be going, but true strength cannot be\nforgotten. Rapid area attacks fire powerful waves.", "Captured an enemy base with nothing but one sweet \nrice cake. Imagine what happens when he gets angry.\nRapid area attacks fire powerful waves.", "Sage bewitched by an ancient mask fallen from\nthe sky, imbued with forbidden battle techniques.\nStrong vs Relics, with chance of Curse Wave!"]
     370:
       name: [Saber the Cat, Heroic Spirit Saber Cat, Saber Alter Cat]
       desc: ["Golden-haired swordscat who appeared one\nfated night. Building strength by training with\na bamboo blade. Strong vs. Floating.", "Swordscat who dreams of being called by\na worthy Master. Maintains a calm \ndemeanor always. Strong vs. Floating.", "Despairing of never being summoned, this\nHeroic Spirit has wreathed herself in darkness.\nStrong vs. Floating, immune to negative effects."]
@@ -712,8 +712,8 @@ cats:
       name: [Pied Piper Cat, Komuso Cat]
       desc: ["Flute-playing bard Cat wandering from town to town.\nSomething about the melody compels you to follow...\n100% Weaken vs Aku, with chance of Piercing", "Embracing anonymity to better master the flute. Sells\ncustom travelling hats to make a living on his journey.\n100% Weaken vs Aku, with chance of Piercing", "Embracing anonymity to better master the flute. Sells\ncustom travelling hats to make a living on his journey.\n100% Weaken vs Aku, with chance of Piercing"]
     631:
-      name: ['631_1', '631_2', '631_3']
-      desc: []
+      name: [Calligraphy Cat, Tea Master Cat]
+      desc: ["Artist whose signature style involves a gigantic\nbrush and many scratched-out errors (since he \ncan't spell). Strong vs Relic enemies", "Makes industrial-sized servings of tea using a custom\nwhisk, sending out free cups to the whole Cat Empire.\nStrong vs Relic enemies, Immune to Waves/Surge", "Makes industrial-sized servings of tea using a custom\nwhisk, sending out free cups to the whole Cat Empire.\nStrong vs Relic enemies, Immune to Waves/Surge"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -958,6 +958,9 @@ cats:
     630:
       name: [Brainwashed Cat, Brainwashed Macho Cat]
       desc: ["Cost-efficient Basic Cat who has been\nprogrammed through mind control to gain a\nchance to Dodge Black/Aku enemy attacks", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)"]
+    637:
+      name: [Brainwashed Tank Cat, Brainwashed Wall Cat]
+      desc: ["High health Cat, strong enough to move a\npebble, programmed through mind control \nto gain Area attacks, with extra Toughness", "Cat with rigid defense, programmed through\nmind control to gain the strength to move a small\nrock, Area attacks, and extra Toughness", "Cat with rigid defense, programmed through\nmind control to gain the strength to move a small\nrock, Area attacks, and extra Toughness"]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1197,8 +1200,8 @@ cats:
       name: [Mighty Bomburr, NEK-0 Sky Fortress, NEK-02 Air Citadel]
       desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a super sweet tactical aircraft. Area atks\nknock back Zombie enemies with ease.", "The ultimate aerial threat, dropping endless\nmegatons of munition on ground threats. Area\nattacks deliver powerful knockback vs Zombies.", "A force of total aerial domination and a key weapon\nin the Cat's quest to create an ideal world.\nArea attacks have powerful knockback vs Zombies."]
     311:
-      name: [Yuletide Nurse, Yule Knight Nurse]
-      desc: ["Everyone's favorite Nurse is feeling the\nXmas spirit! Praying for health with a lucky\nholiday candle. Slow/knockback Angels/Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens."]
+      name: [Yuletide Nurse, Yule Knight Nurse, Xmas Spirit Nurse]
+      desc: ["Everyone's favorite Nurse is feeling the\nXmas spirit! Praying for health with a lucky\nholiday candle. Slow/knockback Angels/Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens.", "Symbol of loving care, her radiance serves to\nlight the way to a hopeful future for all Catkind.\nMight Slow & Knockback Aku, Aliens and Angels."]
     317:
       name: [Wrathful Poseidon, Valiant Poseidon, Almighty Poseidon]
       desc: ["Master of storms and seas, one of the 12 \nsupreme Olympian gods. Sacred Trident's\narea attack 100% freezes Zombies/Metal foes.", "Undisputed lord of the waters. Can command\nsea serpents to obliterate those who defy him.\nArea attack 100% freezes Zombies/Metal foes.", "Lord of the seas, who wields the powers of the\nfruit of creation to bring order to the wind and waves.\nArea attack 100% freezes Zombies/Metal foes."]
@@ -1509,8 +1512,8 @@ cats:
       name: ['Hatsune Miku: MM2020 Tokyo', 'Hatsune Miku CC: MM2020 Tokyo']
       desc: ["Virtual singer loved by the entire Cat Empire!\nPerformed at Magical Mirai 2020 in TOKYO!!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks.", "Virtual singer loved by the entire Cat Empire!\nDressed for snowy cheer in stylish winter wear!\nTough vs Red/Angels, blocks Wave attacks."]
     585:
-      name: [Keiji Claus, Maeda Christmas]
-      desc: ["Leading the charge in the war for Xmas! Gifts for\ngood little warriors, and a sack 'o pain for bad kids!\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!"]
+      name: [Keiji Claus, Maeda Christmas, Maeda Christmas DX]
+      desc: ["Leading the charge in the war for Xmas! Gifts for\ngood little warriors, and a sack 'o pain for bad kids!\nTough vs Red, gets stronger after taking damage!", "Have you heard about the warrior who loved Xmas so\nmuch a fully-decorated tree sprouted from his head?\nTough vs Red, gets stronger after taking damage!", "Fierce wargod with a festive fervor for holiday battle!\nConsidered eccentric for his unusual taste in armor.\nTough vs Red/Aku, gets stronger after taking damage!"]
     586:
       name: [Baby Garu, Mighty Aegis Garu]
       desc: ["Defends the helpless with all his power. He might\nbe small now, but great potential lies within him...\nOmnistrikes, Tough vs. all traits, Immune to Waves.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes.", "If one dear to you prays for your safety, Garu will\nlend his immense might to defend you. Tough vs.\nTraited, Wave Immunity, with Mini-Wave Omnistrikes."]
@@ -1580,6 +1583,12 @@ cats:
     633:
       name: [Mighty Deth-Troy-R, Siege Walker Diabolosa]
       desc: ["Marauding Cats onboard an assault engine powered\nby Aku energies, riding out to conquer the wastes.\nMassive Area damage to Zombies/Angels/Aku", "Top-of-the-line weaponry built using stolen Aku tech.\nIts railgun obliterates all before it, to the very horizon.\nMassive Area damage to Zombies/Angels/Aku", "Top-of-the-line weaponry built using stolen Aku tech.\nIts railgun obliterates all before it, to the very horizon.\nMassive Area damage to Zombies/Angels/Aku"]
+    634:
+      name: [Shitakiri Sparrow, Chunchun Haunters]
+      desc: ["Treasure hunter who \"discovered\" a haunted\nchest in a sparrow's mansion. Mini-Wave, with\nchance of Knockback/Curse vs Aku/Angels", "Ghost hunters partnering with chest-bound spirits to\ncapture yokai with a high tech ecto-net. Chance of\nMini-Wave, 100% Knockback/Curse vs Aku/Angels", "Ghost hunters partnering with chest-bound spirits to\ncapture yokai with a high tech ecto-net. Chance of\nMini-Wave, 100% Knockback/Curse vs Aku/Angels"]
+    635:
+      name: [White Knight Cyclops, Black Knight Kyklops]
+      desc: ["Demon-slaying guardian of the innocent, wielding\nholy lightning to annihilate those born of darkness. \nMight Freeze Aku/Aliens, with Shield Piercing", "Ferocious crusader who sacrificed his body to\nthe Aku in exchange for the absolute power to\nobliterate evil. Strong vs Aku and Aliens", "Ferocious crusader who sacrificed his body to\nthe Aku in exchange for the absolute power to\nobliterate evil. Strong vs Aku and Aliens"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2281,6 +2290,26 @@ gacha:
   654: [633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   655: [632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   656: [633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  657: [634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  658: [634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  659: [634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  660: [635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  661: [635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  662: [635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  663: [449, 456, 545, 626, 620, 615, 608, 570, 497, 397, 356, 287, 258, 195, 136, 60, 590, 590, 590, 590, 590, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  664: [452, 451, 494, 464, 621, 619, 596, 418, 360, 336, 284, 272, 213, 204, 170, 108, 58, 277, 277, 277, 277, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  665: [482, 479, 462, 450, 632, 618, 595, 589, 398, 358, 273, 227, 178, 171, 137, 126, 76, 333, 333, 333, 333, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  666: [319, 521, 436, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  667: [379, 521, 485, 241, 44, 72, 85, 77, 138, 197, 260, 307, 402, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  668: [585, 527, 311, 244, 243, 242, 637, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  669: [635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  670: [635, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  671: [635, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  672: [635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  673: [635, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  674: [635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  675: [632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  676: [626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
