@@ -9236,3 +9236,42 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-12-03_633:
+    start_on: 2021-12-03
+    end_on: 2021-12-06
+    version: '110000'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 633
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-12-06_627:
+    start_on: 2021-12-06
+    end_on: 2021-12-08
+    version: '110000'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 627
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-08_475:
+    start_on: 2021-12-08
+    end_on: 2021-12-10
+    version: '110000'
+    name: Heroes of Japanese Fantasy:! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-10_572:
+    start_on: 2021-12-10
+    end_on: 2021-12-13
+    version: '110000'
+    name: NEW Iron Legion Hero Mighty Aethur Ltd. ★ Tap banner for info!
+    id: 572
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
