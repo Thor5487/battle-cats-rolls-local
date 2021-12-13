@@ -9304,3 +9304,103 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-12-13_586:
+    start_on: 2021-12-13
+    end_on: 2021-12-15
+    version: '110000'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-13_668:
+    start_on: 2021-12-13
+    end_on: 2021-12-27
+    version: '110000'
+    name: Winter ladies, here for a limited time! ★ Get the Xmas Gals, only now!
+    id: 668
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-12-15_631:
+    start_on: 2021-12-15
+    end_on: 2021-12-17
+    version: '110000'
+    name: NEW hero Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 631
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-17_676:
+    start_on: 2021-12-17
+    end_on: 2021-12-20
+    version: '110000'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 676
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-12-20_609:
+    start_on: 2021-12-20
+    end_on: 2021-12-22
+    version: '110000'
+    name: Mighty NEW hero Shiro Amakusa, good against Black & Aku! ★Tap banner for info!
+    id: 609
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-22_498:
+    start_on: 2021-12-22
+    end_on: 2021-12-24
+    version: '110000'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 498
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-24_647:
+    start_on: 2021-12-24
+    end_on: 2021-12-27
+    version: '110000'
+    name: Take out Aku and Aliens with new hero YAMII! ★ Tap banner for info!
+    id: 647
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-12-24_653:
+    start_on: 2021-12-24
+    end_on: 2030-01-01
+    version: '110000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 653
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-12-24_655:
+    start_on: 2021-12-24
+    end_on: 2030-01-01
+    version: '110000'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 655
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2021-12-24_668:
+    start_on: 2021-12-24
+    end_on: 2021-12-27
+    version: '110000'
+    name: Winter ladies, here for a limited time! ★ Get the Xmas Gals, only now!
+    id: 668
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
