@@ -9905,3 +9905,84 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2021-12-17_668:
+    start_on: 2021-12-17
+    end_on: 2021-12-27
+    version: '110100'
+    name: 一部クリスマス限定キャラクターの第3形態追加！★詳細はバナーをタップ!!
+    id: 668
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2021-12-17_682:
+    start_on: 2021-12-17
+    end_on: 2021-12-20
+    version: '110100'
+    name: 新キャラ「黒獣ガルディアン」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    id: 682
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2021-12-20_523:
+    start_on: 2021-12-20
+    end_on: 2021-12-22
+    version: '110100'
+    name: 敵の波動攻撃に強いキャラが揃う「波動バスターズ」！★おまけアップイベント開催中!!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2021-12-22_608:
+    start_on: 2021-12-22
+    end_on: 2021-12-24
+    version: '110100'
+    name: 黒い敵と悪魔に強い新キャラクター「天草四郎」参戦！★詳細はバナーをタップ!!
+    id: 608
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-12-22_668:
+    start_on: 2021-12-22
+    end_on: 2021-12-27
+    version: '110100'
+    name: 一部クリスマス限定キャラクターの第3形態追加！★11連で超激レア確定!!
+    id: 668
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2021-12-24_677:
+    start_on: 2021-12-24
+    end_on: 2021-12-27
+    version: '110100'
+    name: 浮いてる敵と悪魔に強い新キャラ「堕天神ルシファー」参戦！★詳細はバナーをタップ!!
+    id: 677
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2021-12-24_684:
+    start_on: 2021-12-24
+    end_on: 2030-01-01
+    version: '110100'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 684
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2021-12-24_686:
+    start_on: 2021-12-24
+    end_on: 2030-01-01
+    version: '110100'
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    id: 686
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
