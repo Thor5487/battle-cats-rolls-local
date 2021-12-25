@@ -9404,3 +9404,82 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2021-12-27_602:
+    start_on: 2021-12-27
+    end_on: 2022-01-01
+    version: '110000'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 602
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2021-12-27_624:
+    start_on: 2021-12-27
+    end_on: 2021-12-29
+    version: '110000'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 624
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2021-12-29_611:
+    start_on: 2021-12-29
+    end_on: 2022-01-01
+    version: '110000'
+    name: New Hero LILIN joins the fight to crush the Aku! ★ Tap for more info!
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-01_675:
+    start_on: 2022-01-01
+    end_on: 2022-01-04
+    version: '110000'
+    name: Baby Garu joins the fight, with higher Uber Rare drop rates!
+    id: 675
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-01-04_487:
+    start_on: 2022-01-04
+    end_on: 2022-01-06
+    version: '110000'
+    name: For Justice and Cats! The Dark Heroes! ★ Tap banner for info!
+    id: 487
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-06_623:
+    start_on: 2022-01-06
+    end_on: 2022-01-10
+    version: '110000'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 623
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2022-01-06_627:
+    start_on: 2022-01-06
+    end_on: 2022-01-08
+    version: '110000'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 627
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-08_475:
+    start_on: 2022-01-08
+    end_on: 2022-01-10
+    version: '110000'
+    name: Heroes of Japanese Fantasy! ★ Tap banner for info!
+    id: 475
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
