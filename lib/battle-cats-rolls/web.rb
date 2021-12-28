@@ -78,8 +78,17 @@ module BattleCatsRolls
         end
       end
 
-      def guard_referrer host=route.web_host
-        if %r{\Ahttps?://#{Regexp.escape(host)}/}.match?(request.referrer)
+      def guard_referrer
+        allowed_domains =
+          %r{\A
+            https?://
+              (?:
+                #{Regexp.escape(route.web_host)}
+              |
+                #{Regexp.escape(route.seek_host)}
+              )/}x
+
+        if allowed_domains.match?(request.referrer)
           yield
         else
           not_found
