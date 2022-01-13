@@ -9483,3 +9483,32 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-01-10_585:
+    start_on: 2022-01-10
+    end_on: 2022-01-12
+    version: '110000'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-12_630:
+    start_on: 2022-01-12
+    end_on: 2022-01-14
+    version: '110000'
+    name: NEW hero Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 630
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-14_652:
+    start_on: 2022-01-14
+    end_on: 2022-01-17
+    version: '110000'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 652
+    rare: 6500
+    supa: 2600
+    uber: 900
