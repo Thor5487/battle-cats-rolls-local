@@ -9540,3 +9540,114 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-01-17_599:
+    start_on: 2022-01-17
+    end_on: 2022-01-21
+    version: '110100'
+    name: Ultra Selection! ★ Tap banner for info!
+    id: 599
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-17_608:
+    start_on: 2022-01-17
+    end_on: 2022-01-19
+    version: '110100'
+    name: Mighty NEW hero Shiro Amakusa, good against Black & Aku! ★Tap banner for info!
+    id: 608
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-19_497:
+    start_on: 2022-01-19
+    end_on: 2022-01-21
+    version: '110100'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-21_643:
+    start_on: 2022-01-21
+    end_on: 2022-01-24
+    version: '110100'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 643
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-01-21_654:
+    start_on: 2022-01-21
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 654
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-01-21_656:
+    start_on: 2022-01-21
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 656
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-01-24_600:
+    start_on: 2022-01-24
+    end_on: 2022-01-28
+    version: '110100'
+    name: Miracle Selection! ★ Tap banner for info!
+    id: 600
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-24_624:
+    start_on: 2022-01-24
+    end_on: 2022-01-26
+    version: '110100'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 624
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-26_611:
+    start_on: 2022-01-26
+    end_on: 2022-01-28
+    version: '110100'
+    name: New Hero LILIN joins the fight to crush the Aku! ★ Tap for more info!
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-28_594:
+    start_on: 2022-01-28
+    end_on: 2022-02-01
+    version: '110100'
+    name: Limited Uber Set, with Li'l Valkyrie! ★ Tap banner for info!
+    id: 594
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-01-28_627:
+    start_on: 2022-01-28
+    end_on: 2022-02-01
+    version: '110100'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 627
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
