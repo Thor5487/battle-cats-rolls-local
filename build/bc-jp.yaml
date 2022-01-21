@@ -10156,3 +10156,65 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-01-21_695:
+    start_on: 2022-01-21
+    end_on: 2022-01-24
+    version: '110200'
+    name: 超生命体特効を持つ新キャラクター「狩猟娘テルン」参戦！★詳細はバナーをタップ!!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-01-21_702:
+    start_on: 2022-01-21
+    end_on: 2030-01-01
+    version: '110200'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 702
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-01-21_703:
+    start_on: 2022-01-21
+    end_on: 2030-01-01
+    version: '110200'
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    id: 703
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-01-24_609:
+    start_on: 2022-01-24
+    end_on: 2022-01-26
+    version: '110200'
+    name: 黒い敵と悪魔に強い新キャラクター「天草四郎」参戦！★詳細はバナーをタップ!!
+    id: 609
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-26_632:
+    start_on: 2022-01-26
+    end_on: 2022-01-28
+    version: '110200'
+    name: 赤い敵と悪魔属性に強い新キャラ「邪龍ヘヴィジャーク」参戦！★詳細はバナーをタップ!!
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-01-28_602:
+    start_on: 2022-01-28
+    end_on: 2022-01-31
+    version: '110200'
+    name: 限定超激レア「ネコ王女」含む女性キャラ中心の特別ガチャ! 伝説レアのみ出現率2倍!!
+    id: 602
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
