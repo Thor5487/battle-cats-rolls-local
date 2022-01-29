@@ -8617,3 +8617,114 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-02-01_688:
+    start_on: 2022-02-01
+    end_on: 2022-02-04
+    version: '110100'
+    name: 신캐릭터 '무희 이즈' 참전!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!
+    id: 688
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-02-01_689:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 689
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-01_690:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 690
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-04_660:
+    start_on: 2022-02-04
+    end_on: 2022-02-07
+    version: '110100'
+    name: 악마와 에이리언에 강한 신 캐릭터 '백기사 키클롭스' 참전!★자세한 내용은 배너를 클릭!
+    id: 660
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-02-04_691:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 691
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-04_692:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 692
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-07_587:
+    start_on: 2022-02-07
+    end_on: 2022-02-09
+    version: '110100'
+    name: 모험가 칸나' 등장! 이세계에서 소환된 유쾌한 미소녀들!★자세한 내용은 배너를 탭!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-07_601:
+    start_on: 2022-02-07
+    end_on: 2022-02-11
+    version: '110100'
+    name: 감사의 마음을 담은 특별 셀렉션 뽑기!★자세한 내용은 배너를 클릭!
+    id: 601
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-09_632:
+    start_on: 2022-02-09
+    end_on: 2022-02-11
+    version: '110100'
+    name: 빨간 적과 악마 속성에 강한 캐릭터 '사룡 헤비저크' 참전!★자세한 내용은 배너를 클릭!!★
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-11_595:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: 다크 꼬마 고양이 발키리도 등장하는 특별 사양 셀렉션 뽑기!★자세한 내용은 배너를 클릭!
+    id: 595
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-11_648:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: 에이리언과 악마에 강한 신 캐릭터 '어둠의 정령 야미' 참전!★자세한 내용은 배너를 클릭!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30

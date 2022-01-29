@@ -9651,3 +9651,114 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-02-01_688:
+    start_on: 2022-02-01
+    end_on: 2022-02-04
+    version: '110100'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 688
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-02-01_689:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 689
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-01_690:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 690
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-04_660:
+    start_on: 2022-02-04
+    end_on: 2022-02-07
+    version: '110100'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 660
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-02-04_691:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 691
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-04_692:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 692
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-07_587:
+    start_on: 2022-02-07
+    end_on: 2022-02-09
+    version: '110100'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-07_601:
+    start_on: 2022-02-07
+    end_on: 2022-02-11
+    version: '110100'
+    name: Excellent Selection! ★ Tap banner for info!
+    id: 601
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-09_632:
+    start_on: 2022-02-09
+    end_on: 2022-02-11
+    version: '110100'
+    name: Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-11_595:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: Limited Uber Set, with Li'l Valkyrie Dark!! ★ Tap banner for info!
+    id: 595
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-11_648:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: Take out Aku and Aliens with YAMII! ★ Tap banner for info!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30

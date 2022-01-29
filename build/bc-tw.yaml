@@ -9274,3 +9274,114 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-02-01_688:
+    start_on: 2022-02-01
+    end_on: 2022-02-04
+    version: '110100'
+    name: 新角色「歡笑揮舞孃」參戰！★超激稀有出現率超上升的「超貓祭」進行中!!
+    id: 688
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-02-01_689:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 689
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-01_690:
+    start_on: 2022-02-01
+    end_on: 2030-01-01
+    version: '110100'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 690
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-04_660:
+    start_on: 2022-02-04
+    end_on: 2022-02-07
+    version: '110100'
+    name: 對上惡魔與異星戰士很強的新角色「白騎士庫克洛普斯」參戰！★點圖確認詳細吧!!
+    id: 660
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-02-04_691:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 691
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-04_692:
+    start_on: 2022-02-04
+    end_on: 2030-01-01
+    version: '110100'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 692
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-07_587:
+    start_on: 2022-02-07
+    end_on: 2022-02-09
+    version: '110100'
+    name: 異世界召喚來的愉快美少女們登場！★點圖可以確認詳細喔!!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-07_598:
+    start_on: 2022-02-07
+    end_on: 2022-02-11
+    version: '110100'
+    name: 帶著滿滿感謝的心推出的特別精選轉蛋！★點圖確認詳細吧!!
+    id: 598
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-09_632:
+    start_on: 2022-02-09
+    end_on: 2022-02-11
+    version: '110100'
+    name: 對上紅色與惡魔很強的新角色「邪龍赫維賈克」參戰！★點圖確認詳細吧!!
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-11_595:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: 酷黑小小瓦爾基麗貓也會登場！特別仕樣轉蛋限定！★點圖確認詳細吧!!
+    id: 595
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-11_648:
+    start_on: 2022-02-11
+    end_on: 2022-02-14
+    version: '110100'
+    name: 對上異星戰士與惡魔很強的新角色「闇精靈亞米」參戰！★點圖確認詳細吧!!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
