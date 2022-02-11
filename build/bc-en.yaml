@@ -9786,3 +9786,103 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-02-14_608:
+    start_on: 2022-02-14
+    end_on: 2022-02-16
+    version: '110200'
+    name: Mighty NEW hero Shiro Amakusa, good against Black & Aku! ★Tap banner for info!
+    id: 608
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-14_707:
+    start_on: 2022-02-14
+    end_on: 2022-02-28
+    version: '110200'
+    name: Your chance to collect Limited Valentines' hero Sweet Love Mekako!
+    id: 707
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-16_497:
+    start_on: 2022-02-16
+    end_on: 2022-02-18
+    version: '110200'
+    name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-18_670:
+    start_on: 2022-02-18
+    end_on: 2022-02-21
+    version: '110200'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 670
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-02-21_643:
+    start_on: 2022-02-21
+    end_on: 2022-02-23
+    version: '110200'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 643
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-23_624:
+    start_on: 2022-02-23
+    end_on: 2022-02-25
+    version: '110200'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 624
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-25_657:
+    start_on: 2022-02-25
+    end_on: 2022-02-28
+    version: '110200'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 657
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-02-25_705:
+    start_on: 2022-02-25
+    end_on: 2030-01-01
+    version: '110200'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 705
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-25_706:
+    start_on: 2022-02-25
+    end_on: 2030-01-01
+    version: '110200'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 706
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-25_707:
+    start_on: 2022-02-25
+    end_on: 2022-02-28
+    version: '110200'
+    name: Your chance to collect Limited Valentines' hero Sweet Love Mekako!
+    id: 707
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true

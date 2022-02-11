@@ -9409,3 +9409,103 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-02-14_608:
+    start_on: 2022-02-14
+    end_on: 2022-02-16
+    version: '110200'
+    name: 可給予惡魔與黑色敵人超大傷害的「天草四郎」參戰！★點圖確認詳細吧!!
+    id: 608
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-14_707:
+    start_on: 2022-02-14
+    end_on: 2022-02-28
+    version: '110200'
+    name: "「白色情人機器子」新登場！快來入手情人節期間限定角色吧！"
+    id: 707
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-16_497:
+    start_on: 2022-02-16
+    end_on: 2022-02-18
+    version: '110200'
+    name: 貓咪世界的偉大神們，都齊聚在此啦！★點圖確認詳細吧!!
+    id: 497
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-18_670:
+    start_on: 2022-02-18
+    end_on: 2022-02-21
+    version: '110200'
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 670
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-02-21_643:
+    start_on: 2022-02-21
+    end_on: 2022-02-23
+    version: '110200'
+    name: 可給予不死生物與惡魔超大傷害的新角色「超龍戰機・毀滅團」參戰！★點圖確認詳細吧!!
+    id: 643
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-23_624:
+    start_on: 2022-02-23
+    end_on: 2022-02-25
+    version: '110200'
+    name: 能破壞護盾與惡魔盾的「怒髮貓」參戰！★點圖可以看詳細內容喔!!
+    id: 624
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-02-25_657:
+    start_on: 2022-02-25
+    end_on: 2022-02-28
+    version: '110200'
+    name: 對惡魔與天使很強的新角色「舌切雀」參戰！★點圖確認詳細吧!!
+    id: 657
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-02-25_705:
+    start_on: 2022-02-25
+    end_on: 2030-01-01
+    version: '110200'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 705
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-02-25_706:
+    start_on: 2022-02-25
+    end_on: 2030-01-01
+    version: '110200'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 706
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-02-25_707:
+    start_on: 2022-02-25
+    end_on: 2022-02-28
+    version: '110200'
+    name: "「白色情人機器子」新登場！快來入手情人節期間限定角色吧！"
+    id: 707
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
