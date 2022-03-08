@@ -9886,3 +9886,104 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2022-02-28_414:
+    start_on: 2022-02-28
+    end_on: 2022-03-14
+    version: '110200'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-02-28_611:
+    start_on: 2022-02-28
+    end_on: 2022-03-02
+    version: '110200'
+    name: New Hero LILIN joins the fight to crush the Aku! ★ Tap for more info!
+    id: 611
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-02_627:
+    start_on: 2022-03-02
+    end_on: 2022-03-04
+    version: '110200'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 627
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-04_660:
+    start_on: 2022-03-04
+    end_on: 2022-03-07
+    version: '110200'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 660
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-07_585:
+    start_on: 2022-03-07
+    end_on: 2022-03-09
+    version: '110200'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 585
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-09_630:
+    start_on: 2022-03-09
+    end_on: 2022-03-11
+    version: '110200'
+    name: Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 630
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-11_414:
+    start_on: 2022-03-11
+    end_on: 2022-03-14
+    version: '110200'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-03-11_677:
+    start_on: 2022-03-11
+    end_on: 2022-03-14
+    version: '110200'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 677
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-03-11_685:
+    start_on: 2022-03-11
+    end_on: 2030-01-01
+    version: '110200'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 685
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-03-11_687:
+    start_on: 2022-03-11
+    end_on: 2030-01-01
+    version: '110200'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 687
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
