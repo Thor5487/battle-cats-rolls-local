@@ -320,6 +320,18 @@ cats:
     623:
       name: [Jagando Jr., Lord of Ruin Jagando Jr.]
       desc: ["Baby born from the egg of the Lord of Ruin. Thinks\nthe Cats who found and raised him are his parents.\nStrong vs Traitless, with 100% Surge Attack", "The Cats are raising the Child of Ruin surprisingly well.\nNow in his terrible twos, nothing is spared his wrath.\nStrong vs Traitless, Surge Attacks w. Knockback", "The Cats are raising the Child of Ruin surprisingly well.\nNow in his terrible twos, nothing is spared his wrath.\nStrong vs Traitless, Surge Attacks w. Knockback"]
+    651:
+      name: [Secret Crush Cat, Girlfriend Cat]
+      desc: ["Intelligence, charisma and beauty... and she lives\nnext door?! Too bad she's out of your league...?\nArea attacks deliver massive damage to Traitless.", "A beautiful Cat who loves picnics in the park,\nalways bringing homemade Catfruit sandwiches.\nArea attacks deliver massive damage to Traitless.", "A beautiful Cat who loves picnics in the park,\nalways bringing homemade Catfruit sandwiches.\nArea attacks deliver massive damage to Traitless."]
+    652:
+      name: [Tomboy Lion Cat, Iron-Masked Lion Cat]
+      desc: ["Burst from the door each morning, still eating \ntoast as she rushes to meet her crush on the\nroad to school. Strong vs Black enemies.", "Inherited the legendary Girl Boss mask! Sends\nslow walkers flying as she bolts to make it to\nclass on time. Strong vs Black enemies.", "Inherited the legendary Girl Boss mask! Sends\nslow walkers flying as she bolts to make it to\nclass on time. Strong vs Black enemies."]
+    653:
+      name: [Chalkboard Eraser Cat, Chalkboard Punk Cat]
+      desc: ["Freshman who loves a clean blackboard. Don't \nforget to clap the dust away when you're done!\nTough vs Red enemies, with Area Attacks", "Veteran of the disciplinary committee who\nis the feared leader of the graffiti cleanup squad.\nTough vs Red enemies, with Area Attacks"]
+    654:
+      name: [Elder Beast Naala, Storm Beast Naala]
+      desc: ["After witnessing the power of the Cats, decided to join\ntheir cause. Smites interlopers with purifying lightning.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)"]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -1461,8 +1473,8 @@ cats:
       name: [Kasli the Bane, 'Kasli, Daughter of Chaos']
       desc: ["As the curses within whisper to her, she wanders the\nland desperately seeking to finally find inner peace.\nLong-range Area Surge attacks will 100% Curse.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area Surge attacks will 100% Curse.", "As her soul absorbs the cursed power of her enemies,\nshe has become the personification of disaster itself.\nLong-range Area Surge attacks will 100% Curse."]
     547:
-      name: [Papaluga, Papalan Pasalan]
-      desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal."]
+      name: [Papaluga, Papalan Pasalan, Sukelan Kakulan]
+      desc: ["Not sure if this is a Cat...\nThere's just something about\nthat toothless smile...", "Great googly moogly! Seems like this\nmysterious old-timer has Area attacks\n that 100% Curse non-Metal.", "An average pensioner, or a mysterious force of\neldritch destruction? Best not to think about it.\n100% Curse vs non-Metal, Immune to Surge Attacks."]
     548:
       name: [Night Oracle Rei, Heavenly Herald Rei]
       desc: ["Being of purity who heralds the world's end.\nWhere lies the exit from this shining night?\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow."]
@@ -1610,6 +1622,12 @@ cats:
     648:
       name: [Huntress Terun, Huntress Terun ζ]
       desc: ["Invited along on a hunt, her life was forever changed.\nHounds her prey with blasts from her Lightning Bow.\nColossus Slayer, Area Attacks Slow Red/Aliens", "Supernaturally calm and clever, she strikes without\nfail at the weakest point of her gargantuan quarry.\nColossus Slayer, Area Attacks Slow Red/Aliens", "Supernaturally calm and clever, she strikes without\nfail at the weakest point of her gargantuan quarry.\nColossus Slayer, Area Attacks Slow Red/Aliens"]
+    649:
+      name: [Lovestruck Lesser Demon, Lovestruck Greater Demon]
+      desc: ["A fierce-looking punk leader often called Demon.\nBashes those he fancies with a bouquet symbolizing \nhis love. Inflicts various negative effects on Traited.", "A wild-hearted punk leader often called Demon.\nWhen that heavy bouquet hits you, you'll know what\nlove is. Inflicts various negative effects on Traited.", "A wild-hearted punk leader often called Demon.\nWhen that heavy bouquet hits you, you'll know what\nlove is. Inflicts various negative effects on Traited."]
+    650:
+      name: [Hattori Hanzo, Wargod Hanzo]
+      desc: ["Ninja transformed into a panther by a cursed iaito.\nOne swift strike, and the mission is complete.\nMassive damage to Black/Floating, 100% Freeze.", "Peerless assassin who has unleashed the power of\nhis cursed blade, eliminating targets with godspeed.\nMassive damage to Black/Floating, 100% Freeze.", "Peerless assassin who has unleashed the power of\nhis cursed blade, eliminating targets with godspeed.\nMassive damage to Black/Floating, 100% Freeze."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2362,6 +2380,16 @@ gacha:
   705: [634, 635, 642, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   706: [634, 635, 642, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   707: [646, 645, 590, 589, 588, 534, 497, 139, 144, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  708: [650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  709: [650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  710: [398, 317, 262, 171, 139, 58, 590, 590, 590, 333, 333, 333, 315, 315, 315, 277, 277, 277, 229, 229, 229, 240, 239, 238, 201, 145, 132, 132, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  711: [649, 452, 449, 619, 535, 526, 428, 262, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  712: [650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  713: [650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  714: [650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  715: [650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  716: [634, 635, 643, 642, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  717: [398, 317, 262, 171, 139, 58, 590, 333, 315, 277, 229, 240, 239, 238, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -9987,3 +10015,81 @@ events:
     uber: 9500
     legend: 500
     platinum: legend
+  2022-03-14_646:
+    start_on: 2022-03-14
+    end_on: 2022-03-16
+    version: '110300'
+    name: Take out Aku and Aliens with YAMII! ★ Tap banner for info!
+    id: 646
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-16_609:
+    start_on: 2022-03-16
+    end_on: 2022-03-18
+    version: '110300'
+    name: Mighty NEW hero Shiro Amakusa, good against Black & Aku! ★Tap banner for info!
+    id: 609
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-18_716:
+    start_on: 2022-03-18
+    end_on: 2022-03-21
+    version: '110300'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 716
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-03-21_452:
+    start_on: 2022-03-21
+    end_on: 2022-03-23
+    version: '110300'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2022-03-21_696:
+    start_on: 2022-03-21
+    end_on: 2022-03-23
+    version: '110300'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2022-03-23_523:
+    start_on: 2022-03-23
+    end_on: 2022-03-25
+    version: '110300'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2022-03-23_717:
+    start_on: 2022-03-23
+    end_on: 2022-03-25
+    version: '110300'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 717
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2022-03-25_704:
+    start_on: 2022-03-25
+    end_on: 2022-03-28
+    version: '110300'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 704
+    rare: 6500
+    supa: 2600
+    uber: 900
