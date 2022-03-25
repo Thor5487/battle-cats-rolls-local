@@ -9716,3 +9716,95 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-03-28_644:
+    start_on: 2022-03-28
+    end_on: 2022-03-31
+    version: '110300'
+    name: 帶來革命的超級武器 革命軍隊鋼鐵戰團 來了！★點圖確認詳細吧!!
+    id: 644
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-28_711:
+    start_on: 2022-03-28
+    end_on: 2022-04-11
+    version: '110300'
+    name: 白色情人節期間限定的溫暖轉蛋新登場！★點圖確認詳細吧!!
+    id: 711
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-31_625:
+    start_on: 2022-03-31
+    end_on: 2022-04-02
+    version: '110300'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-02_716:
+    start_on: 2022-04-02
+    end_on: 2022-04-05
+    version: '110300'
+    name: "「歡笑揮舞孃」參戰！★超激稀有出現率超上升的「超貓祭」進行中!!"
+    id: 716
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-04-05_658:
+    start_on: 2022-04-05
+    end_on: 2022-04-08
+    version: '110300'
+    name: 對惡魔與天使很強的「舌切雀」參戰！★點圖確認詳細吧!!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-08_695:
+    start_on: 2022-04-08
+    end_on: 2022-04-11
+    version: '110300'
+    name: 有超生命體特效的新角色「狩獵女孩媞倫」加入！★點圖確認詳細吧!!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-04-08_702:
+    start_on: 2022-04-08
+    end_on: 2030-01-01
+    version: '110300'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 702
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-04-08_703:
+    start_on: 2022-04-08
+    end_on: 2030-01-01
+    version: '110300'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 703
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-04-08_711:
+    start_on: 2022-04-08
+    end_on: 2022-04-11
+    version: '110300'
+    name: 白色情人節期間限定的溫暖轉蛋新登場！★點圖確認詳細吧!!
+    id: 711
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30

@@ -10093,3 +10093,95 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-03-28_644:
+    start_on: 2022-03-28
+    end_on: 2022-03-31
+    version: '110300'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 644
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-28_711:
+    start_on: 2022-03-28
+    end_on: 2022-04-11
+    version: '110300'
+    name: White Day Limited Capsules ★ Tap banner for info!
+    id: 711
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-03-31_625:
+    start_on: 2022-03-31
+    end_on: 2022-04-02
+    version: '110300'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-02_716:
+    start_on: 2022-04-02
+    end_on: 2022-04-05
+    version: '110300'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 716
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-04-05_658:
+    start_on: 2022-04-05
+    end_on: 2022-04-08
+    version: '110300'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-08_695:
+    start_on: 2022-04-08
+    end_on: 2022-04-11
+    version: '110300'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-04-08_702:
+    start_on: 2022-04-08
+    end_on: 2030-01-01
+    version: '110300'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 702
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-04-08_703:
+    start_on: 2022-04-08
+    end_on: 2030-01-01
+    version: '110300'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 703
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-04-08_711:
+    start_on: 2022-04-08
+    end_on: 2022-04-11
+    version: '110300'
+    name: White Day Limited Capsules ★ Tap banner for info!
+    id: 711
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
