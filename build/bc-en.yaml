@@ -10185,3 +10185,72 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2022-04-11_629:
+    start_on: 2022-04-11
+    end_on: 2022-04-13
+    version: '110300'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 629
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-11_699:
+    start_on: 2022-04-11
+    end_on: 2022-04-15
+    version: '110300'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 699
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2022-04-13_662:
+    start_on: 2022-04-13
+    end_on: 2022-04-15
+    version: '110300'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 662
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-15_587:
+    start_on: 2022-04-15
+    end_on: 2022-04-18
+    version: '110400'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-15_724:
+    start_on: 2022-04-15
+    end_on: 2022-05-02
+    version: '110400'
+    name: More True Forms for limited Easter heroes! ★ Tap for info!
+    id: 724
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-04-18_632:
+    start_on: 2022-04-18
+    end_on: 2022-04-20
+    version: '110400'
+    name: Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-20_679:
+    start_on: 2022-04-20
+    end_on: 2022-04-22
+    version: '110400'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
