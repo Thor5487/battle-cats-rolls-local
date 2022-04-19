@@ -212,7 +212,6 @@ module BattleCatsRolls
       %w[
           https://www.apkmonk.com/app/%{id}/
           https://apkplz.net/app/%{id}
-          https://apkgk.com/%{id}/download
       ].find do |template|
         download_apk_from(sprintf(template, id: apk_id))
       end
@@ -229,8 +228,6 @@ module BattleCatsRolls
         wget(monk_donwload_link(apk_url), apk_path)
       when %r{apkplz\.net/app}
         wget(plz_download_link(*plz_download_link(apk_url)).first, apk_path)
-      when %r{apkgk\.com}
-        wget(gk_donwload_link(apk_url), apk_path)
       else
         wget(apk_url, apk_path)
       end
@@ -262,10 +259,6 @@ module BattleCatsRolls
       css_download_link(url, laravel_session) do |title|
         "a[title~='#{title}']"
       end
-    end
-
-    def gk_donwload_link url
-      "https:#{plz_download_link(url).first}"
     end
 
     def css_download_link url, laravel_session=nil
