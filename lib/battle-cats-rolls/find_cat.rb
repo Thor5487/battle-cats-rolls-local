@@ -27,7 +27,8 @@ module BattleCatsRolls
         586, # "Baby Garu",
         610, # "Shadow Garu",
         613, # "Princess Cat",
-        642, # "踊り子イズ",
+        642, # "Iz the Dancer",
+        658, # "悲嘆の踊り子イズ",
       ].freeze
     end
 
