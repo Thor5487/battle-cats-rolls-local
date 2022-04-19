@@ -26,7 +26,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         'jp',
-        '11.4.0',
+        '11.5.0',
         'jp.co.ponos.battlecats'
       ]
     end
@@ -211,7 +211,7 @@ module BattleCatsRolls
     def download_apk
       %w[
           https://www.apkmonk.com/app/%{id}/
-          https://apkplz.net/app/%{id}
+          https://apksos.com/app/%{id}
       ].find do |template|
         download_apk_from(sprintf(template, id: apk_id))
       end
@@ -226,8 +226,8 @@ module BattleCatsRolls
       case apk_url
       when %r{apkmonk\.com/app}
         wget(monk_donwload_link(apk_url), apk_path)
-      when %r{apkplz\.net/app}
-        wget(plz_download_link(*plz_download_link(apk_url)).first, apk_path)
+      when %r{apksos\.com/app}
+        wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
       else
         wget(apk_url, apk_path)
       end
@@ -255,7 +255,7 @@ module BattleCatsRolls
       JSON.parse(json)['url']
     end
 
-    def plz_download_link url, laravel_session=nil
+    def sos_download_link url, laravel_session=nil
       css_download_link(url, laravel_session) do |title|
         "a[title~='#{title}']"
       end
