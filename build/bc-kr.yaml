@@ -9238,3 +9238,74 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-04-22_701:
+    start_on: 2022-04-22
+    end_on: 2022-04-25
+    version: '110400'
+    name: 신 캐릭터 '흑수 가르디언' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    id: 701
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-04-25_648:
+    start_on: 2022-04-25
+    end_on: 2022-04-27
+    version: '110400'
+    name: 에이리언과 악마에 강한 캐릭터 '어둠의 정령 야미' 참전!★자세한 내용은 배너를 클릭!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-27_645:
+    start_on: 2022-04-27
+    end_on: 2022-04-29
+    version: '110400'
+    name: 좀비와 악마에 강한 캐릭터 '초용전기 데스 트로이' 참전!★자세한 내용은 배너를 클릭!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-29_709:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: 초생명체 특효를 가진 신 캐릭터 '흑표' 참전!★자세한 내용은 배너를 클릭!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-04-29_714:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 714
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-04-29_715:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 715
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-04-29_724:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: 일부 이스타 한정 캐릭터의 제3형태 추가!★자세한 내용은 배너를 클릭!
+    id: 724
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true

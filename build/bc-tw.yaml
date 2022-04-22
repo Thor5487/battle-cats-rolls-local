@@ -9895,3 +9895,74 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-04-22_701:
+    start_on: 2022-04-22
+    end_on: 2022-04-25
+    version: '110400'
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 701
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-04-25_648:
+    start_on: 2022-04-25
+    end_on: 2022-04-27
+    version: '110400'
+    name: 對上異星戰士與惡魔很強的「闇精靈亞米」參戰！★點圖確認詳細吧!!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-27_645:
+    start_on: 2022-04-27
+    end_on: 2022-04-29
+    version: '110400'
+    name: 帶來革命的超級武器 革命軍隊鋼鐵戰團 來了！★點圖確認詳細吧!!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-29_709:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: 有超生命體特效的新角色「服部半藏」參戰！★點圖確認詳細吧!!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-04-29_714:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 714
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-04-29_715:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 715
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-04-29_724:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: 復活節限定角色們全都新增了第3型態喔！★11連轉確定活動進行中!!
+    id: 724
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true

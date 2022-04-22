@@ -10272,3 +10272,74 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-04-22_701:
+    start_on: 2022-04-22
+    end_on: 2022-04-25
+    version: '110400'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 701
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-04-25_648:
+    start_on: 2022-04-25
+    end_on: 2022-04-27
+    version: '110400'
+    name: Take out Aku and Aliens with YAMII! ★ Tap banner for info!
+    id: 648
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-27_645:
+    start_on: 2022-04-27
+    end_on: 2022-04-29
+    version: '110400'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-04-29_709:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-04-29_714:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 714
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-04-29_715:
+    start_on: 2022-04-29
+    end_on: 2030-01-01
+    version: '110400'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 715
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-04-29_724:
+    start_on: 2022-04-29
+    end_on: 2022-05-02
+    version: '110400'
+    name: More True Forms for limited Easter heroes! ★ With 11-Draw Uber Guarantee!
+    id: 724
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
