@@ -10343,3 +10343,62 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2022-05-02_626:
+    start_on: 2022-05-02
+    end_on: 2022-05-04
+    version: '110400'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-04_659:
+    start_on: 2022-05-04
+    end_on: 2022-05-06
+    version: '110400'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 659
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-06_712:
+    start_on: 2022-05-06
+    end_on: 2022-05-09
+    version: '110400'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 712
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-05-09_694:
+    start_on: 2022-05-09
+    end_on: 2022-05-11
+    version: '110400'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-11_628:
+    start_on: 2022-05-11
+    end_on: 2022-05-13
+    version: '110400'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 628
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-13_661:
+    start_on: 2022-05-13
+    end_on: 2022-05-16
+    version: '110400'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 661
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
