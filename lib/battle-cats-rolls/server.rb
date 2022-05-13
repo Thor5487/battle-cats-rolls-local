@@ -8,7 +8,7 @@ require 'rack'
 
 module BattleCatsRolls
   Server = Jellyfish::Builder.app do
-    use Rack::CommonLogger
+    # use Rack::CommonLogger
     use Rack::Chunked
     use Rack::ContentLength
     use Rack::Deflater
