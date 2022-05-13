@@ -10402,3 +10402,94 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-05-16_586:
+    start_on: 2022-05-16
+    end_on: 2022-05-18
+    version: '110400'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-16_726:
+    start_on: 2022-05-16
+    end_on: 2022-05-20
+    version: '110400'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 726
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2022-05-18_631:
+    start_on: 2022-05-18
+    end_on: 2022-05-20
+    version: '110400'
+    name: Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 631
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-20_713:
+    start_on: 2022-05-20
+    end_on: 2022-05-23
+    version: '110400'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 713
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-05-23_678:
+    start_on: 2022-05-23
+    end_on: 2022-05-25
+    version: '110400'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-25_625:
+    start_on: 2022-05-25
+    end_on: 2022-05-27
+    version: '110400'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-27_718:
+    start_on: 2022-05-27
+    end_on: 2022-05-30
+    version: '110400'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-05-27_722:
+    start_on: 2022-05-27
+    end_on: 2030-01-01
+    version: '110400'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 722
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-05-27_723:
+    start_on: 2022-05-27
+    end_on: 2030-01-01
+    version: '110400'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 723
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend

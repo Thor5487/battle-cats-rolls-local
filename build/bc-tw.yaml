@@ -10025,3 +10025,94 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-05-16_586:
+    start_on: 2022-05-16
+    end_on: 2022-05-18
+    version: '110400'
+    name: 異世界召喚來的愉快美少女們登場！★點圖可以確認詳細喔!!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-16_726:
+    start_on: 2022-05-16
+    end_on: 2022-05-20
+    version: '110400'
+    name: 一舉集結季節角色們!!★超激稀有出現率上升的「超國王祭」來啦!!
+    id: 726
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2022-05-18_631:
+    start_on: 2022-05-18
+    end_on: 2022-05-20
+    version: '110400'
+    name: 超強破壞力！超強體力！超強特性！龍皇因佩拉斯登場！★點圖確認詳細吧!!
+    id: 631
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-20_713:
+    start_on: 2022-05-20
+    end_on: 2022-05-23
+    version: '110400'
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 713
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-05-23_678:
+    start_on: 2022-05-23
+    end_on: 2022-05-25
+    version: '110400'
+    name: 對飄浮敵人與惡魔很強的「墮天神路西法」登場！★點圖確認詳細吧!!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-25_625:
+    start_on: 2022-05-25
+    end_on: 2022-05-27
+    version: '110400'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-05-27_718:
+    start_on: 2022-05-27
+    end_on: 2022-05-30
+    version: '110400'
+    name: 有超生命體特效的新角色「冰精靈布莉茲」參戰！★點圖確認詳細吧!!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-05-27_722:
+    start_on: 2022-05-27
+    end_on: 2030-01-01
+    version: '110400'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 722
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-05-27_723:
+    start_on: 2022-05-27
+    end_on: 2030-01-01
+    version: '110400'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 723
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
