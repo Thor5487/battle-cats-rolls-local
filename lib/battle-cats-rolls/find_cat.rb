@@ -28,7 +28,7 @@ module BattleCatsRolls
         610, # "Shadow Garu",
         613, # "Princess Cat",
         642, # "Iz the Dancer",
-        658, # "悲嘆の踊り子イズ",
+        658, # "Iz the Dancer of Grief",
       ].freeze
     end
 

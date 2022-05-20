@@ -333,8 +333,8 @@ cats:
       name: [Elder Beast Naala, Storm Beast Naala]
       desc: ["After witnessing the power of the Cats, decided to join\ntheir cause. Smites interlopers with purifying lightning.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)"]
     657:
-      name: [Ancient Egg N001, Mystic Egg N001]
-      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N001\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nWhat will happen when it hatches...?", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nWhat will happen when it hatches...?"]
+      name: [Ancient Egg N001, Mystic Egg N001, Haniwa Cat]
+      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N001\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nResistant to Traitless enemy attacks.", "An object unearthed from the garden of a Cat base.\nHas great archeological value, and is a good lookout.\nBehemoth Slayer, and Tough against Traitless."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -544,8 +544,8 @@ cats:
       name: [PIKOTARO, NEKOTARO]
       desc: ["All it takes is Pens, a Pineapple and an \nApple to make the world smile. The man of\nlegend, newly married to a feisty 78-year old.", "A stylish Cat who always keeps an eye out\non new internet trends. Striving to be the most\npopular through perfect imitation.", "A stylish Cat who always keeps an eye out\non new internet trends. Striving to be the most\npopular through perfect imitation."]
     320:
-      name: [Killer Cat, True Killer Cat]
-      desc: ["Opened his heart to the savage beast within.\nCosts a bit extra to recruit to fight for you.", "This savage beast is consumed by thirst for battle!\nCosts a bit extra to recruit to fight for you.", "This savage beast is consumed by thirst for battle!\nCosts a bit extra to recruit to fight for you."]
+      name: [Killer Cat, True Killer Cat, Radical Cat]
+      desc: ["Opened his heart to the savage beast within.\nCosts a bit extra to recruit to fight for you.", "This savage beast is consumed by thirst for battle!\nCosts a bit extra to recruit to fight for you.", "After a long spell of rebellion, he has quelled his killer \ninstinct. Don't let his looks fool you; he's a kind Cat.\nA Behemoth Slayer who is Strong vs Floating."]
     325:
       name: [Curling Cat, Zamboney Cat, Green Shell Cat]
       desc: ["Hard, heavy and precise winter weapon.\nHits hard once, then won't move again.\nUnharmed by wave attacks.", "Manufacturer not responsible for equipment\nfailure ...is what the manual says.\nUnharmed by wave attacks.", "Cutting edge tech that relentlessly rushes\nstraight to the enemy. Powered by driverless \ncar AI! Unharmed by Wave attacks."]
@@ -735,6 +735,12 @@ cats:
     631:
       name: [Calligraphy Cat, Tea Master Cat]
       desc: ["Artist whose signature style involves a gigantic\nbrush and many scratched-out errors (since he \ncan't spell). Strong vs Relic enemies", "Makes industrial-sized servings of tea using a custom\nwhisk, sending out free cups to the whole Cat Empire.\nStrong vs Relic enemies, Immune to Waves/Surge", "Makes industrial-sized servings of tea using a custom\nwhisk, sending out free cups to the whole Cat Empire.\nStrong vs Relic enemies, Immune to Waves/Surge"]
+    659:
+      name: ['Ancient Egg: N101', 'Cinnabar Egg: N101', Courier Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N101 carved into it...", "A mysterious lifeform that takes the form of a red egg.\nThere appears to be faint signs of life inside.\nDeals Massive damage to Red enemies.", "A Cat that honors the lives of deliverymen that lived\nlong ago. Currently delivering very fragile goods.\nMassive damage to Red enemies, Behemoth Slayer."]
+    660:
+      name: ['Ancient Egg: N102', 'Teal Egg: N102', Catarzan]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N102 carved into it...", "A mysterious lifeform that takes the form of a green egg.\nThere appears to be faint signs of life inside.\nStrong vs Aliens.", "The leader of a band of wild Cats living in the jungle.\nHunting for food to meet his wife's bottomless appetite.\nStrong vs Aliens, Behemoth Slayer (Area Attack)."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -1401,8 +1407,8 @@ cats:
       name: [Heracrist, Perfect Heracrist]
       desc: ["Holy android created by 12 archangels. Rumors\nsay that its powers unbalanced could undo reality.\nStrong vs. Floating enemies.", "The ultimate sacred weapon created by the highest\nauthority in Heaven to suppress the forces of evil.\nStrong vs. Alien enemies."]
     483:
-      name: [Benevolent Souma, Souma ＆ Cat]
-      desc: ["Yuki's brother, who arrived in the world beyond as a \nboy. Seeking to advance past the sins of the past.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was saved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was aved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens."]
+      name: [Benevolent Souma, Souma ＆ Cat, Cat-Eared Souma]
+      desc: ["Yuki's brother, who arrived in the world beyond as a \nboy. Seeking to advance past the sins of the past.\nArea attacks might Slow and Weaken Angels/Aliens.", "Souma was saved from being swept up by a Cat \nand granted powers to summon lost souls.\nArea attacks might Slow and Weaken Angels/Aliens.", "In solidarity, Souma has grown a pair of cat ears.\nHis power is resonate and his soul is powered up.\nArea attacks Slow and Weaken Floating/Angels/Aliens."]
     485:
       name: [Li'l Valkyrie Dark, Dark Rider Valkyrie]
       desc: ["Valkyrie's younger sister, marked by the darkness. \nValhalla's agent, smiting evil from within the abyss!\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!", "Valkyrie's youngest sister, a fearsome bounty hunter.\nRides with her posse to subdue agents of evil.\nBlocks enemy Waves! Strikes with Wave Attacks!"]
@@ -1575,8 +1581,8 @@ cats:
       name: [Mousse (Duck), Mousse]
       desc: ["Joining from Ranma 1/2! When doused in water,\nCursed Springs magic turns him into a duck.\nLong-range strikes might Curse Aliens/Zombies.", "Joining from Ranma 1/2! Dirty tricks master in\nlove with Shampoo... who has no feelings for him.\nLong-range strikes 100% Curse Aliens/Zombies."]
     608:
-      name: [Adventurer Kanna, Swashbuckler Kanna]
-      desc: ["Fearless swordswoman from a world of fantasy!\nStumbled into a portal to the Cat Empire. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!"]
+      name: [Adventurer Kanna, Swashbuckler Kanna, Fabled Adventure Girl Kanna]
+      desc: ["Fearless swordswoman from a world of fantasy!\nStumbled into a portal to the Cat Empire. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!", "Has achieved enough to become legend, yet won't give\nup adventuring. Behemoth Slayer, and deals Massive \nLong-range Area Surge damage to Black enemies!"]
     610:
       name: [Dark Aegis Garu, Dark Beastlord Garu]
       desc: ["Mirror version of the stalwart guardian beast,\nborn into a cold, harsh reality. Tough vs Traitless,\nMini-Wave Omnistrikes, with Wave Immunity.", "A vision of despair by one who could not protect those\nmost dear to them.Tough vs Traitless, Mini-Wave Omni-\nstrikes get stronger after damage, with Wave Immunity.", "A vision of despair by one who could not protect those\nmost dear to them.Tough vs Traitless, Mini-Wave Omni-\nstrikes get stronger after damage, with Wave Immunity."]
@@ -1637,6 +1643,9 @@ cats:
     656:
       name: [Bliza, Blizana]
       desc: ["An ice specter from edge of the cosmos,\nresiding on an eternally frozen planet.\nColossus Slayer, might Slow Aliens/Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies."]
+    658:
+      name: [Iz the Dancer of Grief, Iz the Lady of Mourning]
+      desc: ["Iz, born in a world overflowing with grief. Consoles\nhumans with her dance of sadness and prayer.\nDeals Massive damage to Traitless (Omni-Strike).", "Dancer who prays to the gods in a world of death and\ndestruction. Her revivification dances deal Massive\nOmni-Strike damage to Traitless, Behemoth Slayer."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2408,6 +2417,10 @@ gacha:
   724: [331, 332, 596, 333, 655, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   725: [331, 332, 596, 333, 333, 333, 333, 655, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   726: [649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  727: [658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  728: [658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  729: [658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  730: [658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
