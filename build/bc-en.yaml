@@ -10506,3 +10506,62 @@ events:
     uber: 9500
     legend: 500
     platinum: legend
+  2022-05-30_644:
+    start_on: 2022-05-30
+    end_on: 2022-06-01
+    version: '110500'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 644
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-01_708:
+    start_on: 2022-06-01
+    end_on: 2022-06-03
+    version: '110500'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-03_720:
+    start_on: 2022-06-03
+    end_on: 2022-06-06
+    version: '110500'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 720
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-06-06_658:
+    start_on: 2022-06-06
+    end_on: 2022-06-08
+    version: '110500'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-08_695:
+    start_on: 2022-06-08
+    end_on: 2022-06-10
+    version: '110500'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-10_629:
+    start_on: 2022-06-10
+    end_on: 2022-06-13
+    version: '110500'
+    name: NEW hero Summoner Satoru, effective vs Aku! ★Tap banner for info!
+    id: 629
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
