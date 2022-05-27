@@ -44,12 +44,14 @@ module BattleCatsRolls
     end
 
     def self.build lang=nil
+      require 'socket'
+
       runner = new(*locale(lang))
 
       runner.write_events
       runner.write_data
       # runner.write_item_and_sale
-    rescue Errno::EACCES => e
+    rescue Errno::EACCES, SocketError => e
       puts "! Ignore: #{e}"
     end
 
