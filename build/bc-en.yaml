@@ -171,8 +171,8 @@ cats:
       name: [Li'l Bird Cat, Li'l UFO Cat, Li'l Flying Cat]
       desc: ["A tiny guy with dreams of becoming that\nCat with the health of a pea and\nexceptional attack power (Area Atk.)", "A tiny guy with dreams of becoming that\nCat who overcame gravity and is good\nagainst multiple enemies (Area Atk.)", "A tiny guy with dreams of becoming that\nCat who destroyed a city with light once.\nStrong against Zombies (Area Atk.)"]
     249:
-      name: [Undead Cat, Bake-Nyanko]
-      desc: ["A cameo from GirlsMons! Hit by\na car, but still gets by! Might\nslow down Zombie movement!", "A cameo from GirlsMons! A ghostly\nCat obsessed with the mortal realm.\nMight slow down Zombie movement."]
+      name: [Undead Cat, Bake-Nyanko, Extra-Life Cat]
+      desc: ["A cameo from GirlsMons! Hit by\na car, but still gets by! \nHas a small chance to Slow Zombies!", "A cameo from GirlsMons! A ghostly\nCat obsessed with the mortal realm.\nHas a small chance to Slow Zombies!", "Cat that has passed through an interdimensional door.\nIf you pass through, you won't be able to come back.\nHas a small chance to Slow Zombies"]
     269:
       name: [Red Riding Mina, Crimson Mina, Awakened Mina]
       desc: ["Teacher Bear said \"Girls are most cute with a\nCat in hand!\" So now she changed allegience.\nHer Bazooka broke, though… (Long distance)", "Mina actually is more popular since she joined\nthe Cats! Not quite to Valkyrie's level, though.\nBazooka still isn't fixed… (Long distance)", "A sweet killer who defends the cute creatures of\nthe woods. Don't touch her babies or you're dead.\nMight weaken Relics with Long Range Area Attacks."]
@@ -335,6 +335,9 @@ cats:
     657:
       name: [Ancient Egg N001, Mystic Egg N001, Haniwa Cat]
       desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N001\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nResistant to Traitless enemy attacks.", "An object unearthed from the garden of a Cat base.\nHas great archeological value, and is a good lookout.\nBehemoth Slayer, and Tough against Traitless."]
+    666:
+      name: ['Ancient Egg: N201', 'Dark Egg: N201', Exorcist Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N201 carved into it...", "A mysterious lifeform that takes the form of a dark egg.\nThere appears to be faint signs of life inside.\nHas a small chance to Freeze Aku enemies.", "Exorcise any paranormal activity in 30 mins. or less!\nEven the most stubborn spirit can't resist its garlic stench.\nBehemoth Slayer, small chance to Freeze Aku enemies."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -741,6 +744,12 @@ cats:
     660:
       name: ['Ancient Egg: N102', 'Teal Egg: N102', Catarzan]
       desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N102 carved into it...", "A mysterious lifeform that takes the form of a green egg.\nThere appears to be faint signs of life inside.\nStrong vs Aliens.", "The leader of a band of wild Cats living in the jungle.\nHunting for food to meet his wife's bottomless appetite.\nStrong vs Aliens, Behemoth Slayer (Area Attack)."]
+    664:
+      name: ['Ancient Egg: N103', 'Black Egg: N103', Gas Mask Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N103 carved into it...", "A mysterious lifeform that takes the form of a black egg.\nThere appears to be faint signs of life inside.\nTough vs. Black enemies.", "A Cat who wears a gas mask to stave off its allergies.\nIt burns down any and all plants that it is allergic to.\nTough vs. Black enemies, Behemoth Slayer."]
+    665:
+      name: ['Ancient Egg: N104', 'Green Egg: N104', Surgeon Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N104 carved into it...", "A mysterious lifeform that takes the form of a green egg.\nThere appears to be faint signs of life inside.\nHas a small chance to Weaken Floating enemies.", "Able to prepare any surgical implement in the blink of an\neye. Use when you want the aid of a fast-fingered feline!\nWeakens Floating enemies, Behemoth Slayer."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -994,6 +1003,9 @@ cats:
     655:
       name: [Brainwashed Gross Cat, Brainwashed Sexy Legs Cat]
       desc: ["Programmed through mind control to\nstrike using powerful long range attacks\nwith 100% chance of Surge Attack.", "Mind-controlled Cat with pride in his\noverly beautiful legs, programmed to \nhave 100% chance of Surge Attack.", "Mind-controlled Cat with pride in his\noverly beautiful legs, programmed to \nhave 100% chance of Surge Attack."]
+    663:
+      name: [Brainwashed Cow Cat, Brainwashed Giraffe Cat]
+      desc: ["A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Beats down enemies with many strikes.", "A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Also grew to be even more stylish!"]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1558,7 +1570,7 @@ cats:
       desc: ["This year, our bourgeois princess has hired a 3-star\npatissier to teach her how to make homemade chocolate.\nMight Dodge Red/Floating attacks, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack.", "Her chocolate perfected, she is now ready to confess\nher feelings... she just needs to find someone worthy of\nher love. Might Dodge Red/Floating, with Wave Attack."]
     591:
       name: [Snow Miku 2021, Snow Miku CC 2021]
-      desc: ["Virtual singer loved by the entire Cat Empire!\nA majestic snow sculpture brought to life!\nStrong vs.Traitless, with chance to Slow.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs.Traitless, with chance to Slow.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs.Traitless, with chance to Slow."]
+      desc: ["Virtual singer loved by the entire Cat Empire!\nA majestic snow sculpture brought to life!\nStrong vs. Traitless, with chance to Freeze.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs. Traitless, with chance to Freeze.", "Virtual singer loved by the entire Cat Empire!\nBeautifully bedecked in snow illuminations.\nStrong vs. Traitless, with chance to Freeze."]
     595:
       name: [Mighty Aethur Ltd., Atlantis Logistix, Ultra Atlantis Logistix]
       desc: ["Treasure merchants travelling the world by zeppelin.\nhauling a strange artifact emitting cosmic energy.\nOmnistrikes deal Insane Damage to Zombies.", "The mystery artifact is being delivered to a covert\nmilitary unit under the supervision of elite security.\nOmnistrikes deal Insane Damage to Zombies.", "The artifact is being delivered by ultra-elite security.\nInsane Damage to Zombies; chance to Dodge.\nGuaranteed to survive one lethal strike. (Omnistrike)"]
@@ -1639,13 +1651,19 @@ cats:
       desc: ["A fierce-looking punk leader often called Demon.\nBashes those he fancies with a bouquet symbolizing \nhis love. Inflicts various negative effects on Traited.", "A wild-hearted punk leader often called Demon.\nWhen that heavy bouquet hits you, you'll know what\nlove is. Inflicts various negative effects on Traited.", "A wild-hearted punk leader often called Demon.\nWhen that heavy bouquet hits you, you'll know what\nlove is. Inflicts various negative effects on Traited."]
     650:
       name: [Hattori Hanzo, Wargod Hanzo]
-      desc: ["Ninja transformed into a panther by a cursed iaito. One\nswift strike, and the mission is complete. Colossus\nSlayer, Massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who cuts down targets with godspeed, \nunleashing the power of his cursed blade. Colossus\nSlayer, massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who has unleashed the power of\nhis cursed blade, eliminating targets with godspeed.\nMassive damage to Black/Floating, 100% Freeze."]
+      desc: ["Ninja transformed into a panther by a cursed iaito. One\nswift strike, and the mission is complete. Colossus\nSlayer, Massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who cuts down targets with godspeed, \nunleashing the power of his cursed blade. Colossus\nSlayer, massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who cuts down targets with godspeed, \nunleashing the power of his cursed blade. Colossus\nSlayer, massive damage to Black/Floating, 100% Freeze."]
     656:
       name: [Bliza, Blizana]
-      desc: ["An ice specter from edge of the cosmos,\nresiding on an eternally frozen planet.\nColossus Slayer, might Slow Aliens/Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies."]
+      desc: ["An ice specter from edge of the cosmos,\nresiding on an eternally frozen planet.\nMight Slow Aliens/Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters Barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies.", "Commanding frost that freezes all matter around\nit, this spirit shatters Barriers with vicious icicles.\nColossus Slayer, tough vs & 100% Slows Aliens & Zombies."]
     658:
       name: [Iz the Dancer of Grief, Iz the Lady of Mourning]
-      desc: ["Iz, born in a world overflowing with grief. Consoles\nhumans with her dance of sadness and prayer.\nDeals Massive damage to Traitless (Omni-Strike).", "Dancer who prays to the gods in a world of death and\ndestruction. Her revivification dances deal Massive\nOmni-Strike damage to Traitless, Behemoth Slayer."]
+      desc: ["Iz, born in a world overflowing with grief. Consoles\nhumans with her dance of sadness and prayer.\nDeals Massive damage to Traitless (Omni-Strike).", "Dancer who prays to the gods in a world of death and\ndestruction. Her revivification dances deal Massive\nOmni-Strike damage to Traitless, Colossus Slayer."]
+    661:
+      name: [Sea Serpent Daliasan, Sea King Daliasan]
+      desc: ["A dragon that ruled over the seas long ago under the\nGods' watch. Destroys foes with overwhelming power.\nArea attacks Slow Floating/Angels, Colossus Slayer.", "A dragon housing the unrelenting power of the raging\nseas. Destroys foes with overwhelming power.\nArea attacks Slow Floating/Angels, Colossus Slayer."]
+    662:
+      name: [Chronos the Bride, Wedding Chronos]
+      desc: ["Goddess ruling over time, dressed in bridal fashion.\nProtects everlasting love with her Blessed Timepiece.\nInflicts Traited enemies with negative status, Mini-Wave.", "Time goddess who met her promised and is now a bride.\nHer Blessed Timepiece counts the length of their bond.\nInflicts Traited enemies with negative status, Mini-Wave."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2421,6 +2439,15 @@ gacha:
   728: [658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   729: [658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   730: [658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  731: [662, 635, 397, 361, 359, 323, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  732: [661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  733: [661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  734: [661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  735: [661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  736: [661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  737: [449, 456, 545, 626, 620, 615, 608, 570, 497, 397, 356, 287, 258, 195, 136, 60, 590, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  738: [452, 451, 494, 464, 621, 619, 596, 418, 360, 336, 284, 272, 213, 204, 170, 108, 58, 277, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  739: [482, 479, 462, 450, 632, 618, 595, 589, 398, 358, 273, 227, 178, 171, 137, 126, 76, 333, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -10644,3 +10671,72 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-07-01_720:
+    start_on: 2022-07-01
+    end_on: 2022-07-04
+    version: '110600'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 720
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-07-04_644:
+    start_on: 2022-07-04
+    end_on: 2022-07-07
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 644
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-04_658:
+    start_on: 2022-07-04
+    end_on: 2022-07-07
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 658
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-04_694:
+    start_on: 2022-07-04
+    end_on: 2022-07-07
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 694
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-07_587:
+    start_on: 2022-07-07
+    end_on: 2022-07-10
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 587
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-07_626:
+    start_on: 2022-07-07
+    end_on: 2022-07-10
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 626
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-07_679:
+    start_on: 2022-07-07
+    end_on: 2022-07-10
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 679
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
