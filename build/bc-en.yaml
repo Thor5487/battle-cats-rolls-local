@@ -10565,3 +10565,82 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-06-13_662:
+    start_on: 2022-06-13
+    end_on: 2022-06-15
+    version: '110500'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 662
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-15_587:
+    start_on: 2022-06-15
+    end_on: 2022-06-17
+    version: '110500'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-17_721:
+    start_on: 2022-06-17
+    end_on: 2022-06-20
+    version: '110500'
+    name: All the Ubers are gathered for EPICFEST, with higher drop rates!
+    id: 721
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-06-20_632:
+    start_on: 2022-06-20
+    end_on: 2022-06-22
+    version: '110500'
+    name: Hevijak arises, effective vs Red and Aku! ★Tap banner for info!
+    id: 632
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-22_679:
+    start_on: 2022-06-22
+    end_on: 2022-06-24
+    version: '110500'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-24_626:
+    start_on: 2022-06-24
+    end_on: 2022-06-26
+    version: '110600'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-26_719:
+    start_on: 2022-06-26
+    end_on: 2022-06-28
+    version: '110600'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-06-28_645:
+    start_on: 2022-06-28
+    end_on: 2022-07-01
+    version: '110600'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
