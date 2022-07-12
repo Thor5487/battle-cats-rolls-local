@@ -11352,3 +11352,85 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-07-06_625:
+    start_on: 2022-07-06
+    end_on: 2022-07-08
+    version: '110700'
+    name: バリアもシールドも破壊する新キャラクター「オコルガ」参戦！★詳細はバナーをタップ!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-07-06_748:
+    start_on: 2022-07-06
+    end_on: 2022-07-11
+    version: '110700'
+    name: "【終了間近】新キャラ2体追加！『らんま1/2』コラボガチャ！★11連で超激レア確定!!"
+    id: 748
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-07-08_742:
+    start_on: 2022-07-08
+    end_on: 2022-07-11
+    version: '110700'
+    name: 超生命体特効を持つ新キャラクター「ネコ天狗」参戦！★詳細はバナーをタップ!!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-07-08_745:
+    start_on: 2022-07-08
+    end_on: 2030-01-01
+    version: '110700'
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    id: 745
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-07-08_746:
+    start_on: 2022-07-08
+    end_on: 2030-01-01
+    version: '110700'
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    id: 746
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-07-11_708:
+    start_on: 2022-07-11
+    end_on: 2022-07-13
+    version: '110700'
+    name: 超生命体特効を持つ新キャラクター「服部半蔵」参戦！★詳細はバナーをタップ!!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-13_679:
+    start_on: 2022-07-13
+    end_on: 2022-07-15
+    version: '110700'
+    name: 浮いてる敵と悪魔に強いキャラ「堕天神ルシファー」参戦！★詳細はバナーをタップ!!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-15_744:
+    start_on: 2022-07-15
+    end_on: 2022-07-18
+    version: '110700'
+    name: 新キャラ「悲嘆の踊り子イズ」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    id: 744
+    rare: 6500
+    supa: 2600
+    uber: 900

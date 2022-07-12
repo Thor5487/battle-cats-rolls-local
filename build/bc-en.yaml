@@ -10740,3 +10740,53 @@ events:
     supa: 2500
     uber: 1000
     legend: 60
+  2022-07-10_631:
+    start_on: 2022-07-10
+    end_on: 2022-07-13
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 631
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-10_708:
+    start_on: 2022-07-10
+    end_on: 2022-07-13
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 708
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-10_718:
+    start_on: 2022-07-10
+    end_on: 2022-07-13
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 718
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-13_629:
+    start_on: 2022-07-13
+    end_on: 2022-07-15
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 629
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2022-07-13_662:
+    start_on: 2022-07-13
+    end_on: 2022-07-15
+    version: '110600'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 662
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
