@@ -9853,3 +9853,65 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-07-30_658:
+    start_on: 2022-07-30
+    end_on: 2022-08-02
+    version: '110700'
+    name: 악마와 천사에 강한 캐릭터 '혀 잘린 참새' 참전!★자세한 내용은 배너를 클릭!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-07-30_731:
+    start_on: 2022-07-30
+    end_on: 2022-08-05
+    version: '110700'
+    name: 준 브라이드 기간 한정 행복한 뽑기가 등장!★10+1회 뽑기를 돌리면 울슈레 확정!
+    id: 731
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-08-02_732:
+    start_on: 2022-08-02
+    end_on: 2022-08-05
+    version: '110700'
+    name: 초생명체 특효를 가진 캐릭터 '해룡 다라이어던' 참전!★자세한 내용은 배너를 클릭!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-02_735:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    id: 735
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-08-02_736:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    id: 736
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-08-05_743:
+    start_on: 2022-08-05
+    end_on: 2022-08-08
+    version: '110700'
+    name: 신캐릭터 '무희 이즈' 참전!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!
+    id: 743
+    rare: 6500
+    supa: 2600
+    uber: 900

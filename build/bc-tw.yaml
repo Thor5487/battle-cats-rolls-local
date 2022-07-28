@@ -10510,3 +10510,65 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-07-30_658:
+    start_on: 2022-07-30
+    end_on: 2022-08-02
+    version: '110700'
+    name: 對惡魔與天使很強的「舌切雀」參戰！★點圖確認詳細吧!!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-07-30_731:
+    start_on: 2022-07-30
+    end_on: 2022-08-05
+    version: '110700'
+    name: 充滿幸福氣氛的期間限定轉蛋「完美新娘」新登場★11連轉確定活動進行中!!
+    id: 731
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-08-02_732:
+    start_on: 2022-08-02
+    end_on: 2022-08-05
+    version: '110700'
+    name: 有超生命體特效的「海龍達萊亞薩」參戰！★點圖確認詳細吧!!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-02_735:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 735
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-08-02_736:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 736
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-08-05_743:
+    start_on: 2022-08-05
+    end_on: 2022-08-08
+    version: '110700'
+    name: 6隻夢幻貓咪一齊登場！★超激稀有出現率超上升的「超貓祭」進行中!!
+    id: 743
+    rare: 6500
+    supa: 2600
+    uber: 900

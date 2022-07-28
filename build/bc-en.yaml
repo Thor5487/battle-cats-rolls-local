@@ -10899,3 +10899,65 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-07-30_658:
+    start_on: 2022-07-30
+    end_on: 2022-08-02
+    version: '110700'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-07-30_731:
+    start_on: 2022-07-30
+    end_on: 2022-08-05
+    version: '110700'
+    name: New June Bride Capsules, along with a guaranteed Uber in each 11-Capsule Draw!
+    id: 731
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-08-02_732:
+    start_on: 2022-08-02
+    end_on: 2022-08-05
+    version: '110700'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-02_735:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 735
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-08-02_736:
+    start_on: 2022-08-02
+    end_on: 2030-01-01
+    version: '110700'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 736
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-08-05_743:
+    start_on: 2022-08-05
+    end_on: 2022-08-08
+    version: '110700'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 743
+    rare: 6500
+    supa: 2600
+    uber: 900
