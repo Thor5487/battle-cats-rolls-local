@@ -10790,3 +10790,112 @@ events:
     supa: 2500
     uber: 1000
     legend: 60
+  2022-07-15_727:
+    start_on: 2022-07-15
+    end_on: 2022-07-18
+    version: '110600'
+    name: Iz the Dancer of Grief appears along with increased Uber Rare drop rates!
+    id: 727
+    rare: 6500
+    supa: 2500
+    uber: 1000
+  2022-07-15_729:
+    start_on: 2022-07-15
+    end_on: 2030-01-01
+    version: '110600'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 729
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-07-15_730:
+    start_on: 2022-07-15
+    end_on: 2030-01-01
+    version: '110600'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 730
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-07-18_586:
+    start_on: 2022-07-18
+    end_on: 2022-07-20
+    version: '110600'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-18_731:
+    start_on: 2022-07-18
+    end_on: 2022-08-05
+    version: '110600'
+    name: New June Bride Capsules ★ Tap banner for info!
+    id: 731
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-07-20_678:
+    start_on: 2022-07-20
+    end_on: 2022-07-22
+    version: '110600'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-22_625:
+    start_on: 2022-07-22
+    end_on: 2022-07-24
+    version: '110600'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-24_718:
+    start_on: 2022-07-24
+    end_on: 2022-07-26
+    version: '110600'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-26_644:
+    start_on: 2022-07-26
+    end_on: 2022-07-28
+    version: '110600'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 644
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-07-26_699:
+    start_on: 2022-07-26
+    end_on: 2022-07-30
+    version: '110600'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 699
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2022-07-28_708:
+    start_on: 2022-07-28
+    end_on: 2022-07-30
+    version: '110600'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
