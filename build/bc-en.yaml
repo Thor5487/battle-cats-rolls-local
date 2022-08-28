@@ -10990,3 +10990,183 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-08-08_750:
+    start_on: 2022-08-08
+    end_on: 2022-08-29
+    version: '110700'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 750
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-08-15_587:
+    start_on: 2022-08-15
+    end_on: 2022-08-17
+    version: '110700'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-17_679:
+    start_on: 2022-08-17
+    end_on: 2022-08-19
+    version: '110700'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-19_734:
+    start_on: 2022-08-19
+    end_on: 2022-08-22
+    version: '110700'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 734
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-08-22_626:
+    start_on: 2022-08-22
+    end_on: 2022-08-24
+    version: '110700'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-24_719:
+    start_on: 2022-08-24
+    end_on: 2022-08-26
+    version: '110700'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-24_750:
+    start_on: 2022-08-24
+    end_on: 2022-08-29
+    version: '110700'
+    name: New heroes appear for summer fun, with 11-Draw Uber Guarantee!
+    id: 750
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-08-26_742:
+    start_on: 2022-08-26
+    end_on: 2022-08-29
+    version: '110700'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-26_745:
+    start_on: 2022-08-26
+    end_on: 2030-01-01
+    version: '110700'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 745
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-08-26_746:
+    start_on: 2022-08-26
+    end_on: 2030-01-01
+    version: '110700'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 746
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-08-29_496:
+    start_on: 2022-08-29
+    end_on: 2022-09-12
+    version: '110700'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 496
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-08-29_645:
+    start_on: 2022-08-29
+    end_on: 2022-08-31
+    version: '110700'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-31_709:
+    start_on: 2022-08-31
+    end_on: 2022-09-02
+    version: '110700'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-02_749:
+    start_on: 2022-09-02
+    end_on: 2022-09-05
+    version: '110700'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 749
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-09-05_659:
+    start_on: 2022-09-05
+    end_on: 2022-09-07
+    version: '110700'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 659
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-07_733:
+    start_on: 2022-09-07
+    end_on: 2022-09-09
+    version: '110700'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-09_496:
+    start_on: 2022-09-09
+    end_on: 2022-09-12
+    version: '110700'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 496
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-09-09_694:
+    start_on: 2022-09-09
+    end_on: 2022-09-12
+    version: '110700'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30

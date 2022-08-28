@@ -10601,3 +10601,183 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-08-08_750:
+    start_on: 2022-08-08
+    end_on: 2022-08-29
+    version: '110700'
+    name: 新角色追加！滿滿開放感的夏日限定角色來GET吧！★點圖確認詳細吧！！
+    id: 750
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-08-15_587:
+    start_on: 2022-08-15
+    end_on: 2022-08-17
+    version: '110700'
+    name: 異世界召喚來的愉快美少女們登場！★點圖可以確認詳細喔!!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-17_679:
+    start_on: 2022-08-17
+    end_on: 2022-08-19
+    version: '110700'
+    name: 對飄浮敵人與惡魔很強的「墮天神路西法」登場！★點圖確認詳細吧!!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-19_734:
+    start_on: 2022-08-19
+    end_on: 2022-08-22
+    version: '110700'
+    name: 新角色「悲嘆揮舞孃」參戰！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 734
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-08-22_626:
+    start_on: 2022-08-22
+    end_on: 2022-08-24
+    version: '110700'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-24_719:
+    start_on: 2022-08-24
+    end_on: 2022-08-26
+    version: '110700'
+    name: 有超生命體特效的「冰精靈布莉茲」參戰！★點圖確認詳細吧!!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-24_750:
+    start_on: 2022-08-24
+    end_on: 2022-08-29
+    version: '110700'
+    name: 新角色追加！滿滿開放感的夏日限定角色來GET吧！★11連轉超激確定活動中!!
+    id: 750
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-08-26_742:
+    start_on: 2022-08-26
+    end_on: 2022-08-29
+    version: '110700'
+    name: 有超生命體特效的「天狗貓」參戰！★點圖確認詳細吧!!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-08-26_745:
+    start_on: 2022-08-26
+    end_on: 2030-01-01
+    version: '110700'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 745
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-08-26_746:
+    start_on: 2022-08-26
+    end_on: 2030-01-01
+    version: '110700'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 746
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-08-29_496:
+    start_on: 2022-08-29
+    end_on: 2022-09-12
+    version: '110700'
+    name: "『活下去！曼波魚！』合作轉蛋登場！★點圖可以看詳細內容喔！"
+    id: 496
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-08-29_645:
+    start_on: 2022-08-29
+    end_on: 2022-08-31
+    version: '110700'
+    name: 帶來革命的超級武器 革命軍隊鋼鐵戰團 來了！★點圖確認詳細吧!!
+    id: 645
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-08-31_709:
+    start_on: 2022-08-31
+    end_on: 2022-09-02
+    version: '110700'
+    name: 有超生命體特效的「服部半藏」參戰！★點圖確認詳細吧!!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-02_749:
+    start_on: 2022-09-02
+    end_on: 2022-09-05
+    version: '110700'
+    name: 6隻夢幻貓咪一齊登場！★超激稀有出現率超上升的「超貓祭」進行中!!
+    id: 749
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-09-05_659:
+    start_on: 2022-09-05
+    end_on: 2022-09-07
+    version: '110700'
+    name: 對惡魔與天使很強的「舌切雀」參戰！★點圖確認詳細吧!!
+    id: 659
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-07_733:
+    start_on: 2022-09-07
+    end_on: 2022-09-09
+    version: '110700'
+    name: 有超生命體特效的「海龍達萊亞薩」參戰！★點圖確認詳細吧!!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-09_496:
+    start_on: 2022-09-09
+    end_on: 2022-09-12
+    version: '110700'
+    name: "『活下去！曼波魚！』合作轉蛋登場！★點圖可以看詳細內容喔！"
+    id: 496
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-09-09_694:
+    start_on: 2022-09-09
+    end_on: 2022-09-12
+    version: '110700'
+    name: 有超生命體特效的「狩獵女孩媞倫」加入！★點圖確認詳細吧!!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
