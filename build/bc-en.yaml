@@ -225,8 +225,8 @@ cats:
       name: [Farmer Cat, Harvest Cat]
       desc: ["A humble cat who grows tasty things to make others\nhappy. Selected for the Cat Army from many others. \nCollects extra money when defeating enemies.", "Heard that the turnip market was booming. Time to\nprofit off her crops! A respected Cat Army veteran.\nCollects extra money when defeating enemies."]
     384:
-      name: [Masked Yulala, Mystic Yulala]
-      desc: ["Joined the Cat Army, saying \"The law of my clan\nis to serve the strongest of warriors!\" Cool story,\nbro. Powerful long-range area attacks!", "Remade his holy mask in the image of his new\nCat Army comrades. It really embarrasses his\n12-year old daughter. Long-range area attacks."]
+      name: [Masked Yulala, Mystic Yulala, Spiritual Yulala]
+      desc: ["Joined the Cat Army, saying \"The law of my clan\nis to serve the strongest of warriors!\" Cool story,\nbro. Powerful long-range area attacks!", "Remade his holy mask in the image of his new\nCat Army comrades. It really embarrasses his\n12-year old daughter. Long-range area attacks.", "A silver fox, now irresistable to ladies that wouldn't\nhave given his younger self the time of day. \nMassive damage to Relics. Long-range area attacks."]
     385:
       name: [Satori Hikami & Cat, Satori Hikami & Cat CC]
       desc: ["Dropping in from PowerPro Baseball!\nThis manager plays it cool, but actually has a heart of gold.\nChance to knockback Red enemies.", "Dropping in from PowerPro Baseball!\nAn aikido blackbelt with catlike reflexes.\nChance to knockback Red enemies."]
@@ -520,8 +520,8 @@ cats:
       name: [Funghi, Funghi 'n' Cat]
       desc: ["Edible fungus aiming to rule the\ntable as the staple food. Cheap to\nproduce, so send 'em en masse!", "Cutting-edge science allowed\nhim to grow a Cat? Cheap to\nproduce, so send 'em en masse!"]
     283:
-      name: [Awa-Odori Cat, So-Ran Cat]
-      desc: ["Whether a dancing Cat or a watching Cat,\neveryone's a Cat, so why not just dance?!\nSuper cheap to allow for big parades.", "Heave, ho! Heave, ho! A dance for fish,\nof course Cats can get behind this tradition!\nSuper cheap to allow for extra big catches."]
+      name: [Awa-Odori Cat, So-Ran Cat, Gorgeous Groovin' Cat]
+      desc: ["Whether a dancing Cat or a watching Cat,\neveryone's a Cat, so why not just dance?!\nSuper cheap to allow for big parades.", "Heave, ho! Heave, ho! A dance for fish,\nof course Cats can get behind this tradition!\nSuper cheap to allow for extra big catches.", "Good-looking dancer charming the senoritas\nwith stellar footwork until the break of dawn.\nBehemoth Slayer, and a super cheap unit to boot."]
     295:
       name: [Madoka Cat, Magical Girl Madoka Cat]
       desc: ["A kind-hearted Cat who admires Magical Girls.\nShe will do anything to help her friends.\nMight Slow Floating enemies.", "This Magical Cat made a contract with a suspicious\nwhite creature. Uses her powers only to help others.\nMight Slow Floating enemies."]
@@ -756,6 +756,12 @@ cats:
     665:
       name: ['Ancient Egg: N104', 'Green Egg: N104', Surgeon Cat]
       desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N104 carved into it...", "A mysterious lifeform that takes the form of a green egg.\nThere appears to be faint signs of life inside.\nHas a small chance to Weaken Floating enemies.", "Able to prepare any surgical implement in the blink of an\neye. Use when you want the aid of a fast-fingered feline!\nWeakens Floating enemies, Behemoth Slayer."]
+    676:
+      name: ['Ancient Egg: N105', 'Teal Egg: N105', Racquet Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N105 carved into it...", "A mysterious lifeform that takes the form of a blue egg.\nThere appears to be faint signs of life inside.\nSometimes deals Knockback to Aliens.", "Endures strict training with the aim of becoming the best.\nBeats rivals with her special technique: Super Smash.\nBehemoth Slayer, sometimes deals Knockback to Aliens."]
+    677:
+      name: ['Ancient Egg: N106', 'Amber Egg: N106', Mushroom Cat]
+      desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N106 carved into it...", "A mysterious lifeform that takes the form of a yellow egg.\nThere appears to be faint signs of life inside.\nDeals Massive damage to Angels.", "A new species of Cat discovered in the depths of a\njungle. Full of fiber, loves the shade and damp areas.\nBehemoth Slayer, deals Massive Damage to Angels."]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -990,13 +996,13 @@ cats:
       desc: ["Virtual singer loved by the entire Cat Empire!\nA talented singer with a wide vocal range.\nTough vs. Zombies, with Area Attack.", "Virtual singer loved by the entire Cat Empire.\nBlessed with expressive, manly voice.\nTough vs. Zombies, with Area Attack."]
     602:
       name: [Happosai, Happosai (Lewd)]
-      desc: ["Joining from Ranma 1/2! Founder of Anything\nGoes style, who even Ranma cannot challenge.\nArea atks might Knockback Red/Floating/Zombies.", "Joining from Ranma 1/2! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies.", "Joining from Ranma 1/2! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies."]
+      desc: ["Joining from \"Ranma 1/2\"! Founder of Anything\nGoes style, who even Ranma cannot challenge.\nArea atks might Knockback Red/Floating/Zombies.", "Joining from \"Ranma 1/2\"! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies.", "Joining from \"Ranma 1/2\"! A troublesome\nletch with a habit of stealing underwear...\nArea atks might Knockback Red/Floating/Zombies."]
     603:
       name: [Ukyo Kuonji (GR), Ukyo Kuonji]
-      desc: ["Joining from Ranma 1/2! Ranma's OTHER\nfiancee, a commanding fighter (with a girlish heart).\nChance to Weaken Metal, might Critical.", "Joining from Ranma 1/2! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical.", "Joining from Ranma 1/2! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical."]
+      desc: ["Joining from \"Ranma 1/2\"! Ranma's OTHER\nfiancee, a commanding fighter (with a girlish heart).\nChance to Weaken Metal, might Critical.", "Joining from \"Ranma 1/2\"! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical.", "Joining from \"Ranma 1/2\"! Polished her fighting\nskills cooking okonomiyaki at her shop.\nChance to Weaken Metal, might Critical."]
     604:
       name: [Tatewaki Kuno (Gi), Tatewaki Kuno]
-      desc: ["Joining from Ranma 1/2! Rising star of the\nkendo world, and hopelessly in love with Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from Ranma 1/2! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from Ranma 1/2! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!"]
+      desc: ["Joining from \"Ranma 1/2\"! Rising star of the\nkendo world, and hopelessly in love with Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from \"Ranma 1/2\"! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!", "Joining from \"Ranma 1/2\"! In love with girl Ranma\nat first sight, still shamelessly pursuing Akane.\nChance to Slow/Knockback and Dodge Angels!"]
     630:
       name: [Brainwashed Cat, Brainwashed Macho Cat]
       desc: ["Cost-efficient Basic Cat who has been\nprogrammed through mind control to gain a\nchance to Dodge Black/Aku enemy attacks", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)"]
@@ -1015,6 +1021,9 @@ cats:
     668:
       name: [Brainwashed Bird Cat, Brainwashed UFO Cat]
       desc: ["Cat with the health of a pea who has been\nprogrammed through mind control to deal\nMassive damage to Traitless (Area Attack)", "Engineered to overcome gravity, programmed\nthrough mind control to deal Massive damage\nto multiple Traitless enemies (Area Attack)"]
+    673:
+      name: [Genma Saotome (Panda), Genma Saotome]
+      desc: ["Joining from \"Ranma 1/2\"! When doused in water,\nCursed Springs magic turns him into a panda.\nMassive damage to Traitless and Aku (Area attack)", "Joining from \"Ranma 1/2\"! All he wanted was to\ntrain with his son Ranma at the Cursed Springs...\nMassive damage to Traitless and Aku (Area attack)."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1588,19 +1597,19 @@ cats:
       desc: ["Mythic Dragon announcing the arrival of spring,\nwho appears after collecting 7 Easter Eggs.\nArea Attacks might Slow & Knockback Metal.", "Mythic Dragon summoned with 7 Easter Eggs.\nAnything his magic breath touches bursts into life.\nArea Attacks might Slow & Knockback Metal.", "Legendary dragon who grants wishes of those who\ndream of spring, causing new life to sprout into\nbloom. Might Knockback/Slow Metal and Aku."]
     597:
       name: [Ranma Saotome (M), Ranma Saotome (F)]
-      desc: ["Joining from Ranma 1/2! Heir to the\nSaotome style of Anything Goes Martial Arts.\nMassive Omnistrike damage to Red/Floating.", "Joining from Ranma 1/2! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating.", "Joining from Ranma 1/2! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating."]
+      desc: ["Joining from \"Ranma 1/2\"! Heir to the\nSaotome style of Anything Goes Martial Arts.\nMassive Omnistrike damage to Red/Floating.", "Joining from \"Ranma 1/2\"! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating.", "Joining from \"Ranma 1/2\"! When doused in water, \nCursed Springs magic turns him into a girl!\nMassive Omnistrike damage to Red/Floating."]
     598:
       name: [Akane Tendo, Akane Tendo (Gi)]
-      desc: ["Joining from Ranma 1/2! Strong and clumsy,\nbut pure-hearted girl engaged to Ranma.\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!", "Joining from Ranma 1/2! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!"]
+      desc: ["Joining from \"Ranma 1/2\"! Strong and clumsy,\nbut pure-hearted girl engaged to Ranma.\nLong-range Savage Blows w/ Barrier Break!", "Joining from \"Ranma 1/2\"! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!", "Joining from \"Ranma 1/2\"! Never misses a\n day of training. All suitors will be crushed!\nLong-range Savage Blows w/ Barrier Break!"]
     599:
       name: [Ryoga Hibiki (Pig), Ryoga Hibiki]
-      desc: ["Joining from Ranma 1/2! Cute piglet pampered\nby Akane. But when doused in hot water...\nTough vs Metal/Black enemies, might Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback", "Joining from Ranma 1/2! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback"]
+      desc: ["Joining from \"Ranma 1/2\"! Cute piglet pampered\nby Akane. But when doused in hot water...\nTough vs Metal/Black enemies, might Knockback", "Joining from \"Ranma 1/2\"! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback", "Joining from \"Ranma 1/2\"! Thinks of himself as\nRanma's rival, but can't find the dojo to fight him.\nTough vs Metal/Black enemies, 100% Knockback"]
     600:
       name: [Shampoo (Cat), Shampoo]
-      desc: ["Joining from Ranma 1/2! When doused in\nwater, Cursed Springs magic turns her into a cat.\nAttacks have chance of Mini-Wave.", "Joining from Ranma 1/2! Mighty Amazon who'll\nfight anyone standing between her and Ranma.\n100% chance of Mini-Wave."]
+      desc: ["Joining from \"Ranma 1/2\"! When doused in\nwater, Cursed Springs magic turns her into a cat.\nAttacks have chance of Mini-Wave.", "Joining from \"Ranma 1/2\"! Mighty Amazon who'll\nfight anyone standing between her and Ranma.\n100% chance of Mini-Wave."]
     601:
       name: [Mousse (Duck), Mousse]
-      desc: ["Joining from Ranma 1/2! When doused in water,\nCursed Springs magic turns him into a duck.\nLong-range strikes might Curse Aliens/Zombies.", "Joining from Ranma 1/2! Dirty tricks master in\nlove with Shampoo... who has no feelings for him.\nLong-range strikes 100% Curse Aliens/Zombies."]
+      desc: ["Joining from \"Ranma 1/2\"! When doused in water,\nCursed Springs magic turns him into a duck.\nLong-range strikes might Curse Aliens/Zombies.", "Joining from \"Ranma 1/2\"! Dirty tricks master in\nlove with Shampoo... who has no feelings for him.\nLong-range strikes 100% Curse Aliens/Zombies."]
     608:
       name: [Adventurer Kanna, Swashbuckler Kanna, Fabled Adventure Girl Kanna]
       desc: ["Fearless swordswoman from a world of fantasy!\nStumbled into a portal to the Cat Empire. Massive\nLong-range Area Surge damage to Black enemies!", "Curious wanderer who returns home only to share\ntales and treasure in between adventures. Massive\nLong-range Area Surge damage to Black enemies!", "Has achieved enough to become legend, yet won't give\nup adventuring. Behemoth Slayer, and deals Massive \nLong-range Area Surge damage to Black enemies!"]
@@ -1620,8 +1629,8 @@ cats:
       name: [Shiro Amakusa, Wargod Amakusa]
       desc: ["Clockwork creation imbued with a young zealot's\nsoul. Driven to bloody battle for his righteous cause.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies."]
     620:
-      name: [Lilin, Lilin π]
-      desc: ["This mad researcher experimented on her own \nclassmates to synthesize the vile Mateki elixir.\nStrong vs Angels & Aku, with Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks."]
+      name: [Lilin, Lilin π, Divine Lilin π]
+      desc: ["This mad researcher experimented on her own \nclassmates to synthesize the vile Mateki elixir.\nStrong vs Angels & Aku, with Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks.", "A madwoman who creates elixirs to enslave demons.\nGazes on calamity and chaos with a bewitching grin.\nStrong vs Angels & Aku, with 100% Piercing attacks."]
     621:
       name: [Hevijak the Wicked, Wicked King Hevijak]
       desc: ["Foul dragon, born of miasma and destined to bring\ndisaster and utter destruction to foolish mortal foes.\nTough vs Red and Aku, chance of Knockback/Piercing.", "Given the overwhelming power to annihilate the\ncelestial kingdom through dark pacts with the Aku. \nTough vs Red and Aku, chance of Knockback/Piercing.", "Given the overwhelming power to annihilate the\ncelestial kingdom through dark pacts with the Aku. \nTough vs Red and Aku, chance of Knockback/Piercing."]
@@ -1679,9 +1688,15 @@ cats:
     669:
       name: [Cat Tengu, Grand Yokai Tengu]
       desc: ["Cat that endured all manner of difficult training in the \nmountains to become a yokai. Colossus Slayer, \nstrong against Red/Angels, sometimes Knockback.", "Mysterious Cat that awoke its deepest mental faculties\nwith harsh training. Wields fire & wind. Colossus Slayer\nstrong against Red/Angels, sometimes Knockback.", "Mysterious Cat that awoke its deepest mental faculties\nwith harsh training. Wields fire & wind. Colossus Slayer\nstrong against Red/Angels, sometimes Knockbacks."]
+    672:
+      name: [Ranma Saotome (Leotard), Ranma Saotome (Cheer)]
+      desc: ["Joining from \"Ranma 1/2\"! Wrapped in lycra to\nimprove her odds in the gymnastics competition.\nFreezes Black enemies and Angels (Long-range Area)", "Joining from \"Ranma 1/2\"! Even cheering from the\nsidelines, her fiery fighting spirit is unmatched!\nFreezes Black enemies and Angels (Long-range Area)"]
     674:
       name: [ネコチーター]
       desc: ["災?轣ｽもたらすｾ薙とし囚われ封印された迚ｩ?怪物\n規律を破壊する者の前に現ｾ薙るといわれｾ繧\n怪物を従える諤ｪ??自らも怪物になら閾ｪよう注意"]
+    675:
+      name: [Mighty Carrowsell, Extraterrestrial Envanz]
+      desc: ["A grand show put on by a variety of performers.\nEnraptures audiences with expectation-defying acts.\nColossus Slayer, Curses and Slows Black/Zombies.", "An alien, disc-like ship that abducts the world's cows.\nWhy? To dissect and study them, of course!\nColossus Slayer, Curses and Slows Black and zombies."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2477,6 +2492,14 @@ gacha:
   748: [672, 601, 600, 599, 598, 597, 673, 673, 602, 602, 603, 603, 604, 604, 606, 606, 606, 606, 606, 606, 606, 606, 606, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
   749: [669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   750: [667, 668, 615, 567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  751: [667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  752: [675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  753: [675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  754: [675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  755: [675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  756: [675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  757: [672, 601, 600, 599, 598, 597, 673, 602, 603, 604, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
+  758: [669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
