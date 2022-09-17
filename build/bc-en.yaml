@@ -11232,3 +11232,52 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-09-19_666:
+    start_on: 2022-09-19
+    end_on: 2022-09-22
+    version: '110800'
+    name: New Heroes appear to celebrate 8 Years! ★ Tap banner for info!
+    id: 666
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-09-19_678:
+    start_on: 2022-09-19
+    end_on: 2022-09-22
+    version: '110800'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-22_625:
+    start_on: 2022-09-22
+    end_on: 2022-09-24
+    version: '110800'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-22_737:
+    start_on: 2022-09-22
+    end_on: 2022-09-25
+    version: '110800'
+    name: Ultra Selection! ★ Tap banner for info!
+    id: 737
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-24_718:
+    start_on: 2022-09-24
+    end_on: 2022-09-26
+    version: '110800'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
