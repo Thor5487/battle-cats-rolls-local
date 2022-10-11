@@ -11281,3 +11281,192 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-09-26_667:
+    start_on: 2022-09-26
+    end_on: 2022-09-29
+    version: '110800'
+    name: New Heroes appear to celebrate 8 Years! ★ Tap banner for info!
+    id: 667
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-09-26_741:
+    start_on: 2022-09-26
+    end_on: 2022-09-28
+    version: '110800'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-28_644:
+    start_on: 2022-09-28
+    end_on: 2022-10-01
+    version: '110800'
+    name: Tear through Zombies/Aku with Mighty Deth-Troy-R! ★ Tap banner for info!
+    id: 644
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-09-29_738:
+    start_on: 2022-09-29
+    end_on: 2022-10-03
+    version: '110800'
+    name: '8 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 738
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-01_708:
+    start_on: 2022-10-01
+    end_on: 2022-10-03
+    version: '110800'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-03_658:
+    start_on: 2022-10-03
+    end_on: 2022-10-05
+    version: '110800'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-03_739:
+    start_on: 2022-10-03
+    end_on: 2022-10-07
+    version: '110800'
+    name: '8 Year Celebration: Excellent Selection! ★ Tap banner for info!'
+    id: 739
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-05_732:
+    start_on: 2022-10-05
+    end_on: 2022-10-07
+    version: '110800'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-07_758:
+    start_on: 2022-10-07
+    end_on: 2022-10-10
+    version: '110800'
+    name: Iz the Dancer of Grief appears along with increased Uber Rare drop rates!
+    id: 758
+    rare: 6500
+    supa: 2500
+    uber: 1000
+  2022-10-10_695:
+    start_on: 2022-10-10
+    end_on: 2022-10-12
+    version: '110800'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-10_757:
+    start_on: 2022-10-10
+    end_on: 2022-10-24
+    version: '110800'
+    name: Two new units join Ranma 1/2! ★ Tap for info!
+    id: 757
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-10-12_662:
+    start_on: 2022-10-12
+    end_on: 2022-10-14
+    version: '110800'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 662
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-14_744:
+    start_on: 2022-10-14
+    end_on: 2022-10-17
+    version: '110800'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 744
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-10-17_587:
+    start_on: 2022-10-17
+    end_on: 2022-10-19
+    version: '110800'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 587
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-19_753:
+    start_on: 2022-10-19
+    end_on: 2022-10-22
+    version: '110800'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 753
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-10-19_755:
+    start_on: 2022-10-19
+    end_on: 2030-01-01
+    version: '110800'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 755
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2022-10-19_756:
+    start_on: 2022-10-19
+    end_on: 2030-01-01
+    version: '110800'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 756
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2022-10-19_757:
+    start_on: 2022-10-19
+    end_on: 2022-10-24
+    version: '110800'
+    name: Two new units join Ranma 1/2! ★ Guaranteed Uber in each 11-Capsule Draw!
+    id: 757
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-10-22_679:
+    start_on: 2022-10-22
+    end_on: 2022-10-24
+    version: '110800'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
