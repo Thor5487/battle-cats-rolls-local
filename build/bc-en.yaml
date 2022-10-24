@@ -344,6 +344,12 @@ cats:
     671:
       name: ['Ancient Egg: N202', 'Cinnabar Egg: N202', Armored Firefly Cat]
       desc: ["Otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N202\".", "Mysterious lifeform that takes the form of a red egg.\nThere appears to be faint signs of life inside.\nSometimes Weakens Red/Aliens.", "Its shining posterior brings to mind love-filled summers.\nClean freak who only lives in rivers. Behemoth Slayer,\nsometimes Weakens Red/Aliens (Area attack)."]
+    680:
+      name: [Chika Amatori & Cat, Chika Amatori & Cat CC]
+      desc: ["Joining from World Trigger! Joined Border to find her \nbrother and friend that were captured by Neighbors.\n100% Freezes Black enemies (Ranged Area Atk)", "Joining from World Trigger! A Sniper in Tamakoma \nSecond with an abundance of Trions.\n100% Freezes Black enemies (Ranged Area Atk)"]
+    686:
+      name: ['Ancient Egg: N004', 'Mystic Egg: N004', Supercar Cat]
+      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N004\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\n100% Knockback to Traited enemies.", "Rides an eco-friendly car that runs on renewable fuel.\nHigh-frequency horn Knocks back Traited enemies.\nBreaks Barriers and pierces Shields."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -511,8 +517,8 @@ cats:
       name: [MARS PEOPLE, MARS PEOPLE CC]
       desc: ["Recruited from Metal Slug Defense!\nYep, they're actual Martians.\nMight weaken Aliens.", "Recruited from Metal Slug Defense!\nMastered warping. No motivation to try\nnow, though. Might weaken Aliens."]
     228:
-      name: [Pumpcat, Cat O'Lantern]
-      desc: ["A mischevious Cat who hid inside\na carved autumn squash. Lives to\nstartle unsuspecting passersby.", "Those who live only for pranks become cursed\nto wander the world as ghosts… but they\nstill never learn. Might freeze Black enemies briefly."]
+      name: [Pumpcat, Cat O'Lantern, Harbinger Cat]
+      desc: ["A mischevious Cat who hid inside\na carved autumn squash. Lives to\nstartle unsuspecting passersby.", "Those who live only for pranks become cursed\nto wander the world as ghosts… but they\nstill never learn. Might freeze Black enemies briefly.", "Appears near sleeping people, signaling their death.\nDoom comes swiftly after it chants, \"Abura Cadaver!\"\nBehemoth Slayer, Strong vs and might Freeze Black."]
     245:
       name: [A Gift of Cats, Cat's Gift]
       desc: ["A lovely holiday gift from Santa.\nCan you guess what's inside?\nOccasionally freezes Angelic enemies.", "A lovely holiday gift from the Cat Army.\nSomething is bumping around inside…\nOccasionally freezes Angelic enemies."]
@@ -762,6 +768,12 @@ cats:
     677:
       name: ['Ancient Egg: N106', 'Amber Egg: N106', Mushroom Cat]
       desc: ["A mysterious lifeform that takes the form of an egg.\nDirt clings to its surface after many years, and\nerosion reveals the words N106 carved into it...", "A mysterious lifeform that takes the form of a yellow egg.\nThere appears to be faint signs of life inside.\nDeals Massive damage to Angels.", "A new species of Cat discovered in the depths of a\njungle. Full of fiber, loves the shade and damp areas.\nBehemoth Slayer, deals Massive Damage to Angels."]
+    678:
+      name: [Osamu Mikumo & Cat, Osamu Mikumo & Cat CC]
+      desc: ["Joining from World Trigger! Captain of Tamakoma\nSecond in the organization Border.\n(Area Attack)", "Joining from World Trigger! A Shooter who wins\nbattles with intelligence and ingenuity.\n(Area Attack)"]
+    679:
+      name: [Yuma Kuga & Cat, Yuma Kuga & Cat CC]
+      desc: ["Joining from World Trigger! A boy from the \nNeighborhood with experience on the battlefield.\nStrong vs Traitless and Red Enemies (Area Atk)", "Joining from World Trigger! An Ace Attacker with a \nSide Effect that lets him see through lies.\nStrong vs Traitless and Red Enemies (Area Atk)"]
   3:
     31:
       name: [Bodhisattva Cat, Avalokitesvara Cat, Tathagata Cat]
@@ -866,8 +878,8 @@ cats:
       name: [ALLEN O'NEIL, ALLEN O'NEIL CC]
       desc: ["Recruited from Metal Slug Defense!\nFeared by allies and foes alike as the\n\"Demon Sergeant\" Survives one lethal strike.", "Recruited from Metal Slug Defense!\nShirtless even in subzero temperatures.\nSurvives one lethal strike."]
     229:
-      name: [Gloomy Neneko, Witchy Neneko]
-      desc: ["Everyone's favorite cutie, dressed up for\nHalloween but doesn't have the heart to\npull any pranks on others. Might Critical.", "No magic talent, but she seemed so excited\nthey made her a witch anyhow. A little more\nconfidence might make all the difference (Critical)"]
+      name: [Gloomy Neneko, Witchy Neneko, Costumed Witchy Neneko]
+      desc: ["Everyone's favorite cutie, dressed up for\nHalloween but doesn't have the heart to\npull any pranks on others. Might Critical.", "No magic talent, but she seemed so excited\nthey made her a witch anyhow. A little more\nconfidence might make all the difference (Critical)", "Walks the decorated streets during Halloween. She has\nchanged her look with magic that last for only one night.\nWave Shield, chance of Critical."]
     238:
       name: [Freshman Cat Jobs, Prof. Cat Jobs, Headmaster Cat Jobs]
       desc: ["A li'l smart aleck who aced his entrance exams\nfor Nyarvard U. Uses his wit to spy enemy weak\npoints and greatly weaken their offense.", "Won the Nyabel Prize in economics last year.\nHis debate skills can confuse enemies so badly\nthey lose much of their offensive power.", "Legend of unmatched brainpower and experience.\nBuilds up incredible amounts of XP in his sleep!\nWeakens enemies with Surge attacks"]
@@ -1024,6 +1036,9 @@ cats:
     673:
       name: [Genma Saotome (Panda), Genma Saotome]
       desc: ["Joining from \"Ranma 1/2\"! When doused in water,\nCursed Springs magic turns him into a panda.\nMassive damage to Traitless and Aku (Area attack)", "Joining from \"Ranma 1/2\"! All he wanted was to\ntrain with his son Ranma at the Cursed Springs...\nMassive damage to Traitless and Aku (Area attack)."]
+    685:
+      name: [Brainwashed Fish Cat, Brainwashed Whale Cat]
+      desc: ["Cat with exceptional melee ability, programmed\nthrough mind control to be Strong vs Zombies,\nwith the ability to stop Zombies from reviving.\nExceptional melee capability.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer.\nManaged to become a carnivorous whale.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1543,7 +1558,7 @@ cats:
       desc: ["Virtual singer loved by the entire Cat Empire!\nBilingual vocalist with just a bit of mystery to her.\nMassive Long-Range Area Damage to Floating/Black", "Virtual singer loved by the entire Cat Empire!\nLaid-back bilingual vocalist with a silky smooth voice.\nMassive Long-Range Area Damage to Floating/Black"]
     564:
       name: [Squirtgun Saki, Aquabuster Saki, Aquablaster Saki]
-      desc: ["Waterguns are harder to aim... but at least\naccidental TKs only get summer camp friends wet.\nLong-Range Area attacks only hit Floating/Black", "Watches over the starlit beaches, protecting sea\n turtles from rowdy partiers with illegal fireworks.\nLong-Range Area attacks only hit Floating/Angels", "Prances about beaches, guarding them from danger.\nCleanses the hearts of poachers with her water gun.\nStrong attacks only hit Floating/Angels."]
+      desc: ["Waterguns are harder to aim... but at least\naccidental TKs only get summer camp friends wet.\nLong-Range Area attacks only hit Floating/Black", "Watches over the starlit beaches, protecting sea\n turtles from rowdy partiers with illegal fireworks.\nLong-Range Area attacks only hit Floating/Angels", "Prances about beaches, guarding them from danger.\nCleanses the hearts of poachers with her water gun.\nStrong against and only hits Floating/Angels."]
     565:
       name: [Summerluga , Bikinilan Pasalan, Fabulous Pasalan]
       desc: ["Not sure if this is a Cat... or a Gal?\nThere's just something about\nthat taste in swimwear...", "Blistering barnacles! Seems like\nthis bodacious beach babe has\n100% chance of Area Surge attacks", "Is it a Cat or a fabulous celebrity?\nCurious gal whose true identity remains a mystery.\n100% chance of Area Surge attacks"]
@@ -1551,8 +1566,8 @@ cats:
       name: [Gravi, Gravolo, Gravolodon]
       desc: ["A stone spirit who traversed the universe,\ngathering cosmic power as it soared through space.\n100% chance of Wave Attack.", "Stone spirit who commands the latent energies of\nmeteorites and asteroids to smash threats to the Cats.\nTough vs Aliens, 100% chance of Wave Attack.", "Boulder spirit willed into being by the god of meteors.\nShatters Barriers with holy energy of the cosmos!\nTough vs Aliens, 100% chance of Wave Attack."]
     571:
-      name: [Skull Rider Vars, Nightmare King Vars]
-      desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies."]
+      name: [Skull Rider Vars, Nightmare King Vars, Halloween Knight Vars]
+      desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies.", "A black knight in service of the king of Halloween.\nUnquestioningly nabs unhealthy candy from passersby.\n100% Knockback/Slow vs Zombies and Aliens."]
     572:
       name: [E. Honda, E. Honda CC]
       desc: ["Joining the fight from Street Fighter V!\nThe world will know the majestic art of Sumo!\nTough vs Angels, with 100% Knockback! (Area Atk)", "Joining the fight from Street Fighter V!\nFlying onto the world stage with a Super Head Ram!\nTough vs Angels, with 100% Knockback! (Area Atk)"]
@@ -1626,8 +1641,8 @@ cats:
       name: [Summoner Satoru, Dark Summoner Satoru]
       desc: ["To save the world, this boy made a pact with the Aku.\nCommands dark minions for a good cause... for now.\nLong-range Area attacks 100% Slow vs Aku", "Only a pure desire to save the world keeps Satoru\nfrom being corrupted by the magic of the Aku pact.\nLong-range Area attacks 100% Slow vs Aku", "Only a pure desire to save the world keeps Satoru\nfrom being corrupted by the magic of the Aku pact.\nLong-range Area attacks 100% Slow vs Aku"]
     619:
-      name: [Shiro Amakusa, Wargod Amakusa]
-      desc: ["Clockwork creation imbued with a young zealot's\nsoul. Driven to bloody battle for his righteous cause.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies."]
+      name: [Shiro Amakusa, Wargod Amakusa, Immortal Amakusa]
+      desc: ["Clockwork creation imbued with a young zealot's\nsoul. Driven to bloody battle for his righteous cause.\nMassive Area damage vs Aku and Black enemies.", "His endless crusade has stained his own spirit,\nturning him into a vengeful wraith of slaughter.\nMassive Area damage vs Aku and Black enemies.", "Embodiment of grudges and rage on the battlefield.\nHouses vengeful hellfire that will bring the world to ruin.\nMassive Area damage vs Aku and Black enemies."]
     620:
       name: [Lilin, Lilin π, Divine Lilin π]
       desc: ["This mad researcher experimented on her own \nclassmates to synthesize the vile Mateki elixir.\nStrong vs Angels & Aku, with Piercing attacks.", "Made a pact with the evil Aku to attain the ultimate\nMateki formula and enslave the entire Academy.\nStrong vs Angels & Aku, with 100% Piercing attacks.", "A madwoman who creates elixirs to enslave demons.\nGazes on calamity and chaos with a bewitching grin.\nStrong vs Angels & Aku, with 100% Piercing attacks."]
@@ -1697,6 +1712,12 @@ cats:
     675:
       name: [Mighty Carrowsell, Extraterrestrial Envanz]
       desc: ["A grand show put on by a variety of performers.\nEnraptures audiences with expectation-defying acts.\nColossus Slayer, Curses and Slows Black/Zombies.", "An alien, disc-like ship that abducts the world's cows.\nWhy? To dissect and study them, of course!\nColossus Slayer, Curses and Slows Black and zombies."]
+    683:
+      name: [Spectral Goth Vega, Illusory Guardian Vega]
+      desc: ["A Goddess of Death that has come from another world.\nWith the power of darkness, snuffs out followers of light.\nColossus Slayer, Strong against Traited enemies", "She has sealed away her dark, unmentionable past\nand seeks redemption in the mortal plane.\nColossus Slayer, Strong against Traited enemies"]
+    684:
+      name: [Count Yukimura, Nosferatu Yukimura]
+      desc: ["A dark warrior celebrated in festivals abroad.\nStalks from the shadows and delivers swift, fatal blows.\nMassive dmg to Floating, rarely Survives deadly hits.", "Warrior-turned-vampire thanks to a Halloween miracle.\nUses its sharp claws to protect the sanctity of Oct. 31.\nMassive dmg to Floating, rarely Survives deadly hits."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2500,6 +2521,14 @@ gacha:
   756: [675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
   757: [672, 601, 600, 599, 598, 597, 673, 602, 603, 604, 606, 523, 378, 308, 200, 154, 153, 152, 151, 62, 41, 40, 37, 36, 34, 33, 32, 31, 524, 496, 377, 326, 309, 199, 198, 150, 149, 148, 147, 146, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 39, 38]
   758: [669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  759: [675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  760: [683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  761: [683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  762: [685, 684, 655, 630, 571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 229, 229, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  763: [511, 681, 575, 574, 518, 517, 515, 513, 577, 577, 577, 577, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  764: [511, 682, 576, 573, 572, 516, 514, 512, 577, 577, 577, 577, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  765: [626, 618, 608, 439, 418, 360, 258, 204, 73, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  766: [685, 684, 655, 630, 571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
