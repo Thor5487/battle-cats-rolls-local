@@ -11470,3 +11470,101 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2022-10-24_511:
+    start_on: 2022-10-24
+    end_on: 2022-11-07
+    version: '110900'
+    name: Limited Shoumetsu Toshi Collab Capsules! ★ Tap banner for info!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-10-24_626:
+    start_on: 2022-10-24
+    end_on: 2022-10-26
+    version: '110900'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-26_719:
+    start_on: 2022-10-26
+    end_on: 2022-10-28
+    version: '110900'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-28_742:
+    start_on: 2022-10-28
+    end_on: 2022-10-30
+    version: '110900'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-30_709:
+    start_on: 2022-10-30
+    end_on: 2022-11-01
+    version: '110900'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-10-31_766:
+    start_on: 2022-10-31
+    end_on: 2022-11-14
+    version: '110900'
+    name: New units added! Earn limited-time costumed units! Tap the banner for details!
+    id: 766
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-11-01_754:
+    start_on: 2022-11-01
+    end_on: 2022-11-04
+    version: '110900'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 754
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-11-04_511:
+    start_on: 2022-11-04
+    end_on: 2022-11-07
+    version: '110900'
+    name: Limited Shoumetsu Toshi Collab Capsules! ★ Tap banner for info!
+    id: 511
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-11-04_659:
+    start_on: 2022-11-04
+    end_on: 2022-11-07
+    version: '110900'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 659
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-11-04_766:
+    start_on: 2022-11-04
+    end_on: 2022-11-14
+    version: '110900'
+    name: New units added! Earn limited-time costumed units! Tap the banner for details!
+    id: 766
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true

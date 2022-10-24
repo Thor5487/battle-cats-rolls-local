@@ -12078,3 +12078,35 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-10-26_741:
+    start_on: 2022-10-26
+    end_on: 2022-10-29
+    version: '110902'
+    name: 超生命体特効を持つ新キャラクター「ネコ天狗」参戦！★詳細はバナーをタップ!!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-10-26_762:
+    start_on: 2022-10-26
+    end_on: 2022-11-01
+    version: '110902'
+    name: 新キャラ追加！ハロウィン限定キャラをGET！★11連で超激レア確定!!
+    id: 762
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-10-29_626:
+    start_on: 2022-10-29
+    end_on: 2022-11-01
+    version: '110902'
+    name: バリアもシールドも破壊するキャラクター「オコルガ」参戦！★詳細はバナーをタップ!!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
