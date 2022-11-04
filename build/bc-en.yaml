@@ -11597,3 +11597,42 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2022-11-07_733:
+    start_on: 2022-11-07
+    end_on: 2022-11-10
+    version: '110900'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-07_766:
+    start_on: 2022-11-07
+    end_on: 2022-11-14
+    version: '110900'
+    name: New units added! Earn limited-time costumed units! Tap the banner for details!
+    id: 766
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-11-10_694:
+    start_on: 2022-11-10
+    end_on: 2022-11-12
+    version: '110900'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-12_661:
+    start_on: 2022-11-12
+    end_on: 2022-11-14
+    version: '110900'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 661
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
