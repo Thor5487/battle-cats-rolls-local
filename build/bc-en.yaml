@@ -11636,3 +11636,32 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2022-11-14_586:
+    start_on: 2022-11-14
+    end_on: 2022-11-16
+    version: '110900'
+    name: Spooky beauties from the netherworld! It's the GIRLS & MONSTERS!
+    id: 586
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-16_752:
+    start_on: 2022-11-16
+    end_on: 2022-11-18
+    version: '110900'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-18_759:
+    start_on: 2022-11-18
+    end_on: 2022-11-21
+    version: '110900'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 759
+    rare: 6500
+    supa: 2600
+    uber: 900
