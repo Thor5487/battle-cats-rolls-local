@@ -11665,3 +11665,175 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2022-11-21_678:
+    start_on: 2022-11-21
+    end_on: 2022-11-23
+    version: '110900'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-23_625:
+    start_on: 2022-11-23
+    end_on: 2022-11-25
+    version: '110900'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-25_718:
+    start_on: 2022-11-25
+    end_on: 2022-11-28
+    version: '110900'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-28_741:
+    start_on: 2022-11-28
+    end_on: 2022-11-30
+    version: '111000'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-28_777:
+    start_on: 2022-11-28
+    end_on: 2022-12-12
+    version: '111000'
+    name: Sakura joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 777
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-28_778:
+    start_on: 2022-11-28
+    end_on: 2022-12-12
+    version: '111000'
+    name: Luke joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 778
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-11-30_708:
+    start_on: 2022-11-30
+    end_on: 2022-12-02
+    version: '111000'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-02_754:
+    start_on: 2022-12-02
+    end_on: 2022-12-05
+    version: '111000'
+    name: IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 754
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-12-02_777:
+    start_on: 2022-12-02
+    end_on: 2022-12-12
+    version: '111000'
+    name: Sakura joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 777
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-02_778:
+    start_on: 2022-12-02
+    end_on: 2022-12-12
+    version: '111000'
+    name: Luke joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 778
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-05_658:
+    start_on: 2022-12-05
+    end_on: 2022-12-07
+    version: '111000'
+    name: Face down Aku and Angels with Shitakiri Sparrow! ★ Tap for info!
+    id: 658
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-05_777:
+    start_on: 2022-12-05
+    end_on: 2022-12-12
+    version: '111000'
+    name: Sakura joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 777
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-05_778:
+    start_on: 2022-12-05
+    end_on: 2022-12-12
+    version: '111000'
+    name: Luke joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    id: 778
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-07_732:
+    start_on: 2022-12-07
+    end_on: 2022-12-09
+    version: '111000'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-09_761:
+    start_on: 2022-12-09
+    end_on: 2022-12-12
+    version: '111000'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 761
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-12-09_777:
+    start_on: 2022-12-09
+    end_on: 2022-12-12
+    version: '111000'
+    name: Sakura joins the fight! ★ Guaranteed Uber in each 11-Capsule Draw!
+    id: 777
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-12-09_778:
+    start_on: 2022-12-09
+    end_on: 2022-12-12
+    version: '111000'
+    name: Luke joins the fight! ★ Guaranteed Uber in each 11-Capsule Draw!
+    id: 778
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
