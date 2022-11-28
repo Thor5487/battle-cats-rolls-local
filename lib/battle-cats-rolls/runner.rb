@@ -314,7 +314,7 @@ module BattleCatsRolls
         'wget',
         '--user-agent=Mozilla/5.0',
         '-O', path,
-        url)
+        url) || raise('wget gave an error')
     end
 
     def open_uri uri
