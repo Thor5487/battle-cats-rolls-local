@@ -346,10 +346,10 @@ cats:
       desc: ["Otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N202\".", "Mysterious lifeform that takes the form of a red egg.\nThere appears to be faint signs of life inside.\nSometimes Weakens Red/Aliens.", "Its shining posterior brings to mind love-filled summers.\nClean freak who only lives in rivers. Behemoth Slayer,\nsometimes Weakens Red/Aliens (Area attack)."]
     680:
       name: [Chika Amatori & Cat, Chika Amatori & Cat CC]
-      desc: ["Joining from World Trigger! Joined Border to find her \nbrother and friend that were captured by Neighbors.\n100% Freezes Black enemies (Ranged Area Atk)", "Joining from World Trigger! A Sniper in Tamakoma \nSecond with an abundance of Trions.\n100% Freezes Black enemies (Ranged Area Atk)"]
+      desc: ["Joining from World Trigger! Joined Border to find her \nbrother and friend that were captured by Neighbors.\n100% Slows Black enemies (Ranged Area Atk)", "Joining from World Trigger! A Sniper in Tamakoma \nSecond with an abundance of Trions.\n100% Slows Black enemies (Ranged Area Atk)"]
     686:
       name: ['Ancient Egg: N004', 'Mystic Egg: N004', Supercar Cat]
-      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N004\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\n100% Knockback to Traited enemies.", "Rides an eco-friendly car that runs on renewable fuel.\nHigh-frequency horn Knocks back Traited enemies.\nBreaks Barriers and pierces Shields."]
+      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N004\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nHas a small chance to Knockback Traited enemies.", "Rides an eco-friendly car that runs on renewable fuel.\nHigh-frequency horn Knocks back Traited enemies.\nBreaks Barriers and pierces Shields."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -677,7 +677,7 @@ cats:
       desc: ["A Cat endlessly training to fight the strongest\nwarriors. Sadly, none seem to be around now.\nMight Freeze Black enemies.", "I hoped to meet one warrior stronger than me.\nSadly, everyone seems to fit that description.\nMight Freeze Black enemies."]
     519:
       name: [Akuma Giraffe, Akuma Lion]
-      desc: ["Giraffe Cat awoke filled with killing spirit.\nAll who witness his new look tremble.\nStrong vs Traitless, with Wave Shield! (Omni)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Omni)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Omni)"]
+      desc: ["Giraffe Cat awoke filled with killing spirit.\nAll who witness his new look tremble.\nStrong vs Traitless, with Wave Shield! (Long-Range)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Long-Range)"]
     522:
       name: [Medusa Cat, Twintail Medusa Cat, Naga Cat]
       desc: ["Fiercely proud of her edgy hairstyle. Uses extra\nspray to prevent her locks from slithering out of\nLong-range Area attacks might Freeze Relics", "The spray couldn't hold them down, so she had to\ntie her unruly locks up to keep them under control.\nLong-range Area attacks might Freeze Relics", "Maiden who molted to reveal a lovely loooong body.\nHer love's power is in the super heavyweight class.\nLong-range Area attacks might Freeze Relics"]
@@ -1039,6 +1039,9 @@ cats:
     685:
       name: [Brainwashed Fish Cat, Brainwashed Whale Cat]
       desc: ["Cat with exceptional melee ability, programmed\nthrough mind control to be Strong vs Zombies,\nwith the ability to stop Zombies from reviving.\nExceptional melee capability.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer.\nManaged to become a carnivorous whale.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer."]
+    689:
+      name: [Brainwashed Lizard Cat, Brainwashed Dragon Cat]
+      desc: ["Reptile-like Cat who strikes distant enemies,\nprogrammed through mind control to perfect\na mighty single shot long range attack.", "Ranged attacker from a fantasy world, featuring\nmighty single-enemy strikes and a devilish design\ngained through mind-control programming."]
   4:
     35:
       name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
@@ -1671,8 +1674,8 @@ cats:
       name: [Iz the Dancer, Iz the Alluring Dancer]
       desc: ["Dancer who wants to make people smile with her art.\nShe just doesn't realize the power within herself.\nMassive Omnistrike damage to any enemy with a trait.", "Graceful dancer who entrances with elegant moves.\nConjures magical power delivers Insane Damage\nto Traited enemies. Stronger after taking damage!", "Graceful dancer who entrances with elegant moves.\nConjures magical power delivers Insane Damage\nto Traited enemies. Stronger after taking damage!"]
     643:
-      name: [Lucifer the Fallen, Grand Lucifer]
-      desc: ["Expelled after attempting to acquire forbidden powers.\nAnnihilates opponents with his fallen angel's Hell Blade.\nStrong vs. Floating/Aku. Chance of Surge Attack.", "Enemy of heaven and commander of demon legions.\nCreates a dark world with his Unholy Hell Blade.\nStrong vs. Floating/Aku. Chance of Surge Attack."]
+      name: [Lucifer the Fallen, Grand Lucifer, Almighty Lucifer]
+      desc: ["Expelled after attempting to acquire forbidden powers.\nAnnihilates opponents with his fallen angel's Hell Blade.\nStrong vs. Floating/Aku. Chance of Surge Attack.", "Enemy of heaven and commander of demon legions.\nCreates a dark world with his Unholy Hell Blade.\nStrong vs. Floating/Aku. Chance of Surge Attack.", "Grand demon of Hell plotting the overthrow of Heaven.\nShepards the living to sin with the Fruit of Creation.\nStrong vs. Floating/Aku. 100% Surge Attack."]
     645:
       name: [Sweet Love Mekako, Bittersweet Mekako]
       desc: ["Added chocolate to the fuel reactor in an\nattempt to decode the structure of human love.\nArea Attacks might Freeze Traitless.", "Growing bitter with her lack of research results,\nthe look of Mekako's mech also grows darker...\nArea Attacks might Freeze Black enemies.", "Growing bitter with her lack of research results,\nthe look of Mekako's mech also grows darker...\nArea Attacks might Freeze Black enemies."]
@@ -1712,12 +1715,24 @@ cats:
     675:
       name: [Mighty Carrowsell, Extraterrestrial Envanz]
       desc: ["A grand show put on by a variety of performers.\nEnraptures audiences with expectation-defying acts.\nColossus Slayer, Curses and Slows Black/Zombies.", "An alien, disc-like ship that abducts the world's cows.\nWhy? To dissect and study them, of course!\nColossus Slayer, Curses and Slows Black and zombies."]
+    681:
+      name: [Sakura, Sakura CC]
+      desc: ["Joining the fight from Street Fighter V!\nEagerly followed her idol into the world of street fighting.\nDeals Massive damage to Traited enemies (Omnistrike)", "Joining the fight from Street Fighter V!\nDrives her \"Shououken\" into enemies, copying her hero.\nDeals Massive damage to Traited enemies (Omnistrike)", "Joining the fight from Street Fighter V!\nDrives her \"Shououken\" into enemies copying her hero.\nDeals Massive damage to Traited enemies (Omnistrike)"]
+    682:
+      name: [Luke, Luke CC]
+      desc: ["Joining the fight from Street Fighter V!\nExcitable young man who spars like a trained soldier.\nStrong against Traited enemies (Area Attack)", "Joining the fight from Street Fighter V!\nPunishes his enemy with fierce \"Flash Knuckles.\"\nStrong against Traited enemies (Area Attack)"]
     683:
       name: [Spectral Goth Vega, Illusory Guardian Vega]
       desc: ["A Goddess of Death that has come from another world.\nWith the power of darkness, snuffs out followers of light.\nColossus Slayer, Strong against Traited enemies", "She has sealed away her dark, unmentionable past\nand seeks redemption in the mortal plane.\nColossus Slayer, Strong against Traited enemies"]
     684:
       name: [Count Yukimura, Nosferatu Yukimura]
       desc: ["A dark warrior celebrated in festivals abroad.\nStalks from the shadows and delivers swift, fatal blows.\nMassive dmg to Floating, rarely Survives deadly hits.", "Warrior-turned-vampire thanks to a Halloween miracle.\nUses its sharp claws to protect the sanctity of Oct. 31.\nMassive dmg to Floating, rarely Survives deadly hits."]
+    687:
+      name: [Goddess of Light Sirius, Goddess of Sunrise Sirius]
+      desc: ["Goddess of light who descended from the brightest of\nstars. Smothers even the slightest of evils with justice.\nStrong against Colossal and Traited enemies.", "Goddess of light keeping the world on the correct path.\nCasts judgment on great evil with all of her might.\nStrong against Colossal and Traited enemies."]
+    688:
+      name: [Reindeer Terun, Reindeer Terunζ]
+      desc: ["The genius gal decided to dress up for the holidays.\nStands against those that would ruin Christmas.\nStrong against Colossal, Black, and Aliens.", "Genius hunter on her way to a Christmas party with a\nfriend. Her catch will be the centerpiece of dinner.\nStrong against Colossal, Black, and Aliens.", "Genius hunter on her way to a Christmas party with\na friend. Her catch will be the centerpiece of dinner.\nStrong against Colossal, Black, and Aliens."]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2529,6 +2544,19 @@ gacha:
   764: [511, 682, 576, 573, 572, 516, 514, 512, 577, 577, 577, 577, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   765: [626, 618, 608, 439, 418, 360, 258, 204, 73, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   766: [685, 684, 655, 630, 571, 524, 523, 496, 378, 377, 303, 231, 230, 229, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  767: [437, 45, 619, 107, 86, 137, 534, 273, 595, 336, 360, 436, 642, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  768: [437, 45, 619, 107, 86, 137, 534, 273, 595, 336, 360, 485, 658, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  769: [449, 456, 545, 170, 520, 650, 620, 506, 634, 196, 317, 306, 335, 362, 662, 287, 637, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  770: [451, 452, 494, 464, 172, 60, 73, 503, 661, 323, 635, 535, 595, 359, 402, 649, 284, 655, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  771: [462, 450, 482, 479, 171, 618, 159, 352, 88, 526, 432, 259, 633, 337, 656, 645, 398, 630, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  772: [687, 669, 650, 648, 661, 675, 683, 656, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  773: [684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  774: [687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  775: [687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  776: [688, 585, 527, 311, 244, 243, 242, 689, 663, 637, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  777: [511, 681, 575, 574, 518, 517, 515, 513, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  778: [511, 682, 576, 573, 572, 516, 514, 512, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  779: [688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
