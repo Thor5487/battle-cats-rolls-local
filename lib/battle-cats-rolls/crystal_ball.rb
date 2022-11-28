@@ -5,10 +5,11 @@ require_relative 'cat'
 module BattleCatsRolls
   class CrystalBall < Struct.new(:data)
     def self.from_pack_and_events pack, events
-      new(
+      new({
         'cats' => pack.cats,
         'gacha' => pack.gacha,
-        'events' => events.gacha)
+        'events' => events.gacha
+      })
     end
 
     def self.load dir, lang
