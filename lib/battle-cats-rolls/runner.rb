@@ -343,7 +343,7 @@ module BattleCatsRolls
         true
       else
         puts "Removing bogus #{apk_path}..."
-        FileUtils.rm(apk_path)
+        FileUtils.rm_r(data_path(version))
         false
       end
     end
