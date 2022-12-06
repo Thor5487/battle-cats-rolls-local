@@ -29,6 +29,7 @@ module BattleCatsRolls
         613, # "Princess Cat",
         642, # "Iz the Dancer",
         658, # "Iz the Dancer of Grief",
+        691, # "運命の子フォノ",
       ].freeze
     end
 
