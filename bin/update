@@ -14,3 +14,4 @@ user_git stash pop
 user_git reset
 
 chown -R bcat:bcat $root/data $root/build
+sudo -u bact ruby $root/bin/cleanup-apk.rb
