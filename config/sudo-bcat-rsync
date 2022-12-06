@@ -1,0 +1,1 @@
+godfat ALL = (bcat) NOPASSWD: /usr/bin/rsync
