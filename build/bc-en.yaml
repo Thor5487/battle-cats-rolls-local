@@ -11865,3 +11865,137 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2022-12-12_695:
+    start_on: 2022-12-12
+    end_on: 2022-12-14
+    version: '111000'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-12_765:
+    start_on: 2022-12-12
+    end_on: 2022-12-26
+    version: '111000'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 765
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-12_776:
+    start_on: 2022-12-12
+    end_on: 2022-12-26
+    version: '111000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-14_662:
+    start_on: 2022-12-14
+    end_on: 2022-12-16
+    version: '111000'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 662
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-16_759:
+    start_on: 2022-12-16
+    end_on: 2022-12-19
+    version: '111000'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 759
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2022-12-16_765:
+    start_on: 2022-12-16
+    end_on: 2022-12-26
+    version: '111000'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 765
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-16_776:
+    start_on: 2022-12-16
+    end_on: 2022-12-26
+    version: '111000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-19_753:
+    start_on: 2022-12-19
+    end_on: 2022-12-21
+    version: '111000'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 753
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-19_765:
+    start_on: 2022-12-19
+    end_on: 2022-12-26
+    version: '111000'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 765
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-19_776:
+    start_on: 2022-12-19
+    end_on: 2022-12-26
+    version: '111000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2022-12-21_679:
+    start_on: 2022-12-21
+    end_on: 2022-12-23
+    version: '111000'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-23_626:
+    start_on: 2022-12-23
+    end_on: 2022-12-26
+    version: '111000'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2022-12-23_765:
+    start_on: 2022-12-23
+    end_on: 2022-12-26
+    version: '111000'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 765
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2022-12-23_776:
+    start_on: 2022-12-23
+    end_on: 2022-12-26
+    version: '111000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
