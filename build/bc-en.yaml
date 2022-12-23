@@ -11999,3 +11999,72 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2022-12-26_719:
+    start_on: 2022-12-26
+    end_on: 2022-12-29
+    version: '111000'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2022-12-26_747:
+    start_on: 2022-12-26
+    end_on: 2022-12-30
+    version: '111000'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 747
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2022-12-29_742:
+    start_on: 2022-12-29
+    end_on: 2023-01-01
+    version: '111000'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-01_754:
+    start_on: 2023-01-01
+    end_on: 2023-01-04
+    version: '111000'
+    name: NEW hero IZ THE DANCER and Higher drop rate for Uber Rares!
+    id: 754
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-01-04_709:
+    start_on: 2023-01-04
+    end_on: 2023-01-06
+    version: '111000'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-06_659:
+    start_on: 2023-01-06
+    end_on: 2023-01-09
+    version: '111000'
+    name: Face down Aku and Angels with NEW hero Shitakiri Sparrow! ★ Tap for info!
+    id: 659
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-06_779:
+    start_on: 2023-01-06
+    end_on: 2023-01-09
+    version: '111000'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 779
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
