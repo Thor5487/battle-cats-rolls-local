@@ -29,8 +29,8 @@ cats:
       name: [Titan Cat, Mythical Titan Cat, Jamiera Cat]
       desc: ["Blessed with extreme attack power and\nridiculous amounts of health (Area Attack)", "Lord of Destruction (?) (Area Attack)\nExtreme attack power and health.", "Might knockback enemies. (Area Attack)\nThe Real Lord of Destruction?\nDon't stretch your shirt like this."]
     644:
-      name: [Superfeline, Superfeline II]
-      desc: ["Transcended mortality to turn the tides of destiny.\nSwiftly closes in on its target to attack with its long tail.\nDelivers massive damage to Relics. (Omnistrike)", "Cat who charges into battle of its own free will.\nSeeks freedom through sheer physical power.\nDelivers massive damage to Relics. (Omnistrike)", "Cat who charges into battle of its own free will.\nSeeks freedom through sheer physical power.\nDelivers massive damage to Relics. (Omnistrike)"]
+      name: [Superfeline, Superfeline II, True Superfeline]
+      desc: ["Transcended mortality to turn the tides of destiny.\nSwiftly closes in on its target to attack with its long tail.\nDelivers massive damage to Relics. (Omnistrike)", "Cat who charges into battle of its own free will.\nSeeks freedom through sheer physical power.\nDelivers massive damage to Relics. (Omnistrike)", "The genetic embodiment of \"Humanity Catified.\"\nAfter years of biorecombination, it awakens.\nDeals Massive damage to Relics. (Omnistrike)"]
   1:
     10:
       name: [Actress Cat, Mother Cat, Beefcake Cat]
@@ -255,11 +255,11 @@ cats:
       name: [Shirou the Cat, Novice Mage Shirou Cat]
       desc: ["A Cat who strives to be a defender of justice.\nSpent months in his room trying to summon\na Heroic Spirit. Strong vs. Black enemies.", "Still hasn't succeeded at Heroic Spirit\nsummoning. Now leaves his room sometimes\nto do night patrols. Strong vs. Black enemies."]
     463:
-      name: [Filibuster Cat X, Filibuster Cat Y]
-      desc: ["An ancient lifeform once annihilated by the \npower of Doge, but now restored with super glue. \nOmnistrike with 100% Freeze vs. Traitless.", "Mystery Cat once thought lost to the universe.\nUpdated his paint job with a more slimming color.\nOmnistrike with 100% Freeze vs. Traitless."]
+      name: [Filibuster Cat X, Filibuster Cat Y, Metafilibuster]
+      desc: ["An ancient lifeform once annihilated by the \npower of Doge, but now restored with super glue. \nOmnistrike with 100% Freeze vs. Traitless.", "Mystery Cat once thought lost to the universe.\nUpdated his paint job with a more slimming color.\nOmnistrike with 100% Freeze vs. Traitless.", "Invading our plane remotely from another world.\nNot at full power due to poor reception (Omnistrike)\n100% Freeze against Relics and Traitless."]
     465:
-      name: [Dogumaru, Doguemon]
-      desc: ["The Doge army put this artifact for sale on cBay to\nfund their next campaign, but only made $0.22 from it.\nHigh defense against Traitless (Area Attack)", "Analysis reveals that this was created by ancient Cats\nthen sold to Doges for use as flowerbed decorations.\nHigh defense against Traitless (Area Attack)"]
+      name: [Dogumaru, Doguemon, Reborn Warrior Doguemon]
+      desc: ["The Doge army put this artifact for sale on cBay to\nfund their next campaign, but only made $0.22 from it.\nHigh defense against Traitless (Area Attack)", "Analysis reveals that this was created by ancient Cats\nthen sold to Doges for use as flowerbed decorations.\nHigh defense against Traitless (Area Attack)", "Reached its true potential after finding perfectly fitting\narmaments at the flea market. Colossus/Behemoth\nSlayer, Tough vs. Relics and Traitless (Area Atk.)"]
     475:
       name: [Rosary Angel, Cross Angel, Strike Angel]
       desc: ["Generates radiant light by the power of Amen\nand Wink Eye that subdues even the fiercest\ndevil. Might Weaken Red enemies.", "Shoots down invading demons with her Golden\nCross cannon. Her devotion to the cause of the\nholy egg is unshakeable. Might Weaken Red/Black.", "Watches over the holy labyrinth with the teachings\nof the sages behind her. Smashes evil with her\nrighteous cross. Might Weaken Red/Black/Zombies."]
@@ -288,8 +288,8 @@ cats:
       name: [Chun-Li Cat, Chun-Li Cat CC]
       desc: ["A Cat who seems to have stuck buns in her\nhair. Trying to learn the Spinning Bird Kick.\nSmall chance of Critical.", "Beautiful Cat working for the ICPO.\nMesmerizing kicks stun her opponents.\nSmall chance of Critical."]
     533:
-      name: [Urs & Fenrir, Urs & Minka]
-      desc: ["The weak shall serve the strong! Or so they say.\nThe founding ancestor of a proud warrior clan.\nArea attacks might weaken non-Metal enemies.", "The first of their line to terrorize enemies by\nriding a ferocious Cat-beast into the enemy lines.\nArea attacks might weaken non-Metal enemies."]
+      name: [Urs & Fenrir, Urs & Minka, Awakened Urs]
+      desc: ["The weak shall serve the strong! Or so they say.\nThe founding ancestor of a proud warrior clan.\nArea attacks might weaken non-Metal enemies.", "The first of their line to terrorize enemies by\nriding a ferocious Cat-beast into the enemy lines.\nArea attacks might weaken non-Metal enemies.", "Adolescent warrior donning the robe of their ancestors\nhunting for a bethrothed. Colossus/Behemoth Slayer.\nArea attacks might weaken non-Metal enemies."]
     555:
       name: [Master Uril, Mystic Uril]
       desc: ["The will of one in flowing robes is the law!\nAnd so, he forced his way into the Cat Army.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks."]
@@ -309,8 +309,8 @@ cats:
       name: [Gold Brick Cat, King Ingot Cat, King Nekokhamen]
       desc: ["A hefty hunk of pure gold that was worth\ntwice as much before Tank Cat got mixed up in it.\nTough vs. Floating (Area Attack)", "A squad of Gold Brick Cats got together to form\na single, shiny fighting unit. Hail to the King!\nTough vs. Floating (Area Attack)", "Golden Cat pharoah unseen since the ancient Empire.\nTourists now come from all around to behold his glory.\nTough vs. Floating, Immune to Toxic (Area Atk)"]
     614:
-      name: [Elder Mask Doron, Cat Mask Doron]
-      desc: ["Ancient hero now allied with the trendy Cats.\nRedesigned his look without telling his parents.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack."]
+      name: [Elder Mask Doron, Cat Mask Doron, Awakened Doron]
+      desc: ["Ancient hero now allied with the trendy Cats.\nRedesigned his look without telling his parents.\n100% Freeze vs Relic, Single Surge Attack.", "Sick of being tied down by family traditions,\nhe expresses his true self with a new Cat mask.\n100% Freeze vs Relic, Single Surge Attack.", "Holds the mantra, \"Art is violent!\" Consumed fully by\nhis artistic ambitions. Colossus/Behemoth Slayer.\n100% Freeze/Knockback vs Relic, Single Surge Attack."]
     616:
       name: [Kabuto Cat, Golden Kabuto Cat]
       desc: ["An armored Cat who loves oak sap.\nCan't be caught using a normal net.\nStrong vs Red & Black enemies", "The mighty one-horned King of Summer.\nUndefeated in the insect sumo tournament.\nStrong vs Red & Black enemies"]
@@ -320,6 +320,9 @@ cats:
     623:
       name: [Jagando Jr., Lord of Ruin Jagando Jr.]
       desc: ["Baby born from the egg of the Lord of Ruin. Thinks\nthe Cats who found and raised him are his parents.\nStrong vs Traitless, with 100% Surge Attack", "The Cats are raising the Child of Ruin surprisingly well.\nNow in his terrible twos, nothing is spared his wrath.\nStrong vs Traitless, Surge Attacks w. Knockback", "The Cats are raising the Child of Ruin surprisingly well.\nNow in his terrible twos, nothing is spared his wrath.\nStrong vs Traitless, Surge Attacks w. Knockback"]
+    647:
+      name: [Firecracker Cat, Macho Firecracker Cat]
+      desc: ["A very red, very lucky Cat. Responsible for warding\naway evil and bringing fortune with its clangor.\nDeals Massive damage to Red, might Dodge attacks.", "The king of all Firecracker Cats. Creates the loudest\nsounds and brightest lights of any Firecracker Cat.\nDeals Massive damage to Red, might Dodge attacks.", "The king of all Firecracker Cats. Creates the loudest\nsounds and brightest lights of any Firecracker Cat.\nDeals Massive damage to Red, might Dodge attacks."]
     651:
       name: [Secret Crush Cat, Girlfriend Cat]
       desc: ["Intelligence, charisma and beauty... and she lives\nnext door?! Too bad she's out of your league...?\nArea attacks deliver massive damage to Traitless.", "A beautiful Cat who loves picnics in the park,\nalways bringing homemade Catfruit sandwiches.\nArea attacks deliver massive damage to Traitless.", "A beautiful Cat who loves picnics in the park,\nalways bringing homemade Catfruit sandwiches.\nArea attacks deliver massive damage to Traitless."]
@@ -330,8 +333,8 @@ cats:
       name: [Chalkboard Eraser Cat, Chalkboard Punk Cat]
       desc: ["Freshman who loves a clean blackboard. Don't \nforget to clap the dust away when you're done!\nTough vs Red enemies, with Area Attacks", "Veteran of the disciplinary committee who\nis the feared leader of the graffiti cleanup squad.\nTough vs Red enemies, with Area Attacks"]
     654:
-      name: [Elder Beast Naala, Storm Beast Naala]
-      desc: ["After witnessing the power of the Cats, decided to join\ntheir cause. Smites interlopers with purifying lightning.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)"]
+      name: [Elder Beast Naala, Storm Beast Naala, Awakened Naala]
+      desc: ["After witnessing the power of the Cats, decided to join\ntheir cause. Smites interlopers with purifying lightning.\nStrong vs Relics, with chance to Weaken (Area Atk)", "A benevolent being wishing for harmony between all\ncreatures, cleansing evildoers with sacred thunderbolts.\nStrong vs Relics, with chance to Weaken (Area Atk)", "Holy beast who finds beauty amidst chaotic desire.\nColossus/Behemoth Slayer. Strong vs Relics, \n100% chance to Weaken (Area Atk)"]
     657:
       name: [Ancient Egg N001, Mystic Egg N001, Haniwa Cat]
       desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N001\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nResistant to Traitless enemy attacks.", "An object unearthed from the garden of a Cat base.\nHas great archeological value, and is a good lookout.\nBehemoth Slayer, and Tough against Traitless."]
@@ -350,6 +353,9 @@ cats:
     686:
       name: ['Ancient Egg: N004', 'Mystic Egg: N004', Supercar Cat]
       desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N004\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nHas a small chance to Knockback Traited enemies.", "Rides an eco-friendly car that runs on renewable fuel.\nHigh-frequency horn Knocks back Traited enemies.\nBreaks Barriers and pierces Shields."]
+    692:
+      name: ['Ancient Egg: N000', 'Elder Egg: N000', Ape Lord Luza]
+      desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N000\".", "Mysterious lifeform that takes the form of an old egg.\nThere appears to be faint signs of life inside.\nTough vs. and deals Massive damage to Relics.", "A recently awakened snow white Ape-Cat. Treasures a\nBoss Ape mask that a Cat bought for it at the local fair.\nTough vs. and deals Massive damage to Relics."]
   2:
     38:
       name: [Pogo Cat, Masai Cat, Jiangshi Cat]
@@ -668,7 +674,7 @@ cats:
       desc: ["Fearless bullfighter dodging danger with a hearty Olé!\nPacifist at heart, his only weapon is his crimson cape.\nHas a chance to dodge Red attacks.", "Graceful dancer dodging danger to hearty Olés!\nWell trained in the art of Dodging Red attacks (as\nwell as unwanted advances from certain tomcats.)", "Supreme virtuoso of an vigorous, beautiful\ndance. A glittering veil and hypnotic movements\nhelp her confuse enemies and Dodge Red attacks."]
     502:
       name: [Cat Bros, Baka Cat Bros]
-      desc: ["Joining the fight from The Battle Cats Together!\nWe love games and are Super friends!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)"]
+      desc: ["Joining the fight from The Battle Cats Unite!\nWe love games and are Super friends!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Unite!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)", "Joining the fight from The Battle Cats Together!\nEven when we grow up, we'll never stop playing!\nTough vs Traitless enemies! (Area Attack)"]
     508:
       name: [Mightycat, Supercat]
       desc: ["Heroic caped Cat who soars through the air (while\nworrying about being fired from his part-time job.)\nWeaken Traitless, nullfies Wave Attacks", "Grew Macho thanks to his nervous eating habit.\nPractices singing in the park when no one's around.\nWeaken Traitless, nullfies Wave Attacks"]
@@ -677,7 +683,7 @@ cats:
       desc: ["A Cat endlessly training to fight the strongest\nwarriors. Sadly, none seem to be around now.\nMight Freeze Black enemies.", "I hoped to meet one warrior stronger than me.\nSadly, everyone seems to fit that description.\nMight Freeze Black enemies."]
     519:
       name: [Akuma Giraffe, Akuma Lion]
-      desc: ["Giraffe Cat awoke filled with killing spirit.\nAll who witness his new look tremble.\nStrong vs Traitless, with Wave Shield! (Long-Range)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Shield! (Long-Range)"]
+      desc: ["Giraffe Cat awoke filled with killing spirit.\nAll who witness his new look tremble.\nStrong vs Traitless, with Wave Immunity! (Long-Range)", "A Cat consumed by bloodlust, rushing into\nbattle smelling of weaklings he has crushed.\nStrong vs Traitless, with Wave Immunity! (Long-Range)"]
     522:
       name: [Medusa Cat, Twintail Medusa Cat, Naga Cat]
       desc: ["Fiercely proud of her edgy hairstyle. Uses extra\nspray to prevent her locks from slithering out of\nLong-range Area attacks might Freeze Relics", "The spray couldn't hold them down, so she had to\ntie her unruly locks up to keep them under control.\nLong-range Area attacks might Freeze Relics", "Maiden who molted to reveal a lovely loooong body.\nHer love's power is in the super heavyweight class.\nLong-range Area attacks might Freeze Relics"]
@@ -1411,7 +1417,7 @@ cats:
       desc: ["Operators for the secret agency NERV, \nproviding support for the Eva pilots.\nArea attacks slow Red/Zombies.", "Elite command of the NERV agency. \nAn effective team since their school days.\nArea attacks slow Red/Zombies."]
     418:
       name: [Mighty Thermae D-Lux, Subterra Guardians, Subterra Sentinels]
-      desc: ["World-famous mobile hot springs.\nTravel in comfort and style. Omni-strikes\nslow and cause massive damage to Zombies.", "A secret organization defending the Cat army\nfrom Doge sneak attacks from below. Omni-\nstrikes freeze + massive damage to Zombies.", "At the frontlines of the Cat campaign to seek and\ndestroy underground Doge bases. Omni-strikes\nfreeze and deliver massive damage to Zombies."]
+      desc: ["World-famous mobile hot springs.\nTravel in comfort and style. Omni-strikes\nFreeze and are Strong against Zombies.", "A secret organization defending the Cat army\nfrom Doge sneak attacks from below. Omni-\nstrikes Freeze and are Strong against Zombies.", "At the frontlines of the Cat campaign to seek and\ndestroy underground Doge bases. Omni-strikes\nFreeze and are Strong against Zombies."]
     428:
       name: [Cat Clan Heroes, Cat Guild Heroes, Cat Quest Heroes]
       desc: ["A brave band of Cats out to defeat the King of Evil.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "The Chosen One and 11 courageous adventurers.\nLong-range Area strikes have chance of Critical.\n100% chance to weaken Red, Black, and Floating.", "Our adventurers take their quest to the skies!\nLong-range Area strikes have chance of Critical.\n100% Weaken vs Red, Black, Floating, Relics."]
@@ -1733,6 +1739,9 @@ cats:
     688:
       name: [Reindeer Terun, Reindeer Terunζ]
       desc: ["The genius gal decided to dress up for the holidays.\nStands against those that would ruin Christmas.\nStrong against Colossal, Black, and Aliens.", "Genius hunter on her way to a Christmas party with a\nfriend. Her catch will be the centerpiece of dinner.\nStrong against Colossal, Black, and Aliens.", "Genius hunter on her way to a Christmas party with\na friend. Her catch will be the centerpiece of dinner.\nStrong against Colossal, Black, and Aliens."]
+    691:
+      name: [Child of Destiny Phono, King of Destiny Phonoa]
+      desc: ["Destiny's plaything that bears a destructive fate.\nHas no idea of the power that rests within them.\nMassive damage to Traited (Long-Range Area Atk.)", "A mystical Cat that burns with the fires of fate.\nSworn to protect humanity until their dying breath.\nMassive damage to Traited (Long-Range Area Atk.)", "A mystical Cat that burns with the fires of fate.\nSworn to protect humanity until their dying breath.\nMassive damage to Traited (Long-Range Area Atk.)"]
   5:
     449:
       name: [Musashi Miyamoto, Wargod Miyamoto]
@@ -2557,6 +2566,11 @@ gacha:
   777: [511, 681, 575, 574, 518, 517, 515, 513, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   778: [511, 682, 576, 573, 572, 516, 514, 512, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
   779: [688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  780: [485, 436, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  781: [450, 452, 456, 547, 520, 73, 76, 661, 135, 195, 643, 595, 683, 361, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+  782: [691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  783: [691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+  784: [691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -12094,6 +12108,95 @@ events:
     version: '120000'
     name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
     id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-16_696:
+    start_on: 2023-01-16
+    end_on: 2023-02-20
+    version: '120000'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-01-16_767:
+    start_on: 2023-01-16
+    end_on: 2023-01-18
+    version: '120000'
+    name: Lunar New Year Capsules full of popular units! Tap the banner for details!
+    id: 767
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-01-18_769:
+    start_on: 2023-01-18
+    end_on: 2023-01-20
+    version: '120000'
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    id: 769
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-20_759:
+    start_on: 2023-01-20
+    end_on: 2023-01-23
+    version: '120000'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 759
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-01-23_770:
+    start_on: 2023-01-23
+    end_on: 2023-01-26
+    version: '120000'
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    id: 770
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-01-26_772:
+    start_on: 2023-01-26
+    end_on: 2023-01-29
+    version: '120000'
+    name: New Capsules featuring Colossus Slayer units!  With Increasing Capsules!
+    id: 772
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-01-26_774:
+    start_on: 2023-01-26
+    end_on: 2030-01-01
+    version: '120000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 774
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2023-01-26_775:
+    start_on: 2023-01-26
+    end_on: 2030-01-01
+    version: '120000'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 775
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2023-01-29_771:
+    start_on: 2023-01-29
+    end_on: 2023-02-01
+    version: '120000'
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    id: 771
     rare: 6970
     supa: 2500
     uber: 500
