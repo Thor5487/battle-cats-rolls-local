@@ -1,3 +1,4 @@
 #!/bin/sh
 
+ruby bin/cleanup-apk.rb
 rsync -avz --rsync-path="sudo -u bcat rsync" data/ godfat.org:~/battle-cats-rolls/data/
