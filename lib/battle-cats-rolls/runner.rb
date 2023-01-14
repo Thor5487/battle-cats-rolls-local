@@ -230,6 +230,7 @@ module BattleCatsRolls
         wget(monk_donwload_link(apk_url), apk_path)
       when %r{apksos\.com/app}
         wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
+        extract_sos_bundle
       else
         wget(apk_url, apk_path)
       end
@@ -245,7 +246,7 @@ module BattleCatsRolls
       uri = URI.parse(url)
 
       path, = css_download_link(url) do |title|
-        "a[title~='#{title.downcase}']"
+        "a[title*='#{title.downcase}']"
       end
 
       *, pkg, key = path.split('/')
@@ -259,7 +260,7 @@ module BattleCatsRolls
 
     def sos_download_link url, laravel_session=nil
       css_download_link(url, laravel_session) do |title|
-        "a[title~='#{title}']"
+        "a[title*='#{title}']"
       end
     end
 
@@ -334,14 +335,31 @@ module BattleCatsRolls
           "assets/#{name}"
         end
 
-      require 'fileutils'
-
-      if system('unzip', apk_path, *paths, '-d', app_data_path)
+      unzip(*paths) && begin
         assets = Dir["#{app_data_path}/assets/*"]
         FileUtils.mv(assets, app_data_path, verbose: true)
         FileUtils.rmdir("#{app_data_path}/assets", verbose: true)
         true
+      end
+    end
+
+    def extract_sos_bundle
+      path = "#{apk_id}/InstallPack*.apk"
+
+      if unzip(path)
+        actual_apk_path = Dir["#{app_data_path}/#{path}"].first
+        FileUtils.mv(actual_apk_path, apk_path, verbose: true)
+        FileUtils.rmdir("#{app_data_path}/#{apk_id}", verbose: true)
+        FileUtils.rmdir(app_data_path, verbose: true)
       else
+        raise(VersionNotFound.new("apksos has invalid apk for #{vesion}"))
+      end
+    end
+
+    def unzip *paths
+      require 'fileutils'
+
+      system('unzip', apk_path, *paths, '-d', app_data_path) || begin
         puts "Removing bogus #{apk_path}..."
         FileUtils.rm_r(data_path(version))
         false
