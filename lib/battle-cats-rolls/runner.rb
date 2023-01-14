@@ -34,7 +34,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         'kr',
-        '11.10.0',
+        '12.0.0',
         'jp.co.ponos.battlecatskr'
       ]
     end
