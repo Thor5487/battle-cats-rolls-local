@@ -118,6 +118,8 @@ Populate BCKR data:
 
 * [[Tutorial] [Cheating] (Almost) Rare Ticket draw Forcasting Spreadsheet](https://www.reddit.com/r/battlecats/comments/7llv80/tutorial_cheating_almost_rare_ticket_draw/)
 * [[Cheating] Seed finder and draw strategy manager](https://old.reddit.com/r/battlecats/comments/8cbuyw/cheating_seed_finder_and_draw_strategy_manager/)
+* [[BCEN] All cat data for Battle Cats 7.2](https://old.reddit.com/r/battlecats/comments/96ogif/bcen_all_cat_data_for_battle_cats_72/)
+  * [unit&lt;num&gt;.csv columns](https://pastebin.com/JrCTPnUV)
 
 ## CONTRIBUTORS:
 
