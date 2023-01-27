@@ -67,7 +67,7 @@ module BattleCatsRolls
 
         if names.any?
           result[Integer(filename[/\d+/])] =
-            {'name' => names, 'desc' => descs}
+            {'name' => names, 'desc' => descs.first(names.size)}
         end
 
         result
