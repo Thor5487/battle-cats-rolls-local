@@ -72,7 +72,10 @@ module BattleCatsRolls
 
     def attack_interval
       @attack_interval ||= attack_duration &&
-        [attack_duration, attacks.first.duration + attack_cooldown].max
+        [
+          attack_duration,
+          attacks.sum(&:duration) + attack_cooldown
+        ].max
     end
 
     def attack_duration
