@@ -74,6 +74,7 @@ module BattleCatsRolls
     end
 
     def attack_duration
+      stat['attack_duration']
     end
 
     def attack_cooldown

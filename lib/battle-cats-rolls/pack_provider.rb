@@ -1,13 +1,15 @@
 # frozen_string_literal: true
 
 require_relative 'pack_reader'
+require_relative 'provider'
 
 module BattleCatsRolls
-  class PackProvider < Struct.new(:data_reader, :res_reader)
+  class PackProvider < Struct.new(:data_reader, :res_reader, :animation_reader)
     def initialize lang, dir
       super(
         PackReader.new(lang, "#{dir}/DataLocal.list"),
-        PackReader.new(lang, "#{dir}/resLocal.list"))
+        PackReader.new(lang, "#{dir}/resLocal.list"),
+        PackReader.new(lang, "#{dir}/ImageDataLocal.list"))
     end
 
     def gacha
@@ -20,6 +22,19 @@ module BattleCatsRolls
 
     def units
       data[:units]
+    end
+
+    def attack_maanims
+      @attack_maanims ||= animation_reader.list_lines.
+        grep(/\A\d+_[fcs]02\.maanim,\d+,\d+$/).
+        inject({}) do |result, line|
+          filename, maanim = animation_reader.read_eagerly(line)
+          id, form_index =
+            Provider.extract_id_and_form_from_maanim_path(filename)
+
+          (result[id] ||= [])[form_index] = maanim
+          result
+        end
     end
 
     def res

@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'stringio'
+
 module BattleCatsRolls
   class CatsBuilder < Struct.new(:provider)
     def cats
@@ -16,6 +18,10 @@ module BattleCatsRolls
 
     def cat_stats
       @cat_stats ||= store_cat_stats(provider.units)
+    end
+
+    def attack_animation
+      @attack_animation ||= store_attack_animation(provider.attack_maanims)
     end
 
     def rarities
@@ -84,7 +90,7 @@ module BattleCatsRolls
     end
 
     def store_cat_stats units
-      units.transform_values do |csv|
+      result = units.transform_values do |csv|
         csv.each_line.filter_map do |line|
           fields = stat_fields
           values = line.split(',').values_at(*fields.values)
@@ -94,6 +100,18 @@ module BattleCatsRolls
               delete_if do |name, value|
                 !/\A\-?\d+\z/.match?(value) || value == '0'
               end.transform_values(&:to_i)
+          end
+        end
+      end
+
+      attach_attack_duration(result)
+    end
+
+    def attach_attack_duration(result)
+      result.each do |id, cat_stats|
+        cat_stats.each.with_index do |stat, index|
+          if attack_duration = attack_animation.dig(id, index)
+            stat.merge!('attack_duration' => attack_duration)
           end
         end
       end
@@ -138,6 +156,46 @@ module BattleCatsRolls
         immune_knockback: 48, immune_freeze: 49, immune_slow: 50,
         immune_weaken: 51, immune_warp: 75, immune_toxic: 90,
       }
+    end
+
+    def store_attack_animation attack_maanims
+      attack_maanims.transform_values do |maanims|
+        maanims.map(&method(:calculate_duration))
+      end
+    end
+
+    def calculate_duration maanim
+      return unless maanim
+
+      stream = StringIO.new(maanim)
+      stream.readline
+      stream.readline
+      stream.readline.to_i.times.filter_map do
+        times = read_int(stream, 2).abs
+        size = stream.readline.to_i
+
+        next if size <= 0
+
+        first_frame = read_int(stream)
+        (size - 2).times{ stream.readline }
+        last_frame = read_int(stream) if size > 1
+
+        min, max = [first_frame, last_frame || first_frame].sort
+
+        [max - min, times, min]
+      end.inject(0) do |result, (delta, times, offset)|
+        value = delta * times
+
+        if offset < 0
+          [result, value]
+        else
+          [result, value + offset]
+        end.max
+      end
+    end
+
+    def read_int stream, index=0
+      stream.readline.split(',')[index].to_i
     end
   end
 end
