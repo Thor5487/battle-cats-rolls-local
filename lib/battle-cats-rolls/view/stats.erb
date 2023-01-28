@@ -34,6 +34,7 @@
     <td>Attack cooldown</td>
     <td><%= stat_time stat.attack_cooldown %></td>
   </tr>
+  <% if !stat.single_area_attack? %>
   <tr>
     <% if stat.attacks.size > 1 %>
     <td>Max damage</td>
@@ -47,6 +48,7 @@
     <td></td>
     <td></td>
   </tr>
+  <% end %>
   <% if stat.attacks.size > 1 %>
   <tr>
     <td>Max DPS</td>

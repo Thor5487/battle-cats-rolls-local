@@ -102,6 +102,12 @@ module BattleCatsRolls
       @attack_cooldown ||= stat['attack_cooldown'].to_i * time_multiplier
     end
 
+    def single_area_attack?
+      attacks.size == 1 &&
+        attacks.first.area_range.kind_of?(Integer) &&
+        attacks.first.area_range > 0
+    end
+
     def max_damage
       @max_damage ||= attacks.sum(&:damage)
     end
