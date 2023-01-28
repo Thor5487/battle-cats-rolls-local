@@ -13,6 +13,7 @@ module BattleCatsRolls
     def units
       @units ||= Dir["#{dir}/DataLocal.pack/unit*.csv"].
         inject({}) do |result, path|
+          # Some files match the glob pattern but not regexp pattern
           if id = path[/unit(\d+)\.csv\z/, 1]
             result[id.to_i] = File.binread(path)
           end
