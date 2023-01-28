@@ -54,7 +54,7 @@ module BattleCatsRolls
     end
 
     def production_cost
-      (stat['cost'] * chapter2_cost_multiplier).floor
+      @production_cost ||= (stat['cost'] * chapter2_cost_multiplier).floor
     end
 
     def production_cooldown
@@ -78,11 +78,11 @@ module BattleCatsRolls
     end
 
     def attack_cooldown
-      stat['attack_cooldown'].to_i * time_multiplier
+      @attack_cooldown ||= stat['attack_cooldown'].to_i * time_multiplier
     end
 
     def max_damage
-      attacks.sum(&:damage)
+      @max_damage ||= attacks.sum(&:damage)
     end
 
     def range
