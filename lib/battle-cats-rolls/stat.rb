@@ -38,6 +38,17 @@ module BattleCatsRolls
           'No'
         end
       end
+
+      def dps
+        @dps ||= stat.attack_interval &&
+          ((damage.to_f / stat.attack_interval) * stat.fps).round
+      end
+
+      private
+    end
+
+    def fps
+      30
     end
 
     def health
@@ -177,10 +188,6 @@ module BattleCatsRolls
       else
         stat[key] || attack_stat(name, n - 1)
       end
-    end
-
-    def fps
-      30
     end
 
     def treasure_multiplier
