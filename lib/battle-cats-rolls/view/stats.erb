@@ -1,5 +1,10 @@
 <%= erb :form %>
 
+<ul>
+  <li><a href="<%= uri_to_cat_db(arg[:stats].first) %>">にゃんこ大戦争データベース</a></li>
+  <li><a href="<%= uri_to_my_gamatoto(arg[:stats].first) %>">My Gamatoto</a></li>
+</ul>
+
 <table>
 <% arg[:stats].each do |stat| %>
   <tr>

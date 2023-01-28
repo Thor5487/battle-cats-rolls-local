@@ -334,6 +334,10 @@ module BattleCatsRolls
       "https://battlecats-db.com/unit/#{sprintf('%03d', cat.id)}.html"
     end
 
+    def uri_to_my_gamatoto cat
+      "https://mygamatoto.com/catinfo/#{cat.id}/cat"
+    end
+
     def uri_to_own_all_cats
       route.cats_uri(query: {o:
         Owned.encode(arg[:cats].values.flat_map{ |data| data.map(&:first) })})
