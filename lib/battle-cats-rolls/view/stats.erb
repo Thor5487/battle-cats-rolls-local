@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td>Attack interval</td>
-    <td>-</td>
+    <td><%= stat_time stat.attack_interval %></td>
     <td>Attack duration</td>
     <td><%= stat_time stat.attack_duration %></td>
     <td>Attack cooldown</td>
@@ -38,7 +38,7 @@
   </tr>
   <tr>
     <td>Max DPS</td>
-    <td>-</td>
+    <td><%= stat.max_dps || '?' %></td>
     <td>Max DPS range</td>
     <td><%= stat.max_dps_range %></td>
     <td></td>

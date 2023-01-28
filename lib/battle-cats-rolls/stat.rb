@@ -71,6 +71,8 @@ module BattleCatsRolls
     end
 
     def attack_interval
+      @attack_interval ||= attack_duration &&
+        [attack_duration, attacks.first.duration + attack_cooldown].max
     end
 
     def attack_duration
@@ -90,6 +92,8 @@ module BattleCatsRolls
     end
 
     def max_dps
+      @max_dps ||= attack_interval &&
+        ((max_damage.to_f / attack_interval) * fps).round
     end
 
     def max_dps_range
@@ -170,6 +174,10 @@ module BattleCatsRolls
       else
         stat[key] || attack_stat(name, n - 1)
       end
+    end
+
+    def fps
+      30
     end
 
     def treasure_multiplier
