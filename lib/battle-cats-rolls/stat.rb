@@ -81,6 +81,11 @@ module BattleCatsRolls
       end
     end
 
+    def rush_duration
+      @rush_duration ||= attack_duration &&
+        attack_interval - attack_duration
+    end
+
     def attack_interval
       @attack_interval ||= attack_duration &&
         [
