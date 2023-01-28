@@ -6,6 +6,7 @@ require_relative 'seek_seed'
 require_relative 'cache'
 require_relative 'aws_auth'
 require_relative 'aws_cf'
+require_relative 'stat'
 require_relative 'view'
 require_relative 'help'
 
@@ -133,6 +134,16 @@ module BattleCatsRolls
       Route.reload_balls
       View.warmup
       'OK'
+    end
+
+    get %r{^/cats/(?<id>\d+)} do |m|
+      id = m[:id].to_i
+      stats = route.ball.cats_map[id].values_at('name', 'desc', 'stat').
+        transpose.map do |(name, desc, stat)|
+          Stat.new(id: id, name: name, desc: desc, stat: stat, level: 30)
+        end
+
+      render :stats, stats: stats
     end
 
     get '/cats' do

@@ -33,6 +33,12 @@ module BattleCatsRolls
       data['events']
     end
 
+    def cats_map
+      @cats_map ||= cats.inject({}) do |result, (rarity, cat_map)|
+        result.merge(cat_map)
+      end
+    end
+
     def each_custom_gacha name_index
       cat_data = cats.values.inject(&:merge)
 

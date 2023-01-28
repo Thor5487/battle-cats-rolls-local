@@ -14,6 +14,10 @@ module BattleCatsRolls
       @cat_names ||= store_cat_names(provider.res)
     end
 
+    def cat_stats
+      @cat_stats ||= store_cat_stats(provider.units)
+    end
+
     def rarities
       @rarities ||= store_rarities(provider.unitbuy)
     end
@@ -66,12 +70,74 @@ module BattleCatsRolls
           delete_if(&:empty?)
 
         if names.any?
-          result[Integer(filename[/\d+/])] =
-            {'name' => names, 'desc' => descs.first(names.size)}
+          id = Integer(filename[/\d+/])
+
+          result[id] = {
+            'name' => names,
+            'desc' => descs.first(names.size),
+            'stat' => cat_stats[id].first(names.size)
+          }
         end
 
         result
       end.compact
+    end
+
+    def store_cat_stats units
+      units.transform_values do |csv|
+        csv.each_line.filter_map do |line|
+          fields = stat_fields
+          values = line.split(',').values_at(*fields.values)
+
+          if values.any?
+            Hash[fields.each_key.map(&:to_s).zip(values)].
+              delete_if do |name, value|
+                !/\A\-?\d+\z/.match?(value) || value == '0'
+              end.transform_values(&:to_i)
+          end
+        end
+      end
+    end
+
+    def stat_fields
+      @stat_fields ||= {
+        health: 0, knockbacks: 1, speed: 2, range: 5, cost: 6,
+        attack_cooldown: 4, production_cooldown: 7,
+        damage_0: 3, area_effect_0: 12,
+        long_range_0: 44, long_range_offset_0: 45,
+        attack_time_0: 13, apply_effects_0: 63,
+        damage_1: 59, area_effect_1: 99,
+        long_range_1: 100, long_range_offset_1: 101,
+        attack_time_1: 61, apply_effects_1: 64,
+        damage_2: 60, area_effect_2: 102,
+        long_range_2: 103, long_range_offset_2: 104,
+        attack_time_2: 62, apply_effects_2: 65,
+        target_only: 32, target_red: 10,
+        target_float: 16, target_black: 17, target_metal: 18,
+        target_white: 19, target_angel: 20, target_alien: 21,
+        target_relic: 78, target_aku: 96,
+        target_zombie: 22, zombie_killer: 52, soul_strike: 98,
+        break_barrier_chance: 70, break_shield_chance: 95,
+        colossus_killer: 97, behemoth_killer: 105,
+        behemoth_dodge_chance: 106, behemoth_dodge_duration: 107,
+        witch_killer: 53, eva_angel_killer: 77,
+        strong_against: 23, resistant: 29, massive_damage: 30,
+        insane_resistant: 80, insane_damage: 81,
+        knockback_chance: 24, freeze_chance: 25, freeze_duration: 26,
+        slow_chance: 27, slow_duration: 28,
+        weaken_chance: 37, weaken_duration: 38, weaken_multipler: 39,
+        curse_chance: 92, curse_duration: 93,
+        critical_chance: 31, savage_blow_chance: 82,
+        wave_chance: 35, wave_level: 36, wave_mini: 94,
+        surge_chance: 86, surge_level: 89,
+        surge_range: 87, surge_range_offset: 88,
+        survival_chance: 42, dodge_chance: 84, dodge_duration: 85,
+        loot_money: 33, base_destroyer: 34, metal: 43, suicide: 58,
+        strengthen_threshold: 40, strengthen_modifier: 41,
+        immune_wave: 46, block_wave: 47, immune_surge: 89,
+        immune_knockback: 48, immune_freeze: 49, immune_slow: 50,
+        immune_weaken: 51, immune_warp: 75, immune_toxic: 90,
+      }
     end
   end
 end

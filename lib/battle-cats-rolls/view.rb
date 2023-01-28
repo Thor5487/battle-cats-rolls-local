@@ -259,6 +259,12 @@ module BattleCatsRolls
       h cat.pick_name(route.name)
     end
 
+    def stat_time frames
+      fps = 30.0
+      title = "#{frames} frames"
+      %Q{<span title="#{title}">#{(frames / fps).round(2)}s</span>}
+    end
+
     def h str
       CGI.escape_html(str)
     end

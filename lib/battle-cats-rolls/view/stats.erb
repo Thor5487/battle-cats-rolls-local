@@ -1,0 +1,66 @@
+
+<table>
+<% arg[:stats].each do |stat| %>
+  <tr>
+    <th colspan="6"><%= stat.name %></th>
+  </tr>
+  <tr>
+    <td>Health</td>
+    <td><%= stat.health %></td>
+    <td>Knockback times</td>
+    <td><%= stat.knockbacks %></td>
+    <td>Speed</td>
+    <td><%= stat.speed %></td>
+  </tr>
+  <tr>
+    <td>Production cost</td>
+    <td><%= stat.production_cost %></td>
+    <td>Production cooldown</td>
+    <td><%= stat_time stat.production_cooldown %></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Attack interval</td>
+    <td>-</td>
+    <td>Attack duration</td>
+    <td>-</td>
+    <td>Attack cooldown</td>
+    <td><%= stat_time stat.attack_cooldown %></td>
+  </tr>
+  <tr>
+    <td>Max damage</td>
+    <td><%= stat.max_damage %></td>
+    <td>Range</td>
+    <td><%= stat.range %></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Max DPS</td>
+    <td>-</td>
+    <td>Max DPS range</td>
+    <td><%= stat.max_dps_range %></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <% stat.attacks.each do |attack| %>
+  <tr>
+    <td>Damage</td>
+    <td><%= attack.damage %></td>
+    <td>Area</td>
+    <td><%= attack.area %></td>
+    <td>Apply effects</td>
+    <td><%= attack.apply_effects %></td>
+  </tr>
+  <tr>
+    <td>DPS</td>
+    <td>-</td>
+    <td>Duration</td>
+    <td><%= stat_time attack.duration %></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <% end %>
+<% end %>
+</table>
