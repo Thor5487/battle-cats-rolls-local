@@ -54,7 +54,7 @@ module BattleCatsRolls
     end
 
     def production_cost
-      stat['cost']
+      (stat['cost'] * chapter2_cost_multiplier).floor
     end
 
     def production_cooldown
@@ -64,7 +64,7 @@ module BattleCatsRolls
 
         [
           minimal_cooldown,
-          (stat['production_cooldown'] * production_multiplier) -
+          (stat['production_cooldown'] * time_multiplier) -
             reduction_from_blue_orbs_and_treasures
         ].max
       end
@@ -77,7 +77,7 @@ module BattleCatsRolls
     end
 
     def attack_cooldown
-      stat['attack_cooldown'].to_i
+      stat['attack_cooldown'].to_i * time_multiplier
     end
 
     def max_damage
@@ -175,8 +175,12 @@ module BattleCatsRolls
       2.5
     end
 
-    def production_multiplier
+    def time_multiplier
       2
+    end
+
+    def chapter2_cost_multiplier
+      1.5
     end
 
     def level_multiplier
