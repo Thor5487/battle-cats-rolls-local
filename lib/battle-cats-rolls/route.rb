@@ -413,6 +413,7 @@ module BattleCatsRolls
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0) ||
            (key == :o && value == '') ||
+           (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :rate ||
                key == :c_rare || key == :c_supa || key == :c_uber)) ||
