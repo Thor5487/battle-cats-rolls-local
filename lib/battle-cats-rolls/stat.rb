@@ -121,8 +121,8 @@ module BattleCatsRolls
         ((max_damage.to_f / attack_interval) * fps).round
     end
 
-    def max_dps_range
-      @max_dps_range ||= if long_range?
+    def max_dps_area
+      @max_dps_area ||= if long_range?
         intersected = attacks.map(&:area_range).inject do |result, range|
           [result.begin, range.begin].max..[result.end, range.end].min
         end
