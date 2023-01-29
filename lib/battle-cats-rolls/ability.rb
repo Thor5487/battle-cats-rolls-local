@@ -12,7 +12,7 @@ module BattleCatsRolls
   end
 
   class Ability
-    class Against < Struct.new(:enemies)
+    class Specialization < Struct.new(:enemies)
       def self.build_if_available stat
         enemies =
           %w[red floating black angel alien zombie aku relic white metal].
