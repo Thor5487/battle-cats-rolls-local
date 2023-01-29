@@ -77,16 +77,10 @@
     <td></td>
   </tr>
   <% end %>
-  <% if stat.against_enemies.any? %>
+  <% stat.abilities.each do |ability| %>
   <tr>
-    <td>Against</td>
-    <td colspan="5"><%= stat.against_enemies.join(', ') %></td>
-  </tr>
-  <% end %>
-  <% if stat.immunity.any? %>
-  <tr>
-    <td>Immune to</td>
-    <td colspan="5"><%= stat.immunity.join(', ') %></td>
+    <td><%= ability.name %></td>
+    <td colspan="5"><%= ability.display %></td>
   </tr>
   <% end %>
 <% end %>

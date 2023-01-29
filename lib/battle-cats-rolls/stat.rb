@@ -41,6 +41,155 @@ module BattleCatsRolls
       end
     end
 
+    class Ability
+      class Against < Struct.new(:enemies)
+        def self.build_if_available stat
+          enemies =
+            %w[red floating black angel alien zombie aku relic white metal].
+              filter_map do |type|
+                stat["against_#{type}"] && type.capitalize
+              end
+
+          new(enemies) if enemies.any?
+        end
+
+        def name
+          'Against'
+        end
+
+        def display
+          @display ||= enemies.join(', ')
+        end
+      end
+
+      class Strong
+        def self.build_if_available stat
+          new if stat['strong']
+        end
+
+        def name
+          'Strong'
+        end
+
+        def display
+          'Deal 150% ~ 180% damage. Take 50% ~ 40% damage'
+        end
+      end
+
+      class Resistant < Ability
+      end
+
+      class MassiveDamage < Ability
+      end
+
+      class InsaneResistant < Ability
+      end
+
+      class InsaneDamage < Ability
+      end
+
+      class Strengthen < Ability
+      end
+
+      class Immune < Struct.new(:immunity)
+        def self.build_if_available stat
+          immunity =
+            %w[knockback warp freeze slow weaken toxic curse wave surge].
+            filter_map do |effect|
+              stat["immune_#{effect}"] && effect.capitalize
+            end
+
+          new(immunity) if immunity.any?
+        end
+
+        def name
+          'Immune to'
+        end
+
+        def display
+          @immunity ||= immunity.join(', ')
+        end
+      end
+
+      class Knockback < Ability
+      end
+
+      class Freeze < Ability
+      end
+
+      class Slow < Ability
+      end
+
+      class Weaken < Ability
+      end
+
+      class Curse < Ability
+      end
+
+      class Wave < Ability
+      end
+
+      class Surge < Ability
+      end
+
+      class CriticalStrike < Ability
+      end
+
+      class SavageBlow < Ability
+      end
+
+      class Survival < Ability
+      end
+
+      class Dodge < Ability
+      end
+
+      class LootMoney < Ability
+      end
+
+      class BaseDestroyer < Ability
+      end
+
+      class Metal < Ability
+      end
+
+      class Kamikaze < Ability
+      end
+
+      class ZombieKiller < Ability
+      end
+
+      class SoulStrike < Ability
+      end
+
+      class BreakBarrier < Ability
+      end
+
+      class BreakShield < Ability
+      end
+
+      class ColossusKiller < Ability
+      end
+
+      class BehemohKiller < Ability
+      end
+
+      class WitchKiller < Ability
+      end
+
+      class EvaAngelKiller < Ability
+      end
+
+      def self.build stat
+        constants.filter_map do |ability|
+          const_get(ability, false).build_if_available(stat)
+        end
+      end
+
+      def self.build_if_available stat
+      end
+    end
+
     def fps
       30
     end
@@ -149,20 +298,8 @@ module BattleCatsRolls
       end
     end
 
-    def against_enemies
-      @against_enemies ||=
-        %w[red floating black angel alien zombie aku relic white metal].
-          filter_map do |type|
-            stat["against_#{type}"] && type.capitalize
-          end
-    end
-
-    def immunity
-      @immunity ||=
-        %w[knockback warp freeze slow weaken toxic curse wave surge].
-        filter_map do |effect|
-          stat["immune_#{effect}"] && effect.capitalize
-        end
+    def abilities
+      @abilities ||= Ability.build(stat)
     end
 
     private
