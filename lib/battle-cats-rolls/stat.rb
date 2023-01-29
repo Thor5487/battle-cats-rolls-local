@@ -104,7 +104,7 @@ module BattleCatsRolls
       stat['range']
     end
 
-    def target
+    def area_type
       if stat['area_effect']
         'Area'
       else
