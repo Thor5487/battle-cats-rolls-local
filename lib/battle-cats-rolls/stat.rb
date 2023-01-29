@@ -162,10 +162,37 @@ module BattleCatsRolls
         end
       end
 
-      class Slow < Ability
+      class Slow < Struct.new(:chance, :duration)
+        def self.build_if_available stat
+          if stat['slow_chance']
+            new(*stat.values_at('slow_chance', 'slow_duration'))
+          end
+        end
+
+        def name
+          'Slow'
+        end
+
+        def display
+          "#{chance}% for #{yield(duration)}"
+        end
       end
 
-      class Weaken < Ability
+      class Weaken < Struct.new(:chance, :duration, :multiplier)
+        def self.build_if_available stat
+          if stat['weaken_chance']
+            new(*stat.values_at(
+              'weaken_chance', 'weaken_duration', 'weaken_multiplier'))
+          end
+        end
+
+        def name
+          'Weaken'
+        end
+
+        def display
+          "#{chance}% to reduce target damage to #{multiplier}% for #{yield(duration)}"
+        end
       end
 
       class Curse < Ability
