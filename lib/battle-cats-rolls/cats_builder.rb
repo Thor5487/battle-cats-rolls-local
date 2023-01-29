@@ -119,16 +119,13 @@ module BattleCatsRolls
 
     def stat_fields
       @stat_fields ||= {
-        health: 0, knockbacks: 1, speed: 2, range: 5, cost: 6,
-        attack_cooldown: 4, production_cooldown: 7,
-        damage_0: 3, area_effect_0: 12,
-        long_range_0: 44, long_range_offset_0: 45,
+        health: 0, knockbacks: 1, speed: 2, cost: 6, production_cooldown: 7,
+        attack_cooldown: 4, range: 5, area_effect: 12,
+        damage_0: 3, long_range_0: 44, long_range_offset_0: 45,
         attack_time_0: 13, apply_effects_0: 63,
-        damage_1: 59, area_effect_1: 99,
-        long_range_1: 100, long_range_offset_1: 101,
+        damage_1: 59, long_range_1: 100, long_range_offset_1: 101,
         attack_time_1: 61, apply_effects_1: 64,
-        damage_2: 60, area_effect_2: 102,
-        long_range_2: 103, long_range_offset_2: 104,
+        damage_2: 60, long_range_2: 103, long_range_offset_2: 104,
         attack_time_2: 62, apply_effects_2: 65,
         target_only: 32, target_red: 10,
         target_float: 16, target_black: 17, target_metal: 18,

@@ -4,7 +4,7 @@ module BattleCatsRolls
   class Stat < Struct.new(
     :id, :name, :desc, :stat, :level, keyword_init: true)
     class Attack < Struct.new(
-      :stat, :damage, :area_effect, :long_range, :long_range_offset,
+      :stat, :damage, :long_range, :long_range_offset,
       :apply_effects, :duration, keyword_init: true)
 
       def area
@@ -24,7 +24,7 @@ module BattleCatsRolls
           reach = long_range + long_range_offset
           from, to = [long_range, reach].sort
           from..to
-        elsif area_effect
+        elsif stat.stat['area_effect']
           stat.range
         else
           0
@@ -43,8 +43,6 @@ module BattleCatsRolls
         @dps ||= stat.attack_interval &&
           ((damage.to_f / stat.attack_interval) * stat.fps).round
       end
-
-      private
     end
 
     def fps
@@ -116,6 +114,14 @@ module BattleCatsRolls
       stat['range']
     end
 
+    def target
+      if stat['area_effect']
+        'Area'
+      else
+        'Single'
+      end
+    end
+
     def max_dps
       @max_dps ||= attack_interval &&
         ((max_damage.to_f / attack_interval) * fps).round
@@ -132,10 +138,10 @@ module BattleCatsRolls
         else
           'None'
         end
-      elsif single?
-        'Single'
-      else
+      elsif stat['area_effect']
         range
+      else
+        'Single'
       end
     end
 
@@ -143,7 +149,7 @@ module BattleCatsRolls
       @attacks ||= 3.times.filter_map do |n|
         next unless value = damage(n)
 
-        Attack.new(stat: self, damage: value, area_effect: area_effect(n),
+        Attack.new(stat: self, damage: value,
           long_range: long_range(n), long_range_offset: long_range_offset(n),
           apply_effects: apply_effects(n), duration: duration(n))
       end
@@ -153,10 +159,6 @@ module BattleCatsRolls
       value = stat["damage_#{n}"]
 
       (value * treasure_multiplier * level_multiplier).round if value
-    end
-
-    def area_effect n=0
-      attack_stat(__method__, n)
     end
 
     def long_range n=0
@@ -185,10 +187,6 @@ module BattleCatsRolls
 
     def long_range?
       attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
-    end
-
-    def single?
-      attacks.any?{ |atk| atk.area_range == 0 }
     end
 
     def attack_stat name, n=0
