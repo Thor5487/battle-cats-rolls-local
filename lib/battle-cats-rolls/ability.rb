@@ -30,6 +30,8 @@ module BattleCatsRolls
       def display
         @display ||= enemies.join(', ')
       end
+
+      def index; __LINE__; end
     end
 
     class Strong
@@ -44,6 +46,8 @@ module BattleCatsRolls
       def display
         'Deal 150% ~ 180% damage and take 50% ~ 40% damage<br>against and from specialized enemies'
       end
+
+      def index; __LINE__; end
     end
 
     class InsaneDamage
@@ -58,6 +62,8 @@ module BattleCatsRolls
       def display
         'Deal 500% ~ 600% damage against specialized enemies'
       end
+
+      def index; __LINE__; end
     end
 
     class MassiveDamage
@@ -72,6 +78,8 @@ module BattleCatsRolls
       def display
         'Deal 300% ~ 400% damage against specialized enemies'
       end
+
+      def index; __LINE__; end
     end
 
     class InsaneResistant
@@ -86,6 +94,8 @@ module BattleCatsRolls
       def display
         'Take 16% ~ 14% damage from specialized enemies'
       end
+
+      def index; __LINE__; end
     end
 
     class Resistant
@@ -100,6 +110,8 @@ module BattleCatsRolls
       def display
         'Take 25% ~ 20% damage from specialized enemies'
       end
+
+      def index; __LINE__; end
     end
 
     class Knockback < Struct.new(:chance)
@@ -114,6 +126,8 @@ module BattleCatsRolls
       def display
         "#{chance}%"
       end
+
+      def index; __LINE__; end
     end
 
     class Freeze < Struct.new(:chance, :duration)
@@ -132,6 +146,8 @@ module BattleCatsRolls
       def display &stat_time
         "#{chance}% for #{duration_range(stat_time)}"
       end
+
+      def index; __LINE__; end
     end
 
     class Slow < Struct.new(:chance, :duration)
@@ -150,6 +166,8 @@ module BattleCatsRolls
       def display &stat_time
         "#{chance}% for #{duration_range(stat_time)}"
       end
+
+      def index; __LINE__; end
     end
 
     class Weaken < Struct.new(:chance, :duration, :multiplier)
@@ -169,6 +187,8 @@ module BattleCatsRolls
       def display &stat_time
         "#{chance}% to reduce specialized enemies damage to #{multiplier}% for #{duration_range(stat_time)}"
       end
+
+      def index; __LINE__; end
     end
 
     class Curse < Struct.new(:chance, :duration)
@@ -187,6 +207,8 @@ module BattleCatsRolls
       def display &stat_time
         "#{chance}% to invalidate specialization for #{duration_range(stat_time)}"
       end
+
+      def index; __LINE__; end
     end
 
     class Dodge < Struct.new(:chance, :duration)
@@ -203,6 +225,8 @@ module BattleCatsRolls
       def display
         "#{chance}% to become immune to specialized enemies for #{yield(duration)}"
       end
+
+      def index; __LINE__; end
     end
 
     class Strengthen < Struct.new(:threshold, :modifier)
@@ -219,9 +243,31 @@ module BattleCatsRolls
       def display
         "Deal #{modifier + 100}% damage when health reached #{threshold}%"
       end
+
+      def index; __LINE__; end
     end
 
-    class Wave < Ability
+    class Wave < Struct.new(:chance, :level, :mini)
+      def self.build_if_available stat
+        if stat['wave_chance']
+          new(*stat.values_at(
+            'wave_chance', 'wave_level', 'wave_mini'))
+        end
+      end
+
+      def name
+        if mini
+          'Mini-wave'
+        else
+          'Wave'
+        end
+      end
+
+      def display
+        "#{chance}% to produce level #{level} #{name.downcase} attack"
+      end
+
+      def index; __LINE__; end
     end
 
     class Surge < Ability
@@ -290,15 +336,19 @@ module BattleCatsRolls
       def display
         @immunity ||= immunity.join(', ')
       end
+
+      def index; __LINE__; end
     end
 
     def self.build stat
       constants.filter_map do |ability|
         const_get(ability, false).build_if_available(stat)
-      end
+      end.sort_by(&:index)
     end
 
     def self.build_if_available stat
     end
+
+    def index; __LINE__; end
   end
 end
