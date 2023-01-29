@@ -270,7 +270,22 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Surge < Ability
+    class Surge < Struct.new(:chance, :level)
+      def self.build_if_available stat
+        if stat['surge_chance']
+          new(*stat.values_at('surge_chance', 'surge_level'))
+        end
+      end
+
+      def name
+        'Surge'
+      end
+
+      def display
+        "#{chance}% to produce level #{level} surge attack"
+      end
+
+      def index; __LINE__; end
     end
 
     class CriticalStrike < Ability
