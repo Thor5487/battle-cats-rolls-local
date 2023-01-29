@@ -28,7 +28,7 @@ module BattleCatsRolls
       end
 
       def apply_effects
-        @apply_effects ||= if super == 1
+        @apply_effects ||= if super == 1 || stat.attacks.size <= 1
           'Yes'
         else
           'No'
