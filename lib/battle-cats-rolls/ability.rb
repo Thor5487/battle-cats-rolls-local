@@ -288,7 +288,20 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class CriticalStrike < Ability
+    class CriticalStrike < Struct.new(:chance)
+      def self.build_if_available stat
+        new(stat['critical_chance']) if stat['critical_chance']
+      end
+
+      def name
+        'Critical strike'
+      end
+
+      def display
+        "#{chance}% to deal 200% damage and ignore metal effect"
+      end
+
+      def index; __LINE__; end
     end
 
     class SavageBlow < Ability
