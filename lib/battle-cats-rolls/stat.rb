@@ -132,7 +132,20 @@ module BattleCatsRolls
         end
       end
 
-      class Strengthen < Ability
+      class Strengthen < Struct.new(:threshold, :modifier)
+        def self.build_if_available stat
+          if stat['strengthen_threshold']
+            new(*stat.values_at('strengthen_threshold', 'strengthen_modifier'))
+          end
+        end
+
+        def name
+          'Strengthen'
+        end
+
+        def display
+          "Deal #{modifier + 100}% damage when health reached #{threshold}%"
+        end
       end
 
       class Immunity < Struct.new(:immunity)
