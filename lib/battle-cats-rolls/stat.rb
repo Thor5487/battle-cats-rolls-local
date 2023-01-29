@@ -54,7 +54,7 @@ module BattleCatsRolls
         end
 
         def name
-          'Against'
+          'Specialization'
         end
 
         def display
@@ -72,7 +72,7 @@ module BattleCatsRolls
         end
 
         def display
-          'Deal 150% ~ 180% damage. Take 50% ~ 40% damage'
+          'Deal 150%~180% damage and take 50%~40% damage<br>against specialized enemies'
         end
       end
 
@@ -86,7 +86,7 @@ module BattleCatsRolls
         end
 
         def display
-          'Deal 500% ~ 600% damage'
+          'Deal 500%~600% damage against specialized enemies'
         end
       end
 
@@ -100,7 +100,7 @@ module BattleCatsRolls
         end
 
         def display
-          'Deal 300% ~ 400% damage'
+          'Deal 300% ~ 400% damage against specialized enemies'
         end
       end
 
@@ -114,7 +114,7 @@ module BattleCatsRolls
         end
 
         def display
-          'Take 16% ~ 14% damage'
+          'Take 16% ~ 14% damage from specialized enemies'
         end
       end
 
@@ -128,7 +128,7 @@ module BattleCatsRolls
         end
 
         def display
-          'Take 25% ~ 20% damage'
+          'Take 25% ~ 20% damage from specialized enemies'
         end
       end
 
@@ -191,11 +191,24 @@ module BattleCatsRolls
         end
 
         def display
-          "#{chance}% to reduce target damage to #{multiplier}% for #{yield(duration)}"
+          "#{chance}% to reduce specialized enemies damage to #{multiplier}% for #{yield(duration)}"
         end
       end
 
-      class Curse < Ability
+      class Curse < Struct.new(:chance, :duration)
+        def self.build_if_available stat
+          if stat['curse_chance']
+            new(*stat.values_at('curse_chance', 'curse_duration'))
+          end
+        end
+
+        def name
+          'Curse'
+        end
+
+        def display
+          "#{chance}% to invalidate specialization for #{yield(duration)}"
+        end
       end
 
       class Dodge < Ability
