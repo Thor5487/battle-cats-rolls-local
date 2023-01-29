@@ -25,3 +25,12 @@
 * Highlight partial cell for the part which will be rolled:
   * https://bc.godfat.org/?seed=650315141&last=50&event=2020-09-11_433&pick=2BGX#N2B
   * https://bc.godfat.org/?seed=3626964723&last=49&event=2020-09-11_433&pick=2BGX#N2B
+
+## Stats
+
+* Volley Cat: Long range single attack:
+  https://bc.godfat.org/cats/380
+* Goddess of Light Sirius: Complex attack timing:
+  http://bc.godfat.org/cats/687
+* Child of Destiny Phono: Very narrow max DPS area:
+  http://bc.godfat.org/cats/691
