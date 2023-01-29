@@ -149,6 +149,8 @@ module BattleCatsRolls
       end
     end
 
+    private
+
     def damage n=0
       value = stat["damage_#{n}"]
 
@@ -176,8 +178,6 @@ module BattleCatsRolls
         stat["#{prefix}#{n}"] - stat["#{prefix}#{n - 1}"]
       end
     end
-
-    private
 
     def attack_stat name, n=0
       key = "#{name}_#{n}"
