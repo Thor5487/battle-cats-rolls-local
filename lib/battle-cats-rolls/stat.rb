@@ -151,11 +151,19 @@ module BattleCatsRolls
       end
     end
 
-    def abilities
-      @abilities ||= Ability.build(stat)
+    def specialized_abilities
+      @specialized_abilities ||= abilities[true] || []
+    end
+
+    def universal_abilities
+      @universal_abilities ||= abilities[false] || []
     end
 
     private
+
+    def abilities
+      @abilities ||= Ability.build(stat).group_by(&:specialized)
+    end
 
     def damage n=0
       value = stat["damage_#{n}"]

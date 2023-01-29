@@ -31,6 +31,7 @@ module BattleCatsRolls
         @display ||= enemies.join(', ')
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -44,9 +45,10 @@ module BattleCatsRolls
       end
 
       def display
-        'Deal 150% ~ 180% damage and take 50% ~ 40% damage<br>against and from specialized enemies'
+        'Deal 150% ~ 180% damage and take 50% ~ 40% damage'
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -60,9 +62,10 @@ module BattleCatsRolls
       end
 
       def display
-        'Deal 500% ~ 600% damage against specialized enemies'
+        'Deal 500% ~ 600% damage'
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -76,9 +79,10 @@ module BattleCatsRolls
       end
 
       def display
-        'Deal 300% ~ 400% damage against specialized enemies'
+        'Deal 300% ~ 400% damage'
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -92,9 +96,10 @@ module BattleCatsRolls
       end
 
       def display
-        'Take 16% ~ 14% damage from specialized enemies'
+        'Take 16% ~ 14% damage'
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -108,9 +113,10 @@ module BattleCatsRolls
       end
 
       def display
-        'Take 25% ~ 20% damage from specialized enemies'
+        'Take 25% ~ 20% damage'
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -127,6 +133,7 @@ module BattleCatsRolls
         "#{chance}%"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -147,6 +154,7 @@ module BattleCatsRolls
         "#{chance}% for #{duration_range(stat_time)}"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -167,6 +175,7 @@ module BattleCatsRolls
         "#{chance}% for #{duration_range(stat_time)}"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -185,9 +194,10 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "#{chance}% to reduce specialized enemies damage to #{multiplier}% for #{duration_range(stat_time)}"
+        "#{chance}% to reduce enemies damage to #{multiplier}% for #{duration_range(stat_time)}"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -208,6 +218,7 @@ module BattleCatsRolls
         "#{chance}% to invalidate specialization for #{duration_range(stat_time)}"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -223,9 +234,10 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to become immune to specialized enemies for #{yield(duration)}"
+        "#{chance}% to become immune to enemies for #{yield(duration)}"
       end
 
+      def specialized; true; end
       def index; __LINE__; end
     end
 
@@ -244,6 +256,7 @@ module BattleCatsRolls
         "Deal #{modifier + 100}% damage when health reached #{threshold}%"
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -267,6 +280,7 @@ module BattleCatsRolls
         "#{chance}% to produce level #{level} #{name.downcase} attack"
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -285,6 +299,7 @@ module BattleCatsRolls
         "#{chance}% to produce level #{level} surge attack"
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -301,6 +316,7 @@ module BattleCatsRolls
         "#{chance}% to deal 200% damage and ignore metal effect"
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -319,6 +335,7 @@ module BattleCatsRolls
         "#{chance}% to deal #{modifier + 100}% damage"
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -380,6 +397,7 @@ module BattleCatsRolls
         @immunity ||= immunity.join(', ')
       end
 
+      def specialized; false; end
       def index; __LINE__; end
     end
 
@@ -392,6 +410,7 @@ module BattleCatsRolls
     def self.build_if_available stat
     end
 
+    def specialized; false; end
     def index; __LINE__; end
   end
 end
