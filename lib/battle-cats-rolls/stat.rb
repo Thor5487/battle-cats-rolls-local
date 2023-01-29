@@ -149,6 +149,22 @@ module BattleCatsRolls
       end
     end
 
+    def against_enemies
+      @against_enemies ||=
+        %w[red floating black angel alien zombie aku relic white metal].
+          filter_map do |type|
+            stat["against_#{type}"] && type.capitalize
+          end
+    end
+
+    def immunity
+      @immunity ||=
+        %w[knockback warp freeze slow weaken toxic curse wave surge].
+        filter_map do |effect|
+          stat["immune_#{effect}"] && effect.capitalize
+        end
+    end
+
     private
 
     def damage n=0
