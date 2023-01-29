@@ -99,7 +99,7 @@ module BattleCatsRolls
           if values.any?
             Hash[fields.each_key.map(&:to_s).zip(values)].
               delete_if do |name, value|
-                !/\A\-?\d+\z/.match?(value) || value == '0'
+                !/\A\-?\d+/.match?(value) || value.start_with?('0')
               end.transform_values(&:to_i)
           end
         end
