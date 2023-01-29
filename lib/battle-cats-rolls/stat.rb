@@ -12,8 +12,6 @@ module BattleCatsRolls
           case area_range
           when Range
             "#{area_range.begin} ~ #{area_range.end}"
-          when 0
-            'Single'
           else
             area_range
           end
@@ -24,10 +22,8 @@ module BattleCatsRolls
           reach = long_range + long_range_offset
           from, to = [long_range, reach].sort
           from..to
-        elsif stat.stat['area_effect']
-          stat.range
         else
-          0
+          stat.range
         end
       end
 
@@ -100,12 +96,6 @@ module BattleCatsRolls
       @attack_cooldown ||= stat['attack_cooldown'].to_i * time_multiplier
     end
 
-    def single_area_attack?
-      attacks.size == 1 &&
-        attacks.first.area_range.kind_of?(Integer) &&
-        attacks.first.area_range > 0
-    end
-
     def max_damage
       @max_damage ||= attacks.sum(&:damage)
     end
@@ -120,6 +110,10 @@ module BattleCatsRolls
       else
         'Single'
       end
+    end
+
+    def long_range?
+      attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
     end
 
     def max_dps
@@ -184,10 +178,6 @@ module BattleCatsRolls
     end
 
     private
-
-    def long_range?
-      attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
-    end
 
     def attack_stat name, n=0
       key = "#{name}_#{n}"

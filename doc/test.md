@@ -30,6 +30,8 @@
 
 * Awakened Bahamut Cat: Multi area attacks:
   https://bc.godfat.org/cats/26
+* Apple Cat: Single single attack and single area attack:
+  https://bc.godfat.org/cats/40
 * Sea Maiden Ruri: Multi single attacks:
   https://bc.godfat.org/cats/336
 * Volley Cat: Long range single attack:
