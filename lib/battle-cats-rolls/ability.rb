@@ -24,7 +24,7 @@ module BattleCatsRolls
       end
 
       def name
-        'Specialization'
+        'Specialized to'
       end
 
       def display
