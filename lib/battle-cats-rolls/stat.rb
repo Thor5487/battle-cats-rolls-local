@@ -76,22 +76,66 @@ module BattleCatsRolls
         end
       end
 
-      class Resistant < Ability
+      class InsaneDamage
+        def self.build_if_available stat
+          new if stat['insane_damage']
+        end
+
+        def name
+          'Insane damage'
+        end
+
+        def display
+          'Deal 500% ~ 600% damage'
+        end
       end
 
-      class MassiveDamage < Ability
+      class MassiveDamage
+        def self.build_if_available stat
+          new if stat['massive_damage']
+        end
+
+        def name
+          'Massive damage'
+        end
+
+        def display
+          'Deal 300% ~ 400% damage'
+        end
       end
 
-      class InsaneResistant < Ability
+      class InsaneResistant
+        def self.build_if_available stat
+          new if stat['insane_resistant']
+        end
+
+        def name
+          'Insane resistant'
+        end
+
+        def display
+          'Take 16% ~ 14% damage'
+        end
       end
 
-      class InsaneDamage < Ability
+      class Resistant
+        def self.build_if_available stat
+          new if stat['resistant']
+        end
+
+        def name
+          'Resistant'
+        end
+
+        def display
+          'Take 25% ~ 20% damage'
+        end
       end
 
       class Strengthen < Ability
       end
 
-      class Immune < Struct.new(:immunity)
+      class Immunity < Struct.new(:immunity)
         def self.build_if_available stat
           immunity =
             %w[knockback warp freeze slow weaken toxic curse wave surge].
@@ -103,7 +147,7 @@ module BattleCatsRolls
         end
 
         def name
-          'Immune to'
+          'Immunity'
         end
 
         def display
