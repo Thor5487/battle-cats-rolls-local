@@ -304,7 +304,22 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class SavageBlow < Ability
+    class SavageBlow < Struct.new(:chance, :modifier)
+      def self.build_if_available stat
+        if stat['savage_blow_chance']
+          new(*stat.values_at('savage_blow_chance', 'savage_blow_modifier'))
+        end
+      end
+
+      def name
+        'Savage blow'
+      end
+
+      def display
+        "#{chance}% to deal #{modifier + 100}% damage"
+      end
+
+      def index; __LINE__; end
     end
 
     class Survival < Ability
