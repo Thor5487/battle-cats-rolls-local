@@ -1,6 +1,16 @@
 # frozen_string_literal: true
 
 module BattleCatsRolls
+  module AbilityUtility
+    def duration_range stat_time
+      "#{stat_time[duration]} ~ #{stat_time[(duration * treasure_multiplier).floor]}"
+    end
+
+    def treasure_multiplier
+      1.2
+    end
+  end
+
   class Ability
     class Against < Struct.new(:enemies)
       def self.build_if_available stat
@@ -107,6 +117,8 @@ module BattleCatsRolls
     end
 
     class Freeze < Struct.new(:chance, :duration)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['freeze_chance']
           new(*stat.values_at('freeze_chance', 'freeze_duration'))
@@ -117,12 +129,14 @@ module BattleCatsRolls
         'Freeze'
       end
 
-      def display
-        "#{chance}% for #{yield(duration)}"
+      def display &stat_time
+        "#{chance}% for #{duration_range(stat_time)}"
       end
     end
 
     class Slow < Struct.new(:chance, :duration)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['slow_chance']
           new(*stat.values_at('slow_chance', 'slow_duration'))
@@ -133,12 +147,14 @@ module BattleCatsRolls
         'Slow'
       end
 
-      def display
-        "#{chance}% for #{yield(duration)}"
+      def display &stat_time
+        "#{chance}% for #{duration_range(stat_time)}"
       end
     end
 
     class Weaken < Struct.new(:chance, :duration, :multiplier)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['weaken_chance']
           new(*stat.values_at(
@@ -150,12 +166,14 @@ module BattleCatsRolls
         'Weaken'
       end
 
-      def display
-        "#{chance}% to reduce specialized enemies damage to #{multiplier}% for #{yield(duration)}"
+      def display &stat_time
+        "#{chance}% to reduce specialized enemies damage to #{multiplier}% for #{duration_range(stat_time)}"
       end
     end
 
     class Curse < Struct.new(:chance, :duration)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['curse_chance']
           new(*stat.values_at('curse_chance', 'curse_duration'))
@@ -166,8 +184,8 @@ module BattleCatsRolls
         'Curse'
       end
 
-      def display
-        "#{chance}% to invalidate specialization for #{yield(duration)}"
+      def display &stat_time
+        "#{chance}% to invalidate specialization for #{duration_range(stat_time)}"
       end
     end
 
