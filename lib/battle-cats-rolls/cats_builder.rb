@@ -141,7 +141,7 @@ module BattleCatsRolls
         insane_resistant: 80, insane_damage: 81,
         knockback_chance: 24, freeze_chance: 25, freeze_duration: 26,
         slow_chance: 27, slow_duration: 28,
-        weaken_chance: 37, weaken_duration: 38, weaken_multipler: 39,
+        weaken_chance: 37, weaken_duration: 38, weaken_multiplier: 39,
         curse_chance: 92, curse_duration: 93,
         critical_chance: 31, savage_blow_chance: 82,
         wave_chance: 35, wave_level: 36, wave_mini: 94,
