@@ -151,7 +151,8 @@ module BattleCatsRolls
         strengthen_threshold: 40, strengthen_modifier: 41,
         immune_wave: 46, block_wave: 47, immune_surge: 89,
         immune_knockback: 48, immune_freeze: 49, immune_slow: 50,
-        immune_weaken: 51, immune_warp: 75, immune_toxic: 90,
+        immune_weaken: 51, immune_warp: 75, immune_curse: 79,
+        immune_toxic: 90,
       }
     end
 
