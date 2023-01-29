@@ -215,7 +215,7 @@ cats:
       desc: ["저가생산 가능한 기본 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코", "철저히 단련된 근육이 매력포인트인\n기본캐릭터를 목표로 성장 중인 꼬맹이 냥코", "철저히 단련된 근육과 남자다운 헤어스타일이\n매력포인트인 기본 캐릭터. 혹독한 다이어트로\n군살을 완벽 제거하여 가성비가 좋아졌다."]
       stat: [{health: 40, knockbacks: 3, speed: 8, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 130, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 40, knockbacks: 3, speed: 8, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 130, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 160, knockbacks: 3, speed: 8, cost: 30, production_cooldown: 175, attack_cooldown: 15, range: 130, damage_0: 16, attack_time_0: 8, attack_duration: 17}]
     211:
-      name: [꼬맹이 탱크 고양이, 꼬맹이 고양이 벽, '꼬맹이 고무 고양이 ']
+      name: [꼬맹이 탱크 고양이, 꼬맹이 고양이 벽, 꼬맹이 고무 고양이]
       desc: ["고체력 방어용 캐릭터\n공격력은 새발의 피 정도.라는 캐릭터를\n목표로 성장 중인 꼬맹이 냥코 (범위공격)", "그야말로 완벽한 벽을 위한 방어전용 캐릭터\n공격력은 거기서 거기.라는 캐릭터를\n목표로 성장 중인 냥코 (범위공격)", "고무제의 방어전용 캐릭터로 성장한 꼬맹이 냥코\n성장해서 성격이 둥글둥글해졌지만\n공격력은 아직도 거기서 거기 (범위공격)"]
       stat: [{health: 160, knockbacks: 1, speed: 6, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 100, area_effect: 1, damage_0: 2, attack_time_0: 8, attack_duration: 15}, {health: 160, knockbacks: 1, speed: 6, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 100, area_effect: 1, damage_0: 2, attack_time_0: 8, attack_duration: 15}, {health: 480, knockbacks: 1, speed: 6, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 100, area_effect: 1, damage_0: 4, attack_time_0: 8, immune_freeze: 1, attack_duration: 15}]
     212:
@@ -920,7 +920,7 @@ cats:
       desc: ["까마득한 옛날에 살았던 고양이들의 조상\n튼튼한 다리와 애플힙이 매력 포인트\n메탈 적과 고대종에 맷집이 좋다", "정신 차려보니 베란다에서 낮잠 자고 있었던 고양이 \n방석이나 박스만 있으면 어디서든 내 집처럼 눕는다\n메탈 적과 고대종에 맷집이 좋다", "미래의 나라에서 온 이족보행형 고양이\n좋아하는 것은 고양이 통조림과 카레\n메탈 적과 고대종에 초 맷집이 좋다"]
       stat: [{health: 650, knockbacks: 1, speed: 10, cost: 70, production_cooldown: 210, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, apply_effects_0: 1, against_metal: 1, against_relic: 1, resistant: 1, immune_curse: 1, attack_duration: 17}, {health: 650, knockbacks: 1, speed: 10, cost: 70, production_cooldown: 210, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, apply_effects_0: 1, against_metal: 1, against_relic: 1, resistant: 1, immune_curse: 1, attack_duration: 17}, {health: 650, knockbacks: 1, speed: 10, cost: 70, production_cooldown: 210, attack_cooldown: 13, range: 140, damage_0: 8, attack_time_0: 11, apply_effects_0: 1, against_metal: 1, against_relic: 1, insane_resistant: 1, immune_curse: 1, attack_duration: 20}]
     459:
-      name: [아처 고양이, '영령 아처 고양이 ']
+      name: [아처 고양이, 영령 아처 고양이]
       desc: ["검을 다룰수 있는 공병 영령을 동경하는 고양이\n고양이 시로를 적대시하다. 진의는 불명.\n파동에 의한 데미지를 받지 않는다", "궁병답게 궁으로 싸우기 시작한 고양이\n고양이 시로를 너무 적대시한 나머지 불면증에 걸리다.\n파동에 의한 데미지를 받지 않는다 (원거리 공격)"]
       stat: [{health: 660, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 320, attack_cooldown: 33, range: 275, damage_0: 120, attack_time_0: 26, apply_effects_0: 1, immune_wave: 1, attack_duration: 52}, {health: 660, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 320, attack_cooldown: 33, range: 275, damage_0: 120, long_range_0: 200, long_range_offset_0: 150, attack_time_0: 26, apply_effects_0: 1, immune_wave: 1, attack_duration: 52}]
     460:
@@ -1048,7 +1048,7 @@ cats:
       desc: ["여기저기를 떠돌아다니며 여행하는 피리 부는 고양이\n피리 소리로 사람을 모아 이야기를 해서 돈을 벌고 여행도 하고 있다.\n반드시 악마의 공격력을 낮추고 가끔 악마 쉴드를 뚫어버린다", "주위의 시선을 신경 쓰지 않고 퉁소 연습을 할 수 있는\n모자를 발명한 걸어다니면서 모자를 파는 승려\n반드시 악마의 공격력을 낮추고 가끔 악마 쉴드를 뚫어버린다"]
       stat: [{health: 300, knockbacks: 2, speed: 7, cost: 340, production_cooldown: 310, attack_cooldown: 27, range: 320, damage_0: 75, attack_time_0: 28, apply_effects_0: 1, break_shield_chance: 40, weaken_chance: 100, weaken_duration: 60, weaken_multipler: 50, attack_duration: 43}, {health: 360, knockbacks: 2, speed: 7, cost: 340, production_cooldown: 310, attack_cooldown: 27, range: 320, damage_0: 125, attack_time_0: 28, apply_effects_0: 1, break_shield_chance: 40, weaken_chance: 100, weaken_duration: 60, weaken_multipler: 50, attack_duration: 43}]
     631:
-      name: [고양이 서예, '고양이 다도 ']
+      name: [고양이 서예, 고양이 다도]
       desc: ["특대 붓으로 호탕하게 글을 쓰는 고양이\n오자, 탈자가 많은 것이 가끔 흠이다\n고대종에 엄청 강하다", "특별 주문한 차선으로 대량의 차를 우려내는 고양이 \n작은 다실에서 전국으로 배송 무료 (일부 지역 제외)\n고대종에 엄청 강하고 파동, 열파를 무효화 시킨다"]
       stat: [{health: 300, knockbacks: 1, speed: 10, cost: 340, production_cooldown: 260, attack_cooldown: 24, range: 330, damage_0: 145, attack_time_0: 18, apply_effects_0: 1, against_relic: 1, strong: 1, immune_curse: 1, attack_duration: 54}, {health: 380, knockbacks: 1, speed: 10, cost: 340, production_cooldown: 260, attack_cooldown: 24, range: 330, damage_0: 225, attack_time_0: 18, apply_effects_0: 1, against_relic: 1, strong: 1, immune_wave: 1, immune_curse: 1, attack_duration: 54}]
     659:
@@ -1357,7 +1357,7 @@ cats:
       desc: ["지하전대 그란돈의 전기톱 담당\n가끔 재미없다고 생각하는 것을 베어버린다.\n에이리언에 맷집이 강하고, 초 데미지를 입힌다.", "지하전대 그란돈의 전기톱 담당\n컨테이너 안에는 엄마가 보내주신 야채와 쌀이 들어있다\n에이리언에 맷집이 강하고, 초 데미지를 입힌다.", "지하전대 그란돈의 전기톱 담당 (2세대 조종사)\n머신과의 싱크로율을 무한대로 업그레이드\n에이리언에 맷집이 강하고, 초 데미지를 입힌다."]
       stat: [{health: 800, knockbacks: 1, speed: 12, cost: 800, production_cooldown: 500, range: 180, damage_0: 60, attack_time_0: 1, apply_effects_0: 1, against_alien: 1, resistant: 1, massive_damage: 1, immune_warp: 1, attack_duration: 8}, {health: 1000, knockbacks: 1, speed: 12, cost: 800, production_cooldown: 500, range: 180, damage_0: 70, attack_time_0: 1, apply_effects_0: 1, against_alien: 1, resistant: 1, massive_damage: 1, immune_warp: 1, attack_duration: 8}, {health: 1500, knockbacks: 1, speed: 12, cost: 800, production_cooldown: 500, range: 180, damage_0: 80, attack_time_0: 1, apply_effects_0: 1, against_alien: 1, break_barrier_chance: 20, resistant: 1, massive_damage: 1, immune_warp: 1, attack_duration: 8}]
     461:
-      name: ['고양이 고토미네 & 고양이 길가메쉬 ', 고양이 길가메쉬 & 고양이 고토미네]
+      name: [고양이 고토미네 & 고양이 길가메쉬, 고양이 길가메쉬 & 고양이 고토미네]
       desc: ["매운 마파 두부를 완식한 신부를 동경하는 고양이와\n전황을 지키고 있는 영령을 동경하는 고양이 (범위 공격)\n가끔 검은 적의 공격력을 낮추고 체력 저하로 공격력이 상승", "전황 지켜보기에 지친 고양이와\n매운 마파 두부에 계속 도전하고 있는 고양이 (범위 공격)\n가끔 좀비의 공격력을 낮추고 체력 저하로 공격력이 상승"]
       stat: [{health: 1200, knockbacks: 4, speed: 8, cost: 780, production_cooldown: 380, attack_cooldown: 37, range: 300, area_effect: 1, damage_0: 660, attack_time_0: 66, apply_effects_0: 1, against_black: 1, weaken_chance: 50, weaken_duration: 150, weaken_multipler: 50, strengthen_threshold: 50, strengthen_modifier: 50, attack_duration: 90}, {health: 1200, knockbacks: 4, speed: 8, cost: 780, production_cooldown: 380, attack_cooldown: 37, range: 300, area_effect: 1, damage_0: 660, attack_time_0: 66, apply_effects_0: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 50, weaken_duration: 150, weaken_multipler: 50, strengthen_threshold: 50, strengthen_modifier: 50, attack_duration: 100}]
     473:
@@ -1914,7 +1914,7 @@ cats:
       desc: ["Fate/stay night[HF]에서 참전!\n마토 신지와 계약을 맺은 기병 영령\n천사의 움직임을 잠깐 멈춘다 (범위 공격)", "Fate/stay night[HF]에서 참전!\n기동력이 좋고 결계를 치는 마술도 뛰어났다.\n천사의 움직임을 잠깐 멈춘다 (범위 공격)"]
       stat: [{health: 1650, knockbacks: 3, speed: 12, cost: 2400, production_cooldown: 1200, attack_cooldown: 64, range: 400, area_effect: 1, damage_0: 1050, attack_time_0: 40, apply_effects_0: 1, against_angel: 1, freeze_chance: 100, freeze_duration: 90, attack_duration: 88}, {health: 2400, knockbacks: 3, speed: 12, cost: 2400, production_cooldown: 1200, attack_cooldown: 64, range: 400, area_effect: 1, damage_0: 1500, attack_time_0: 40, apply_effects_0: 1, against_angel: 1, freeze_chance: 100, freeze_duration: 90, attack_duration: 88}]
     369:
-      name: ['길가메쉬 ', 길가메쉬CC]
+      name: [길가메쉬, 길가메쉬CC]
       desc: ["Fate/stay night[HF]에서 참전!\n불길한 미소로 나타난 미스터리 청년\n체력 저하로 공격력이 상승 (원거리 범위공격)", "Fate/stay night[HF]에서 참전!\n그 정체는 존재할 수 없는 8번째의 영령.\n체력 저하로 공격력이 상승 (원거리 범위공격)"]
       stat: [{health: 2500, knockbacks: 4, speed: 10, cost: 3000, production_cooldown: 1900, attack_cooldown: 94, range: 390, area_effect: 1, damage_0: 530, long_range_0: 325, long_range_offset_0: 400, attack_time_0: 64, apply_effects_0: 1, damage_1: 530, attack_time_1: 68, apply_effects_1: 1, damage_2: 530, attack_time_2: 74, apply_effects_2: 1, strengthen_threshold: 75, strengthen_modifier: 50, attack_duration: 110}, {health: 3600, knockbacks: 4, speed: 10, cost: 3000, production_cooldown: 1900, attack_cooldown: 94, range: 390, area_effect: 1, damage_0: 770, long_range_0: 325, long_range_offset_0: 400, attack_time_0: 64, apply_effects_0: 1, damage_1: 770, attack_time_1: 68, apply_effects_1: 1, damage_2: 770, attack_time_2: 74, apply_effects_2: 1, strengthen_threshold: 75, strengthen_modifier: 50, attack_duration: 110}]
     379:

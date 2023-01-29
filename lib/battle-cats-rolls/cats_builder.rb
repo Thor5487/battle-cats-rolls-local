@@ -70,7 +70,8 @@ module BattleCatsRolls
           end
         separator = Regexp.escape(separator_char)
 
-        names = data.scan(/^(?:[^#{separator}]+)/).uniq
+        names = data.scan(/^(?:[^#{separator}]+)/).uniq.
+          map(&:strip).delete_if(&:empty?)
         descs = data.scan(/(?=#{separator}).+$/).uniq.
           map{ |s| s.tr(separator_char, "\n").squeeze(' ').strip }.
           delete_if(&:empty?)
