@@ -28,8 +28,20 @@
 
 ## Stats
 
+* Awakened Bahamut Cat: Multi area attacks:
+  https://bc.godfat.org/cats/26
+* Sea Maiden Ruri: Multi single attacks:
+  https://bc.godfat.org/cats/336
 * Volley Cat: Long range single attack:
   https://bc.godfat.org/cats/380
+* Wonder MOMOCO: First strike wave and stop effect:
+  https://bc.godfat.org/cats/456
+* Ken: Third strike effect with all range:
+  https://bc.godfat.org/cats/518
+* Kyosaka Nanaho: Second strike critical effect:
+  https://bc.godfat.org/cats/545
+* Fabled Adventure Girl Kanna: First strike surge effect and various ranges:
+  https://bc.godfat.org/cats/608
 * Goddess of Light Sirius: Complex attack timing:
   http://bc.godfat.org/cats/687
 * Child of Destiny Phono: Very narrow max DPS area:
