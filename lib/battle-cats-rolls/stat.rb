@@ -132,6 +132,48 @@ module BattleCatsRolls
         end
       end
 
+      class Knockback < Struct.new(:chance)
+        def self.build_if_available stat
+          new(stat['knockback_chance']) if stat['knockback_chance']
+        end
+
+        def name
+          'Knockback'
+        end
+
+        def display
+          "#{chance}%"
+        end
+      end
+
+      class Freeze < Struct.new(:chance, :duration)
+        def self.build_if_available stat
+          if stat['freeze_chance']
+            new(*stat.values_at('freeze_chance', 'freeze_duration'))
+          end
+        end
+
+        def name
+          'Freeze'
+        end
+
+        def display
+          "#{chance}% for #{yield(duration)}"
+        end
+      end
+
+      class Slow < Ability
+      end
+
+      class Weaken < Ability
+      end
+
+      class Curse < Ability
+      end
+
+      class Dodge < Ability
+      end
+
       class Strengthen < Struct.new(:threshold, :modifier)
         def self.build_if_available stat
           if stat['strengthen_threshold']
@@ -148,41 +190,6 @@ module BattleCatsRolls
         end
       end
 
-      class Immunity < Struct.new(:immunity)
-        def self.build_if_available stat
-          immunity =
-            %w[knockback warp freeze slow weaken toxic curse wave surge].
-            filter_map do |effect|
-              stat["immune_#{effect}"] && effect.capitalize
-            end
-
-          new(immunity) if immunity.any?
-        end
-
-        def name
-          'Immunity'
-        end
-
-        def display
-          @immunity ||= immunity.join(', ')
-        end
-      end
-
-      class Knockback < Ability
-      end
-
-      class Freeze < Ability
-      end
-
-      class Slow < Ability
-      end
-
-      class Weaken < Ability
-      end
-
-      class Curse < Ability
-      end
-
       class Wave < Ability
       end
 
@@ -196,9 +203,6 @@ module BattleCatsRolls
       end
 
       class Survival < Ability
-      end
-
-      class Dodge < Ability
       end
 
       class LootMoney < Ability
@@ -235,6 +239,26 @@ module BattleCatsRolls
       end
 
       class EvaAngelKiller < Ability
+      end
+
+      class Immunity < Struct.new(:immunity)
+        def self.build_if_available stat
+          immunity =
+            %w[knockback warp freeze slow weaken toxic curse wave surge].
+            filter_map do |effect|
+              stat["immune_#{effect}"] && effect.capitalize
+            end
+
+          new(immunity) if immunity.any?
+        end
+
+        def name
+          'Immunity'
+        end
+
+        def display
+          @immunity ||= immunity.join(', ')
+        end
       end
 
       def self.build stat

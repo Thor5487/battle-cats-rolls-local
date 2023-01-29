@@ -80,7 +80,7 @@
   <% stat.abilities.each do |ability| %>
   <tr>
     <td><%= ability.name %></td>
-    <td colspan="5"><%= ability.display %></td>
+    <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
   </tr>
   <% end %>
 <% end %>
