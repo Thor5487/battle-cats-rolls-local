@@ -65,16 +65,11 @@ module BattleCatsRolls
     end
 
     def production_cooldown
-      @production_cooldown ||= begin
-        minimal_cooldown = 60
-        reduction_from_blue_orbs_and_treasures = 264
-
-        [
-          minimal_cooldown,
-          (stat['production_cooldown'] * time_multiplier) -
-            reduction_from_blue_orbs_and_treasures
-        ].max
-      end
+      @production_cooldown ||= [
+        minimal_cooldown,
+        (stat['production_cooldown'] * time_multiplier) -
+          reduction_from_blue_orbs_and_treasures
+      ].max
     end
 
     def rush_duration
@@ -207,14 +202,23 @@ module BattleCatsRolls
       2.5
     end
 
-    def time_multiplier
-      2
-    end
-
     def chapter2_cost_multiplier
       1.5
     end
 
+    def time_multiplier
+      2
+    end
+
+    def minimal_cooldown
+      60
+    end
+
+    def reduction_from_blue_orbs_and_treasures
+      264
+    end
+
+    # checkout unitlevel.csv
     def level_multiplier
       @level_multiplier ||= 1 + 0.2 * (level - 1)
     end
