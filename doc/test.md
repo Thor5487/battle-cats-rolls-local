@@ -32,10 +32,14 @@
   https://bc.godfat.org/cats/26
 * Apple Cat: Single single attack and single area attack:
   https://bc.godfat.org/cats/40
+* Metal Cat: Metal and max level is 20:
+  https://bc.godfat.org/cats/201
 * Sea Maiden Ruri: Multi single attacks:
   https://bc.godfat.org/cats/336
 * Volley Cat: Long range single attack:
   https://bc.godfat.org/cats/380
+* Glass Cat: Kamikaze does not have DPS:
+  https://bc.godfat.org/cats/383
 * Wonder MOMOCO: First strike wave and stop effect:
   https://bc.godfat.org/cats/456
 * Ken: Third strike effect with all range:
