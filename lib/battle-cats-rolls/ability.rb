@@ -390,7 +390,7 @@ module BattleCatsRolls
       end
 
       def name
-        'Immunity'
+        'Immune to'
       end
 
       def display
