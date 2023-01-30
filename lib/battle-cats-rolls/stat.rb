@@ -7,7 +7,7 @@ module BattleCatsRolls
     :id, :name, :desc, :stat, :level, keyword_init: true)
     class Attack < Struct.new(
       :stat, :damage, :long_range, :long_range_offset,
-      :apply_effects, :duration, keyword_init: true)
+      :trigger_effects, :duration, keyword_init: true)
 
       def area
         @area ||=
@@ -29,8 +29,8 @@ module BattleCatsRolls
         end
       end
 
-      def apply_effects
-        @apply_effects ||= if super == 1 || stat.attacks.size <= 1
+      def trigger_effects
+        @trigger_effects ||= if super == 1 || stat.attacks.size <= 1
           'Yes'
         else
           'No'
@@ -147,7 +147,7 @@ module BattleCatsRolls
 
         Attack.new(stat: self, damage: value,
           long_range: long_range(n), long_range_offset: long_range_offset(n),
-          apply_effects: apply_effects(n), duration: duration(n))
+          trigger_effects: trigger_effects(n), duration: duration(n))
       end
     end
 
@@ -179,8 +179,8 @@ module BattleCatsRolls
       attack_stat(__method__, n)
     end
 
-    def apply_effects n=0
-      stat["apply_effects_#{n}"]
+    def trigger_effects n=0
+      stat["trigger_effects_#{n}"]
     end
 
     def duration n=0

@@ -73,10 +73,8 @@
   <tr>
     <td>DPS</td>
     <td><%= attack.dps || '?' %></td>
-    <td>Apply effects</td>
-    <td><%= attack.apply_effects %></td>
-    <td></td>
-    <td></td>
+    <td>Trigger effects</td>
+    <td colspan="3"><%= attack.trigger_effects %></td>
   </tr>
   <% end %>
   <% stat.specialized_abilities.each do |ability| %>
