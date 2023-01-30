@@ -356,10 +356,38 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class LootMoney < Ability
+    class LootMoney
+      def self.build_if_available stat
+        new if stat['loot_money']
+      end
+
+      def name
+        'Extra money'
+      end
+
+      def display
+        'Get double money from defeating enemies'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class BaseDestroyer < Ability
+    class BaseDestroyer
+      def self.build_if_available stat
+        new if stat['base_destroyer']
+      end
+
+      def name
+        'Base destroyer'
+      end
+
+      def display
+        'Deal 400% damage to enemy base'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class Metal < Ability
