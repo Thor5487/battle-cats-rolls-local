@@ -424,10 +424,38 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class ZombieKiller < Ability
+    class ZombieKiller
+      def self.build_if_available stat
+        new if stat['zombie_killer']
+      end
+
+      def name
+        'Zombie killer'
+      end
+
+      def display
+        'Final blow prevents zombies from reviving'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class SoulStrike < Ability
+    class SoulStrike
+      def self.build_if_available stat
+        new if stat['soul_strike']
+      end
+
+      def name
+        'Soul strike'
+      end
+
+      def display
+        'It can attack zombie corpses'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class BreakBarrier < Ability
