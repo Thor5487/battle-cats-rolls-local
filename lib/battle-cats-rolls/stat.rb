@@ -38,8 +38,11 @@ module BattleCatsRolls
       end
 
       def dps
-        @dps ||= stat.damage_interval &&
+        @dps ||= if stat.kamikaze?
+          '-'
+        elsif stat.damage_interval
           ((damage.to_f / stat.damage_interval) * stat.fps).round
+        end
       end
     end
 
@@ -110,12 +113,21 @@ module BattleCatsRolls
     end
 
     def long_range?
-      attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
+      @long_range ||= attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
+    end
+
+    def kamikaze?
+      @kamikaze ||= universal_abilities.any? do |ability|
+        ability.kind_of?(Ability::Kamikaze)
+      end
     end
 
     def max_dps
-      @max_dps ||= damage_interval &&
+      @max_dps ||= if kamikaze?
+        '-'
+      elsif damage_interval
         ((max_damage.to_f / damage_interval) * fps).round
+      end
     end
 
     def max_dps_area

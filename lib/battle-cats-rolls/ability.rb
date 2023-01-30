@@ -407,7 +407,21 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Kamikaze < Ability
+    class Kamikaze
+      def self.build_if_available stat
+        new if stat['suicide']
+      end
+
+      def name
+        'Kamikaze'
+      end
+
+      def display
+        'It dies from its own attack'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class ZombieKiller < Ability
