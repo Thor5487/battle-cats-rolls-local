@@ -390,7 +390,21 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Metal < Ability
+    class Metal
+      def self.build_if_available stat
+        new if stat['metal']
+      end
+
+      def name
+        'Metal'
+      end
+
+      def display
+        'Take only 1 damage except from critical strikes'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class Kamikaze < Ability
