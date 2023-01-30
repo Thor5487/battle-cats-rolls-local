@@ -148,7 +148,7 @@ module BattleCatsRolls
         wave_chance: 35, wave_level: 36, wave_mini: 94,
         surge_chance: 86, surge_level: 89,
         surge_range: 87, surge_range_offset: 88,
-        survival_chance: 42, dodge_chance: 84, dodge_duration: 85,
+        survive_chance: 42, dodge_chance: 84, dodge_duration: 85,
         loot_money: 33, base_destroyer: 34, metal: 43, suicide: 58,
         strengthen_threshold: 40, strengthen_modifier: 41,
         immune_wave: 46, block_wave: 47, immune_surge: 89,

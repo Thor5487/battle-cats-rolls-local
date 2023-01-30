@@ -339,7 +339,21 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Survival < Ability
+    class Survive < Struct.new(:chance)
+      def self.build_if_available stat
+        new(stat['survive_chance']) if stat['survive_chance']
+      end
+
+      def name
+        'Survive'
+      end
+
+      def display
+        "#{chance}% to survive a lethal strike to be knocked back with 1 health"
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class LootMoney < Ability
