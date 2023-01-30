@@ -31,10 +31,10 @@
   <tr>
     <td>Attack interval</td>
     <td><%= stat_time stat.attack_interval %></td>
-    <td>Attack duration</td>
-    <td><%= stat_time stat.attack_duration %></td>
     <td>Attack cooldown</td>
     <td><%= stat_time stat.attack_cooldown %></td>
+    <td>Attack duration</td>
+    <td><%= stat_time stat.attack_duration %></td>
   </tr>
   <% if stat.attacks.size > 1 || stat.long_range? %>
   <tr>
@@ -67,14 +67,14 @@
     <td><%= attack.damage %></td>
     <td><%= stat.area_type %></td>
     <td><%= attack.area %></td>
-    <td>Apply effects</td>
-    <td><%= attack.apply_effects %></td>
+    <td>Duration</td>
+    <td><%= stat_time attack.duration %></td>
   </tr>
   <tr>
     <td>DPS</td>
     <td><%= attack.dps || '?' %></td>
-    <td>Duration</td>
-    <td><%= stat_time attack.duration %></td>
+    <td>Apply effects</td>
+    <td><%= attack.apply_effects %></td>
     <td></td>
     <td></td>
   </tr>
