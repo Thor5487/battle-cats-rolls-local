@@ -38,8 +38,8 @@ module BattleCatsRolls
       end
 
       def dps
-        @dps ||= stat.attack_interval &&
-          ((damage.to_f / stat.attack_interval) * stat.fps).round
+        @dps ||= stat.damage_interval &&
+          ((damage.to_f / stat.damage_interval) * stat.fps).round
       end
     end
 
@@ -79,11 +79,11 @@ module BattleCatsRolls
 
     def rush_duration
       @rush_duration ||= attack_duration &&
-        attack_interval - attack_duration
+        damage_interval - attack_duration
     end
 
-    def attack_interval
-      @attack_interval ||= attack_duration &&
+    def damage_interval
+      @damage_interval ||= attack_duration &&
         [
           attack_duration,
           attacks.sum(&:duration) + attack_cooldown
@@ -119,8 +119,8 @@ module BattleCatsRolls
     end
 
     def max_dps
-      @max_dps ||= attack_interval &&
-        ((max_damage.to_f / attack_interval) * fps).round
+      @max_dps ||= damage_interval &&
+        ((max_damage.to_f / damage_interval) * fps).round
     end
 
     def max_dps_area
