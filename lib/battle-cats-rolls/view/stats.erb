@@ -87,12 +87,12 @@
     <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
   </tr>
   <% end %>
-  <% if stat.universal_abilities.any? %>
+  <% if stat.generic_abilities.any? %>
   <tr>
     <td></td>
-    <td colspan="5">Universal abilities below apply to all enemies</td>
+    <td colspan="5">Abilities below cannot be invalidated by curse</td>
   </tr>
-  <% stat.universal_abilities.each do |ability| %>
+  <% stat.generic_abilities.each do |ability| %>
   <tr>
     <td><%= ability.name %></td>
     <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>

@@ -117,7 +117,7 @@ module BattleCatsRolls
     end
 
     def kamikaze?
-      @kamikaze ||= universal_abilities.any? do |ability|
+      @kamikaze ||= generic_abilities.any? do |ability|
         ability.kind_of?(Ability::Kamikaze)
       end
     end
@@ -162,8 +162,8 @@ module BattleCatsRolls
       @specialized_abilities ||= abilities[true] || []
     end
 
-    def universal_abilities
-      @universal_abilities ||= abilities[false] || []
+    def generic_abilities
+      @generic_abilities ||= abilities[false] || []
     end
 
     private
