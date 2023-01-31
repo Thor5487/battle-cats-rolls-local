@@ -458,16 +458,75 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class BreakBarrier < Ability
+    class BreakBarrier < Struct.new(:chance)
+      def self.build_if_available stat
+        new (stat['break_barrier_chance']) if stat['break_barrier_chance']
+      end
+
+      def name
+        'Break barrier'
+      end
+
+      def display
+        "#{chance}% to break star alien barrier"
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class BreakShield < Ability
+    class BreakShield < Struct.new(:chance)
+      def self.build_if_available stat
+        new (stat['break_shield_chance']) if stat['break_shield_chance']
+      end
+
+      def name
+        'Break shield'
+      end
+
+      def display
+        "#{chance}% to break aku shield"
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class ColossusKiller < Ability
+    class ColossusSlayer
+      def self.build_if_available stat
+        new if stat['colossus_killer']
+      end
+
+      def name
+        'Colossus slayer'
+      end
+
+      def display
+        'Deal 160% damage and take 70% damage from colossus'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class BehemohKiller < Ability
+    class BehemohSlayer < Struct.new(:chance, :duration)
+      def self.build_if_available stat
+        if stat['behemoth_killer']
+          new(*stat.values_at(
+            'behemoth_dodge_chance', 'behemoth_dodge_duration'))
+        end
+      end
+
+      def name
+        'Behemoth slayer'
+      end
+
+      def display
+        "Deal 250% and take 60% damage, and #{chance}% to become immune for #{yield(duration)}"
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class WitchKiller < Ability
