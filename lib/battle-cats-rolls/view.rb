@@ -141,7 +141,7 @@ module BattleCatsRolls
         %Q{<span title="#{title}">#{name}</span>}
       end +
         if cat.id > 0
-          %Q{<a href="#{h uri_to_cat_db(cat)}">🐾</a>}
+          %Q{<a href="#{route.uri_to_cat(cat)}">🐾</a>}
         else
           ''
         end
@@ -251,7 +251,7 @@ module BattleCatsRolls
 
     def show_gacha_slots cats
       cats.map.with_index do |cat, i|
-        %Q{#{i} <a href="#{uri_to_cat_db(cat)}">#{cat_name(cat)}</a>}
+        %Q{#{i} <a href="#{route.uri_to_cat(cat)}">#{cat_name(cat)}</a>}
       end.join(', ')
     end
 

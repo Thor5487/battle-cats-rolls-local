@@ -308,6 +308,10 @@ module BattleCatsRolls
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
 
+    def uri_to_cat cat
+      uri(path: "//#{web_host}/cats/#{cat.id}")
+    end
+
     def event_url *args, **options
       AwsAuth.event_url(lang, *args, base_uri: event_base_uri, **options)
     end
