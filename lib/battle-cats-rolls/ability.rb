@@ -538,7 +538,7 @@ module BattleCatsRolls
       end
 
       def display
-        'Deal 160% damage and take 70% damage from colossus'
+        'Deal 160% damage to and take 70% damage from colossus'
       end
 
       def specialized; false; end
@@ -560,17 +560,45 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "Deal 250% and take 60% damage, and #{percent(chance)} to become immune for #{seconds(stat_time)}"
+        "Deal 250% and take 60% damage, and #{percent(chance)} to be immune for #{seconds(stat_time)}"
       end
 
       def specialized; false; end
       def index; __LINE__; end
     end
 
-    class WitchKiller < Ability
+    class WitchSlayer
+      def self.build_if_available stat
+        new if stat['witch_killer']
+      end
+
+      def name
+        'Witch slayer'
+      end
+
+      def display
+        'Deal 500% damage to and take 10% damage from witches'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
-    class EvaAngelKiller < Ability
+    class EvaAngelSlayer
+      def self.build_if_available stat
+        new if stat['eva_angel_killer']
+      end
+
+      def name
+        'Eva angel slayer'
+      end
+
+      def display
+        'Deal 500% damage to and take 20% damage from eva angels'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
     end
 
     class Immunity < Struct.new(:immunity)
