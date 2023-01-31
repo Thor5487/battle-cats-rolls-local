@@ -2,8 +2,24 @@
 
 module BattleCatsRolls
   module AbilityUtility
-    def duration_range stat_time
-      "#{stat_time[duration]} ~ #{stat_time[(duration * treasure_multiplier).floor]}"
+    def seconds_range stat_time
+      max_time = (duration * treasure_multiplier).floor
+
+      "#{stat_time[duration]} ~ #{highlight(stat_time[max_time])}"
+    end
+
+    def seconds stat_time
+      highlight(stat_time[duration])
+    end
+
+    def percent integer
+      highlight("#{integer}%")
+    end
+
+    private
+
+    def highlight text
+      "<strong>#{text}</strong>"
     end
 
     def treasure_multiplier
@@ -121,6 +137,8 @@ module BattleCatsRolls
     end
 
     class Knockback < Struct.new(:chance)
+      include AbilityUtility
+
       def self.build_if_available stat
         new(stat['knockback_chance']) if stat['knockback_chance']
       end
@@ -130,7 +148,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}%"
+        percent(chance)
       end
 
       def specialized; true; end
@@ -151,7 +169,7 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "#{chance}% for #{duration_range(stat_time)}"
+        "#{percent(chance)} for #{seconds_range(stat_time)}"
       end
 
       def specialized; true; end
@@ -172,7 +190,7 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "#{chance}% for #{duration_range(stat_time)}"
+        "#{percent(chance)} for #{seconds_range(stat_time)}"
       end
 
       def specialized; true; end
@@ -194,7 +212,7 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "#{chance}% to reduce enemies damage to #{multiplier}% for #{duration_range(stat_time)}"
+        "#{percent(chance)} to reduce enemies damage to #{percent(multiplier)} for #{seconds_range(stat_time)}"
       end
 
       def specialized; true; end
@@ -215,7 +233,7 @@ module BattleCatsRolls
       end
 
       def display &stat_time
-        "#{chance}% to invalidate specialization for #{duration_range(stat_time)}"
+        "#{percent(chance)} to invalidate specialization for #{seconds_range(stat_time)}"
       end
 
       def specialized; true; end
@@ -223,6 +241,8 @@ module BattleCatsRolls
     end
 
     class Dodge < Struct.new(:chance, :duration)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['dodge_chance']
           new(*stat.values_at('dodge_chance', 'dodge_duration'))
@@ -233,8 +253,8 @@ module BattleCatsRolls
         'Dodge'
       end
 
-      def display
-        "#{chance}% to become immune to enemies for #{yield(duration)}"
+      def display &stat_time
+        "#{percent(chance)} to become immune to enemies for #{seconds(stat_time)}"
       end
 
       def specialized; true; end
@@ -242,6 +262,8 @@ module BattleCatsRolls
     end
 
     class Strengthen < Struct.new(:threshold, :modifier)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['strengthen_threshold']
           new(*stat.values_at('strengthen_threshold', 'strengthen_modifier'))
@@ -253,7 +275,7 @@ module BattleCatsRolls
       end
 
       def display
-        "Deal #{modifier + 100}% damage when health reached #{threshold}%"
+        "Deal #{percent(modifier + 100)} damage when health reached #{percent(threshold)}"
       end
 
       def specialized; false; end
@@ -261,6 +283,8 @@ module BattleCatsRolls
     end
 
     class Wave < Struct.new(:chance, :level, :mini)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['wave_chance']
           new(*stat.values_at(
@@ -277,7 +301,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to produce level #{level} #{name.downcase} attack"
+        "#{percent(chance)} to produce level #{highlight(level)} #{name.downcase} attack"
       end
 
       def specialized; false; end
@@ -285,6 +309,8 @@ module BattleCatsRolls
     end
 
     class Surge < Struct.new(:chance, :level)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['surge_chance']
           new(*stat.values_at('surge_chance', 'surge_level'))
@@ -296,7 +322,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to produce level #{level} surge attack"
+        "#{percent(chance)} to produce level #{highlight(level)} surge attack"
       end
 
       def specialized; false; end
@@ -304,6 +330,8 @@ module BattleCatsRolls
     end
 
     class CriticalStrike < Struct.new(:chance)
+      include AbilityUtility
+
       def self.build_if_available stat
         new(stat['critical_chance']) if stat['critical_chance']
       end
@@ -313,7 +341,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to deal 200% damage and ignore metal effect"
+        "#{percent(chance)} to deal 200% damage and ignore metal effect"
       end
 
       def specialized; false; end
@@ -321,6 +349,8 @@ module BattleCatsRolls
     end
 
     class SavageBlow < Struct.new(:chance, :modifier)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['savage_blow_chance']
           new(*stat.values_at('savage_blow_chance', 'savage_blow_modifier'))
@@ -332,7 +362,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to deal #{modifier + 100}% damage"
+        "#{percent(chance)} to deal #{percent(modifier + 100)} damage"
       end
 
       def specialized; false; end
@@ -340,6 +370,8 @@ module BattleCatsRolls
     end
 
     class Survive < Struct.new(:chance)
+      include AbilityUtility
+
       def self.build_if_available stat
         new(stat['survive_chance']) if stat['survive_chance']
       end
@@ -349,7 +381,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to survive a lethal strike to be knocked back with 1 health"
+        "#{percent(chance)} to survive a lethal strike to be knocked back with 1 health"
       end
 
       def specialized; false; end
@@ -459,6 +491,8 @@ module BattleCatsRolls
     end
 
     class BreakBarrier < Struct.new(:chance)
+      include AbilityUtility
+
       def self.build_if_available stat
         new (stat['break_barrier_chance']) if stat['break_barrier_chance']
       end
@@ -468,7 +502,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to break star alien barrier"
+        "#{percent(chance)} to break star alien barrier"
       end
 
       def specialized; false; end
@@ -476,6 +510,8 @@ module BattleCatsRolls
     end
 
     class BreakShield < Struct.new(:chance)
+      include AbilityUtility
+
       def self.build_if_available stat
         new (stat['break_shield_chance']) if stat['break_shield_chance']
       end
@@ -485,7 +521,7 @@ module BattleCatsRolls
       end
 
       def display
-        "#{chance}% to break aku shield"
+        "#{percent(chance)} to break aku shield"
       end
 
       def specialized; false; end
@@ -510,6 +546,8 @@ module BattleCatsRolls
     end
 
     class BehemohSlayer < Struct.new(:chance, :duration)
+      include AbilityUtility
+
       def self.build_if_available stat
         if stat['behemoth_killer']
           new(*stat.values_at(
@@ -521,8 +559,8 @@ module BattleCatsRolls
         'Behemoth slayer'
       end
 
-      def display
-        "Deal 250% and take 60% damage, and #{chance}% to become immune for #{yield(duration)}"
+      def display &stat_time
+        "Deal 250% and take 60% damage, and #{percent(chance)} to become immune for #{seconds(stat_time)}"
       end
 
       def specialized; false; end

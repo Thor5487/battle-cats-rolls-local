@@ -46,8 +46,12 @@
   https://bc.godfat.org/cats/518
 * Kyosaka Nanaho: Second strike critical effect:
   https://bc.godfat.org/cats/545
+* Emperor Cat: A lot of control effects:
+  https://bc.godfat.org/cats/587
 * Fabled Adventure Girl Kanna: First strike surge effect and various ranges:
   https://bc.godfat.org/cats/608
+* Iz the Dancer of Grief: A lot of abilities:
+  https://bc.godfat.org/cats/658
 * Goddess of Light Sirius: Complex attack timing:
   http://bc.godfat.org/cats/687
 * Child of Destiny Phono: Very narrow max DPS area:
