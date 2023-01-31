@@ -151,7 +151,7 @@ module BattleCatsRolls
         survive_chance: 42, dodge_chance: 84, dodge_duration: 85,
         loot_money: 33, base_destroyer: 34, metal: 43, suicide: 58,
         strengthen_threshold: 40, strengthen_modifier: 41,
-        immune_wave: 46, block_wave: 47, immune_surge: 89,
+        immune_wave: 46, block_wave: 47, immune_surge: 91,
         immune_knockback: 48, immune_freeze: 49, immune_slow: 50,
         immune_weaken: 51, immune_warp: 75, immune_curse: 79,
         immune_toxic: 90,
