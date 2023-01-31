@@ -15,7 +15,7 @@ module BattleCatsRolls
     class Specialization < Struct.new(:enemies)
       def self.build_if_available stat
         enemies =
-          %w[red floating black angel alien zombie aku relic white metal].
+          %w[red float black angel alien zombie aku relic white metal].
             filter_map do |type|
               stat["against_#{type}"] && type.capitalize
             end
