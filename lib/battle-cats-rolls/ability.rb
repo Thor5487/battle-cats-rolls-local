@@ -261,6 +261,23 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
+    class AgainstOnly
+      def self.build_if_available stat
+        new if stat['against_only']
+      end
+
+      def name
+        'Attack only'
+      end
+
+      def display
+        'Only attack against specialized enemies or enemy base'
+      end
+
+      def specialized; false; end
+      def index; __LINE__; end
+    end
+
     class Strengthen < Struct.new(:threshold, :modifier)
       include AbilityUtility
 
