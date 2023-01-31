@@ -16,6 +16,10 @@ module BattleCatsRolls
       highlight("#{integer}%")
     end
 
+    def list names
+      names.map{ |n| highlight(n) }.join(', ')
+    end
+
     private
 
     def highlight text
@@ -29,6 +33,8 @@ module BattleCatsRolls
 
   class Ability
     class Specialization < Struct.new(:enemies)
+      include AbilityUtility
+
       def self.build_if_available stat
         enemies =
           %w[red float black angel alien zombie aku relic white metal].
@@ -44,7 +50,7 @@ module BattleCatsRolls
       end
 
       def display
-        @display ||= enemies.join(', ')
+        @display ||= list(enemies)
       end
 
       def specialized; true; end
@@ -619,6 +625,8 @@ module BattleCatsRolls
     end
 
     class Immunity < Struct.new(:immunity)
+      include AbilityUtility
+
       def self.build_if_available stat
         immunity =
           %w[knockback warp freeze slow weaken toxic curse wave surge].
@@ -634,7 +642,7 @@ module BattleCatsRolls
       end
 
       def display
-        @immunity ||= immunity.join(', ')
+        @immunity ||= list(immunity)
       end
 
       def specialized; false; end
