@@ -29,6 +29,10 @@ module BattleCatsRolls
     def treasure_multiplier
       1.2
     end
+
+    def range_multiplier
+      0.25
+    end
   end
 
   class Ability
@@ -331,12 +335,14 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Surge < Struct.new(:chance, :level)
+    class Surge < Struct.new(:chance, :level, :range, :range_offset)
       include AbilityUtility
 
       def self.build_if_available stat
         if stat['surge_chance']
-          new(*stat.values_at('surge_chance', 'surge_level'))
+          new(*stat.values_at(
+            'surge_chance', 'surge_level',
+            'surge_range', 'surge_range_offset'))
         end
       end
 
@@ -345,7 +351,11 @@ module BattleCatsRolls
       end
 
       def display
-        "#{percent(chance)} to produce level #{highlight(level)} surge attack"
+        start = (range * range_multiplier).floor
+        reach = start + (range_offset * range_multiplier).floor
+
+        "#{percent(chance)} to produce level #{highlight(level)}" \
+          " surge attack within #{highlight("#{start} ~ #{reach}")}"
       end
 
       def specialized; false; end
