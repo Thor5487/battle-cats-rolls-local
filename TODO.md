@@ -1,3 +1,17 @@
+## Stats
+
+* Show the actual effects an attack will trigger
+* Fix level incremental stats (`unitlevel.csv`)
+* Add level input field
+* Show talents
+* Account critical strikes and savage blows into DPS
+* Account surge damage into DPS
+* Show surge duration
+* Show knockback distance
+* Show slow percentage
+* Use consistent unit for speed (range per second)
+* Figure out how where to find the hard coded values in the game data
+
 ## High priorities
 
 * Fix guessing 10 rolls link when seeking seed
