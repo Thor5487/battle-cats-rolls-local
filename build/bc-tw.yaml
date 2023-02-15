@@ -12507,3 +12507,84 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-02-17_782:
+    start_on: 2023-02-17
+    end_on: 2030-01-01
+    version: '120100'
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    id: 782
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2023-02-17_783:
+    start_on: 2023-02-17
+    end_on: 2030-01-01
+    version: '120100'
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    id: 783
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2023-02-17_784:
+    start_on: 2023-02-17
+    end_on: 2023-02-20
+    version: '120100'
+    name: 全新限定角色「命運之子佛諾」參戰！★超激稀有出現率最大幅上升的特別轉蛋！
+    id: 784
+    rare: 6500
+    supa: 2500
+    uber: 1000
+  2023-02-20_752:
+    start_on: 2023-02-20
+    end_on: 2023-02-22
+    version: '120100'
+    name: 有超生命體特效的「周遊藝團・雜耍隊」參戰！★點圖確認詳細吧!!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-02-20_795:
+    start_on: 2023-02-20
+    end_on: 2023-03-06
+    version: '120100'
+    name: 白色情人機器子追加第3型態!情人節限定轉蛋登場!★點圖確認詳細吧!!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-02-22_678:
+    start_on: 2023-02-22
+    end_on: 2023-02-24
+    version: '120100'
+    name: 有著超強破壞力的衆神一同登場！★點圖確認詳細吧!!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-02-24_625:
+    start_on: 2023-02-24
+    end_on: 2023-02-27
+    version: '120100'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-02-24_795:
+    start_on: 2023-02-24
+    end_on: 2023-03-06
+    version: '120100'
+    name: 白色情人機器子追加第3型態!情人節限定轉蛋登場!★點圖確認詳細吧!!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
