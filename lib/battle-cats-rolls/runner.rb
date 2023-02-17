@@ -227,13 +227,13 @@ module BattleCatsRolls
       FileUtils.mkdir_p(app_data_path)
 
       case apk_url
-      when %r{d.apkpure\.com/b/APK}
-        wget("#{apk_url}?versionCode=#{version.tr('.', '0')}0", apk_path)
       when %r{apkmonk\.com/app}
         wget(monk_donwload_link(apk_url), apk_path)
       when %r{apksos\.com/app}
         wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
         extract_sos_bundle
+      when %r{apkpure\.com/b/APK}
+        wget("#{apk_url}?versionCode=#{version.tr('.', '0')}0", apk_path)
       else
         wget(apk_url, apk_path)
       end
