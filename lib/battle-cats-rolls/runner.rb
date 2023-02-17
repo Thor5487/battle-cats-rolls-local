@@ -18,7 +18,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '12.0.0',
+        '12.1.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
@@ -212,8 +212,9 @@ module BattleCatsRolls
 
     def download_apk
       %w[
-          https://www.apkmonk.com/app/%{id}/
-          https://apksos.com/app/%{id}
+        https://www.apkmonk.com/app/%{id}/
+        https://apksos.com/app/%{id}
+        https://d.apkpure.com/b/APK/%{id}
       ].find do |template|
         download_apk_from(sprintf(template, id: apk_id))
       end
@@ -226,6 +227,8 @@ module BattleCatsRolls
       FileUtils.mkdir_p(app_data_path)
 
       case apk_url
+      when %r{d.apkpure\.com/b/APK}
+        wget("#{apk_url}?versionCode=#{version.tr('.', '0')}0", apk_path)
       when %r{apkmonk\.com/app}
         wget(monk_donwload_link(apk_url), apk_path)
       when %r{apksos\.com/app}
