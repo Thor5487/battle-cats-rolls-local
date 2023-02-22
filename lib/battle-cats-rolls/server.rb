@@ -9,7 +9,6 @@ require 'rack'
 module BattleCatsRolls
   Server = Jellyfish::Builder.app do
     # use Rack::CommonLogger
-    use Rack::Chunked
     use Rack::ContentLength
     use Rack::Deflater
     use Rack::ContentType, 'text/html; charset=utf-8'
@@ -17,7 +16,7 @@ module BattleCatsRolls
     rewrite \
       '/asset' => '',
       '/robots.txt' => '/robots.txt' do
-      run Rack::File.new(File.expand_path('asset', __dir__))
+      run Rack::Files.new(File.expand_path('asset', __dir__))
     end
 
     map '/seek', to: '/seek', host: SeekHost do
