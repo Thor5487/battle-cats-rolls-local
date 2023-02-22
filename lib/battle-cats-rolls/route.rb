@@ -185,8 +185,13 @@ module BattleCatsRolls
 
     # This is the seed from the seed input field
     def seed
-      # Error: undefined method `to_i' for ["2616123896", "2616123896"]:Array
-      @seed ||= request.params['seed'].to_i.abs % MaxSeed
+      @seed ||=
+        case value = request.params['seed']
+        when Array
+          value.last
+        else
+          value
+        end.to_i.abs % MaxSeed
     end
 
     def event
