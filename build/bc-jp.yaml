@@ -148,7 +148,7 @@ cats:
       stat: [{health: 200, knockbacks: 5, speed: 12, cost: 200, production_cooldown: 198, range: 150, area_effect: 1, damage_0: 49, attack_time_0: 36, against_red: 1, strong: 1, attack_duration: 86}, {health: 200, knockbacks: 5, speed: 12, cost: 200, production_cooldown: 198, range: 150, area_effect: 1, damage_0: 49, attack_time_0: 36, against_red: 1, strong: 1, attack_duration: 86}]
     103:
       name: [レッドマローン, レッドマローンCC]
-      desc: ["ドラゴンポーカーから参戦！\n安価で生産できるキャラクター\n数で押し切りたいときは超使える"]
+      desc: ["ドラゴンポーカーから参戦！\n安価で生産できるキャラクター\n数で押し切りたいときは超使える", "ドラゴンポーカーから参戦！\n安価で生産できるキャラクター\n数で押し切りたいときは超使える"]
       stat: [{health: 100, knockbacks: 4, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 10, range: 140, damage_0: 8, attack_time_0: 18, attack_duration: 34}, {health: 100, knockbacks: 4, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 10, range: 140, damage_0: 8, attack_time_0: 18, attack_duration: 34}]
     104:
       name: [歌謡にゃんこ, メガにゃんこ, メガにゃんこEX]
@@ -240,7 +240,7 @@ cats:
       stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, damage_0: 40, attack_time_0: 41, against_float: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, damage_0: 40, attack_time_0: 41, against_float: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}]
     183:
       name: [183-1, 183-2]
-      desc: ["　\n　\n　"]
+      desc: ["　\n　\n　", "　\n　\n　"]
       stat: [{health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 17}, {health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 15}]
     185:
       name: [ミスターニンジャ, タンタン]
@@ -308,7 +308,7 @@ cats:
       stat: [{health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 6, trigger_effects_0: 1, attack_duration: 11}, {health: 640, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 60, range: 300, damage_0: 200, attack_time_0: 6, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 30, knockback_chance: 30, attack_duration: 11}]
     247:
       name: [ちびウシネコ, ちびネコキリン, ちびネコライオン]
-      desc: ["俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ\n　", "俊敏で移動力に優れたキャラに成長したちびにゃんこ\n頭のタテガミは集めたポイントで貰った\n波動によるダメージを無効にする"]
+      desc: ["俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ\n　", "俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ\n　", "俊敏で移動力に優れたキャラに成長したちびにゃんこ\n頭のタテガミは集めたポイントで貰った\n波動によるダメージを無効にする"]
       stat: [{health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 800, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 195, range: 130, damage_0: 26, attack_time_0: 6, immune_wave: 1, attack_duration: 9}]
     248:
       name: [ちびネコノトリ, ちびネコUFO, 天空のちびネコ]
@@ -360,7 +360,7 @@ cats:
       stat: [{health: 450, knockbacks: 1, speed: 7, cost: 120, production_cooldown: 120, range: 130, damage_0: 10, attack_time_0: 52, attack_duration: 125}, {health: 450, knockbacks: 1, speed: 7, cost: 120, production_cooldown: 120, range: 130, damage_0: 10, attack_time_0: 52, attack_duration: 125}]
     286:
       name: [286-1, 286-2, 286-3]
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 55, knockbacks: 3, speed: 16, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 4, attack_time_0: 10, attack_duration: 17}, {health: 300, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, area_effect: 1, damage_0: 95, attack_time_0: 20, attack_duration: 15}, {health: 300, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, area_effect: 1, damage_0: 95, attack_time_0: 20}]
     301:
       name: [ちびほむら, ちび魔法少女ほむら, ちび悪魔ほむら]
@@ -472,7 +472,7 @@ cats:
       stat: [{health: 3200, knockbacks: 2, speed: 23, cost: 2400, production_cooldown: 1400, range: 190, area_effect: 1, damage_0: 400, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 31}, {health: 3200, knockbacks: 2, speed: 23, cost: 2400, production_cooldown: 1400, range: 190, area_effect: 1, damage_0: 400, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 30}, {health: 4000, knockbacks: 2, speed: 23, cost: 2400, production_cooldown: 1400, range: 190, area_effect: 1, damage_0: 500, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, strong: 1, immune_curse: 1, attack_duration: 32}]
     434:
       name: ['434_1', '434_2', '434_3']
-      desc: ["仮1\n仮\n仮3"]
+      desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3", "仮1\n仮\n仮3"]
       stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5}]
     435:
       name: [白にゃんこ剣士, 黒にゃんこ剣士]
@@ -524,19 +524,19 @@ cats:
       stat: [{health: 1000, knockbacks: 1000, speed: 9, cost: 100, production_cooldown: 222, attack_cooldown: 15, range: 140, damage_0: 1, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 17}, {health: 1000, knockbacks: 1000, speed: 9, cost: 100, production_cooldown: 222, attack_cooldown: 15, range: 140, damage_0: 1, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 17}, {health: 1500, knockbacks: 1500, speed: 9, cost: 100, production_cooldown: 222, attack_cooldown: 15, range: 140, damage_0: 1, attack_time_0: 8, trigger_effects_0: 1, behemoth_killer: 1, behemoth_dodge_chance: 20, behemoth_dodge_duration: 30, attack_duration: 17}]
     498:
       name: ['498_1', '498_2', '498_3']
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8}]
     499:
       name: ['499_1', '499_2', '499_3']
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8}]
     500:
       name: ['500_1', '500_2', '500_3']
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8}]
     501:
       name: ['501_1', '501_2', '501_3']
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8}]
     505:
       name: [おやじネコ(店主), おやじネコ(現役)]
@@ -733,7 +733,7 @@ cats:
       stat: [{health: 380, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 200, damage_0: 37, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 120, attack_duration: 34}, {health: 440, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 200, damage_0: 47, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 120, attack_duration: 34}, {health: 660, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 250, damage_0: 47, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 150, attack_duration: 34}]
     57:
       name: [ネコアーチャー, ネコキューピット, ネコいて座]
-      desc: ["遠距離から攻撃できる支援型ねこ\n体力はあまり無い\n浮いてる敵に超ダメージを与える", "天界で放つ流れ矢の被害が絶えず\n地上に追いやられてしまった星座ネコ\n浮いてる敵に超ダメージを与える\nネコイテザ"]
+      desc: ["遠距離から攻撃できる支援型ねこ\n体力はあまり無い\n浮いてる敵に超ダメージを与える", "遠距離から攻撃できる支援型ねこ\n体力はあまり無い\n浮いてる敵に超ダメージを与える", "天界で放つ流れ矢の被害が絶えず\n地上に追いやられてしまった星座ネコ\n浮いてる敵に超ダメージを与える\nネコイテザ"]
       stat: [{health: 180, knockbacks: 3, speed: 10, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 340, damage_0: 98, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}, {health: 240, knockbacks: 3, speed: 10, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 340, damage_0: 98, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}, {health: 360, knockbacks: 3, speed: 16, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 390, damage_0: 147, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}]
     59:
       name: [ネコ魔剣士, 双剣ネコ魔剣士, 双炎舞ネコ魔剣士]
@@ -757,7 +757,7 @@ cats:
       stat: [{health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}]
     68:
       name: [チビガウ, チビガウガウ]
-      desc: ["ケリ姫スイーツに登場するキャラクター\n黒い敵からのダメージを大幅に軽減する\nコストが安く黒い敵からの防御に最適"]
+      desc: ["ケリ姫スイーツに登場するキャラクター\n黒い敵からのダメージを大幅に軽減する\nコストが安く黒い敵からの防御に最適", "ケリ姫スイーツに登場するキャラクター\n黒い敵からのダメージを大幅に軽減する\nコストが安く黒い敵からの防御に最適"]
       stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, damage_0: 200, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, damage_0: 247, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}]
     71:
       name: [ネコリーマン, ネコ怨み, ネコ火祭り]
@@ -1061,7 +1061,7 @@ cats:
       stat: [{health: 600, knockbacks: 1, speed: 12, cost: 240, production_cooldown: 190, attack_cooldown: 49, range: 150, damage_0: 240, attack_time_0: 21, trigger_effects_0: 1, against_float: 1, resistant: 1, attack_duration: 58}, {health: 600, knockbacks: 1, speed: 12, cost: 240, production_cooldown: 190, attack_cooldown: 49, range: 150, damage_0: 240, attack_time_0: 21, trigger_effects_0: 1, against_float: 1, resistant: 1, attack_duration: 58}]
     354:
       name: [チョコレート, チョコレート進化, '354_3']
-      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 500, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 500, attack_cooldown: 66, range: 250, area_effect: 1, damage_0: 105, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, knockback_chance: 30, attack_duration: 19}, {health: 500, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 500, attack_cooldown: 66, range: 250, area_effect: 1, damage_0: 105, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, knockback_chance: 30, attack_duration: 19}, {health: 500, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 500, attack_cooldown: 65, range: 250, area_effect: 1, damage_0: 105, attack_time_0: 9, trigger_effects_0: 1, against_black: 1, knockback_chance: 50, attack_duration: 19}]
     371:
       name: [ネコ桜, エプロンネコ桜, 夢見るネコ桜]
@@ -1165,7 +1165,7 @@ cats:
       stat: [{health: 720, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 376, attack_cooldown: 50, range: 300, damage_0: 200, attack_time_0: 41, trigger_effects_0: 1, wave_chance: 100, wave_level: 3, attack_duration: 80}, {health: 720, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 376, attack_cooldown: 50, range: 300, damage_0: 200, attack_time_0: 41, trigger_effects_0: 1, wave_chance: 100, wave_level: 3, attack_duration: 80}]
     433:
       name: ['433_1', '433_2', '433_3']
-      desc: ["仮1\n仮\n仮3"]
+      desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3", "仮1\n仮\n仮3"]
       stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5}]
     443:
       name: [子連れにゃんこ, ネコワゴンサービス, ネコバケーション]
@@ -1185,7 +1185,7 @@ cats:
       stat: [{health: 900, knockbacks: 3, speed: 12, cost: 380, production_cooldown: 250, attack_cooldown: 38, range: 190, damage_0: 200, attack_time_0: 27, trigger_effects_0: 1, against_angel: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 48}, {health: 900, knockbacks: 3, speed: 12, cost: 380, production_cooldown: 250, attack_cooldown: 38, range: 190, damage_0: 200, attack_time_0: 27, trigger_effects_0: 1, against_angel: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 52}]
     466:
       name: [majimeow（仮）, majimeow（仮）進化]
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 500, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 400, attack_cooldown: 67, range: 250, damage_0: 125, attack_time_0: 9, trigger_effects_0: 1, against_red: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, attack_duration: 17}, {health: 500, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 400, attack_cooldown: 67, range: 250, damage_0: 125, attack_time_0: 9, trigger_effects_0: 1, against_red: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, attack_duration: 15}]
     474:
       name: [ヤマト王子, ヤマト神帝, ヤマト爆神]
@@ -1201,7 +1201,7 @@ cats:
       stat: [{health: 500, knockbacks: 2, speed: 25, cost: 280, production_cooldown: 195, attack_cooldown: 40, range: 190, area_effect: 1, damage_0: 70, attack_time_0: 22, trigger_effects_0: 1, against_alien: 1, resistant: 1, attack_duration: 60}, {health: 500, knockbacks: 2, speed: 25, cost: 280, production_cooldown: 195, attack_cooldown: 40, range: 190, area_effect: 1, damage_0: 70, attack_time_0: 22, trigger_effects_0: 1, against_alien: 1, resistant: 1, attack_duration: 60}]
     493:
       name: ['493_1', '493_2', '493_3']
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 600, knockbacks: 1, speed: 30, cost: 300, production_cooldown: 420, range: 150, damage_0: 200, attack_time_0: 1, trigger_effects_0: 1, against_red: 1, knockback_chance: 50, attack_duration: 17}, {health: 600, knockbacks: 1, speed: 30, cost: 300, production_cooldown: 420, range: 150, damage_0: 200, attack_time_0: 1, trigger_effects_0: 1, against_red: 1, against_black: 1, knockback_chance: 50, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 30, cost: 300, production_cooldown: 420, range: 150, damage_0: 200, attack_time_0: 1, trigger_effects_0: 1, against_red: 1, against_black: 1, against_angel: 1, knockback_chance: 50, attack_duration: 17}]
     496:
       name: [ネコマタドール, ネコフラメンコ, ネコエキゾチック]
@@ -1895,7 +1895,7 @@ cats:
       stat: [{health: 1050, knockbacks: 3, speed: 6, cost: 2900, production_cooldown: 1950, attack_cooldown: 50, range: 435, area_effect: 1, damage_0: 1055, attack_time_0: 99, against_float: 1, against_black: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, attack_duration: 156}, {health: 2250, knockbacks: 3, speed: 6, cost: 2900, production_cooldown: 1950, attack_cooldown: 50, range: 435, area_effect: 1, damage_0: 2005, attack_time_0: 99, against_float: 1, against_black: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, attack_duration: 156}, {health: 2850, knockbacks: 3, speed: 12, cost: 2900, production_cooldown: 1950, attack_cooldown: 50, range: 460, area_effect: 1, damage_0: 2255, attack_time_0: 99, against_float: 1, against_black: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, attack_duration: 156}]
     156:
       name: [156-1, 156-2, 156-3]
-      desc: ["仮1\n仮2\n仮3"]
+      desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
       stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 48}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 8}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8, trigger_effects_0: 1}]
     159:
       name: [上杉謙信, 武神・上杉謙信, 暴威の武神・上杉謙信]

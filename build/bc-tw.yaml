@@ -220,7 +220,7 @@ cats:
       stat: [{health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 6, trigger_effects_0: 1, attack_duration: 11}, {health: 640, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 60, range: 300, damage_0: 200, attack_time_0: 6, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 30, knockback_chance: 30, attack_duration: 11}]
     247:
       name: [小小牛貓, 小小長頸鹿貓, 小小獅子貓]
-      desc: ["目標是可以成爲\n動作敏捷移動能力優越的角色", "成長為動作敏捷移動能力優越的小貓\n頭上的鬃毛是集點換來的\n波動傷害無效"]
+      desc: ["目標是可以成爲\n動作敏捷移動能力優越的角色", "目標是可以成爲\n動作敏捷移動能力優越的角色", "成長為動作敏捷移動能力優越的小貓\n頭上的鬃毛是集點換來的\n波動傷害無效"]
       stat: [{health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 800, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 195, range: 130, damage_0: 26, attack_time_0: 6, immune_wave: 1, attack_duration: 9}]
     248:
       name: [小小鳥貓, 小小UFO貓, 小小天空之貓]
@@ -553,7 +553,7 @@ cats:
       stat: [{health: 380, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 200, damage_0: 37, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 120, attack_duration: 34}, {health: 440, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 200, damage_0: 47, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 120, attack_duration: 34}, {health: 660, knockbacks: 3, speed: 10, cost: 330, production_cooldown: 190, attack_cooldown: 11, range: 250, damage_0: 47, attack_time_0: 22, against_red: 1, slow_chance: 20, slow_duration: 150, attack_duration: 34}]
     57:
       name: [弓箭手貓, 丘比特貓, 射手座貓]
-      desc: ["可以從遠距離進行攻擊的支援型貓\n幾乎沒有什麼體力\n可以給予飄浮敵人超大傷害", "從天界射出的流箭不斷造成被害\n因而被放逐到人間的星座貓\n可以給予飄浮敵人超大傷害"]
+      desc: ["可以從遠距離進行攻擊的支援型貓\n幾乎沒有什麼體力\n可以給予飄浮敵人超大傷害", "可以從遠距離進行攻擊的支援型貓\n幾乎沒有什麼體力\n可以給予飄浮敵人超大傷害", "從天界射出的流箭不斷造成被害\n因而被放逐到人間的星座貓\n可以給予飄浮敵人超大傷害"]
       stat: [{health: 180, knockbacks: 3, speed: 10, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 340, damage_0: 98, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}, {health: 240, knockbacks: 3, speed: 10, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 340, damage_0: 98, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}, {health: 360, knockbacks: 3, speed: 16, cost: 820, production_cooldown: 300, attack_cooldown: 15, range: 390, damage_0: 147, attack_time_0: 43, against_float: 1, massive_damage: 1, attack_duration: 55}]
     59:
       name: [魔劍士貓, 雙劍魔劍士貓, 雙焰舞魔劍士貓]
@@ -569,7 +569,7 @@ cats:
       stat: [{health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 15, range: 110, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 17}, {health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 15, range: 110, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 17}, {health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 35, range: 330, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1, immune_warp: 1, attack_duration: 17}]
     65:
       name: [劍客, 劍客強尼]
-      desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出"]
+      desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出", "公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出"]
       stat: [{health: 280, knockbacks: 3, speed: 6, cost: 160, production_cooldown: 190, attack_cooldown: 55, range: 170, damage_0: 40, attack_time_0: 27, attack_duration: 55}, {health: 560, knockbacks: 3, speed: 6, cost: 160, production_cooldown: 190, attack_cooldown: 55, range: 170, damage_0: 90, attack_time_0: 27, attack_duration: 55}]
     66:
       name: [牛公主, 長頸鹿公主]
@@ -577,7 +577,7 @@ cats:
       stat: [{health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}]
     68:
       name: [小暴龍, 小暴暴龍]
-      desc: ["公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選"]
+      desc: ["公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選", "公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選"]
       stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, damage_0: 200, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, damage_0: 247, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}]
     71:
       name: [上班族貓, 怨恨貓, 火舞貓]
@@ -621,7 +621,7 @@ cats:
       stat: [{health: 410, knockbacks: 3, speed: 10, cost: 410, production_cooldown: 175, attack_cooldown: 60, range: 350, damage_0: 100, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 18}, {health: 410, knockbacks: 3, speed: 10, cost: 410, production_cooldown: 175, attack_cooldown: 60, range: 350, damage_0: 100, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 18}, {health: 410, knockbacks: 3, speed: 25, cost: 410, production_cooldown: 175, attack_cooldown: 60, range: 350, area_effect: 1, damage_0: 100, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 18}]
     110:
       name: [新娘太太, 國王太太, 大草原太太]
-      desc: ["找回了快要遺忘的那種感動\n具有很強體力的肉盾角色\n攻擊力也馬馬虎虎（範圍攻擊）", "統治寬廣的大草原的百獸之王愛妻\n具有很強體力的肉盾角色\n死前能存活一次（範圍攻擊）"]
+      desc: ["找回了快要遺忘的那種感動\n具有很強體力的肉盾角色\n攻擊力也馬馬虎虎（範圍攻擊）", "找回了快要遺忘的那種感動\n具有很強體力的肉盾角色\n攻擊力也馬馬虎虎（範圍攻擊）", "統治寬廣的大草原的百獸之王愛妻\n具有很強體力的肉盾角色\n死前能存活一次（範圍攻擊）"]
       stat: [{health: 1140, knockbacks: 1, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 3, range: 110, area_effect: 1, damage_0: 6, attack_time_0: 12, trigger_effects_0: 1, damage_1: 6, attack_time_1: 20, trigger_effects_1: 1, damage_2: 6, attack_time_2: 28, trigger_effects_2: 1, attack_duration: 33}, {health: 1140, knockbacks: 1, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 3, range: 110, area_effect: 1, damage_0: 6, attack_time_0: 12, trigger_effects_0: 1, damage_1: 6, attack_time_1: 20, trigger_effects_1: 1, damage_2: 6, attack_time_2: 28, trigger_effects_2: 1, attack_duration: 33}, {health: 1710, knockbacks: 1, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 3, range: 110, area_effect: 1, damage_0: 6, attack_time_0: 12, trigger_effects_0: 1, damage_1: 6, attack_time_1: 20, trigger_effects_1: 1, damage_2: 6, attack_time_2: 28, trigger_effects_2: 1, survive_chance: 100, immune_warp: 1, attack_duration: 33}]
     111:
       name: [賽蕾絲, 賽蕾絲CC]
@@ -1186,11 +1186,11 @@ cats:
       stat: [{health: 1500, knockbacks: 2, speed: 16, cost: 950, production_cooldown: 280, attack_cooldown: 30, range: 130, area_effect: 1, damage_0: 80, attack_time_0: 12, against_red: 1, resistant: 1, weaken_chance: 20, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 27}, {health: 1900, knockbacks: 2, speed: 16, cost: 950, production_cooldown: 280, attack_cooldown: 30, range: 130, area_effect: 1, damage_0: 180, attack_time_0: 12, against_red: 1, resistant: 1, weaken_chance: 20, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 27}, {health: 3800, knockbacks: 2, speed: 16, cost: 950, production_cooldown: 280, attack_cooldown: 30, range: 130, area_effect: 1, damage_0: 180, attack_time_0: 12, against_red: 1, resistant: 1, weaken_chance: 20, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 27}]
     69:
       name: [鐮刀使者, 鐮刀使者999]
-      desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）"]
+      desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）", "公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）"]
       stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}]
     70:
       name: [飛踢睡美人, 飛踢睡美人II]
-      desc: ["未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）"]
+      desc: ["未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）", "未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）"]
       stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}]
     92:
       name: [狂亂貓, 狂亂健美貓, 大狂亂摩西根貓]
