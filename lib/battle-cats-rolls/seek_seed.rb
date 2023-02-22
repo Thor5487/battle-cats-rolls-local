@@ -76,7 +76,7 @@ module BattleCatsRolls
           "#{Root}/Seeker/Seeker-8.6",
           *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' '),
           err: %i[child out]], 'r+') do |io|
-          logger.info("Seeking seed with #{source}")
+          # logger.info("Seeking seed with #{source}")
           io.close_write
           io.read.scan(/\d+/).map(&:to_i)
         end
@@ -85,7 +85,7 @@ module BattleCatsRolls
           "#{Root}/Seeker/Seeker",
           *ENV['SEEKER_OPT'].to_s.split(' '),
           err: %i[child out]], 'r+') do |io|
-          logger.info("Seeking seed with #{source}")
+          # logger.info("Seeking seed with #{source}")
           io.puts source
           io.close_write
           io.read.scan(/\d+/).map(&:to_i)
