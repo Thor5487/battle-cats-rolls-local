@@ -12968,3 +12968,121 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2023-02-27_414:
+    start_on: 2023-02-27
+    end_on: 2023-03-13
+    version: '120100'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-02-27_718:
+    start_on: 2023-02-27
+    end_on: 2023-03-01
+    version: '120100'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-01_741:
+    start_on: 2023-03-01
+    end_on: 2023-03-03
+    version: '120100'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-03_414:
+    start_on: 2023-03-03
+    end_on: 2023-03-13
+    version: '120100'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-03-03_787:
+    start_on: 2023-03-03
+    end_on: 2023-03-06
+    version: '120100'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 787
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-03-03_795:
+    start_on: 2023-03-03
+    end_on: 2023-03-06
+    version: '120100'
+    name: Limited Valentines capsules, with a NEW True Form for Sweet Love Mekako!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-03-06_708:
+    start_on: 2023-03-06
+    end_on: 2023-03-08
+    version: '120100'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-08_732:
+    start_on: 2023-03-08
+    end_on: 2023-03-10
+    version: '120100'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-10_414:
+    start_on: 2023-03-10
+    end_on: 2023-03-13
+    version: '120100'
+    name: Limited Capsules with ONLY Merc Storia heroes!
+    id: 414
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-03-10_789:
+    start_on: 2023-03-10
+    end_on: 2023-03-13
+    version: '120100'
+    name: Le héros puissant Issun Boshi rejoint les anciens ! ★ Touche pour plus d’infos !
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-03-10_793:
+    start_on: 2023-03-10
+    end_on: 2030-01-01
+    version: '120100'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 793
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2023-03-10_794:
+    start_on: 2023-03-10
+    end_on: 2030-01-01
+    version: '120100'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 794
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
