@@ -2,3 +2,4 @@
 
 ruby bin/cleanup-apk.rb
 rsync -avz --rsync-path="sudo -u bcat rsync" data/ godfat.org:~/battle-cats-rolls/data/
+ssh godfat.org sudo battle-cats-rolls/bin/update

@@ -1,1 +1,2 @@
 godfat ALL = (bcat) NOPASSWD: /usr/bin/rsync
+godfat ALL = (root) NOPASSWD: /home/godfat/battle-cats-rolls/bin/update
