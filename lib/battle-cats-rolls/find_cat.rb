@@ -29,6 +29,7 @@ module BattleCatsRolls
         613, # "Princess Cat",
         642, # "Iz the Dancer",
         658, # "Iz the Dancer of Grief",
+        687, # "Goddess of Light Sirius",
         691, # "Child of Destiny Phono",
       ].freeze
     end
