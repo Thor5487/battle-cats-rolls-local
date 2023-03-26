@@ -13205,3 +13205,82 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-03-27_760:
+    start_on: 2023-03-27
+    end_on: 2023-03-29
+    version: '120100'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 760
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-27_786:
+    start_on: 2023-03-27
+    end_on: 2023-04-10
+    version: '120100'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 786
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-03-29_694:
+    start_on: 2023-03-29
+    end_on: 2023-03-31
+    version: '120100'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-03-31_791:
+    start_on: 2023-03-31
+    end_on: 2023-04-03
+    version: '120100'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 791
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-04-03_661:
+    start_on: 2023-04-03
+    end_on: 2023-04-05
+    version: '120100'
+    name: Slay Aku & Aliens with White Knight Cyclops! ★ Tap banner for info!
+    id: 661
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-05_752:
+    start_on: 2023-04-05
+    end_on: 2023-04-07
+    version: '120100'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-07_678:
+    start_on: 2023-04-07
+    end_on: 2023-04-10
+    version: '120100'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-04-07_786:
+    start_on: 2023-04-07
+    end_on: 2023-04-10
+    version: '120100'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 786
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
