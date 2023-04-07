@@ -13284,3 +13284,41 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2023-04-10_625:
+    start_on: 2023-04-10
+    end_on: 2023-04-12
+    version: '120200'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-10_805:
+    start_on: 2023-04-10
+    end_on: 2023-04-24
+    version: '120200'
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    id: 805
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-04-12_718:
+    start_on: 2023-04-12
+    end_on: 2023-04-14
+    version: '120200'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-14_792:
+    start_on: 2023-04-14
+    end_on: 2023-04-17
+    version: '120200'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 792
+    rare: 6500
+    supa: 2600
+    uber: 900

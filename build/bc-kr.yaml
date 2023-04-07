@@ -12272,3 +12272,41 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2023-04-10_625:
+    start_on: 2023-04-10
+    end_on: 2023-04-12
+    version: '120200'
+    name: 베리어도 쉴드도 파괴하는 캐릭터  '오코루가' 참전!★자세한 내용은 배너를 클릭!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-10_805:
+    start_on: 2023-04-10
+    end_on: 2023-04-24
+    version: '120200'
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
+    id: 805
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-04-12_718:
+    start_on: 2023-04-12
+    end_on: 2023-04-14
+    version: '120200'
+    name: 초생명체 특효를 가진 캐릭터 '얼음의 정령 블리즈' 참전!★자세한 내용은 배너를 클릭!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-14_792:
+    start_on: 2023-04-14
+    end_on: 2023-04-17
+    version: '120200'
+    name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    id: 792
+    rare: 6500
+    supa: 2600
+    uber: 900

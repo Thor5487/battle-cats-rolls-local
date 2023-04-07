@@ -12939,3 +12939,41 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2023-04-10_625:
+    start_on: 2023-04-10
+    end_on: 2023-04-12
+    version: '120200'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-10_805:
+    start_on: 2023-04-10
+    end_on: 2023-04-24
+    version: '120200'
+    name: 劇場版「Fate/stay night [Heaven's Feel]」合作轉蛋★點圖可以看詳細內容！
+    id: 805
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-04-12_718:
+    start_on: 2023-04-12
+    end_on: 2023-04-14
+    version: '120200'
+    name: 來自宇宙盡頭的精靈們參戰！★點圖確認詳細吧!!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-14_792:
+    start_on: 2023-04-14
+    end_on: 2023-04-17
+    version: '120200'
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 792
+    rare: 6500
+    supa: 2600
+    uber: 900
