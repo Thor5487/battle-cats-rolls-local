@@ -40,8 +40,8 @@ module BattleCatsRolls
       def dps
         @dps ||= if stat.kamikaze?
           '-'
-        elsif stat.damage_interval
-          ((damage.to_f / stat.damage_interval) * stat.fps).round
+        elsif stat.attack_cycle
+          ((damage.to_f / stat.attack_cycle) * stat.fps).round
         end
       end
     end
@@ -77,11 +77,11 @@ module BattleCatsRolls
 
     def rush_duration
       @rush_duration ||= attack_duration &&
-        damage_interval - attack_duration
+        attack_cycle - attack_duration
     end
 
-    def damage_interval
-      @damage_interval ||= attack_duration &&
+    def attack_cycle
+      @attack_cycle ||= attack_duration &&
         [
           attack_duration,
           attacks.sum(&:duration) + attack_cooldown
@@ -125,8 +125,8 @@ module BattleCatsRolls
     def max_dps
       @max_dps ||= if kamikaze?
         '-'
-      elsif damage_interval
-        ((max_damage.to_f / damage_interval) * fps).round
+      elsif attack_cycle
+        ((max_damage.to_f / attack_cycle) * fps).round
       end
     end
 
