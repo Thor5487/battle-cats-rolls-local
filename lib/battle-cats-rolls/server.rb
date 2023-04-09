@@ -79,7 +79,6 @@ module BattleCatsRolls
       %w[en tw jp kr].each do |lang|
         break if Task.shutting_down
 
-        puts "Building data for #{lang}..."
         Runner.build(lang)
       end
 
