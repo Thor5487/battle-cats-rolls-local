@@ -85,7 +85,7 @@ module BattleCatsRolls
         gacha.finish_guaranteed(cats, guaranteed_rolls)
       end
 
-      if pick = request.params['pick']
+      if pick = request.params_coercion_with_nil('pick', :to_s)
         gacha.finish_picking(cats, pick, guaranteed_rolls)
       end
 
@@ -140,7 +140,7 @@ module BattleCatsRolls
 
     def lang
       @lang ||=
-        case value = request.params['lang']
+        case value = request.params_coercion_with_nil('lang', :to_s)
         when 'tw', 'jp', 'kr'
           value
         else
@@ -150,7 +150,7 @@ module BattleCatsRolls
 
     def version
       @version ||=
-        case value = request.params['version']
+        case value = request.params_coercion_with_nil('version', :to_s)
         when '8.6', '8.5', '8.4'
           value
         else
@@ -169,7 +169,7 @@ module BattleCatsRolls
 
     def name
       @name ||=
-        case value = request.params['name'].to_i
+        case value = request.params_coercion_with_nil('name', :to_i)
         when 1, 2
           value
         else
@@ -178,24 +178,19 @@ module BattleCatsRolls
     end
 
     def theme
-      @theme ||= request.params['theme'].to_s
+      @theme ||= request.params_coercion('theme', :to_s)
     end
 
     MaxSeed = 2 ** 32
 
     # This is the seed from the seed input field
     def seed
-      @seed ||=
-        case value = request.params['seed']
-        when Array
-          value.last
-        else
-          value
-        end.to_i.abs % MaxSeed
+      @seed ||= request.params_coercion('seed', :to_i).abs % MaxSeed
     end
 
     def event
-      @event ||= request.params['event'] || current_event
+      @event ||= request.params_coercion_with_nil('event', :to_s) ||
+        current_event
     end
 
     def upcoming_events
@@ -208,9 +203,8 @@ module BattleCatsRolls
     end
 
     def custom
-      @custom ||=
-        (request.params['custom'] ||
-          ball.gacha.each_key.reverse_each.first).to_i
+      @custom ||= request.params_coercion_with_nil('custom', :to_i) ||
+        ball.gacha.each_key.reverse_each.first.to_i
     end
 
     def predefined_rates
@@ -226,7 +220,7 @@ module BattleCatsRolls
     end
 
     def rate
-      @rate ||= request.params['rate'].to_s.to_sym
+      @rate ||= request.params_coercion('rate', :to_s).to_sym
     end
 
     def c_rare
@@ -243,28 +237,31 @@ module BattleCatsRolls
 
     def count
       @count ||=
-        [1,
-         [(request.params['count'] || 100).to_i, FindCat::Max].min
+        [
+          1,
+          [
+            request.params_coercion_with_nil('count', :to_i) || 100,
+            FindCat::Max
+          ].min
         ].max
     end
 
     def find
-      @find ||= request.params['find'].to_i
+      @find ||= request.params_coercion('find', :to_i)
     end
 
     def last
-      @last ||= request.params['last'].to_i
+      @last ||= request.params_coercion('last', :to_i)
     end
 
     def no_guaranteed
       return @no_guaranteed if instance_variable_defined?(:@no_guaranteed)
 
-      @no_guaranteed =
-        !request.params['no_guaranteed'].to_s.strip.empty? || nil
+      @no_guaranteed = request.params_coercion_true_or_nil('no_guaranteed')
     end
 
     def force_guaranteed
-      @force_guaranteed ||= request.params['force_guaranteed'].to_i
+      @force_guaranteed ||= request.params_coercion('force_guaranteed', :to_i)
     end
 
     def guaranteed_rolls
@@ -277,13 +274,13 @@ module BattleCatsRolls
     end
 
     def ubers
-      @ubers ||= request.params['ubers'].to_i
+      @ubers ||= request.params_coercion('ubers', :to_i)
     end
 
     def details
       return @details if instance_variable_defined?(:@details)
 
-      @details = !request.params['details'].to_s.strip.empty? || nil
+      @details = request.params_coercion_true_or_nil(:details)
     end
 
     def o
@@ -299,10 +296,10 @@ module BattleCatsRolls
       @owned ||=
         if ticked.any?
           ticked
-        elsif (result = Owned.decode(request.params['o'].to_s)).any?
+        elsif (result = Owned.decode(request.params_coercion('o', :to_s))).any?
           result
         else
-          Owned.decode_old(request.params['owned'].to_s)
+          Owned.decode_old(request.params_coercion('owned', :to_s))
         end.sort.uniq
     end
 
@@ -377,9 +374,10 @@ module BattleCatsRolls
     end
 
     def get_rate name, index
-      int = request.params[name] || predefined_rates.dig(rate, :rate, index)
+      int = request.params_coercion_with_nil(name, :to_i) ||
+        predefined_rates.dig(rate, :rate, index).to_i
 
-      [int.to_i.abs, 10000].min
+      [int.abs, 10000].min
     end
 
     def event_base_uri
@@ -419,7 +417,6 @@ module BattleCatsRolls
            (key == :count && value == 100) ||
            (key == :find && value == 0) ||
            (key == :last && value == 0) ||
-           (key == :no_guaranteed && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0) ||
            (key == :o && value == '') ||
