@@ -280,7 +280,7 @@ module BattleCatsRolls
     def details
       return @details if instance_variable_defined?(:@details)
 
-      @details = request.params_coercion_true_or_nil(:details)
+      @details = request.params_coercion_true_or_nil('details')
     end
 
     def o
