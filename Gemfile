@@ -11,3 +11,9 @@ gem 'nokogiri' # For downloading apk
 platforms :ruby do
   gem 'yahns'
 end
+
+group :test do
+  gem 'rake'
+  gem 'pork'
+  gem 'muack'
+end
