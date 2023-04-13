@@ -14018,3 +14018,24 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-04-14_752:
+    start_on: 2023-04-14
+    end_on: 2023-04-17
+    version: '120200'
+    name: 超生命体特効を持つキャラ「周遊芸団カルーセルズ」参戦！★詳細はバナーをタップ!!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-04-14_797:
+    start_on: 2023-04-14
+    end_on: 2023-04-17
+    version: '120200'
+    name: 新キャラ追加！春限定のキュートなキャラを手に入れよう！★11連で超激レア確定!!
+    id: 797
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
