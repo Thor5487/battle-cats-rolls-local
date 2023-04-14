@@ -12999,3 +12999,81 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-04-17_747:
+    start_on: 2023-04-17
+    end_on: 2023-04-21
+    version: '120200'
+    name: 含限定超激稀有「貓咪王女」的女角色為主轉蛋！且傳說稀有角色出現率2倍！
+    id: 747
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2023-04-17_804:
+    start_on: 2023-04-17
+    end_on: 2023-05-01
+    version: '120200'
+    name: 新角色參戰！快來入手可愛的春天限定角色們！★點圖確認詳細吧!!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+  2023-04-21_804:
+    start_on: 2023-04-21
+    end_on: 2023-05-01
+    version: '120200'
+    name: 新角色參戰！快來入手可愛的春天限定角色們！★點圖確認詳細吧!!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+    guaranteed: true
+  2023-04-21_805:
+    start_on: 2023-04-21
+    end_on: 2023-04-24
+    version: '120200'
+    name: 劇場版「Fate/stay night [Heaven's Feel]」合作轉蛋★點圖可以看詳細內容！
+    id: 805
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-04-24_741:
+    start_on: 2023-04-24
+    end_on: 2023-04-27
+    version: '120200'
+    name: 超強大且有著即戰力的貓咪們一同登場！★點圖確認詳細吧!!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-24_804:
+    start_on: 2023-04-24
+    end_on: 2023-05-01
+    version: '120200'
+    name: 新角色參戰！快來入手可愛的春天限定角色們！★點圖確認詳細吧!!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+  2023-04-27_708:
+    start_on: 2023-04-27
+    end_on: 2023-04-29
+    version: '120200'
+    name: 日本戰國時代武將們大集合！★點圖確認詳細吧!!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-29_732:
+    start_on: 2023-04-29
+    end_on: 2023-05-01
+    version: '120200'
+    name: 傳說中的龍族們霸氣降臨！★點圖確認詳細吧!!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30

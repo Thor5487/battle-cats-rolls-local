@@ -13344,3 +13344,81 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-04-17_747:
+    start_on: 2023-04-17
+    end_on: 2023-04-21
+    version: '120200'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 747
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2023-04-17_804:
+    start_on: 2023-04-17
+    end_on: 2023-05-01
+    version: '120200'
+    name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+  2023-04-21_804:
+    start_on: 2023-04-21
+    end_on: 2023-05-01
+    version: '120200'
+    name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+    guaranteed: true
+  2023-04-21_805:
+    start_on: 2023-04-21
+    end_on: 2023-04-24
+    version: '120200'
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    id: 805
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-04-24_741:
+    start_on: 2023-04-24
+    end_on: 2023-04-27
+    version: '120200'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-24_804:
+    start_on: 2023-04-24
+    end_on: 2023-05-01
+    version: '120200'
+    name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
+    id: 804
+    rare: 7000
+    supa: 2000
+    uber: 500
+  2023-04-27_708:
+    start_on: 2023-04-27
+    end_on: 2023-04-29
+    version: '120200'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-04-29_732:
+    start_on: 2023-04-29
+    end_on: 2023-05-01
+    version: '120200'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
