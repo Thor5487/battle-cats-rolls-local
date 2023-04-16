@@ -335,19 +335,24 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Surge < Struct.new(:chance, :level, :range, :range_offset)
+    class Surge < Struct.new(
+      :chance, :level, :mini, :range, :range_offset)
       include AbilityUtility
 
       def self.build_if_available stat
         if stat['surge_chance']
           new(*stat.values_at(
-            'surge_chance', 'surge_level',
+            'surge_chance', 'surge_level', 'surge_mini',
             'surge_range', 'surge_range_offset'))
         end
       end
 
       def name
-        'Surge'
+        if mini
+          'Mini-surge'
+        else
+          'Surge'
+        end
       end
 
       def display
@@ -355,7 +360,7 @@ module BattleCatsRolls
         reach = start + (range_offset * range_multiplier).floor
 
         "#{percent(chance)} to produce level #{highlight(level)}" \
-          " surge attack within #{highlight("#{start} ~ #{reach}")}"
+          " #{name.downcase} attack within #{highlight("#{start} ~ #{reach}")}"
       end
 
       def specialized; false; end

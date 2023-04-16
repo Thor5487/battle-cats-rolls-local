@@ -146,7 +146,7 @@ module BattleCatsRolls
         critical_chance: 31,
         savage_blow_chance: 82, savage_blow_modifier: 83,
         wave_chance: 35, wave_level: 36, wave_mini: 94,
-        surge_chance: 86, surge_level: 89,
+        surge_chance: 86, surge_level: 89, surge_mini: 108,
         surge_range: 87, surge_range_offset: 88,
         survive_chance: 42, dodge_chance: 84, dodge_duration: 85,
         loot_money: 33, base_destroyer: 34, metal: 43, suicide: 58,
