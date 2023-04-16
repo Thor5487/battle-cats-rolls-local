@@ -80,6 +80,8 @@ module BattleCatsRolls
         break if Task.shutting_down
 
         Runner.build(lang)
+      rescue Date::Error => e
+        puts "WARN: Ignoring error for #{lang}: <#{e.class}> #{e.message}"
       end
 
       next if Task.shutting_down
