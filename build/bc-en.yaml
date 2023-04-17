@@ -13361,7 +13361,7 @@ events:
     name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
     id: 804
     rare: 7000
-    supa: 2000
+    supa: 2500
     uber: 500
   2023-04-21_804:
     start_on: 2023-04-21
@@ -13370,7 +13370,7 @@ events:
     name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
     id: 804
     rare: 7000
-    supa: 2000
+    supa: 2500
     uber: 500
     guaranteed: true
   2023-04-21_805:
@@ -13400,7 +13400,7 @@ events:
     name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
     id: 804
     rare: 7000
-    supa: 2000
+    supa: 2500
     uber: 500
   2023-04-27_708:
     start_on: 2023-04-27
