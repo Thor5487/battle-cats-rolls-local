@@ -58,6 +58,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -75,6 +76,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -92,6 +94,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -109,6 +112,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -126,6 +130,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -143,6 +148,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -162,6 +168,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -183,6 +190,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -204,6 +212,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -226,6 +235,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -247,6 +257,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -268,6 +279,7 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -285,6 +297,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -306,6 +319,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -332,6 +346,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -364,6 +379,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -383,6 +399,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -404,6 +421,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -423,6 +441,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -440,6 +459,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -457,6 +477,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -474,6 +495,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -491,6 +513,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -508,6 +531,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -525,6 +549,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -544,6 +569,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -563,6 +589,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -580,6 +607,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -602,6 +630,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -619,6 +648,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -636,6 +666,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -661,6 +692,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
+      def effects; false; end
       def index; __LINE__; end
     end
 
@@ -674,6 +706,7 @@ module BattleCatsRolls
     end
 
     def specialized; false; end
+    def effects; false; end
     def index; __LINE__; end
   end
 end

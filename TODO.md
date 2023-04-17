@@ -1,6 +1,5 @@
 ## Stats
 
-* Show the actual effects an attack will trigger
 * Fix level incremental stats (`unitlevel.csv`)
 * Add level input field
 * Show talents

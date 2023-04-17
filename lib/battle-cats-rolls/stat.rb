@@ -31,9 +31,9 @@ module BattleCatsRolls
 
       def trigger_effects
         @trigger_effects ||= if super == 1 || stat.attacks.size <= 1
-          'Yes'
+          stat.effects.map(&:name).join(', ')
         else
-          'No'
+          '-'
         end
       end
 
@@ -119,6 +119,12 @@ module BattleCatsRolls
     def kamikaze?
       @kamikaze ||= generic_abilities.any? do |ability|
         ability.kind_of?(Ability::Kamikaze)
+      end
+    end
+
+    def effects
+      @effects ||= abilities.flat_map do |(_, abis)|
+        abis.select(&:effects)
       end
     end
 
