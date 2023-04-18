@@ -12,8 +12,8 @@ module BattleCatsRolls
       @gacha ||= store_gacha(provider.gacha)
     end
 
-    def cat_names
-      @cat_names ||= store_cat_names(provider.res)
+    def cat_data
+      @cat_data ||= store_cat_data(provider.res)
     end
 
     def cat_stats
@@ -36,8 +36,8 @@ module BattleCatsRolls
 
     def build_cats
       rarities.inject(Hash.new{|h,k|h[k]={}}) do |result, (id, rarity)|
-        name = cat_names[id]
-        result[rarity].merge!(id => name) if name
+        data = cat_data[id]
+        result[id].merge!(data.merge('rarity' => rarity)) if data
         result
       end
     end
@@ -60,7 +60,7 @@ module BattleCatsRolls
       end
     end
 
-    def store_cat_names res_local
+    def store_cat_data res_local
       res_local.inject({}) do |result, (filename, data)|
         separator_char =
           if filename.end_with?('_ja.csv')

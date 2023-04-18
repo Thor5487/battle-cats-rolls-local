@@ -22,7 +22,9 @@ module BattleCatsRolls
     end
 
     def cats
-      data['cats']
+      @cats ||= cats_map.group_by do |id, data|
+        data['rarity']
+      end.transform_values(&:to_h)
     end
 
     def gacha
@@ -34,9 +36,7 @@ module BattleCatsRolls
     end
 
     def cats_map
-      @cats_map ||= cats.inject({}) do |result, (rarity, cat_map)|
-        result.merge(cat_map)
-      end
+      data['cats']
     end
 
     def each_custom_gacha name_index
