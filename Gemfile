@@ -10,6 +10,7 @@ gem 'nokogiri' # For downloading apk
 
 platforms :ruby do
   gem 'yahns'
+  gem 'raindrops'
 end
 
 group :test do

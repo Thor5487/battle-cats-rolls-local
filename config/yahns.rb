@@ -3,7 +3,7 @@ rack, = Rack::Builder.parse_file(
   File.expand_path("#{__dir__}/../config.ru"))
 
 app :rack, rack, preload: true do
-  listen(ENV['WEB_YAHNS'] || 8080, reuseport: true)
+  listen(BattleCatsRolls::WebPort, reuseport: true)
 
   queue do
     worker_threads 5
@@ -11,7 +11,7 @@ app :rack, rack, preload: true do
 end
 
 app :rack, rack, preload: true do
-  listen(ENV['SEEK_YAHNS'] || 9090, reuseport: true)
+  listen(BattleCatsRolls::SeekPort, reuseport: true)
 
   queue do
     worker_threads 25

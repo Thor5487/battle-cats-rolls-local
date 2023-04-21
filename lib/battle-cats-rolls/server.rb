@@ -5,6 +5,7 @@ require_relative 'web'
 
 require 'jellyfish'
 require 'rack'
+require 'raindrops'
 
 module BattleCatsRolls
   Server = Jellyfish::Builder.app do
@@ -24,6 +25,9 @@ module BattleCatsRolls
     end
 
     map '/', host: WebHost do
+      use Raindrops::Middleware,
+        path: '/yahns/status',
+        listeners: ["0.0.0.0:#{WebPort}", "0.0.0.0:#{SeekPort}"]
       run Web.new
     end
   end
