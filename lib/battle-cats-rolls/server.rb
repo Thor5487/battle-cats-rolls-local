@@ -9,7 +9,12 @@ require 'raindrops'
 
 module BattleCatsRolls
   Server = Jellyfish::Builder.app do
+    use Rack::Deflater
+    use Raindrops::Middleware,
+      path: '/yahns/status', listeners: [WebBind, SeekBind]
+
     use Rack::ContentLength
+    use Rack::ContentType, 'text/html; charset=utf-8'
 
     rewrite \
       '/asset' => '',
@@ -18,16 +23,10 @@ module BattleCatsRolls
     end
 
     map '/seek', to: '/seek', host: SeekHost do
-      use Rack::ContentType, 'text/html; charset=utf-8'
-
       run Web::Seek.new
     end
 
     map '/', host: WebHost do
-      use Raindrops::Middleware,
-        path: '/yahns/status', listeners: [WebBind, SeekBind]
-      use Rack::ContentType, 'text/html; charset=utf-8'
-
       run Web.new
     end
   end
