@@ -24,7 +24,7 @@ module BattleCatsRolls
     def cats
       @cats ||= cats_map.group_by do |id, data|
         data['rarity']
-      end.transform_values(&:to_h)
+      end.sort.to_h.transform_values(&:to_h)
     end
 
     def gacha
