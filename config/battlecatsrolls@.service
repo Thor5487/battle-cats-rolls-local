@@ -38,10 +38,10 @@ EnvironmentFile = /home/godfat/battle-cats-rolls/.env
 Environment = GEM_HOME=/home/godfat/.gem/ruby/3.0.0
 Environment = WEB_YAHNS=127.0.0.1:13599
 Environment = WEB_HOST=bc.godfat.org
-Environment = WEB_THREADS=100
+Environment = WEB_THREADS=5
 Environment = SEEK_YAHNS=127.0.0.1:13600
 Environment = SEEK_HOST=bc-seek.godfat.org
-Environment = SEEK_THREADS=100
+Environment = SEEK_THREADS=25
 KillSignal = SIGQUIT
 User = bcat
 Group = bcat
