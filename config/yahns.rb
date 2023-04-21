@@ -3,7 +3,7 @@ rack, = Rack::Builder.parse_file(
   File.expand_path("#{__dir__}/../config.ru"))
 
 app :rack, rack, preload: true do
-  listen(BattleCatsRolls::WebPort, reuseport: true)
+  listen(BattleCatsRolls::WebBind, reuseport: true)
 
   queue do
     worker_threads 5
@@ -11,7 +11,7 @@ app :rack, rack, preload: true do
 end
 
 app :rack, rack, preload: true do
-  listen(BattleCatsRolls::SeekPort, reuseport: true)
+  listen(BattleCatsRolls::SeekBind, reuseport: true)
 
   queue do
     worker_threads 25

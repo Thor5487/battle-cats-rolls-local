@@ -26,8 +26,7 @@ module BattleCatsRolls
 
     map '/', host: WebHost do
       use Raindrops::Middleware,
-        path: '/yahns/status',
-        listeners: ["0.0.0.0:#{WebPort}", "0.0.0.0:#{SeekPort}"]
+        path: '/yahns/status', listeners: [WebBind, SeekBind]
       run Web.new
     end
   end
