@@ -4,7 +4,6 @@
 Description = Battle Cats Rolls sockets
 
 [Socket]
-
 # yahns can handle an arbitrary number of listen sockets,
 # so I prefer to keep listeners for IPv4 and IPv6 separate
 # to avoid ugly IPv4-mapped-IPv6 addresses for IPv4 clients:
