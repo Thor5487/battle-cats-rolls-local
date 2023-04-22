@@ -8,10 +8,19 @@ require 'rack'
 require 'raindrops'
 
 module BattleCatsRolls
+  class YahnsStatus < Raindrops::Middleware
+    def stats_response
+      result = super
+      headers = result[1]
+      headers[Rack::CONTENT_LENGTH] ||= headers.delete('Content-Length')
+      headers[Rack::CONTENT_TYPE] ||= headers.delete('Content-Type')
+      result
+    end
+  end
+
   Server = Jellyfish::Builder.app do
     use Rack::Deflater
-    use Raindrops::Middleware,
-      path: '/yahns/status', listeners: [WebBind, SeekBind]
+    use YahnsStatus, path: '/yahns/status', listeners: [WebBind, SeekBind]
 
     use Rack::ContentLength
     use Rack::ContentType, 'text/html; charset=utf-8'
