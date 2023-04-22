@@ -16,6 +16,7 @@ module BattleCatsRolls
     use Rack::ContentLength
     use Rack::ContentType, 'text/html; charset=utf-8'
 
+    # This part can be completely replaced by Nginx
     rewrite \
       '/asset' => '',
       '/robots.txt' => '/robots.txt' do
