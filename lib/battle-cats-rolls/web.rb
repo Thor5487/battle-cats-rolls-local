@@ -130,10 +130,14 @@ module BattleCatsRolls
     end
 
     get '/warmup' do
-      cache
-      Route.reload_balls
-      View.warmup
-      'OK'
+      if Route.ball_en
+        'NOOP'
+      else
+        cache
+        Route.reload_balls
+        View.warmup
+        'OK'
+      end
     end
 
     get %r{^/cats/(?<id>\d+)} do |m|
