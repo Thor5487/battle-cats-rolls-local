@@ -376,10 +376,10 @@ module BattleCatsRolls
     end
 
     def get_rate name, index
-      int = request.params_coercion_with_nil(name, :to_i) ||
+      int = request.params_coercion_with_nil(name, :to_i)&.abs ||
         predefined_rates.dig(rate, :rate, index).to_i
 
-      [int.abs, 10000].min
+      [int, 10000].min
     end
 
     def event_base_uri
