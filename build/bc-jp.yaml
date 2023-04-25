@@ -2,47 +2,47 @@
 cats:
   1:
     name: [ネコ, ネコビルダー, ネコモヒカン]
-    desc: ["安価で生産できる基本キャラ\n　\n　", "鍛えぬいた筋肉がチャームポイントの\n基本キャラ\n　", "鍛えぬいた筋肉に男前なタテガミが\nチャームポイントの基本キャラ\n　"]
+    desc: [安価で生産できる基本キャラ, "鍛えぬいた筋肉がチャームポイントの\n基本キャラ", "鍛えぬいた筋肉に男前なタテガミが\nチャームポイントの基本キャラ"]
     stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, damage_0: 16, attack_time_0: 8, attack_duration: 15}]
     rarity: 0
   2:
     name: [タンクネコ, ネコカベ, ゴムネコ]
-    desc: ["体力を多く備えた盾用のキャラ\n攻撃力はスズメの涙ほど(範囲攻撃)\n　", "まさにカベに徹する為の盾専用キャラ\n攻撃力はあいかわらず(範囲攻撃)\n　", "まさにカベに徹する為の盾専用キャラ\nゴムの弾力を利用してさらに強化されたが\n攻撃力はあいかわらず(範囲攻撃)"]
+    desc: ["体力を多く備えた盾用のキャラ\n攻撃力はスズメの涙ほど(範囲攻撃)", "まさにカベに徹する為の盾専用キャラ\n攻撃力はあいかわらず(範囲攻撃)", "まさにカベに徹する為の盾専用キャラ\nゴムの弾力を利用してさらに強化されたが\n攻撃力はあいかわらず(範囲攻撃)"]
     stat: [{health: 400, knockbacks: 1, speed: 8, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, area_effect: 1, damage_0: 2, attack_time_0: 8, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 8, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, area_effect: 1, damage_0: 2, attack_time_0: 8, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 8, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, area_effect: 1, damage_0: 4, attack_time_0: 8, attack_duration: 15}]
     rarity: 0
   3:
     name: [バトルネコ, 勇者ネコ, 暗黒ネコ]
-    desc: ["戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い\n　", "勇者にあこがれる戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い\n　\nユウシャネコ", "ダークヒーローにも憧れた\n戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い\nアンコクネコ"]
+    desc: ["戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い", "勇者にあこがれる戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い\n　\nユウシャネコ", "ダークヒーローにも憧れた\n戦闘向きのキャラ\n｢赤い敵｣にめっぽう強い\nアンコクネコ"]
     stat: [{health: 200, knockbacks: 3, speed: 12, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, damage_0: 25, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 12, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, damage_0: 25, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 15}, {health: 400, knockbacks: 3, speed: 12, cost: 200, production_cooldown: 150, attack_cooldown: 10, range: 150, damage_0: 50, attack_time_0: 8, against_red: 1, strong: 1, attack_duration: 16}]
     rarity: 0
   4:
     name: [キモネコ, 美脚ネコ, ムキあしネコ]
-    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はハイクラス\n　", "美しすぎる足が自慢の遠距離型キャラ\n単発だけなら攻撃力はハイクラス\n　\nビキャクネコ", "筋肉美が自慢の遠距離型キャラ\n単発だけなら攻撃力はハイクラス\n｢エイリアン｣にめっぽう強い"]
+    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はハイクラス", "美しすぎる足が自慢の遠距離型キャラ\n単発だけなら攻撃力はハイクラス\n　\nビキャクネコ", "筋肉美が自慢の遠距離型キャラ\n単発だけなら攻撃力はハイクラス\n｢エイリアン｣にめっぽう強い"]
     stat: [{health: 400, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 350, damage_0: 100, attack_time_0: 8, attack_duration: 15}, {health: 400, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 350, damage_0: 100, attack_time_0: 6, attack_duration: 11}, {health: 800, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 245, attack_cooldown: 60, range: 350, damage_0: 200, attack_time_0: 6, against_alien: 1, strong: 1, attack_duration: 11}]
     rarity: 0
   5:
     name: [ウシネコ, ネコキリン, ネコライオン]
-    desc: ["俊敏な動きで移動力に優れたキャラ\n攻撃回数もハンパない\n　", "俊敏な動きで移動力に優れたキャラ\n長い首でのヘッドバンギングが笑える\n　", "俊敏な動きで移動力に優れたキャラ\n頭のタテガミは拭き掃除にも使える\n　"]
+    desc: ["俊敏な動きで移動力に優れたキャラ\n攻撃回数もハンパない", "俊敏な動きで移動力に優れたキャラ\n長い首でのヘッドバンギングが笑える", "俊敏な動きで移動力に優れたキャラ\n頭のタテガミは拭き掃除にも使える"]
     stat: [{health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 140, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 140, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 1000, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 195, range: 140, damage_0: 26, attack_time_0: 6, attack_duration: 9}]
     rarity: 0
   6:
     name: [ネコノトリ, ネコＵＦＯ, 天空のネコ]
-    desc: ["体力は少ないが敵をまとめて一掃する\n超破壊力を持ったキャラ(範囲攻撃)\n　", "重力を超越した改造にゃんこ\n敵をまとめてお仕置き可能(範囲攻撃)\n　\nネコユーフォー", "放たれる光弾は巨大都市を一瞬で焼き払った\nと言われる空中都市型にゃんこ\nごくたまに｢天使｣の攻撃力を下げる(範囲攻撃)\nテンクウノネコ"]
+    desc: ["体力は少ないが敵をまとめて一掃する\n超破壊力を持ったキャラ(範囲攻撃)", "重力を超越した改造にゃんこ\n敵をまとめてお仕置き可能(範囲攻撃)\n　\nネコユーフォー", "放たれる光弾は巨大都市を一瞬で焼き払った\nと言われる空中都市型にゃんこ\nごくたまに｢天使｣の攻撃力を下げる(範囲攻撃)\nテンクウノネコ"]
     stat: [{health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 125, attack_cooldown: 20, range: 170, area_effect: 1, damage_0: 140, attack_time_0: 10, attack_duration: 13}, {health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 125, attack_cooldown: 20, range: 170, area_effect: 1, damage_0: 165, attack_time_0: 18, attack_duration: 25}, {health: 600, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 170, area_effect: 1, damage_0: 330, attack_time_0: 18, against_angel: 1, weaken_chance: 20, weaken_duration: 120, weaken_multiplier: 50, attack_duration: 25}]
     rarity: 0
   7:
     name: [ネコフィッシュ, ネコクジラ, ネコ島]
-    desc: ["戦闘向きの高級キャラ\n｢赤い敵｣にはめっぽう強い\n　", "肉食クジラに進化した高級戦闘キャラ\n｢赤い敵｣にはめっぽう強い\n　", "にゃんこ達のバカンスに最適な形状にまで\n進化したキャラ。｢赤い敵｣にはめっぽう強く\nごくたまにクリティカル攻撃を放つ\nネコシマ"]
+    desc: ["戦闘向きの高級キャラ\n｢赤い敵｣にはめっぽう強い", "肉食クジラに進化した高級戦闘キャラ\n｢赤い敵｣にはめっぽう強い", "にゃんこ達のバカンスに最適な形状にまで\n進化したキャラ。｢赤い敵｣にはめっぽう強く\nごくたまにクリティカル攻撃を放つ\nネコシマ"]
     stat: [{health: 700, knockbacks: 3, speed: 10, cost: 800, production_cooldown: 195, attack_cooldown: 22, range: 150, damage_0: 180, attack_time_0: 10, against_red: 1, strong: 1, attack_duration: 17}, {health: 700, knockbacks: 3, speed: 10, cost: 800, production_cooldown: 195, attack_cooldown: 22, range: 150, damage_0: 180, attack_time_0: 10, against_red: 1, strong: 1, attack_duration: 17}, {health: 1400, knockbacks: 3, speed: 10, cost: 800, production_cooldown: 255, attack_cooldown: 22, range: 150, damage_0: 360, attack_time_0: 10, against_red: 1, strong: 1, critical_chance: 2, attack_duration: 17}]
     rarity: 0
   8:
     name: [ネコトカゲ, ネコドラゴン, ネコキングドラゴン]
-    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n　", "幻想世界から降臨した遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n　", "ドラゴン界のエリートまで上り詰めた\n遠距離型キャラ\n単発だけなら攻撃力はピカイチ"]
+    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はピカイチ", "幻想世界から降臨した遠距離型キャラ\n単発だけなら攻撃力はピカイチ", "ドラゴン界のエリートまで上り詰めた\n遠距離型キャラ\n単発だけなら攻撃力はピカイチ"]
     stat: [{health: 800, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 285, attack_cooldown: 60, range: 400, damage_0: 350, attack_time_0: 10, attack_duration: 13}, {health: 800, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 285, attack_cooldown: 60, range: 400, damage_0: 350, attack_time_0: 8, attack_duration: 15}, {health: 900, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, damage_0: 400, attack_time_0: 8, attack_duration: 15}]
     rarity: 0
   9:
     name: [巨神ネコ, ネコダラボッチ, ネコジャラミ]
-    desc: ["超絶破壊力＆強靭な体力を備えた\n最高級のキャラ(範囲攻撃)\n　\nキョシンネコ", "超絶破壊力＆強靭な体力を備えた\n破壊をつかさどるネコ神様(範囲攻撃)\n　", "ごくたまに敵をふっとばす\n破壊をつかさどる巨大ネコ(範囲攻撃)\nＴシャツが伸びるので良い子はマネしない方がいい"]
+    desc: ["超絶破壊力＆強靭な体力を備えた\n最高級のキャラ(範囲攻撃)\n　\nキョシンネコ", "超絶破壊力＆強靭な体力を備えた\n破壊をつかさどるネコ神様(範囲攻撃)", "ごくたまに敵をふっとばす\n破壊をつかさどる巨大ネコ(範囲攻撃)\nＴシャツが伸びるので良い子はマネしない方がいい"]
     stat: [{health: 1000, knockbacks: 1, speed: 8, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 150, area_effect: 1, damage_0: 280, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 25}, {health: 1000, knockbacks: 1, speed: 8, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 150, area_effect: 1, damage_0: 280, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 31}, {health: 2000, knockbacks: 1, speed: 8, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, area_effect: 1, damage_0: 560, attack_time_0: 18, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 30, attack_duration: 31}]
     rarity: 0
   10:
@@ -52,7 +52,7 @@ cats:
     rarity: 1
   11:
     name: [カンフーにゃんこ, 酔拳にゃんこ, ネコダンサー]
-    desc: ["ミドルレンジからの絶対的な破壊力を秘めた\nカンフーマスター。しかも範囲攻撃\n　", "酔えば酔うほど強くなることを信じる、\n伝説のカンフーマスター。しかも範囲攻撃\n　\nスイケンニャンコ", "武と芸の両刀使いになった天才にゃんこ\n極度の人見知りのため後ろ向きに歩く方法を習得\n伝説となることでリーチを伸ばした(範囲攻撃)"]
+    desc: ["ミドルレンジからの絶対的な破壊力を秘めた\nカンフーマスター。しかも範囲攻撃", "酔えば酔うほど強くなることを信じる、\n伝説のカンフーマスター。しかも範囲攻撃\n　\nスイケンニャンコ", "武と芸の両刀使いになった天才にゃんこ\n極度の人見知りのため後ろ向きに歩く方法を習得\n伝説となることでリーチを伸ばした(範囲攻撃)"]
     stat: [{health: 900, knockbacks: 1, speed: 9, cost: 1500, production_cooldown: 430, attack_cooldown: 100, range: 300, area_effect: 1, damage_0: 1100, attack_time_0: 11, trigger_effects_0: 1, attack_duration: 40}, {health: 900, knockbacks: 1, speed: 9, cost: 1500, production_cooldown: 430, attack_cooldown: 88, range: 300, area_effect: 1, damage_0: 242, attack_time_0: 11, trigger_effects_0: 1, damage_1: 60, attack_time_1: 15, trigger_effects_1: 1, damage_2: 908, attack_time_2: 35, trigger_effects_2: 1, attack_duration: 60}, {health: 900, knockbacks: 1, speed: 9, cost: 1500, production_cooldown: 430, attack_cooldown: 88, range: 330, area_effect: 1, damage_0: 1210, attack_time_0: 35, trigger_effects_0: 1, immune_weaken: 1, attack_duration: 60}]
     rarity: 1
   12:
@@ -87,7 +87,7 @@ cats:
     rarity: 1
   18:
     name: [ネコリンリン, ネコワイルド, イチリンリン]
-    desc: ["世界最高峰の三輪車を乗り回すキャラクター\n敵をまとめて攻撃できる(範囲攻撃)\n　", "ワイルドにバイクを乗り回すワイルドにゃんこ\n敵をまとめて攻撃できる(範囲攻撃)\n　", "曲芸用一輪車を自由自在に乗り回すにゃんこ\n車輪数を削りコストダウンを実現\n敵をまとめて攻撃できる(範囲攻撃)"]
+    desc: ["世界最高峰の三輪車を乗り回すキャラクター\n敵をまとめて攻撃できる(範囲攻撃)", "ワイルドにバイクを乗り回すワイルドにゃんこ\n敵をまとめて攻撃できる(範囲攻撃)", "曲芸用一輪車を自由自在に乗り回すにゃんこ\n車輪数を削りコストダウンを実現\n敵をまとめて攻撃できる(範囲攻撃)"]
     stat: [{health: 400, knockbacks: 4, speed: 10, cost: 700, production_cooldown: 125, attack_cooldown: 20, range: 170, area_effect: 1, damage_0: 180, attack_time_0: 20, attack_duration: 32}, {health: 400, knockbacks: 4, speed: 10, cost: 700, production_cooldown: 125, attack_cooldown: 22, range: 170, area_effect: 1, damage_0: 180, attack_time_0: 16, attack_duration: 46}, {health: 400, knockbacks: 4, speed: 10, cost: 350, production_cooldown: 125, attack_cooldown: 22, range: 170, area_effect: 1, damage_0: 180, attack_time_0: 16, attack_duration: 46}]
     rarity: 1
   19:
@@ -202,7 +202,7 @@ cats:
     rarity: 3
   41:
     name: [ネコバスたぶ, セクシーネコバスたぶ, ネコバスたぶゴールデン]
-    desc: ["いつもキレイ好きな遠距離型キャラクター\n赤い敵に超ダメージを与える\n　", "いつもキレイ好きな遠距離型キャラクター\nムダ毛の処理はかかさない\n赤い敵に超ダメージを与える", "いつもキレイ好きな遠距離型キャラクター\n汚い金を洗浄して作った黄金のバスタブで\n赤い敵に超ダメージを与える"]
+    desc: ["いつもキレイ好きな遠距離型キャラクター\n赤い敵に超ダメージを与える", "いつもキレイ好きな遠距離型キャラクター\nムダ毛の処理はかかさない\n赤い敵に超ダメージを与える", "いつもキレイ好きな遠距離型キャラクター\n汚い金を洗浄して作った黄金のバスタブで\n赤い敵に超ダメージを与える"]
     stat: [{health: 400, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 400, damage_0: 400, attack_time_0: 35, against_red: 1, massive_damage: 1, attack_duration: 91}, {health: 700, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 400, damage_0: 600, attack_time_0: 35, against_red: 1, massive_damage: 1, attack_duration: 69}, {health: 1200, knockbacks: 3, speed: 9, cost: 500, production_cooldown: 600, attack_cooldown: 55, range: 400, damage_0: 600, attack_time_0: 35, against_red: 1, massive_damage: 1, attack_duration: 69}]
     rarity: 3
   42:
@@ -912,7 +912,7 @@ cats:
     rarity: 1
   183:
     name: [183-1, 183-2]
-    desc: ["　\n　\n　", "　\n　\n　"]
+    desc: []
     stat: [{health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 17}, {health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 15}]
     rarity: 1
   184:
@@ -1047,7 +1047,7 @@ cats:
     rarity: 1
   210:
     name: [ちびネコ, ちびネコビルダー, ちびネコモヒカン]
-    desc: ["安価で生産できる基本キャラ\nを目指して成長中のちびにゃんこ\n　", "鍛えぬいた筋肉がチャームポイントの\n基本キャラを目指して成長中のちびにゃんこ\n　", "鍛えぬいた筋肉に男前なツンツンヘアが\nチャームポイントの基本キャラ\n贅肉を削ぎ落としコスパがよくなった"]
+    desc: ["安価で生産できる基本キャラ\nを目指して成長中のちびにゃんこ", "鍛えぬいた筋肉がチャームポイントの\n基本キャラを目指して成長中のちびにゃんこ", "鍛えぬいた筋肉に男前なツンツンヘアが\nチャームポイントの基本キャラ\n贅肉を削ぎ落としコスパがよくなった"]
     stat: [{health: 40, knockbacks: 3, speed: 8, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 130, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 40, knockbacks: 3, speed: 8, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 130, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 160, knockbacks: 3, speed: 8, cost: 30, production_cooldown: 175, attack_cooldown: 15, range: 130, damage_0: 16, attack_time_0: 8, attack_duration: 17}]
     rarity: 1
   211:
@@ -1227,12 +1227,12 @@ cats:
     rarity: 2
   246:
     name: [ちびキモネコ, ちび美脚ネコ, ちびムキあしネコ]
-    desc: ["遠くの敵を攻撃できる遠距離型キャラ\nを目指して成長中のちびにゃんこ\n　", "美しすぎる足が自慢の遠距離型キャラ\nを目指して成長中のちびにゃんこ\n　\nチビビキャクネコ", "筋肉自慢の遠距離型キャラに成長したちびにゃんこ\n顔の絆創膏は強く見えるおまじない\nたまにバリアを貫き、エイリアンをふっとばす"]
+    desc: ["遠くの敵を攻撃できる遠距離型キャラ\nを目指して成長中のちびにゃんこ", "美しすぎる足が自慢の遠距離型キャラ\nを目指して成長中のちびにゃんこ\n　\nチビビキャクネコ", "筋肉自慢の遠距離型キャラに成長したちびにゃんこ\n顔の絆創膏は強く見えるおまじない\nたまにバリアを貫き、エイリアンをふっとばす"]
     stat: [{health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 160, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 165, attack_cooldown: 60, range: 300, damage_0: 100, attack_time_0: 6, trigger_effects_0: 1, attack_duration: 11}, {health: 640, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 60, range: 300, damage_0: 200, attack_time_0: 6, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 30, knockback_chance: 30, attack_duration: 11}]
     rarity: 1
   247:
     name: [ちびウシネコ, ちびネコキリン, ちびネコライオン]
-    desc: ["俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ\n　", "俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ\n　", "俊敏で移動力に優れたキャラに成長したちびにゃんこ\n頭のタテガミは集めたポイントで貰った\n波動によるダメージを無効にする"]
+    desc: ["俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ", "俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ", "俊敏で移動力に優れたキャラに成長したちびにゃんこ\n頭のタテガミは集めたポイントで貰った\n波動によるダメージを無効にする"]
     stat: [{health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 200, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 135, range: 130, damage_0: 13, attack_time_0: 6, attack_duration: 9}, {health: 800, knockbacks: 5, speed: 20, cost: 500, production_cooldown: 195, range: 130, damage_0: 26, attack_time_0: 6, immune_wave: 1, attack_duration: 9}]
     rarity: 1
   248:
@@ -1267,7 +1267,7 @@ cats:
     rarity: 2
   254:
     name: [ドラゴンライダー, ボーンドラゴンライダー, フレイムドラゴンライダー]
-    desc: ["城とドラゴンから参戦！\n伝統的な手法で攻撃するニンゲンとドラゴン\n　", "城とドラゴンから参戦！\nボーンボディに変身したドラゴンライダー\n　", "城とドラゴンから参戦！\n炎竜へと変身し炎の力を手に入れたドラゴンライダー\n　"]
+    desc: ["城とドラゴンから参戦！\n伝統的な手法で攻撃するニンゲンとドラゴン", "城とドラゴンから参戦！\nボーンボディに変身したドラゴンライダー", "城とドラゴンから参戦！\n炎竜へと変身し炎の力を手に入れたドラゴンライダー"]
     stat: [{health: 450, knockbacks: 3, speed: 12, cost: 450, production_cooldown: 185, attack_cooldown: 20, range: 330, damage_0: 60, attack_time_0: 23, attack_duration: 34}, {health: 450, knockbacks: 3, speed: 12, cost: 450, production_cooldown: 185, attack_cooldown: 20, range: 330, damage_0: 60, attack_time_0: 23, attack_duration: 34}, {health: 450, knockbacks: 3, speed: 12, cost: 450, production_cooldown: 185, attack_cooldown: 20, range: 330, damage_0: 120, attack_time_0: 23, attack_duration: 34}]
     rarity: 2
   255:
@@ -1497,12 +1497,12 @@ cats:
     rarity: 2
   300:
     name: [ちびまどか, ちび魔法少女まどか, ちびアルティメットまどか]
-    desc: ["魔法少女まどか☆マギカから参戦！\n小さな体に大きな可能性を秘めた少女\n　", "魔法少女まどか☆マギカから参戦！\n小さくても魔法少女としての素質は未知数\n浮いてる敵に超ダメージを与える(遠方攻撃)\nチビマホウショウジョマドカ", "魔法少女まどか☆マギカから参戦！\n小さくても宇宙の法則を再編するほどの力を持つ魔法少女\n浮いてる敵に超ダメージを与える(遠方範囲攻撃)"]
+    desc: ["魔法少女まどか☆マギカから参戦！\n小さな体に大きな可能性を秘めた少女", "魔法少女まどか☆マギカから参戦！\n小さくても魔法少女としての素質は未知数\n浮いてる敵に超ダメージを与える(遠方攻撃)\nチビマホウショウジョマドカ", "魔法少女まどか☆マギカから参戦！\n小さくても宇宙の法則を再編するほどの力を持つ魔法少女\n浮いてる敵に超ダメージを与える(遠方範囲攻撃)"]
     stat: [{health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 120, damage_0: 100, attack_time_0: 42, witch_killer: 1, attack_duration: 80}, {health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 400, damage_0: 100, long_range_0: 325, long_range_offset_0: 125, attack_time_0: 42, against_float: 1, witch_killer: 1, massive_damage: 1, attack_duration: 80}, {health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 425, area_effect: 1, damage_0: 100, long_range_0: 325, long_range_offset_0: 150, attack_time_0: 42, against_float: 1, witch_killer: 1, massive_damage: 1, attack_duration: 80}]
     rarity: 2
   301:
     name: [ちびほむら, ちび魔法少女ほむら, ちび悪魔ほむら]
-    desc: ["魔法少女まどか☆マギカから参戦！\n小さな体に強い意志を秘めた少女\n　", "魔法少女まどか☆マギカから参戦！\nワルプルギスの夜を倒す\nその日まで戦い続ける(範囲攻撃)\nチビマホウショウジョホムラ", "魔法少女まどか☆マギカから参戦！\n神にも等しく聖なるものを貶めて蝕んでしまった少女\nたまに黒い敵の攻撃力を下げる(範囲攻撃)\nチビアクマホムラ"]
+    desc: ["魔法少女まどか☆マギカから参戦！\n小さな体に強い意志を秘めた少女", "魔法少女まどか☆マギカから参戦！\nワルプルギスの夜を倒す\nその日まで戦い続ける(範囲攻撃)\nチビマホウショウジョホムラ", "魔法少女まどか☆マギカから参戦！\n神にも等しく聖なるものを貶めて蝕んでしまった少女\nたまに黒い敵の攻撃力を下げる(範囲攻撃)\nチビアクマホムラ"]
     stat: [{health: 600, knockbacks: 2, speed: 11, cost: 300, production_cooldown: 500, attack_cooldown: 36, range: 225, damage_0: 80, attack_time_0: 7, trigger_effects_0: 1, witch_killer: 1, attack_duration: 30}, {health: 600, knockbacks: 2, speed: 11, cost: 300, production_cooldown: 500, attack_cooldown: 35, range: 225, area_effect: 1, damage_0: 80, attack_time_0: 9, trigger_effects_0: 1, witch_killer: 1, attack_duration: 35}, {health: 600, knockbacks: 2, speed: 11, cost: 300, production_cooldown: 500, attack_cooldown: 44, range: 275, area_effect: 1, damage_0: 160, attack_time_0: 53, trigger_effects_0: 1, against_black: 1, witch_killer: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, attack_duration: 73}]
     rarity: 1
   302:
@@ -1607,7 +1607,7 @@ cats:
     rarity: 2
   322:
     name: [ナゾウサギ, 兎宮王道]
-    desc: ["漫画「ナゾウサギ」から参戦！\n客寄せのきぐるみを着てレモネードを売っている人\n　", "漫画「ナゾウサギ」から参戦！\nナゾに支配された世界を変えようと思っている\n黒い敵に超ダメージを与える\nウミヤオウドウ"]
+    desc: ["漫画「ナゾウサギ」から参戦！\n客寄せのきぐるみを着てレモネードを売っている人", "漫画「ナゾウサギ」から参戦！\nナゾに支配された世界を変えようと思っている\n黒い敵に超ダメージを与える\nウミヤオウドウ"]
     stat: [{health: 400, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 210, attack_cooldown: 52, range: 340, damage_0: 80, attack_time_0: 21, attack_duration: 51}, {health: 400, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 210, attack_cooldown: 52, range: 340, damage_0: 80, attack_time_0: 21, against_black: 1, massive_damage: 1, attack_duration: 51}]
     rarity: 1
   323:
@@ -1642,7 +1642,7 @@ cats:
     rarity: 3
   329:
     name: [ハッピー100, 幸せ連鎖子ハッピー100]
-    desc: ["クラッシュフィーバーから参戦！\nいつも幸せそうなコンピューターウィルス(範囲攻撃)\n　", "クラッシュフィーバーから参戦！\n「ハッピー！」という口癖で周りに\n幸せを振りまく(範囲攻撃)\nシアワセレンサコハッピーヒャク"]
+    desc: ["クラッシュフィーバーから参戦！\nいつも幸せそうなコンピューターウィルス(範囲攻撃)", "クラッシュフィーバーから参戦！\n「ハッピー！」という口癖で周りに\n幸せを振りまく(範囲攻撃)\nシアワセレンサコハッピーヒャク"]
     stat: [{health: 400, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 320, range: 300, area_effect: 1, damage_0: 50, attack_time_0: 38, attack_duration: 74}, {health: 400, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 320, range: 300, area_effect: 1, damage_0: 50, attack_time_0: 38, attack_duration: 74}]
     rarity: 1
   330:
@@ -2097,7 +2097,7 @@ cats:
     rarity: 1
   420:
     name: [ポコタ, ポコタＣＣ]
-    desc: ["ポコパンから参戦！\nポコ森に住む陽気なウサギ。友達思いで正義感が強い\n　", "ポコパンから参戦！\n仲間の動物達を楽しませることに使命感を感じている\n　"]
+    desc: ["ポコパンから参戦！\nポコ森に住む陽気なウサギ。友達思いで正義感が強い", "ポコパンから参戦！\n仲間の動物達を楽しませることに使命感を感じている"]
     stat: [{health: 450, knockbacks: 3, speed: 9, cost: 450, production_cooldown: 265, attack_cooldown: 49, range: 375, damage_0: 80, attack_time_0: 52, trigger_effects_0: 1, damage_1: 80, attack_time_1: 57, trigger_effects_1: 1, attack_duration: 74}, {health: 450, knockbacks: 3, speed: 9, cost: 450, production_cooldown: 265, attack_cooldown: 49, range: 375, damage_0: 80, attack_time_0: 52, trigger_effects_0: 1, damage_1: 80, attack_time_1: 57, trigger_effects_1: 1, attack_duration: 74}]
     rarity: 2
   421:
@@ -2837,7 +2837,7 @@ cats:
     rarity: 3
   568:
     name: [チビクロプスネコタマゴ, チビクロプスネコ, 雷電のチビクロプスネコ]
-    desc: ["城とドラゴンから参戦！\nネコの形をした謎のタマゴ。ふ化すると…？\n　", "城とドラゴンから参戦！\n地元じゃ負け知らずの看板キャラに憧れるネコ\n属性を持たない敵にめっぽう強い(範囲攻撃)", "城とドラゴンから参戦！破壊力がピカイチの\n看板キャラになりきるネコ。属性を持たない\n敵にめっぽう強く、たまに渾身の一撃を放つ\nライデンノチビクロプスネコ"]
+    desc: ["城とドラゴンから参戦！\nネコの形をした謎のタマゴ。ふ化すると…？", "城とドラゴンから参戦！\n地元じゃ負け知らずの看板キャラに憧れるネコ\n属性を持たない敵にめっぽう強い(範囲攻撃)", "城とドラゴンから参戦！破壊力がピカイチの\n看板キャラになりきるネコ。属性を持たない\n敵にめっぽう強く、たまに渾身の一撃を放つ\nライデンノチビクロプスネコ"]
     stat: [{health: 100, knockbacks: 1, speed: 1, cost: 360, production_cooldown: 400, attack_cooldown: 32, range: 100, damage_0: 8, attack_time_0: 2, trigger_effects_0: 1, attack_duration: 35}, {health: 1080, knockbacks: 2, speed: 10, cost: 360, production_cooldown: 220, attack_cooldown: 15, range: 140, area_effect: 1, damage_0: 108, attack_time_0: 11, trigger_effects_0: 1, against_white: 1, strong: 1, attack_duration: 23}, {health: 1080, knockbacks: 2, speed: 10, cost: 360, production_cooldown: 220, attack_cooldown: 15, range: 140, area_effect: 1, damage_0: 108, attack_time_0: 11, trigger_effects_0: 1, against_white: 1, strong: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 23}]
     rarity: 1
   569:

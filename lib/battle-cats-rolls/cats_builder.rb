@@ -69,11 +69,15 @@ module BattleCatsRolls
             '|'
           end
         separator = Regexp.escape(separator_char)
+        # String#strip doesn't remove \u00a0
+        strip = lambda do |str|
+          str.sub(/\A\p{whitespace}+/, '').sub(/\p{whitespace}+\z/, '')
+        end
 
         names = data.scan(/^(?:[^#{separator}]+)/).uniq.
-          map(&:strip).delete_if(&:empty?)
+          map(&strip).delete_if(&:empty?)
         descs = data.scan(/(?=#{separator}).+$/).
-          map{ |s| s.tr(separator_char, "\n").squeeze(' ').strip }.
+          map{ |s| strip[s.tr(separator_char, "\n").squeeze(' ')] }.
           delete_if(&:empty?)
 
         if names.any?
