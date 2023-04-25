@@ -101,7 +101,7 @@ module BattleCatsRolls
 
       unless `git -C #{Root} status --porcelain -- build`.empty?
         puts "Reloading balls..."
-        Route.reload_balls
+        Route.reload_balls(true)
       end
     end
   end

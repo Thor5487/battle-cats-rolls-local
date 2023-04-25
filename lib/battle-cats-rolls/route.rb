@@ -19,9 +19,11 @@ module BattleCatsRolls
       CrystalBall.load("#{Root}/build", lang)
     end
 
-    def self.reload_balls
+    def self.reload_balls force=false
       %w[en tw jp kr].each do |lang|
-        self.public_send("ball_#{lang}=", load_ball(lang))
+        if public_send("ball_#{lang}").nil? || force
+          public_send("ball_#{lang}=", load_ball(lang))
+        end
       end
     end
 
