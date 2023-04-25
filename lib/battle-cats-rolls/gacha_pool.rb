@@ -39,7 +39,7 @@ module BattleCatsRolls
 
     def slots
       @slots ||= gacha&.inject(default_slots) do |result, cat_id|
-        if rarity = find_rarity(cat_id)
+        if rarity = dig_cat(cat_id, 'rarity')
           result[rarity] << cat_id
           result
         else # Ignore when a cat can't be found
@@ -66,22 +66,15 @@ module BattleCatsRolls
       if range.any?
         # Avoid modifying existing uber pool
         self.cats = cats.dup
-        cats[Cat::Uber] = cats[Cat::Uber].dup
 
         range.each do |n|
           slots[Cat::Uber].unshift(n)
-          cats[Cat::Uber][n] = Cat.future_uber(n)
+          cats[n] = Cat.future_uber(n)
         end
       end
     end
 
     private
-
-    def find_rarity cat_id
-      cats.find do |(rarity, cats)|
-        break rarity if cats.member?(cat_id)
-      end
-    end
 
     def default_slots
       Hash.new{|h,k|h[k]=[]}

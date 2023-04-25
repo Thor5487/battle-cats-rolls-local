@@ -24,7 +24,7 @@ module BattleCatsRolls
     private
 
     def each_ball_cat
-      arg[:cats].reverse_each do |rarity, data|
+      route.ball.cats_by_rarity.reverse_each do |rarity, data|
         yield(rarity, data.map{ |id, info| Cat.new(id: id, info: info) })
       end
     end
@@ -339,8 +339,7 @@ module BattleCatsRolls
     end
 
     def uri_to_own_all_cats
-      route.cats_uri(query: {o:
-        Owned.encode(arg[:cats].values.flat_map{ |data| data.map(&:first) })})
+      route.cats_uri(query: {o: Owned.encode(arg[:cats].keys)})
     end
 
     def uri_to_drop_all_cats

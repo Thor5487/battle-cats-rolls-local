@@ -21,8 +21,8 @@ module BattleCatsRolls
           permitted_classes: [Date]))
     end
 
-    def cats
-      @cats ||= cats_map.group_by do |id, data|
+    def cats_by_rarity
+      @cats_by_rarity ||= cats.group_by do |id, data|
         data['rarity']
       end.sort.to_h.transform_values(&:to_h)
     end
@@ -35,15 +35,13 @@ module BattleCatsRolls
       data['events']
     end
 
-    def cats_map
+    def cats
       data['cats']
     end
 
     def each_custom_gacha name_index
-      cat_data = cats.values.inject(&:merge)
-
-      ubers = cats[Cat::Uber].keys
-      legends = cats[Cat::Legend].keys
+      ubers = cats_by_rarity[Cat::Uber].keys
+      legends = cats_by_rarity[Cat::Legend].keys
 
       gacha.reverse_each do |gacha_id, cat_ids|
         prefix_id =
@@ -53,8 +51,8 @@ module BattleCatsRolls
         suffix_id =
           cat_ids.reverse_each.find(&ubers.method(:member?))
 
-        prefix_cat = cat_data[prefix_id]
-        suffix_cat = cat_data[suffix_id]
+        prefix_cat = cats[prefix_id]
+        suffix_cat = cats[suffix_id]
 
         prefix = Cat.new(info: prefix_cat).pick_name(name_index) if prefix_cat
         suffix = Cat.new(info: suffix_cat).pick_name(name_index) if suffix_cat

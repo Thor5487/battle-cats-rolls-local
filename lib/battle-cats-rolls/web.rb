@@ -148,7 +148,7 @@ module BattleCatsRolls
         found canonical_uri
       else
         stats =
-          if cat_data = route.ball.cats_map[id]
+          if cat_data = route.ball.cats[id]
             cat_data.values_at('name', 'desc', 'stat').
               # IndexError: element size differs (2 should be 3)
               transpose.map do |(name, desc, stat)|
