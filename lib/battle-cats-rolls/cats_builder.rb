@@ -24,8 +24,8 @@ module BattleCatsRolls
       @attack_animation ||= store_attack_animation(provider.attack_maanims)
     end
 
-    def rarities
-      @rarities ||= store_rarities(provider.unitbuy)
+    def unitbuy
+      @unitbuy ||= store_unitbuy(provider.unitbuy)
     end
 
     def == rhs
@@ -35,9 +35,9 @@ module BattleCatsRolls
     private
 
     def build_cats
-      rarities.inject(Hash.new{|h,k|h[k]={}}) do |result, (id, rarity)|
+      unitbuy.inject(Hash.new{|h,k|h[k]={}}) do |result, (id, extra)|
         data = cat_data[id]
-        result[id].merge!(data.merge('rarity' => rarity)) if data
+        result[id].merge!(data.merge(extra)) if data
         result
       end
     end
@@ -53,9 +53,14 @@ module BattleCatsRolls
       end
     end
 
-    def store_rarities data
+    def store_unitbuy data
       data.each_line.with_index.inject({}) do |result, (line, index)|
-        result[index + 1] = Integer(line[/\A(?:\d+,){13}(\d+)/, 1])
+        id = index + 1
+        row = line.split(',')
+        result[id] = {
+          'rarity' => Integer(row[13]),
+          'max_level' => Integer(row[50]) + Integer(row[51])
+        }
         result
       end
     end
