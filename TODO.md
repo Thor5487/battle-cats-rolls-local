@@ -17,6 +17,10 @@
 * Finishing the help page
 * Multi-select for finding cats
 
+## Bugs
+
+* Can't untick the last owned cat
+
 ## Features and utilities
 
 * Retreat seed
