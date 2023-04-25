@@ -14811,3 +14811,25 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-04-26_718:
+    start_on: 2023-04-26
+    end_on: 2023-04-28
+    version: '120300'
+    name: 超生命体特効を持つキャラクター「氷の精霊フリズ」参戦！★詳細はバナーをタップ!!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-04-28_709:
+    start_on: 2023-04-28
+    end_on: 2023-05-01
+    version: '120300'
+    name: 超生命体特効を持つキャラクター「服部半蔵」参戦！★詳細はバナーをタップ!!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
