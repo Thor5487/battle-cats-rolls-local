@@ -12,6 +12,10 @@ module BattleCatsRolls
       @unitbuy ||= File.binread("#{dir}/DataLocal.pack/unitbuy.csv")
     end
 
+    def unitlevel
+      @unitlevel ||= File.binread("#{dir}/DataLocal.pack/unitlevel.csv")
+    end
+
     def units
       @units ||= Dir["#{dir}/DataLocal.pack/unit*.csv"].
         inject({}) do |result, path|

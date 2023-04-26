@@ -20,6 +20,10 @@ module BattleCatsRolls
       data[:unitbuy]
     end
 
+    def unitlevel
+      data[:unitlevel]
+    end
+
     def units
       data[:units]
     end
@@ -50,7 +54,7 @@ module BattleCatsRolls
 
     def data
       @data ||= data_reader.list_lines.
-        grep(/\A(?:GatyaDataSetR1|unitbuy|unit\d+)\.csv,\d+,\d+$/).
+        grep(/\A(?:GatyaDataSetR1|unitbuy|unit\d+|unitlevel)\.csv,\d+,\d+$/).
         inject({}) do |result, line|
           filename, csv = data_reader.read_eagerly(line)
 
@@ -59,6 +63,8 @@ module BattleCatsRolls
             result[:gacha] = csv
           when 'unitbuy.csv'
             result[:unitbuy] = csv
+          when 'unitlevel.csv'
+            result[:unitlevel] = csv
           else # unit\d+
             id = filename[/\Aunit(\d+)/, 1].to_i
             (result[:units] ||= {})[id] = csv

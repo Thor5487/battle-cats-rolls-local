@@ -28,6 +28,10 @@ module BattleCatsRolls
       @unitbuy ||= store_unitbuy(provider.unitbuy)
     end
 
+    def unitlevel
+      @unitlevel ||= store_unitlevel(provider.unitlevel)
+    end
+
     def == rhs
       cats == rhs.cats && gacha == rhs.gacha
     end
@@ -35,10 +39,13 @@ module BattleCatsRolls
     private
 
     def build_cats
-      unitbuy.inject(Hash.new{|h,k|h[k]={}}) do |result, (id, extra)|
-        data = cat_data[id]
-        result[id].merge!(data.merge(extra)) if data
-        result
+      ids = cat_data.keys
+      cat_data.merge(unitbuy.slice(*ids)) do |id, data, buy|
+        data.merge(buy)
+      end.merge(unitlevel.slice(*ids)) do |id, data, level|
+        growth = level.take((data['max_level'] / 10.0).ceil).map(&:to_i)
+        data['growth'] = growth
+        data
       end
     end
 
@@ -61,6 +68,14 @@ module BattleCatsRolls
           'rarity' => Integer(row[13]),
           'max_level' => Integer(row[50]) + Integer(row[51])
         }
+        result
+      end
+    end
+
+    def store_unitlevel data
+      data.each_line.with_index.inject({}) do |result, (line, index)|
+        id = index + 1
+        result[id] = line.split(',')
         result
       end
     end
