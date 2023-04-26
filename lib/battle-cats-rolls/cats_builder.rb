@@ -43,7 +43,7 @@ module BattleCatsRolls
     end
 
     def store_gacha data
-      data.lines.each.with_index.inject({}) do |result, (line, index)|
+      data.each_line.with_index.inject({}) do |result, (line, index)|
         next result unless line =~ /\A\d+/
 
         slots = line.split(',')
@@ -54,7 +54,7 @@ module BattleCatsRolls
     end
 
     def store_rarities data
-      data.lines.each.with_index.inject({}) do |result, (line, index)|
+      data.each_line.with_index.inject({}) do |result, (line, index)|
         result[index + 1] = Integer(line[/\A(?:\d+,){13}(\d+)/, 1])
         result
       end
