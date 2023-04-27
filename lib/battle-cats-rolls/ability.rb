@@ -569,7 +569,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
-      def effects; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
@@ -589,7 +589,7 @@ module BattleCatsRolls
       end
 
       def specialized; false; end
-      def effects; false; end
+      def effects; true; end
       def index; __LINE__; end
     end
 
