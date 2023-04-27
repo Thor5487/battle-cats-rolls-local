@@ -293,7 +293,7 @@ module BattleCatsRolls
       end
 
       def display
-        'Only attack against specialized enemies or enemy base'
+        "Only attack specialized enemies or enemy base.<br>\nWhen cursed, only attack the base."
       end
 
       def specialized; true; end
