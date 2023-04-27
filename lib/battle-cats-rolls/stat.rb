@@ -4,7 +4,7 @@ require_relative 'ability'
 
 module BattleCatsRolls
   class Stat < Struct.new(
-    :id, :name, :desc, :stat, :level, keyword_init: true)
+    :id, :info, :index, :level, keyword_init: true)
     class Attack < Struct.new(
       :stat, :damage, :long_range, :long_range_offset,
       :trigger_effects, :duration, keyword_init: true)
@@ -44,6 +44,18 @@ module BattleCatsRolls
           ((damage.to_f / stat.attack_cycle) * stat.fps).round
         end
       end
+    end
+
+    def name
+      info.dig('name', index)
+    end
+
+    def desc
+      info.dig('desc', index)
+    end
+
+    def stat
+      info.dig('stat', index)
     end
 
     def fps
@@ -236,9 +248,16 @@ module BattleCatsRolls
       264
     end
 
-    # checkout unitlevel.csv
     def level_multiplier
-      @level_multiplier ||= 1 + 0.2 * (level - 1)
+      @level_multiplier ||= begin
+        growth = info['growth'].map{ |percent| percent / 100.0 }
+        reminder = level % 10
+        steps = level / 10
+        1 + # base multiplier
+          (growth[0...steps].sum * 10) + # sum of every 10 levels
+          ((growth[steps] || 0) * reminder) -
+          growth.first # subtract the first level because level starts at 1
+      end
     end
   end
 end

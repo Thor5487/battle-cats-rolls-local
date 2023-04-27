@@ -269,6 +269,23 @@ module BattleCatsRolls
       end
     end
 
+    def growth_rate growth
+      return unless growth
+
+      init = [[2, 10, growth.first]]
+      growth.drop(1).each.with_index.inject(init) do |result, (rate, index)|
+        last = result.last
+        if last[2] == rate
+          last[1] += 10
+        else
+          result << [last[1].succ, last[1] + 10, rate]
+        end
+        result
+      end.map do |(start, last, rate)|
+        "lv#{start}~#{last}: #{rate}%"
+      end.join(", ")
+    end
+
     def h str
       CGI.escape_html(str)
     end

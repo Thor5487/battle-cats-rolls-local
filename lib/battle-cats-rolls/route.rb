@@ -309,6 +309,15 @@ module BattleCatsRolls
       @ticked ||= Array(request.params['t']).map(&:to_i).sort.uniq
     end
 
+    def level
+      @level ||= request.params_coercion_with_nil('level', :to_i)&.abs ||
+        default_level
+    end
+
+    def default_level
+      @default_level ||= 30
+    end
+
     def uri_to_roll cat
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
@@ -394,7 +403,7 @@ module BattleCatsRolls
 
     def default_query query={}
       ret = %i[
-        seed last event custom rate c_rare c_supa c_uber lang version
+        seed last event custom rate c_rare c_supa c_uber level lang version
         name theme count find no_guaranteed force_guaranteed ubers details
         o
       ].inject({}) do |result, key|
@@ -421,6 +430,7 @@ module BattleCatsRolls
            (key == :last && value == 0) ||
            (key == :force_guaranteed && value == 0) ||
            (key == :ubers && value == 0) ||
+           (key == :level && value == default_level) ||
            (key == :o && value == '') ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&

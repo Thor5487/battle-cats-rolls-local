@@ -32,6 +32,8 @@
   https://bc.godfat.org/cats/26
 * Apple Cat: Single single attack and single area attack:
   https://bc.godfat.org/cats/40
+* Crazed Titan Cat: Health should be 52200
+  https://bc.godfat.org/cats/100
 * Metal Cat: Metal and max level is 20:
   https://bc.godfat.org/cats/201
 * Sea Maiden Ruri: Multi single attacks:
@@ -46,6 +48,8 @@
   https://bc.godfat.org/cats/518
 * Kyosaka Nanaho: Second strike critical effect:
   https://bc.godfat.org/cats/545
+* Gacha Cat: Should be capped at level=50 and health is 153000
+  http://bc.godfat.org/cats/559?level=100
 * Emperor Cat: A lot of control effects:
   https://bc.godfat.org/cats/587
 * Fabled Adventure Girl Kanna: First strike surge effect and various ranges:
