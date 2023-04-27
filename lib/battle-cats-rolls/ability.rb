@@ -296,7 +296,7 @@ module BattleCatsRolls
         'Only attack against specialized enemies or enemy base'
       end
 
-      def specialized; false; end
+      def specialized; true; end
       def effects; false; end
       def index; __LINE__; end
     end
