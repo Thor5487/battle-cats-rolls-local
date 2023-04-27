@@ -1,7 +1,5 @@
 ## Stats
 
-* Fix level incremental stats (`unitlevel.csv`)
-* Add level input field
 * Show talents
 * Account critical strikes and savage blows into DPS
 * Account surge damage into DPS
