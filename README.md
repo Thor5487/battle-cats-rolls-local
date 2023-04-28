@@ -83,9 +83,16 @@ server will be shut down.
 
     sudo ./bin/restart-zero-down
 
-### Uninstallation for systemd
+### Forceful restart
 
-    sudo ./bin/uninstall
+Sometimes the application server is broken anyway, we want to restart
+immediately. In this case you can run this to force it to restart now.
+
+    sudo ./bin/hard-restart
+
+### Uninstallation
+
+    sudo ./bin/uninstall # Read the contents before you run it!
 
 ## How to populate data:
 
