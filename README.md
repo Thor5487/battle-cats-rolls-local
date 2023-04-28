@@ -34,7 +34,7 @@ by the Ruby server.
 
 ## Production with nginx, varnish, systemd and socket activation:
 
-### Setup nginx
+### Set up nginx
 
 Take `config/nginx.conf` as an example to set up nginx, and start it with
 systemd:
@@ -42,7 +42,7 @@ systemd:
     sudo systemctl enable nginx
     sudo systemctl start nginx
 
-### Setup varnish
+### Set up varnish
 
 Take `config/varnish.vcl` as an example to set up varnish, and start it with
 systemd:
@@ -53,11 +53,17 @@ systemd:
 Note that you might want to change the systemd service to bind it only to
 `localhost` instead of `0.0.0.0`.
 
-### Installation for systemd
+### Other various setup
 
 Tweak the paths in `config/battlecatsrolls@.service` accordingly and run:
 
-    sudo ./bin/install
+    sudo ./bin/install # Read the contents before you run it!
+
+Note that this also:
+
+* Set up a bcat user to run for the application server
+* Set up Git config so auto-updater can work properly
+* Set up sudoer so `bin/rsync-data` can work properly
 
 ### Read logs
 
