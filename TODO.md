@@ -11,12 +11,15 @@
 
 ## Bugs
 
+* Preserve level input everywhere (insert hidden_input)
 * Can't untick the last owned cat
 * Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
 ## Features and utilities
 
+* Add rates for Dynasty Fest and Royal Fest
 * Update README
+* Localize default customized rate. superfest -> 超極ネコ祭
 * Finishing the help page
 * Multi-select for finding cats
 * Retreat seed
