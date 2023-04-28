@@ -26,7 +26,7 @@ module BattleCatsRolls
     end
 
     def pick logger
-      memcache(logger) || lru_cache(logger)
+      memcache(logger) || lru_cache(logger) || persistent_hash(logger)
     end
 
     def memcache logger
@@ -62,6 +62,17 @@ module BattleCatsRolls
     rescue LoadError => e
       logger.debug("Skip LRU cache because: #{e}")
       nil
+    end
+
+    def persistent_hash logger
+      logger.info("Last resort persistent in-memory hash used")
+      cache = {}
+      cache.extend(Module.new{
+        def store key, value, expires_in: nil
+          super(key, value)
+        end
+      })
+      cache
     end
   end
 end
