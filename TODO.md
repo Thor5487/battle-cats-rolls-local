@@ -9,13 +9,10 @@
 * Use consistent unit for speed (range per second)
 * Figure out how where to find the hard coded values in the game data
 
-## High priorities
-
-* Fix guessing 10 rolls link when seeking seed
-
 ## Bugs
 
 * Can't untick the last owned cat
+* Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
 ## Features and utilities
 
