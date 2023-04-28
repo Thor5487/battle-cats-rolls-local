@@ -32,7 +32,7 @@ by the Ruby server.
 
     ./bin/server
 
-## Production with nginx, systemd and socket activation:
+## Production with nginx, varnish, systemd and socket activation:
 
 ### Setup nginx
 
@@ -41,6 +41,17 @@ systemd:
 
     sudo systemctl enable nginx
     sudo systemctl start nginx
+
+### Setup varnish
+
+Take `config/varnish.vcl` as an example to set up varnish, and start it with
+systemd:
+
+    sudo systemctl enable varnish
+    sudo systemctl start varnish
+
+Note that you might want to change the systemd service to bind it only to
+`localhost` instead of `0.0.0.0`.
 
 ### Installation for systemd
 
