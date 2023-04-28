@@ -124,6 +124,10 @@ Populate BCKR data:
 ## CONTRIBUTORS:
 
 * Lin Jen-Shin (@godfat)
+* forgothowtoreddid
+* MandarinSmell
+* clam
+* 占庭 盧 (@lzt00275)
 
 ## LICENSE:
 
