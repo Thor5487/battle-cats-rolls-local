@@ -12,8 +12,6 @@
 ## High priorities
 
 * Fix guessing 10 rolls link when seeking seed
-* Finishing the help page
-* Multi-select for finding cats
 
 ## Bugs
 
@@ -21,6 +19,9 @@
 
 ## Features and utilities
 
+* Update README
+* Finishing the help page
+* Multi-select for finding cats
 * Retreat seed
 * Client-side seed seeker
 * Don't use the hard coded version. Check on the disk and see if there's
