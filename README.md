@@ -32,7 +32,14 @@ by the Ruby server.
 
     ./bin/server
 
-## Production with nginx, varnish, systemd and socket activation:
+## Production with memcached, nginx, varnish, systemd and socket activation:
+
+### Set up memcached
+
+Nothing special needed. Just install and run it:
+
+    sudo systemctl enable memcached
+    sudo systemctl start memcached
 
 ### Set up nginx
 
