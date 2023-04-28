@@ -10,7 +10,16 @@ And pick one:
 * Set up memcached and run `gem install dalli`
 * Use LRU cache so run `gem install lru_redux`
 
-## How to build the Haskell seed seeker:
+## How to build the 8.6+ seed seeker:
+
+First install [clang++](https://clang.llvm.org), then:
+
+    ./Seeker/bin/build-8.6.sh
+
+This should build the seed seeker at: `Seeker/Seeker-8.6`, which will be used
+by the Ruby server.
+
+## How to build the 8.5 and 8.4 seed seeker:
 
 First install [GHC](https://www.haskell.org/ghc/), then:
 
