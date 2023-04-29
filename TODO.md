@@ -13,6 +13,14 @@
 
 * Preserve level input everywhere (insert hidden_input)
 * Preserve current queries when swapping language for a non-existing cat when showing stats
+* If there's a non-existing cat in a gacha, for now we show nothing because
+  tracking can't be done due to missing rarity data. However, it'll be useful
+  to show the gacha data so we know it's not just an empty gacha but a gacha
+  we can't use, and it should be clear what's the missing cat so we have a
+  better idea. See:
+  https://bc.godfat.org/?seed=1&event=custom&custom=12&details=true
+  This should not show empty gacha, but what are there and what's missing.
+  Check GachaPool#slots for this.
 * Can't untick the last owned cat
 * Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
