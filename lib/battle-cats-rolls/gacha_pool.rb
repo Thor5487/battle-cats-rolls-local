@@ -25,7 +25,7 @@ module BattleCatsRolls
       event_data ||= ball.events[event_name] || ball.events.first.last
       # If there's no such event, pick the first active one
 
-      super(ball.cats, ball.gacha[event_data['id']], event_data)
+      super(ball.cats, ball.gacha.dig(event_data['id'], 'cats'), event_data)
     end
 
     def exist?

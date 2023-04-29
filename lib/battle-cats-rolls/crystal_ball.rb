@@ -43,7 +43,9 @@ module BattleCatsRolls
       ubers = cats_by_rarity[Cat::Uber].keys
       legends = cats_by_rarity[Cat::Legend].keys
 
-      gacha.reverse_each do |gacha_id, cat_ids|
+      gacha.reverse_each do |gacha_id, gacha_data|
+        cat_ids = gacha_data['cats']
+
         prefix_id =
           cat_ids.find(&legends.method(:member?)) ||
           cat_ids.find(&ubers.method(:member?))
