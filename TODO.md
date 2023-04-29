@@ -12,6 +12,7 @@
 ## Bugs
 
 * Preserve level input everywhere (insert hidden_input)
+* Preserve current queries when swapping language for a non-existing cat when showing stats
 * Can't untick the last owned cat
 * Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
