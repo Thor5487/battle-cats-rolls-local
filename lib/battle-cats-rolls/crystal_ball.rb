@@ -96,6 +96,20 @@ module BattleCatsRolls
       end.first
     end
 
+    def self.predefined_rates
+      @predefined_rates ||= {
+        regular: {name: 'Regular', rate: [6970, 2500, 500]},
+        no_legend: {name: 'Regular without legend', rate: [7000, 2500, 500]},
+        uberfest: {name: 'Uberfest / Epicfest', rate: [6500, 2600, 900]},
+        dynastyfest: {name: 'Dynasty Fest', rate: [6770, 2500, 700]},
+        royalfest: {name: 'Royal Fest', rate: [6940, 2500, 500]},
+        superfest: {name: 'Superfest', rate: [6500, 2500, 1000]},
+        platinum: {name: 'Platinum', rate: [0, 0, 10000]},
+        legend: {name: 'Legend', rate: [0, 0, 9500]},
+        '': {name: 'Customize...'}
+      }
+    end
+
     def cats_by_rarity
       @cats_by_rarity ||= cats.group_by do |id, data|
         data['rarity']

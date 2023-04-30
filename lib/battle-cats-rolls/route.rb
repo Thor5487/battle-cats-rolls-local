@@ -209,20 +209,6 @@ module BattleCatsRolls
         ball.gacha.each_key.reverse_each.first.to_i
     end
 
-    def predefined_rates
-      @predefined_rates ||= {
-        regular: {name: 'Regular', rate: [6970, 2500, 500]},
-        no_legend: {name: 'Regular without legend', rate: [7000, 2500, 500]},
-        uberfest: {name: 'Uberfest / Epicfest', rate: [6500, 2600, 900]},
-        dynastyfest: {name: 'Dynasty Fest', rate: [6770, 2500, 700]},
-        royalfest: {name: 'Royal Fest', rate: [6940, 2500, 500]},
-        superfest: {name: 'Superfest', rate: [6500, 2500, 1000]},
-        platinum: {name: 'Platinum', rate: [0, 0, 10000]},
-        legend: {name: 'Legend', rate: [0, 0, 9500]},
-        '': {name: 'Customize...'}
-      }
-    end
-
     def rate
       @rate ||= request.params_coercion('rate', :to_s).to_sym
     end
@@ -388,7 +374,7 @@ module BattleCatsRolls
 
     def get_rate name, index
       int = request.params_coercion_with_nil(name, :to_i)&.abs ||
-        predefined_rates.dig(rate, :rate, index).to_i
+        CrystalBall.predefined_rates.dig(rate, :rate, index).to_i
 
       [int, 10000].min
     end

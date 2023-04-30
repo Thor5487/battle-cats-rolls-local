@@ -39,7 +39,7 @@
 
       <label for="rate_input">Rate:</label>
       <select id="rate_select" name="rate" onchange="roll(this)">
-        <% route.predefined_rates.each do |rate, data| %>
+        <% BattleCatsRolls::CrystalBall.predefined_rates.each do |rate, data| %>
           <option
             value="<%= rate %>"
             <%= selected_rate(rate) %>><%= data[:name] %></option>
