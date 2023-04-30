@@ -374,9 +374,26 @@ module BattleCatsRolls
 
     def get_rate name, index
       int = request.params_coercion_with_nil(name, :to_i)&.abs ||
-        CrystalBall.predefined_rates.dig(rate, :rate, index).to_i
+        CrystalBall.predefined_rates.dig(rate, :rate, index) ||
+        predict_rate(index).to_i
 
       [int, 10000].min
+    end
+
+    def predict_rate index
+      # We only want to predict if it's specified, especially because
+      # for custom rates we don't want to predict to interfere it.
+      # Keep in mind that for custom rates the rate == ''
+      if rate == 'predicted'
+        CrystalBall.predefined_rates.dig(
+          # We also want to give something if no prediction can be made,
+          # otherwise we won't be able to switch to custom rates when
+          # we can't make prediction. In that case, just guess it with
+          # the most common rates, regular. To verify this, check:
+          # https://bc.godfat.org/?seed=1&event=custom&custom=2&rate=predicted
+          # And switch to "Customize..." under "Predicted".
+          ball.gacha.dig(custom, 'rate') || 'regular', :rate, index)
+      end
     end
 
     def event_base_uri
@@ -399,8 +416,17 @@ module BattleCatsRolls
         result
       end
 
-      if %i[c_rare c_supa c_uber].all?{ |c| ret[c].zero? }
-        ret[:rate] = :regular
+      if ret[:rate] == '' && %i[c_rare c_supa c_uber].all?{ |c| ret[c].zero? }
+        # When we first go into customization, all of them are in base values,
+        # and we want to use the predicted rates in this case. However,
+        # it can also be possible that all rates are zero, yet we have
+        # already picked a specific rate. For example, this can happen if
+        # we're checking a gacha having non-existing cats. In this case,
+        # we don't want to change the rate already picked!
+        # Try this and pick a different rate:
+        # https://bc.godfat.org/?seed=1&event=custom&custom=2&rate=predicted
+        # We want it to be preserved and we should be able to pick freely.
+        ret[:rate] = 'predicted'
       end
 
       ret

@@ -38,6 +38,7 @@ module BattleCatsRolls
         if event['similarity'] != 0 # nil goes here, too, meaning exact match
           gacha_event_data = {
             'name' => event['name'],
+            'rate' => find_gacha_rate(event),
             'similarity' => event['similarity']
           }.compact
 
@@ -96,8 +97,15 @@ module BattleCatsRolls
       end.first
     end
 
+    def self.find_gacha_rate event
+      predefined_rates.find do |_, name_rate|
+        name_rate[:rate] == event.values_at('rare', 'supa', 'uber')
+      end&.first
+    end
+
     def self.predefined_rates
       @predefined_rates ||= {
+        'predicted' => {name: 'Predicted'},
         'regular' => {name: 'Regular', rate: [6970, 2500, 500]},
         'no_legend' => {name: 'Regular without legend', rate: [7000, 2500, 500]},
         'uberfest' => {name: 'Uberfest / Epicfest', rate: [6500, 2600, 900]},

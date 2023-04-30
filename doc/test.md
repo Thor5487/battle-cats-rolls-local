@@ -40,6 +40,12 @@
   https://bc.godfat.org/?seed=1&event=custom&custom=196&lang=tw&details=true
 * No event data, non-existing BCTW gacha, but shows some cats
   https://bc.godfat.org/?seed=1&event=custom&custom=390&lang=tw&details=true
+* Try to change rates around and see if selection can be preserved
+  https://bc.godfat.org/?seed=1&event=custom&custom=2&rate=predicted
+* This shouldn't have legend rate:
+  https://bc.godfat.org/?seed=1&event=custom&custom=328&rate=predicted&details=true
+  Neither should this:
+  https://bc.godfat.org/?seed=1&event=custom&custom=355&rate=predicted&details=true
 
 ## Stats
 
