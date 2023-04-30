@@ -210,7 +210,7 @@ module BattleCatsRolls
     end
 
     def rate
-      @rate ||= request.params_coercion('rate', :to_s).to_sym
+      @rate ||= request.params_coercion('rate', :to_s)
     end
 
     def c_rare
@@ -426,8 +426,8 @@ module BattleCatsRolls
                key == :c_rare || key == :c_supa || key == :c_uber)) ||
            (query[:event] == 'custom' &&
               (
-                (key == :rate && value == :'') ||
-                (query[:rate] != :'' &&
+                (key == :rate && value == '') ||
+                (query[:rate] != '' &&
                   (key == :c_rare || key == :c_supa || key == :c_uber))
               ))
           false
