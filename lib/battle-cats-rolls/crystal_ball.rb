@@ -66,8 +66,18 @@ module BattleCatsRolls
       events.map.with_index do |event, index|
         gacha_cats = gacha_data['cats']
         event_cats = gacha.dig(event['id'], 'cats')
-        similarity = (gacha_cats & event_cats).size.to_f /
-          (gacha_cats | event_cats).size
+        intersection = gacha_cats & event_cats
+        union = gacha_cats | event_cats
+        similarity = intersection.size.to_f / union.size
+
+        # We deliberately make rounding error here by rounding it first,
+        # sort later, so we lose accuracy. This is done because if we are
+        # more accurate here, it'll usually pick a more up-to-date gacha,
+        # which is fine by itself but it usually also shows a cat that
+        # does not exist in the gacha we're looking at here, which is
+        # misleading even when it's more accurate in terms of contents.
+        # By slightly losing accuracy, it'll pick a gacha which is older
+        # and can avoid showing a cat doesn't exist for this gacha.
         similarity_in_percentage = (similarity * 100).round
 
         # Consider this the first perfect match
