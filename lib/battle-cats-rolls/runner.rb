@@ -181,7 +181,7 @@ module BattleCatsRolls
 
       if provider
         events = EventsReader.read(event_path)
-        ball = CrystalBall.from_pack_and_events(cats_pack, events)
+        ball = CrystalBall.from_cats_builder_and_events(cats_builder, events)
 
         puts "Writing data..."
 
@@ -189,7 +189,7 @@ module BattleCatsRolls
       end
     end
 
-    def cats_pack
+    def cats_builder
       require_relative 'cats_builder'
 
       CatsBuilder.new(provider)

@@ -26,6 +26,21 @@
   * https://bc.godfat.org/?seed=650315141&last=50&event=2020-09-11_433&pick=2BGX#N2B
   * https://bc.godfat.org/?seed=3626964723&last=49&event=2020-09-11_433&pick=2BGX#N2B
 
+## Customize gacha
+
+* Non-existing BCEN gacha
+  https://bc.godfat.org/?seed=1&event=custom&custom=2&details=true
+* 70% ケリ姫スイーツ
+  https://bc.godfat.org/?seed=1&event=custom&custom=2&lang=jp&details=true
+* 50% Merc Storia with only Wyvern
+  https://bc.godfat.org/?seed=1&event=custom&custom=13&details=true
+* No event data for BCJP
+  https://bc.godfat.org/?seed=1&event=custom&custom=13&lang=jp&details=true
+* 85% Crash Fever, but it's 蛋黃人軍團
+  https://bc.godfat.org/?seed=1&event=custom&custom=196&lang=tw&details=true
+* No event data, non-existing BCTW gacha, but shows some cats
+  https://bc.godfat.org/?seed=1&event=custom&custom=390&lang=tw&details=true
+
 ## Stats
 
 * Awakened Bahamut Cat: Multi area attacks:

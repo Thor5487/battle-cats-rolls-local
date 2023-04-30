@@ -19,6 +19,19 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2023-04-30") %>
+<ul>
+  <li>
+    Now custom gacha can detect and guess the first event used for it.
+    <ul>
+      <li>If there's an exact event for that, show it.</li>
+      <li>If it shares the same seriesID with an event and is similar to that, show it.</li>
+      <li>If no events for the same seriesID, show the most similar regardless.</li>
+      <li>If there's really nothing, hint which ubers/legends as before, without duplicated.</li>
+    </ul>
+  </li>
+</ul>
+
 <%= header(2, "2023-04-29") %>
 <ul>
   <li>Dynasty Fest and Royal Fest rates are added to the predefined rates for customized gacha.</li>

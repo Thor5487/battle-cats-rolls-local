@@ -8,6 +8,10 @@ module BattleCatsRolls
       @gacha ||= File.binread("#{dir}/DataLocal.pack/GatyaDataSetR1.csv")
     end
 
+    def gacha_option
+      @gacha_option ||= File.binread("#{dir}/DataLocal.pack/GatyaData_Option_SetR.tsv")
+    end
+
     def unitbuy
       @unitbuy ||= File.binread("#{dir}/DataLocal.pack/unitbuy.csv")
     end

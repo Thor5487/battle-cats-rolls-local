@@ -4,10 +4,13 @@ require_relative 'cat'
 
 module BattleCatsRolls
   class CrystalBall < Struct.new(:data)
-    def self.from_pack_and_events pack, events
+    def self.from_cats_builder_and_events cats_builder, events
+      gacha_data = attach_gacha_series_id(
+        cats_builder.gacha, cats_builder.provider.gacha_option)
+
       new({
-        'cats' => pack.cats,
-        'gacha' => pack.gacha,
+        'cats' => cats_builder.cats,
+        'gacha' => guess_gacha_events(gacha_data, events.gacha.values),
         'events' => events.gacha
       })
     end
@@ -19,6 +22,68 @@ module BattleCatsRolls
         YAML.safe_load_file(
           "#{dir}/bc-#{lang}.yaml",
           permitted_classes: [Date]))
+    end
+
+    def self.attach_gacha_series_id gacha, gacha_option
+      require_relative 'tsv_reader'
+      option = TsvReader.new(gacha_option).gacha_option
+      gacha.merge(option){ |_, a, b| a.merge(b) }
+    end
+
+    def self.guess_gacha_events gacha, events
+      # Can we have transform_values and also know key at the same time?
+      gacha.map do |key_value|
+        gacha_id, gacha_data = key_value
+        event = find_or_most_similar(events, gacha_id, gacha_data, gacha)
+        if event['similarity'] != 0 # nil goes here, too, meaning exact match
+          gacha_event_data = {
+            'name' => event['name'],
+            'similarity' => event['similarity']
+          }.compact
+
+          [gacha_id, gacha_data.merge(gacha_event_data)]
+        else # Nothing we know about the gacha, ignore
+          key_value
+        end
+      end.to_h
+    end
+
+    def self.find_or_most_similar events, gacha_id, gacha_data, gacha
+      events.find do |event|
+        event['id'] == gacha_id
+      end || begin
+        events_series = events.select do |event|
+          gacha_data['series_id'] == gacha.dig(event['id'], 'series_id')
+        end
+
+        # Look for the same series first
+        find_most_similar(events_series, gacha_data, gacha) ||
+          find_most_similar(events, gacha_data, gacha)
+      end
+    end
+
+    def self.find_most_similar events, gacha_data, gacha
+      events.map.with_index do |event, index|
+        gacha_cats = gacha_data['cats']
+        event_cats = gacha.dig(event['id'], 'cats')
+        similarity = (gacha_cats & event_cats).size.to_f /
+          (gacha_cats | event_cats).size
+        similarity_in_percentage = (similarity * 100).round
+
+        # Consider this the first perfect match
+        return event if similarity_in_percentage == 100
+
+        event.merge('similarity' => similarity_in_percentage, 'index' => index)
+      end.sort do |a, b|
+        # Stable reverse sort
+        case result = b['similarity'] <=> a['similarity']
+        when 0
+          # Reverse it because we want the highest similarity and the first
+          a['index'] <=> b['index']
+        else
+          result
+        end
+      end.first
     end
 
     def cats_by_rarity
@@ -44,30 +109,37 @@ module BattleCatsRolls
       legends = cats_by_rarity[Cat::Legend].keys
 
       gacha.reverse_each do |gacha_id, gacha_data|
-        cat_ids = gacha_data['cats']
-
-        prefix_id =
-          cat_ids.find(&legends.method(:member?)) ||
-          cat_ids.find(&ubers.method(:member?))
-
-        suffix_id =
-          cat_ids.reverse_each.find(&ubers.method(:member?))
-
-        prefix_cat = cats[prefix_id]
-        suffix_cat = cats[suffix_id]
-
-        prefix = Cat.new(info: prefix_cat).pick_name(name_index) if prefix_cat
-        suffix = Cat.new(info: suffix_cat).pick_name(name_index) if suffix_cat
-
         title =
-          if prefix || suffix
-            [*prefix, *suffix].join(', ')
+          if similarity = gacha_data['similarity']
+            "(#{similarity}%) #{gacha_data['name']}"
           else
-            '?'
+            gacha_data['name'] ||
+              hint_gacha_name(name_index, gacha_data['cats'], ubers, legends)
           end
 
         yield(gacha_id, "#{gacha_id}: #{title}")
       end
+    end
+
+    def hint_gacha_name name_index, cat_ids, ubers, legends
+      prefix_id =
+        cat_ids.find(&legends.method(:member?)) ||
+        cat_ids.find(&ubers.method(:member?))
+
+      suffix_id =
+        cat_ids.reverse_each.find(&ubers.method(:member?))
+
+      prefix_cat = cats[prefix_id]
+      suffix_cat = cats[suffix_id] if prefix_id != suffix_id
+
+      prefix = Cat.new(info: prefix_cat).
+        pick_name(name_index) if prefix_cat
+      suffix = Cat.new(info: suffix_cat).
+        pick_name(name_index) if suffix_cat
+
+      hint = [*prefix, *suffix].join(', ')
+
+      "(?) #{hint}"
     end
 
     def dump dir, lang

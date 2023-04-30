@@ -55,7 +55,6 @@ module BattleCatsRolls
 
     def gacha
       @gacha ||= parsed_data.inject({}) do |result, row|
-
         data = convert_event(read_event(row, self.class.event_fields))
 
         if data.delete('type') == 1 # rare gacha
@@ -79,6 +78,13 @@ module BattleCatsRolls
           end
         end
 
+        result
+      end
+    end
+
+    def gacha_option
+      @gacha_option ||= parsed_data.drop(1).inject({}) do |result, row|
+        result[Integer(row.first)] = { 'series_id' => Integer(row[-3]) }
         result
       end
     end
