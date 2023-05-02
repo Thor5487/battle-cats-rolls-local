@@ -15,6 +15,12 @@ sub vcl_recv {
     }
 }
 
+sub vcl_hash {
+    if (req.url ~ "^/(logs|seek)") {
+        hash_data(req.http.referer);
+    }
+}
+
 sub vcl_backend_response {
     set beresp.ttl = 10m;
 }
