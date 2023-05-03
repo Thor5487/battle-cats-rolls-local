@@ -139,8 +139,8 @@ module BattleCatsRolls
       @attack_cooldown ||= stat['attack_cooldown'].to_i * time_multiplier
     end
 
-    def max_damage
-      @max_damage ||= attacks.sum(&:damage)
+    def damage_sum
+      @damage_sum ||= attacks.sum(&:damage)
     end
 
     def range
@@ -171,8 +171,8 @@ module BattleCatsRolls
       end
     end
 
-    def max_dps
-      @max_dps ||= if kamikaze?
+    def dps_sum
+      @dps_sum ||= if kamikaze?
         '-'
       elsif attack_cycle
         attacks.sum(&:dps)

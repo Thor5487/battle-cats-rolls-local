@@ -76,7 +76,7 @@ describe BattleCatsRolls::Stat do
         expect(attacks.size).eq 2
         expect(attacks.first.dps.round(3)).eq 3306.522
         expect(attacks.last.dps.round(3)).eq 2670.652 # 50% critical strike
-        expect(stat.max_dps.round(3)).eq 5977.174 # Not 5978
+        expect(stat.dps_sum.round(3)).eq 5977.174 # Not 5978
       end
     end
 
@@ -90,7 +90,7 @@ describe BattleCatsRolls::Stat do
 
         expect(attacks.size).eq 1
         expect(attacks.first.dps.round(3)).eq expected_dps
-        expect(stat.max_dps.round(3)).eq expected_dps
+        expect(stat.dps_sum.round(3)).eq expected_dps
       end
     end
   end
