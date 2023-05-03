@@ -398,6 +398,10 @@ module BattleCatsRolls
         "#{percent(chance)} to deal 200% damage and ignore metal effect"
       end
 
+      def modifier
+        100
+      end
+
       def specialized; false; end
       def effects; true; end
       def index; __LINE__; end

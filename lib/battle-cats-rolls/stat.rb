@@ -29,9 +29,9 @@ module BattleCatsRolls
         end
       end
 
-      def trigger_effects
-        @trigger_effects ||= if super == 1 || stat.attacks.size <= 1
-          stat.effects.map(&:name).join(', ')
+      def display_effects
+        @display_effects ||= if trigger_effects?
+          effects.map(&:name).join(', ')
         else
           '-'
         end
@@ -41,7 +41,38 @@ module BattleCatsRolls
         @dps ||= if stat.kamikaze?
           '-'
         elsif stat.attack_cycle
-          ((damage.to_f / stat.attack_cycle) * stat.fps).round
+          raw_dps = (damage.to_f / stat.attack_cycle) * stat.fps
+
+          critical_effects.inject(raw_dps) do |result, critical|
+            result *
+              (1 + (critical.modifier / 100.0) * (critical.chance / 100.0))
+          end
+        end
+      end
+
+      private
+
+      def trigger_effects?
+        # Older cats with single attack might not be marked with triggering
+        # effects, but they do according to the game. For example,
+        # Apple Cat (id=40) has no trigger effects but it does trigger effect!
+        trigger_effects == 1 || stat.attacks.size <= 1
+      end
+
+      def effects
+        @effects ||= if trigger_effects?
+          stat.effects
+        else
+          []
+        end
+      end
+
+      def critical_effects
+        @critical_effects ||= effects.select do |eff|
+          case eff
+          when Ability::CriticalStrike, Ability::SavageBlow
+            true
+          end
         end
       end
     end
@@ -144,7 +175,7 @@ module BattleCatsRolls
       @max_dps ||= if kamikaze?
         '-'
       elsif attack_cycle
-        ((max_damage.to_f / attack_cycle) * fps).round
+        attacks.sum(&:dps)
       end
     end
 

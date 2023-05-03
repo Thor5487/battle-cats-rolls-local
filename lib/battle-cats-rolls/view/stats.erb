@@ -5,8 +5,9 @@
   <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
   <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
   <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
+  <li>Max DPS and DPS account critical strikes and savage blow</li>
+  <li>Max DPS and DPS do not account wave nor surge yet</li>
   <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>
-  <li>Max DPS and DPS do not account critical strikes nor wave/surge yet</li>
 </ul>
 <% end %>
 
@@ -57,7 +58,7 @@
   <% if stat.attacks.size > 1 %>
   <tr>
     <td>Max DPS</td>
-    <td><%= stat.max_dps || '?' %></td>
+    <td><%= stat.max_dps&.round || '?' %></td>
     <td>Max DPS area</td>
     <td><%= stat.max_dps_area %></td>
     <td></td>
@@ -75,9 +76,9 @@
   </tr>
   <tr>
     <td>DPS</td>
-    <td><%= attack.dps || '?' %></td>
+    <td><%= attack.dps&.round || '?' %></td>
     <td>Trigger effects</td>
-    <td colspan="3"><%= attack.trigger_effects %></td>
+    <td colspan="3"><%= attack.display_effects %></td>
   </tr>
   <% end %>
   <% stat.specialized_abilities.each do |ability| %>
