@@ -48,14 +48,6 @@
 
 * Only show the languages which are built, no need to force all of them
 
-## Tests
-
-* Check 2160402177
-* echo 8.5 6970 2500 500 30 23 21 7 1 3 20 2 15 2 22 2 12 3 16 2 8 2 0 2 15 3 19 5 0 | time ./Seeker
-* Above is 1027349002
-* Picking an invalid event
-* 3112486085 is a very nice testing seed
-
 ## Seed seeker
 
 * An idea to speed up seeking process. We could pre-process the seeds, and
