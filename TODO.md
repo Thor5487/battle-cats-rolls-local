@@ -19,7 +19,9 @@
   https://bc.godfat.org/?seed=1&event=custom&custom=12&details=true
   This should not show empty gacha, but what are there and what's missing.
   Check GachaPool#slots for this.
-* Can't untick the last owned cat
+* Can't untick the last owned cat (This is because we can't tell if this is
+  visiting the page itself or it's unticking the last cat, because `t` is
+  absent in both cases, the URL is the same!)
 * Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
 ## Features and utilities
