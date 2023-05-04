@@ -34,11 +34,12 @@
   </select>
 
   <% if gacha.pool.guaranteed_rolls > 0 %>
-    <label for="no_guaranteed_input">Exclude guaranteed:</label>
-    <input type="checkbox" id="no_guaranteed_input"
-      name="no_guaranteed" value="true"
-      <%= checked_no_guaranteed %>
-      onchange="roll(this)">
+    <label for="no_guaranteed_input">Exclude guaranteed:
+      <input type="checkbox" id="no_guaranteed_input"
+        name="no_guaranteed" value="true"
+        <%= checked_no_guaranteed %>
+        onchange="roll(this)">
+    </label>
   <% end %>
 
   <label for="force_guaranteed_input">Simulate guaranteed:</label>
