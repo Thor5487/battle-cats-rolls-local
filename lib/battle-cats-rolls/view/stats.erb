@@ -1,16 +1,5 @@
 <%= erb :form %>
 
-<% if cat = arg[:stats].first %>
-<ul>
-  <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
-  <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
-  <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
-  <li>DPS accounts critical strikes and savage blow</li>
-  <li>DPS does not account wave nor surge yet</li>
-  <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>
-</ul>
-<% end %>
-
 <table>
 <% arg[:stats].each do |stat| %>
   <tr>
@@ -101,3 +90,14 @@
   <% end %>
 <% end %>
 </table>
+
+<ul>
+  <% if cat = arg[:stats].first %>
+  <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
+  <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
+  <% end %>
+  <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
+  <li>DPS accounts critical strikes and savage blow</li>
+  <li>DPS does not account wave nor surge yet</li>
+  <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>
+</ul>
