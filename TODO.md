@@ -1,7 +1,6 @@
 ## Stats
 
 * Show talents
-* Account critical strikes and savage blows into DPS
 * Account surge damage into DPS
 * Show surge duration
 * Show knockback distance
