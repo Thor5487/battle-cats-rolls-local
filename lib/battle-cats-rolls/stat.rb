@@ -4,7 +4,8 @@ require_relative 'ability'
 
 module BattleCatsRolls
   class Stat < Struct.new(
-    :id, :info, :index, :level, keyword_init: true)
+    :id, :info, :index, :level,
+    :dps_no_critical, keyword_init: true)
     class Attack < Struct.new(
       :stat, :damage, :long_range, :long_range_offset,
       :trigger_effects, :duration, keyword_init: true)
@@ -43,9 +44,10 @@ module BattleCatsRolls
         elsif stat.attack_cycle
           raw_dps = (damage.to_f / stat.attack_cycle) * stat.fps
 
-          critical_effects.inject(raw_dps) do |result, critical|
-            result *
-              (1 + (critical.modifier / 100.0) * (critical.chance / 100.0))
+          if stat.dps_no_critical
+            raw_dps
+          else
+            account_critical(raw_dps)
           end
         end
       end
@@ -73,6 +75,13 @@ module BattleCatsRolls
           when Ability::CriticalStrike, Ability::SavageBlow
             true
           end
+        end
+      end
+
+      def account_critical raw_dps
+        critical_effects.inject(raw_dps) do |result, critical|
+          result *
+            (1 + (critical.modifier / 100.0) * (critical.chance / 100.0))
         end
       end
     end

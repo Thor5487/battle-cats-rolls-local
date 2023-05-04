@@ -9,9 +9,11 @@ describe BattleCatsRolls::Stat do
   def lang; 'en'; end
   def level; 30; end
   def index; 0; end
+  def dps_no_critical; nil; end
   def stat
     @stat ||= BattleCatsRolls::Stat.new(
       id: id, index: index, level: level,
+      dps_no_critical: dps_no_critical,
       info: BattleCatsRolls::Route.public_send("ball_#{lang}").cats[id])
   end
 
@@ -78,19 +80,49 @@ describe BattleCatsRolls::Stat do
         expect(attacks.last.dps.round(3)).eq 2670.652 # 50% critical strike
         expect(stat.dps_sum.round(3)).eq 5977.174 # Not 5978
       end
+
+      describe 'but can be disabled' do
+        def dps_no_critical; true; end
+
+        would 'return correct DPS' do
+          attacks = stat.attacks
+
+          expect(attacks.size).eq 2
+          expect(attacks.first.dps.round(3)).eq 3306.522
+          expect(attacks.last.dps.round(3)).eq 1780.435
+          expect(stat.dps_sum.round(3)).eq 5086.957
+        end
+      end
     end
 
     describe 'Lasvoss Reborn' do
       def id; 520; end
       def index; 2; end
 
-      would 'return correct DPS' do
-        attacks = stat.attacks
-        expected_dps = 14658.683
+      def expected_dps
+        14658.683
+      end
 
-        expect(attacks.size).eq 1
-        expect(attacks.first.dps.round(3)).eq expected_dps
-        expect(stat.dps_sum.round(3)).eq expected_dps
+      copy do
+        would 'return correct DPS' do
+          attacks = stat.attacks
+
+          expect(attacks.size).eq 1
+          expect(attacks.first.dps.round(3)).eq expected_dps
+          expect(stat.dps_sum.round(3)).eq expected_dps
+        end
+      end
+
+      paste
+
+      describe 'but can be disabled' do
+        def dps_no_critical; true; end
+
+        def expected_dps
+          9161.677
+        end
+
+        paste
       end
     end
   end

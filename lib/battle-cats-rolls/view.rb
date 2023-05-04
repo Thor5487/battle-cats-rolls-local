@@ -223,6 +223,10 @@ module BattleCatsRolls
       'checked="checked"' if route.details
     end
 
+    def checked_dps_no_critical
+      'checked="checked"' if route.dps_no_critical
+    end
+
     def checked_cat cat
       ticked = route.ticked
 

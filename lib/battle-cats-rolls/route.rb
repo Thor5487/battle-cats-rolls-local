@@ -306,6 +306,12 @@ module BattleCatsRolls
       @default_level ||= 30
     end
 
+    def dps_no_critical
+      return @dps_no_critical if instance_variable_defined?(:@dps_no_critical)
+
+      @dps_no_critical = request.params_coercion_true_or_nil('dps_no_critical')
+    end
+
     def uri_to_roll cat
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
@@ -410,6 +416,7 @@ module BattleCatsRolls
       ret = %i[
         seed last event custom rate c_rare c_supa c_uber level lang version
         name theme count find no_guaranteed force_guaranteed ubers details
+        dps_no_critical
         o
       ].inject({}) do |result, key|
         result[key] = query[key] || __send__(key)

@@ -151,7 +151,8 @@ module BattleCatsRolls
           if info = route.cats[id]
             level = [route.level, info['max_level']].min
             info['name'].size.times.map do |index|
-              Stat.new(id: id, info: info, index: index, level: level)
+              Stat.new(id: id, info: info, index: index, level: level,
+                dps_no_critical: route.dps_no_critical)
             end
           else
             []
