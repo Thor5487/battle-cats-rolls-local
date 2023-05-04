@@ -10,7 +10,6 @@
 
 ## Bugs
 
-* Preserve level input everywhere (insert hidden_input)
 * Preserve current queries when swapping language for a non-existing cat when showing stats
 * If there's a non-existing cat in a gacha, for now we show nothing because
   tracking can't be done due to missing rarity data. However, it'll be useful
