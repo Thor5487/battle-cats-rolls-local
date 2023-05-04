@@ -18,6 +18,7 @@
   https://bc.godfat.org/?seed=1&event=custom&custom=12&details=true
   This should not show empty gacha, but what are there and what's missing.
   Check GachaPool#slots for this.
+* Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 * Preserve current queries when swapping language for a non-existing cat when
   showing stats (This is something that it's hard to fix, too. We don't know
   if the user intentionally enter an invalid level, or it's swapping to a cat
@@ -27,7 +28,6 @@
 * Can't untick the last owned cat (This is because we can't tell if this is
   visiting the page itself or it's unticking the last cat, because `t` is
   absent in both cases, the URL is the same!)
-* Fix guessing 10 rolls link when seeking seed (Can't recall this. Was this for dupe rare?)
 
 ## Features and utilities
 
