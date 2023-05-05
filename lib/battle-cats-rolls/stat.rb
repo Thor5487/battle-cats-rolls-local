@@ -160,7 +160,7 @@ module BattleCatsRolls
       if stat['area_effect']
         'Area'
       else
-        'Single'
+        'Single range'
       end
     end
 
