@@ -25,6 +25,14 @@ module BattleCatsRolls
       end
     end
 
+    def effects
+      @effects ||= if trigger_effects?
+        stat.effects
+      else
+        []
+      end
+    end
+
     def display_effects
       @display_effects ||= if trigger_effects?
         effects.map(&:name).join(', ')
@@ -53,15 +61,7 @@ module BattleCatsRolls
       # Older cats with single attack might not be marked with triggering
       # effects, but they do according to the game. For example,
       # Apple Cat (id=40) has no trigger effects but it does trigger effect!
-      trigger_effects == 1 || stat.attacks.size <= 1
-    end
-
-    def effects
-      @effects ||= if trigger_effects?
-        stat.effects
-      else
-        []
-      end
+      trigger_effects == 1 || stat.single_damage?
     end
 
     def critical_effects
@@ -78,6 +78,64 @@ module BattleCatsRolls
         result *
           (1 + (critical.modifier / 100.0) * (critical.chance / 100.0))
       end
+    end
+  end
+
+  class WaveAttack < Attack
+    def area_range
+      @area_range ||= self.begin + width +
+        wave_step * (stat.wave_effect.level - 1)
+    end
+
+    def damage
+      if stat.wave_effect.mini
+        (super * mini_damage_multiplier).round
+      else
+        super
+      end
+    end
+
+    def dps
+      @dps ||= if stat.kamikaze?
+        super
+      elsif stat.attack_cycle
+        account_chance(super)
+      end
+    end
+
+    def effects
+      @effects ||= super.reject do |eff|
+        case eff
+        when Ability::Wave, Ability::Surge
+          true
+        end
+      end
+    end
+
+    private
+
+    def wave_step
+      (width * next_position_multiplier).round
+    end
+
+    def account_chance raw_dps
+      raw_dps * stat.wave_effect.chance / 100.0
+    end
+
+    def mini_damage_multiplier
+      0.2
+    end
+
+    def width
+      400
+    end
+
+    def begin
+      -67
+    end
+
+    def next_position_multiplier
+      0.5
     end
   end
 end

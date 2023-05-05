@@ -345,6 +345,10 @@ module BattleCatsRolls
         "#{percent(chance)} to produce level #{highlight(level)} #{name.downcase} attack"
       end
 
+      def display_short
+        "#{percent(chance)} level #{highlight(level)} #{name.downcase}"
+      end
+
       def specialized; false; end
       def effects; true; end
       def index; __LINE__; end

@@ -58,7 +58,7 @@ module BattleCatsRolls
       @attack_cycle ||= attack_duration &&
         [
           attack_duration,
-          attacks.sum(&:duration) + attack_cooldown
+          attacks_raw.sum(&:duration) + attack_cooldown
         ].max
     end
 
@@ -102,6 +102,10 @@ module BattleCatsRolls
       end
     end
 
+    def wave_effect
+      @wave_effect ||= effects.find{ |eff| eff.kind_of?(Ability::Wave) }
+    end
+
     def dps_sum
       @dps_sum ||= if kamikaze?
         '-'
@@ -129,13 +133,34 @@ module BattleCatsRolls
     end
 
     def attacks
-      @attacks ||= 3.times.filter_map do |n|
+      @attacks ||= if wave_effect
+        attacks_raw.flat_map do |atk|
+          if atk.effects.any?
+            wave = WaveAttack.new(stat: self, damage: atk.damage,
+              trigger_effects: atk.trigger_effects)
+
+            [atk, wave]
+          else
+            atk
+          end
+        end
+      else
+        attacks_raw
+      end
+    end
+
+    def attacks_raw
+      @attacks_raw ||= 3.times.filter_map do |n|
         next unless value = damage(n)
 
         Attack.new(stat: self, damage: value,
           long_range: long_range(n), long_range_offset: long_range_offset(n),
           trigger_effects: trigger_effects(n), duration: duration(n))
       end
+    end
+
+    def single_damage?
+      stat['damage_1'].nil?
     end
 
     def specialized_abilities

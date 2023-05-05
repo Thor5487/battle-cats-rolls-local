@@ -37,6 +37,16 @@ module BattleCatsRolls
       end
     end
 
+    def each_attack stat
+      if route.hide_wave
+        stat.attacks_raw
+      else
+        stat.attacks
+      end.each do |attack|
+        yield(attack)
+      end
+    end
+
     def color_label cat, type, rerolled
       return unless cat
 
@@ -221,6 +231,10 @@ module BattleCatsRolls
 
     def checked_details
       'checked="checked"' if route.details
+    end
+
+    def checked_hide_wave
+      'checked="checked"' if route.hide_wave
     end
 
     def checked_dps_no_critical

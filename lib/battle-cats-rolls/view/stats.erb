@@ -54,14 +54,18 @@
     <td></td>
   </tr>
   <% end %>
-  <% stat.attacks.each do |attack| %>
+  <% each_attack(stat) do |attack| %>
   <tr>
     <td>Damage</td>
     <td><%= attack.damage %></td>
     <td><%= stat.area_type %></td>
     <td><%= attack.area %></td>
+    <% if attack.kind_of?(BattleCatsRolls::WaveAttack) %>
+    <td colspan="2"><%= stat.wave_effect.display_short %></td>
+    <% else %>
     <td>Duration</td>
     <td><%= stat_time attack.duration %></td>
+    <% end %>
   </tr>
   <tr>
     <td>DPS</td>
