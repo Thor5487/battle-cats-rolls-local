@@ -17,16 +17,15 @@
       max="<%= arg.dig(:cat_data, 'max_level') %>"
       onclick="this.select()">
 
-    <label for="no_critical_input">
-      DPS discount critical strikes and savage blows
-      <input type="checkbox" id="no_critical_input" name="dps_no_critical"
-        <%= checked_dps_no_critical %>
-        onchange="roll(this)">
-    </label>
+    Growth rate: <%= growth_rate(arg.dig(:cat_data, 'growth')) %>
 
-    <div class="growth">
-      Growth rate:
-      <%= growth_rate(arg.dig(:cat_data, 'growth')) %>
+    <div class="dps_options">
+      <label for="no_critical_input">
+        <input type="checkbox" id="no_critical_input" name="dps_no_critical"
+          <%= checked_dps_no_critical %>
+          onchange="roll(this)">
+         Discount critical strikes and savage blows from DPS
+      </label>
     </div>
   <% else %>
     <%= hidden_inputs('level', 'dps_no_critical') %>
