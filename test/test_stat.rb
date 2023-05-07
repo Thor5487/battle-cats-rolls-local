@@ -126,4 +126,42 @@ describe BattleCatsRolls::Stat do
       end
     end
   end
+
+  describe 'DPS account wave attacks' do
+    def lang; 'jp'; end # No DPS data for en
+
+    describe 'Shampoo' do
+      def id; 600; end
+
+      copy do
+        would 'have wave attacks having correct DPS' do
+          attacks = stat.attacks
+          expect(attacks.size).eq number_of_attacks * 2
+
+          wave_dps = dps * wave_chance * 0.2 # mini-wave 20% damage
+          all_dps = [dps, wave_dps].map(&:round) * number_of_attacks
+
+          expect(stat.attacks.map(&:dps).map(&:round)).eq all_dps
+        end
+      end
+
+      describe 'cat form' do
+        def number_of_attacks; 2; end
+        def dps; 961; end
+        def wave_chance; 0.5; end
+
+        paste
+      end
+
+      describe 'human form' do
+        def index; 1; end
+
+        def number_of_attacks; 3; end
+        def dps; 1754; end
+        def wave_chance; 1; end
+
+        paste
+      end
+    end
+  end
 end
