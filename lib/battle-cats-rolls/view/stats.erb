@@ -2,10 +2,10 @@
 
 <table>
 <% arg[:stats].each do |stat| %>
-  <tr>
+  <tr class="border_upper">
     <th colspan="6"><%= h stat.name %></th>
   </tr>
-  <tr>
+  <tr class="border_upper">
     <td>Health</td>
     <td><%= stat.health %></td>
     <td>Knockback times</td>
@@ -13,31 +13,26 @@
     <td>Speed</td>
     <td><%= stat.speed %></td>
   </tr>
-  <tr>
+  <tr class="border_middle">
     <td>Production cost</td>
     <td><%= stat.production_cost %></td>
     <td>Production cooldown</td>
     <td><%= stat_time stat.production_cooldown %></td>
+    <td>Attack cooldown</td>
+    <td><%= stat_time stat.attack_cooldown %></td>
+  </tr>
+  <tr class="border_middle">
+    <td>Attack cycle</td>
+    <td><%= stat_time stat.attack_cycle %></td>
+    <td>Attack duration</td>
+    <td><%= stat_time stat.attack_duration %></td>
     <td>Rush duration</td>
     <td><%= stat_time stat.rush_duration %></td>
   </tr>
-  <tr>
-    <td>Attack cycle</td>
-    <td><%= stat_time stat.attack_cycle %></td>
-    <td>Attack cooldown</td>
-    <td><%= stat_time stat.attack_cooldown %></td>
-    <td>Attack duration</td>
-    <td><%= stat_time stat.attack_duration %></td>
-  </tr>
-  <% if stat.attacks.size > 1 || stat.long_range? %>
-  <tr>
-    <% if stat.attacks.size > 1 %>
-    <td>Damage sum</td>
-    <td><%= stat.damage_sum %></td>
-    <% else %>
+  <% if stat.long_range? %>
+  <tr class="border_middle">
     <td></td>
     <td></td>
-    <% end %>
     <td>Range</td>
     <td><%= stat.range %></td>
     <td></td>
@@ -45,54 +40,55 @@
   </tr>
   <% end %>
   <% if stat.attacks.size > 1 %>
-  <tr>
+  <tr class="border_middle">
     <td>DPS sum</td>
-    <td><%= stat.dps_sum&.round || '?' %></td>
+    <td><%= stat_int(stat.dps_sum) %></td>
     <td>Max DPS area</td>
     <td><%= stat.max_dps_area %></td>
-    <td></td>
-    <td></td>
+    <td>Damage sum</td>
+    <td><%= stat.damage_sum %></td>
   </tr>
   <% end %>
   <% each_attack(stat) do |attack| %>
-  <tr>
-    <td>Damage</td>
-    <td><%= attack.damage %></td>
+  <tr class="border_upper">
+    <td>DPS</td>
+    <td><%= stat_int(attack.dps) %></td>
     <td><%= stat.area_type %></td>
     <td><%= attack.area %></td>
+    <td>Damage</td>
+    <td><%= attack.damage %></td>
+  </tr>
+  <tr class="border_lower">
     <% if attack.kind_of?(BattleCatsRolls::WaveAttack) %>
     <td colspan="2"><%= stat.wave_effect.display_short %></td>
     <% else %>
     <td>Duration</td>
     <td><%= stat_time attack.duration %></td>
     <% end %>
-  </tr>
-  <tr>
-    <td>DPS</td>
-    <td><%= attack.dps&.round || '?' %></td>
     <td>Trigger effects</td>
     <td colspan="3"><%= attack.display_effects %></td>
   </tr>
   <% end %>
   <% stat.specialized_abilities.each do |ability| %>
-  <tr>
+  <tr class="border_middle">
     <td><%= ability.name %></td>
     <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
   </tr>
   <% end %>
   <% if stat.generic_abilities.any? %>
-  <tr>
+  <tr class="border_middle">
     <td></td>
     <td colspan="5">Abilities below will not be affected by curse</td>
   </tr>
   <% stat.generic_abilities.each do |ability| %>
-  <tr>
+  <tr class="border_middle">
     <td><%= ability.name %></td>
     <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
   </tr>
   <% end %>
   <% end %>
 <% end %>
+  <tr class="border_bottom"></tr>
 </table>
 
 <ul>

@@ -346,7 +346,7 @@ module BattleCatsRolls
       end
 
       def display_short
-        "#{percent(chance)} level #{highlight(level)} #{name.downcase}"
+        "#{percent(chance)} #{name.downcase}"
       end
 
       def specialized; false; end

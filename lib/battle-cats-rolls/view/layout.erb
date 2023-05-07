@@ -60,6 +60,11 @@
       #rare_input, #supa_input, #uber_input { width: 5em; }
       .menu { width: 60px; height: 60px; }
       .section { margin-bottom: 15px; }
+      .border, .border_upper, .border_lower { border: 2px solid; }
+      .border_upper { border-bottom: none; }
+      .border_lower { border-top: none; }
+      .border_middle { border-left: 2px solid; border-right: 2px solid; }
+      .border_bottom { border-top: 2px solid; }
 
       <% unless show_details %>
         .score, .cat { border-bottom-style: none; }

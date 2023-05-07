@@ -291,6 +291,17 @@ module BattleCatsRolls
       end
     end
 
+    def stat_int number
+      case number
+      when Numeric
+        number.round
+      when NilClass
+        '?'
+      else
+        number
+      end
+    end
+
     def growth_rate growth
       return unless growth
 

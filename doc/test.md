@@ -67,6 +67,8 @@
   https://bc.godfat.org/cats/201
 * Sea Maiden Ruri: Multi single attacks:
   https://bc.godfat.org/cats/336
+* Hermit Cat: Multi 100% wave:
+  https://bc.godfat.org/cats/353
 * Volley Cat: Long range single attack:
   https://bc.godfat.org/cats/380
 * Glass Cat: Kamikaze does not have DPS:
@@ -81,6 +83,8 @@
   http://bc.godfat.org/cats/559?level=100
 * Emperor Cat: A lot of control effects:
   https://bc.godfat.org/cats/587
+* Shampoo (Cat): Multi 50% mini wave:
+  https://bc.godfat.org/cats/600
 * Fabled Adventure Girl Kanna: First strike surge effect and various ranges:
   https://bc.godfat.org/cats/608
 * Iz the Dancer of Grief: A lot of abilities:
