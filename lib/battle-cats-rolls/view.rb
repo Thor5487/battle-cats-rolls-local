@@ -237,6 +237,10 @@ module BattleCatsRolls
       'checked="checked"' if route.hide_wave
     end
 
+    def checked_dps_no_wave
+      'checked="checked"' if route.dps_no_wave
+    end
+
     def checked_dps_no_critical
       'checked="checked"' if route.dps_no_critical
     end

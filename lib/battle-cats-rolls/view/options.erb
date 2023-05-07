@@ -26,15 +26,23 @@
           onchange="roll(this)">
          Hide wave attacks
       </label>
-      <label for="no_critical_input">
-        <input type="checkbox" id="no_critical_input" name="dps_no_critical"
+      <label for="dps_no_wave_input">
+        <input type="checkbox" id="dps_no_wave_input" name="dps_no_wave"
+          <%= checked_dps_no_wave %>
+          onchange="roll(this)">
+         Discount wave attacks from DPS
+      </label>
+      <label for="dps_no_critical_input">
+        <input type="checkbox" id="dps_no_critical_input"
+          name="dps_no_critical"
           <%= checked_dps_no_critical %>
           onchange="roll(this)">
          Discount critical strikes and savage blows from DPS
       </label>
     </div>
   <% else %>
-    <%= hidden_inputs('level', 'hide_wave', 'dps_no_critical') %>
+    <%= hidden_inputs('level', 'hide_wave',
+      'dps_no_wave', 'dps_no_critical') %>
   <% end %>
 
   <% if route.path_info.match?(%r{\A/(?:seek)?\z}) %>
@@ -93,7 +101,7 @@
 </div>
 <% else %>
 <%= hidden_inputs('level', 'lang', 'version', 'name',
-  'hide_wave', 'dps_no_critical') %>
+  'hide_wave', 'dps_no_wave', 'dps_no_critical') %>
 <% end %>
 
 <%= hidden_inputs('o') %>

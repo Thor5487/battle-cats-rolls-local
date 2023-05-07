@@ -6,7 +6,8 @@ require_relative 'attack'
 module BattleCatsRolls
   class Stat < Struct.new(
     :id, :info, :index, :level,
-    :dps_no_critical, keyword_init: true)
+    :dps_no_wave, :dps_no_critical,
+    keyword_init: true)
 
     def name
       info.dig('name', index)

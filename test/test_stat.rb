@@ -9,10 +9,12 @@ describe BattleCatsRolls::Stat do
   def lang; 'en'; end
   def level; 30; end
   def index; 0; end
+  def dps_no_wave; nil; end
   def dps_no_critical; nil; end
   def stat
     @stat ||= BattleCatsRolls::Stat.new(
       id: id, index: index, level: level,
+      dps_no_wave: dps_no_wave,
       dps_no_critical: dps_no_critical,
       info: BattleCatsRolls::Route.public_send("ball_#{lang}").cats[id])
   end
@@ -133,15 +135,33 @@ describe BattleCatsRolls::Stat do
     describe 'Shampoo' do
       def id; 600; end
 
-      copy do
-        would 'have wave attacks having correct DPS' do
+      copy :test do
+        would 'have correct dps' do
           attacks = stat.attacks
           expect(attacks.size).eq number_of_attacks * 2
 
-          wave_dps = dps * wave_chance * 0.2 # mini-wave 20% damage
           all_dps = [dps, wave_dps].map(&:round) * number_of_attacks
 
           expect(stat.attacks.map(&:dps).map(&:round)).eq all_dps
+        end
+      end
+
+      copy :account_wave do
+        describe 'wave dps' do
+          def wave_dps
+            dps * wave_chance * 0.2 # mini-wave 20% damage
+          end
+
+          paste :test
+        end
+      end
+
+      copy :discount_wave do
+        describe 'no wave dps' do
+          def dps_no_wave; true; end
+          def wave_dps; 0; end
+
+          paste :test
         end
       end
 
@@ -150,7 +170,8 @@ describe BattleCatsRolls::Stat do
         def dps; 961; end
         def wave_chance; 0.5; end
 
-        paste
+        paste :account_wave
+        paste :discount_wave
       end
 
       describe 'human form' do
@@ -160,7 +181,8 @@ describe BattleCatsRolls::Stat do
         def dps; 1754; end
         def wave_chance; 1; end
 
-        paste
+        paste :account_wave
+        paste :discount_wave
       end
     end
   end
