@@ -83,6 +83,10 @@ module BattleCatsRolls
       stat['range']
     end
 
+    def base_range
+      stat['long_range_0'] || range
+    end
+
     def width
       stat['width']
     end
@@ -96,7 +100,7 @@ module BattleCatsRolls
     end
 
     def long_range?
-      @long_range ||= attacks_raw.any?(&:long_range)
+      @long_range ||= !!stat['long_range_0']
     end
 
     def kamikaze?
