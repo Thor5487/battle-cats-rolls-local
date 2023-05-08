@@ -72,7 +72,11 @@ module BattleCatsRolls
     end
 
     def damage_sum
-      @damage_sum ||= attacks.sum(&:damage)
+      @damage_sum ||= if sum_no_wave
+        attacks_raw
+      else
+        attacks
+      end.sum(&:damage)
     end
 
     def range
@@ -116,10 +120,10 @@ module BattleCatsRolls
         '-'
       elsif attack_cycle
         if sum_no_wave
-          attacks_raw.sum(&:dps)
+          attacks_raw
         else
-          attacks.sum(&:dps)
-        end
+          attacks
+        end.sum(&:dps)
       end
     end
 

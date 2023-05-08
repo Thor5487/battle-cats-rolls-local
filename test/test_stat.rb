@@ -129,31 +129,59 @@ describe BattleCatsRolls::Stat do
     end
   end
 
-  describe 'DPS account wave attacks' do
+  describe 'account wave attacks' do
     def lang; 'jp'; end # No DPS data for en
 
     describe 'Shampoo' do
       def id; 600; end
 
+      def dps
+        damage / attack_cycle
+      end
+
       def wave_dps
-        dps * wave_chance * 0.2 # mini-wave 20% damage
+        (wave_damage / attack_cycle) * wave_chance
+      end
+
+      def wave_damage
+        damage * 0.2 # mini-wave 20% damage
+      end
+
+      def attack_cycle
+        @attack_cycle ||= stat.attack_cycle.to_f / stat.fps
       end
 
       copy :test do
-        would 'have correct dps' do
+        would 'have correct DPS' do
           attacks = stat.attacks
           expect(attacks.size).eq number_of_attacks * 2
 
           all_dps = [dps, wave_dps] * number_of_attacks
 
-          expect(stat.attacks.map(&:dps).map(&:round)).eq all_dps.map(&:round)
-          expect(stat.dps_sum.round).eq dps_sum(all_dps.sum).round
+          expect(stat.attacks.map(&:dps).map(&:round)).eq \
+            all_dps.map(&:round)
+
+          expect(stat.dps_sum.round).eq \
+            sum_with_wave(all_dps.sum, wave_dps).round
+        end
+
+        would 'have correct damage' do
+          attacks = stat.attacks
+          expect(attacks.size).eq number_of_attacks * 2
+
+          all_damage = [damage, wave_damage] * number_of_attacks
+
+          expect(stat.attacks.map(&:damage).map(&:round)).eq \
+            all_damage.map(&:round)
+
+          expect(stat.damage_sum.round).eq \
+            sum_with_wave(all_damage.sum, wave_damage).round
         end
       end
 
       copy :account_wave do
-        describe 'wave dps' do
-          def dps_sum sum
+        describe 'wave DPS' do
+          def sum_with_wave sum, _
             sum
           end
 
@@ -162,11 +190,11 @@ describe BattleCatsRolls::Stat do
       end
 
       copy :discount_wave do
-        describe 'no wave dps' do
+        describe 'no wave DPS' do
           def sum_no_wave; true; end
 
-          def dps_sum sum
-            sum - wave_dps * number_of_attacks
+          def sum_with_wave sum, wave
+            sum - wave * number_of_attacks
           end
 
           paste :test
@@ -175,7 +203,7 @@ describe BattleCatsRolls::Stat do
 
       describe 'cat form' do
         def number_of_attacks; 2; end
-        def dps; 960.616; end
+        def damage; 4675; end
         def wave_chance; 0.5; end
 
         paste :account_wave
@@ -186,7 +214,7 @@ describe BattleCatsRolls::Stat do
         def index; 1; end
 
         def number_of_attacks; 3; end
-        def dps; 1754.140; end
+        def damage; 9180; end
         def wave_chance; 1; end
 
         paste :account_wave
