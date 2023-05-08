@@ -186,4 +186,35 @@ describe BattleCatsRolls::Stat do
       end
     end
   end
+
+  describe '#max_dps_area' do
+    def index; 1; end
+
+    copy do
+      would 'return correct max DPS area along with mini-wave' do
+        expect(stat.max_dps_area).eq area
+      end
+    end
+
+    describe 'Mighty Aegis Garu' do
+      def id; 586; end
+      def area; '-67 ~ 400'; end
+
+      paste
+    end
+
+    describe 'Wedding Chronos' do
+      def id; 662; end
+      def area; '300 ~ 700'; end
+
+      paste
+    end
+
+    describe 'King of Destiny Phonoa' do
+      def id; 691; end
+      def area; '590 ~ 600'; end
+
+      paste
+    end
+  end
 end

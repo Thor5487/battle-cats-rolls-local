@@ -82,8 +82,13 @@ module BattleCatsRolls
   end
 
   class WaveAttack < Attack
+    def area
+      area_range.end # Display this in a simple way
+    end
+
     def area_range
-      @area_range ||= self.begin + width +
+      # Use range because it might need to work with long range
+      @area_range ||= self.begin..self.begin + width +
         wave_step * (stat.wave_effect.level - 1)
     end
 
