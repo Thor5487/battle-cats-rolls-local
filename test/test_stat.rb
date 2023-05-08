@@ -9,12 +9,12 @@ describe BattleCatsRolls::Stat do
   def lang; 'en'; end
   def level; 30; end
   def index; 0; end
-  def dps_no_wave; nil; end
+  def sum_no_wave; nil; end
   def dps_no_critical; nil; end
   def stat
     @stat ||= BattleCatsRolls::Stat.new(
       id: id, index: index, level: level,
-      dps_no_wave: dps_no_wave,
+      sum_no_wave: sum_no_wave,
       dps_no_critical: dps_no_critical,
       info: BattleCatsRolls::Route.public_send("ball_#{lang}").cats[id])
   end
@@ -135,21 +135,26 @@ describe BattleCatsRolls::Stat do
     describe 'Shampoo' do
       def id; 600; end
 
+      def wave_dps
+        dps * wave_chance * 0.2 # mini-wave 20% damage
+      end
+
       copy :test do
         would 'have correct dps' do
           attacks = stat.attacks
           expect(attacks.size).eq number_of_attacks * 2
 
-          all_dps = [dps, wave_dps].map(&:round) * number_of_attacks
+          all_dps = [dps, wave_dps] * number_of_attacks
 
-          expect(stat.attacks.map(&:dps).map(&:round)).eq all_dps
+          expect(stat.attacks.map(&:dps).map(&:round)).eq all_dps.map(&:round)
+          expect(stat.dps_sum.round).eq dps_sum(all_dps.sum).round
         end
       end
 
       copy :account_wave do
         describe 'wave dps' do
-          def wave_dps
-            dps * wave_chance * 0.2 # mini-wave 20% damage
+          def dps_sum sum
+            sum
           end
 
           paste :test
@@ -158,8 +163,11 @@ describe BattleCatsRolls::Stat do
 
       copy :discount_wave do
         describe 'no wave dps' do
-          def dps_no_wave; true; end
-          def wave_dps; 0; end
+          def sum_no_wave; true; end
+
+          def dps_sum sum
+            sum - wave_dps * number_of_attacks
+          end
 
           paste :test
         end
@@ -167,7 +175,7 @@ describe BattleCatsRolls::Stat do
 
       describe 'cat form' do
         def number_of_attacks; 2; end
-        def dps; 961; end
+        def dps; 960.616; end
         def wave_chance; 0.5; end
 
         paste :account_wave
@@ -178,7 +186,7 @@ describe BattleCatsRolls::Stat do
         def index; 1; end
 
         def number_of_attacks; 3; end
-        def dps; 1754; end
+        def dps; 1754.140; end
         def wave_chance; 1; end
 
         paste :account_wave

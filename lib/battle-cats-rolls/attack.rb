@@ -101,11 +101,7 @@ module BattleCatsRolls
       @dps ||= if stat.kamikaze?
         super
       elsif stat.attack_cycle
-        if stat.dps_no_wave
-          0
-        else
-          account_chance(super)
-        end
+        account_chance(super)
       end
     end
 

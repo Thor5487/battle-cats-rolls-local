@@ -312,10 +312,10 @@ module BattleCatsRolls
       @hide_wave = request.params_coercion_true_or_nil('hide_wave')
     end
 
-    def dps_no_wave
-      return @dps_no_wave if instance_variable_defined?(:@dps_no_wave)
+    def sum_no_wave
+      return @sum_no_wave if instance_variable_defined?(:@sum_no_wave)
 
-      @dps_no_wave = request.params_coercion_true_or_nil('dps_no_wave')
+      @sum_no_wave = request.params_coercion_true_or_nil('sum_no_wave')
     end
 
     def dps_no_critical
@@ -428,7 +428,7 @@ module BattleCatsRolls
       ret = %i[
         seed last event custom rate c_rare c_supa c_uber level lang version
         name theme count find no_guaranteed force_guaranteed ubers details
-        hide_wave dps_no_wave dps_no_critical
+        hide_wave sum_no_wave dps_no_critical
         o
       ].inject({}) do |result, key|
         result[key] = query[key] || __send__(key)

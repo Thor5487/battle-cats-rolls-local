@@ -152,7 +152,7 @@ module BattleCatsRolls
             level = [route.level, info['max_level']].min
             info['name'].size.times.map do |index|
               Stat.new(id: id, info: info, index: index, level: level,
-                dps_no_wave: route.dps_no_wave,
+                sum_no_wave: route.sum_no_wave,
                 dps_no_critical: route.dps_no_critical)
             end
           else

@@ -6,7 +6,7 @@ require_relative 'attack'
 module BattleCatsRolls
   class Stat < Struct.new(
     :id, :info, :index, :level,
-    :dps_no_wave, :dps_no_critical,
+    :sum_no_wave, :dps_no_critical,
     keyword_init: true)
 
     def name
@@ -115,7 +115,11 @@ module BattleCatsRolls
       @dps_sum ||= if kamikaze?
         '-'
       elsif attack_cycle
-        attacks.sum(&:dps)
+        if sum_no_wave
+          attacks_raw.sum(&:dps)
+        else
+          attacks.sum(&:dps)
+        end
       end
     end
 
