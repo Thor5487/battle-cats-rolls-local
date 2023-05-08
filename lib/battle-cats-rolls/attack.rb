@@ -6,13 +6,11 @@ module BattleCatsRolls
     :trigger_effects, :duration, keyword_init: true)
 
     def area
-      @area ||=
-        case area_range
-        when Range
-          "#{area_range.begin} ~ #{area_range.end}"
-        else
-          area_range
-        end
+      @area ||= if area_range.begin == -stat.width
+        area_range.end.to_s
+      else
+        "#{area_range.begin} ~ #{area_range.end}"
+      end
     end
 
     def area_range
@@ -21,7 +19,7 @@ module BattleCatsRolls
         from, to = [long_range, reach].sort
         from..to
       else
-        stat.range
+        -stat.width..stat.range
       end
     end
 
@@ -83,11 +81,10 @@ module BattleCatsRolls
 
   class WaveAttack < Attack
     def area
-      area_range.end # Display this in a simple way
+      @area ||= area_range.end.to_s # Display this in a simple way
     end
 
     def area_range
-      # Use range because it might need to work with long range
       @area_range ||= self.begin..self.begin + width +
         wave_step * (stat.wave_effect.level - 1)
     end

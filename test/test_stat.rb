@@ -196,6 +196,14 @@ describe BattleCatsRolls::Stat do
       end
     end
 
+    describe 'Masked Grandmaster Cat' do
+      def id; 353; end
+      def index; 2; end
+      def area; '255'; end
+
+      paste
+    end
+
     describe 'Mighty Aegis Garu' do
       def id; 586; end
       def area; '-67 ~ 400'; end

@@ -79,6 +79,10 @@ module BattleCatsRolls
       stat['range']
     end
 
+    def width
+      stat['width']
+    end
+
     def area_type
       if stat['area_effect']
         'Area'
@@ -88,7 +92,7 @@ module BattleCatsRolls
     end
 
     def long_range?
-      @long_range ||= attacks.any?{ |atk| atk.area_range.kind_of?(Range) }
+      @long_range ||= attacks.any?{ |atk| atk.area.include?('~') }
     end
 
     def kamikaze?
@@ -127,7 +131,7 @@ module BattleCatsRolls
           'None'
         end
       elsif stat['area_effect']
-        range
+        range.to_s
       else
         'Single'
       end
