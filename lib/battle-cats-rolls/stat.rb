@@ -96,7 +96,7 @@ module BattleCatsRolls
     end
 
     def long_range?
-      @long_range ||= attacks.any?{ |atk| atk.area_display.include?('~') }
+      @long_range ||= attacks_raw.any?(&:long_range)
     end
 
     def kamikaze?

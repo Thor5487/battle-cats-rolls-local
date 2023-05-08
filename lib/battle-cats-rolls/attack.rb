@@ -6,10 +6,10 @@ module BattleCatsRolls
     :trigger_effects, :duration, keyword_init: true)
 
     def area_display
-      @area_display ||= if area_range.begin == -stat.width
-        area_range.end.to_s
-      else
+      @area_display ||= if long_range
         "#{area_range.begin} ~ #{area_range.end}"
+      else
+        area_range.end.to_s
       end
     end
 
