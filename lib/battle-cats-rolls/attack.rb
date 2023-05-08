@@ -5,8 +5,8 @@ module BattleCatsRolls
     :stat, :damage, :long_range, :long_range_offset,
     :trigger_effects, :duration, keyword_init: true)
 
-    def area
-      @area ||= if area_range.begin == -stat.width
+    def area_display
+      @area_display ||= if area_range.begin == -stat.width
         area_range.end.to_s
       else
         "#{area_range.begin} ~ #{area_range.end}"
@@ -80,8 +80,8 @@ module BattleCatsRolls
   end
 
   class WaveAttack < Attack
-    def area
-      @area ||= area_range.end.to_s # Display this in a simple way
+    def area_display
+      @area_display ||= area_range.end.to_s # Display this in a simple way
     end
 
     def area_range
