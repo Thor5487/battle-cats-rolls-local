@@ -81,6 +81,8 @@
   https://bc.godfat.org/cats/545
 * Gacha Cat: Should be capped at level=50 and health is 153000
   http://bc.godfat.org/cats/559?level=100
+* Mighty Aegis Garu: Short omni strike and mini-wave:
+  https://bc.godfat.org/cats/586
 * Emperor Cat: A lot of control effects:
   https://bc.godfat.org/cats/587
 * Shampoo (Cat): Multi 50% mini wave:
@@ -89,6 +91,8 @@
   https://bc.godfat.org/cats/608
 * Iz the Dancer of Grief: A lot of abilities:
   https://bc.godfat.org/cats/658
+* Chronos the Bride: Long range and mini-wave:
+  https://bc.godfat.org/cats/662
 * Goddess of Light Sirius: Complex attack timing:
   http://bc.godfat.org/cats/687
 * Child of Destiny Phono: Very narrow max DPS area:
