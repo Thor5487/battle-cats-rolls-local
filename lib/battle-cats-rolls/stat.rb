@@ -9,6 +9,10 @@ module BattleCatsRolls
     :sum_no_wave, :dps_no_critical,
     keyword_init: true)
 
+    def inspect
+      "#<#{self.class} id=#{id.inspect} name=#{name.inspect}>"
+    end
+
     def name
       info.dig('name', index)
     end
@@ -119,6 +123,10 @@ module BattleCatsRolls
       @wave_effect ||= effects.find{ |eff| eff.kind_of?(Ability::Wave) }
     end
 
+    def surge_effect
+      @surge_effect ||= effects.find{ |eff| eff.kind_of?(Ability::Surge) }
+    end
+
     def dps_sum
       @dps_sum ||= if kamikaze?
         '-'
@@ -150,13 +158,19 @@ module BattleCatsRolls
     end
 
     def attacks
-      @attacks ||= if wave_effect
+      @attacks ||= if wave_effect || surge_effect
         attacks_raw.flat_map do |atk|
           if atk.effects.any?
-            wave = WaveAttack.new(stat: self, damage: atk.damage,
-              trigger_effects: atk.trigger_effects)
+            attack_args = {stat: self, damage: atk.damage,
+              trigger_effects: atk.trigger_effects}
 
-            [atk, wave]
+            # Could one day a cat can have wave and surge at the same time?
+            # Wrap wave in an array to avoid calling `to_a` on WaveAttack
+            wave = [WaveAttack.new(**attack_args)] if wave_effect
+            surges = [SurgeAttack.new(**attack_args)] * surge_effect.level if
+              surge_effect
+
+            [atk, *wave, *surges]
           else
             atk
           end

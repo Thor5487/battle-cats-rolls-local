@@ -59,8 +59,8 @@
     <td><%= attack.damage %></td>
   </tr>
   <tr class="border_lower">
-    <% if attack.kind_of?(BattleCatsRolls::WaveAttack) %>
-    <td colspan="2"><%= stat.wave_effect.display_short %></td>
+    <% if attack.kind_of?(BattleCatsRolls::TriggeredAttack) %>
+    <td colspan="2"><%= attack.triggered_effect.display_short %></td>
     <% else %>
     <td>Duration</td>
     <td><%= stat_time attack.duration %></td>
@@ -97,6 +97,5 @@
   <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
   <% end %>
   <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
-  <li>Summation does not account surge yet</li>
   <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>
 </ul>

@@ -79,18 +79,13 @@ module BattleCatsRolls
     end
   end
 
-  class WaveAttack < Attack
-    def area_display
-      @area_display ||= area_range.end.to_s # Display this in a simple way
-    end
-
-    def area_range
-      @area_range ||= self.begin..self.begin + width +
-        wave_step * (stat.wave_effect.level - 1)
+  class TriggeredAttack < Attack
+    def triggered_effect
+      raise NotImplementedError
     end
 
     def damage
-      if stat.wave_effect.mini
+      if triggered_effect.mini
         (super * mini_damage_multiplier).round
       else
         super
@@ -116,16 +111,33 @@ module BattleCatsRolls
 
     private
 
-    def wave_step
-      (width * next_position_multiplier).round
-    end
-
     def account_chance raw_dps
-      raw_dps * stat.wave_effect.chance / 100.0
+      raw_dps * triggered_effect.chance / 100.0
     end
 
     def mini_damage_multiplier
       0.2
+    end
+  end
+
+  class WaveAttack < TriggeredAttack
+    def triggered_effect
+      stat.wave_effect
+    end
+
+    def area_display
+      @area_display ||= area_range.end.to_s # Display this in a simple way
+    end
+
+    def area_range
+      @area_range ||= self.begin..self.begin + width +
+        wave_step * (triggered_effect.level - 1)
+    end
+
+    private
+
+    def wave_step
+      (width * next_position_multiplier).round
     end
 
     def width
@@ -138,6 +150,33 @@ module BattleCatsRolls
 
     def next_position_multiplier
       0.5
+    end
+  end
+
+  class SurgeAttack < TriggeredAttack
+    def triggered_effect
+      stat.surge_effect
+    end
+
+    def area_display
+      "#{area_range.begin} ~ #{area_range.end}"
+    end
+
+    def area_range
+      @area_range ||= begin
+        range = triggered_effect.area_range
+        (range.begin - backward)..(range.end + forward)
+      end
+    end
+
+    private
+
+    def forward
+      125
+    end
+
+    def backward
+      250
     end
   end
 end

@@ -375,16 +375,33 @@ module BattleCatsRolls
       end
 
       def display
-        start = (range * range_multiplier).floor
-        reach = start + (range_offset * range_multiplier).floor
+        area = highlight("#{area_range.begin} ~ #{area_range.end}")
 
         "#{percent(chance)} to produce level #{highlight(level)}" \
-          " #{name.downcase} attack within #{highlight("#{start} ~ #{reach}")}"
+          " #{name.downcase} attack within #{area}"
+      end
+
+      def display_short
+        "#{percent(chance)} #{name.downcase}"
+      end
+
+      def area_range
+        @area_range ||= start..reach
       end
 
       def specialized; false; end
       def effects; true; end
       def index; __LINE__; end
+
+      private
+
+      def start
+        (range * range_multiplier).floor
+      end
+
+      def reach
+        start + (range_offset * range_multiplier).floor
+      end
     end
 
     class CriticalStrike < Struct.new(:chance)

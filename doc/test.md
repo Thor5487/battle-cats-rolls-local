@@ -73,12 +73,16 @@
   https://bc.godfat.org/cats/380
 * Glass Cat: Kamikaze does not have DPS:
   https://bc.godfat.org/cats/383
+* Neo Backhoe Cat: 50% surge and 15% critical
+  https://bc.godfat.org/cats/447
 * Wonder MOMOCO: First strike wave and stop effect:
   https://bc.godfat.org/cats/456
 * Ken: Third strike effect with all range:
   https://bc.godfat.org/cats/518
 * Kyosaka Nanaho: Second strike critical effect:
   https://bc.godfat.org/cats/545
+* Fabulous Pasalan: Level 8 surge
+  https://bc.godfat.org/cats/565
 * Gacha Cat: Should be capped at level=50 and health is 153000
   http://bc.godfat.org/cats/559?level=100
 * Mighty Aegis Garu: Short omni strike and mini-wave:
@@ -89,6 +93,8 @@
   https://bc.godfat.org/cats/600
 * Fabled Adventure Girl Kanna: First strike surge effect and various ranges:
   https://bc.godfat.org/cats/608
+* Awakened Doron: Kamikaze with surge
+  https://bc.godfat.org/cats/614
 * Iz the Dancer of Grief: A lot of abilities:
   https://bc.godfat.org/cats/658
 * Chronos the Bride: Long range and mini-wave:

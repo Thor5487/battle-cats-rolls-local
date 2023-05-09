@@ -223,6 +223,23 @@ describe BattleCatsRolls::Stat do
     end
   end
 
+  describe 'account surge attacks' do
+    describe 'Fabulous Pasalan' do
+      def id; 565; end
+      def index; 2; end
+
+      would 'have correct DPS' do
+        attacks = stat.attacks
+        expect(attacks.size).eq 9
+
+        all_dps = [896] * 9
+
+        expect(stat.attacks.map(&:dps).map(&:round)).eq \
+          all_dps.map(&:round)
+      end
+    end
+  end
+
   describe '#max_dps_area' do
     def index; 1; end
 
