@@ -1,12 +1,23 @@
 ## Stats
 
-* Show talents
 * Account surge damage into DPS
 * Show surge duration
 * Show knockback distance
 * Show slow percentage
 * Use consistent unit for speed (range per second)
 * Figure out how where to find the hard coded values in the game data
+
+## Talents
+
+* Defined in `SkillAcquisition.csv`
+* Cat id is (line - 1) (i.e. cat is 0, not 1)
+* Which talent is defined by `abilityID_A`, `abilityID_B`, etc, to `abilityID_H`, max 8
+* How this is interpreted can be found in `PCoin.java`
+* Ability id is defined in `PC_CORRES` in `Data.java`
+* If `MAXLv_A` is 0, it means it can only be unlocked. if it's 10, it means max is 10 (when unlocked, it's at lv1 so actual level growth is MAX-1)
+* Min and max have 4 pairs. how it's interpreted is probably defined by the ability
+* When unlocked at lv1, it starts at min. when it's at max level, it's at max. so growth is `(max - min) / (maxLevel - 1)`
+* `limit_A` means if it's a super talent (locked behind lv60)
 
 ## Bugs
 
