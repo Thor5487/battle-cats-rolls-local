@@ -245,6 +245,14 @@ module BattleCatsRolls
       'checked="checked"' if route.dps_no_critical
     end
 
+    def attack_tr_class attack
+      if attack.kind_of?(BattleCatsRolls::TriggeredAttack)
+        'triggered_attack'
+      else
+        'attack'
+      end
+    end
+
     def checked_cat cat
       ticked = route.ticked
 

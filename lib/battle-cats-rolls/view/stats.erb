@@ -50,7 +50,7 @@
   </tr>
   <% end %>
   <% each_attack(stat) do |attack| %>
-  <tr class="border_upper">
+  <tr class="border_upper <%= attack_tr_class(attack) %>">
     <td>DPS</td>
     <td><%= stat_int(attack.dps) %></td>
     <td><%= stat.area_type %></td>
@@ -58,7 +58,7 @@
     <td>Damage</td>
     <td><%= attack.damage %></td>
   </tr>
-  <tr class="border_lower">
+  <tr class="border_lower <%= attack_tr_class(attack) %>">
     <% if attack.kind_of?(BattleCatsRolls::TriggeredAttack) %>
     <td colspan="2"><%= attack.triggered_effect.display_short %></td>
     <% else %>
