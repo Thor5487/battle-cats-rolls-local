@@ -18992,3 +18992,93 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-05-22_625:
+    start_on: 2023-05-22
+    end_on: 2023-05-24
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 625
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-22_708:
+    start_on: 2023-05-22
+    end_on: 2023-05-24
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 708
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-22_752:
+    start_on: 2023-05-22
+    end_on: 2023-05-24
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 752
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-24_679:
+    start_on: 2023-05-24
+    end_on: 2023-05-27
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 679
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-24_733:
+    start_on: 2023-05-24
+    end_on: 2023-05-27
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 733
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-24_742:
+    start_on: 2023-05-24
+    end_on: 2023-05-27
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 742
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-27_695:
+    start_on: 2023-05-27
+    end_on: 2023-05-29
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 695
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-27_761:
+    start_on: 2023-05-27
+    end_on: 2023-05-29
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 761
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-05-27_790:
+    start_on: 2023-05-27
+    end_on: 2023-05-29
+    version: '120300'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 790
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
