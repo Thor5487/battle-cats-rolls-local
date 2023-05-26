@@ -46,13 +46,13 @@ int getSlot(int rarity) { //we technically need the number of legends, but it's 
 int rem1(int x) { //turns score into rarity
 	x = abs(x);
 	x = x % 10000;
-	if (x > legendaryRareChance) {
+	if (x >= legendaryRareChance) {
 		return 3;
 	}
-	else if (x > uberRareChance) {
+	else if (x >= uberRareChance) {
 		return 2;
 	}
-	else if (x > superRareChance) {
+	else if (x >= superRareChance) {
 		return 1;
 	}
 	else {
