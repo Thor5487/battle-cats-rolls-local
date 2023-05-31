@@ -2339,7 +2339,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   380:
-    name: [고양이 발레, 고양이 발레리나, 고양이 카레]
+    name: [고양이 배구, 고양이 발레리나, 고양이 카레]
     desc: ["「시민체육관의 마녀」라고 불린 명선수\n회심의 스파이크로 상대를 녹 아웃시킨다\n아주 가끔 크리티컬 공격을 낸다 (원거리 공격)", "「시민회관의 장미」라고 불린 프리마 발레리나 고양이\n하늘 높게 날아 토슈즈로 관객을 찔러버린다\n아주 가끔 크리티컬 공격을 낸다 (원거리 공격)", "「인도의 카레 왕자」라고 불리는 인기 셰프\n향신료의 일격은 메탈 적의 움직임을 순간 느리게 한다\n아주 가끔 크리티컬 공격을 낸다 (원거리 공격)"]
     stat: [{health: 360, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 250, range: 375, width: 320, damage_0: 160, long_range_0: 250, long_range_offset_0: 200, attack_time_0: 45, trigger_effects_0: 1, critical_chance: 8, attack_duration: 80}, {health: 450, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 250, range: 375, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 200, attack_time_0: 45, trigger_effects_0: 1, critical_chance: 8, attack_duration: 80}, {health: 540, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 250, range: 375, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 200, attack_time_0: 45, trigger_effects_0: 1, against_metal: 1, slow_chance: 100, slow_duration: 30, critical_chance: 8, attack_duration: 80}]
     rarity: 2
@@ -3865,9 +3865,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   621:
-    name: [사룡 헤비저크, 사룡왕 헤비저크]
-    desc: ["암운에서 태어나 세계에 재앙을 가져오는 전설의 사룡\n압도적인 파괴력으로 적을 공격한다. 빨간 적과 악마에\n맷집이 좋고 가끔 날려버려 악마 쉴드를 뚫어버린다", "악마와의 계약에 의해 천지를 소멸하는 힘을 얻은 사룡왕\n압도적인 파괴력으로 적을 공격한다. 빨간 적과 악마에\n맷집이 좋고 가끔 날려버려 악마 쉴드를 뚫어버린다"]
-    stat: [{health: 3800, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 1830, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 4500, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 2330, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}]
+    name: [사룡 헤비저크, 사룡왕 헤비저크, 사룡황제 헤비저크]
+    desc: ["암운에서 태어나 세계에 재앙을 가져오는 전설의 사룡\n압도적인 파괴력으로 적을 공격한다. 빨간 적과 악마에\n맷집이 좋고 가끔 날려버려 악마 쉴드를 뚫어버린다", "악마와의 계약에 의해 천지를 소멸하는 힘을 얻은 사룡왕\n압도적인 파괴력으로 적을 공격한다. 빨간 적과 악마에\n맷집이 좋고 가끔 날려버려 악마 쉴드를 뚫어버린다", "사악한 빛을 받아들여 진정한 힘을 해방한 전설의 사룡\n불길한 화염은 수많은 세계를 멸망으로 이끈다. 빨간 적과 악마에\n맷집이 좋고 반드시 날려버리며 가끔 악마 쉴드를 뚫어버린다"]
+    stat: [{health: 3800, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 1830, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 4500, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 2330, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 5000, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 455, width: 320, area_effect: 1, damage_0: 2900, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 100, attack_duration: 142}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4366,6 +4366,34 @@ cats:
     desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N005」이라고 작게 각인이 되어있는 듯한데...", "새하얀 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n속성을 가지지 않은 적에 초 데미지를 입힌다", "아무도 모르게 일을 처리하는 암흑가의 고양이\n처리한 타겟의 수보다 불심검문에 걸린 횟수가 더 많다\n속성을 가지지 않은 적에 초 데미지를 입힌다"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_white: 1, massive_damage: 1}, {health: 1000, knockbacks: 3, speed: 15, cost: 640, production_cooldown: 300, attack_cooldown: 93, range: 300, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 250, long_range_offset_0: 200, attack_time_0: 36, trigger_effects_0: 1, against_white: 1, massive_damage: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 62}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  706:
+    name: [비명의 왕 포노아, 단명의 왕 다크 포노아]
+    desc: ["멸망의 숙명을 타고나 절망의 화염을 \n가슴에 품은 또 한 명의 포노아\n반드시 적의 움직임을 느리게 하고 소열파를 낸다 (원거리 범위공격)", "격한 분노의 불꽃으로 재가 되었다 되살아난 환상의 고양이\n부조리한 운명의 바퀴를 증오의 힘으로 끊어낸다\n반드시 적의 움직임을 느리게 하고 소열파를 낸다 (원거리 범위공격)"]
+    stat: [{health: 2600, knockbacks: 5, speed: 30, cost: 3400, production_cooldown: 2200, range: 500, width: 320, area_effect: 1, damage_0: 700, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 70, trigger_effects_0: 1, damage_1: 700, long_range_1: 400, long_range_offset_1: 350, attack_time_1: 80, trigger_effects_1: 1, damage_2: 700, long_range_2: 490, long_range_offset_2: 410, attack_time_2: 90, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 1600, surge_range_offset: 2800, immune_wave: 1, immune_surge: 1, attack_duration: 215}, {health: 3400, knockbacks: 5, speed: 30, cost: 3400, production_cooldown: 2200, range: 500, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 70, trigger_effects_0: 1, damage_1: 1000, long_range_1: 400, long_range_offset_1: 350, attack_time_1: 80, trigger_effects_1: 1, damage_2: 1000, long_range_2: 490, long_range_offset_2: 410, attack_time_2: 90, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 1600, surge_range_offset: 2800, immune_wave: 1, immune_surge: 1, immune_curse: 1, attack_duration: 215}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  707:
+    name: ['오래된 알: N108', '푸른 알: N108', 고양이 비누]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N108」이라고 작게 각인이 되어있는 듯한데...", "푸른 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n에이리언에 맷집이 좋다", "거품이 풍성하고 살균 효과가 뛰어난 고양이\n고양이 알레르기 환자도 사용 가능한 약산성. 초수 특효를\n가지며 에이리언에 맷집이 좋고 가끔 공격력을 낮춘다"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_alien: 1, resistant: 1}, {health: 3500, knockbacks: 1, speed: 25, cost: 800, production_cooldown: 280, attack_cooldown: 30, range: 130, width: 320, area_effect: 1, damage_0: 100, attack_time_0: 11, trigger_effects_0: 1, against_alien: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, weaken_chance: 30, weaken_duration: 150, weaken_multiplier: 50, immune_slow: 1, attack_duration: 33}]
+    rarity: 3
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  708:
+    name: ['오래된 알: N109', '악의 알: N109', 고양이 나무통]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N109」이라고 작게 각인이 되어있는 듯한데...", "악한 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n악마에 맷집이 좋다", "수많은 역경을 이겨낸 좀도둑 냥코\n해적의 보물을 훔치려다 들켜 위기일발\n악마에 맷집이 좋고 초수 특효를 가진다 (원거리 범위공격)"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, resistant: 1}, {health: 800, knockbacks: 2, speed: 8, cost: 660, production_cooldown: 400, attack_cooldown: 42, range: 300, width: 320, area_effect: 1, damage_0: 350, long_range_0: 225, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, break_shield_chance: 60, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, immune_surge: 1, attack_duration: 61}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  709:
+    name: [고양이 제트, 고양이 주경야독]
+    desc: ["10년동안 조금씩 저금한 돈으로 제트팩을 구입하여\n공중에서 공격하는 책사. 아직 무기를 살 돈은 없다\n초생명체 특효를 가지고 검은 적과 에이리언에 맷집이 좋다", "장작을 사용한 지게형 비행장치 발명에 성공\n일도 공부도 전투도 한번에 해내는 하이퍼 냥코\n초생명체 특효를 가지고 검은 적과 에이리언에 맷집이 좋다"]
+    stat: [{health: 900, knockbacks: 1, speed: 25, cost: 260, production_cooldown: 190, attack_cooldown: 30, range: 180, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 28, trigger_effects_0: 1, against_black: 1, against_alien: 1, colossus_killer: 1, resistant: 1, immune_slow: 1, attack_duration: 75}, {health: 900, knockbacks: 1, speed: 25, cost: 260, production_cooldown: 190, attack_cooldown: 30, range: 180, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 28, trigger_effects_0: 1, against_black: 1, against_alien: 1, colossus_killer: 1, resistant: 1, immune_slow: 1, attack_duration: 75}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
@@ -8813,6 +8841,30 @@ gacha:
     series_id: 34
     name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
     rate: no_legend
+  806:
+    cats: [706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 신캐릭터 '운명의 아이 포노' 참전!★울슈레 출현율 최대로 UP된 특별 뽑기!
+    rate: superfest
+    similarity: 98
+  807:
+    cats: [706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  808:
+    cats: [706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    rate: platinum
+    similarity: 99
+  809:
+    cats: [706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 99
 events:
   2018-10-13_320:
     start_on: 2018-10-13

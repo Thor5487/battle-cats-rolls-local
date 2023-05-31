@@ -3711,9 +3711,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   621:
-    name: [Hevijak the Wicked, Wicked King Hevijak]
-    desc: ["Foul dragon, born of miasma and destined to bring\ndisaster and utter destruction to foolish mortal foes.\nTough vs Red and Aku, chance of Knockback/Piercing.", "Given the overwhelming power to annihilate the\ncelestial kingdom through dark pacts with the Aku. \nTough vs Red and Aku, chance of Knockback/Piercing."]
-    stat: [{health: 3800, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 1830, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 4500, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 2330, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}]
+    name: [Hevijak the Wicked, Wicked King Hevijak, God-Emperor Hevijak]
+    desc: ["Foul dragon, born of miasma and destined to bring\ndisaster and utter destruction to foolish mortal foes.\nTough vs Red and Aku, chance of Knockback/Piercing.", "Given the overwhelming power to annihilate the\ncelestial kingdom through dark pacts with the Aku. \nTough vs Red and Aku, chance of Knockback/Piercing.", "A dark dragon that has taken dark light into itself. Its\nfire has laid waste to many worlds. Tough vs Aku/Red, \nwith 100% Knockback and chance of Shield Piercing"]
+    stat: [{health: 3800, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 1830, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 4500, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 440, width: 320, area_effect: 1, damage_0: 2330, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 50, attack_duration: 142}, {health: 5000, knockbacks: 3, speed: 12, cost: 3600, production_cooldown: 2250, attack_cooldown: 79, range: 455, width: 320, area_effect: 1, damage_0: 2900, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_aku: 1, break_shield_chance: 50, resistant: 1, knockback_chance: 100, attack_duration: 142}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3907,7 +3907,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   657:
-    name: [Ancient Egg N001, Mystic Egg N001, Haniwa Cat]
+    name: ['Ancient Egg: N001', 'Mystic Egg: N001', Haniwa Cat]
     desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N001\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nResistant to Traitless enemy attacks.", "An object unearthed from the garden of a Cat base.\nHas great archeological value, and is a good lookout.\nBehemoth Slayer, and Tough against Traitless."]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_white: 1, resistant: 1}, {health: 320, knockbacks: 1, speed: 4, cost: 90, production_cooldown: 120, attack_cooldown: 16, range: 120, width: 320, damage_0: 3, attack_time_0: 23, trigger_effects_0: 1, against_white: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, attack_duration: 49}]
     rarity: 1
@@ -4202,16 +4202,44 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   700:
     name: [Rabbit Satoru, Rabbit Champion Satoru]
-    desc: ["Boy who entered a tournament to find the most\nskilled Easter fighter. Find the most eggs to win!\nSlows Traitless, immune to Wave attacks.", "Sticking to his motto \"Play fair and have fun!\", this \nEgg hunter won the day with his Easter haul!\nSlows Traitless, immune to Wave attacks."]
+    desc: ["Boy who entered a tournament to find the most\nskilled Easter fighter. Find the most eggs to win!\nSlows Traitless, immune to Wave attacks.", "Sticking to his motto \"Play fair and have fun!\", this\nEgg hunter won the day with his Easter haul!\nSlows Traitless, immune to Wave attacks."]
     stat: [{health: 2000, knockbacks: 3, speed: 20, cost: 2400, production_cooldown: 1400, attack_cooldown: 76, range: 470, width: 320, area_effect: 1, damage_0: 1460, long_range_0: 370, long_range_offset_0: 400, attack_time_0: 110, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 100, immune_wave: 1, attack_duration: 165}, {health: 2300, knockbacks: 3, speed: 20, cost: 2400, production_cooldown: 1400, attack_cooldown: 76, range: 470, width: 320, area_effect: 1, damage_0: 1860, long_range_0: 370, long_range_offset_0: 400, attack_time_0: 110, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 150, immune_wave: 1, attack_duration: 165}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   701:
-    name: [Ancient Egg N005, Mystic Egg N005, Hitman Cat]
+    name: ['Ancient Egg: N005', 'Mystic Egg: N005', Hitman Cat]
     desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N005\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nDeals Massive damage to Traitless.", "Cat who moves undetected by way of underground\nnetworks. Has been asked about his jobs more times\nthan he has killed. Massive damage to Traitless."]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_white: 1, massive_damage: 1}, {health: 1000, knockbacks: 3, speed: 15, cost: 640, production_cooldown: 300, attack_cooldown: 93, range: 300, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 250, long_range_offset_0: 200, attack_time_0: 36, trigger_effects_0: 1, against_white: 1, massive_damage: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 62}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  706:
+    name: [King of Doom Phono, King of Extinction Phono]
+    desc: ["Another form that Phono can take which bears the\nburden of destruction. Houses the flame of despair.\n100% Slow, Long-range Area Mini-Surge", "A mysterious Cat that revived from ash with raging\nflames. Severs the ring of fate with its power of hatred.\n100% Slow, Long-range Area Mini-Surge"]
+    stat: [{health: 2600, knockbacks: 5, speed: 30, cost: 3400, production_cooldown: 2200, range: 500, width: 320, area_effect: 1, damage_0: 700, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 70, trigger_effects_0: 1, damage_1: 700, long_range_1: 400, long_range_offset_1: 350, attack_time_1: 80, trigger_effects_1: 1, damage_2: 700, long_range_2: 490, long_range_offset_2: 410, attack_time_2: 90, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 1600, surge_range_offset: 2800, immune_wave: 1, immune_surge: 1, attack_duration: 215}, {health: 3400, knockbacks: 5, speed: 30, cost: 3400, production_cooldown: 2200, range: 500, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 70, trigger_effects_0: 1, damage_1: 1000, long_range_1: 400, long_range_offset_1: 350, attack_time_1: 80, trigger_effects_1: 1, damage_2: 1000, long_range_2: 490, long_range_offset_2: 410, attack_time_2: 90, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 1600, surge_range_offset: 2800, immune_wave: 1, immune_surge: 1, immune_curse: 1, attack_duration: 215}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  707:
+    name: ['Ancient Egg: N108', 'Teal Egg: N108', Soap Cat]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N108\".", "A mysterious lifeform that takes the form of a green egg.\nSigns of life appear to be coming from the inside.\nTough vs Aliens", "A Cat that has bacteria fighting powers. Its slight acidity\nwon't activate any cat allergies. Behemoth Slayer,\nTough vs Aliens, sometimes Weakens foes."]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_alien: 1, resistant: 1}, {health: 3500, knockbacks: 1, speed: 25, cost: 800, production_cooldown: 280, attack_cooldown: 30, range: 130, width: 320, area_effect: 1, damage_0: 100, attack_time_0: 11, trigger_effects_0: 1, against_alien: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, weaken_chance: 30, weaken_duration: 150, weaken_multiplier: 50, immune_slow: 1, attack_duration: 33}]
+    rarity: 3
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  708:
+    name: ['Ancient Egg: N109', 'Dark Egg: N109', Barrel Cat]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N109\".", "A mysterious lifeform that takes the form of a dark egg.\nSigns of life appear to be coming from the inside.\nTough vs Aku", "A sneaky Cat that has escaped many hairy situations.\nOn the run from pirates after stealing their treasure.\nTough vs Aku, Behemoth Slayer (Long-Range Area Atk)"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, resistant: 1}, {health: 800, knockbacks: 2, speed: 8, cost: 660, production_cooldown: 400, attack_cooldown: 42, range: 300, width: 320, area_effect: 1, damage_0: 350, long_range_0: 225, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, break_shield_chance: 60, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, immune_surge: 1, attack_duration: 61}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  709:
+    name: [Jetpack Cat, Kinjirou Cat]
+    desc: ["Saved diligently for 10 years to strike from above, but\nhas no money left for weapons to attack with.\nColossus Slayer, Tough vs Black/Alien enemies", "Invented a jetpack that runs on firewood. An ambitious\nCat who concurrently balances work, study, and battle.\nColossus Slayer, Tough vs Black/Alien enemies"]
+    stat: [{health: 900, knockbacks: 1, speed: 25, cost: 260, production_cooldown: 190, attack_cooldown: 30, range: 180, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 28, trigger_effects_0: 1, against_black: 1, against_alien: 1, colossus_killer: 1, resistant: 1, immune_slow: 1, attack_duration: 75}, {health: 900, knockbacks: 1, speed: 25, cost: 260, production_cooldown: 190, attack_cooldown: 30, range: 180, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 28, trigger_effects_0: 1, against_black: 1, against_alien: 1, colossus_killer: 1, resistant: 1, immune_slow: 1, attack_duration: 75}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
@@ -8598,6 +8626,30 @@ gacha:
     series_id: 34
     name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
     rate: no_legend
+  806:
+    cats: [706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: Child of Destiny Phono appears along with increased Uber Rare drop rates!
+    rate: superfest
+    similarity: 98
+  807:
+    cats: [706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    rate: uberfest
+    similarity: 99
+  808:
+    cats: [706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 99
+  809:
+    cats: [706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
 events:
   2018-06-06_245:
     start_on: 2018-06-06
