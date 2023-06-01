@@ -85,7 +85,8 @@ module BattleCatsRolls
     require_relative 'runner'
 
     Task.create(__method__) do
-      sleep(11 * 60)
+      # sleep(11 * 60)
+      sleep(61 * 60) # Delay longer for now, see how it'll go
 
       next if Task.shutting_down
 

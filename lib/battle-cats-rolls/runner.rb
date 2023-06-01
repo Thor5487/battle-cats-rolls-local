@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'root'
-require_relative 'aws_auth'
+require_relative 'nyanko_auth'
 
 module BattleCatsRolls
   class Runner < Struct.new(:lang, :version, :apk_id)
@@ -163,8 +163,8 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      file_url = AwsAuth.event_url(lang, file: file)
-      reader = TsvReader.download(file_url, 'https://bc.godfat.org/')
+      file_url = NyankoAuth.event_url(lang, file: file, jwt: jwt)
+      reader = TsvReader.download(file_url) # referrer https://bc.godfat.org/
 
       file_name = yield(reader)
       dir_path = data_path(dir)
@@ -416,6 +416,10 @@ module BattleCatsRolls
 
     def extract_path
       @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
+    end
+
+    def jwt
+      @jwt ||= NyankoAuth.new.generate_jwt
     end
   end
 end

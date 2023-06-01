@@ -9,12 +9,12 @@ module BattleCatsRolls
     PoolOffset = 9
     PoolFields = 15
 
-    def self.download url, referrer
+    def self.download url, referrer=nil
       require 'net/http'
 
       uri = URI.parse(url)
       get = Net::HTTP::Get.new(uri)
-      get['Referer'] = referrer
+      get['Referer'] = referrer if referrer
 
       response =
         Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
