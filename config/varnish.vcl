@@ -13,11 +13,10 @@ sub vcl_recv {
         set req.http.Cache-Control = "max-age=600";
         unset req.http.Cookie;
     }
-}
 
-sub vcl_hash {
-    if (req.url ~ "^/(logs|seek)") {
-        hash_data(req.http.referer);
+    if (req.http.referer &&
+        req.http.referer ~ "\b(t\.co|twitter\.com|facebook\.com)\b") {
+        return (pass);
     }
 }
 

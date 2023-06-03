@@ -79,23 +79,6 @@ module BattleCatsRolls
         end
       end
 
-      def guard_referrer
-        allowed_domains =
-          %r{\A
-            https?://
-              (?:
-                #{Regexp.escape(route.web_host)}
-              |
-                #{Regexp.escape(route.seek_host)}
-              )/}x
-
-        if allowed_domains.match?(request.referrer)
-          yield
-        else
-          not_found
-        end
-      end
-
       def cache
         @cache ||= Cache.default(logger)
       end
@@ -178,9 +161,7 @@ module BattleCatsRolls
     end
 
     get '/logs' do
-      guard_referrer do
-        render :logs
-      end
+      render :logs
     end
 
     class Seek
@@ -192,24 +173,18 @@ module BattleCatsRolls
           lang = prefix[1..-1] || 'jp'
 
           get "/seek#{prefix}/#{file}" do
-            guard_referrer do
-              headers 'Content-Type' => 'text/plain; charset=utf-8'
-              body serve_tsv(lang, file)
-            end
+            headers 'Content-Type' => 'text/plain; charset=utf-8'
+            body serve_tsv(lang, file)
           end
 
           get "/seek#{prefix}/curl/#{file}" do
-            guard_referrer do
-              headers 'Content-Type' => 'text/plain; charset=utf-8'
-              body "#{aws_auth(lang, file).to_curl}\n"
-            end
+            headers 'Content-Type' => 'text/plain; charset=utf-8'
+            body "#{aws_auth(lang, file).to_curl}\n"
           end
 
           get "/seek#{prefix}/json/#{file}" do
-            guard_referrer do
-              headers 'Content-Type' => 'application/json; charset=utf-8'
-              body JSON.dump(aws_auth(lang, file).headers)
-            end
+            headers 'Content-Type' => 'application/json; charset=utf-8'
+            body JSON.dump(aws_auth(lang, file).headers)
           end
         end
       end
