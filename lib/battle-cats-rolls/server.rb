@@ -26,6 +26,7 @@ module BattleCatsRolls
       t.co
       twitter.com
       facebook.com
+      youtube.com
     ])
     DisallowedDomains = Regexp.new("\\b#{disallowed_domains}\\b")
 
