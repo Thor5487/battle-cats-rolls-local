@@ -19253,3 +19253,122 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2023-06-12_626:
+    start_on: 2023-06-12
+    end_on: 2023-06-14
+    version: '120300'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 626
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-12_799:
+    start_on: 2023-06-12
+    end_on: 2023-06-14
+    version: '120300'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-14_709:
+    start_on: 2023-06-14
+    end_on: 2023-06-16
+    version: '120300'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-14_719:
+    start_on: 2023-06-14
+    end_on: 2023-06-16
+    version: '120300'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 719
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-16_679:
+    start_on: 2023-06-16
+    end_on: 2023-06-19
+    version: '120300'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-16_801:
+    start_on: 2023-06-16
+    end_on: 2023-06-19
+    version: '120300'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 801
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-06-19_742:
+    start_on: 2023-06-19
+    end_on: 2023-06-21
+    version: '120300'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-19_753:
+    start_on: 2023-06-19
+    end_on: 2023-06-21
+    version: '120300'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 753
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-21_695:
+    start_on: 2023-06-21
+    end_on: 2023-06-23
+    version: '120300'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-21_761:
+    start_on: 2023-06-21
+    end_on: 2023-06-23
+    version: '120300'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 761
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-23_733:
+    start_on: 2023-06-23
+    end_on: 2023-06-26
+    version: '120300'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-23_790:
+    start_on: 2023-06-23
+    end_on: 2023-06-26
+    version: '120300'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30

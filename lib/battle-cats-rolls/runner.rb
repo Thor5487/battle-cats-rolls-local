@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'root'
+require_relative 'aws_auth'
 require_relative 'nyanko_auth'
 
 module BattleCatsRolls
@@ -163,8 +164,15 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      file_url = NyankoAuth.event_url(lang, file: file, jwt: jwt)
-      reader = TsvReader.download(file_url) # referrer https://bc.godfat.org/
+      file_url =
+        case lang
+        when 'jp'
+          NyankoAuth.event_url(lang, file: file, jwt: jwt)
+        else
+          AwsAuth.event_url(lang, file: file)
+        end
+
+      reader = TsvReader.download(file_url)
 
       file_name = yield(reader)
       dir_path = data_path(dir)
