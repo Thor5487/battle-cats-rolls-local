@@ -19070,3 +19070,13 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-06-26_718:
+    start_on: 2023-06-26
+    end_on: 2030-01-01
+    version: '120400'
+    name: 來自宇宙盡頭的精靈們參戰！★點圖確認詳細吧!!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30

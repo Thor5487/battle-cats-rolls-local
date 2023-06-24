@@ -19372,3 +19372,62 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-06-26_718:
+    start_on: 2023-06-26
+    end_on: 2023-06-28
+    version: '120300'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-26_798:
+    start_on: 2023-06-26
+    end_on: 2023-06-28
+    version: '120300'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-28_625:
+    start_on: 2023-06-28
+    end_on: 2023-06-30
+    version: '120300'
+    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    id: 625
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-28_708:
+    start_on: 2023-06-28
+    end_on: 2023-06-30
+    version: '120300'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-30_741:
+    start_on: 2023-06-30
+    end_on: 2023-07-03
+    version: '120300'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-06-30_800:
+    start_on: 2023-06-30
+    end_on: 2023-07-03
+    version: '120300'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 800
+    rare: 6500
+    supa: 2600
+    uber: 900
