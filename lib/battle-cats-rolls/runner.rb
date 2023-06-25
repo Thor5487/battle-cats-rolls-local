@@ -166,7 +166,7 @@ module BattleCatsRolls
 
       file_url =
         case lang
-        when 'jp'
+        when 'jp', 'tw', 'kr'
           NyankoAuth.event_url(lang, file: file, jwt: jwt)
         else
           AwsAuth.event_url(lang, file: file)
