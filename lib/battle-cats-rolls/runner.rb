@@ -11,7 +11,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         'en',
-        '12.3.0',
+        '12.4.0',
         'jp.co.ponos.battlecatsen'
       ]
     end
@@ -164,14 +164,7 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      file_url =
-        case lang
-        when 'jp', 'tw', 'kr'
-          NyankoAuth.event_url(lang, file: file, jwt: jwt)
-        else
-          AwsAuth.event_url(lang, file: file)
-        end
-
+      file_url = NyankoAuth.event_url(lang, file: file, jwt: jwt)
       reader = TsvReader.download(file_url)
 
       file_name = yield(reader)
