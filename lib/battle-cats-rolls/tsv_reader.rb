@@ -12,16 +12,19 @@ module BattleCatsRolls
     def self.download url
       require 'net/http'
 
-      # uri = URI.parse(url)
-      # get = Net::HTTP::Get.new(uri)
+      uri = URI.parse(url)
+      get = Net::HTTP::Get.new(uri)
 
-      # response =
-      #   Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
-      #     http.request(get)
-      #   end
+      # Workaround for weird server cache bug?
+      get.delete('Accept-Encoding')
 
-      # new(response.body.force_encoding('UTF-8'))
-      new(`curl "#{url}"`.force_encoding('UTF-8'))
+      http = Net::HTTP.new(uri.hostname, uri.port)
+      http.use_ssl = true
+      http.response_body_encoding = 'UTF-8'
+      # http.set_debug_output($stdout)
+      response = http.request(get).body
+
+      new(response)
     end
 
     def self.read path
