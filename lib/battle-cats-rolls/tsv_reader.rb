@@ -12,15 +12,16 @@ module BattleCatsRolls
     def self.download url
       require 'net/http'
 
-      uri = URI.parse(url)
-      get = Net::HTTP::Get.new(uri)
+      # uri = URI.parse(url)
+      # get = Net::HTTP::Get.new(uri)
 
-      response =
-        Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
-          http.request(get)
-        end
+      # response =
+      #   Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+      #     http.request(get)
+      #   end
 
-      new(response.body.force_encoding('UTF-8'))
+      # new(response.body.force_encoding('UTF-8'))
+      new(`curl "#{url}"`.force_encoding('UTF-8'))
     end
 
     def self.read path

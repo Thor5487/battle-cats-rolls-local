@@ -19538,3 +19538,93 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-07-03_694:
+    start_on: 2023-07-03
+    end_on: 2023-07-06
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 694
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-03_752:
+    start_on: 2023-07-03
+    end_on: 2023-07-06
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 752
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-03_789:
+    start_on: 2023-07-03
+    end_on: 2023-07-06
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 789
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-06_626:
+    start_on: 2023-07-06
+    end_on: 2023-07-09
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 626
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-06_679:
+    start_on: 2023-07-06
+    end_on: 2023-07-09
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 679
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-06_761:
+    start_on: 2023-07-06
+    end_on: 2023-07-09
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 761
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-09_708:
+    start_on: 2023-07-09
+    end_on: 2023-07-12
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 708
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-09_718:
+    start_on: 2023-07-09
+    end_on: 2023-07-12
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 718
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-09_732:
+    start_on: 2023-07-09
+    end_on: 2023-07-12
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 732
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
