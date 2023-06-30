@@ -8,5 +8,5 @@ puts "Inquiry code: #{auth.inquiry_code}"
 auth.password = auth.generate_password
 puts "Password: #{auth.password}"
 
-jwt = auth.generate_jwt
+jwt = auth.generate_jwt('999999')
 puts "JWT: #{jwt}"

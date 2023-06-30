@@ -9,9 +9,9 @@ module BattleCatsRolls
   class NyankoAuth < Struct.new(:inquiry_code, :password)
     def self.event_url lang,
       file: 'gatya.tsv',
+      jwt: '',
       base_uri: 'https://nyanko-events.ponosgames.com',
-      kind: '_production',
-      jwt: new.generate_jwt
+      kind: '_production'
       case lang
       when 'jp'
         "#{base_uri}/battlecats#{kind}/#{file}?jwt=#{jwt}"
@@ -35,11 +35,11 @@ module BattleCatsRolls
       end.dig('payload', 'password')
     end
 
-    def generate_jwt
+    def generate_jwt version_id
       post('https://nyanko-auth.ponosgames.com/v1/tokens') do
         {
           'clientInfo' => {
-            'client' => {'countryCode' => 'en', 'version' => '120300'},
+            'client' => {'countryCode' => 'en', 'version' => version_id},
             'device' => {'model' => model},
             'os' => {'type' => 'android', 'version' => '12.0.0'}
           },

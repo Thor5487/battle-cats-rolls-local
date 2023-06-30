@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'root'
-require_relative 'aws_auth'
 require_relative 'nyanko_auth'
 
 module BattleCatsRolls
@@ -234,7 +233,7 @@ module BattleCatsRolls
         wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
         extract_sos_bundle
       when %r{apkpure\.com/b/APK}
-        wget("#{apk_url}?versionCode=#{version.tr('.', '0')}0", apk_path)
+        wget("#{apk_url}?versionCode=#{version_id}", apk_path)
       else
         wget(apk_url, apk_path)
       end
@@ -419,8 +418,12 @@ module BattleCatsRolls
       @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
     end
 
+    def version_id
+      @version_id ||= version.split('.').map{|int| sprintf('%02d', int)}.join
+    end
+
     def jwt
-      @jwt ||= NyankoAuth.new.generate_jwt
+      @jwt ||= NyankoAuth.new.generate_jwt(version_id)
     end
   end
 end
