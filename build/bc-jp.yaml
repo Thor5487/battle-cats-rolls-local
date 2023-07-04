@@ -20464,3 +20464,35 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-07-06_760:
+    start_on: 2023-07-06
+    end_on: 2023-07-08
+    version: '120400'
+    name: 超生命体特効を持つキャラクター「女神ベガ」参戦！★詳細はバナーをタップ!!
+    id: 760
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-07-06_810:
+    start_on: 2023-07-06
+    end_on: 2023-07-10
+    version: '120400'
+    name: 新キャラ追加！ジューンブライド期間限定のハッピーなガチャ！★11連で超激レア確定!!
+    id: 810
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-07-08_790:
+    start_on: 2023-07-08
+    end_on: 2023-07-10
+    version: '120400'
+    name: "「いっすん法師」参戦！強力な古代の勇者たちを仲間にしよう！★詳細はバナーをタップ!!"
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30

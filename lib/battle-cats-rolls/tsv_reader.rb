@@ -16,7 +16,7 @@ module BattleCatsRolls
       get = Net::HTTP::Get.new(uri)
 
       # Workaround for weird server cache bug?
-      # get.delete('Accept-Encoding')
+      get.delete('Accept-Encoding')
 
       http = Net::HTTP.new(uri.hostname, uri.port)
       http.use_ssl = true
