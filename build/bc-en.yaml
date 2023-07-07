@@ -19628,3 +19628,42 @@ events:
     supa: 2500
     uber: 1000
     legend: 60
+  2023-07-12_742:
+    start_on: 2023-07-12
+    end_on: 2023-07-14
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 742
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-12_799:
+    start_on: 2023-07-12
+    end_on: 2023-07-14
+    version: '120400'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 799
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2023-07-14_752:
+    start_on: 2023-07-14
+    end_on: 2023-07-17
+    version: '120400'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-07-14_801:
+    start_on: 2023-07-14
+    end_on: 2023-07-17
+    version: '120400'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 801
+    rare: 6500
+    supa: 2600
+    uber: 900
