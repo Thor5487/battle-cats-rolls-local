@@ -8735,27 +8735,23 @@ gacha:
   818:
     cats: [710, 553, 553, 553, 524, 523, 496, 489, 488, 492, 491, 490, 417, 416, 415, 414, 413, 412, 411, 410, 409, 409, 409, 408, 408, 408, 407, 407, 407, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 37
-    name: The return of the classic Evangelion collab capsule set!
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
     rate: no_legend
-    similarity: 98
   819:
     cats: [711, 553, 553, 553, 552, 551, 550, 549, 548, 492, 491, 490, 412, 411, 410, 409, 409, 409, 408, 408, 408, 407, 407, 407, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 44
-    name: Five NEW Ubers! Your chance to get an Eva Angel for your Cat Army!
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
     rate: no_legend
-    similarity: 98
   820:
     cats: [710, 413, 414, 415, 416, 417, 488, 489, 410, 411, 412, 490, 491, 492, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 407, 408, 409, 553, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
     series_id: 37
-    name: The return of the classic Evangelion collab capsule set!
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
     rate: no_legend
-    similarity: 98
   821:
     cats: [711, 552, 551, 550, 549, 548, 410, 411, 412, 490, 491, 492, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 407, 408, 409, 553, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
     series_id: 44
-    name: Five NEW Ubers! Your chance to get an Eva Angel for your Cat Army!
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
     rate: no_legend
-    similarity: 98
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -19755,3 +19751,127 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2023-07-31_810:
+    start_on: 2023-07-31
+    end_on: 2023-08-04
+    version: '120401'
+    name: New June Bride Capsules ★ Tap banner for info!
+    id: 810
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-07-31_820:
+    start_on: 2023-07-31
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
+    id: 820
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-07-31_821:
+    start_on: 2023-07-31
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
+    id: 821
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-04_800:
+    start_on: 2023-08-04
+    end_on: 2023-08-07
+    version: '120401'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 800
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-08-04_820:
+    start_on: 2023-08-04
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
+    id: 820
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-04_821:
+    start_on: 2023-08-04
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
+    id: 821
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-07_789:
+    start_on: 2023-08-07
+    end_on: 2023-08-10
+    version: '120401'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-08-07_820:
+    start_on: 2023-08-07
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
+    id: 820
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-07_821:
+    start_on: 2023-08-07
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
+    id: 821
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-10_708:
+    start_on: 2023-08-10
+    end_on: 2023-08-12
+    version: '120401'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-08-10_820:
+    start_on: 2023-08-10
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit One-Eyed Asuka added! ★ Tap banner for info!
+    id: 820
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-08-10_821:
+    start_on: 2023-08-10
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit Eva Unit-13 added! ★ Tap banner for info!
+    id: 821
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-08-12_798:
+    start_on: 2023-08-12
+    end_on: 2023-08-14
+    version: '120401'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
