@@ -786,7 +786,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   124:
     name: [Bean Cats, Brah Cats, Val Val Cat]
-    desc: ["Said to also have the \"MeowMeow\" alias.\nAlways play nice with each other.\nMight knockback Red enemies.", "Earned the nickname \"Sweater Brahs\" when\nthey traded their beanpod for fine French silk.\nMight knockback Red enemies.", "Best pals bouncing and frolicking in a goddess's armor.\nMaking waves in local three-legged races. Colossus\nSlayer, might Knockback Red enemies."]
+    desc: ["Said to also have the \"MeowMeow\" alias.\nAlways play nice with each other.\nMight knockback Red enemies.", "Earned the nickname \"Sweater Brahs\" when\nthey traded their beanpod for fine French silk.\nMight knockback Red enemies.", "Best pals bouncing and frolicking in a goddess's armor.\nMaking waves in local three-legged races. Behemoth\nSlayer, might Knockback Red enemies."]
     stat: [{health: 255, knockbacks: 3, speed: 8, cost: 330, production_cooldown: 274, attack_cooldown: 30, range: 230, width: 320, damage_0: 55, attack_time_0: 40, trigger_effects_0: 1, against_red: 1, knockback_chance: 30}, {health: 404, knockbacks: 3, speed: 8, cost: 330, production_cooldown: 274, attack_cooldown: 30, range: 230, width: 320, damage_0: 105, attack_time_0: 40, trigger_effects_0: 1, against_red: 1, knockback_chance: 30}, {health: 808, knockbacks: 3, speed: 8, cost: 330, production_cooldown: 274, attack_cooldown: 30, range: 230, width: 320, damage_0: 105, attack_time_0: 40, trigger_effects_0: 1, against_red: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, resistant: 1, knockback_chance: 30, wave_chance: 100, wave_level: 1, attack_duration: 64}]
     rarity: 1
     max_level: 50
@@ -1104,8 +1104,8 @@ cats:
     desc: ["Mr. Ninja!!Fever joins the fight!\nLeaps gracefully from planet to planet dicing up aliens.\nMassive damage to Alien enemies (Area Attack)", "A kunoichi from \"Mr. Ninja!!Fever\"!\nAs bright and beautiful as her peerless swordplay.\nMassive damage to Alien enemies (Area Attack)"]
     stat: [{health: 350, knockbacks: 2, speed: 28, cost: 660, production_cooldown: 650, attack_cooldown: 70, range: 440, width: 320, area_effect: 1, damage_0: 60, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, massive_damage: 1}, {health: 350, knockbacks: 2, speed: 28, cost: 660, production_cooldown: 650, attack_cooldown: 70, range: 440, width: 320, area_effect: 1, damage_0: 60, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, massive_damage: 1}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   186:
     name: [Hearscht, Hearscht CC, Revolutionary Hearscht CC]
     desc: ["Joining the fight from Merc Storia! Silver\nbeast with a blunt and logical attitude.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nA beguiling and handsome lady beast.\nMight Critical Attack, Tough vs Metal.", "Joining the fight from Merc Storia!\nPartisan fencer with radical fashion sense.\nMight Critical Attack, Tough vs Metal."]
@@ -1979,8 +1979,8 @@ cats:
     desc: ["For this small-business Cat, the customer is king.\nAlways invests its profits back in the store.\nGet more money when defeating enemies!", "This Cat is thankful for you supporting it's business!\nHe'll thank you by fighting any enemy that troubles you.\nGet more money when defeating enemies!"]
     stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   344:
     name: [Slug Jockey Cat, Slugcat]
     desc: ["One rainy day, a Slug befriended a Cat.\nHer will is strong, but her body is weak (to salt).\nArea attack Slows enemies for a moment.", "They thought it wasn't fair for the Cat to always\nride, so now they take turns. No effect on race\ntimes. Area attack Slows enemies for a moment."]
@@ -2168,8 +2168,8 @@ cats:
     desc: ["An invaluable collectors item!\nOnly 9 billion were produced!", "A memorial item imbued with Cat\ngratitude. Every third Coin Cat earns\nyou... another Coin Cat."]
     stat: [{health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1}, {health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   377:
     name: [Rover Cat, Rover Cat Mk II, Catellite]
     desc: ["The first Cat probe produced by NYASA.\nBuilt to resist extraterrestrial attacks, with\nWarp Blocking and tough defense vs Aliens.", "Cutting edge NYASA Cat probe. Transmission\npower is so advanced that it even gets the dirty \nchannels. Tough vs Aliens, with Warp Blocking.", "Experimental NYASA satellite made for remote\nobservation of areas as far as the corner store.\nTough vs Aliens, with Warp Blocking."]
@@ -2423,7 +2423,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   414:
-    name: [Eva Unit-01, Eva Unit-01 & Cat, Determined Unit-00 & Cat]
+    name: [Eva Unit-01, Eva Unit-01 & Cat, Determined Unit-01 & Cat]
     desc: ["Recruited from Evangelion!\nA humanoid superweapon test-type.\nStrong vs. Aliens/Zombies (Area Attack)", "Recruited from Evangelion!\nGoes berserk when pilot is in danger.\nStrong vs. Aliens/Zombies (Area Attack)", "Recruited from Evangelion! Marches toward the\nfinal battle with the lance of hope Cassius in hand.\nStrong vs. Aliens/Zombies (Area Attack)"]
     stat: [{health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, break_barrier_chance: 100, eva_angel_killer: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100}, {health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, break_barrier_chance: 100, eva_angel_killer: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100}, {health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, break_barrier_chance: 100, eva_angel_killer: 1, strong: 1, surge_chance: 30, surge_level: 1, surge_mini: 1, surge_range: 1600, surge_range_offset: 1200, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 150, attack_duration: 135}]
     rarity: 4
@@ -3680,15 +3680,15 @@ cats:
     desc: ["An armored Cat who loves oak sap.\nCan't be caught using a normal net.\nStrong vs Red & Black enemies", "The mighty one-horned King of Summer.\nUndefeated in the insect sumo tournament.\nStrong vs Red & Black enemies"]
     stat: [{health: 600, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}, {health: 750, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   617:
     name: [Kuwagata Cat, King Kuwagata Cat]
     desc: ["An armored Cat who loves melon rinds.\nCan only be caught with a special net.\nStrong vs Floating & Alien enemies", "Champion of Summer with a sturdy, shiny\nbody. Keeps fighting even after the match\nis over. Strong vs Floating & Alien enemies"]
     stat: [{health: 600, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}, {health: 750, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   618:
     name: [Summoner Satoru, Dark Summoner Satoru, Devil Hunter Satoru]
     desc: ["To save the world, this boy made a pact with the Aku.\nCommands dark minions for a good cause... for now.\nLong-range Area attacks 100% Slow vs Aku", "Only a pure desire to save the world keeps Satoru\nfrom being corrupted by the magic of the Aku pact.\nLong-range Area attacks 100% Slow vs Aku", "Emerged in this world to subdue the Aku king. His\nfight to protect the Cats begins now! Long-range\nArea attacks 100% Knockback/Slow vs Aku"]
@@ -3788,12 +3788,19 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   635:
-    name: [White Knight Cyclops, Black Knight Kyklops]
-    desc: ["Demon-slaying guardian of the innocent, wielding\nholy lightning to annihilate those born of darkness. \nMight Freeze Aku/Aliens, with Shield Piercing", "Ferocious crusader who sacrificed his body to\nthe Aku in exchange for the absolute power to\nobliterate evil. Strong vs Aku and Aliens"]
-    stat: [{health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, break_shield_chance: 50, freeze_chance: 50, freeze_duration: 90, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, strong: 1, immune_wave: 1, attack_duration: 141}]
+    name: [White Knight Cyclops, Black Knight Kyklops, Demon Knight Kyklops]
+    desc: ["Demon-slaying guardian of the innocent, wielding\nholy lightning to annihilate those born of darkness. \nMight Freeze Aku/Aliens, with Shield Piercing", "Ferocious crusader who sacrificed his body to\nthe Aku in exchange for the absolute power to\nobliterate evil. Strong vs Aku and Aliens", "Corrupted knight driven by both dark desire and\nrighteous heart to wield his sacred mace in endless\nbattle. Massive damage to Aku, with Shield Piercing."]
+    stat: [{health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, break_shield_chance: 50, freeze_chance: 50, freeze_duration: 90, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, strong: 1, immune_wave: 1, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_aku: 1, break_shield_chance: 50, massive_damage: 1, immune_freeze: 1, attack_duration: 141}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  636:
+    name: [Million-Dollar Cat, Hundred-Million-Dollar Cat]
+    desc: ["A plaque worth $1,000,000 sent to prize\nwinners, with extra appeal from well-toned legs.\nCritical Attack, extra money from defeated enemies", "Plaque worth $100,000,000 sent to grand prize\nwinners, with extra appeal from fishnet stockings.\nCritical Attack, extra money from defeated enemies"]
+    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
   637:
     name: [Brainwashed Tank Cat, Brainwashed Wall Cat]
     desc: ["High health Cat, strong enough to move a\npebble, programmed through mind control \nto gain Area attacks, with extra Toughness", "Cat with rigid defense, programmed through\nmind control to gain the strength to move a small\nrock, Area attacks, and extra Toughness"]
@@ -4277,6 +4284,41 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  715:
+    name: [Coastal Explorer Kanna, Deep-Diver Kanna, Great Deep-Diver Kanna]
+    desc: ["Adventurer from another world in search of sea treasures!\nTaking swim lessons hoping to dive to legendary wrecks.\nMassive damage to Floating/Aliens, with Surge Attack.", "Scouring the Seven Seas in search of treasure,\nrealized that the ocean's life is more precious than gold.\nMassive damage to Floating/Aliens, with Surge Attack.", "She explores the mighty Seven Seas in search of a legendary treasure!\nHowever, she realizes that the true treasure is the abundance of life in the ocean.\nDelivers massive damage to Floating and Aliens, and unleashes a Surge Attack."]
+    stat: [{health: 2100, knockbacks: 3, speed: 12, cost: 3150, production_cooldown: 2100, attack_cooldown: 68, range: 400, width: 320, area_effect: 1, damage_0: 290, long_range_0: 300, long_range_offset_0: 500, attack_time_0: 20, trigger_effects_0: 1, damage_1: 290, long_range_1: 250, long_range_offset_1: 500, attack_time_1: 60, damage_2: 290, long_range_2: 500, long_range_offset_2: 500, attack_time_2: 90, against_float: 1, against_alien: 1, massive_damage: 1, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 136}, {health: 2790, knockbacks: 3, speed: 12, cost: 3150, production_cooldown: 2100, attack_cooldown: 68, range: 400, width: 320, area_effect: 1, damage_0: 380, long_range_0: 300, long_range_offset_0: 500, attack_time_0: 20, trigger_effects_0: 1, damage_1: 380, long_range_1: 250, long_range_offset_1: 500, attack_time_1: 60, damage_2: 380, long_range_2: 500, long_range_offset_2: 500, attack_time_2: 90, against_float: 1, against_alien: 1, massive_damage: 1, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 136}, {health: 2790, knockbacks: 3, speed: 12, cost: 3150, production_cooldown: 2100, attack_cooldown: 68, range: 400, width: 320, area_effect: 1, damage_0: 380, long_range_0: 300, long_range_offset_0: 500, attack_time_0: 20, trigger_effects_0: 1, damage_1: 380, long_range_1: 250, long_range_offset_1: 500, attack_time_1: 60, damage_2: 380, long_range_2: 500, long_range_offset_2: 500, attack_time_2: 90, against_float: 1, against_alien: 1, massive_damage: 1, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  716:
+    name: [Mighty Sphinx Korps, Attack Battalion Convoys]
+    desc: ["Construction corps delivering materials for the pharaoh's\ntomb, while thwarting would-be robbers. Omnistrike\nmight Weaken, Tough vs Red/Metal/Zombies", "Next-gen tactical vehicles transporting scouts and\nconducting raids on enemy camps. Omnistrike might\nWeaken, Tough vs Red/Metal/Zombies"]
+    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_metal: 1, against_zombie: 1, zombie_killer: 1, soul_strike: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_metal: 1, against_zombie: 1, zombie_killer: 1, soul_strike: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, attack_duration: 133}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  717:
+    name: ['Ancient Egg: N111', 'Mystic Egg: N111', Cop Cat]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N111\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.\nStrong against Traitless enemies.", "With a crime rate of 120%, justice has no time to rest.\nChews hot-dog-flavored gum on patrol to stay awake.\nStrong vs Traitless, with Behemoth Slayer"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_white: 1, strong: 1}, {health: 2000, knockbacks: 2, speed: 8, cost: 750, production_cooldown: 350, attack_cooldown: 40, range: 250, width: 320, area_effect: 1, damage_0: 720, attack_time_0: 14, trigger_effects_0: 1, against_white: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, strong: 1, attack_duration: 52}]
+    rarity: 3
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  718:
+    name: ['Ancient Egg: N110', 'Amber Egg: N110', Farmboy Cat]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N110\".", "A mysterious lifeform that takes the form of a yellow egg.\nSigns of life appear to be coming from the inside.\nSmall chance to Slow Angelic enemies.", "Rough-and-tumble Cat who inherited Grandpa's farm.\nSold a few extra acres that are now a parking lot.\nChance to Slow Angels, with Behemoth Slayer."]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_angel: 1, slow_chance: 1, slow_duration: 120}, {health: 820, knockbacks: 4, speed: 12, cost: 360, production_cooldown: 270, range: 350, width: 320, damage_0: 50, attack_time_0: 20, trigger_effects_0: 1, against_angel: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, slow_chance: 50, slow_duration: 120, immune_wave: 1, attack_duration: 40}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  719:
+    name: [Maize Cat, Cone Cat]
+    desc: ["A refreshing plant-cat stuffed with juiciness.\nTake a bite and you'll get bits stuck in your teeth.\nTough vs Relic/Aku, with Colossus Slayer.", "Traffic-cone cat often seen at construction sites.\nEcofriendly object made from corn-based plastic.\nTough vs Relic/Aku, with Colossus Slayer."]
+    stat: [{health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}, {health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -8752,6 +8794,84 @@ gacha:
     series_id: 44
     name: New unit Eva Unit-13 added! ★ Tap banner for info!
     rate: no_legend
+  822:
+    cats: [715, 646, 695, 667, 668, 615, 567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 20
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    rate: no_legend
+    similarity: 95
+  823:
+    cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 24
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    rate: regular
+    similarity: 98
+  824:
+    cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 24
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    rate: regular
+    similarity: 98
+  825:
+    cats: [716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    rate: uberfest
+    similarity: 99
+  826:
+    cats: [716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    rate: uberfest
+    similarity: 98
+  827:
+    cats: [716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 97
+  828:
+    cats: [716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 98
+  829:
+    cats: [706, 713, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: Child of Destiny Phono appears along with increased Uber Rare drop rates!
+    rate: superfest
+    similarity: 97
+  830:
+    cats: [700, 712, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    rate: dynastyfest
+    similarity: 98
+  831:
+    cats: [715, 646, 695, 667, 668, 615, 567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 20
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    rate: no_legend
+    similarity: 95
+  832:
+    cats: [713, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 99
+  833:
+    cats: [713, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  834:
+    cats: [713, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    rate: uberfest
+    similarity: 99
 events:
   2018-06-06_245:
     start_on: 2018-06-06

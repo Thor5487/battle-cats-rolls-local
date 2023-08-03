@@ -465,7 +465,7 @@ cats:
   68:
     name: [꼬마 가우, 꼬꼬마 가우]
     desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적"]
-    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, against_black: 1, resistant: 1, attack_duration: 111}]
+    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3841,15 +3841,15 @@ cats:
     desc: ["상수리나무의 수액을 채집하는 습관을 가진\n일반 벌레 채집망으로 잡을 수 없는 환상의 고양이\n빨간 적과 검은 적에 엄청 강하다", "한개의 큰 뿔을 가지고 있는 한여름의 왕자\n곤충 씨름대회에서 부전으로 무승무패를 자랑하고 있다\n빨간 적과 검은 적에 엄청 강하다"]
     stat: [{health: 600, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}, {health: 750, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   617:
     name: [사슴벌레 고양이, 킹 사슴벌레 고양이]
     desc: ["설탕물과 수박 껍질을 모으는 습관을 가진 \n특수한 벌레 채집망으로만 잡을 수 있는 고양이 \n떠있는 적과 에이리언에 엄청 강하다", "둔한 몸뚱이에서 빛을 내는 한여름의 승자, 싸우기 좋아하는\n성격 탓에 늘 벌레 스모대회밖에서 난투를 벌이고 있다.\n떠있는 적과 에이리언에 엄청 강하다"]
     stat: [{health: 600, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}, {health: 750, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   618:
     name: [소환소년 사토루, 악마 소환소년 사토루, 데빌 헌터 사토루]
     desc: ["세계의 구세주가 되기 위해 악마와 계약한 소년\n강한 정의감으로 소환수를 불러내 자유자재로 조종한다\n반드시 악마의 움직임을 느리게 한다 (원거리 범위공격)", "세계의 구세주를 목표로 싸우는 악마 소환사 소년\n악마 계약의 대가인 '어둠의 마음'을 정의감으로 억누르다\n반드시 악마의 움직임을 느리게 한다 (원거리 범위공격)", "악마의 왕을 복종시켜 세계의 정점에 군림한 소년\n고양이들을 지키기 위한 사토루의 싸움은 지금부터다!\n반드시 악마를 날려버리고 움직임을 느리게 한다 (원거리 범위공격)"]
@@ -3949,9 +3949,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   635:
-    name: [백기사 키클롭스, 흑기사 키클롭스]
-    desc: ["고결한 정신을 가진 약자를 구하기 위해 싸우는 백색 퇴마 기사\n번개와 같은 맹공으로 어둠 속에서 태어난 자들을 제거한다\n가끔 악마와 에이리언을 멈추게 하고 악마 쉴드를 뚫어버린다", "자신의 몸을 악마에게 바쳐 절대적인 힘을 얻은 정교 기사\n이 세상의 악을 모두 멸할 때까지 계속 싸울 것을 맹세.\n악마와 에이리언에 엄청 강하다"]
-    stat: [{health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, break_shield_chance: 50, freeze_chance: 50, freeze_duration: 90, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, strong: 1, immune_wave: 1, attack_duration: 141}]
+    name: [백기사 키클롭스, 흑기사 키클롭스, 신마기사 키클롭스]
+    desc: ["고결한 정신을 가진 약자를 구하기 위해 싸우는 백색 퇴마 기사\n번개와 같은 맹공으로 어둠 속에서 태어난 자들을 제거한다\n가끔 악마와 에이리언을 멈추게 하고 악마 쉴드를 뚫어버린다", "자신의 몸을 악마에게 바쳐 절대적인 힘을 얻은 정교 기사\n이 세상의 악을 모두 멸할 때까지 계속 싸울 것을 맹세.\n악마와 에이리언에 엄청 강하다", "강한 신념에 집어삼켜진 채 싸움을 그만두지 못하는 신마의 기사\n정의와 악의 애매한 경계선을 성스러운 메이스로 단죄한다\n악마에 초 데미지를 주고 가끔 악마 쉴드를 뚫어버린다"]
+    stat: [{health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, break_shield_chance: 50, freeze_chance: 50, freeze_duration: 90, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_alien: 1, against_aku: 1, strong: 1, immune_wave: 1, attack_duration: 141}, {health: 2600, knockbacks: 3, speed: 15, cost: 3550, production_cooldown: 2400, attack_cooldown: 95, range: 460, width: 320, area_effect: 1, damage_0: 1030, attack_time_0: 45, trigger_effects_0: 1, damage_1: 1030, attack_time_1: 84, against_aku: 1, break_shield_chance: 50, massive_damage: 1, immune_freeze: 1, attack_duration: 141}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4445,6 +4445,41 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  715:
+    name: [비치 다이빙 모험가 칸나, 테크니컬 다이버 칸나]
+    desc: ["이세계에서 바닷속 보물을 찾으러 온 모험가\n전설의 침몰선을 찾기 위해 우선 잠수 연습 중\n떠있는 적과 에이리언에 초 데미지를 입히며 열파를 낸다", "전설의 보물을 찾아 일곱 개의 바다를 넘나들며\n생명이 넘치는 바다 그 자체가 보물임을 깨달은 모험가\n떠있는 적과 에이리언에 초 데미지를 입히며 열파를 낸다"]
+    stat: [{health: 2100, knockbacks: 3, speed: 12, cost: 3150, production_cooldown: 2100, attack_cooldown: 68, range: 400, width: 320, area_effect: 1, damage_0: 290, long_range_0: 300, long_range_offset_0: 500, attack_time_0: 20, trigger_effects_0: 1, damage_1: 290, long_range_1: 250, long_range_offset_1: 500, attack_time_1: 60, damage_2: 290, long_range_2: 500, long_range_offset_2: 500, attack_time_2: 90, against_float: 1, against_alien: 1, massive_damage: 1, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 136}, {health: 2790, knockbacks: 3, speed: 12, cost: 3150, production_cooldown: 2100, attack_cooldown: 68, range: 400, width: 320, area_effect: 1, damage_0: 380, long_range_0: 300, long_range_offset_0: 500, attack_time_0: 20, trigger_effects_0: 1, damage_1: 380, long_range_1: 250, long_range_offset_1: 500, attack_time_1: 60, damage_2: 380, long_range_2: 500, long_range_offset_2: 500, attack_time_2: 90, against_float: 1, against_alien: 1, massive_damage: 1, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 136}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  716:
+    name: [건설병단 스핑크스, 돌격부대 콘보이즈]
+    desc: ["안전 제일을 모토로 적들을 날려버리며 왕의 무덤의\n건설 자재를 운반하는 건설병단. 빨간 적, 메탈, 좀비에 \n맷집이 좋고 가끔 공격력을 낮춘다 (전방위 공격)", "정찰 소대의 운반과 적진 기습 임무를 동시에 수행하는\n차세대 전술 차량. 빨간 적, 메탈, 좀비에 맷집이 좋고\n가끔 공격력을 낮춘다 (전방위 공격)"]
+    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_metal: 1, against_zombie: 1, zombie_killer: 1, soul_strike: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_metal: 1, against_zombie: 1, zombie_killer: 1, soul_strike: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, attack_duration: 133}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  717:
+    name: ['오래된 알: N111', '신비한 알: N111', 고양이 폴리스]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N111」이라고 작게 각인이 되어있는 듯한데...", "새하얀 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n속성을 가지지 않은 적에 엄청 강하다", "범죄율 120%인 위험한 도시에서 불철주야 순찰하는 경찰\n순찰 중에는 핫도그 맛 껌을 씹으며 잠을 쫒는다\n속성을 가지지 않은 적에 엄청 강하고, 초수 특효를 가졌다"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_white: 1, strong: 1}, {health: 2000, knockbacks: 2, speed: 8, cost: 750, production_cooldown: 350, attack_cooldown: 40, range: 250, width: 320, area_effect: 1, damage_0: 720, attack_time_0: 14, trigger_effects_0: 1, against_white: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, strong: 1, attack_duration: 52}]
+    rarity: 3
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  718:
+    name: ['오래된 알: N110', '노란 알: N110', 고양이 농부]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N110」이라고 작게 각인이 되어있는 듯한데...", "노란 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n아주 가끔 천사의 움직임을 느리게 한다", "할아버지에게 물려받은 목장에서 자유롭게 사는 고양이\n넓은 토지를 활용하여 유료 주차장 사업을 벌일 예정\n아주 가끔 천사의 움직임을 느리게 하고, 초수 특효를 가졌다"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_angel: 1, slow_chance: 1, slow_duration: 120}, {health: 820, knockbacks: 4, speed: 12, cost: 360, production_cooldown: 270, range: 350, width: 320, damage_0: 50, attack_time_0: 20, trigger_effects_0: 1, against_angel: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, slow_chance: 50, slow_duration: 120, immune_wave: 1, attack_duration: 40}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  719:
+    name: [고양이 옥수수, 냥코콘]
+    desc: ["알이 탱글탱글하고 실한 고양이과 야채 \n먹으면 이빨 사이에 껍질과 씨가 잔뜩 낀다\n초생명체 특효. 고대종과 악마에 맷집이 좋다", "공사 현장에서 자주 목격되는 고양이과 안전콘\n원료는 옥수수로 만든 합성 수지\n초생명체 특효. 고대종과 악마에 맷집이 좋다"]
+    stat: [{health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}, {health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -8978,6 +9013,84 @@ gacha:
     series_id: 44
     name: "'에바 13호기' 참전! 사도 등을 뽑을 수 있는 콜라보 뽑기!★자세한 내용은 배너를 클릭!!"
     rate: no_legend
+  822:
+    cats: [715, 646, 695, 667, 668, 615, 567, 567, 567, 566, 566, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 277, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 20
+    name: 신 캐릭터 등장! 개방적인 여름 한정의 캐릭터들을 GET!★자세한 내용은 배너를 클릭!
+    rate: no_legend
+    similarity: 95
+  823:
+    cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 24
+    name: 초생명체 특효를 가진 캐릭터 '유랑극단 캐러셀즈' 참전!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 98
+  824:
+    cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 24
+    name: 초생명체 특효를 가진 캐릭터 '유랑극단 캐러셀즈' 참전!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 98
+  825:
+    cats: [716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 신캐릭터 '운명의 아이 포노' 참전!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  826:
+    cats: [716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 98
+  827:
+    cats: [716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    rate: platinum
+    similarity: 98
+  828:
+    cats: [716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 98
+  829:
+    cats: [706, 713, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 신캐릭터 '비명의 왕 포노아' 참전!★울슈레 출현율 최대로 UP된 특별 뽑기!
+    rate: superfest
+    similarity: 99
+  830:
+    cats: [700, 712, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 계절 한정 캐릭터 총집합!★울슈레 출현율 대폭 UP! '울트라 국왕 축제' 개최 중!
+    rate: dynastyfest
+    similarity: 98
+  831:
+    cats: [715, 646, 695, 667, 668, 615, 567, 566, 565, 564, 524, 523, 496, 495, 439, 355, 276, 275, 277, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 20
+    name: 신 캐릭터 등장! 개방적인 여름 한정의 캐릭터들을 GET!★자세한 내용은 배너를 클릭!
+    rate: no_legend
+    similarity: 95
+  832:
+    cats: [713, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    rate: platinum
+    similarity: 99
+  833:
+    cats: [713, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 99
+  834:
+    cats: [713, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
 events:
   2018-10-13_320:
     start_on: 2018-10-13
