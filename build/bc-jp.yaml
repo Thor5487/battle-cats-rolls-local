@@ -20894,3 +20894,46 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-08-25_495:
+    start_on: 2023-08-25
+    end_on: 2023-09-01
+    version: '120600'
+    name: "【終了間近】『生きろ!マンボウ!』コラボガチャ登場！★11連で超激レア確定!!"
+    id: 495
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-08-25_798:
+    start_on: 2023-08-25
+    end_on: 2023-08-28
+    version: '120600'
+    name: "「サンダージャック」参戦！正義と闇の力を併せ持つ救世主達！★詳細はバナーをタップ!!"
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-08-28_733:
+    start_on: 2023-08-28
+    end_on: 2023-08-30
+    version: '120600'
+    name: 超生命体特効を持つキャラクター「海龍ダライアサン」参戦！★詳細はバナーをタップ!!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-08-30_708:
+    start_on: 2023-08-30
+    end_on: 2023-09-01
+    version: '120600'
+    name: 超生命体特効を持つキャラクター「服部半蔵」参戦！★詳細はバナーをタップ!!
+    id: 708
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30

@@ -8748,7 +8748,6 @@ gacha:
     series_id: 19
     name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
     rate: uberfest
-    similarity: 99
   814:
     cats: [713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
@@ -20079,3 +20078,118 @@ events:
     uber: 9500
     legend: 500
     platinum: legend
+  2023-08-28_486:
+    start_on: 2023-08-28
+    end_on: 2023-09-11
+    version: '120500'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-28_742:
+    start_on: 2023-08-28
+    end_on: 2023-08-30
+    version: '120500'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-08-28_831:
+    start_on: 2023-08-28
+    end_on: 2023-09-04
+    version: '120500'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 831
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-08-30_753:
+    start_on: 2023-08-30
+    end_on: 2023-09-01
+    version: '120500'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 753
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-01_486:
+    start_on: 2023-09-01
+    end_on: 2023-09-11
+    version: '120500'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-09-01_813:
+    start_on: 2023-09-01
+    end_on: 2023-09-04
+    version: '120500'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 813
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-09-01_831:
+    start_on: 2023-09-01
+    end_on: 2023-09-04
+    version: '120500'
+    name: New heroes appear for summer fun! ★ Tap banner for info!
+    id: 831
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-09-04_486:
+    start_on: 2023-09-04
+    end_on: 2023-09-11
+    version: '120500'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-09-04_761:
+    start_on: 2023-09-04
+    end_on: 2023-09-06
+    version: '120500'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 761
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-06_695:
+    start_on: 2023-09-06
+    end_on: 2023-09-08
+    version: '120500'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-08_486:
+    start_on: 2023-09-08
+    end_on: 2023-09-11
+    version: '120500'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 486
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-09-08_733:
+    start_on: 2023-09-08
+    end_on: 2023-09-11
+    version: '120500'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
