@@ -67,6 +67,11 @@ module BattleCatsRolls
       events.map.with_index do |event, index|
         gacha_cats = gacha_data['cats']
         event_cats = gacha.dig(event['id'], 'cats')
+
+        if event_cats.nil? # New event no app data yet
+          next {'similarity' => 0, 'index' => index}
+        end
+
         intersection = gacha_cats & event_cats
         union = gacha_cats | event_cats
         similarity = intersection.size.to_f / union.size
