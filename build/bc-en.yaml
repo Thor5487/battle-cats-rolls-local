@@ -8820,7 +8820,7 @@ gacha:
     series_id: 27
     name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
     rate: uberfest
-    similarity: 98
+    similarity: 99
   827:
     cats: [716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -8864,7 +8864,6 @@ gacha:
     series_id: 27
     name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
     rate: uberfest
-    similarity: 99
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -20193,3 +20192,62 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2023-09-11_679:
+    start_on: 2023-09-11
+    end_on: 2023-09-13
+    version: '120500'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 679
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-11_812:
+    start_on: 2023-09-11
+    end_on: 2023-09-13
+    version: '120500'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 812
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-13_742:
+    start_on: 2023-09-13
+    end_on: 2023-09-15
+    version: '120500'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-13_753:
+    start_on: 2023-09-13
+    end_on: 2023-09-15
+    version: '120500'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 753
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-15_761:
+    start_on: 2023-09-15
+    end_on: 2023-09-18
+    version: '120500'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 761
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-15_834:
+    start_on: 2023-09-15
+    end_on: 2023-09-18
+    version: '120500'
+    name: NEW Iz, Dancer of Grief joins EPICFEST! Plus, increased Uber Rare drop rates!
+    id: 834
+    rare: 6500
+    supa: 2600
+    uber: 900
