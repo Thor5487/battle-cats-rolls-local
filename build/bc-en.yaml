@@ -20251,3 +20251,103 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-09-20_769:
+    start_on: 2023-09-20
+    end_on: 2023-09-22
+    version: '120500'
+    name: '9 Year Celebration: Ultra Selection! ★ Tap banner for info!'
+    id: 769
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-20_799:
+    start_on: 2023-09-20
+    end_on: 2023-09-24
+    version: '120500'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-22_709:
+    start_on: 2023-09-22
+    end_on: 2023-09-25
+    version: '120500'
+    name: Colossus Slayer Hattori Hanzo joins the fight! ★ Tap banner for info!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-24_718:
+    start_on: 2023-09-24
+    end_on: 2023-09-27
+    version: '120500'
+    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    id: 718
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-25_770:
+    start_on: 2023-09-25
+    end_on: 2023-09-27
+    version: '120500'
+    name: '9 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 770
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-27_452:
+    start_on: 2023-09-27
+    end_on: 2023-09-30
+    version: '120600'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-09-27_696:
+    start_on: 2023-09-27
+    end_on: 2023-09-30
+    version: '120600'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-09-27_717:
+    start_on: 2023-09-27
+    end_on: 2023-09-30
+    version: '120600'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 717
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-09-30_678:
+    start_on: 2023-09-30
+    end_on: 2023-10-02
+    version: '120600'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-09-30_771:
+    start_on: 2023-09-30
+    end_on: 2023-10-02
+    version: '120600'
+    name: '9 Year Celebration: Excellent Selection! ★ Tap banner for info!'
+    id: 771
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
