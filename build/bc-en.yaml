@@ -20251,6 +20251,25 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-09-18_767:
+    start_on: 2023-09-18
+    end_on: 2023-09-20
+    version: '120500'
+    name: New Heroes appear to celebrate 9 Years! ★ Tap banner for info!
+    id: 767
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-09-18_790:
+    start_on: 2023-09-18
+    end_on: 2023-09-20
+    version: '120500'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
   2023-09-20_769:
     start_on: 2023-09-20
     end_on: 2023-09-22
