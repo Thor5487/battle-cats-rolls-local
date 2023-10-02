@@ -10,7 +10,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         'en',
-        '12.5.0',
+        '12.6.0',
         'jp.co.ponos.battlecatsen'
       ]
     end
@@ -18,7 +18,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '12.5.0',
+        '12.6.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
@@ -26,7 +26,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         'jp',
-        '12.6.0',
+        '12.7.0',
         'jp.co.ponos.battlecats'
       ]
     end
@@ -34,7 +34,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         'kr',
-        '12.5.0',
+        '12.6.0',
         'jp.co.ponos.battlecatskr'
       ]
     end

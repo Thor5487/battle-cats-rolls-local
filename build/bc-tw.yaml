@@ -2087,9 +2087,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   341:
-    name: [紅髮小雪貓, 紅髮美腿小雪貓]
-    desc: ["受在\"失去世界遇到的少女\"影響\n透過模仿學到了不可思議的力量和飛行能力\n有時候會讓異星戰士瞬間動作停止", "為了要更像\"失去世界遇到的少女\"一點\n身穿全身訂做的服裝完美再進化\n有時候會讓異星戰士瞬間動作停止"]
-    stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}]
+    name: [紅髮小雪貓, 紅髮美腿小雪貓, 紅髮筋肉美腿小雪貓]
+    desc: ["受在\"失去世界遇到的少女\"影響\n透過模仿學到了不可思議的力量和飛行能力\n有時候會讓異星戰士瞬間動作停止", "為了要更像\"失去世界遇到的少女\"一點\n身穿全身訂做的服裝完美再進化\n有時候會讓異星戰士瞬間動作停止", "為了要像\"失去世界遇到的少女\"一樣意志堅強\n不停鍛鍊身心成為了才貌雙全的貓咪\n有時候會讓異星戰士瞬間動作停止，能發射烈波"]
+    stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 80}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -3942,9 +3942,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   626:
-    name: [怒髮貓, 髮鞭白骨貓]
-    desc: ["是貓還是妖沒人知道\n完全是個謎樣般的角色\n如果進化的話…", "是貓還是妖沒人知道\n完全是個謎樣般的角色\n必定能破壞護盾與惡魔盾(範圍攻擊)"]
-    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 260, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, attack_duration: 64}]
+    name: [怒髮貓, 髮鞭白骨貓, 暴怒髮鞭白骨貓]
+    desc: ["是貓還是妖沒人知道\n完全是個謎樣般的角色\n如果進化的話…", "是貓還是妖沒人知道\n完全是個謎樣般的角色\n必定能破壞護盾與惡魔盾(範圍攻擊)", "是貓還是暴怒的少年沒人知道\n完全是個謎樣般的角色\n必定能破壞護盾與惡魔盾，會發射小烈波"]
+    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 260, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, attack_duration: 64}, {health: 1800, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 200, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, surge_chance: 100, surge_level: 2, surge_mini: 1, surge_range: 3200, surge_range_offset: 800, immune_surge: 1, attack_duration: 64}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4534,6 +4534,20 @@ cats:
     desc: ["全身都是豐碩果實的貓科蔬菜\n拿來食用時，皮和種子很容易卡到牙縫間\n有超生命體特效，對上古代種和惡魔很耐打", "經常會在施工現場看到的貓科三角錐\n原料是用玉米所製成的塑膠\n有超生命體特效，對上古代種和惡魔很耐打"]
     stat: [{health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}, {health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}]
     rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  720:
+    name: [鐵精靈卡卿, 鋼鐵精靈鐵卡卿]
+    desc: ["來自宇宙盡頭的鐵精靈\n據説每個星球的第一塊鐵都是其帶來的\n偶爾能使飄浮、天使敵人和異星戰士的攻擊無效化", "操控著能擋下任何衝擊的堅硬鋼鐵的精靈\n強壯的身體能夠破壞護盾\n對上飄浮、天使敵人和異星戰士很耐打"]
+    stat: [{health: 2750, knockbacks: 2, speed: 8, cost: 700, production_cooldown: 400, attack_cooldown: 80, range: 130, width: 320, area_effect: 1, damage_0: 700, attack_time_0: 61, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_alien: 1, dodge_chance: 10, dodge_duration: 60, immune_surge: 1, immune_warp: 1, attack_duration: 146}, {health: 5500, knockbacks: 2, speed: 8, cost: 2200, production_cooldown: 1200, attack_cooldown: 80, range: 170, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 61, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, dodge_chance: 10, dodge_duration: 60, immune_surge: 1, immune_warp: 1, attack_duration: 146}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  721:
+    name: [遠古的蛋：N006, 邪惡的蛋：N006, 惡魔熊熊貓]
+    desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N006」的小小字樣", "現出散發著邪惡氣息的外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n可給予惡魔極度傷害", "主演恐怖電影「惡魔熊熊屋」的演員\n在緊張的武打場面中把其他演員打到站不起來\n可給予惡魔極度傷害，有超獸特效(範圍攻擊)"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
+    rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
@@ -9022,6 +9036,48 @@ gacha:
     series_id: 27
     name: 新角色「悲嘆揮舞孃」參戰！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
     rate: uberfest
+    similarity: 99
+  835:
+    cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 有超生命體特效的新角色「冰精靈布莉茲」參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  836:
+    cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 有超生命體特效的「冰精靈布莉茲」參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  837:
+    cats: [720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 超激稀有角色齊聚一堂!!超激角色出現率大增的「超級貓咪祭」進行中!!
+    rate: uberfest
+    similarity: 99
+  838:
+    cats: [720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    rate: uberfest
+    similarity: 99
+  839:
+    cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    rate: platinum
+    similarity: 98
+  840:
+    cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 必定可以獲得1隻以上超激稀有角色的「傳說轉蛋」！
+    rate: legend
+    similarity: 98
+  841:
+    cats: [715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 一舉集結季節角色們!!★超激稀有出現率上升的「超國王祭」來啦!!
+    rate: dynastyfest
     similarity: 99
 events:
   2018-08-03_310:

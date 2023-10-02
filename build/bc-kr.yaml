@@ -2087,9 +2087,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   341:
-    name: [빨간 머리 고양이 유키, 빨간 머리 뷰티 고양이 유키]
-    desc: ["잃어버린 세계에서 만난 소녀에 영향을 받아\n혼자서 불가사의한 힘과 비행 능력을 습득한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다", "잃어버린 세계에서 만난 소녀와 외모도 비슷해지기 위해\n오더 메이드 의상으로 아름답게 진화한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다"]
-    stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}]
+    name: [빨간 머리 고양이 유키, 빨간 머리 뷰티 고양이 유키, 빨간 머리 불끈 고양이 유키]
+    desc: ["\"잃어버린 세계\"에서 만난 소녀에 영향을 받아\n혼자서 불가사의한 힘과 비행 능력을 습득한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다", "\"잃어버린 세계\"에서 만난 소녀와 외모도 비슷해지기 위해\n오더 메이드 의상으로 아름답게 진화한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다", "\"잃어버린 세계\"에서 만난 소녀처럼 강한 마음을\n손에 넣어 몸도 마음도 단련한 재색을 겸비한 고양이\n가끔 에이리언의 움직임을 순간 멈추고 열파를 낸다"]
+    stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 80}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -3907,9 +3907,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   626:
-    name: [오코루가, 오코란파사란]
-    desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 베리어와 악마 쉴드를 뚫어버린다 (범위공격)"]
-    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 260, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, attack_duration: 64}]
+    name: [오코루가, 오코란파사란, 극대노 파사란]
+    desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 베리어와 악마 쉴드를 뚫어버린다 (범위공격)", "고양이인지 분노를 폭발시킨 소년인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 베리어와 악마 쉴드를 뚫어버리며 소열파를 낸다"]
+    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 260, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, attack_duration: 64}, {health: 1800, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 200, range: 700, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 28, trigger_effects_0: 1, break_barrier_chance: 100, break_shield_chance: 100, surge_chance: 100, surge_level: 2, surge_mini: 1, surge_range: 3200, surge_range_offset: 800, immune_surge: 1, attack_duration: 64}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4478,6 +4478,20 @@ cats:
     desc: ["알이 탱글탱글하고 실한 고양이과 야채 \n먹으면 이빨 사이에 껍질과 씨가 잔뜩 낀다\n초생명체 특효. 고대종과 악마에 맷집이 좋다", "공사 현장에서 자주 목격되는 고양이과 안전콘\n원료는 옥수수로 만든 합성 수지\n초생명체 특효. 고대종과 악마에 맷집이 좋다"]
     stat: [{health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}, {health: 1100, knockbacks: 1, speed: 20, cost: 250, production_cooldown: 190, attack_cooldown: 30, range: 170, width: 320, damage_0: 90, attack_time_0: 17, trigger_effects_0: 1, damage_1: 90, attack_time_1: 22, damage_2: 90, attack_time_2: 27, against_relic: 1, against_aku: 1, colossus_killer: 1, resistant: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 51}]
     rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  720:
+    name: [철의 정령 메탈릭, 강철의 정령 헤비메탈]
+    desc: ["우주에서 온 철의 정령\n내려선 별에 철의 근원을 불어넣는다고 한다.\n아주 가끔 떠있는 적, 에이리언, 천사의 공격을 무효화", "어떤 충격에도 끄떡없는 견고한 강철을 다루는 정령\n강인한 몸체는 베리어를 파괴하는 힘을 가졌다\n떠있는 적, 에이리언, 천사에 맷집이 좋다"]
+    stat: [{health: 2750, knockbacks: 2, speed: 8, cost: 700, production_cooldown: 400, attack_cooldown: 80, range: 130, width: 320, area_effect: 1, damage_0: 700, attack_time_0: 61, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_alien: 1, dodge_chance: 10, dodge_duration: 60, immune_surge: 1, immune_warp: 1, attack_duration: 146}, {health: 5500, knockbacks: 2, speed: 8, cost: 2200, production_cooldown: 1200, attack_cooldown: 80, range: 170, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 61, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, dodge_chance: 10, dodge_duration: 60, immune_surge: 1, immune_warp: 1, attack_duration: 146}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  721:
+    name: ['오래된 알: N006', '악의 알: N006', 고양이 악마 각하]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N006」이라고 작게 각인이 되어있는 듯한데..", "악한 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n악마에 극 데미지를 입힌다", "호러 영화 「악마 각하 하우스」의 주연 배우\n엄청난 메소드 연기로 다른 배우들을 압도한다\n악마에 극 데미지를 입히며 초수 특효를 가졌다 (범위 공격)"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
+    rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
@@ -9080,6 +9094,48 @@ gacha:
     series_id: 27
     name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
     rate: uberfest
+    similarity: 99
+  835:
+    cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 초생명체 특효를 가진 신 캐릭터 '얼음의 정령 블리즈' 참전!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 98
+  836:
+    cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 초생명체 특효를 가진 캐릭터 '얼음의 정령 블리즈' 참전!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 98
+  837:
+    cats: [720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 신캐릭터 '운명의 아이 포노' 참전!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  838:
+    cats: [720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 신캐릭터 '비탄의 무희 이즈' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  839:
+    cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 울트라 슈퍼 레어 캐릭터 100% 획득 가능! ★플래티넘 뽑기★
+    rate: platinum
+    similarity: 98
+  840:
+    cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개이상 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 98
+  841:
+    cats: [715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 계절 한정 캐릭터 총집합!★울슈레 출현율 대폭 UP! '울트라 국왕 축제' 개최 중!
+    rate: dynastyfest
     similarity: 99
 events:
   2018-10-13_320:

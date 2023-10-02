@@ -834,9 +834,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   120:
-    name: [ワイバーン, ニャイバーン]
-    desc: ["メルクストーリアから参戦！\n空中から繰り出す強烈な一撃は\n黒い敵に超ダメージを与える(範囲攻撃)", "メルクストーリアのワイバーンをお手本に\nにゃんこ達が極秘に研究を重ねて作った合成魔獣\n黒い敵に超ダメージを与える(範囲攻撃)"]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}]
+    name: [ワイバーン, ニャイバーン, ニャイバーン＆アレク]
+    desc: ["メルクストーリアから参戦！\n空中から繰り出す強烈な一撃は\n黒い敵に超ダメージを与える(範囲攻撃)", "メルクストーリアのワイバーンをお手本に\nにゃんこ達が極秘に研究を重ねて作った合成魔獣\n黒い敵に超ダメージを与える(範囲攻撃)", "自身が認めた者のみを背に乗せる誇り高き合成魔獣\n彼のお眼鏡に適ったのは見習い剣士アレクとネコのみ\n超生命体特効を持ち、黒い敵に超ダメージを与える"]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 4600, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, colossus_killer: 1, massive_damage: 1, weaken_chance: 50, weaken_duration: 90, weaken_multiplier: 50, immune_slow: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3914,9 +3914,9 @@ cats:
     max_level: 50
     growth: [20, 20, 60, 120, 180]
   560:
-    name: [地獄警官エマ, 地獄軍曹エマ]
-    desc: ["地獄に落とす人を探すため警官に扮してやってきた\n閻魔女王。職務質問で嘘をつくと焼き滅ぼされる\nたまに敵の攻撃力を下げ、波動を打ち消す(全方位攻撃)\nジゴクケイカンエマ", "裁く悪者を探すため軍人に紛れ込んだ閻魔女王\n戦場で罪を犯す者たちを全員地獄送り\nたまに敵の攻撃力を下げ、波動を打ち消す(全方位攻撃)\nジゴクグンソウエマ"]
-    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}]
+    name: [地獄警官エマ, 地獄軍曹エマ, 閻魔総長エマ]
+    desc: ["地獄に落とす人を探すため警官に扮してやってきた\n閻魔女王。職務質問で嘘をつくと焼き滅ぼされる\nたまに敵の攻撃力を下げ、波動を打ち消す(全方位攻撃)\nジゴクケイカンエマ", "裁く悪者を探すため軍人に紛れ込んだ閻魔女王\n戦場で罪を犯す者たちを全員地獄送り\nたまに敵の攻撃力を下げ、波動を打ち消す(全方位攻撃)\nジゴクグンソウエマ", "ここ一番のときは勝負服で裁きに出かける閻魔女王\n気合を入れて仏恥義理で行くんで夜露死苦\nたまに敵の攻撃力を下げ、波動を打ち消す(全方位攻撃)\nエンマソウチョウエマ"]
+    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 20000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 40, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, immune_freeze: 1, immune_warp: 1, attack_duration: 158}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4404,9 +4404,9 @@ cats:
     max_level: 31
     growth: [20, 20, 20, 20]
   630:
-    name: [洗脳されしネコ, 洗脳されしネコビルダー]
-    desc: ["安価で生産できる基本キャラ\n洗脳によってたまに\n黒い敵と悪魔の攻撃を無効化する力を入手\nセンノウサレシネコ", "鍛えぬいた筋肉がチャームポイントの\n基本キャラ。洗脳によってたまに\n黒い敵と悪魔の攻撃を無効化する力を入手\nセンノウサレシネコビルダー"]
-    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}]
+    name: [洗脳されしネコ, 洗脳されしネコビルダー, 洗脳されしネコモヒカン]
+    desc: ["安価で生産できる基本キャラ\n洗脳によってたまに\n黒い敵と悪魔の攻撃を無効化する力を入手\nセンノウサレシネコ", "鍛えぬいた筋肉がチャームポイントの\n基本キャラ。洗脳によってたまに\n黒い敵と悪魔の攻撃を無効化する力を入手\nセンノウサレシネコビルダー", "鍛えぬいた筋肉と洗脳が強まったことで生えた\nフワフワヘアがチャームポイントの基本キャラ\nたまに黒い敵と悪魔と古代種の攻撃を無効化する\nセンノウサレシネコモヒカン"]
+    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_relic: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, immune_curse: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4453,9 +4453,9 @@ cats:
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
   637:
-    name: [洗脳されしタンクネコ, 洗脳されしネコカベ]
-    desc: ["体力を多く備えた盾用のキャラ\n何者かによって洗脳され、属性を持たない敵への\n打たれ強さを取得した(範囲攻撃)\nセンノウサレシタンクネコ", "まさにカベに徹する為の盾専用キャラ\n悪の洗脳によって属性を持たない敵への\n打たれ強さを入手(範囲攻撃)\nセンノウサレシネコカベ"]
-    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}]
+    name: [洗脳されしタンクネコ, 洗脳されしネコカベ, 洗脳されしゴムネコ]
+    desc: ["体力を多く備えた盾用のキャラ\n何者かによって洗脳され、属性を持たない敵への\n打たれ強さを取得した(範囲攻撃)\nセンノウサレシタンクネコ", "まさにカベに徹する為の盾専用キャラ\n悪の洗脳によって属性を持たない敵への\n打たれ強さを入手(範囲攻撃)\nセンノウサレシネコカベ", "まさにカベに徹する為の盾専用キャラ\n悪の洗脳が強まったことによりゴムの弾力を得た\n属性を持たない敵に超打たれ強い(範囲攻撃)\nセンノウサレシゴムネコ"]
+    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 18, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, insane_resistant: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4516,9 +4516,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   646:
-    name: [洗脳されしバトルネコ, 洗脳されし勇者ネコ]
-    desc: ["戦闘向きのキャラ\n悪の洗脳によって属性を持たない敵に\nめっぽう強くなり、たまに呪う力を入手\nセンノウサレシバトルネコ", "かつて勇者にあこがれていた戦闘向きのキャラ\n悪の洗脳によって属性を持たない敵に\nめっぽう強くなり、たまに呪う力を入手\nセンノウサレシユウシャネコ"]
-    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
+    name: [洗脳されしバトルネコ, 洗脳されし勇者ネコ, 洗脳されし暗黒ネコ]
+    desc: ["戦闘向きのキャラ\n悪の洗脳によって属性を持たない敵に\nめっぽう強くなり、たまに呪う力を入手\nセンノウサレシバトルネコ", "かつて勇者にあこがれていた戦闘向きのキャラ\n悪の洗脳によって属性を持たない敵に\nめっぽう強くなり、たまに呪う力を入手\nセンノウサレシユウシャネコ", "悪の洗脳が強まり最凶の武器を自作し始めた\n戦闘向きのキャラ。小波動を放ち\n属性を持たない敵にめっぽう強く、たまに呪う\nセンノウサレシアンコクネコ"]
+    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, wave_chance: 100, wave_level: 1, wave_mini: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4579,9 +4579,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   655:
-    name: [洗脳されしキモネコ, 洗脳されし美脚ネコ]
-    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n悪の洗脳によって黒く染まった足から\n必ず烈波を放つようになった\nセンノウサレシキモネコ", "美しすぎる足が自慢の遠距離型キャラ\n悪の洗脳によって漆黒に侵食された足から\n必ず烈波を放つようになった\nセンノウサレシビキャクネコ"]
-    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
+    name: [洗脳されしキモネコ, 洗脳されし美脚ネコ, 洗脳されしムキあしネコ]
+    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n悪の洗脳によって黒く染まった足から\n必ず烈波を放つようになった\nセンノウサレシキモネコ", "美しすぎる足が自慢の遠距離型キャラ\n悪の洗脳によって漆黒に侵食された足から\n必ず烈波を放つようになった\nセンノウサレシビキャクネコ", "筋肉美が自慢の遠距離型キャラ\n悪の洗脳が強まったことで魔族っぽい尻尾が生え\n必ず放つ烈波攻撃が強化された\nセンノウサレシムキアシネコ"]
+    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 4, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4635,9 +4635,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   663:
-    name: [洗脳されしウシネコ, 洗脳されしネコキリン]
-    desc: ["俊敏な動きで移動力に優れたキャラ\n悪の洗脳により、黒い敵と悪魔を一瞬呪う力を入手\nハンパない攻撃回数で目の前の敵を蹴散らす\nセンノウサレシウシネコ", "俊敏な動きで移動力に優れたキャラ\n悪の洗脳によってスタイリッシュな模様と\n黒い敵と悪魔を一瞬呪う力を入手\nセンノウサレシネコキリン"]
-    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}]
+    name: [洗脳されしウシネコ, 洗脳されしネコキリン, 洗脳されしネコライオン]
+    desc: ["俊敏な動きで移動力に優れたキャラ\n悪の洗脳により、黒い敵と悪魔を一瞬呪う力を入手\nハンパない攻撃回数で目の前の敵を蹴散らす\nセンノウサレシウシネコ", "俊敏な動きで移動力に優れたキャラ\n悪の洗脳によってスタイリッシュな模様と\n黒い敵と悪魔を一瞬呪う力を入手\nセンノウサレシネコキリン", "俊敏な動きで移動力に優れたキャラ\n悪の洗脳が強まったことで禍々しいタテガミを得て\n黒い敵と悪魔を呪う力が強化された\nセンノウサレシネコライオン"]
+    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 2, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 90, attack_duration: 9}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4670,9 +4670,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   668:
-    name: [洗脳されしネコノトリ, 洗脳されしネコUFO]
-    desc: ["体力は少ないが敵をまとめて一掃する\n超破壊力を持ったキャラ。悪の洗脳により\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nセンノウサレシネコノトリ", "重力を超越した改造にゃんこ\n敵をまとめてお仕置き可能。悪の洗脳によって\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nセンノウサレシネコユーフォー"]
-    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
+    name: [洗脳されしネコノトリ, 洗脳されしネコUFO, 洗脳されし天空のネコ]
+    desc: ["体力は少ないが敵をまとめて一掃する\n超破壊力を持ったキャラ。悪の洗脳により\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nセンノウサレシネコノトリ", "重力を超越した改造にゃんこ\n敵をまとめてお仕置き可能。悪の洗脳によって\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nセンノウサレシネコユーフォー", "悪の洗脳が強まり魔界の空中都市へと成長したにゃんこ\n属性を持たない敵に超ダメージを与え、\n必ず動きを遅くする(範囲攻撃)\nセンノウサレシテンクウノネコ"]
+    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4789,9 +4789,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   685:
-    name: [洗脳されしネコフィッシュ, 洗脳されしネコクジラ]
-    desc: ["戦闘向きの高級キャラ\n悪の洗脳によってゾンビにめっぽう強くなった\nゾンビにトドメをさすと蘇生を防ぐ\nセンノウサレシネコフィッシュ", "肉食クジラに進化した高級戦闘キャラ\n悪の洗脳によってゾンビにめっぽう強くなった\nゾンビにトドメをさすと蘇生を防ぐ\nセンノウサレシネコクジラ"]
-    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}]
+    name: [洗脳されしネコフィッシュ, 洗脳されしネコクジラ, 洗脳されしネコ島]
+    desc: ["戦闘向きの高級キャラ\n悪の洗脳によってゾンビにめっぽう強くなった\nゾンビにトドメをさすと蘇生を防ぐ\nセンノウサレシネコフィッシュ", "肉食クジラに進化した高級戦闘キャラ\n悪の洗脳によってゾンビにめっぽう強くなった\nゾンビにトドメをさすと蘇生を防ぐ\nセンノウサレシネコクジラ", "悪の洗脳が強まったことで\n汚染された大地となったキャラ。毒撃を無効化して\nゾンビにめっぽう強く、たまに呪う\nセンノウサレシネコシマ"]
+    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, curse_chance: 50, curse_duration: 60, immune_toxic: 1, attack_duration: 17}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4817,9 +4817,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   689:
-    name: [洗脳されしネコトカゲ, 洗脳されしネコドラゴン]
-    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n悪の洗脳によりグラフィックが邪悪になった\nセンノウサレシネコトカゲ", "幻想世界から降臨した遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n悪の洗脳によりグラフィックが邪悪になった\nセンノウサレシネコドラゴン"]
-    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}]
+    name: [洗脳されしネコトカゲ, 洗脳されしネコドラゴン, 洗脳されしネコキングドラゴン]
+    desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n悪の洗脳によりグラフィックが邪悪になった\nセンノウサレシネコトカゲ", "幻想世界から降臨した遠距離型キャラ\n単発だけなら攻撃力はピカイチ\n悪の洗脳によりグラフィックが邪悪になった\nセンノウサレシネコドラゴン", "悪のドラゴン界のエリートまで上り詰めた遠距離型キャラ\n単発だけなら攻撃力はピカイチ\nグラフィックの邪悪さと波動を無効化する力を入手\nセンノウサレシネコキングドラゴン"]
+    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 14}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4859,9 +4859,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   695:
-    name: [洗脳されし巨神ネコ, 洗脳されしネコダラボッチ]
-    desc: ["超絶破壊力＆強靭な体力を備えた\n最高級のキャラ。悪の洗脳によって\nたまに渾身の一撃を放つようになった(範囲攻撃)\nセンノウサレシキョシンネコ", "超絶破壊力＆強靭な体力を備えたネコ神様\n悪の洗脳により邪神と化した\nたまに渾身の一撃を放つ(範囲攻撃)\nセンノウサレシネコダラボッチ"]
-    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}]
+    name: [洗脳されし巨神ネコ, 洗脳されしネコダラボッチ, 洗脳されしネコジャラミ]
+    desc: ["超絶破壊力＆強靭な体力を備えた\n最高級のキャラ。悪の洗脳によって\nたまに渾身の一撃を放つようになった(範囲攻撃)\nセンノウサレシキョシンネコ", "超絶破壊力＆強靭な体力を備えたネコ神様\n悪の洗脳により邪神と化した\nたまに渾身の一撃を放つ(範囲攻撃)\nセンノウサレシネコダラボッチ", "超絶破壊力＆強靭な体力の破壊をつかさどる巨悪ネコ\n悪の洗脳によって凶暴化し、複数の耐性を取得\nたまに渾身の一撃を放つ(範囲攻撃)\nセンノウサレシネコジャラミ"]
+    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, immune_surge: 1, immune_knockback: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 31}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -5045,6 +5045,34 @@ cats:
     desc: ["タマゴのような形をした謎の物体\n長い歳月を経て土がこびりつき風化している\n「N006」と小さく刻まれているように見えるが…\nフルビタタマゴ", "悪のボディを現したタマゴのような物体\n内部に微かな生命反応があるようだ\n悪魔に極ダメージを与える\nアクノタマゴ", "怪奇映画「アックマの棲む家」の主演俳優\n鬼気迫る殺陣シーンで共演者を再起不能に追い込む\n悪魔に極ダメージを与え、超獣特効を持つ(範囲攻撃)"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  722:
+    name: [花園高校番長りき, ドッジボール部りき]
+    desc: ["熱血硬派くにおくんシリーズから参戦！\n花園高校をまとめ上げる頼れる番長で\nくにおくんの親友にして永遠のライバル\nハナゾノコウコウバンチョウリキ", "熱血硬派くにおくんシリーズから参戦！\n花園高校チームの仲間を率いる頼れるキャプテン\nたまに敵をふっとばす(範囲攻撃)\nドッジボールブリキ"]
+    stat: [{health: 6000, knockbacks: 3, speed: 16, cost: 1800, production_cooldown: 1000, attack_cooldown: 27, range: 200, width: 320, area_effect: 1, damage_0: 365, attack_time_0: 5, trigger_effects_0: 1, damage_1: 365, attack_time_1: 10, trigger_effects_1: 1, damage_2: 365, attack_time_2: 15, trigger_effects_2: 1, attack_duration: 18}, {health: 2400, knockbacks: 3, speed: 24, cost: 1800, production_cooldown: 1600, range: 450, width: 320, area_effect: 1, damage_0: 280, long_range_0: 1, long_range_offset_0: 450, attack_time_0: 8, trigger_effects_0: 1, damage_1: 280, long_range_1: 200, long_range_offset_1: 375, attack_time_1: 10, trigger_effects_1: 1, damage_2: 280, long_range_2: 400, long_range_offset_2: 300, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 10, attack_duration: 126}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  723:
+    name: [初音ミク 16th, 初音ミクCC 16th]
+    desc: ["電子世界から人気バーチャル・シンガー登場！\n人々の想いを16年間メロディーで紡いできた歌姫\n黒い敵にめっぽう強く、遅くする烈波を放つ(範囲攻撃)\nハツネミク", "電子世界から人気バーチャル・シンガー登場！\n創作の羽根をはばたかせる特別な歌姫\n黒い敵にめっぽう強く、遅くする烈波を放つ(範囲攻撃)\nハツネミク"]
+    stat: [{health: 3000, knockbacks: 3, speed: 10, cost: 2600, production_cooldown: 1500, attack_cooldown: 70, range: 350, width: 320, area_effect: 1, damage_0: 730, attack_time_0: 49, trigger_effects_0: 1, against_black: 1, strong: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 2, surge_range: 600, surge_range_offset: 2400, attack_duration: 105}, {health: 3900, knockbacks: 3, speed: 10, cost: 2600, production_cooldown: 1500, attack_cooldown: 70, range: 350, width: 320, area_effect: 1, damage_0: 970, attack_time_0: 49, trigger_effects_0: 1, against_black: 1, strong: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 2, surge_range: 600, surge_range_offset: 2400, attack_duration: 105}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  724:
+    name: [光翼神イシス, ネフェルイシス]
+    desc: ["ヘリオポリス九柱神の一人で強力な魔力を持つ女神\n葬送の神器「生死の双翼」は魔を裁き地上に恵みを与える\n超生命体特効を持ち、たまに波動を放つ\nコウヨクシンイシス", "ヘリオポリス九柱神の一人で強力な魔力を持つ女神\n葬天の神器「生死の神双翼」は邪悪なる魂を浄化する\n超生命体特効を持ち、必ず波動を放つ"]
+    stat: [{health: 5600, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 50, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}, {health: 7100, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 100, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  725:
+    name: ['古びたタマゴ:N112', '謎のタマゴ:N112', ネコタマ号]
+    desc: ["タマゴのような形をした謎の物体\n長い歳月を経て土がこびりつき風化している\n「N112」と小さく刻まれているように見えるが…\nフルビタタマゴ", "白いボディを現したタマゴのような物体\n内部に微かな生命反応があるようだ\n　\nナゾノタマゴ", "謎のタマゴを操れる唯一無二の選ばれしネコ\n普通自動車第一種運転免許（AT限定）と\n超獣特効を持つ\nネコタマゴウ"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 4000, knockbacks: 1, speed: 25, cost: 500, production_cooldown: 650, range: 120, width: 320, damage_0: 1640, attack_time_0: 3, trigger_effects_0: 1, behemoth_killer: 1, behemoth_dodge_chance: 50, behemoth_dodge_duration: 60, immune_surge: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 8346}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
@@ -7793,6 +7821,7 @@ gacha:
     rate: uberfest
   482:
     cats: [531, 487, 486, 338, 162, 161, 65, 66, 67, 68, 69]
+    series_id: 17
     name: "【期間限定】『ケリ姫スイーツ』コラボガチャ！★詳細はバナーをタップ!!"
     rate: no_legend
   483:
@@ -9641,6 +9670,58 @@ gacha:
     series_id: 47
     name: 季節キャラクターが一堂に集結!!★超激レア出現率アップの「超国王祭」!!
     rate: dynastyfest
+  842:
+    cats: [724, 643, 535, 494, 440, 317, 273, 272, 260, 259, 258, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 18
+    name: 浮いてる敵と悪魔に強い新キャラ「堕天神ルシファー」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  843:
+    cats: [724, 643, 535, 494, 440, 317, 273, 272, 260, 259, 258, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 18
+    name: 浮いてる敵と悪魔に強いキャラ「堕天神ルシファー」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  844:
+    cats: [724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "「運命の子フォノ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!"
+    rate: uberfest
+    similarity: 99
+  845:
+    cats: [724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "「非命の王フォノウ」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!"
+    rate: uberfest
+    similarity: 99
+  846:
+    cats: [724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    rate: platinum
+    similarity: 99
+  847:
+    cats: [724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    rate: legend
+    similarity: 99
+  848:
+    cats: [84, 106, 137, 171, 195, 272, 339, 360, 618, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 57
+    name: 熱血キャラクターが揃う「熱血!大運動会」ガチャ登場！★詳細はバナーをタップ!!
+    rate: no_legend
+  849:
+    cats: [88, 108, 213, 317, 402, 526, 619, 626, 669, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 58
+    name: 熱血キャラクターが揃う「熱血!大運動会」ガチャ登場！★詳細はバナーをタップ!!
+    rate: no_legend
+  850:
+    cats: [723, 594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 43
+    name: 超激7体、限定キャラ全部で12体登場の『初音ミク』ガチャ！★詳細はバナーから!!
+    rate: no_legend
+    similarity: 98
 events:
   2018-09-15_320:
     start_on: 2018-09-15
