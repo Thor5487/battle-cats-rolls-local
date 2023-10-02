@@ -8735,9 +8735,8 @@ gacha:
   811:
     cats: [713, 626, 547, 462, 437, 241, 172, 171, 170, 169, 35, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 0
-    name: NEW Barrier and Shield destroying hero Furiluga appears! ★Tap banner for info!
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
     rate: regular
-    similarity: 98
   812:
     cats: [713, 626, 547, 462, 437, 241, 172, 171, 170, 169, 35, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 0
@@ -20366,6 +20365,124 @@ events:
     version: '120600'
     name: '9 Year Celebration: Excellent Selection! ★ Tap banner for info!'
     id: 771
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-02_768:
+    start_on: 2023-10-02
+    end_on: 2023-10-04
+    version: '120600'
+    name: New Heroes appear to celebrate 9 Years! ★ Tap banner for info!
+    id: 768
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-10-02_811:
+    start_on: 2023-10-02
+    end_on: 2023-10-04
+    version: '120600'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-04_741:
+    start_on: 2023-10-04
+    end_on: 2023-10-06
+    version: '120600'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-04_769:
+    start_on: 2023-10-04
+    end_on: 2023-10-06
+    version: '120600'
+    name: '9 Year Celebration: Ultra Selection! ★ Tap banner for info!'
+    id: 769
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-06_752:
+    start_on: 2023-10-06
+    end_on: 2023-10-09
+    version: '120600'
+    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    id: 752
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-06_813:
+    start_on: 2023-10-06
+    end_on: 2023-10-09
+    version: '120600'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 813
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2023-10-09_732:
+    start_on: 2023-10-09
+    end_on: 2023-10-11
+    version: '120600'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-09_770:
+    start_on: 2023-10-09
+    end_on: 2023-10-11
+    version: '120600'
+    name: '9 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 770
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-11_523:
+    start_on: 2023-10-11
+    end_on: 2023-10-13
+    version: '120600'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-10-11_772:
+    start_on: 2023-10-11
+    end_on: 2023-10-13
+    version: '120600'
+    name: New Capsules featuring Colossus Slayer units!  With Increasing Capsules!
+    id: 772
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2023-10-13_694:
+    start_on: 2023-10-13
+    end_on: 2023-10-16
+    version: '120600'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-10-13_789:
+    start_on: 2023-10-13
+    end_on: 2023-10-16
+    version: '120600'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
     rare: 6970
     supa: 2500
     uber: 500
