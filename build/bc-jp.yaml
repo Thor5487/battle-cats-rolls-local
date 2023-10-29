@@ -21509,3 +21509,45 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2023-10-27_742:
+    start_on: 2023-10-27
+    end_on: 2023-10-30
+    version: '120700'
+    name: 超生命体特効を持つキャラクター「ネコ天狗」参戦！★詳細はバナーをタップ!!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-10-27_762:
+    start_on: 2023-10-27
+    end_on: 2023-11-01
+    version: '120700'
+    name: ハロウィン限定のコスプレキャラを手に入れよう！★11連で超激レア確定!!
+    id: 762
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-10-27_850:
+    start_on: 2023-10-27
+    end_on: 2023-11-01
+    version: '120700'
+    name: 超激8体、限定キャラ全部で13体登場の『初音ミク』ガチャ！★11連で超激レア確定!!
+    id: 850
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-10-30_789:
+    start_on: 2023-10-30
+    end_on: 2023-11-01
+    version: '120700'
+    name: "「いっすん法師」参戦！強力な古代の勇者たちを仲間にしよう！★詳細はバナーをタップ!!"
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
