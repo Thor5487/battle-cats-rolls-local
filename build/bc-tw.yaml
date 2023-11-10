@@ -183,9 +183,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 10, 10]
   27:
-    name: [飛踢公主, 全彩飛踢公主]
-    desc: ["爲了尋求甜點而特別來到貓咪軍團\n大絕招是衝刺之後放出的「飛踢」！\n即使身在戰場也不忘到處尋找帥哥！？", "爲了尋求甜點而特別來到貓咪軍團\n變得更美艷了的男人婆公主\n大絕招是衝刺之後放出的「飛踢」！"]
-    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}]
+    name: [飛踢公主, 全彩飛踢公主, 婚紗飛踢公主]
+    desc: ["爲了尋求甜點而特別來到貓咪軍團\n大絕招是衝刺之後放出的「飛踢」！\n即使身在戰場也不忘到處尋找帥哥！？", "爲了尋求甜點而特別來到貓咪軍團\n變得更美艷了的男人婆公主\n大絕招是衝刺之後放出的「飛踢」！", "爲了尋求甜點而特別來到貓咪軍團\n換上純白婚紗後在紅毯上全速奔馳\n正在等待能承受愛之「飛踢」的人出現。"]
+    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 40, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 800, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -456,30 +456,30 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   67:
-    name: [KHM48, 暗黑KHM48]
-    desc: ["KHM48=飛踢公主神轎與48隻貓咪\n貓咪的遠距離攻擊\n有時候會讓黑色敵人瞬間動作停止(範圍攻擊)", "擺脫了惡之帝王詛咒的貓咪們\n貓咪的遠距離攻擊\n有時候會讓黑色敵人瞬間動作停止(範圍攻擊)"]
-    stat: [{health: 400, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 180, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}]
+    name: [KHM48, 暗黑KHM48, KHM46]
+    desc: ["KHM48=飛踢公主神轎與48隻貓咪\n貓咪的遠距離攻擊\n有時候會讓黑色敵人瞬間動作停止(範圍攻擊)", "擺脫了惡之帝王詛咒的貓咪們\n貓咪的遠距離攻擊\n有時候會讓黑色敵人瞬間動作停止(範圍攻擊)", "KHM46=飛踢公主神轎與46隻貓咪\n即使貓咪變少，但輸貓不輸陣的貓咪軍團\n有時候會讓黑色敵人動作停止(範圍攻擊)"]
+    stat: [{health: 400, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 180, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 445, attack_cooldown: 45, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 90, attack_duration: 130}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   68:
-    name: [小暴龍, 小暴暴龍]
-    desc: ["公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選", "公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選"]
-    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}]
+    name: [小暴龍, 小暴暴龍, 水晶小暴暴龍]
+    desc: ["公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選", "公主踢騎士Sweets中出現的角色\n能夠大幅減少黑色敵人造成的傷害\n廉價的成本使其成爲防禦黑色敵人的首選", "公主踢騎士Sweets中出現的角色\n水晶化的身體讓他不會被打飛\n廉價的成本使其成爲防禦黑色敵人的首選"]
+    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 1000, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 111}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   69:
-    name: [鐮刀使者, 鐮刀使者999]
-    desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）", "公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）"]
-    stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}]
+    name: [鐮刀使者, 鐮刀使者999, 審判使者]
+    desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）", "公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n有時候使黑色敵人動作變慢（範圍攻擊）", "公主踢騎士Sweets中出現的角色\n會用審判之鐘的聲音叫出樁和鐮刀來攻擊\n有時候使黑色敵人動作變慢（範圍攻擊）"]
+    stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 1000, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 51, range: 360, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 57, trigger_effects_0: 1, damage_1: 450, attack_time_1: 83, trigger_effects_1: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 128}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   70:
-    name: [飛踢睡美人, 飛踢睡美人II]
-    desc: ["未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）", "未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）"]
-    stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}]
+    name: [飛踢睡美人, 飛踢睡美人II, 熟睡飛踢睡美人]
+    desc: ["未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）", "未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n跟一般的巨神貓比起來攻擊距離長了一點\n不過走起來也慢了點（範圍攻擊）", "未經同意就把熟睡中的飛踢公主帶出來的巨神貓\n正在把黏在身上的飛踢公主帶回城堡\n因為即將離別而有些感傷（範圍攻擊）"]
+    stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1500, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 12, trigger_effects_0: 1, immune_slow: 1, attack_duration: 35}]
     rarity: 3
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -801,7 +801,7 @@ cats:
   120:
     name: [飛翼龍, 喵翼龍]
     desc: ["來自梅露可物語的戰士！\n從空中放出強烈的一擊\n能對黑色敵人造成超大傷害(範圍攻擊)", "貓咪軍團以飛翼龍為藍本\n經過無數次秘密研究後製造出的合成魔獸\n能對黑色敵人造成超大傷害(範圍攻擊)"]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1051,16 +1051,16 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   161:
-    name: [幽靈鷙, 轉生靈鳥幽靈鷙]
-    desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n善於攻擊天使敵人（範圍攻擊）", "想坐上公主踢騎士Sweets中出現的\n轉生靈鳥幽靈鷙的貓咪們絞盡腦汁開發出的\n鳥形遙控飛機。善於攻擊天使敵人（範圍攻擊）"]
-    stat: [{health: 1400, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 530, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 1900, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}]
+    name: [幽靈鷙, 轉生靈鳥幽靈鷙, 怒靈鷙]
+    desc: ["公主踢騎士Sweets中出現的角色\n特別在合作活動中同台演出\n善於攻擊天使敵人（範圍攻擊）", "想坐上公主踢騎士Sweets中出現的\n轉生靈鳥幽靈鷙的貓咪們絞盡腦汁開發出的\n鳥形遙控飛機。善於攻擊天使敵人（範圍攻擊）", "顏色很像是公主踢騎士Sweets中出現的\n怒靈鷙的鳥形遙控飛機。剩的黑色顏料被拿來\n塗在貓咪身上。善於攻擊天使敵人（範圍攻擊）"]
+    stat: [{health: 1400, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 530, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 1900, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 2400, knockbacks: 4, speed: 12, cost: 1250, production_cooldown: 950, attack_cooldown: 35, range: 340, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   162:
-    name: [狂亂飛踢公主, 狂亂飛踢公主CC]
-    desc: ["吃了暗黑甜點而陷入狂亂的公主\n攻擊時發出充滿黑闇之力「飛踢」的嚇人詛咒！\n有時候會打飛鋼鐵敵人(範圍攻擊)", "吃了暗黑甜點而陷入狂亂的公主\n來救她恢復正常的帥哥遲遲未出現\n有時候會打飛鋼鐵敵人(範圍攻擊)"]
-    stat: [{health: 400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 900, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}]
+    name: [狂亂飛踢公主, 狂亂飛踢公主CC, 大狂亂飛踢公主]
+    desc: ["吃了暗黑甜點而陷入狂亂的公主\n攻擊時發出充滿黑闇之力「飛踢」的嚇人詛咒！\n有時候會打飛鋼鐵敵人(範圍攻擊)", "吃了暗黑甜點而陷入狂亂的公主\n來救她恢復正常的帥哥遲遲未出現\n有時候會打飛鋼鐵敵人(範圍攻擊)", "吃了暗黑甜點而陷入大狂亂的公主\n全身纏繞著黑闇之力，為尋找帥哥而全速奔馳\n有時候會打飛鋼鐵敵人(範圍攻擊)"]
+    stat: [{health: 400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 900, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 1400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 100, range: 780, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 50, attack_duration: 180}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2079,6 +2079,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  338:
+    name: [飛踢公主號, 飛踢公主號CC, 豪華飛踢公主號CC]
+    desc: ["搭乘寶船觀光中的飛踢公主和貓咪們\n即使在空中也不會錯過任何甜點\n打倒敵人的時候可以得到很多金錢(範圍攻擊)", "搭乘高級寶船觀光中的飛踢公主和貓咪們\n即使在空中也不會錯過任何帥哥\n打倒敵人的時候可以得到很多金錢(範圍攻擊)", "搭乘豪華寶船觀光中的飛踢公主和貓咪們\n因為發現了帥哥而正加速前往現場\n打倒敵人的時候可以得到很多金錢(範圍攻擊)"]
+    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   339:
     name: [今川義元, 武神・今川義元, 鬼火武神・今川義元]
     desc: ["吸收了傳說武器「貓咪扇」的詛咒後\n遭神力變化為妖狐之姿的智將(遠距範圍攻擊)\n善於攻擊黑色敵人，必定能使其攻擊力下降", "解放傳說武器「貓咪扇」奧義的戰國武將\n將以絢爛豪華的黃金箭來復仇(遠距範圍攻擊)\n善於攻擊黑色敵人，必定能使其攻擊力下降", "將傳說武器「貓咪扇」用火焰妝點的戰國武將\n以地獄的鬼火燒盡怨敵(遠距範圍攻擊)\n善於攻擊黑色敵人，必定能使其攻擊力下降"]
@@ -3031,6 +3038,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  486:
+    name: [卡蕾特, 卡蕾特CC]
+    desc: ["公主踢騎士Sweets中登場的阿拉卡爾媞特\n四姊妹的四妹。喜歡惡作劇而常常騷擾飛踢公主\n必定能使天使、不死生物和異星戰士攻擊力下降", "公主踢騎士Sweets中登場的阿拉卡爾媞特\n四姊妹的四妹。會搶寶物、誘拐貓咪的惡作劇女孩\n必定能使天使、不死生物和異星戰士攻擊力下降"]
+    stat: [{health: 1800, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}, {health: 2400, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1600, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  487:
+    name: [姬娜, 劍士姬娜]
+    desc: ["公主踢騎士Sweets中出現的角色\n曾侍奉阿拉卡爾媞特四姊妹的女劍士\n必定能發射波動", "公主踢騎士Sweets中出現的角色\n工作熱心且對人親切，相當受大家歡迎\n必定能發射波動"]
+    stat: [{health: 1170, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 100, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}, {health: 1560, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 125, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   488:
     name: [EVA8號機, EVA8號機&貓咪]
     desc: ["從福音戰士來參戰！\n反NERV組織WILLE改造並且運用的機體\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)", "從福音戰士來參戰！\n能使用多種槍械並擅長援護射撃\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)"]
@@ -3318,6 +3339,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  531:
+    name: [艾露梅, 艾露梅CC]
+    desc: ["公主踢騎士Sweets中登場的阿拉卡爾媞特\n四姊妹的三妹。喜歡金錢和打賭的大小姐\n善於攻擊不死生物(全方位攻擊)", "公主踢騎士Sweets中登場的阿拉卡爾媞特\n四姊妹的三妹。會把飛踢公主的東西拿來\n打跑敵人。善於攻擊不死生物(全方位攻擊)"]
+    stat: [{health: 2400, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 525, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 525, attack_time_1: 75, trigger_effects_1: 1, damage_2: 525, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}, {health: 3200, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 695, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 695, attack_time_1: 75, trigger_effects_1: 1, damage_2: 695, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   532:
     name: [熊熊貓咪, 黑熊貓咪, 怪人熊熊貓咪]
     desc: ["八點檔「森林中的熊熊老師」主角\n遇到比自己更醒目的東西就會一拳揍下去\n給予無屬性敵人極度傷害(範圍攻擊)", "八點檔「森林中的熊熊老師」黑子\n遇到站的比自己更前面的就會暗殺他\n給予黑色敵人極度傷害(範圍攻擊)", "八點檔「森林中的熊熊老師 of THE END」主角\n前作主角不死化後甦醒再次登場的B級恐怖電影\n給予不死生物極度傷害(範圍攻擊)"]
@@ -3494,9 +3522,9 @@ cats:
     max_level: 50
     growth: [20, 20, 60, 120, 180]
   560:
-    name: [地獄警官艾瑪, 地獄軍曹艾瑪]
-    desc: ["為了要找可以打入地獄的人而假扮警官到來\n的閻魔女王。被詢問時若是說謊就會被燒滅\n有時讓敵人攻擊力下降，並能抵消波動(全方位攻擊)", "為找尋審判惡者而混入軍人中的閻魔女王。\n將戰場上的犯罪者全數送入地獄！\n有時讓敵人攻擊力下降，並能抵消波動(全方位攻擊)"]
-    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}]
+    name: [地獄警官艾瑪, 地獄軍曹艾瑪, 閻魔總長艾瑪]
+    desc: ["為了要找可以打入地獄的人而假扮警官到來\n的閻魔女王。被詢問時若是說謊就會被燒滅\n有時讓敵人攻擊力下降，並能抵消波動(全方位攻擊)", "為找尋審判惡者而混入軍人中的閻魔女王。\n將戰場上的犯罪者全數送入地獄！\n有時讓敵人攻擊力下降，並能抵消波動(全方位攻擊)", "在重大時刻換上特別服裝進行審判的閻魔女王\n「拿出幹勁全力以赴，通通給我小心點啦！」\n有時讓敵人攻擊力下降，並能抵消波動(全方位攻擊)"]
+    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 20000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 40, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, immune_freeze: 1, immune_warp: 1, attack_duration: 158}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3935,8 +3963,8 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   625:
-    name: [熱血硬派國雄君, 躲避球部國雄君]
-    desc: ["來自熱血硬派國雄君系列！\n打擊強者幫助弱者的不良正義！(範圍攻擊)", "來自熱血硬派國雄君系列！\n為消除運動不足開始躲避球而稱霸世界！\n(遠距範圍攻擊)"]
+    name: [熱血硬派國夫君, 躲避球社國夫君]
+    desc: ["來自熱血硬派國夫君系列！\n打擊強者幫助弱者的不良正義！(範圍攻擊)", "來自熱血硬派國夫君系列！\n為消除運動不足開始躲避球而稱霸世界！\n(遠距範圍攻擊)"]
     stat: [{health: 5400, knockbacks: 3, speed: 20, cost: 1900, production_cooldown: 900, attack_cooldown: 28, range: 200, width: 320, area_effect: 1, damage_0: 360, attack_time_0: 4, trigger_effects_0: 1, damage_1: 360, attack_time_1: 8, trigger_effects_1: 1, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, attack_duration: 15}, {health: 1800, knockbacks: 3, speed: 30, cost: 1900, production_cooldown: 1500, attack_cooldown: 62, range: 500, width: 320, area_effect: 1, damage_0: 750, long_range_0: 400, long_range_offset_0: 300, attack_time_0: 26, trigger_effects_0: 1, attack_duration: 86}]
     rarity: 4
     max_level: 130
@@ -3949,9 +3977,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   630:
-    name: [遭洗腦的貓咪, 遭洗腦的健美貓]
-    desc: ["可以低成本生產的基本角色\n遭到洗腦，有時候可以入手\n讓黑色敵人與惡魔的攻擊無效化的能力", "飽經鍛鍊的肌肉是魅力所在的\n基本角色。遭到洗腦，有時候可以入手\n讓黑色敵人與惡魔的攻擊無效化的能力"]
-    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}]
+    name: [遭洗腦的貓咪, 遭洗腦的健美貓, 遭洗腦的摩西根貓]
+    desc: ["可以低成本生產的基本角色\n遭到洗腦，有時候可以入手\n讓黑色敵人與惡魔的攻擊無效化的能力", "飽經鍛鍊的肌肉是魅力所在的\n基本角色。遭到洗腦，有時候可以入手\n讓黑色敵人與惡魔的攻擊無效化的能力", "經過鍛鍊的肌肉跟受到加強洗腦而長出的\n蓬鬆頭髮是魅力所在的基本角色。有時候\n可以使黑色敵人、惡魔和古代種的攻擊無效化"]
+    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_relic: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, immune_curse: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3991,9 +4019,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   637:
-    name: [遭洗腦的坦克貓, 遭洗腦的牆貓]
-    desc: ["體力很強的肉盾角色\n遭到洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)", "用來當人牆最適合不過的肉盾角色\n遭到惡洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)"]
-    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}]
+    name: [遭洗腦的坦克貓, 遭洗腦的牆貓, 遭洗腦的橡皮貓]
+    desc: ["體力很強的肉盾角色\n遭到洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)", "用來當人牆最適合不過的肉盾角色\n遭到惡洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)", "用來當人牆最適合不過的肉盾角色\n因受到加強洗腦而取得了超越橡皮的彈力\n對上無屬性敵人超耐打(範圍攻擊)"]
+    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 18, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, insane_resistant: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4054,9 +4082,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   646:
-    name: [遭洗腦的戰鬥貓, 遭洗腦的勇者貓]
-    desc: ["戰鬥型的角色\n遭到洗腦，善於攻擊無屬性敵人\n而且有時候可以入手詛咒能力", "過去曾崇拜勇者的戰鬥型角色\n遭到洗腦，善於攻擊無屬性敵人\n而且有時候可以入手詛咒能力"]
-    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
+    name: [遭洗腦的戰鬥貓, 遭洗腦的勇者貓, 遭洗腦的暗黑貓]
+    desc: ["戰鬥型的角色\n遭到洗腦，善於攻擊無屬性敵人\n而且有時候可以入手詛咒能力", "過去曾崇拜勇者的戰鬥型角色\n遭到洗腦，善於攻擊無屬性敵人\n而且有時候可以入手詛咒能力", "受到加強洗腦後開始自己製作超強武器的\n戰鬥型角色。能發射小波動\n善於攻擊無屬性敵人，有時候可以詛咒敵人"]
+    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, wave_chance: 100, wave_level: 1, wave_mini: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4117,9 +4145,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   655:
-    name: [遭洗腦的噁心貓, 遭洗腦的美腿貓]
-    desc: ["可以攻擊遠處敵人的遠距離攻擊型角色\n遭到洗腦，從那染黑的腳\n必定能發射烈波", "對自己超美的腿感到驕傲的遠距離攻擊型角色\n遭到洗腦，從那被黑暗侵蝕的雙腿\n必定能發射烈波"]
-    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
+    name: [遭洗腦的噁心貓, 遭洗腦的美腿貓, 遭洗腦的筋肉美腿貓]
+    desc: ["可以攻擊遠處敵人的遠距離攻擊型角色\n遭到洗腦，從那染黑的腳\n必定能發射烈波", "對自己超美的腿感到驕傲的遠距離攻擊型角色\n遭到洗腦，從那被黑暗侵蝕的雙腿\n必定能發射烈波", "對自己超美的肌肉感到驕傲的遠距離攻擊型角色\n受到加強洗腦後長出了像魔族的尾巴\n必定能發射的烈波攻擊也獲得強化"]
+    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 4, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4173,9 +4201,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   663:
-    name: [遭洗腦的牛貓, 遭洗腦的長頸鹿貓]
-    desc: ["動作敏捷移動能力優越的角色\n遭到洗腦，獲得能瞬間詛咒黑色敵人與惡魔的能力\n用令人咋舌的攻擊次數將眼前的敵人踢飛", "動作敏捷移動能力優越的角色\n遭到洗腦，獲得了相當時尚的外型以及\n能瞬間詛咒黑色敵人與惡魔的能力"]
-    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}]
+    name: [遭洗腦的牛貓, 遭洗腦的長頸鹿貓, 遭洗腦的獅子貓]
+    desc: ["動作敏捷移動能力優越的角色\n遭到洗腦，獲得能瞬間詛咒黑色敵人與惡魔的能力\n用令人咋舌的攻擊次數將眼前的敵人踢飛", "動作敏捷移動能力優越的角色\n遭到洗腦，獲得了相當時尚的外型以及\n能瞬間詛咒黑色敵人與惡魔的能力", "動作敏捷移動能力優越的角色\n受到加強洗腦後長出了讓人感到不祥的鬃毛\n能詛咒黑色敵人與惡魔的能力也獲得強化"]
+    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 2, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 90, attack_duration: 9}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4208,9 +4236,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   668:
-    name: [遭洗腦的鳥貓, 遭洗腦的UFO貓]
-    desc: ["體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色。遭到洗腦，\n可以給予無屬性敵人超大傷害(範圍攻擊)", "超越重力的改造貓咪\n可以將敵人一網打盡。遭到洗腦，\n可以給予無屬性敵人超大傷害(範圍攻擊)"]
-    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
+    name: [遭洗腦的鳥貓, 遭洗腦的UFO貓, 遭洗腦的天空之貓]
+    desc: ["體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色。遭到洗腦，\n可以給予無屬性敵人超大傷害(範圍攻擊)", "超越重力的改造貓咪\n可以將敵人一網打盡。遭到洗腦，\n可以給予無屬性敵人超大傷害(範圍攻擊)", "受到加強洗腦後變成了魔界空中都市的貓咪\n可以給予無屬性敵人超大傷害\n必定能使其動作變慢(範圍攻擊)"]
+    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4327,9 +4355,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   685:
-    name: [遭洗腦的魚貓, 遭洗腦的鯨貓]
-    desc: ["戰鬥型的高級角色\n遭到洗腦，善於攻擊不死生物\n打倒不死生物時可以阻止其重生", "進化成肉食鯨魚的高級戰鬥角色\n遭到洗腦，善於攻擊不死生物\n打倒不死生物時可以阻止其重生"]
-    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}]
+    name: [遭洗腦的魚貓, 遭洗腦的鯨貓, 遭洗腦的島貓]
+    desc: ["戰鬥型的高級角色\n遭到洗腦，善於攻擊不死生物\n打倒不死生物時可以阻止其重生", "進化成肉食鯨魚的高級戰鬥角色\n遭到洗腦，善於攻擊不死生物\n打倒不死生物時可以阻止其重生", "受到加強洗腦後變成了\n遭受汙染之大地的角色。能使毒擊無效\n善於攻擊不死生物，有時候可以詛咒敵人"]
+    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, curse_chance: 50, curse_duration: 60, immune_toxic: 1, attack_duration: 17}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4355,9 +4383,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   689:
-    name: [遭洗腦的蜥蜴貓, 遭洗腦的龍貓]
-    desc: ["可以攻擊遠處敵人的遠距離攻擊型角色\n只是單發的話攻擊力超凡\n因為遭到洗腦而圖像變得比較邪惡", "從幻想世界降臨的遠距離攻擊型角色\n只是單發的話攻擊力超凡\n因為遭到洗腦而圖像變得比較邪惡"]
-    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}]
+    name: [遭洗腦的蜥蜴貓, 遭洗腦的龍貓, 遭洗腦的龍王貓]
+    desc: ["可以攻擊遠處敵人的遠距離攻擊型角色\n只是單發的話攻擊力超凡\n因為遭到洗腦而圖像變得比較邪惡", "從幻想世界降臨的遠距離攻擊型角色\n只是單發的話攻擊力超凡\n因為遭到洗腦而圖像變得比較邪惡", "躋身成爲惡魔龍界精英的遠距離攻擊型角色\n只是單發的話攻擊力超凡\n圖像變得更加邪惡且能使波動無效"]
+    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 14}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4390,9 +4418,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   695:
-    name: [遭洗腦的巨神貓, 遭洗腦的巨人貓]
-    desc: ["具有超強破壞力和強韌體力的\n最頂級角色。因為遭到洗腦變得\n有時候施放渾身一擊(範圍攻擊)", "具有超強破壞力和強韌體力的貓神\n因為遭到洗腦而變成了邪神\n有時候施放渾身一擊(範圍攻擊)"]
-    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}]
+    name: [遭洗腦的巨神貓, 遭洗腦的巨人貓, 遭洗腦的賈拉米貓]
+    desc: ["具有超強破壞力和強韌體力的\n最頂級角色。因為遭到洗腦變得\n有時候施放渾身一擊(範圍攻擊)", "具有超強破壞力和強韌體力的貓神\n因為遭到洗腦而變成了邪神\n有時候施放渾身一擊(範圍攻擊)", "具有超強破壞力和強韌體力，掌控破壞的\n邪惡巨貓。受到加強洗腦後變得更兇暴\n有多種耐性且有時候施放渾身一擊(範圍攻擊)"]
+    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, immune_surge: 1, immune_knockback: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 31}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4548,6 +4576,34 @@ cats:
     desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N006」的小小字樣", "現出散發著邪惡氣息的外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n可給予惡魔極度傷害", "主演恐怖電影「惡魔熊熊屋」的演員\n在緊張的武打場面中把其他演員打到站不起來\n可給予惡魔極度傷害，有超獸特效(範圍攻擊)"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  722:
+    name: [花園高中老大阿力, 躲避球社阿力]
+    desc: ["來自熱血硬派國夫君系列！\n能讓花園高中團結一致的可靠老大\n國夫君的好友兼宿敵", "來自熱血硬派國夫君系列！\n率領花園高中躲避球社的社長，非常可靠！\n有時候可以打飛敵人（範圍攻擊）"]
+    stat: [{health: 6000, knockbacks: 3, speed: 16, cost: 1800, production_cooldown: 1000, attack_cooldown: 27, range: 200, width: 320, area_effect: 1, damage_0: 365, attack_time_0: 5, trigger_effects_0: 1, damage_1: 365, attack_time_1: 10, trigger_effects_1: 1, damage_2: 365, attack_time_2: 15, trigger_effects_2: 1, attack_duration: 18}, {health: 2400, knockbacks: 3, speed: 24, cost: 1800, production_cooldown: 1600, range: 450, width: 320, area_effect: 1, damage_0: 280, long_range_0: 1, long_range_offset_0: 450, attack_time_0: 8, trigger_effects_0: 1, damage_1: 280, long_range_1: 200, long_range_offset_1: 375, attack_time_1: 10, trigger_effects_1: 1, damage_2: 280, long_range_2: 400, long_range_offset_2: 300, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 10, attack_duration: 126}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  723:
+    name: ["＠"]
+    desc: ["＠\n＠\n＠\n＠\n＠"]
+    stat: [{health: 3000, knockbacks: 3, speed: 10, cost: 2600, production_cooldown: 1500, attack_cooldown: 70, range: 350, width: 320, area_effect: 1, damage_0: 730, attack_time_0: 49, trigger_effects_0: 1, against_black: 1, strong: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 2, surge_range: 600, surge_range_offset: 2400, attack_duration: 105}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  724:
+    name: [光翼神伊西絲, 美翼神伊西絲]
+    desc: ["持有強大魔法的女神，赫里奧波里斯九柱神之一\n會用葬送的神器「生死雙翼」制裁惡魔、賜福大地\n有超生命體特效，有時候能發射波動", "持有強大魔法的女神，赫里奧波里斯九柱神之一\n會用葬天的神器「生死神雙翼」淨化邪惡的靈魂\n有超生命體特效，必定能發射波動"]
+    stat: [{health: 5600, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 50, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}, {health: 7100, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 100, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  725:
+    name: [遠古的蛋：N112, 謎樣的蛋：N112, 蛋蛋號貓]
+    desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N112」的小小字樣", "現出白色外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應", "唯一可以駕駛謎樣的蛋的天選之貓\n擁有普通小型車的手牌駕照以及超獸特效"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 4000, knockbacks: 1, speed: 25, cost: 500, production_cooldown: 650, range: 120, width: 320, damage_0: 1640, attack_time_0: 3, trigger_effects_0: 1, behemoth_killer: 1, behemoth_dodge_chance: 50, behemoth_dodge_duration: 60, immune_surge: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 8346}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:

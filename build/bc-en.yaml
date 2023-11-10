@@ -183,16 +183,16 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 10, 10]
   27:
-    name: [Kerihime, Full color Kerihime]
-    desc: ["Joined the war especially in order to seek \"sweets\".\nHer ultimate attack is unleashing her ferocious dash!\nDoes joining the war stop her pursuit of hot guys?", "Joined the war especially in order to seek \"sweets\".\nShe turned from a tomboy into a sexy princess.\nHer ultimate attack is unleashing her ferocious dash!"]
-    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1}]
+    name: [Kerihime, Full color Kerihime, Bridal Princess Punt]
+    desc: ["Joined the war especially in order to seek \"sweets\".\nHer ultimate attack is unleashing her ferocious dash!\nDoes joining the war stop her pursuit of hot guys?", "Joined the war especially in order to seek \"sweets\".\nShe turned from a tomboy into a sexy princess.\nHer ultimate attack is unleashing her ferocious dash!", "Joined the war in order to seek \"sweets\".\nSprints down the wedding aisle in a white dress,\nawaiting the one who can accept her love."]
+    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 40, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 800, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   28:
     name: [Cat Princess, Cat Princess beauty]
     desc: ["A cat who travels the world in order to seek true beauty.\nHe admired a princess he has met in the middle of the\njourney and bought an item in a wig shop.", "A cat who travels the world in order to seek true beauty.\nHe admired a princess he has met in the middle of the\njourney and spent an entire fortune on plastic surgery."]
-    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 350, attack_cooldown: 42, range: 140, width: 320, damage_0: 450, attack_time_0: 2}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 350, attack_cooldown: 42, range: 140, width: 320, damage_0: 450, attack_time_0: 2}]
+    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 350, attack_cooldown: 42, range: 140, width: 320, damage_0: 450, attack_time_0: 2, attack_duration: 160}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 350, attack_cooldown: 42, range: 140, width: 320, damage_0: 450, attack_time_0: 2, attack_duration: 160}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -439,6 +439,48 @@ cats:
     desc: ["The power of three Cats, and one Tank Cat.\nThese cats love Sports Day and\nalways strive for the top team (Area Attack)", "The power of three Cats, and one Tank Cat.\nThough an effective team, the Tank Cat\nis the victim, apparently. (Area Attack)", "No one wanted to pay the ransom, so they\njust made the Tank into a banner of victory.\nMorally ambiguous efficiency! (Area Atk)"]
     stat: [{health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 15, range: 110, width: 320, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1}, {health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 15, range: 110, width: 320, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1}, {health: 700, knockbacks: 4, speed: 10, cost: 250, production_cooldown: 120, attack_cooldown: 35, range: 330, width: 320, area_effect: 1, damage_0: 26, attack_time_0: 8, trigger_effects_0: 1, immune_warp: 1}]
     rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  65:
+    name: [Swordsman, Swordsman Johnny]
+    desc: ["Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand.", "Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand."]
+    stat: [{health: 280, knockbacks: 3, speed: 6, cost: 160, production_cooldown: 190, attack_cooldown: 55, range: 170, width: 320, damage_0: 40, attack_time_0: 27, attack_duration: 55}, {health: 560, knockbacks: 3, speed: 6, cost: 160, production_cooldown: 190, attack_cooldown: 55, range: 170, width: 320, damage_0: 90, attack_time_0: 27, attack_duration: 55}]
+    rarity: 2
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  66:
+    name: [Cow Princess, Giraffe Princess]
+    desc: ["Craziness even exudes from its luxurious locks.\nSlightly longer reach than a regular Cow Cat.\nDeals Massive damage to Black enemies.", "Craziness even exudes from its luxurious locks.\nSlightly longer reach than a regular Giraffe Cat.\nDeals Massive damage to Black enemies."]
+    stat: [{health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, width: 320, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 30, cost: 500, production_cooldown: 135, range: 161, width: 320, damage_0: 30, attack_time_0: 6, against_black: 1, massive_damage: 1, attack_duration: 9}]
+    rarity: 2
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  67:
+    name: [PPT48, Dark PPT48, PPT46]
+    desc: ["The 48 Cats who carry Princess Punt's\nthrone. Extreme range of the Cats' Area attack\nmight Freeze Black enemies (Area atk.)", "The Cats evaded the Dark Emperor's curse.\nThe extreme range on the Cats' Area\nattack might Freeze Black enemies.", "The 46 Cats carrying Princess Punt's throne.\nMay be small in size and number, but have big hearts.\nArea attacks might Freeze Black enemies."]
+    stat: [{health: 400, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 180, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 445, attack_cooldown: 45, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 90, attack_duration: 130}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  68:
+    name: [Li'l Gau, Li'l Gau Gau, Crystal Li'l Gau Gau]
+    desc: ["Hero joining from Princess Punt Sweets.\nResistant to damage from Black enemies.\nLow-cost unit with good defense vs. Black enemies.", "Hero joining from Princess Punt Sweets.\nResistant to damage from Black enemies.\nLow-cost unit with good defense vs. Black enemies.", "Hero joining from Princess Punt Sweets.\nCrystal body gives it Knockback immunity!\nLow-cost unit with good defense vs. Black enemies."]
+    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 1000, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 111}]
+    rarity: 2
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  69:
+    name: [Reaper, Reaper 999, Judgment]
+    desc: ["Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand.\nArea attacks might Slow Black enemies.", "Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand.\nArea attacks might Slow Black enemies.", "Hero joining from Princess Punt Sweets.\nFor whom the bell tolls, attacks with its blade from hell.\nArea attacks might Slow Black enemies."]
+    stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 1000, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 51, range: 360, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 57, trigger_effects_0: 1, damage_1: 450, attack_time_1: 83, trigger_effects_1: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 128}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  70:
+    name: [Sleeping Beauty Punt, Sleeping Beauty Punt II, Oversleeping Beauty Punt]
+    desc: ["Titan Cat kidnapped a sleeping Princess Punt.\nSlightly longer reach than a normal Titan Cat,\nbut is also slightly slower as well (Area atk.)", "Titan Cat kidnapped a sleeping Princess Punt.\nSlightly longer reach than a normal Titan Cat,\nbut is also slightly slower as well (Area atk.)", "Titan Cat kidnapped a sleeping Princess Punt.\nThe two are now inseperable, but the mood has\ndarkened with farewells looming. (Area atk.)"]
+    stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1500, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 12, trigger_effects_0: 1, immune_slow: 1, attack_duration: 35}]
+    rarity: 3
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   71:
@@ -759,7 +801,7 @@ cats:
   120:
     name: [Wyvern, Wyvern Cat]
     desc: ["Joining the fight from Merc Storia! Delivering\npowerful blows from above that cause\nMassive Area damage vs Black enemies.", "The Cats adopted a poor lost Wyvern from\nMerc Storia to research Cat-Dragon fusion.\nMassive Area damage vs Black enemies."]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, against_black: 1, massive_damage: 1}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, against_black: 1, massive_damage: 1}]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -998,6 +1040,20 @@ cats:
     name: [Kalisa, 'Kalisa, type χ', Divine Kalisa]
     desc: ["Almost obliterated her school on the first\nday of class with her sword's dark magic.\nMassive damage against Angels. (Area Attack)", "Banished her principal to the netherworld at the\ngraduation ceremony. Things never change.\nMassive damage against Angels. (Area Attack)", "All of the nice boys who confess their love to her\nsoon find themselves \"graduated\" to the next world.\nMassive damage against Angels. (Area Attack)"]
     stat: [{health: 1520, knockbacks: 5, speed: 27, cost: 2750, production_cooldown: 1100, range: 325, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 40, against_angel: 1, massive_damage: 1}, {health: 2540, knockbacks: 5, speed: 27, cost: 2750, production_cooldown: 1100, range: 325, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 40, against_angel: 1, massive_damage: 1}, {health: 2540, knockbacks: 5, speed: 27, cost: 2750, production_cooldown: 1100, range: 355, width: 320, area_effect: 1, damage_0: 2500, attack_time_0: 40, against_angel: 1, massive_damage: 1}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  161:
+    name: [Yurinchi, Phoenix Yurinchi, Gekirinchi]
+    desc: ["Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand.\nStrong against Angels (Area atk.)", "The Cats' knowledge combined to make this\nradio-controlled Yurinchi from Princess Punt\nSweets. Strong against Angels (Area atk.)", "A painted radio-controlled Yurinchi from\nPrincess Punt Sweets. Cat also took a dip in\nblack paint. Strong against Angels (Area atk.)"]
+    stat: [{health: 1400, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 530, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 1900, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 2400, knockbacks: 4, speed: 12, cost: 1250, production_cooldown: 950, attack_cooldown: 35, range: 340, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  162:
+    name: [Crazed Princess Punt, Crazed Princess Punt CC, Manic Princess Punt]
+    desc: ["Turned crazed after eating dark sweets.\nConsumed by darkness, Punt lets out a howl!\nArea attacks might Knockback Metal enemies.", "Turned crazed after eating dark sweets.\nIf only there were a hot guy to restore her sanity...\nArea attacks might Knockback Metal enemies.", "Turned manic in exchange for dark sweets.\nUses her dark powers to hunt for a real hunk.\nArea attacks might Knockback Metal enemies."]
+    stat: [{health: 400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 900, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 1400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 100, range: 780, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 50, attack_duration: 180}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1953,6 +2009,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  338:
+    name: [HMS Princess, HMS Princess CC, HMS Princess II CC]
+    desc: ["Punt and the Cats sightseeing on a treasure ship.\nCan lay eyes on every sweet from up so high.\nEarns extra Money after defeating foes (Area atk.)", "Punt and the Cats sightseeing on an expensive ship.\nCan lay eyes on every hot guy from up so high.\nEarns extra Money after defeating foes (Area atk.)", "Punt and the Cats sightseeing on a premium ship.\nHas found a hot guy and is on the chase!\nEarns extra Money after defeating foes (Area atk.)"]
+    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   339:
     name: [Imagawa Yoshimoto, Wargod Yoshimoto, Immortal Yoshimoto]
     desc: ["His impeccable virtue allows him to wield\nthe cursed Cat Fan. Strong against Black,\n100% chance to weaken (Long-range)", "Possessed by an all-knowing fox spirit, he\nstrikes with golden arrows. Strong vs Black,\n100% chance to weaken (Long-range)", "Stained crimson with the blood of his rivals, the\nCat Fan burns with an unearthly fire for even greater\ndamage and weakening against Black enemies."]
@@ -2849,6 +2912,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  486:
+    name: [Calette, Calette CC]
+    desc: ["Fourth of four sisters from Princess Punt Sweets.\nHer pranks often push Princess Punt's buttons.\n100% chance to Weaken Angels/Zombies/Aliens.", "Fourth of four sisters from Princess Punt Sweets.\nInfamous prankster who steals money and Cats.\n100% chance to Weaken Angels/Zombies/Aliens."]
+    stat: [{health: 1800, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}, {health: 2400, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1600, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  487:
+    name: [Hina, Swordswoman Hina]
+    desc: ["Hero joining from Princess Punt Sweets.\nGuardian blade of the four Alaquartet Sisters.\n100% chance of Wave Attack.", "Hero joining from Princess Punt Sweets.\nWell-liked hard worker with good social skills.\n100% chance of Wave Attack."]
+    stat: [{health: 1170, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 100, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}, {health: 1560, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 125, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   488:
     name: [Eva Unit-08, Eva Unit-08 & Cat]
     desc: ["Recruited from Evangelion!\nAnti-NERV production model maintained by WILLE.\nLong-range debuffs versus Floating enemies!", "Recruited from Evangelion! Wields a variety \nof weapons but specializes in providing cover fire.\nLong-range debuffs versus Floating enemies!"]
@@ -3122,6 +3199,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  531:
+    name: [Herme, Herme CC]
+    desc: ["Third of four sisters from Princess Punt Sweets.\nPrincess with a love of high-stakes bets.\nStrong against Zombies (Omnistrike)", "Third of four sisters from Princess Punt Sweets.\nSpreads Princess Punt's personal fortune to destroy\nfoes. Strong against Zombies (Omnistrike)"]
+    stat: [{health: 2400, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 525, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 525, attack_time_1: 75, trigger_effects_1: 1, damage_2: 525, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}, {health: 3200, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 695, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 695, attack_time_1: 75, trigger_effects_1: 1, damage_2: 695, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   532:
     name: [Teacher BearCat, Assassin BearCat, Cadaver BearCat]
     desc: ["Lead in the hit drama \"Trial of Teacher Bear\".\nSmashes anyone who steals his spotlight.\nDelivers insane area damage to Traitless.", "Production assistant on the set of \"Teacher Bear\".\nObliterates anyone who stands in front of him.\nDelivers insane area damage to Black.", "B-movie actor famous for \"Bear of the Living Dead\".\nNow he's so typecast that he can't get other work.\nDelivers Insane Area damage to Zombies."]
@@ -3298,9 +3382,9 @@ cats:
     max_level: 50
     growth: [20, 20, 60, 120, 180]
   560:
-    name: [Hell Warden Emma, Hell Sentinel Emma]
-    desc: ["Hunter of evil souls trying to escape their\neternal punishment. Back to the pit with you!\nOmnistrikes might Weaken. Immune to Waves.", "Judge, jury and executioner of the treacherous\ndead who cast aside all honor for victory in battle.\nOmnistrikes might Weaken. Immune to Waves."]
-    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1}]
+    name: [Hell Warden Emma, Hell Sentinel Emma, Hell Commissioner Emma]
+    desc: ["Hunter of evil souls trying to escape their\neternal punishment. Back to the pit with you!\nOmnistrikes might Weaken. Immune to Waves.", "Judge, jury and executioner of the treacherous\ndead who cast aside all honor for victory in battle.\nOmnistrikes might Weaken. Immune to Waves.", "Dons her gear to embark on crusade of judgment.\nWith a hearty cry, arrives on the scene in record time.\nOmnistrikes might Weaken. Immune to Waves."]
+    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1}, {health: 20000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 40, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, immune_freeze: 1, immune_warp: 1, attack_duration: 158}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3524,7 +3608,7 @@ cats:
   593:
     name: [Neko Rin, Neko Rin CC]
     desc: ["Die-hard fan of a fresh-faced popstar.\nKnown for gifting fresh oranges to the crowd.\nMight Dodge attacks from Black enemies.", "Die-hard fan of a charming popstar.\nDreams of her voice being heard around the world.\nMight Dodge attacks from Black enemies."]
-    stat: [{health: 800, knockbacks: 3, speed: 8, cost: 340, production_cooldown: 205, attack_cooldown: 24, range: 210, width: 320, damage_0: 200, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, dodge_chance: 30, dodge_duration: 60}, {health: 800, knockbacks: 3, speed: 8, cost: 340, production_cooldown: 205, attack_cooldown: 24, range: 210, width: 320, damage_0: 200, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, dodge_chance: 30, dodge_duration: 60}]
+    stat: [{health: 800, knockbacks: 3, speed: 8, cost: 340, production_cooldown: 205, attack_cooldown: 24, range: 210, width: 320, damage_0: 200, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 76}, {health: 800, knockbacks: 3, speed: 8, cost: 340, production_cooldown: 205, attack_cooldown: 24, range: 210, width: 320, damage_0: 200, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 76}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3753,9 +3837,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   630:
-    name: [Brainwashed Cat, Brainwashed Macho Cat]
-    desc: ["Cost-efficient Basic Cat who has been\nprogrammed through mind control to gain a\nchance to Dodge Black/Aku enemy attacks", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)"]
-    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}]
+    name: [Brainwashed Cat, Brainwashed Macho Cat, Brainwashed Mohawk Cat]
+    desc: ["Cost-efficient Basic Cat who has been\nprogrammed through mind control to gain a\nchance to Dodge Black/Aku enemy attacks", "Charm point: muscle definition (and the\nchance to Dodge Black/Aku enemy attacks\ngained through mind-control programming.)", "Charming long mohawk is a result of its rippling\nmuscles and thorough brainwashing. Has a\nchance to Dodge Black/Aku/Relic enemy attacks."]
+    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_relic: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, immune_curse: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3802,9 +3886,9 @@ cats:
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
   637:
-    name: [Brainwashed Tank Cat, Brainwashed Wall Cat]
-    desc: ["High health Cat, strong enough to move a\npebble, programmed through mind control \nto gain Area attacks, with extra Toughness", "Cat with rigid defense, programmed through\nmind control to gain the strength to move a small\nrock, Area attacks, and extra Toughness"]
-    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}]
+    name: [Brainwashed Tank Cat, Brainwashed Wall Cat, Brainwashed Eraser Cat]
+    desc: ["High health Cat, strong enough to move a\npebble, programmed through mind control \nto gain Area attacks, with extra Toughness", "Cat with rigid defense, programmed through\nmind control to gain the strength to move a small\nrock, Area attacks, and extra Toughness", "Bouncy and tough eraser programmed through\nstronger mind control with the strength to move a\nmountain, Area attacks, and extra Toughness."]
+    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 18, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, insane_resistant: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3837,9 +3921,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   646:
-    name: [Brainwashed Axe Cat, Brainwashed Brave Cat]
-    desc: ["Programmed through mind control to become\na combat maniac who is Strong vs Traitless\nwith a chance to Curse targets.", "Mind-controlled Hero wannabe\nprogrammed to be Strong vs Traitless\nwith a chance to Curse targets."]
-    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
+    name: [Brainwashed Axe Cat, Brainwashed Brave Cat, Brainwashed Dark Cat]
+    desc: ["Programmed through mind control to become\na combat maniac who is Strong vs Traitless\nwith a chance to Curse targets.", "Mind-controlled Hero wannabe\nprogrammed to be Strong vs Traitless\nwith a chance to Curse targets.", "Mind control has pushed it to become the ultimate\nweapon of destruction. Unleashes Mini-Waves and\nStrong vs. Traitless with a chance to Curse targets."]
+    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, wave_chance: 100, wave_level: 1, wave_mini: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3900,9 +3984,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   655:
-    name: [Brainwashed Gross Cat, Brainwashed Sexy Legs Cat]
-    desc: ["Programmed through mind control to\nstrike using powerful long range attacks\nwith 100% chance of Surge Attack.", "Mind-controlled Cat with pride in his\noverly beautiful legs, programmed to \nhave 100% chance of Surge Attack."]
-    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
+    name: [Brainwashed Gross Cat, Brainwashed Sexy Legs Cat, Brainwashed Macho Legs Cat]
+    desc: ["Programmed through mind control to\nstrike using powerful long range attacks\nwith 100% chance of Surge Attack.", "Mind-controlled Cat with pride in his\noverly beautiful legs, programmed to \nhave 100% chance of Surge Attack.", "Mind-controlled Cat with pride in his demon tail and\noverly beautiful and muscular legs, programmed to \nhave 100% chance of powerful Surge Attack."]
+    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 4, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3956,9 +4040,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   663:
-    name: [Brainwashed Cow Cat, Brainwashed Giraffe Cat]
-    desc: ["A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Beats down enemies with many strikes.", "A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Also grew to be even more stylish!"]
-    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}]
+    name: [Brainwashed Cow Cat, Brainwashed Giraffe Cat, Brainwashed Lion Cat]
+    desc: ["A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Beats down enemies with many strikes.", "A character with deliberate moves and good speed.\nGained the power to curse Aku and Black enemies from\nits brainwashing. Also grew to be even more stylish!", "Character with deliberate moves and good speed.\nBrainwashing gifted it the power to curse Aku and\nBlack enemies, plus a stylish black mane!"]
+    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 2, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 90, attack_duration: 9}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3991,9 +4075,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   668:
-    name: [Brainwashed Bird Cat, Brainwashed UFO Cat]
-    desc: ["Cat with the health of a pea who has been\nprogrammed through mind control to deal\nMassive damage to Traitless (Area Attack)", "Engineered to overcome gravity, programmed\nthrough mind control to deal Massive damage\nto multiple Traitless enemies (Area Attack)"]
-    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
+    name: [Brainwashed Bird Cat, Brainwashed UFO Cat, Brainwashed Flying Cat]
+    desc: ["Cat with the health of a pea who has been\nprogrammed through mind control to deal\nMassive damage to Traitless (Area Attack)", "Engineered to overcome gravity, programmed\nthrough mind control to deal Massive damage\nto multiple Traitless enemies (Area Attack)", "A mind control regimen has developed it into a \nfloating city with Area Attacks that deal Massive \ndamage and Slow multiple Traitless enemies."]
+    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4110,9 +4194,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   685:
-    name: [Brainwashed Fish Cat, Brainwashed Whale Cat]
-    desc: ["Cat with exceptional melee ability, programmed\nthrough mind control to be Strong vs Zombies,\nwith the ability to stop Zombies from reviving.\nExceptional melee capability.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer.\nManaged to become a carnivorous whale."]
-    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}]
+    name: [Brainwashed Fish Cat, Brainwashed Whale Cat, Brainwashed Island Cat]
+    desc: ["Cat with exceptional melee ability, programmed\nthrough mind control to be Strong vs Zombies,\nwith the ability to stop Zombies from reviving.\nExceptional melee capability.", "Cat programmed through mind control to\nbecome a carnivorous whale that is\nStrong vs. Zombies, with Zombie Killer.\nManaged to become a carnivorous whale.", "Brainwashing has turned it into a polluted chunk of\nwasteland. Immune to Toxic, Strong against \nZombies with a chance to Curse targets."]
+    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, curse_chance: 50, curse_duration: 60, immune_toxic: 1, attack_duration: 17}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4138,9 +4222,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   689:
-    name: [Brainwashed Lizard Cat, Brainwashed Dragon Cat]
-    desc: ["Reptile-like Cat who strikes distant enemies,\nprogrammed through mind control to perfect\na mighty single shot long range attack.", "Ranged attacker from a fantasy world, featuring\nmighty single-enemy strikes and a devilish design\ngained through mind-control programming."]
-    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}]
+    name: [Brainwashed Lizard Cat, Brainwashed Dragon Cat, Brainwashed King Dragon Cat]
+    desc: ["Reptile-like Cat who strikes distant enemies,\nprogrammed through mind control to perfect\na mighty single shot long range attack.", "Ranged attacker from a fantasy world, featuring\nmighty single-enemy strikes and a devilish design\ngained through mind-control programming.", "Elite ranged attacker from the Aku Dragon Lands\nfeaturing mighty single-enemy strikes and immunity to \nWaves gained through mind-control programming."]
+    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 14}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4173,9 +4257,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   695:
-    name: [Brainwashed Titan Cat, Brainwashed Mythic Titan]
-    desc: ["A top-class unit with extreme attack power and\nhealth. Has a chance of Savage Blow gained through\nAku mind-control programming (Area Atk.)", "A godlike Cat with extreme attack power and\nhealth. Has a chance of Savage Blow gained through\nAku mind-control programming (Area Atk.)"]
-    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}]
+    name: [Brainwashed Titan Cat, Brainwashed Mythic Titan, Brainwashed Jamiera Cat]
+    desc: ["A top-class unit with extreme attack power and\nhealth. Has a chance of Savage Blow gained through\nAku mind-control programming (Area Atk.)", "A godlike Cat with extreme attack power and\nhealth. Has a chance of Savage Blow gained through\nAku mind-control programming (Area Atk.)", "A godlike Cat with supreme attack power and\nhealth. Gained resistances and Savage Blow from\nAku mind-control programming (Area Atk.)"]
+    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, immune_surge: 1, immune_knockback: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 31}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4331,6 +4415,34 @@ cats:
     desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N006\".", "An otherworldly egg with a dark purple shell.\nSigns of life appear to be coming from the inside.\nInsane damage vs. Aku.", "Has the main role in the horror movie House of the\nFallen Bear. Clashes claws in an attempt to slay its foe.\nInsane Area damage vs. Aku, Behemoth Slayer."]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  722:
+    name: [High School Kingpin Riki, Dodgeball Riki]
+    desc: ["Joining the fight from the River City series!\nThis dependable delinquent leader is Kunio-kun's\nbest friend and greatest rival.", "Joining the fight from the River City series!\nCapable captain of Hanazono High's dodgeball team.\nMight knockback enemies. (Area attack)"]
+    stat: [{health: 6000, knockbacks: 3, speed: 16, cost: 1800, production_cooldown: 1000, attack_cooldown: 27, range: 200, width: 320, area_effect: 1, damage_0: 365, attack_time_0: 5, trigger_effects_0: 1, damage_1: 365, attack_time_1: 10, trigger_effects_1: 1, damage_2: 365, attack_time_2: 15, trigger_effects_2: 1, attack_duration: 18}, {health: 2400, knockbacks: 3, speed: 24, cost: 1800, production_cooldown: 1600, range: 450, width: 320, area_effect: 1, damage_0: 280, long_range_0: 1, long_range_offset_0: 450, attack_time_0: 8, trigger_effects_0: 1, damage_1: 280, long_range_1: 200, long_range_offset_1: 375, attack_time_1: 10, trigger_effects_1: 1, damage_2: 280, long_range_2: 400, long_range_offset_2: 300, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 10, attack_duration: 126}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  723:
+    name: ["＠"]
+    desc: ["＠\n＠\n＠\n＠\n＠"]
+    stat: [{health: 3000, knockbacks: 3, speed: 10, cost: 2600, production_cooldown: 1500, attack_cooldown: 70, range: 350, width: 320, area_effect: 1, damage_0: 730, attack_time_0: 49, trigger_effects_0: 1, against_black: 1, strong: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 2, surge_range: 600, surge_range_offset: 2400, attack_duration: 105}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  724:
+    name: [Lightmother Aset, Nefer Aset]
+    desc: ["One of the nine gods of Heliopolis with unparalleled\nmagic power, raining judgment down with Wings of Life\nand Death. Colossus Slayer, chance of Wave atk.", "One of the nine gods of Heliopolis with unmatched\narcane power, purifying evil with Godly Wings of Life\nand Death. Colossus Slayer, 100% Wave Attack."]
+    stat: [{health: 5600, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 50, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}, {health: 7100, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 100, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  725:
+    name: ['Ancient Egg: N112', 'Mystic Egg: N112', Cat Egg Pod]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N112\".", "An otherworldly egg with a gleaming white shell.\nSigns of life appear to be coming from the inside.", "A Cat chosen by fate to pilot a mysterious flying\negg. Fate, however, does not supercede the law, so\na license is still required to pilot it. Behemoth Slayer."]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 4000, knockbacks: 1, speed: 25, cost: 500, production_cooldown: 650, range: 120, width: 320, damage_0: 1640, attack_time_0: 3, trigger_effects_0: 1, behemoth_killer: 1, behemoth_dodge_chance: 50, behemoth_dodge_duration: 60, immune_surge: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 8346}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:

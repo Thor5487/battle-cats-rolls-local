@@ -183,9 +183,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 10, 10]
   27:
-    name: [발차기 공주, 올 컬러 발차기 공주]
-    desc: ["「달콤한 스위트」가 좋아서 특별참전\n전설의 필살기「발차기」를 전력질주하며 펼친다!\n참전 중에도 백마탄 왕자님을 찾아다닌다.", "「달콤한 스위트」가 좋아서 특별참전\n조금 섹시해진 귀여운 공주님\n전설의 필살기「발차기」를 전력질주하며 펼친다!"]
-    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}]
+    name: [발차기 공주, 올 컬러 발차기 공주, 웨딩 발차기 공주]
+    desc: ["「달콤한 스위트」가 좋아서 특별참전\n전설의 필살기「발차기」를 전력질주하며 펼친다!\n참전 중에도 백마탄 왕자님을 찾아다닌다.", "「달콤한 스위트」가 좋아서 특별참전\n조금 섹시해진 귀여운 공주님\n전설의 필살기「발차기」를 전력질주하며 펼친다!", "「달콤한 스위트」가 좋아서 특별참전\n순백의 드레스를 입고 예식장을 전력질주\n사랑의 「발차기」를 받아줄 사람 모집 중?"]
+    stat: [{health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 35, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 400, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}, {health: 600, knockbacks: 1, speed: 40, cost: 450, production_cooldown: 400, range: 140, width: 320, damage_0: 800, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 180}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -456,30 +456,30 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   67:
-    name: [BCK48, 다크 BCK48]
-    desc: ["BCK48=발차기 공주와 48마리의 냥코들\n장거리로부터의 냥코 일격은\n가끔 검은 적의 움직임을 순간 멈춘다 (범위공격)", "악의 제왕의 저주로부터 달아난 냥코들\n장거리로부터의 냥코의 일격은\n가끔 검은 적의 움직임을 순간 멈춘다 (범위공격)"]
-    stat: [{health: 400, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 180, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}]
+    name: [BCK48, 다크 BCK48, BCK46]
+    desc: ["BCK48=발차기 공주와 48마리의 냥코들\n장거리로부터의 냥코 일격은\n가끔 검은 적의 움직임을 순간 멈춘다 (범위 공격)", "악의 제왕의 저주로부터 달아난 냥코들\n장거리로부터의 냥코의 일격은\n가끔 검은 적의 움직임을 순간 멈춘다 (범위 공격)", "BCK46=발차기 공주와 46마리의 냥코들\n냥코의 수가 줄었지만 마음만큼은 지지 않는 고양이 집단\n가끔 검은 적의 움직임을 멈춘다 (범위 공격)"]
+    stat: [{health: 400, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 180, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 890, attack_cooldown: 90, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 60, attack_duration: 112}, {health: 900, knockbacks: 2, speed: 6, cost: 1400, production_cooldown: 445, attack_cooldown: 45, range: 380, width: 320, area_effect: 1, damage_0: 484, attack_time_0: 26, trigger_effects_0: 1, against_black: 1, freeze_chance: 40, freeze_duration: 90, attack_duration: 130}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   68:
-    name: [꼬마 가우, 꼬꼬마 가우]
-    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적"]
-    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}]
+    name: [꼬마 가우, 꼬꼬마 가우, 크리스탈 꼬꼬마 가우]
+    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n크리스탈화 되어 날려버린다 효과를 무효화!\n코스트가 저렴해서 검은 적의 방어에 최적"]
+    stat: [{health: 600, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 200, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 800, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 111}, {health: 1000, knockbacks: 1, speed: 8, cost: 200, production_cooldown: 165, attack_cooldown: 30, range: 110, width: 320, damage_0: 247, attack_time_0: 56, trigger_effects_0: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 111}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   69:
-    name: [사신, 사신999]
-    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n콜라보레이션으로 꿈의 협연\n가끔 검은 적의 움직임을 느리게 한다 (범위 공격)", "발차기 공주 돌격대에 등장하는 캐릭터\n콜라보레이션으로 꿈의 협연\n가끔 검은 적의 움직임을 느리게 한다 (범위 공격)"]
-    stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}]
+    name: [사신, 사신999, 저지먼트]
+    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n콜라보레이션으로 꿈의 협연\n가끔 검은 적의 움직임을 느리게 한다 (범위 공격)", "발차기 공주 돌격대에 등장하는 캐릭터\n콜라보레이션으로 꿈의 협연\n가끔 검은 적의 움직임을 느리게 한다 (범위 공격)", "발차기 공주 돌격대에 등장하는 캐릭터\n심판의 종소리로 말뚝과 지옥의 낫을 소환하여 공격\n가끔 검은 적의 움직임을 느리게 한다 (범위 공격)"]
+    stat: [{health: 400, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 700, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 360, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 57}, {health: 1000, knockbacks: 3, speed: 7, cost: 500, production_cooldown: 600, attack_cooldown: 51, range: 360, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 57, trigger_effects_0: 1, damage_1: 450, attack_time_1: 83, trigger_effects_1: 1, against_black: 1, slow_chance: 40, slow_duration: 120, attack_duration: 128}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   70:
-    name: [잠자는 발차기 공주, 잠자는 발차기 공주Ⅱ]
-    desc: ["잠들어있던 발차기 공주를 마음대로 데리고 나온 거신 고양이\n거신 고양이 보다 조금 더 공격 범위가 길지만\n걸음이 조금 느려졌다 (범위 공격)", "잠들어있던 발차기 공주를 마음대로 데리고 나온 거신 고양이\n거신 고양이 보다 조금 더 공격 범위가 길지만\n걸음이 조금 느려졌다 (범위 공격)"]
-    stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}]
+    name: [잠자는 발차기 공주, 잠자는 발차기 공주Ⅱ, 꿀잠자는 발차기 공주]
+    desc: ["잠들어있던 발차기 공주를 마음대로 데리고 나온 거신 고양이\n거신 고양이 보다 조금 더 공격 범위가 길지만\n걸음이 조금 느려졌다 (범위 공격)", "잠들어있던 발차기 공주를 마음대로 데리고 나온 거신 고양이\n거신 고양이 보다 조금 더 공격 범위가 길지만\n걸음이 조금 느려졌다 (범위 공격)", "잠들어있던 발차기 공주를 마음대로 데리고 나온 거신 고양이\n꼭 붙어 떨어지지 않는 발차기 공주를 성으로 데려다주는 중\n정작 헤어질 때가 되니 조금 쓸쓸해졌다 (범위 공격)"]
+    stat: [{health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1000, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 12, trigger_effects_0: 1, attack_duration: 35}, {health: 1500, knockbacks: 1, speed: 6, cost: 1300, production_cooldown: 405, attack_cooldown: 25, range: 160, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 12, trigger_effects_0: 1, immune_slow: 1, attack_duration: 35}]
     rarity: 3
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -822,7 +822,7 @@ cats:
   120:
     name: [와이번, 냥이번]
     desc: ["메르크 스토리아에서 참전!\n공중에서 펼치는 강렬한 일격은\n검은 적에 초 데미지를 입힌다 (범위 공격)", "메르크 스토리아의 와이번을 모델로\n고양이들이 극비리에 연구하여 만든 합성 마수\n검은 적에 초 데미지를 입힌다 (범위 공격)"]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, against_black: 1, massive_damage: 1, attack_duration: 120}]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1072,16 +1072,16 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   161:
-    name: [피닉스, 영생불사 피닉스]
-    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n꿈의 콜라보레이션으로 등장\n천사에 엄청 강하다 (범위 공격)", "발차기 공주 돌격대에 등장하는 영생불사 피닉스를\n타고 싶어하는 냥코들이 머리를 쥐어 짜내 만들어진 걸작\n버드형 무선조종. 천사에 엄청 강하다 (범위 공격)"]
-    stat: [{health: 1400, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 530, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 17}, {health: 1900, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 15}]
+    name: [피닉스, 영생불사 피닉스, 다크피닉스]
+    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n꿈의 콜라보레이션으로 등장\n천사에 엄청 강하다 (범위 공격)", "발차기 공주 돌격대에 등장하는 영생불사 피닉스를\n타고 싶어하는 냥코들이 머리를 쥐어 짜내 만들어진 걸작\n버드형 무선조종. 천사에 엄청 강하다 (범위 공격)", "발차기 공주 돌격대에 등장하는 다크피닉스처럼\n칠한 버드형 무선조종. 검은 잉크가 남은 김에\n고양이도 칠해봤다. 천사에 엄청 강하다 (범위 공격)"]
+    stat: [{health: 1400, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 530, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 1900, knockbacks: 4, speed: 7, cost: 1250, production_cooldown: 950, attack_cooldown: 60, range: 315, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}, {health: 2400, knockbacks: 4, speed: 12, cost: 1250, production_cooldown: 950, attack_cooldown: 35, range: 340, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 33, trigger_effects_0: 1, against_angel: 1, strong: 1, attack_duration: 67}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   162:
-    name: [광란의 발차기 공주, 광란의 발차기 공주CC]
-    desc: ["암흑 스위트를 먹고 광란이 되어버린 공주\n어둠의 힘을 가진 「발차기」\n가끔씩 메탈 적을 날려버린다 (범위 공격)", "암흑 스위트를 먹고 광란이 되어버린 공주\n본래의 모습으로 되돌려줄 왕자님을 기다리고 있다\n가끔씩 메탈 적을 날려버린다 (범위 공격)"]
-    stat: [{health: 400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 17}, {health: 900, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 15}]
+    name: [광란의 발차기 공주, 광란의 발차기 공주CC, 대광란의 발차기 공주]
+    desc: ["암흑 스위트를 먹고 광란이 되어버린 공주\n어둠의 힘을 가진 「발차기」\n가끔씩 메탈 적을 날려버린다 (범위 공격)", "암흑 스위트를 먹고 광란이 되어버린 공주\n본래의 모습으로 되돌려줄 왕자님을 기다리고 있다\n가끔씩 메탈 적을 날려버린다 (범위 공격)", "암흑 스위트를 먹고 대광란이 되어버린 공주\n검은 기운을 뿜어내며 백마탄 왕자님을 찾아 전력질주\n가끔씩 메탈 적을 날려버린다 (범위 공격)"]
+    stat: [{health: 400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 900, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 120, range: 680, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 40, attack_duration: 180}, {health: 1400, knockbacks: 2, speed: 32, cost: 2200, production_cooldown: 1920, attack_cooldown: 100, range: 780, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 4, trigger_effects_0: 1, against_metal: 1, knockback_chance: 50, attack_duration: 180}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2079,6 +2079,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  338:
+    name: [프린세스 발차기 공주호, 프린세스 발차기 공주호CC, 프리미엄 발차기 공주호CC]
+    desc: ["보물선을 타고 유람중인 발차기 공주와 고양이들\n공중에서도 달콤한 스위트는 놓치지 않는다\n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다 (범위 공격)", "보물선을 타고 유람중인 발차기 공주와 골드 고양이들\n공중에서도 백마탄 왕자님은 절대 놓치지 않는다\n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다 (범위 공격)", "보물선을 타고 유람중인 발차기 공주와 골드 고양이들\n드디어 백마탄 왕자님을 발견하여 급하게 이동 중\n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다 (범위 공격)"]
+    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   339:
     name: [누아다, 분노의 누아다, 화염의 누아다]
     desc: ["전설의 무구 「냥코 부채」의 저주를 신의 힘으로\n여우의 모습으로 바꾼 신 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다", "전설의 무구 「냥코 부채」의 힘을 해방시킨 신\n휘황찬란한 금색 화살로 적을 쏴버린다 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다", "전설의 무구 「냥코 부채」를 붉게 물들인 신\n지옥의 화염으로 적을 태워버리다 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다"]
@@ -3010,6 +3017,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  486:
+    name: [카렛트, 카렛트CC]
+    desc: ["발차기 공주 돌격대에 등장하는 아라 콰르텟 네자매 중 넷째\n장난을 좋아해서 발차기 공주에게 자주 장난친다\n반드시 천사, 좀비, 에이리언의 공격력을 낮춘다", "발차기 공주 돌격대에 등장하는 아라 콰르텟 네자매 중 넷째\n금품 강탈, 냥코 유괴 미수로 유명한 장난꾸러기\n반드시 천사, 좀비, 에이리언의 공격력을 낮춘다"]
+    stat: [{health: 1800, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}, {health: 2400, knockbacks: 3, speed: 10, cost: 2400, production_cooldown: 1050, attack_cooldown: 82, range: 410, width: 320, area_effect: 1, damage_0: 1600, attack_time_0: 72, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, attack_duration: 115}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  487:
+    name: [히나, 검사 히나]
+    desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n아라 콰르텟 네자매를 섬기던 여검사\n반드시 파동을 낸다", "발차기 공주 돌격대에 등장하는 캐릭터\n성실하고 성격이 좋아 인기가 많다\n반드시 파동을 낸다"]
+    stat: [{health: 1170, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 100, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}, {health: 1560, knockbacks: 3, speed: 10, cost: 480, production_cooldown: 600, attack_cooldown: 74, range: 275, width: 320, damage_0: 125, attack_time_0: 32, trigger_effects_0: 1, wave_chance: 100, wave_level: 5, attack_duration: 90}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   488:
     name: [에바 8호기, 에바 8호기 & 고양이]
     desc: ["에반게리온에서 참전!\n반NERV 조직의 빌레가 수리・ 운용하는 기체\n공중에 있는 적에게 3가지 방해 효과를 가끔씩 발휘한다 (원거리 범위)", "에반게리온에서 참전!\n여러 가지 총기 사용에 능숙하며 원호 사격이 특기이다\n공중에 있는 적에게 3가지 방해 효과를 가끔씩 발휘한다 (원거리 범위)"]
@@ -3283,6 +3304,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  531:
+    name: [에르메, 에르메CC]
+    desc: ["발차기 공주 돌격대에 등장하는 아라 콰르텟 네자매 중 셋째\n돈과 도박을 좋아하는 아가씨\n좀비에 엄청 강하다 (전방위 공격)", "발차기 공주 돌격대에 등장하는 아라 콰르텟 네자매 중 셋째\n발차기 공주의 돈을 뿌리며 적을 무찌른다\n좀비에 엄청 강하다 (전방위 공격)"]
+    stat: [{health: 2400, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 525, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 525, attack_time_1: 75, trigger_effects_1: 1, damage_2: 525, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}, {health: 3200, knockbacks: 4, speed: 8, cost: 2300, production_cooldown: 1450, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 695, long_range_0: 375, long_range_offset_0: -1175, attack_time_0: 60, trigger_effects_0: 1, damage_1: 695, attack_time_1: 75, trigger_effects_1: 1, damage_2: 695, attack_time_2: 90, trigger_effects_2: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 129}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   532:
     name: [네코쿠마, 네코 블랙쿠마, 네코 프랑켄슈타인 베어]
     desc: ["연극 「숲 속의 곰 선생」의 주인공. 자기보다 \n튀는 자에게 가차없이 내려치는 주먹이 좀 많이 귀엽다\n속성을 가지지 않은 적에게 극 데미지를 입힌다 (범위 공격)", "연극 「숲 속의 곰 선생」의 스태프.\n자기 앞에 서는 자를 어둠 속에서 암살한다\n검은 적에게 극 데미지를 입힌다 (범위 공격)", "연극 「숲 속의 곰 선생 of THE END」의 주인공.\n전작의 주인공이 좀비가 되어 되살아나는 B급 호러 작품\n좀비에게 극 데미지를 입힌다 (범위 공격)"]
@@ -3459,9 +3487,9 @@ cats:
     max_level: 50
     growth: [20, 20, 60, 120, 180]
   560:
-    name: [지옥 경찰 엠마, 지옥 중사 엠마]
-    desc: ["지옥으로 떨어뜨릴 사람을 찾기 위해 경찰 분장을 하고 온\n염라 여왕. 그녀의 불심검문에 거짓말을 하면 지옥으로 보내진다\n가끔 적의 공격력을 낮추고 파동을 없앤다 (전방위 공격)", "심판할 악인을 찾기 위해 군인으로 잠입한 염라 여왕.\n전쟁터에서 죄를 지은 자들을 전원 지옥으로 보낸다\n가끔 적의 공격력을 낮추고 파동을 없앤다 (전방위 공격)"]
-    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}]
+    name: [지옥 경찰 엠마, 지옥 중사 엠마, 염라 대장 엠마]
+    desc: ["지옥으로 떨어뜨릴 사람을 찾기 위해 경찰 분장을 하고 온\n염라 여왕. 그녀의 불심검문에 거짓말을 하면 지옥으로 보내진다\n가끔 적의 공격력을 낮추고 파동을 없앤다 (전방위 공격)", "심판할 악인을 찾기 위해 군인으로 잠입한 염라 여왕.\n전쟁터에서 죄를 지은 자들을 전원 지옥으로 보낸다\n가끔 적의 공격력을 낮추고 파동을 없앤다 (전방위 공격)", "중요한 때에는 승부복을 입고 심판하는 염라 여왕\n「기합 넣고 제대로 한판 붙자」를 입버릇처럼 말한다\n가끔 적의 공격력을 낮추고 파동을 없앤다 (전방위 공격)"]
+    stat: [{health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 15000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 20, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, attack_duration: 158}, {health: 20000, knockbacks: 10, speed: 30, cost: 2900, production_cooldown: 2000, range: 200, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -950, attack_time_0: 48, trigger_effects_0: 1, damage_1: 400, attack_time_1: 73, trigger_effects_1: 1, damage_2: 400, attack_time_2: 98, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 40, weaken_duration: 60, weaken_multiplier: 50, block_wave: 1, immune_freeze: 1, immune_warp: 1, attack_duration: 158}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3900,8 +3928,8 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   625:
-    name: [열혈경파 쿠니오군, 돗지볼부 쿠니오군]
-    desc: ["열혈경파 쿠니오군 시리즈에서 참전!\n약자를 도와 강자를 꺾는 정의의 불량배", "열혈경파 쿠니오군 시리즈에서 참전!\n운동 부족 해소로 시작한 돗지볼로 세계 제패!\n(원거리 범위공격)"]
+    name: [열혈경파 쿠니오군, 피구부 쿠니오군]
+    desc: ["열혈경파 쿠니오군 시리즈에서 참전!\n약자를 도와 강자를 꺾는 정의의 불량배", "열혈경파 쿠니오군 시리즈에서 참전!\n운동 부족 해소로 시작한 피구로 세계 제패!\n(원거리 범위공격)"]
     stat: [{health: 5400, knockbacks: 3, speed: 20, cost: 1900, production_cooldown: 900, attack_cooldown: 28, range: 200, width: 320, area_effect: 1, damage_0: 360, attack_time_0: 4, trigger_effects_0: 1, damage_1: 360, attack_time_1: 8, trigger_effects_1: 1, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, attack_duration: 15}, {health: 1800, knockbacks: 3, speed: 30, cost: 1900, production_cooldown: 1500, attack_cooldown: 62, range: 500, width: 320, area_effect: 1, damage_0: 750, long_range_0: 400, long_range_offset_0: 300, attack_time_0: 26, trigger_effects_0: 1, attack_duration: 86}]
     rarity: 4
     max_level: 130
@@ -3914,9 +3942,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   630:
-    name: [세뇌된 고양이, 세뇌된 고양이 빌더]
-    desc: ["저가생산 가능한 기본 캐릭터\n세뇌에 의해 가끔\n검은 적과 악마의 공격을 무효화하는 힘을 획득", "철저히 단련된 근육이 매력 포인트인\n기본 캐릭터. 세뇌에 의해 가끔\n검은 적과 악마의 공격을 무효화하는 힘을 획득"]
-    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}]
+    name: [세뇌된 고양이, 세뇌된 고양이 빌더, 세뇌된 고양이 모히칸]
+    desc: ["저가생산 가능한 기본 캐릭터\n세뇌에 의해 가끔\n검은 적과 악마의 공격을 무효화하는 힘을 획득", "철저히 단련된 근육이 매력 포인트인\n기본 캐릭터. 세뇌에 의해 가끔\n검은 적과 악마의 공격을 무효화하는 힘을 획득", "철저히 단련된 근육과 강력한 세뇌에 의해 자라난\n풍성한 헤어스타일이 매력 포인트인 기본 캐릭터\n가끔 검은 적과 악마와 고대종의 공격을 무효화한다"]
+    stat: [{health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 18, cost: 60, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, against_black: 1, against_relic: 1, against_aku: 1, dodge_chance: 30, dodge_duration: 60, immune_curse: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3963,9 +3991,9 @@ cats:
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
   637:
-    name: [세뇌된 탱크 고양이, 세뇌된 고양이 벽]
-    desc: ["고체력 방어용 캐릭터\n누군가에게 세뇌되어 속성을 가지지 않는 적에\n맷집이 좋은 능력을 획득 (범위 공격)", "그야말로 완벽한 벽을 위한 방어전용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n맷집이 좋은 능력을 획득 (범위 공격)"]
-    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}]
+    name: [세뇌된 탱크 고양이, 세뇌된 고양이 벽, 세뇌된 고무 고양이]
+    desc: ["고체력 방어용 캐릭터\n누군가에게 세뇌되어 속성을 가지지 않는 적에\n맷집이 좋은 능력을 획득 (범위 공격)", "그야말로 완벽한 벽을 위한 방어전용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n맷집이 좋은 능력을 획득 (범위 공격)", "그야말로 완벽한 벽을 위한 방어전용 캐릭터\n강력한 악의 세뇌에 의해 고무의 탄력을 획득\n속성을 가지지 않는 적에 초 맷집이 좋다 (범위 공격)"]
+    stat: [{health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 14, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, resistant: 1, attack_duration: 15}, {health: 500, knockbacks: 1, speed: 18, cost: 140, production_cooldown: 195, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, insane_resistant: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3998,9 +4026,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   646:
-    name: [세뇌된 배틀 고양이, 세뇌된 용사 고양이]
-    desc: ["전투용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n엄청 강해지고, 가끔 저주하는 힘을 획득", "한 때 용사를 동경했던 전투용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n엄청 강해지고, 가끔 저주하는 힘을 획득"]
-    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
+    name: [세뇌된 배틀 고양이, 세뇌된 용사 고양이, 세뇌된 암흑 고양이]
+    desc: ["전투용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n엄청 강해지고, 가끔 저주하는 힘을 획득", "한 때 용사를 동경했던 전투용 캐릭터\n악의 세뇌에 의해 속성을 가지지 않는 적에\n엄청 강해지고, 가끔 저주하는 힘을 획득", "강력한 악의 세뇌에 의해 흉악한 핸드메이드 무기를\n사용하는 전투용 캐릭터. 소파동을 내며 속성을\n가지지 않는 적에 엄청 강하고 가끔 저주한다"]
+    stat: [{health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 400, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}, {health: 600, knockbacks: 1, speed: 14, cost: 200, production_cooldown: 105, attack_cooldown: 10, range: 150, width: 320, damage_0: 25, attack_time_0: 8, trigger_effects_0: 1, against_white: 1, strong: 1, curse_chance: 30, curse_duration: 90, wave_chance: 100, wave_level: 1, wave_mini: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 15}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4061,9 +4089,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   655:
-    name: [세뇌된 징글 고양이, 세뇌된 각선미 고양이]
-    desc: ["멀리 있는 적도 공격 가능한 원거리형 캐릭터\n악의 세뇌에 의해 검게 물들어버린 다리로\n반드시 열파를 내게 되었다", "매끈한 다리가 자랑인 원거리형 캐릭터\n악의 세뇌에 의해 검게 침식되어버린 다리로\n반드시 열파를 내게 되었다"]
-    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
+    name: [세뇌된 징글 고양이, 세뇌된 각선미 고양이, 세뇌된 불끈다리 고양이]
+    desc: ["멀리 있는 적도 공격 가능한 원거리형 캐릭터\n악의 세뇌에 의해 검게 물들어버린 다리로\n반드시 열파를 내게 되었다", "매끈한 다리가 자랑인 원거리형 캐릭터\n악의 세뇌에 의해 검게 침식되어버린 다리로\n반드시 열파를 내게 되었다", "근육미가 자랑인 원거리형 캐릭터\n강력한 악의 세뇌에 의해 마족스러운 꼬리가\n자라났고 반드시 내는 열파 공격도 강화되었다"]
+    stat: [{health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 8, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 15}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 3, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}, {health: 1260, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 564, attack_cooldown: 60, range: 350, width: 320, damage_0: 270, attack_time_0: 6, trigger_effects_0: 1, surge_chance: 100, surge_level: 4, surge_range: 600, surge_range_offset: 1800, attack_duration: 11}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4117,9 +4145,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   663:
-    name: [세뇌된 황소 고양이, 세뇌된 기린 고양이]
-    desc: ["민첩한 움직임으로 이동력이 뛰어난 캐릭터. 악의 \n세뇌에 의해 검은 적과 악마를 순간 저주하는 힘을 얻었다\n엄청난 공격 횟수로 눈앞의 적을 물리친다", "민첩한 움직임으로 이동력이 뛰어난 캐릭터.\n악의 세뇌에 의해 스타일리시한 겉모습과\n검은 적과 악마를 순간 저주하는 힘을 얻었다"]
-    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}]
+    name: [세뇌된 황소 고양이, 세뇌된 기린 고양이, 세뇌된 고양이 라이온]
+    desc: ["민첩한 움직임으로 이동력이 뛰어난 캐릭터. 악의 \n세뇌에 의해 검은 적과 악마를 순간 저주하는 힘을 얻었다\n엄청난 공격 횟수로 눈앞의 적을 물리친다", "민첩한 움직임으로 이동력이 뛰어난 캐릭터.\n악의 세뇌에 의해 스타일리시한 겉모습과\n검은 적과 악마를 순간 저주하는 힘을 얻었다", "민첩한 움직임으로 이동력이 뛰어난 캐릭터\n강력한 악의 세뇌에 의해 머리 갈기가 어둠에 물들고\n검은 적과 악마를 저주하는 힘이 강화되었다"]
+    stat: [{health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 5, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 30, attack_duration: 9}, {health: 1300, knockbacks: 2, speed: 40, cost: 500, production_cooldown: 195, range: 140, width: 320, damage_0: 35, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, against_aku: 1, curse_chance: 100, curse_duration: 90, attack_duration: 9}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4152,9 +4180,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   668:
-    name: [세뇌된 고양이 새, 세뇌된 고양이UFO]
-    desc: ["체력은 적지만 적들을 한꺼번에 처리할 수 있는\n초파괴력을 가진 캐릭터. 악의 세뇌에 인해\n속성을 가지지 않은 적에 초 데미지를 입힌다 (범위 공격)", "중력을 초월한 개조 냥코\n적을 한꺼번에 처리 가능. 악의 세뇌에 인해\n속성을 가지지 않은 적에 초 데미지를 입힌다 (범위 공격)"]
-    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
+    name: [세뇌된 고양이 새, 세뇌된 고양이UFO, 세뇌된 천공의 고양이]
+    desc: ["체력은 적지만 적들을 한꺼번에 처리할 수 있는\n초파괴력을 가진 캐릭터. 악의 세뇌에 인해\n속성을 가지지 않는 적에 초 데미지를 입힌다 (범위 공격)", "중력을 초월한 개조 냥코\n적을 한꺼번에 처리 가능. 악의 세뇌에 인해\n속성을 가지지 않는 적에 초 데미지를 입힌다 (범위 공격)", "강력한 악의 세뇌에 의해 마계의 공중도시가 된 냥코\n속성을 가지지 않는 적에 초 데미지를 입히고\n반드시 움직임을 느리게 한다 (범위 공격)"]
+    stat: [{health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 310, attack_time_0: 10, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 13}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}, {health: 780, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 185, attack_cooldown: 20, range: 205, width: 320, area_effect: 1, damage_0: 380, attack_time_0: 18, trigger_effects_0: 1, against_white: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, wave_chance: 50, wave_level: 2, wave_mini: 1, immune_wave: 1, immune_surge: 1, attack_duration: 25}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4271,9 +4299,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   685:
-    name: [세뇌된 고양이 피쉬, 세뇌된 고양이 고래]
-    desc: ["전투용 고급 캐릭터\n악의 세뇌에 의해 좀비에 엄청 강해졌다\n좀비 속성의 적을 쓰러트리면 좀비의 부활을 막는다", "육식 고래로 진화한 고급 전투 캐릭터\n악의 세뇌에 의해 좀비에 엄청 강해졌다\n좀비 속성의 적을 쓰러트리면 좀비의 부활을 막는다"]
-    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}]
+    name: [세뇌된 고양이 피쉬, 세뇌된 고양이 고래, 세뇌된 고양이 섬]
+    desc: ["전투용 고급 캐릭터\n악의 세뇌에 의해 좀비에 엄청 강해졌다\n좀비 속성의 적을 쓰러트리면 좀비의 부활을 막는다", "육식 고래로 진화한 고급 전투 캐릭터\n악의 세뇌에 의해 좀비에 엄청 강해졌다\n좀비 속성의 적을 쓰러트리면 좀비의 부활을 막는다", "강력한 악의 세뇌에 의해 오염된 땅으로\n변해버린 캐릭터. 독 공격을 무효화하고\n좀비에게 엄청 강하며 가끔 저주한다"]
+    stat: [{health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, attack_duration: 17}, {health: 2210, knockbacks: 3, speed: 12, cost: 490, production_cooldown: 255, attack_cooldown: 22, range: 150, width: 320, damage_0: 569, attack_time_0: 10, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, strong: 1, curse_chance: 50, curse_duration: 60, immune_toxic: 1, attack_duration: 17}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4299,9 +4327,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   689:
-    name: [세뇌된 고양이 도마뱀, 세뇌된 고양이 드래곤]
-    desc: ["멀리 있는 적도 공격 가능한 원거리형 캐릭터\n단발의 공격력이 으뜸\n악의 세뇌에 의해 그래픽이 사악해졌다", "판타지 세계에서 강림한 원거리형 캐릭터\n단발의 공격력은 으뜸\n악의 세뇌에 의해 그래픽이 사악해졌다"]
-    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}]
+    name: [세뇌된 고양이 도마뱀, 세뇌된 고양이 드래곤, 세뇌된 고양이 킹드래곤]
+    desc: ["멀리 있는 적도 공격 가능한 원거리형 캐릭터\n단발의 공격력이 으뜸\n악의 세뇌에 의해 그래픽이 사악해졌다", "판타지 세계에서 강림한 원거리형 캐릭터\n단발의 공격력은 으뜸\n악의 세뇌에 의해 그래픽이 사악해졌다", "악한 드래곤족의 엘리트계에 정점을 찍은\n원거리형 캐릭터. 단발의 공격력은 으뜸\n그래픽이 사악해지고 파동을 무효화하는 힘을 획득"]
+    stat: [{health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 13}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 15}, {health: 1620, knockbacks: 3, speed: 10, cost: 1000, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 720, attack_time_0: 8, trigger_effects_0: 1, immune_wave: 1, immune_freeze: 1, attack_duration: 14}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4334,9 +4362,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   695:
-    name: [세뇌된 거신 고양이, 세뇌된 고양이 다라보치]
-    desc: ["초절대 파괴력과 강인한 체력을 갖춘\n최고급 캐릭터. 악의 세뇌에 의해\n가끔 혼신의 일격을 날리게 되었다 (범위 공격)", "초절대 파괴력과 강인한 체력을 갖춘 고양이의 신\n악의 세뇌에 의해 사신화되었다\n가끔 혼신의 일격을 날린다 (범위 공격)"]
-    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}]
+    name: [세뇌된 거신 고양이, 세뇌된 고양이 다라보치, 세뇌된 고양이 쟈라미]
+    desc: ["초절대 파괴력과 강인한 체력을 갖춘\n최고급 캐릭터. 악의 세뇌에 의해\n가끔 혼신의 일격을 날리게 되었다 (범위 공격)", "초절대 파괴력과 강인한 체력을 갖춘 고양이의 신\n악의 세뇌에 의해 사신화되었다\n가끔 혼신의 일격을 날린다 (범위 공격)", "초절대 파괴력과 강인한 체력을 갖춘 거악 고양이\n악의 세뇌에 의해 흉폭해지고 다양한 내성을 획득\n가끔 혼신의 일격을 날린다 (범위 공격)"]
+    stat: [{health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 25}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, attack_duration: 31}, {health: 3200, knockbacks: 1, speed: 10, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 689, attack_time_0: 18, trigger_effects_0: 1, savage_blow_chance: 20, savage_blow_modifier: 200, immune_surge: 1, immune_knockback: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 31}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -4492,6 +4520,34 @@ cats:
     desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N006」이라고 작게 각인이 되어있는 듯한데..", "악한 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n악마에 극 데미지를 입힌다", "호러 영화 「악마 각하 하우스」의 주연 배우\n엄청난 메소드 연기로 다른 배우들을 압도한다\n악마에 극 데미지를 입히며 초수 특효를 가졌다 (범위 공격)"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, insane_damage: 1}, {health: 800, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 200, attack_cooldown: 50, range: 165, width: 320, area_effect: 1, damage_0: 560, attack_time_0: 6, trigger_effects_0: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, insane_damage: 1, attack_duration: 13}]
     rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  722:
+    name: [화원고교 번장 리키, 피구부 리키]
+    desc: ["열혈경파 쿠니오군 시리즈에서 참전!\n화원고교를 제패한 믿음직한 번장\n쿠니오군의 친구이자 영원한 라이벌", "열혈경파 쿠니오군 시리즈에서 참전!\n화원고교 팀을 이끄는 믿음직한 캡틴\n가끔 적을 날려버린다 (범위 공격)"]
+    stat: [{health: 6000, knockbacks: 3, speed: 16, cost: 1800, production_cooldown: 1000, attack_cooldown: 27, range: 200, width: 320, area_effect: 1, damage_0: 365, attack_time_0: 5, trigger_effects_0: 1, damage_1: 365, attack_time_1: 10, trigger_effects_1: 1, damage_2: 365, attack_time_2: 15, trigger_effects_2: 1, attack_duration: 18}, {health: 2400, knockbacks: 3, speed: 24, cost: 1800, production_cooldown: 1600, range: 450, width: 320, area_effect: 1, damage_0: 280, long_range_0: 1, long_range_offset_0: 450, attack_time_0: 8, trigger_effects_0: 1, damage_1: 280, long_range_1: 200, long_range_offset_1: 375, attack_time_1: 10, trigger_effects_1: 1, damage_2: 280, long_range_2: 400, long_range_offset_2: 300, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 10, attack_duration: 126}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  723:
+    name: ["＠"]
+    desc: ["＠\n＠\n＠\n＠\n＠"]
+    stat: [{health: 3000, knockbacks: 3, speed: 10, cost: 2600, production_cooldown: 1500, attack_cooldown: 70, range: 350, width: 320, area_effect: 1, damage_0: 730, attack_time_0: 49, trigger_effects_0: 1, against_black: 1, strong: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 2, surge_range: 600, surge_range_offset: 2400, attack_duration: 105}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  724:
+    name: [광익신 이시스, 네페르 이시스]
+    desc: ["헬리오폴리스 9주신 중 하나로 강력한 마력을 가진 여신\n장송의 신기 「생사의 날개」는 나쁜 것을 몰아내고\n땅 위에 은혜를 내린다. 초생명체 특효, 가끔 파동을 낸다", "헬리오폴리스 9주신 중 하나로 강력한 마력을 가진 여신\n장천의 신기 「생사신의 날개」는 사악한 혼을 정화한다\n초생명체 특효, 반드시 파동을 낸다"]
+    stat: [{health: 5600, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 50, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}, {health: 7100, knockbacks: 3, speed: 15, cost: 2900, production_cooldown: 1800, range: 300, width: 320, area_effect: 1, damage_0: 420, attack_time_0: 29, trigger_effects_0: 1, colossus_killer: 1, wave_chance: 100, wave_level: 2, strengthen_threshold: 66, strengthen_modifier: 50, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  725:
+    name: ['오래된 알: N112', '신비한 알: N112', 고양이 에그호]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N112」이라고 작게 각인이 되어있는 듯한데...", "새하얀 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다", "신비한 알을 조종할 수 있는 유일무이한 고양이\n제2종 원동기장치자전거면허와\n초수 특효를 가졌다"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 4000, knockbacks: 1, speed: 25, cost: 500, production_cooldown: 650, range: 120, width: 320, damage_0: 1640, attack_time_0: 3, trigger_effects_0: 1, behemoth_killer: 1, behemoth_dodge_chance: 50, behemoth_dodge_duration: 60, immune_surge: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 8346}]
+    rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
 gacha:
