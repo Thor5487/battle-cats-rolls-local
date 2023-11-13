@@ -512,9 +512,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   74:
-    name: [織田信長, 武神・織田信長, 天魔・織田信長]
-    desc: ["織田信長の怨念に取り込まれてしまった\n数々の生命体と一匹のにゃんこ\n黒い敵の動きを必ず止める(範囲攻撃)\nオダノブナガ", "織田信長の怨念のパワーがさらに加速\nついでに、にゃんこの煩悩パワーも超加速\n黒い敵の動きを必ず止める(範囲攻撃)\nブシンオダノブナガ", "にゃんこの煩悩で第六天魔王へ変化した織田信長\n地獄の亡者どもを従え闇世界から天下統一を目指す\n黒い敵の動きを必ず止める(範囲攻撃)\nテンマオダノブナガ"]
-    stat: [{health: 950, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180, attack_duration: 101}, {health: 1900, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180, attack_duration: 101}, {health: 3800, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 240, attack_duration: 101}]
+    name: [織田信長, 武神・織田信長, 天魔・織田信長, 夢幻天魔・織田信長]
+    desc: ["織田信長の怨念に取り込まれてしまった\n数々の生命体と一匹のにゃんこ\n黒い敵の動きを必ず止める(範囲攻撃)\nオダノブナガ", "織田信長の怨念のパワーがさらに加速\nついでに、にゃんこの煩悩パワーも超加速\n黒い敵の動きを必ず止める(範囲攻撃)\nブシンオダノブナガ", "にゃんこの煩悩で第六天魔王へ変化した織田信長\n地獄の亡者どもを従え闇世界から天下統一を目指す\n黒い敵の動きを必ず止める(範囲攻撃)\nテンマオダノブナガ", "己が殺めた者達の憎悪の炎をも力に変える織田信長\n燃え盛る闇世界より天上天下の征服に乗り出す\n黒い敵と悪魔の動きを止め、烈波を放ち返す(範囲攻撃)\nムゲンテンマオダノブナガ"]
+    stat: [{health: 950, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180, attack_duration: 101}, {health: 1900, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180, attack_duration: 101}, {health: 3800, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 240, attack_duration: 101}, {health: 5500, knockbacks: 2, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, against_aku: 1, freeze_chance: 100, freeze_duration: 240}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -526,9 +526,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   76:
-    name: [風神のウィンディ, 風神のウィンディα, 疾風神のウィンディα]
-    desc: ["風のチカラを操るハイパー少女\n遠距離から放たれるバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nフウジンノウィンディ", "たまに風の痛みが聞こえる不思議ちゃん\n遠距離から放たれるバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nフウジンノウィンディアルファ", "使いこなせないくせに最新メカにいつでも興味津々\n遠距離から放たれるネオバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nシップウジンノウィンディアルファ"]
-    stat: [{health: 800, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 1255, attack_time_0: 81, against_float: 1, massive_damage: 1, attack_duration: 135}, {health: 1500, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 2555, attack_time_0: 81, against_float: 1, massive_damage: 1, attack_duration: 135}, {health: 3000, knockbacks: 6, speed: 12, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 450, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 81, against_float: 1, massive_damage: 1, attack_duration: 135}]
+    name: [風神のウィンディ, 風神のウィンディα, 疾風神のウィンディα, アルティメットウィンディα]
+    desc: ["風のチカラを操るハイパー少女\n遠距離から放たれるバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nフウジンノウィンディ", "たまに風の痛みが聞こえる不思議ちゃん\n遠距離から放たれるバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nフウジンノウィンディアルファ", "使いこなせないくせに最新メカにいつでも興味津々\n遠距離から放たれるネオバキュームキャノンは\n浮いてる敵に超ダメージを与える(範囲攻撃)\nシップウジンノウィンディアルファ", "最先端の相棒メカに髪を多少吸い込まれてもどこ吹く風\n遠距離から放たれるエクストラバキュームキャノンは\n浮いてる敵に極ダメージを与える(範囲攻撃)\nアルティメットウィンディアルファ"]
+    stat: [{health: 800, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 1255, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1, attack_duration: 135}, {health: 1500, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 2555, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1, attack_duration: 135}, {health: 3000, knockbacks: 6, speed: 12, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 450, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1, attack_duration: 135}, {health: 3000, knockbacks: 6, speed: 16, cost: 2950, production_cooldown: 1666, attack_cooldown: 140, range: 510, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 51, trigger_effects_0: 1, against_float: 1, insane_damage: 1}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1240,9 +1240,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   178:
-    name: [覇龍ディオラムス, 覇龍王ディオラムス, 覇龍皇帝ディオラムス]
-    desc: ["望む景色は全て焼き払うといわれる伝説の覇龍族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに天使をふっとばして移動を遅くする\nハリュウディオラムス", "腕の魔龍石の封印が解き放たれた伝説の覇龍族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに天使をふっとばして移動を遅くする\nハリュウオウディオラムス", "憎悪の生気を吸収することで暴走した魔龍石により\n真の力を解き放った伝説の覇龍族(範囲攻撃)\n必ずバリアを貫き天使をふっとばして移動を遅くする\nハリュウコウテイディオラムス"]
-    stat: [{health: 5500, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 1345, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1, attack_duration: 145}, {health: 8200, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 2625, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1, attack_duration: 145}, {health: 13600, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1, attack_duration: 164}]
+    name: [覇龍ディオラムス, 覇龍王ディオラムス, 覇龍皇帝ディオラムス, 大覇龍皇帝ディオラムス]
+    desc: ["望む景色は全て焼き払うといわれる伝説の覇龍族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに天使をふっとばして移動を遅くする\nハリュウディオラムス", "腕の魔龍石の封印が解き放たれた伝説の覇龍族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに天使をふっとばして移動を遅くする\nハリュウオウディオラムス", "憎悪の生気を吸収することで暴走した魔龍石により\n真の力を解き放った伝説の覇龍族(範囲攻撃)\n必ずバリアを貫き天使をふっとばして移動を遅くする\nハリュウコウテイディオラムス", "万象に宿る生気を取り込み臨界点を超えた魔龍石から\n絶対的な破壊力と滅びゆく宿命を授かった大覇龍皇帝\n必ず天使とエイリアンをふっとばして移動を遅くする\nダイハリュウコウテイディオラムス"]
+    stat: [{health: 5500, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 1345, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1, attack_duration: 145}, {health: 8200, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 2625, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1, attack_duration: 145}, {health: 13600, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1, attack_duration: 164}, {health: 14800, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3600, long_range_0: 1, long_range_offset_0: 410, attack_time_0: 104, trigger_effects_0: 1, damage_1: 1000, long_range_1: 200, long_range_offset_1: 300, attack_time_1: 116, trigger_effects_1: 1, damage_2: 1000, long_range_2: 290, long_range_offset_2: 300, attack_time_2: 128, trigger_effects_2: 1, against_angel: 1, against_alien: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1688,9 +1688,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   242:
-    name: [雪だるまのスノーカイ, 雪だるまのスノーカイμ]
-    desc: ["クリスマス限定スタイルの天然うっかり少女\n雪だるまから放たれる超近射ビームは圧倒的\nエイリアンと天使に打たれ強い(範囲攻撃)\nユキダルマノスノーカイ", "優しくされると誰でも好きになってしまうクリスマス少女\n急降下する恋愛ハードルはゲレンデマジックのせい！？\nエイリアンと天使に打たれ強い(範囲攻撃)\nユキダルマノスノーカイミュー"]
-    stat: [{health: 4000, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 1555, attack_time_0: 51, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}, {health: 5200, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 2495, attack_time_0: 51, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}]
+    name: [雪だるまのスノーカイ, 雪だるまのスノーカイμ, 雪妖精のスノーカイμ]
+    desc: ["クリスマス限定スタイルの天然うっかり少女\n雪だるまから放たれる超近射ビームは圧倒的\nエイリアンと天使に打たれ強い(範囲攻撃)\nユキダルマノスノーカイ", "優しくされると誰でも好きになってしまうクリスマス少女\n急降下する恋愛ハードルはゲレンデマジックのせい！？\nエイリアンと天使に打たれ強い(範囲攻撃)\nユキダルマノスノーカイミュー", "優しさをくれたあの人に恋するクリスマス少女\n白髭と赤い服が素敵なおじさまを追って猪突猛進\nエイリアンと天使に打たれ強い(範囲攻撃)\nユキヨウセイノスノーカイミュー"]
+    stat: [{health: 4000, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 1555, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}, {health: 5200, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 2495, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}, {health: 9800, knockbacks: 2, speed: 20, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 3005, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2399,8 +2399,8 @@ cats:
     desc: ["日頃のご愛顧に感謝を込めるネコ\n持ち主にささやかな福を招くという\n敵を倒したときにお金を多くもらえる", "みなさまの愛で立派に育ったネコ\nお礼に満腹の幸せをお届け\n敵を倒したときにお金を多くもらえる\nネコマネキコトブキ"]
     stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   344:
     name: [なめネコ, ネコなめ]
     desc: ["雨上がりの日に出会って意気投合したなめとネコ\n粘り強い勝負が得意だが塩には弱い\n敵の動きを一瞬遅くする(範囲攻撃)", "更なる高みを目指すため、乗り手を交替したなめとネコ\n先行逃げ切りが得意だがやっぱり塩には弱い\n敵の動きを一瞬遅くする(範囲攻撃)"]
@@ -2630,8 +2630,8 @@ cats:
     desc: ["感謝の気持ちを込めて発行された記念のネコ\n９０００億万枚限定生産品\n　\nキネンネコ", "感謝の気持ちを込めて発行された記念のネコの中に\n３枚に１枚の確率で混ざっているレアコイン\n３枚集めると記念ネコと交換可\nキネンネコビルダー"]
     stat: [{health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}, {health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   377:
     name: [ネコ探査機, ネコサーチMkⅡ, ネコサテライト]
     desc: ["NYASAが３０年前に作ったネコ型探査機\nワープ無効、エイリアンにめっぽう強いという\n最低限の機能を搭載したプロトタイプ\nネコタンサキ", "NYASAが作った超最新ネコ型探査機。ワープ無効\nエイリアンにめっぽう強いという最低限の機能に加え\n衛星放送や大人のチャンネルも１日千円で受信可能\nネコサーチマークツー", "NYASAが作ったネコ型衛星基地。ワープ無効\nエイリアンにめっぽう強いという最低限の機能に加え\n向かいのホームや路地裏の窓まで君を探すことが可能"]
@@ -3879,9 +3879,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   555:
-    name: [達人ウリル, ネコ仮面のウリル]
-    desc: ["長いものには巻かれるのが先祖代々のオキテ！\nと、勝手な言い伝えでにゃんこ軍団に加入した\n必ず古代種の動きを遅くし、烈波を放つ(範囲攻撃)\nタツジンウリル", "かつて魔王を封じ込め世界を救った伝説の武道家\nとオウムに言わせる爺ちゃん。お面は孫にもらった\n必ず古代種の動きを遅くし、烈波を放つ(範囲攻撃)\nネコカメンノウリル"]
-    stat: [{health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1, attack_duration: 48}, {health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1, attack_duration: 48}]
+    name: [達人ウリル, ネコ仮面のウリル, ネコ神面のウリル]
+    desc: ["長いものには巻かれるのが先祖代々のオキテ！\nと、勝手な言い伝えでにゃんこ軍団に加入した\n必ず古代種の動きを遅くし、烈波を放つ(範囲攻撃)\nタツジンウリル", "かつて魔王を封じ込め世界を救った伝説の武道家\nとオウムに言わせる爺ちゃん。お面は孫にもらった\n必ず古代種の動きを遅くし、烈波を放つ(範囲攻撃)\nネコカメンノウリル", "孫の気を引こうと新たな技を習得してみた伝説の武道家\n超獣特効を習得し、古代種と悪魔にもめっぽう強く\n必ず動きを遅くしさらに呪って烈波を放つ(範囲攻撃)\nネコシンメンノウリル"]
+    stat: [{health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1, attack_duration: 48}, {health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1, attack_duration: 48}, {health: 5200, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1500, attack_cooldown: 54, range: 405, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, strong: 1, slow_chance: 100, slow_duration: 60, curse_chance: 100, curse_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_surge: 1, immune_curse: 1, attack_duration: 48}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -4450,8 +4450,8 @@ cats:
     desc: ["勝者に贈られる高額賞金のプレート\nを運ぶ美しきネコ。その脚には100万ドルの価値あり\nクリティカルを放ち、敵を倒したときにお金を多くもらえる\nヒャクマンドルノネコ", "勝者に贈られる超高額賞金のプレート\nを運ぶ、1億ドルの懸賞金がかけられた前科持ちのネコ\nクリティカルを放ち、敵を倒したときにお金を多くもらえる\nイチオクドルノネコ"]
     stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 65
+    growth: [20, 20, 20, 20, 20, 20, 10]
   637:
     name: [洗脳されしタンクネコ, 洗脳されしネコカベ, 洗脳されしゴムネコ]
     desc: ["体力を多く備えた盾用のキャラ\n何者かによって洗脳され、属性を持たない敵への\n打たれ強さを取得した(範囲攻撃)\nセンノウサレシタンクネコ", "まさにカベに徹する為の盾専用キャラ\n悪の洗脳によって属性を持たない敵への\n打たれ強さを入手(範囲攻撃)\nセンノウサレシネコカベ", "まさにカベに徹する為の盾専用キャラ\n悪の洗脳が強まったことによりゴムの弾力を得た\n属性を持たない敵に超打たれ強い(範囲攻撃)\nセンノウサレシゴムネコ"]
@@ -4506,8 +4506,8 @@ cats:
     desc: ["運命を覆すために現れたヒトを超越したネコ\n素早く敵に近づき、長い尻尾で攻撃する\n古代種に超ダメージを与える(全方位攻撃)\nネコチョウジン", "自らの意志に従い戦いに突き進むネコ\nマッスルパワーで自由を追い求める\n古代種に超ダメージを与える(全方位攻撃)\nネコチョウジンツー", "遺伝子に刻まれた「人類ネコ化計画」の遂行\n永遠回帰の末、永きに渡る歳月を経て今動き出す\n古代種に超ダメージを与える(全方位攻撃)\nシンネコチョウジン"]
     stat: [{health: 700, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, attack_cooldown: 33, range: 250, width: 320, area_effect: 1, damage_0: 420, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 30}, {health: 700, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, attack_cooldown: 33, range: 250, width: 320, area_effect: 1, damage_0: 470, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 30}, {health: 850, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, range: 250, width: 320, area_effect: 1, damage_0: 570, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, colossus_killer: 1, massive_damage: 1, immune_curse: 1, attack_duration: 73}]
     rarity: 0
-    max_level: 100
-    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10]
+    max_level: 110
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
   645:
     name: [白い恋人メカ子, ビタースイートメカ子, LOVEミントメカ子]
     desc: ["恋の解析データをもとに甘いチョコレートを加え\nバレンタイン仕様のマシンに魔改造した発明少女\nたまに属性を持たない敵の動きを止める(範囲攻撃)\nシロイコイビトメカコ", "唯一解析出来ない恋の難解さに挑む発明少女\nビターな経験を学習させたマシンと恋の再決戦へ\nたまに黒い敵の動きを止める(範囲攻撃)\nビタースイートメカコ", "手作りチョコには愛が込められていると究明した少女\n開発したチョコ製造ロボで大量生産した愛を皆に配る\nたまに古代種の動きを止める(範囲攻撃)\nラブミントメカコ"]
@@ -4828,8 +4828,8 @@ cats:
     desc: ["にゃんこ大戦争と掛けまして平和と解く\nその答えを石の上で考え続け10年が経過したネコ\n属性を持つ敵をふっとばす\nイシノウエニモジュウネンネコ", "にゃんこ大戦争と平和について\n10年間石の上で考え続けたネコを模した記念碑\n属性を持つ敵をふっとばす\nイシノウエニモジュウネンネコゾウ"]
     stat: [{health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, attack_duration: 58}, {health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, attack_duration: 58}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 65
+    growth: [20, 20, 20, 20, 20, 20, 10]
   691:
     name: [運命の子フォノ, 天命の王フォノウ]
     desc: ["滅びの宿命を背負い、運命に翻弄される獣の子ども\n自分の中に眠っているチカラをまだ知る由もない\n属性を持つ敵に超ダメージを与える(遠方範囲攻撃)\nウンメイノコフォノ", "自らの運命を燃える意思で打ち砕いた幻のネコ\n命尽きるその日まで、人々を守り続けると誓う\n属性を持つ敵に超ダメージを与える(遠方範囲攻撃)\nテンメイノオウフォノウ"]
@@ -5075,6 +5075,20 @@ cats:
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  726:
+    name: [忍者娘トモエ, 食道楽忍者トモエ]
+    desc: ["異世界からやってきた絶命系忍者娘。隠れ身の術中でも\n大好物のメロンパンがないとお腹が鳴ってすぐに見つかる\nたまに属性を持たない敵と悪魔の動きを止める\nニンジャムスメトモエ", "隙間ひとつあればどこにでも潜入できる忍者娘\n前金代わりのメロンパンを抱えて迷いなく任務を遂行\nたまに属性を持たない敵と悪魔の動きを止める\nショクドウラクニンジャトモエ"]
+    stat: [{health: 3000, knockbacks: 4, speed: 22, cost: 2800, production_cooldown: 1800, attack_cooldown: 60, range: 420, width: 320, area_effect: 1, damage_0: 810, long_range_0: 1, long_range_offset_0: 420, attack_time_0: 57, trigger_effects_0: 1, damage_1: 540, long_range_1: 550, long_range_offset_1: 300, attack_time_1: 62, trigger_effects_1: 1, against_white: 1, against_aku: 1, freeze_chance: 30, freeze_duration: 90, immune_surge: 1, attack_duration: 89}, {health: 4800, knockbacks: 4, speed: 22, cost: 2800, production_cooldown: 1800, attack_cooldown: 60, range: 420, width: 320, area_effect: 1, damage_0: 1440, long_range_0: 1, long_range_offset_0: 420, attack_time_0: 57, trigger_effects_0: 1, damage_1: 720, long_range_1: 550, long_range_offset_1: 300, attack_time_1: 62, trigger_effects_1: 1, against_white: 1, against_aku: 1, freeze_chance: 50, freeze_duration: 90, immune_surge: 1, attack_duration: 89}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  727:
+    name: [ネコメダル王, ネコメダル大王]
+    desc: ["世界中に散らばったメダルを11年間集め続けるネコ\n安く出品されてないかネットオークションを毎日確認\n必ず動きを一瞬遅くする烈波を放つ\nネコメダルオウ", "世界中に散らばったメダルを探すために11兆円使った王様\n国の予算を使い果たしたことで王座を奪われ放浪中\n必ず動きを一瞬遅くする烈波を放つ\nネコメダルダイオウ"]
+    stat: [{health: 800, knockbacks: 2, speed: 8, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 210, width: 320, damage_0: 80, attack_time_0: 33, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 30, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 65}, {health: 800, knockbacks: 2, speed: 8, cost: 500, production_cooldown: 600, attack_cooldown: 80, range: 210, width: 320, damage_0: 80, attack_time_0: 33, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 30, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 65}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -9715,6 +9729,50 @@ gacha:
     series_id: 43
     name: 超激8体、限定キャラ全部で13体登場の『初音ミク』ガチャ！★詳細はバナーから!!
     rate: no_legend
+  851:
+    cats: [172, 669, 73, 648, 506, 138, 197, 317, 633, 335, 632, 436, 586, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: 人気キャラクターが集結！11周年記念の特別ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+  852:
+    cats: [172, 669, 73, 648, 506, 138, 197, 317, 633, 335, 632, 485, 610, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: 黒ちびネコヴァルキリー参戦！7周年記念の特別ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 72
+  853:
+    cats: [449, 456, 545, 547, 60, 619, 107, 621, 693, 432, 724, 306, 358, 570, 715, 687, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 30
+    name: 11周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  854:
+    cats: [451, 452, 494, 464, 713, 44, 72, 160, 661, 137, 699, 273, 675, 336, 360, 694, 398, 646, 668, 685, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 31
+    name: 11周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  855:
+    cats: [462, 450, 482, 479, 241, 45, 650, 77, 397, 135, 227, 272, 716, 608, 720, 700, 560, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 41
+    name: 11周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  856:
+    cats: [60, 76, 84, 85, 107, 108, 136, 144, 197, 287, 44, 73, 195, 241, 259, 437, 520, 560, 43, 77, 87, 88, 106, 125, 137, 213, 284, 306, 534, 621, 58, 139, 171, 262, 317, 398, 648, 650, 656, 661, 669, 675, 683, 687, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 59
+    name: 登場キャラ追加！限定キャラも登場する特別版！★おまけアップイベント開催中!!
+    rate: no_legend
+    similarity: 67
+  857:
+    cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: 超生命体特効を持つ新キャラクター「女神ベガ」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  858:
+    cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: 超生命体特効を持つキャラクター「女神ベガ」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
 events:
   2018-09-15_320:
     start_on: 2018-09-15
