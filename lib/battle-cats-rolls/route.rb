@@ -180,7 +180,13 @@ module BattleCatsRolls
     end
 
     def theme
-      @theme ||= request.params_coercion('theme', :to_s)
+      @theme ||=
+        case value = request.params_coercion('theme', :to_s)
+        when 'mkweb'
+          value
+        else
+          ''
+        end
     end
 
     MaxSeed = 2 ** 32
