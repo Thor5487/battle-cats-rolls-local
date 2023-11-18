@@ -393,7 +393,7 @@ module BattleCatsRolls
     end
 
     def uri_to_my_gamatoto cat
-      "https://mygamatoto.com/catinfo/#{cat.id}/cat"
+      "https://mygamatoto.com/catinfo/#{sprintf('%03d', cat.id)}/cat"
     end
 
     def uri_to_own_all_cats
