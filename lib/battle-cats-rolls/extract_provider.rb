@@ -33,7 +33,8 @@ module BattleCatsRolls
     end
 
     def attack_maanims
-      @attack_maanims ||= Dir["#{dir}/ImageDataLocal.pack/*{f,c,s}02.maanim"].
+      @attack_maanims ||= Dir[
+        "#{dir}/ImageDataLocal.pack/*{#{Provider.forms.join(',')}}02.maanim"].
         inject({}) do |result, path|
           id, form_index = Provider.extract_id_and_form_from_maanim_path(path)
           (result[id] ||= [])[form_index] = File.binread(path)

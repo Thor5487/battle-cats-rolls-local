@@ -5,7 +5,7 @@ module BattleCatsRolls
     module_function
 
     def extract_id_and_form_from_maanim_path path
-      match = path.match(/(?<id>\d+)_(?<form>[fcs])02\.maanim\z/)
+      match = path.match(/(?<id>\d+)_(?<form>[#{forms.join}])02\.maanim\z/)
       id = match[:id].to_i.succ
       form_index = forms.index(match[:form])
 
@@ -13,7 +13,7 @@ module BattleCatsRolls
     end
 
     def forms
-      %w[f c s]
+      %w[f c s u]
     end
   end
 end

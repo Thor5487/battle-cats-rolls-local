@@ -34,7 +34,7 @@ module BattleCatsRolls
 
     def attack_maanims
       @attack_maanims ||= animation_reader.list_lines.
-        grep(/\A\d+_[fcs]02\.maanim,\d+,\d+$/).
+        grep(/\A\d+_[#{Provider.forms.join}]02\.maanim,\d+,\d+$/).
         inject({}) do |result, line|
           filename, maanim = animation_reader.read_eagerly(line)
           id, form_index =
