@@ -150,6 +150,20 @@ module BattleCatsRolls
         end
     end
 
+    def ui
+      @ui ||=
+        case value = request.params_coercion_with_nil('ui', :to_s)
+        when 'en', 'tw', 'jp', 'kr'
+          value
+        else
+          '' # Default to whatever lang is
+        end
+    end
+
+    def ui_lang
+      @ui_lang = if ui.empty? then lang else ui end
+    end
+
     def version
       @version ||=
         case value = request.params_coercion_with_nil('version', :to_s)
@@ -432,7 +446,7 @@ module BattleCatsRolls
 
     def default_query query={}
       ret = %i[
-        seed last event custom rate c_rare c_supa c_uber level lang version
+        seed last event custom rate c_rare c_supa c_uber level lang ui version
         name theme count find no_guaranteed force_guaranteed ubers details
         hide_wave sum_no_wave dps_no_critical
         o
@@ -461,6 +475,7 @@ module BattleCatsRolls
       query.compact.select do |key, value|
         if (key == :seed && value == 0) ||
            (key == :lang && value == 'en') ||
+           (key == :ui && value == '') ||
            (key == :version && value == default_version) ||
            (key == :name && value == 0) ||
            (key == :theme && value == '') ||

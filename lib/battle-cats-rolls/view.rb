@@ -4,6 +4,7 @@ require_relative 'cat'
 require_relative 'find_cat'
 require_relative 'gacha'
 require_relative 'owned'
+require_relative 'l10n'
 
 require 'tilt'
 
@@ -22,6 +23,10 @@ module BattleCatsRolls
     end
 
     private
+
+    def l10n text
+      L10n.translate(route.ui_lang, text)
+    end
 
     def each_ball_cat
       route.ball.cats_by_rarity.reverse_each do |rarity, data|
@@ -195,6 +200,10 @@ module BattleCatsRolls
 
     def selected_theme theme_name
       'selected="selected"' if route.theme == theme_name
+    end
+
+    def selected_ui ui_name
+      'selected="selected"' if route.ui == ui_name
     end
 
     def selected_current_event event_name
