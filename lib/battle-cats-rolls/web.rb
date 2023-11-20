@@ -19,6 +19,16 @@ require 'digest/sha1'
 module BattleCatsRolls
   class Web
     module Imp
+      def with_canonical_uri path
+        canonical_uri = route.uri(path: path)
+
+        if request.fullpath != canonical_uri
+          found canonical_uri
+        else
+          yield
+        end
+      end
+
       def route
         @route ||= Route.new(request)
       end
@@ -147,21 +157,21 @@ module BattleCatsRolls
     end
 
     get '/cats' do
-      canonical_uri = route.uri(path: '/cats')
-
-      if request.fullpath != canonical_uri
-        found canonical_uri
-      else
+      with_canonical_uri('/cats') do
         render :cats, cats: route.cats
       end
     end
 
     get '/help' do
-      render :help, help: Help.new
+      with_canonical_uri('/help') do
+        render :help, help: Help.new
+      end
     end
 
     get '/logs' do
-      render :logs
+      with_canonical_uri('/logs') do
+        render :logs
+      end
     end
 
     class Seek
