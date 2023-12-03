@@ -8924,9 +8924,8 @@ gacha:
   823:
     cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 24
-    name: Colossus Slayer Mighty Carrowsell has been added! Tap the banner for details!
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
     rate: regular
-    similarity: 98
   824:
     cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 240, 239, 238, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 24
@@ -8986,9 +8985,8 @@ gacha:
   835:
     cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 33
-    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
     rate: regular
-    similarity: 98
   836:
     cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 33
@@ -9012,13 +9010,11 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 99
   840:
     cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 99
   841:
     cats: [715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 47
@@ -9053,25 +9049,23 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 98
+    similarity: 99
   847:
     cats: [724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 98
+    similarity: 99
   848:
     cats: [84, 106, 137, 171, 195, 272, 339, 360, 618, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 57
-    name: Pick up mighty teammates to fight by your side in a Hotblooded Clash!
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
     rate: no_legend
-    similarity: 80
   849:
     cats: [88, 108, 213, 317, 402, 526, 619, 626, 669, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 58
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
     rate: no_legend
-    similarity: 79
   850:
     cats: [723, 594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 43
@@ -21057,3 +21051,162 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-12-04_733:
+    start_on: 2023-12-04
+    end_on: 2023-12-06
+    version: '120700'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-04_848:
+    start_on: 2023-12-04
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 848
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-12-04_849:
+    start_on: 2023-12-04
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 849
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-12-06_695:
+    start_on: 2023-12-06
+    end_on: 2023-12-08
+    version: '120700'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-08_790:
+    start_on: 2023-12-08
+    end_on: 2023-12-11
+    version: '120700'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-11_799:
+    start_on: 2023-12-11
+    end_on: 2023-12-13
+    version: '120700'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-12-11_848:
+    start_on: 2023-12-11
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 848
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-12-11_849:
+    start_on: 2023-12-11
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 849
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-12-13_835:
+    start_on: 2023-12-13
+    end_on: 2023-12-15
+    version: '120700'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 835
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-12-13_839:
+    start_on: 2023-12-13
+    end_on: 2030-01-01
+    version: '120700'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 839
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2023-12-13_840:
+    start_on: 2023-12-13
+    end_on: 2030-01-01
+    version: '120700'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 840
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2023-12-13_848:
+    start_on: 2023-12-13
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 848
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-12-13_849:
+    start_on: 2023-12-13
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 849
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-12-15_823:
+    start_on: 2023-12-15
+    end_on: 2023-12-18
+    version: '120700'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 823
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-15_848:
+    start_on: 2023-12-15
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 848
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-12-15_849:
+    start_on: 2023-12-15
+    end_on: 2023-12-18
+    version: '120700'
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    id: 849
+    rare: 7000
+    supa: 2500
+    uber: 500
