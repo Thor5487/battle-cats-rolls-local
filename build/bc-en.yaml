@@ -9004,7 +9004,6 @@ gacha:
     series_id: 27
     name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
     rate: uberfest
-    similarity: 99
   839:
     cats: [720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -9043,7 +9042,7 @@ gacha:
     series_id: 27
     name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
     rate: uberfest
-    similarity: 98
+    similarity: 99
   846:
     cats: [724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -21210,3 +21209,41 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2023-12-18_678:
+    start_on: 2023-12-18
+    end_on: 2023-12-20
+    version: '130000'
+    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    id: 678
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-18_776:
+    start_on: 2023-12-18
+    end_on: 2024-01-01
+    version: '130000'
+    name: Limited Xmas Girls, featuring new True Forms! ★ Tap banner for info!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-12-20_811:
+    start_on: 2023-12-20
+    end_on: 2023-12-22
+    version: '130000'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-22_838:
+    start_on: 2023-12-22
+    end_on: 2023-12-25
+    version: '130000'
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    id: 838
+    rare: 6500
+    supa: 2600
+    uber: 900
