@@ -8990,15 +8990,13 @@ gacha:
   836:
     cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 33
-    name: Colossus Slaying NEW hero Bliza joins the Elemental Pixies! ★ Tap for info!
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
     rate: regular
-    similarity: 98
   837:
     cats: [720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 19
     name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
     rate: uberfest
-    similarity: 99
   838:
     cats: [720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
@@ -9028,9 +9026,8 @@ gacha:
   843:
     cats: [724, 643, 535, 494, 440, 317, 273, 272, 260, 259, 258, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 18
-    name: Punish Floating and Aku with NEW hero Lucifer the Fallen! ★ Tap for info!
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
     rate: regular
-    similarity: 98
   844:
     cats: [724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 19
@@ -9048,13 +9045,11 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 99
   847:
     cats: [724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 99
   848:
     cats: [84, 106, 137, 171, 195, 272, 339, 360, 618, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 57
@@ -21247,3 +21242,196 @@ events:
     rare: 6500
     supa: 2600
     uber: 900
+  2023-12-25_741:
+    start_on: 2023-12-25
+    end_on: 2023-12-27
+    version: '130000'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2023-12-25_776:
+    start_on: 2023-12-25
+    end_on: 2024-01-01
+    version: '130000'
+    name: Limited Xmas Girls, featuring new True Forms! ★ Tap banner for info!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2023-12-27_760:
+    start_on: 2023-12-27
+    end_on: 2023-12-29
+    version: '130000'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 760
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2023-12-27_776:
+    start_on: 2023-12-27
+    end_on: 2024-01-01
+    version: '130000'
+    name: Limited Xmas Girls, featuring new True Forms! ★ Tap banner for info!
+    id: 776
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2023-12-29_732:
+    start_on: 2023-12-29
+    end_on: 2024-01-01
+    version: '130000'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-01-01_694:
+    start_on: 2024-01-01
+    end_on: 2024-01-04
+    version: '130000'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-01_837:
+    start_on: 2024-01-01
+    end_on: 2024-01-04
+    version: '130000'
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    id: 837
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2024-01-04_789:
+    start_on: 2024-01-04
+    end_on: 2024-01-06
+    version: '130000'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-04_798:
+    start_on: 2024-01-04
+    end_on: 2024-01-06
+    version: '130000'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-06_812:
+    start_on: 2024-01-06
+    end_on: 2024-01-08
+    version: '130000'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 812
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-01-06_843:
+    start_on: 2024-01-06
+    end_on: 2024-01-08
+    version: '130000'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 843
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-01-06_846:
+    start_on: 2024-01-06
+    end_on: 2030-01-01
+    version: '130000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 846
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2024-01-06_847:
+    start_on: 2024-01-06
+    end_on: 2030-01-01
+    version: '130000'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 847
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2024-01-08_824:
+    start_on: 2024-01-08
+    end_on: 2024-01-10
+    version: '130000'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 824
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-08_836:
+    start_on: 2024-01-08
+    end_on: 2024-01-10
+    version: '130000'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 836
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-10_742:
+    start_on: 2024-01-10
+    end_on: 2024-01-12
+    version: '130000'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-10_761:
+    start_on: 2024-01-10
+    end_on: 2024-01-12
+    version: '130000'
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    id: 761
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-12_695:
+    start_on: 2024-01-12
+    end_on: 2024-01-15
+    version: '130000'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-01-12_733:
+    start_on: 2024-01-12
+    end_on: 2024-01-15
+    version: '130000'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
