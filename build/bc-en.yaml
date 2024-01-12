@@ -505,9 +505,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   74:
-    name: [Oda Nobunaga, Wargod Nobunaga, Immortal Nobunaga]
-    desc: ["The manifestation of the Grudge of Nobunaga\nfrom the lives of many (and one Cat) (Area Attack)\n100% chance to Freeze Black enemies.", "The Cat's spirit goes into overdrive.\nThe grudge grows even stronger. (Area Attack)\n100% chance to Freeze Black enemies.", "Leads an army of vengeful spirits to fulfill his\ndream of unifying the heavens and the netherworld.\n100% chance to Freeze Black enemies. (Area)"]
-    stat: [{health: 950, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180}, {health: 1900, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180}, {health: 3800, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 240}]
+    name: [Oda Nobunaga, Wargod Nobunaga, Immortal Nobunaga, Phantasmal Nobunaga]
+    desc: ["The manifestation of the Grudge of Nobunaga\nfrom the lives of many (and one Cat) (Area Attack)\n100% chance to Freeze Black enemies.", "The Cat's spirit goes into overdrive.\nThe grudge grows even stronger. (Area Attack)\n100% chance to Freeze Black enemies.", "Leads an army of vengeful spirits to fulfill his\ndream of unifying the heavens and the netherworld.\n100% chance to Freeze Black enemies. (Area)", "The enmity of those that he has slain powers his\nburning ambition to rule both heaven and hell.\n100% Freeze to Black, Aku. Counter-Surge (Area)"]
+    stat: [{health: 950, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180}, {health: 1900, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 180}, {health: 3800, knockbacks: 1, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, freeze_chance: 100, freeze_duration: 240}, {health: 5500, knockbacks: 2, speed: 7, cost: 2900, production_cooldown: 1450, attack_cooldown: 15, range: 410, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 82, trigger_effects_0: 1, against_black: 1, against_aku: 1, freeze_chance: 100, freeze_duration: 240, attack_duration: 101}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -519,9 +519,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   76:
-    name: [Windy, 'Windy, type α', Divine Windy]
-    desc: ["A galaxy girl who manipulates wind.\nHer vacuum cannon cleans enemies from a distance\nMassive damage to Floating enemies. (Area Attack)", "This strange girl can hear the wind whispering.\nThe wind tells her that it is in pain…\nMassive damage to Floating enemies. (Area Attack)", "Has a bad habit of impulse buying the latest mechas.\nNeo-Vacuum Cannon blasts from long-distance.\nMassive damage to Floating enemies. (Area Attack)"]
-    stat: [{health: 800, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 1255, attack_time_0: 81, against_float: 1, massive_damage: 1}, {health: 1500, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 2555, attack_time_0: 81, against_float: 1, massive_damage: 1}, {health: 3000, knockbacks: 6, speed: 12, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 450, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 81, against_float: 1, massive_damage: 1}]
+    name: [Windy, 'Windy, type α', Divine Windy, Ultimate Windy]
+    desc: ["A galaxy girl who manipulates wind.\nHer vacuum cannon cleans enemies from a distance\nMassive damage to Floating enemies. (Area Attack)", "This strange girl can hear the wind whispering.\nThe wind tells her that it is in pain…\nMassive damage to Floating enemies. (Area Attack)", "Has a bad habit of impulse buying the latest mechas.\nNeo-Vacuum Cannon blasts from long-distance.\nMassive damage to Floating enemies. (Area Attack)", "Her hair sometimes gets sucked into her mecha.\nFires her Vacuum Cannon Mk 2 from long distance\nto deal massive Area Attack damage to Floating."]
+    stat: [{health: 800, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 1255, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1}, {health: 1500, knockbacks: 6, speed: 6, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 420, width: 320, area_effect: 1, damage_0: 2555, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1}, {health: 3000, knockbacks: 6, speed: 12, cost: 2950, production_cooldown: 1666, attack_cooldown: 164, range: 450, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 81, trigger_effects_0: 1, against_float: 1, massive_damage: 1}, {health: 3000, knockbacks: 6, speed: 16, cost: 2950, production_cooldown: 1666, attack_cooldown: 140, range: 510, width: 320, area_effect: 1, damage_0: 4055, attack_time_0: 51, trigger_effects_0: 1, against_float: 1, insane_damage: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1121,9 +1121,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   178:
-    name: [Dioramos, Archdragon Dioramos, God-Emperor Dioramos]
-    desc: ["This dragon lord seeks to set it all ablaze.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "An ancient dragon of unquestioned authority.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "Brutal attacks powered by hate - a family \ntradition of mercilessness. 100% Barrier break,\nplus Knockback & Slow vs Angels (Area Atk)"]
-    stat: [{health: 5500, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 1345, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1}, {health: 8200, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 2625, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1}, {health: 13600, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1}]
+    name: [Dioramos, Archdragon Dioramos, God-Emperor Dioramos, Ascendant Dioramos]
+    desc: ["This dragon lord seeks to set it all ablaze.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "An ancient dragon of unquestioned authority.\nLay waste with epically mighty area attacks.\nMight knockback and slow Angels.", "Brutal attacks powered by hate - a family \ntradition of mercilessness. 100% Barrier break,\nplus Knockback & Slow vs Angels (Area Atk)", "The heat of 1000 suns radiates from the core of\nthis engine of total ruin, leaving nothing in its wake.\n100% Knockback/Slow to Angels/Aliens"]
+    stat: [{health: 5500, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 1345, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1}, {health: 8200, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 395, width: 320, area_effect: 1, damage_0: 2625, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_slow: 1}, {health: 13600, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 104, trigger_effects_0: 1, against_angel: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1, attack_duration: 164}, {health: 14800, knockbacks: 2, speed: 4, cost: 4400, production_cooldown: 2480, attack_cooldown: 90, range: 410, width: 320, area_effect: 1, damage_0: 3600, long_range_0: 1, long_range_offset_0: 410, attack_time_0: 104, trigger_effects_0: 1, damage_1: 1000, long_range_1: 200, long_range_offset_1: 300, attack_time_1: 116, trigger_effects_1: 1, damage_2: 1000, long_range_2: 290, long_range_offset_2: 300, attack_time_2: 128, trigger_effects_2: 1, against_angel: 1, against_alien: 1, break_barrier_chance: 100, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_slow: 1, attack_duration: 174}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1464,9 +1464,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   242:
-    name: [Frosty Kai, 'Frosty Kai, type μ']
-    desc: ["A clumsy gal, dressed up just for Xmas!\nFires a powerful, short-range ice beam.\nResistant to Aliens/Angels. (Area Atk.)", "Crushes on any skier who is nice to her.\nFalling in love, or just slipping on ice?\nResistant to Aliens/Angels. (Area Atk.)"]
-    stat: [{health: 4000, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 1555, attack_time_0: 51, against_angel: 1, against_alien: 1, resistant: 1}, {health: 5200, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 2495, attack_time_0: 51, against_angel: 1, against_alien: 1, resistant: 1}]
+    name: [Frosty Kai, 'Frosty Kai, type μ', 'Frostspirit Kai, type μ']
+    desc: ["A clumsy gal, dressed up just for Xmas!\nFires a powerful, short-range ice beam.\nResistant to Aliens/Angels. (Area Atk.)", "Crushes on any skier who is nice to her.\nFalling in love, or just slipping on ice?\nResistant to Aliens/Angels. (Area Atk.)", "Once again falling for a kind stranger, she charges\nheedlessly after that red-suited man with the chic\nwhite beard. Resistant to Aliens/Angels (Area Atk)"]
+    stat: [{health: 4000, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 1555, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1}, {health: 5200, knockbacks: 2, speed: 15, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 2495, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1}, {health: 9800, knockbacks: 2, speed: 20, cost: 2660, production_cooldown: 1200, attack_cooldown: 54, range: 175, width: 320, area_effect: 1, damage_0: 3005, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_alien: 1, resistant: 1, attack_duration: 80}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3347,9 +3347,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   555:
-    name: [Master Uril, Mystic Uril]
-    desc: ["The will of one in flowing robes is the law!\nAnd so, he forced his way into the Cat Army.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks."]
-    stat: [{health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1}, {health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1}]
+    name: [Master Uril, Mystic Uril, Esoteric Uril]
+    desc: ["The will of one in flowing robes is the law!\nAnd so, he forced his way into the Cat Army.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who sealed away the demon king.\n...says the parrot. This mask is a gift from his grandchild.\n100% Slow vs Relics, Area Surge attacks.", "Fabled martial artist who developed new skills to get his\ngrandkids' attention. Strong against Relics and Aku,\nBehemoth Slayer. Area attacks 100% Slow/Curse/Surge"]
+    stat: [{health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1}, {health: 4000, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1800, attack_cooldown: 54, range: 375, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, slow_chance: 100, slow_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_curse: 1}, {health: 5200, knockbacks: 3, speed: 8, cost: 2700, production_cooldown: 1500, attack_cooldown: 54, range: 405, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, against_aku: 1, behemoth_killer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, strong: 1, slow_chance: 100, slow_duration: 60, curse_chance: 100, curse_duration: 60, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 800, immune_surge: 1, immune_curse: 1, attack_duration: 48}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -3911,8 +3911,8 @@ cats:
     desc: ["Transcended mortality to turn the tides of destiny.\nSwiftly closes in on its target to attack with its long tail.\nDelivers massive damage to Relics. (Omnistrike)", "Cat who charges into battle of its own free will.\nSeeks freedom through sheer physical power.\nDelivers massive damage to Relics. (Omnistrike)", "The genetic embodiment of \"Humanity Catified.\"\nAfter years of biorecombination, it awakens.\nDeals Massive damage to Relics. (Omnistrike)"]
     stat: [{health: 700, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, attack_cooldown: 33, range: 250, width: 320, area_effect: 1, damage_0: 420, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 30}, {health: 700, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, attack_cooldown: 33, range: 250, width: 320, area_effect: 1, damage_0: 470, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 30}, {health: 850, knockbacks: 10, speed: 38, cost: 1600, production_cooldown: 425, range: 250, width: 320, area_effect: 1, damage_0: 570, long_range_0: 350, long_range_offset_0: -450, attack_time_0: 7, trigger_effects_0: 1, against_relic: 1, colossus_killer: 1, massive_damage: 1, immune_curse: 1, attack_duration: 73}]
     rarity: 0
-    max_level: 100
-    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10]
+    max_level: 110
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
   645:
     name: [Sweet Love Mekako, Bittersweet Mekako, Minty Love Mekako]
     desc: ["Added chocolate to the fuel reactor in an\nattempt to decode the structure of human love.\nArea Attacks might Freeze Traitless.", "Growing bitter with her lack of research results,\nthe look of Mekako's mech also grows darker...\nArea Attacks might Freeze Black enemies.", "Studying love in homemade chocolate. The sweets\nher robots have made may or may not contain love.\nArea Attacks may Freeze Relics."]
@@ -4445,6 +4445,13 @@ cats:
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  726:
+    name: [Ninja Girl Tomoe, Gourmand Ninja Girl Tomoe]
+    desc: ["Stupendous ninja from another world. Hunger pangs\ngive away her position when using stealth jutsu.\nMight Freeze Traitless enemies and Aku.", "Can infiltrate targets via even the smallest of entrances.\nAlways munching on sweetbuns before a big mission. \nMight Freeze Traitless enemies and Aku."]
+    stat: [{health: 3000, knockbacks: 4, speed: 22, cost: 2800, production_cooldown: 1800, attack_cooldown: 60, range: 420, width: 320, area_effect: 1, damage_0: 810, long_range_0: 1, long_range_offset_0: 420, attack_time_0: 57, trigger_effects_0: 1, damage_1: 540, long_range_1: 550, long_range_offset_1: 300, attack_time_1: 62, trigger_effects_1: 1, against_white: 1, against_aku: 1, freeze_chance: 30, freeze_duration: 90, immune_surge: 1, attack_duration: 89}, {health: 4800, knockbacks: 4, speed: 22, cost: 2800, production_cooldown: 1800, attack_cooldown: 60, range: 420, width: 320, area_effect: 1, damage_0: 1440, long_range_0: 1, long_range_offset_0: 420, attack_time_0: 57, trigger_effects_0: 1, damage_1: 720, long_range_1: 550, long_range_offset_1: 300, attack_time_1: 62, trigger_effects_1: 1, against_white: 1, against_aku: 1, freeze_chance: 50, freeze_duration: 90, immune_surge: 1, attack_duration: 89}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -8730,6 +8737,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Limited Valentines capsules, with a NEW True Form for Sweet Love Mekako!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -8742,6 +8751,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -9059,6 +9070,52 @@ gacha:
     series_id: 43
     name: Hatsune Miku is back! 12 Limited heroes including 7 Ubers!
     rate: no_legend
+    similarity: 98
+  851:
+    cats: [172, 669, 73, 648, 506, 138, 197, 317, 633, 335, 632, 436, 586, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: Lunar New Year Capsules full of popular units! Tap the banner for details!
+    rate: no_legend
+  852:
+    cats: [172, 669, 73, 648, 506, 138, 197, 317, 633, 335, 632, 485, 610, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: Your favorite Cats join forces to kick off a brand new year!
+    rate: no_legend
+    similarity: 71
+  853:
+    cats: [449, 456, 545, 547, 60, 619, 107, 621, 693, 432, 724, 306, 358, 570, 715, 687, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 30
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    rate: regular
+  854:
+    cats: [451, 452, 494, 464, 713, 44, 72, 160, 661, 137, 699, 273, 675, 336, 360, 694, 398, 646, 668, 685, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 31
+    name: '8 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    rate: regular
+    similarity: 65
+  855:
+    cats: [462, 450, 482, 479, 241, 45, 650, 77, 397, 135, 227, 272, 716, 608, 720, 700, 560, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 41
+    name: '8 Year Celebration: Excellent Selection! ★ Tap banner for info!'
+    rate: regular
+    similarity: 63
+  856:
+    cats: [60, 76, 84, 85, 107, 108, 136, 144, 197, 287, 44, 73, 195, 241, 259, 437, 520, 560, 43, 77, 87, 88, 106, 125, 137, 213, 284, 306, 534, 621, 58, 139, 171, 262, 317, 398, 648, 650, 656, 661, 669, 675, 683, 687, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 59
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    rate: no_legend
+    similarity: 67
+  857:
+    cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    rate: regular
+    similarity: 98
+  858:
+    cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    rate: regular
     similarity: 98
 events:
   2018-06-06_245:
