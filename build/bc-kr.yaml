@@ -820,9 +820,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   120:
-    name: [와이번, 냥이번]
-    desc: ["메르크 스토리아에서 참전!\n공중에서 펼치는 강렬한 일격은\n검은 적에 초 데미지를 입힌다 (범위 공격)", "메르크 스토리아의 와이번을 모델로\n고양이들이 극비리에 연구하여 만든 합성 마수\n검은 적에 초 데미지를 입힌다 (범위 공격)"]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}]
+    name: [와이번, 냥이번, 냥이번&알렉]
+    desc: ["메르크 스토리아에서 참전!\n공중에서 펼치는 강렬한 일격은\n검은 적에 초 데미지를 입힌다 (범위 공격)", "메르크 스토리아의 와이번을 모델로\n고양이들이 극비리에 연구하여 만든 합성 마수\n검은 적에 초 데미지를 입힌다 (범위 공격)", "자신이 인정한 자만 등에 태우는 긍지 높은 합성 마수\n그가 인정한 자는 견습 검사 알렉과 고양이 뿐\n초생명체 특효를 가지며 검은 적에 초 데미지를 입힌다"]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1, attack_duration: 120}, {health: 4600, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, colossus_killer: 1, massive_damage: 1, weaken_chance: 50, weaken_duration: 90, weaken_multiplier: 50, immune_slow: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1403,28 +1403,28 @@ cats:
   223:
     name: [휴즈 허미트, 휴즈 허미트CC]
     desc: ["메탈 슬러그 디펜스에서 참전!\n비밀 조사 수행 중 조우한 거대한 소라게\n에이리언에 엄청 강하다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n큰 손톱으로 모래를 헤치며 모든 것을 쓰러뜨린다\n에이리언에 엄청 강하다 (범위 공격)"]
-    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, against_alien: 1, strong: 1, attack_duration: 10}]
+    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   224:
     name: [주피터 킹, 주피터 킹CC]
     desc: ["메탈 슬러그 디펜스에서 참전!\n비밀 공장을 지키는 초대형 호위 로봇 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다", "메탈 슬러그 디펜스에서 참전!\n모든 것을 기화시킬만큼 강력한 레이저를 발사한다 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다"]
-    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}]
+    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   225:
     name: [모덴 원수, 모덴 원수CC]
     desc: ["메탈 슬러그 디펜스에서 참전!\n전 정규군 사령관. 카리스마가 엄청난 캐릭터\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n군부와 정치의 부패를 단죄하기 위해, 로켓런처로 승부\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)"]
-    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
+    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   226:
     name: [하이 도, 하이 도CC]
     desc: ["메탈 슬러그 디펜스에서 참전!\n모덴군의 대형 폭격 헬기\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n전투기이기는 하지만 임원의 호송에도 사용되고 있다\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)"]
-    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}]
+    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1870,9 +1870,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   305:
-    name: [강철육군 카타바르스, 격멸전차 기가파르도, 초격멸전차 기가파르도]
-    desc: ["대륙 전체를 지배한 거대제국의 비밀병기\n난공불락의 성벽도 아주 쉽게 부숴버린다 (원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다", "정예부대 SCAT이 탄 제국군의 초중량전차\n극비밀리에 개발된 대포의 위력은 절대적 (원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다", "제국의 과학기술을 총집합 시킨 결전의 초중량전차\n발사되는 포탄은 새로운 시대를 개척한다(원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다"]
-    stat: [{health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 150, long_range_offset_0: 575, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}]
+    name: [강철육군 카타바르스, 격멸전차 기가파르도, 초격멸전차 기가파르도, 극격멸전차 기가파르도]
+    desc: ["대륙 전체를 지배한 거대제국의 비밀병기\n난공불락의 성벽도 아주 쉽게 부숴버린다 (원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다", "정예부대 SCAT이 탄 제국군의 초중량전차\n극비밀리에 개발된 대포의 위력은 절대적 (원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다", "제국의 과학기술을 총집합 시킨 결전형 초중량전차\n발사되는 포탄은 새로운 시대를 개척한다 (원거리 범위공격)\n좀비에게 맷집이 좋고 가끔씩 공격력을 낮춘다", "사선을 수없이 넘나들며 지상의 패권을 잡은 초중량 최종병기\n영원한 번영을 위하여! 판처 포! (원거리 범위공격)\n좀비와 고대종에게 맷집이 좋고 반드시 공격력을 낮춘다"]
+    stat: [{health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 150, long_range_offset_0: 575, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50, attack_duration: 190}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 2800, long_range_0: 100, long_range_offset_0: 625, attack_time_0: 93, trigger_effects_0: 1, against_relic: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 100, weaken_duration: 250, weaken_multiplier: 50, immune_curse: 1, immune_toxic: 1, attack_duration: 190}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4132,7 +4132,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   661:
     name: [해룡 다라이어던, 해룡왕 다라이어던]
-    desc: ["먼 옛날 신을 대신하여 바다를 지배한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다", "휘몰아치는 거친 바다의 힘을 품은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다"]
+    desc: ["먼 옛날 신을 대신하여 바다를 지배한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다", "휘몰아치는 거친 바다의 힘을 품은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다"]
     stat: [{health: 3300, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, colossus_killer: 1, slow_chance: 100, slow_duration: 90, immune_knockback: 1, attack_duration: 146}, {health: 4000, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 2000, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, colossus_killer: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, immune_knockback: 1, attack_duration: 146}]
     rarity: 4
     max_level: 130
@@ -4557,6 +4557,34 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  729:
+    name: [논리의 현자 소라크테스, 논리의 현자 냥코라테스]
+    desc: ["고양이가 무엇을 생각하는지, 삶의 목적이 무엇인지가\n궁금하여 냥코 군단에 가입한 현자 (전방위 공격)\n소환 능력과 초현자 특효를 가지며 가끔 천사의 움직임을 멈춘다", "「냥코란 무엇인가?」에 대해 자문자답을 거듭하는 현자\n냥코에 대해 아무것도 모른다는 사실만을 알고 있다 (전방위 공격)\n소환 능력과 초현자 특효를 가지며 가끔 천사의 움직임을 멈춘다"]
+    stat: [{health: 4500, knockbacks: 4, speed: 18, cost: 2900, production_cooldown: 2100, range: 250, width: 320, area_effect: 1, damage_0: 200, long_range_0: 400, long_range_offset_0: -800, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, freeze_chance: 20, freeze_duration: 50, attack_duration: 20}, {health: 5500, knockbacks: 4, speed: 18, cost: 2900, production_cooldown: 2100, range: 250, width: 320, area_effect: 1, damage_0: 250, long_range_0: 400, long_range_offset_0: -800, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, freeze_chance: 30, freeze_duration: 50, attack_duration: 20}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  730:
+    name: ['730_1']
+    desc: ['정령: 적의 공격력을 낮춥니다']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, suicide: 2, attack_duration: 85}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  732:
+    name: [새벽의 이자나기, 여명의 이자나기]
+    desc: ["차원을 넘어 강림한 태초의 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)", "오랜 옛날부터 조용히 세상을 관조해 온 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)"]
+    stat: [{health: 5000, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1200, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1200, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1200, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, insane_damage: 1, immune_wave: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 110}, {health: 7400, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1800, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1800, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1800, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, insane_damage: 1, immune_wave: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  733:
+    name: ['733_1']
+    desc: ['정령: 적을 날려버리고 움직임을 느리게 합니다']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, suicide: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -6715,9 +6743,9 @@ gacha:
   366:
     cats: [276, 284, 402, 306, 273, 262, 204, 76, 85, 74, 45, 172, 315, 315, 315, 315, 315, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
     rate: regular
-    similarity: 56
+    similarity: 63
   367:
     cats: [436, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 19
@@ -7748,15 +7776,15 @@ gacha:
   560:
     cats: [545, 494, 479, 560, 315, 315, 315, 315, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
     rate: regular
-    similarity: 63
+    similarity: 65
   561:
     cats: [545, 494, 479, 560, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
     rate: regular
-    similarity: 63
+    similarity: 65
   562:
     cats: [587, 585, 571, 567, 567, 567, 566, 566, 566, 565, 564, 527, 495, 439, 355, 333, 333, 333, 332, 331, 315, 315, 315, 311, 303, 277, 277, 277, 276, 275, 244, 243, 242, 231, 230, 229, 229, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 47
@@ -8883,9 +8911,9 @@ gacha:
   781:
     cats: [450, 452, 456, 547, 520, 73, 76, 661, 135, 195, 643, 595, 683, 361, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
     rate: regular
-    similarity: 60
+    similarity: 63
   782:
     cats: [691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -8903,6 +8931,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 하얀 연인 메카소녀 진 제3형태 추가! 발렌타인 한정 뽑기!★자세한 내용은 배너를 클릭!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -8915,6 +8945,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -9277,6 +9309,46 @@ gacha:
     name: 초생명제 특효를 가진 캐릭터 '여신 베가' 참전!★자세한 내용은 배너를 클릭!!
     rate: regular
     similarity: 98
+  859:
+    cats: [732, 485, 436, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 신캐릭터 '비명의 왕 포노아' 참전!★울슈레 출현율 최대로 UP된 특별 뽑기!
+    rate: superfest
+    similarity: 95
+  860:
+    cats: [462, 482, 494, 713, 428, 74, 76, 178, 693, 635, 535, 305, 337, 720, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
+    rate: regular
+  861:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 144, 497, 620, 634, 213, 272, 683, 303, 688, 715, 331, 645, 662, 613, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 50
+    name: "★한정 울슈레 '고양이 왕녀' 포함 여성 캐릭터들이 총집결한 뽑기!★레전드 레어만 출현율 2배!★"
+    rate: royalfest
+    similarity: 81
+  862:
+    cats: [732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 신캐릭터 '운명의 아이 포노' 참전!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  863:
+    cats: [732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 99
+  864:
+    cats: [728, 223, 224, 225, 226, 220, 220, 220, 221, 221, 221, 216, 216, 216, 217, 217, 217, 218, 218, 218, 219, 219, 219, 222, 222, 222, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 60
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 75
+  865:
+    cats: [462, 482, 494, 713, 428, 74, 76, 178, 693, 635, 535, 305, 337, 720, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 기간 한정 캐릭터도 등장하는 특별 새해 뽑기!★자세한 내용은 배너를 클릭!★
+    rate: regular
 events:
   2018-10-13_320:
     start_on: 2018-10-13

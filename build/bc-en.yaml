@@ -799,9 +799,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   120:
-    name: [Wyvern, Wyvern Cat]
-    desc: ["Joining the fight from Merc Storia! Delivering\npowerful blows from above that cause\nMassive Area damage vs Black enemies.", "The Cats adopted a poor lost Wyvern from\nMerc Storia to research Cat-Dragon fusion.\nMassive Area damage vs Black enemies."]
-    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}]
+    name: [Wyvern, Wyvern Cat, Wyvern and Alec]
+    desc: ["Joining the fight from Merc Storia! Delivering\npowerful blows from above that cause\nMassive Area damage vs Black enemies.", "The Cats adopted a poor lost Wyvern from\nMerc Storia to research Cat-Dragon fusion.\nMassive Area damage vs Black enemies.", "Chimaera who only allows a worthy few to ride it.\nOnly a Cat and Alec met its strict standards.\nColossus Slayer, Massive damage to Black foes."]
+    stat: [{health: 1250, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1070, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}, {health: 2300, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, massive_damage: 1}, {health: 4600, knockbacks: 3, speed: 8, cost: 2980, production_cooldown: 1550, attack_cooldown: 10, range: 370, width: 320, area_effect: 1, damage_0: 1580, attack_time_0: 55, trigger_effects_0: 1, against_black: 1, colossus_killer: 1, massive_damage: 1, weaken_chance: 50, weaken_duration: 90, weaken_multiplier: 50, immune_slow: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1375,28 +1375,28 @@ cats:
   223:
     name: [HUGE HERMIT, HUGE HERMIT CC]
     desc: ["Recruited from Metal Slug Defense!\nGiant crab that uses tank wreckage to attack.\nStrong against Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nTerrifying claws wade towards the beachhead!\nStrong against Aliens. (Area Atk)"]
-    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, against_alien: 1, strong: 1}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, against_alien: 1, strong: 1}]
+    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   224:
     name: [JUPITER KING, JUPITER KING CC]
     desc: ["Recruited from Metal Slug Defense!\nA robotic guardian who patrols secret factories.\nMight knockback + slow Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nFires lasers powerful enough to vaporize all matter.\nMight knockback + slow Aliens. (Area Atk)"]
-    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150}]
+    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   225:
     name: [DONALD MORDEN, GENERAL MORDEN]
     desc: ["Recruited from Metal Slug Defense!\nA charismatic ex-general plotting a coup.\nKnockback + resistant to Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nFights corruption with rocket launcher in hand.\nKnockback + resistant to Aliens. (Area Atk)"]
-    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, against_alien: 1, resistant: 1, knockback_chance: 40}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, against_alien: 1, resistant: 1, knockback_chance: 40}]
+    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   226:
     name: [HI-DO, HI-DO CC]
     desc: ["Recruited from Metal Slug Defense!\nLarge bomber copter used by the Morden Army.\nMight knockback + Strong def. vs Floating. (Area Atk)", "Recruited from Metal Slug Defense!\nA fighter used to ensure the safety of VIPs.\nMight knockback + Strong def. vs Floating. (Area Atk)"]
-    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, against_float: 1, strong: 1, knockback_chance: 50}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, against_float: 1, strong: 1, knockback_chance: 50}]
+    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1800,9 +1800,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   305:
-    name: [Mighty Kat-A-Pult, CAT-6 Siege Engine, CAT-8 Behemoth]
-    desc: ["The spunky interns of Cat Corps of Engineers\nbuilt an awesome land weapon! Powerful\nanti-Zombie long range attacks, might weaken!", "Featuring thick armor, an arsenal of long-range\ncannons, and loaded with shock troops, CAT-6\nis tough vs Zombies and weakens enemies.", "The culmination of centuries of feline technology,\nthis near-indestructable superweight tank has high\ndefense vs Zombies and weakens enemies."]
-    stat: [{health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 150, long_range_offset_0: 575, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}]
+    name: [Mighty Kat-A-Pult, CAT-6 Siege Engine, CAT-8 Behemoth, CAT-10 Gigapult]
+    desc: ["The spunky interns of Cat Corps of Engineers\nbuilt an awesome land weapon! Powerful\nanti-Zombie long range attacks, might weaken!", "Featuring thick armor, an arsenal of long-range\ncannons, and loaded with shock troops, CAT-6\nis tough vs Zombies and weakens enemies.", "The culmination of centuries of feline technology,\nthis near-indestructable superweight tank has high\ndefense vs Zombies and weakens enemies.", "Overwhelms all land-based foes to seize victory.\nGoal of this Panzer Mark IV: Unending prosperity.\nResists Zombie/Relic. Long-range area atks Weaken."]
+    stat: [{health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 375, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 150, long_range_offset_0: 575, attack_time_0: 93, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 50, weaken_duration: 250, weaken_multiplier: 50}, {health: 8000, knockbacks: 3, speed: 5, cost: 3250, production_cooldown: 2850, attack_cooldown: 80, range: 400, width: 320, area_effect: 1, damage_0: 2800, long_range_0: 100, long_range_offset_0: 625, attack_time_0: 93, trigger_effects_0: 1, against_relic: 1, against_zombie: 1, zombie_killer: 1, resistant: 1, weaken_chance: 100, weaken_duration: 250, weaken_multiplier: 50, immune_curse: 1, immune_toxic: 1, attack_duration: 190}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3599,7 +3599,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   592:
-    name: [Kaito & Cat, Kaito & Cat CC]
+    name: [KAITO & Cat, KAITO & Cat CC]
     desc: ["Virtual singer loved by the entire Cat Empire!\nA talented singer with a wide vocal range.\nTough vs. Zombies, with Area Attack.", "Virtual singer loved by the entire Cat Empire.\nBlessed with expressive, manly voice.\nTough vs. Zombies, with Area Attack."]
     stat: [{health: 1900, knockbacks: 2, speed: 10, cost: 820, production_cooldown: 410, attack_cooldown: 53, range: 250, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 65, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1}, {health: 2500, knockbacks: 2, speed: 10, cost: 820, production_cooldown: 410, attack_cooldown: 53, range: 250, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 65, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, resistant: 1}]
     rarity: 3
@@ -4027,7 +4027,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   661:
     name: [Sea Serpent Daliasan, Sea King Daliasan]
-    desc: ["A dragon that ruled over the seas long ago under the\nGods' watch. Destroys foes with overwhelming power.\nArea attacks Slow Floating/Angels, Colossus Slayer.", "A dragon housing the unrelenting power of the raging\nseas. Destroys foes with overwhelming power.\nArea attacks Slow Floating/Angels, Colossus Slayer."]
+    desc: ["A dragon that ruled over the seas long ago under the\nGods' watch. Crushes foes with fearsome Long-range\nArea attacks, Slows Floating/Angel, Colossus Slayer.", "A dragon housing the unrelenting power of the raging\nsea. Crushes foes with fearsome Long-range Area\nattacks, Slows Floating/Angel, Colossus Slayer."]
     stat: [{health: 3300, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, colossus_killer: 1, slow_chance: 100, slow_duration: 90, immune_knockback: 1, attack_duration: 146}, {health: 4000, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 2000, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, colossus_killer: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, immune_knockback: 1, attack_duration: 146}]
     rarity: 4
     max_level: 130
@@ -4452,6 +4452,34 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  729:
+    name: [Master of Mind Soractes, Master of Mind Catcrates]
+    desc: ["Great thinker of the Cat Army, deeply interested in\nCat ethics and the feline life's purpose. Sage Slayer.\nConjurer. Omnistrikes sometimes Freeze Angels.", "While reflecting on the nature of Cats, realized that \nthe essence of Cat is within him as well. Sage Slayer.\nConjurer. Omnistrikes sometimes Freeze Angels."]
+    stat: [{health: 4500, knockbacks: 4, speed: 18, cost: 2900, production_cooldown: 2100, range: 250, width: 320, area_effect: 1, damage_0: 200, long_range_0: 400, long_range_offset_0: -800, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, freeze_chance: 20, freeze_duration: 50, attack_duration: 20}, {health: 5500, knockbacks: 4, speed: 18, cost: 2900, production_cooldown: 2100, range: 250, width: 320, area_effect: 1, damage_0: 250, long_range_0: 400, long_range_offset_0: -800, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, freeze_chance: 30, freeze_duration: 50, attack_duration: 20}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  730:
+    name: ['730_1']
+    desc: ['Spirit: Weakens enemies.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, suicide: 2, attack_duration: 85}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  732:
+    name: [Daybreaker Izanagi, Dawnbringer Izanagi]
+    desc: ["The prelude to all that ever was, descended from a\nhigher plane. Manifests desires and Conjures to the\nbattlefield, Insane damage to Traited (Long-Range)", "Silent observer of the ephemeral realms for eons.\nManifests desires and Conjures to the battlefield,\ndeals Insane damage to Traited (Long-Range)"]
+    stat: [{health: 5000, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1200, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1200, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1200, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, insane_damage: 1, immune_wave: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 110}, {health: 7400, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1800, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1800, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1800, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, insane_damage: 1, immune_wave: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  733:
+    name: ['733_1']
+    desc: ['Spirit: Deals Knockback and Slows enemies.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, suicide: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -7581,15 +7609,15 @@ gacha:
   560:
     cats: [545, 494, 479, 560, 315, 315, 315, 315, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 2020 New Year's Limited Edition Capsules!★ With 11-Draw Guarantee!
+    name: New Years Capsules with limited units! ★ Tap banner for more info!
     rate: regular
-    similarity: 63
+    similarity: 65
   561:
     cats: [545, 494, 479, 560, 315, 570, 418, 535, 534, 526, 503, 506, 497, 520, 547, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 2020 New Year's Limited Edition Capsules!★ With 11-Draw Guarantee!
+    name: New Years Capsules with limited units! ★ Tap banner for more info!
     rate: regular
-    similarity: 63
+    similarity: 65
   562:
     cats: [587, 585, 571, 567, 567, 567, 566, 566, 566, 565, 564, 527, 495, 439, 355, 333, 333, 333, 332, 331, 315, 315, 315, 311, 303, 277, 277, 277, 276, 275, 244, 243, 242, 231, 230, 229, 229, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 47
@@ -8717,9 +8745,9 @@ gacha:
   781:
     cats: [450, 452, 456, 547, 520, 73, 76, 661, 135, 195, 643, 595, 683, 361, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 16
-    name: 2019 New Year's Limited Edition Capsules!★ With 11-Draw Guarantee!
-    rate: no_legend
-    similarity: 60
+    name: New Years Capsules with limited units! ★ Tap banner for more info!
+    rate: regular
+    similarity: 63
   782:
     cats: [691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -8737,6 +8765,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Limited Valentines capsules, with a NEW True Form for Sweet Love Mekako!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -8749,6 +8779,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -9111,6 +9143,46 @@ gacha:
     name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
     rate: regular
     similarity: 98
+  859:
+    cats: [732, 485, 436, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: Child of Destiny Phono appears along with increased Uber Rare drop rates!
+    rate: superfest
+    similarity: 96
+  860:
+    cats: [462, 482, 494, 713, 428, 74, 76, 178, 693, 635, 535, 305, 337, 720, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: New Years Capsules with limited units! ★ Tap banner for more info!
+    rate: regular
+  861:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 144, 497, 620, 634, 213, 272, 683, 303, 688, 715, 331, 645, 662, 613, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 50
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    rate: royalfest
+    similarity: 81
+  862:
+    cats: [732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: NEW hero Child of Destiny Phono! Plus, higher drop rates for Uber Rare Cats!
+    rate: uberfest
+    similarity: 99
+  863:
+    cats: [732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  864:
+    cats: [728, 223, 224, 225, 226, 220, 220, 220, 221, 221, 221, 216, 216, 216, 217, 217, 217, 218, 218, 218, 219, 219, 219, 222, 222, 222, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 60
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 75
+  865:
+    cats: [462, 482, 494, 713, 428, 74, 76, 178, 693, 635, 535, 305, 337, 720, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: New Years Capsules with limited units! ★ Tap banner for more info!
+    rate: regular
 events:
   2018-06-06_245:
     start_on: 2018-06-06
