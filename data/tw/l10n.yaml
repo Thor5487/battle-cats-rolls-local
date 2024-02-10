@@ -1,1 +1,21 @@
 '': godfat
+Health: 體力
+Knockback times: 擊退數
+Speed: 移動速度
+Production cost: 生產費用
+Production cooldown: 生產冷卻
+Attack cooldown: 攻擊冷卻
+Attack cycle: 攻撃循環
+Attack duration: 攻擊時間
+Push duration: 推進時間
+Range: 射程
+Enemy base range: 敵城射程
+DPS sum: DPS 總和
+Max DPS area: 最大 DPS 區域
+Damage sum: 傷害總和
+DPS: DPS
+Area: 範圍
+Single range: 單體射程
+Damage: 攻撃力
+Duration: 觸發時間
+Trigger effects: 觸發效果
