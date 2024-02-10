@@ -27,7 +27,16 @@ describe BattleCatsRolls::Stat do
 
       expect(stat.attacks.size).eq 1
       expect(attack.trigger_effects).eq nil
-      expect(attack.display_effects).eq 'Freeze'
+      expect(attack.display_effects).eq ['Freeze']
+
+      expect(stat.specialized_abilities.size).eq 2
+
+      specialized_to_red = stat.specialized_abilities.first
+      expect(specialized_to_red.name).eq 'Specialized to'
+      expect(specialized_to_red.display).eq ['Red']
+
+      freeze = stat.specialized_abilities.last
+      expect(freeze.name).eq 'Freeze'
     end
   end
 
