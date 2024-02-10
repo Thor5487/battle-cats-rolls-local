@@ -12,7 +12,7 @@ Push duration: 推進時間
 Range: 射程
 Enemy base range: 敵城射程
 DPS sum: DPS 總和
-Max DPS area: 最大 DPS 區域
+Max DPS area: 最大 DPS 區間
 Damage sum: 傷害總和
 DPS: DPS
 Area: 範圍
@@ -44,7 +44,7 @@ Aku: 惡魔
 Relic: 古代
 Metal: 鋼鐵
 White: 白色
-Insane damage: 極度傷害
+Insane damage: 極大傷害
 Deal 500% ~ 600% damage: 造成 500% ~ 600% 傷害
 Massive damage: 超大傷害
 Abilities below will not be affected by curse: 以下能力不受詛咒影響
