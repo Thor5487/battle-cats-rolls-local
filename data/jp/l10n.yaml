@@ -7,7 +7,7 @@ Production cooldown: 再生産
 Attack cooldown: 攻撃クールタイム
 Attack cycle: 攻撃頻度
 Attack duration: 攻撃を終えるまでの時間
-Rush duration: 次に攻撃を始めるまでの時間
+Push duration: 次に攻撃を始めるまでの時間
 Range: 感知射程
 Enemy base range: 敵城感知時の射程
 DPS sum:
