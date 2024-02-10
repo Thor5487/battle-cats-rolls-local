@@ -66,24 +66,24 @@
     <td><%= stat_time attack.duration %></td>
     <% end %>
     <td><%= l10n('Trigger effects') %></td>
-    <td colspan="3"><%= attack.display_effects %></td>
+    <td colspan="3"><%= display_list(attack.display_effects) %></td>
   </tr>
   <% end %>
   <% stat.specialized_abilities.each do |ability| %>
   <tr class="border_middle">
-    <td><%= ability.name %></td>
-    <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
+    <td><%= l10n(ability.name) %></td>
+    <td colspan="5"><%= display_ability(ability) %></td>
   </tr>
   <% end %>
   <% if stat.generic_abilities.any? %>
   <tr class="border_middle">
     <td></td>
-    <td colspan="5">Abilities below will not be affected by curse</td>
+    <td colspan="5"><%= l10n('Abilities below will not be affected by curse') %></td>
   </tr>
   <% stat.generic_abilities.each do |ability| %>
   <tr class="border_middle">
-    <td><%= ability.name %></td>
-    <td colspan="5"><%= ability.display(&method(:stat_time)) %></td>
+    <td><%= l10n(ability.name) %></td>
+    <td colspan="5"><%= display_ability(ability) %></td>
   </tr>
   <% end %>
   <% end %>

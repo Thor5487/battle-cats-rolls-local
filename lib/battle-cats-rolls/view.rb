@@ -298,6 +298,25 @@ module BattleCatsRolls
       h cat.pick_name(route.name)
     end
 
+    def display_ability ability
+      display_list(ability.display(&method(:stat_time)), strong: true)
+    end
+
+    def display_list text_or_list, strong: false
+      case text_or_list
+      when Array
+        text_or_list.map do |text|
+          if strong
+            "<strong>#{l10n(text)}</strong>"
+          else
+            l10n(text)
+          end
+        end.join(l10n(', '))
+      else
+        l10n(text_or_list)
+      end
+    end
+
     def stat_time frames
       case frames
       when Numeric

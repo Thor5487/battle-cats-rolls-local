@@ -16,10 +16,6 @@ module BattleCatsRolls
       highlight("#{integer}%")
     end
 
-    def list names
-      names.map{ |n| highlight(n) }.join(', ')
-    end
-
     private
 
     def highlight text
@@ -54,7 +50,7 @@ module BattleCatsRolls
       end
 
       def display
-        @display ||= list(enemies)
+        @display ||= enemies
       end
 
       def specialized; true; end
@@ -713,7 +709,7 @@ module BattleCatsRolls
       end
 
       def display
-        @immunity ||= list(immunity)
+        @immunity ||= immunity
       end
 
       def specialized; false; end

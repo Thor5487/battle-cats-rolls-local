@@ -33,7 +33,7 @@ module BattleCatsRolls
 
     def display_effects
       @display_effects ||= if trigger_effects?
-        effects.map(&:name).join(', ')
+        effects.map(&:name)
       else
         '-'
       end
