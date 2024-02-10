@@ -299,12 +299,13 @@ module BattleCatsRolls
     end
 
     def stat_time frames
-      if frames
+      case frames
+      when Numeric
         fps = 30.0
         title = "#{frames} frames"
         %Q{<span title="#{title}">#{(frames / fps).round(2)}s</span>}
       else
-        '?'
+        frames || '?'
       end
     end
 

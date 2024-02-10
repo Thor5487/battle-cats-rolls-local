@@ -43,15 +43,23 @@ module BattleCatsRolls
     end
 
     def production_cost
-      @production_cost ||= (stat['cost'] * chapter2_cost_multiplier).floor
+      @production_cost ||= if stat['cost']
+        (stat['cost'] * chapter2_cost_multiplier).floor
+      else
+        '-'
+      end
     end
 
     def production_cooldown
-      @production_cooldown ||= [
-        minimal_cooldown,
-        (stat['production_cooldown'] * time_multiplier) -
-          reduction_from_blue_orbs_and_treasures
-      ].max
+      @production_cooldown ||= if stat['production_cooldown']
+        [
+          minimal_cooldown,
+          (stat['production_cooldown'] * time_multiplier) -
+            reduction_from_blue_orbs_and_treasures
+        ].max
+      else
+        '-'
+      end
     end
 
     def rush_duration
