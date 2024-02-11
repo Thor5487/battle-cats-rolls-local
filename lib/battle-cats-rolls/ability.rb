@@ -400,6 +400,24 @@ module BattleCatsRolls
       end
     end
 
+    class CounterSurge
+      def self.build_if_available stat
+        new if stat['counter_surge']
+      end
+
+      def name
+        'Counter-surge'
+      end
+
+      def display
+        'Spawn the same surge with self damage and effects when hit by a surge'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
     class CriticalStrike < Struct.new(:chance)
       include AbilityUtility
 
@@ -648,6 +666,24 @@ module BattleCatsRolls
 
       def display &stat_time
         "Deal 250% and take 60% damage, and #{percent(chance)} to be immune for #{seconds(stat_time)}"
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class SageSlayer
+      def self.build_if_available stat
+        new if stat['sage_killer']
+      end
+
+      def name
+        'Sage slayer'
+      end
+
+      def display
+        'Deal 120% damage, take 50% damage, trigger 100% effects for sages'
       end
 
       def specialized; false; end
