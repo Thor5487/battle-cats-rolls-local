@@ -732,7 +732,8 @@ module BattleCatsRolls
 
       def self.build_if_available stat
         immunity =
-          %w[knockback warp freeze slow weaken toxic curse wave surge].
+          %w[bosswave knockback warp freeze slow weaken
+             toxic curse wave surge].
           filter_map do |effect|
             stat["immune_#{effect}"] && effect.capitalize
           end

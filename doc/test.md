@@ -67,6 +67,8 @@
   https://bc.godfat.org/cats/201
 * Sea Maiden Ruri: Multi single attacks:
   https://bc.godfat.org/cats/336
+* Iron wall: Immune to bosswave:
+  https://bc.godfat.org/cats/340?lang=jp
 * Hermit Cat: Multi 100% wave:
   https://bc.godfat.org/cats/353
 * Volley Cat: Long range single attack:

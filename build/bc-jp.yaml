@@ -2376,7 +2376,7 @@ cats:
   340:
     name: ['340_1']
     desc: ["340_1仮1\n340_1仮2\n340_1仮3"]
-    stat: [{health: 2, knockbacks: 1, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, metal: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 0}]
+    stat: [{health: 2, knockbacks: 1, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, metal: 1, immune_bosswave: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_warp: 1, attack_duration: 0}]
     rarity: 1
     max_level: 1
     growth: [20]
@@ -4826,7 +4826,7 @@ cats:
   690:
     name: [石の上にも10年ネコ, 石の上にも10年ネコ像]
     desc: ["にゃんこ大戦争と掛けまして平和と解く\nその答えを石の上で考え続け10年が経過したネコ\n属性を持つ敵をふっとばす\nイシノウエニモジュウネンネコ", "にゃんこ大戦争と平和について\n10年間石の上で考え続けたネコを模した記念碑\n属性を持つ敵をふっとばす\nイシノウエニモジュウネンネコゾウ"]
-    stat: [{health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, attack_duration: 58}, {health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, attack_duration: 58}]
+    stat: [{health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, immune_bosswave: 1, attack_duration: 58}, {health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, knockback_chance: 100, immune_bosswave: 1, attack_duration: 58}]
     rarity: 1
     max_level: 65
     growth: [20, 20, 20, 20, 20, 20, 10]
