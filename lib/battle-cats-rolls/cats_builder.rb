@@ -188,6 +188,9 @@ module BattleCatsRolls
         immune_knockback: 48, immune_freeze: 49, immune_slow: 50,
         immune_weaken: 51, immune_warp: 75, immune_curse: 79,
         immune_toxic: 90,
+        # unused
+        warp_chance: 71, warp_duration: 72,
+        warp_range: 73, warp_range_offset: 74,
       }
     end
 
