@@ -70,6 +70,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      immune_surge: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   11:
     name: [カンフーにゃんこ, 酔拳にゃんこ, ネコダンサー]
     desc: ["ミドルレンジからの絶対的な破壊力を秘めた\nカンフーマスター。しかも範囲攻撃", "酔えば酔うほど強くなることを信じる、\n伝説のカンフーマスター。しかも範囲攻撃\n　\nスイケンニャンコ", "武と芸の両刀使いになった天才にゃんこ\n極度の人見知りのため後ろ向きに歩く方法を習得\n伝説となることでリーチを伸ばした(範囲攻撃)"]
@@ -77,6 +91,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[2, 20], [1, 1], [1920, 1920], [1080, 1080]]
+      immune_freeze: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   12:
     name: [Mr., Super Mr., Hyper Mr.]
     desc: ["世界中で大ヒットした「Mr.」シリーズから参戦\n怒濤の走りで間合いを詰めて敵キャラクター\nめがけてマシンガンを乱射しまくる(範囲攻撃)\nミスター", "世界中で大ヒットした「Mr.」シリーズから参戦\n怒濤の走りで間合いを詰めて敵キャラクター\nめがけてバズーカを乱射しまくる(範囲攻撃)\nスーパーミスター", "世界中で大ヒットした「Mr.」シリーズから参戦\n磨きがかかった怒涛の走りで間合いを詰めて\nパンチガンをぶちかます(範囲攻撃)\nハイパーミスター"]
@@ -84,6 +110,19 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [zombie]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_freeze: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   13:
     name: [猫縛り, 猫縛りNEO, 猫縛り極上]
     desc: ["自分から喜んで盾となる盾用キャラ\n体力には自信がある\n｢赤い敵｣にめっぽう強い\nネコシバリ", "さらなる刺激を求める盾用キャラ\n体力には自信がある\n｢赤い敵｣にめっぽう強い\nネコシバリネオ", "究極の刺激を求めた盾用キャラ\n体力には絶対的な自信を得た\n｢赤い敵｣にめっぽう強く、まれに生き残る\nネコシバリゴクジョウ"]
@@ -91,6 +130,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [12, 30]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   14:
     name: [女王猫, 処刑人, 暗黒嬢]
     desc: ["普段はＯＬをしている中距離型キャラ\n猫縛りとはアフター５でよく出会う\n攻撃スピードが速く、｢赤い敵｣に強い\nジョオウネコ", "ネコのふりをした恐ろしい中距離型キャラ\n攻撃スピードが速く、｢赤い敵｣に強い\n　\nショケイニン", "蛍光灯を振り回す危険極まりないキャラ\nアフター５には映画ばかり見ている\n攻撃スピードが速く｢赤い敵」と「黒い敵」に強い\nアンコクジョウ"]
@@ -98,6 +151,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [6, 6]]
+      immune_weaken: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   15:
     name: [ネコの箱詰め, ネコギャング, 重機C・A・T]
     desc: ["移動速度で最速を誇る速攻型キャラクター\n猛ダッシュから繰り出す一撃で\n敵を一気に粉砕する(範囲攻撃)\nネコノハコヅメ", "辛い人生で道を踏み外した速攻型キャラ\n猛ダッシュから繰り出す一撃で\n敵を一気に粉砕する(範囲攻撃)", "社会復帰のため工事現場で働き始めた速攻型キャラ\n猛ダッシュから繰り出す一閃で敵を粉砕する\nたまに｢黒い敵｣の攻撃力を下げる(範囲攻撃)\nジュウキキャット"]
@@ -105,6 +172,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      massive_damage: {}
+      immune_weaken: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   16:
     name: [ネコパンツ, ネコ葉っぱ, ネコぺろきゃん]
     desc: ["極寒の地でも最高のパフォーマンスを\n発揮できる防寒対策を施した遠距離型キャラ\nキモネコの進化系お遊びキャラクター", "急所の防御に特化した遠距離キャラ\nただし戦闘には、まったく役立っていない\nキモネコの進化系お遊びキャラクター\nネコハッパ", "防御することを諦めていた遠距離キャラだが\n親切なネコのおかげで、もう大丈夫\n範囲攻撃を取得"]
@@ -112,6 +191,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [metal]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [39, 120]]
+      immune_weaken: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   17:
     name: [もねこ, スターもねこ, スーパースターもねこ]
     desc: ["アイドルを夢見る萌え型にゃんこ\n地元の応援に応えるべく\n今日も各地で歌います(たまにクリティカル)", "スターに上り詰めた国民的アイドルにゃんこ\nそれでも一人一人のファンを大切にする\nアイドル界のかがみ的な存在(たまにクリティカル)", "長年の下積みの末にスターになったアイドルにゃんこ\n応援してくれたみんなの声援を決して忘れない\n小波動を放ちたまにクリティカル"]
@@ -133,6 +227,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      against_black: {}
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   20:
     name: [ネコゾンビ, デビルネコ, ネコボーン]
     desc: ["ゾンビメイクを施した戦闘向き高級ユニット\nネコフィッシュよりも扱いやすい\n赤い敵にめっぽう強い", "デビルメイクを施した戦闘向き高級ユニット\nネコフィッシュよりも扱いやすい\n赤い敵にめっぽう強い", "高鳴るハートが止まらない戦闘向き高級ユニット\nネコフィッシュよりも扱いやすい\n赤い敵とゾンビにめっぽう強く、範囲攻撃を取得"]
@@ -140,6 +248,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   21:
     name: [ネコざむらい, ネコナイト, ネコパティシエ]
     desc: ["武士道を突き進む戦闘向きキャラ\n攻撃力、体力ともに優れる\nオールラウンドキャラクター", "騎士道をも取り込んだ戦闘向きキャラ\n攻撃力、体力ともに優れる\nオールラウンドキャラクター", "菓子道も取得した戦闘向きキャラ\n攻撃でまき散らすホイップクリームは\nごくたまに敵を遅くする"]
@@ -147,6 +271,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      weaken:
+        max_level: 10
+        minmax: [[10, 10], [24, 60], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   22:
     name: [スモウネコ, マダム・ザ・スモウ, ネコにぎり]
     desc: ["体力を多く備えた盾用のキャラ\nタンクネコよりも性能が高い\n攻撃力もぼちぼちある感じ(範囲攻撃)", "新たな境地へ変貌を遂げた盾用のキャラ\nタンクネコよりも性能が高い\n攻撃力もぼちぼちある感じ(範囲攻撃)", "結婚式で見たライスシャワーを真似る盾用のキャラ\nタンクネコよりも性能が高い\n鍛錬を重ね神速を取得(範囲攻撃)"]
@@ -154,6 +294,16 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      immune_freeze: {}
+      immune_toxic: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   23:
     name: [ネコフィーバー, ネコカーニバル, ネコアミーゴ]
     desc: ["みんなをハッピーな気分にさせる\nダンシングにゃんこ\n生産コストが安いので量産が可能", "世界中をハッピーな気分にさせる\nお祭りにゃんこ\n今日も激しく踊り狂う", "世界中のセニョリータをハッピーな気分にさせる\nメキシカンフェスタにゃんこ\nごくたまに敵をふっとばす"]
@@ -161,6 +311,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 15]]
+      immune_surge: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
   24:
     name: [ネコスカート, ネコタイツ, ねこななふん]
     desc: ["古着屋で購入した\n素敵なスカートを装着した遠距離型キャラ\nキモネコの進化系お遊びキャラクター", "百貨店でたまたま見つけた下着を\n新しい防具だと勘違いしている遠距離型キャラ\nキモネコの進化系お遊びキャラクター", "ネット通販で目新しい名前の下着を見つけたので\nさっそくはいてみた遠距離型キャラ。はき心地のよさで\n攻撃回数がアップし、たまにバリアを貫く"]
@@ -168,6 +332,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [alien]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   25:
     name: [ネコヴァルキリー, ネコヴァルキリー・真, ネコヴァルキリー・聖]
     desc: ["天界より降臨した戦う女神\n神さまから授かった最強の槍ニャングリルは\n敵をまとめて攻撃する(範囲攻撃)", "真の姿にクラスチェンジした戦う女神\nちなみに神さまがしつこく言い寄ってきて困っている\n敵をまとめて攻撃可能(範囲攻撃)\nネコヴァルキリーシン", "にゃんこ達の力で本来の姿を取り戻した戦う女神\n神さまから新たなる槍、聖ニャングリルを授かり敵を討つ\nたまに敵をしばらく止める(範囲攻撃)\nネコヴァルキリーセイ"]
@@ -217,6 +396,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[8, 80]]
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   32:
     name: [ネコ番長, 怒りのネコ番長, 押忍！ネコ番長]
     desc: ["学校では敵無しのちょいワルにゃんこ\n浮いてる敵をたまに一瞬止める(範囲攻撃)\n　\nネコバンチョウ", "冷蔵庫のアイスクリームを父親に\n食べられて怒りに目覚めたちょいワルにゃんこ\n浮いてる敵をたまに一瞬止める(範囲攻撃)\nイカリノネコバンチョウ", "怒りを拳に込めて戦うちょいワルにゃんこ\n今日も拾い集めたパチンコ玉をアイスと交換\n浮いてる敵と古代種をたまに一瞬止める(範囲攻撃)\nオスネコバンチョウ"]
@@ -224,6 +419,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[33, 33], [5, 50]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   33:
     name: [ネコザイル, ネコ裸踊り, ネコカンカン]
     desc: ["某ダンススクールでトップダンサーを目指す\n量産がしやすく使い勝手の良いキャラ\n赤い敵の移動をごくたまに遅くする", "某ダンススクールでトップダンサーを目指すが\nライバルの多さに方向転換を余儀なくされたキャラ\n赤い敵の移動をごくたまに遅くする\nネコハダカオドリ", "過激すぎる踊りで某ダンススクールを退学になった\n挑発的かつ刺激的なダンサー\n赤い敵の移動をたまに遅くする"]
@@ -231,6 +442,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      loot_money: {}
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   34:
     name: [ねこタツ, ねこＴＶ, ねこタコつぼ]
     desc: ["冬場に向けて機能性を向上させたキャラ\n浮いてる敵に打たれ強く\nたまに｢浮いてる敵｣の攻撃力を下げる", "人を驚かせる為にＴＶに入りこんで以来、\nそのまま出れなくなった自縛霊\n浮いてる敵に打たれ強く、たまに攻撃力を下げる\nネコティーヴィー", "TVの企画「大ダコ捕獲作戦」でタコつぼに潜んで以来\n心地よいぬくもりの虜になったネコ。波動を打ち消し\n浮いてる敵に打たれ強く、たまに攻撃力を下げる"]
@@ -238,6 +461,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   35:
     name: [ネコルガ, ケサランパサラン, ウルトラケサラン]
     desc: ["ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n進化させると…", "ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\nメタルな敵以外の敵を後方へふっとばす(範囲攻撃)", "ネコなのか巨大変身ヒーローなのかまったく正体不明の\n謎のキャラクター。メタルな敵以外の敵をふっとばし\n敵の動きを止める(範囲攻撃)"]
@@ -245,6 +482,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      immune_surge:
+        ultra: 1
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[5, 50], [30, 30]]
+        ultra: 1
   36:
     name: [オタネコ, ネコハッカー, ネコスーパーハッカー]
     desc: ["家の中なら誰にも負ける気がしない\nネット界に嵐を巻き起こすオトコ\n超遠距離攻撃が可能(遠方攻撃)", "ボタンひとつで全てを動かす\nエリート大学出身のハイテクにゃんこ\n超遠距離の範囲攻撃が可能(遠方範囲攻撃)", "指すら触れずに全てを動かす天才ハッカー\n先日、仮想通貨取引で大損した\nメタルな敵以外の動きを一瞬遅くする(遠方範囲攻撃)"]
@@ -252,6 +515,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[6, 60]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      break_barrier:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   37:
     name: [ネコスイマー, ネコバタフライ, ネコ半魚人]
     desc: ["勝負ごとの悲しみを知り\n独りで泣くことで強さを覚えたキャラクター\n浮いてる敵に超ダメージを与える", "底なしの苦しみを迎え入れることで\n祝福を勝ち取った努力のキャラクター\n浮いてる敵に超ダメージを与える", "ネコとしての限界を超えたキャラクター\n更なるスピードを手に入れたが大会には出禁になった\n浮いてる敵に超ダメージを与える\nネコハンギョジン"]
@@ -259,6 +538,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   38:
     name: [ネコホッピング, ネコマサイ, ネコキョンシー]
     desc: ["おもちゃ量販店で最高にテンションが\n上がる乗物をゲットしたキャラクター\n生産コストが安く量産が可能で、まれに生き残る", "異国の文化に触れ、異国の文化を\n取り入れた新手のコスプレイヤー\n生産コストが安く量産が可能で、まれに生き残る", "異国のホラー映画に影響されたコスプレイヤー\n額のお札が現在の全財産\n生産コストが安く量産が可能で、必ず生き残る"]
@@ -266,6 +561,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   39:
     name: [ネコ車輪, ネコ太陽, ネコクール]
     desc: ["妖怪ブームがきっかけで\n自ら妖怪へと姿を変えたキャラクター\nエイリアンに超ダメージを与える(範囲攻撃)\nネコシャリン", "日食ブームがきっかけで\n自ら太陽系へと姿を変えたキャラクター\nエイリアンに超ダメージを与える(範囲攻撃)\nネコタイヨウ", "クールビズで涼しげなビジュアルへと\n進化したキャラクター\nエイリアンに超ダメージを与える(範囲攻撃)"]
@@ -273,6 +584,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[13, 40]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   40:
     name: [ネコリンゴ, カオルくん, ネコアップル]
     desc: ["川から流れてきた巨大なリンゴを\n身にまとったキャラクター\n赤い敵の動きをごくたまに一瞬止める", "道ばたに落ちていた\n何かの残骸を身にまとったキャラクター\n赤い敵の動きをごくたまに一瞬止める", "カラフルな巨大リンゴを身にまとったキャラクター\nタートルネックの似合う彼のひらめきで世界が変わる\n赤い敵の動きを必ず止める(範囲攻撃)"]
@@ -280,6 +607,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   41:
     name: [ネコバスたぶ, セクシーネコバスたぶ, ネコバスたぶゴールデン]
     desc: ["いつもキレイ好きな遠距離型キャラクター\n赤い敵に超ダメージを与える", "いつもキレイ好きな遠距離型キャラクター\nムダ毛の処理はかかさない\n赤い敵に超ダメージを与える", "いつもキレイ好きな遠距離型キャラクター\n汚い金を洗浄して作った黄金のバスタブで\n赤い敵に超ダメージを与える"]
@@ -287,6 +630,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   42:
     name: [ネコエステ, ネコジェンヌ, ネコパーフェクト]
     desc: ["自分みがきの為なら投資を惜しまない\n美しい脚を持ったキャラとのコラボは美の極み\n遠距離型で範囲攻撃を持った貴重なキャラ", "ファンからはジェンヌさんと呼ばれ\nいつでも注目のマトのオシャレキャラクター\n遠距離型で範囲攻撃を持った貴重なキャラ", "自分みがきを極めサイボーグ化したネコ\nそのパーフェクトボディは世界中の女性の憧れ\n遠距離型で範囲攻撃を持った貴重なキャラ"]
@@ -294,6 +653,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   43:
     name: [ネコアイス, ネコアイスクイーン, ネコアイスクリスタル]
     desc: ["氷の世界より降り立った少女に\n心うばわれたにゃんこ(範囲攻撃)\n赤い敵の動きをたまにしばらく止める", "氷漬けになることで\n永遠の命を与えられたにゃんこ(範囲攻撃)\n赤い敵の動きをたまにしばらく止める", "氷の女王へと成長した少女を見守る\n美しい氷の結晶となったにゃんこ\n赤い敵の動きをしばらく止める(範囲攻撃)"]
@@ -301,6 +674,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      strengthen:
+        max_level: 10
+        minmax: [[34, 34], [10, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [6, 60]]
+        ultra: 1
+      against_metal:
+        ultra: 1
   44:
     name: [ネコマシン, ネコマシン・破, ネコマシン・滅]
     desc: ["連邦政府から破壊兵器の製造を依頼され\n製作したMSシリーズ試作機1号である(範囲攻撃)\n赤い敵とエイリアンに打たれ強い", "破壊兵器としての利用を阻止する為\n研究施設から脱出した実戦型MS:RX-13(範囲攻撃)\n赤い敵とエイリアンに打たれ強い\nネコマシンハ", "破壊兵器MSシリーズの量産を始めた連邦政府に\n決戦型へと化したMS:RX-Ωが阻止に乗り込む(範囲攻撃)\n赤い敵とエイリアンに打たれ強く、波動を打ち消す\nネコマシンメツ"]
@@ -308,6 +705,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[50, 50], [39, 120]]
+      immune_knockback: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   45:
     name: [鬼にゃんま, 鬼神にゃんま, 獄炎鬼にゃんま]
     desc: ["強さを求めるあまり鬼に魅了された\n狂気のキャラクター\n単体攻撃だが繰り出される一撃は強烈\nオニニャンマ", "鬼に魅了されたあとも強さを欲し続ける\n狂気のキャラクター\n単体攻撃だが繰り出される一撃は強烈\nキシンニャンマ", "究極の強さを欲して奈落をさまよい\n地獄の業火に焼かれた狂気のキャラクター\n単体攻撃を極め攻撃力がアップ\nゴクエンキニャンマ"]
@@ -315,6 +726,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [20, 200]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   46:
     name: [芸者ねこ, ネコでありんした]
     desc: ["芸の道に進んだ行動力あふれるキャラクター\nとはいえ中身は通常のネコと同じである\n　\nゲイシャネコ", "芸の道を究めるあまりネコでは無くなった\nと思いこんでいるキャラクター\n遠距離攻撃が得意"]
@@ -329,6 +756,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 5
+        minmax: [[1, 5]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[10, 100]]
   48:
     name: [ねこファイター, メガトンファイター, マキシマムファイター]
     desc: ["ファンタジー世界にあこがれる\n戦闘向きのキャラクター\n赤い敵にめっぽう強い", "ファンタジー世界にあこがれて\nオーダーメイドの鎧を発注したキャラクター\n赤い敵にめっぽう強い", "｢化け物退治のお礼に王様から譲り受けた｣\nという設定で通販にて装備を買い揃えたキャラクター\n赤い敵にめっぽう強い(範囲攻撃)"]
@@ -336,6 +779,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      immune_slow: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_weaken: {}
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   49:
     name: [ねこ海賊, ニャーコック船長, ニャック・スパロウ]
     desc: ["某マンガに影響されて\n海賊王を夢見るキャラクター\nごくたまに赤い敵をふっとばす\nネコカイゾク", "海賊＝かっこいいの思想がいまだに消えない\n能力者では無いがカナヅチでもある\nごくたまに赤い敵をふっとばす\nニャーコックセンチョウ", "ある海賊映画を観て鞍替えしたにわか海賊マニア\n一緒に海へ出てくれる仲間を探している\nたまに赤い敵をふっとばす"]
@@ -343,6 +798,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   50:
     name: [ねこ泥棒, 怪盗ニャコン, ネゴエモン]
     desc: ["素早い動きで敵を翻弄するキャラクター\n敵を倒したときにお金を多くもらえる\n　\nネコドロボウ", "奇奇怪怪な動きで敵を翻弄\n世界の秘宝コレクターでもある\n敵を倒したときにお金を多くもらえる\nカイトウニャコン", "各地を回る内いつの間にか大泥棒となったネコ\n千両箱の中身は四次元になってたりしない\n敵を倒したときにお金を多くもらえる(範囲攻撃)"]
@@ -350,6 +819,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [51, 150]]
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   51:
     name: [ねこ僧侶, ねこ坊主, ねこ法師]
     desc: ["愛を込めて敵を殴り倒す\n慈悲深いキャラクター\nごくたまに浮いてる敵の動きを遅くする\nネコソウリョ", "感謝を込めて敵を昇天させる\n情け深いキャラクター\nごくたまに浮いてる敵の動きを遅くする\nネコボウズ", "悟りを開き人々を救う旅にでたキャラクター\nありがたい殴打で悩みや色々なものがふっとぶ\nごくたまに浮いてる敵の動きを遅くする(範囲攻撃)\nネコホウシ"]
@@ -357,6 +840,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   52:
     name: [ねこ占い師, ねこふんど師, ねこ医師]
     desc: ["未来を予言する大物占い師\nの本を愛読するキャラクター\nごくたまに浮いてる敵をふっとばす\nネコウラナイシ", "巨大マグロを追い求める漁師一家の長男\n船酔いが激しいので船には乗らない\nごくたまに浮いてる敵をふっとばす\nネコフンドシ", "毒をもって毒を制すが口癖の凄腕ドクター\n代表著書は「痛いかどうかは気持ち次第」\nたまに浮いてる敵をふっとばす\nネコイシ"]
@@ -364,6 +861,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   53:
     name: [ネコシャーマン, ネコラマンサー, ネコオドラマンサー]
     desc: ["シャーマンとは超自然的存在と接触できる者\nと某ネット辞書に書いてあった\nごくたまに浮いてる敵の動きを一瞬止める", "超自然的存在に逆に操られてしまった\n哀れなキャラクター\nごくたまに浮いてる敵の動きを一瞬止める", "超自然的存在と踊り狂うキャラクター\nことわざ「踊れば友なり」の語源と言われている\nごくたまに浮いてる敵の動きを止める"]
@@ -371,6 +882,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   54:
     name: [エヴァンジェリスト, フィリバスター]
     desc: ["レジェンド達に会うことで入手できる\n敵の動きを止めることができるエスパーにゃんこ\n押され気味のときに召喚するのだ！", "レジェンド達に会うことで入手できる\n流れを妨害することができるエスパーにゃんこ\n押され気味のときに召喚するのだ！"]
@@ -392,6 +917,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   57:
     name: [ネコアーチャー, ネコキューピット, ネコいて座]
     desc: ["遠距離から攻撃できる支援型ねこ\n体力はあまり無い\n浮いてる敵に超ダメージを与える", "遠距離から攻撃できる支援型ねこ\n体力はあまり無い\n浮いてる敵に超ダメージを与える", "天界で放つ流れ矢の被害が絶えず\n地上に追いやられてしまった星座ネコ\n浮いてる敵に超ダメージを与える\nネコイテザ"]
@@ -399,6 +938,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
   58:
     name: [ネコシュバリエ, ネコベルセルク, ネコパラディン]
     desc: ["呪われた剣によって通常攻撃は強くはないが\nたまにクリティカル攻撃を出すことができる\nメタルキラーにゃんこ", "呪われた剣によって我を忘れた\nメタルキラーにゃんこ\nたまにクリティカル攻撃を出すことができる(範囲攻撃)", "剣の呪縛から解放され真の力を取り戻したにゃんこ\n聖なる槍でメタルな敵を討ち滅ぼす\nたまにクリティカル攻撃を出すことができる(範囲攻撃)"]
@@ -406,6 +957,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [metal]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      zombie_killer: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   59:
     name: [ネコ魔剣士, 双剣ネコ魔剣士, 双炎舞ネコ魔剣士]
     desc: ["魔法と剣をたくみに使いこなす\n戦闘向きキャラクター\n炎の剣で赤い敵に超ダメージを与える\nネコマケンシ", "魔法と剣をたくみに使いこなす\n戦闘向きキャラクター\n炎の剣で赤い敵に超ダメージを与える\nソウケンネコマケンシ", "魔法と剣のエキスパートへと成長した魔剣士\n店主を務める焼き鳥屋のパフォーマンスでも活躍\n炎の剣で赤い敵に超ダメージを与える\nソウエンブネコマケンシ"]
@@ -413,6 +977,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   60:
     name: [ねこベビー, ねこベビーズ, ネコベビーカーズ]
     desc: ["一人では何もできない赤ちゃんにゃんこ\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "一人では何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "集まっても何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現(範囲攻撃)\nたまに浮いてる敵とエイリアンをふっとばし、波動を放つ"]
@@ -420,6 +998,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [24, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   61:
     name: [ネコブ・ロンズ, 芸術のネコスタチュ, ネコクイズ王]
     desc: ["体力を多く備えた盾用のキャラ\n攻撃力もけっこうある感じ\nたまにメタルな敵をふっとばす(範囲攻撃)", "かの有名な彫像のフリをしたアートネコ\n攻撃力もけっこうある感じ\nたまにメタルな敵をふっとばす(範囲攻撃)\nゲイジュツノネコスタチュ", "長寿クイズ番組を支えてきた頭脳派ネコ\n最近はおバカタレントの台頭で人気が落ち気味\nたまにメタルな敵をふっとばす(範囲攻撃)\nネコクイズオウ"]
@@ -434,6 +1026,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
   63:
     name: [ネコポン, ネコポニョン]
     desc: ["プラスチック製のガシャポンマシンに\n入りこんだタンクネコ(範囲攻撃)\n覆われている分、タンクネコより少し頑丈", "プラスチック製のガシャポンマシンに\n入りこんだ少し長めのタンクネコ(範囲攻撃)\n覆われている分、タンクネコより少し頑丈"]
@@ -469,6 +1077,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_angel: {}
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   68:
     name: [チビガウ, チビガウガウ, クリスタルチビガウガウ]
     desc: ["ケリ姫スイーツに登場するキャラクター\n黒い敵からのダメージを大幅に軽減する\nコストが安く黒い敵からの防御に最適", "ケリ姫スイーツに登場するキャラクター\n黒い敵からのダメージを大幅に軽減する\nコストが安く黒い敵からの防御に最適", "ケリ姫スイーツに登場するキャラクター\nクリスタルの体になりふっとばすを無効化！\nコストが安く黒い敵からの防御に最適"]
@@ -504,6 +1124,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[60, 60], [14, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   73:
     name: [前田慶次, 武神・前田慶次, 憤怒の武神・前田慶次]
     desc: ["伝説の武具「にゃん籠手」の呪いによって\n虎の姿へと変えられた戦国武将(範囲攻撃)\n黒い敵に打たれ強く、体力減少で攻撃力大幅上昇\nマエダケイジ", "伝説の武具「にゃん籠手」の呪いによって\n頭から桜の木が生えてきた(範囲攻撃)\n黒い敵に打たれ強く、体力減少で攻撃力大幅上昇\nブシンマエダケイジ", "咲き誇った桜は武将の意思を奪い破壊の衝動へと\n駆り立てる。黒い敵に打たれ強く、体力減少で\n攻撃力大幅上昇。波動ダメージを無効にする(範囲攻撃)\nフンドノブシンマエダケイジ"]
@@ -511,6 +1147,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   74:
     name: [織田信長, 武神・織田信長, 天魔・織田信長, 夢幻天魔・織田信長]
     desc: ["織田信長の怨念に取り込まれてしまった\n数々の生命体と一匹のにゃんこ\n黒い敵の動きを必ず止める(範囲攻撃)\nオダノブナガ", "織田信長の怨念のパワーがさらに加速\nついでに、にゃんこの煩悩パワーも超加速\n黒い敵の動きを必ず止める(範囲攻撃)\nブシンオダノブナガ", "にゃんこの煩悩で第六天魔王へ変化した織田信長\n地獄の亡者どもを従え闇世界から天下統一を目指す\n黒い敵の動きを必ず止める(範囲攻撃)\nテンマオダノブナガ", "己が殺めた者達の憎悪の炎をも力に変える織田信長\n燃え盛る闇世界より天上天下の征服に乗り出す\n黒い敵と悪魔の動きを止め、烈波を放ち返す(範囲攻撃)\nムゲンテンマオダノブナガ"]
@@ -518,6 +1170,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   75:
     name: [トナカイフィッシュ, ネコ魚のお造り, フィッシュ・ド・ノエル]
     desc: ["戦闘向きのキャラがかわいく進化\n夢を乗せてプレゼントを運ぶ！\n敵を倒したときにお金を多くもらえる", "戦闘向きのキャラがおいしく進化\n身を削って最高のおもてなし！\n敵を倒したときにお金を多くもらえる\nネコザカナノオツクリ", "戦闘向きのキャラがあま～く進化\nチョコたっぷり、骨まで美味しく召し上がれ\n敵を倒したときにお金を多くもらえる(範囲攻撃)"]
@@ -532,6 +1198,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   77:
     name: [雷神のサンディア, 雷神のサンディアβ, 迅雷神のサンディアβ]
     desc: ["雷のチカラを操る電脳ギャル\n遠距離から放たれる強烈なイカヅチは\n赤い敵に超ダメージを与える(範囲攻撃)\nライジンノサンディア", "慢性的な肩こりにいつも悩んでいる\n遠距離から放たれる強烈なイカヅチは\n赤い敵に超ダメージを与える(範囲攻撃)\nライジンノサンディアベータ", "サイズの合う服がなかなか無いのが悩み\n遠距離から放たれる強烈な大イカヅチは\n赤い敵に超ダメージを与える(範囲攻撃)\nジンライシンノサンディアベータ"]
@@ -539,6 +1219,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   78:
     name: [ドロイド, ニャンドロイド, ハルドロイド]
     desc: ["体力を多く備えた盾用のキャラ\nタンクネコよりもダンスがうまい\nメタルな敵に打たれ強い(範囲攻撃)", "体力を多く備えた盾用のキャラ\n油性マジックで描かれているので水にも強い\nメタルな敵に打たれ強い(範囲攻撃)", "体力を多く備えた盾用のキャラに季節限定カラー登場\n価格据え置き、生産能力アップを実現！\nメタルな敵に打たれ強い(範囲攻撃)"]
@@ -588,6 +1282,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [57, 120], [50, 50]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   85:
     name: [聖龍メギドラ, 聖龍王メギドラ, 聖龍皇帝メギドラ]
     desc: ["世界浄化の為に生を受けた伝説の竜族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに浮いてる敵をふっとばして移動を遅くする\nセイリュウメギドラ", "怒りのパワーが暴走した伝説の竜族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに浮いてる敵をふっとばして移動を遅くする\nセイリュウオウメギドラ", "聖龍石を手に入れ真の皇帝となった龍の王\n己が使命を達すべく全てを焼き滅ぼす(範囲攻撃)\nたまに浮いてる敵をふっとばして移動を遅くする\nセイリュウコウテイメギドラ"]
@@ -595,6 +1301,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [3, 3]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+        ultra: 1
+      against_metal:
+        ultra: 1
+      against_relic:
+        ultra: 1
   86:
     name: [竜騎士バルス, 竜騎士王バルス, 竜騎士皇帝バルス]
     desc: ["数千匹ものドラゴンを従えた伝説の竜騎士\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに黒い敵をふっとばして移動を遅くする\nリュウキシバルス", "戦闘能力を強化させた伝説の竜騎士\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに黒い敵をふっとばして移動を遅くする\nリュウキシオウバルス", "いかなる獰猛な竜も支配する竜騎石をたずさえ\n幾千匹ものドラゴン軍団を率いる伝説の竜騎士\nたまに黒い敵をふっとばして移動を遅くする(範囲攻撃)\nリュウキシコウテイバルス"]
@@ -602,6 +1330,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   87:
     name: [神龍かむくら, 神龍王かむくら, 神龍皇帝かむくら]
     desc: ["世界の天変地異を操る伝説の竜族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに赤い敵をふっとばして移動を遅くする\nシンリュウカムクラ", "七龍珠により覚醒した伝説の竜族\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\nたまに赤い敵をふっとばして移動を遅くする\nシンリュウオウカムクラ", "七龍珠の力を覚醒させる神龍石を身に宿し\n人々の願いを叶えるという伝説の神龍(範囲攻撃)\nたまに赤い敵をふっとばして移動を遅くする\nシンリュウコウテイカムクラ"]
@@ -609,6 +1349,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   88:
     name: [竜戦機ライデン, 竜戦機王ライデン, 竜戦機皇帝ライデン]
     desc: ["竜族を殲滅すべく造られた伝説の古代兵器\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\n赤い敵を必ずふっとばす\nリュウセンキライデン", "制御機能をオーバードライブさせた古代兵器\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\n赤い敵を必ずふっとばす\nリュウセンキオウライデン", "竜戦機石の力で超電圧を手に入れた古代兵器\n最大出力のレーザーで地上を焼き尽くす(範囲攻撃)\n赤い敵にめっぽう強く、必ずふっとばす\nリュウセンキコウテイライデン"]
@@ -616,6 +1368,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_knockback: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
   89:
     name: [ネコなわとび, ネコネコなわとび, ネコ蕎麦屋]
     desc: ["英語で言うとジャンピングロープ\n生産コストが安めで比較的量産がしやすい\nごくたまにクリティカル攻撃を放つ", "一人でやるよりも二人が楽しいよね\n生産コストが安めで比較的量産がしやすい\nごくたまにクリティカル攻撃を放つ", "速い！安い！美味い！がモットーのお蕎麦屋さん\n生産コストが安めで比較的量産しやすい。メタルな敵に\n打たれ強くごくたまにクリティカル攻撃を放つ\nネコソバヤ"]
@@ -742,6 +1515,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[5, 50]]
+        ultra: 1
+      against_relic:
+        ultra: 1
+      immune_surge:
+        ultra: 1
   107:
     name: [召し豚のカイ, 召し豚のカイμ, 召し猪のカイμ]
     desc: ["豚マシン「とんとん」に乗る天然うっかり少女\n豚から放たれる超近射ビームは圧倒的(範囲攻撃)\n浮いてる敵に打たれ強く、1度だけ生き残る\nメシブタノカイ", "優しくされると誰でも好きになってしまう\n恋愛ハードル３cmの召し豚のカイ(範囲攻撃)\n浮いてる敵に打たれ強く、1度だけ生き残る\nメシブタノカイミュー", "好きになったその人がタイプ！\n猪マシン「ウリボーグ」に乗って猪突猛進(範囲攻撃)\n浮いてる敵に打たれ強く、1度だけ生き残る\nメシイノシシノカイミュー"]
@@ -749,6 +1544,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[10, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   108:
     name: [宝杖のカッパーマイン, 宝杖のカッパーκ, 光宝杖のカッパーκ]
     desc: ["魔力をブーストさせる杖で戦うマジカル美女\n放たれる光弾は悪しき力を打ち砕く(範囲攻撃)\n浮いてる敵の動きをたまにしばらく止める\nホウジョウノカッパーマイン", "めったに笑顔を見せない彼女だがネコの前では\n誰にも見せたことのない表情を見せる(範囲攻撃)\n浮いてる敵の動きをたまにしばらく止める\nホウジョウノカッパーカッパ", "異性の好意をすべて事務的に受け流してしまう\nマジカル鈍感美女。ネコと2人きりの休日が至福\n浮いてる敵の動きをたまにしばらく止める(範囲攻撃)\nコウホウジョウノカッパーカッパ"]
@@ -756,6 +1567,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[7, 25]]
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [3, 3], [600, 600], [2800, 2800]]
+        ultra: 1
   109:
     name: [にゃんこ３兄弟, 秘密要塞ネコロス]
     desc: ["プラスチック製のガシャポンカプセルに\n入った仲良しにゃんこ３兄弟(範囲攻撃)\n良い子はマネしちゃダメ！絶対！\nニャンコサンキョウダイ", "３兄弟の英知を結集して作られた\n秘密要塞ネコロス(範囲攻撃)\nメイン装甲がダンボールなので湿気に弱い\nヒミツヨウサイネコロス"]
@@ -875,6 +1712,24 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [5, 5]]
+        ultra: 1
   126:
     name: [武田信玄, 武神・武田信玄, 猛牛の武神・武田信玄]
     desc: ["伝説の武具「風林火にゃん」の呪いで\n圧倒的な超破壊力を身に付けた戦国武将\nしかし黒い敵とエイリアンにしか攻撃できない(範囲攻撃)\nタケダシンゲン", "伝説の武具「風林火にゃん」軍配モードで\nさらなる超破壊力を解放させた戦国武将\nしかし黒い敵とエイリアンにしか攻撃できない(範囲攻撃)\nブシンタケダシンゲン", "「風林火にゃん」の真の姿を解放した戦国武将\n本来の力を取り戻し、異次元の破壊力を見せつける\nしかし黒い敵とエイリアンにしか攻撃できない(範囲攻撃)\nモウギュウノブシンタケダシンゲン"]
@@ -882,6 +1737,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+      against_red:
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      against_aku:
+        ultra: 1
   127:
     name: [カラクリにゃんこ, ネコ人形師, ネコチャッピー]
     desc: ["すばやい移動で敵に近づくカラクリにゃんこ\nどんな仕掛けで動いているのかは謎である\nメタルな敵の動きをたまに遅くする", "すばやい移動で敵に近づくネコ人形師\n腹話術も得意らしい\nメタルな敵の動きをたまに遅くする\nネコニンギョウシ", "すばやい移動で敵に近づく人形師一行\n人形を動かしているのか人形に動かされているのか…\nメタルな敵の動きをたまに遅くする"]
@@ -945,6 +1820,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   136:
     name: [ツルの恩返し, 銀河戦士コスモ, 究極戦士コズミックコスモ]
     desc: ["毎年湖の上で開催される鳥になるコンテストで\n最長飛行距離をたたきだした脅威のにゃんこ\n天使と浮いてる敵をたまにふっとばす(範囲攻撃)\nツルノオンガエシ", "最長飛行記録は宇宙にまで到達\n星座の力を手に入れたにゃんこは超進化を遂げる\n天使と浮いてる敵を必ずふっとばす(範囲攻撃)\nギンガセンシコスモ", "ついに銀河の果てまでたどり着いたにゃんこ\nその栄光は都市伝説として語り継がれた(範囲攻撃)\n天使と浮いてる敵を必ずふっとばして動きを止める\nキュウキョクセンシコズミックコスモ"]
@@ -952,6 +1843,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      colossus_killer: {}
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [30, 300]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   137:
     name: [ももたろう, 爆走兄弟ピーチスター, 爆走兄弟ピーチジャスティス]
     desc: ["自分より強いやつを探し求め旅をする\n日本一を目指す桃尻にゃんこ\n天使と赤い敵の動きをたまに止める(範囲攻撃)", "旅をするうちに努力と結果は\n比例しないことを悟ったにゃんこ愚連隊\n天使と赤い敵の動きをたまに止める(範囲攻撃)\nバクソウキョウダイピーチスター", "結果が全てではないことを知り\n世界が色づき始めたにゃんこ愚連隊\n天使と赤い敵の動きをたまに止める(範囲攻撃)\nバクソウキョウダイピーチジャスティス"]
@@ -959,6 +1862,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [2, 2]]
+        ultra: 1
+      immune_wave:
+        ultra: 1
+      knockback:
+        max_level: 10
+        minmax: [[4, 40]]
+        ultra: 1
   138:
     name: [かさじぞう, 地蔵要塞カムイ, 地蔵要塞ゼロカムイ]
     desc: ["雪降る中、依頼内容を書いたカサをかぶせると\nその依頼を叶えてくれる謎の組織「かさじぞう」\n天使と黒い敵に超ダメージを与える(範囲攻撃)", "ついに「かさじぞう」の本体中枢が動き始める\n絶対的な存在感は連邦政府をも震え上がらせる\n天使と黒い敵に超ダメージを与える(範囲攻撃)\nジゾウヨウサイカムイ", "吹雪を抜け、輝く黄金ボディをあらわにした\n「かさじぞう」は連邦政府殲滅に向け動き出す\n天使と黒い敵に超ダメージを与える(範囲攻撃)\nジゾウヨウサイゼロカムイ"]
@@ -973,6 +1902,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      slow:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   140:
     name: [ネコンドー, ネコンドーＨＧ, ネコンドーＳＰ]
     desc: ["オリンピックから奥さまのエクササイズまで\n世界で活躍するテコンドーマスター\nケリ技で全てを制圧する", "初心に立ち返りＨＧ(ヘッドギア)を装着した\n伝説のテコンドーマスター\n今や世界中に多くの弟子が存在する\nネコンドーヘッドギア", "甘いマスクとＳＰ(スペシャル)な道着を手に入れた\n正義のテコンドーマスター\nさわやかなルックスで女子にも大人気\nネコンドースペシャル"]
@@ -1008,6 +1953,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      sage_killer:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1200, 1200], [2400, 2400]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+        ultra: 1
   145:
     name: [にゃんこ城Mini, にゃんこ城Jr, にゃんこ城Max]
     desc: ["誰が吹き込んだのかは知らないが\n立派なにゃんこ城になるため修行中のにゃんこ\n気合だけで波動を放つ努力家\nニャンコジョウミニ", "通販でヘルメットを買い、より本物に近づいた\n城のふりをして色々なものをのぞき見するのが日課\n興奮すると波動が出てしまう\nニャンコジョウジュニア", "理想のにゃんこ城を完成させたにゃんこ\n最新式キャタピラは地球温暖化に配慮した立ちこぎ式\n波動はあいかわらず気合で出す\nニャンコジョウマックス"]
@@ -1022,6 +1991,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   147:
     name: [たけうまねこ, トーテムねこ, ねこ雑技団]
     desc: ["更なる高みを目指すため視点だけでもと\n竹馬に乗ってみたにゃんこ\nごくたまに天使をふっとばす", "高みを目指す同志が集まったので\nワールドワイドな感じになってみたにゃんこ\nごくたまに天使をふっとばす", "高みを目指すために芸を身につけたにゃんこ\n次の椅子を買うために二人でお金を貯めている\nたまに天使をふっとばす\nネコザツギダン"]
@@ -1029,6 +2012,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [1600, 1600], [1200, 1200]]
+      immune_wave: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   148:
     name: [ブリキネコ, プレーンネコ, ネコロボット]
     desc: ["最高の先進技術をもって懐かしのおもちゃに\n魂を封じ込められたにゃんこ\nごくたまに黒い敵をふっとばす", "大空を夢見たにゃんこが世界最高峰の技術者たちに\n改造を依頼した、いわば技術の集大成\nごくたまに黒い敵をふっとばす", "悪の組織に捕えられ、闇の技術者に大改造された\n太陽光発電で動く不老不死の殺戮ネコ、弱点は雨\nごくたまに黒い敵をふっとばす"]
@@ -1036,6 +2033,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      immune_knockback: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   149:
     name: [ねこロッカー, ねこアーティスト, ねこラーメン道]
     desc: ["音楽なんかやめて豆腐屋を継げと言われているが\n大豆アレルギーをカミングアウト\n出来ないでいるロッカー。天使に打たれ強い", "曲が売れなくて試しに絵を描いてみたら\nそれも全然売れずムキになって描き続ける\n豆腐屋のロッカー。天使に打たれ強い", "実家の豆腐屋も継がずにラーメン屋に就職\n素人は黙っとれが口癖の本格派職人\n派手な湯切りで客を楽しませる。天使に打たれ強い\nネコラーメンドウ"]
@@ -1043,6 +2054,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   150:
     name: [ねこ人魚, ねこソルジャー, ネコカメラマン]
     desc: ["海で助けた王子様を忘れられず陸にあがった人魚\n肺呼吸はロングブレスで取得\n浮いてる敵にめっぽう強く、まれに生き残る\nネコニンギョ", "王子様がテロ組織に誘拐されたと聞き、魔女に足を\nもらって４年間過酷な訓練を受けた人魚<ソルジャー>\n浮いてる敵にめっぽう強く、まれに生き残る", "報道に命をかけるジャーナリスト\n写真のチカラで大戦争の真実(リアル)を伝える\n浮いてる敵にめっぽう強く、まれに生き残る(範囲攻撃)"]
@@ -1050,6 +2077,21 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      critical:
+        minmax: [[2, 2]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   151:
     name: [窓辺の乙女ネコ, 窓辺の姫君ネコ, 窓辺の舞妓にゃん]
     desc: ["まだ見ぬイケメン彼氏を夢見るおてんば娘\n愛読書は赤井ブン太郎著「体罰と散髪」\n天使をたまに一瞬止める(範囲攻撃)\nマドベノオトメネコ", "まだ見ぬイケメンプリンスを夢見るおてんば姫\n好物は鳥の串焼き\n天使をたまに一瞬止める(範囲攻撃)\nマドベノヒメギミネコ", "まだ見ぬ伊達男の旦那様を夢見るおてんば舞妓\nのつもりがいつの間にやらお局様\n天使をたまに止める(範囲攻撃)\nマドベノマイコニャン"]
@@ -1057,6 +2099,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[24, 60]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   152:
     name: [ネコバーベル, ネコRG, ネコデリバリー]
     desc: ["重いものを軽々と持ち上げるのが男だと言って\n11人の子供達と7人の妻とその両親を支える大黒柱\n黒い敵に超ダメージを与える(範囲攻撃)", "とうとう人生の１２ラウンド目に到達\n新たな生きがいを見つけたタフなにゃんこ\n黒い敵に超ダメージを与える(範囲攻撃)", "配達用のピザを食べる掟破りの配達員\n肥満の肥満による肥満の為の自由を追い求める\n黒い敵に超ダメージを与える(範囲攻撃)"]
@@ -1064,6 +2122,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   153:
     name: [ネコスケート, よいではにゃいか, にゃんでやねん]
     desc: ["流行りものに敏感な二人が次に始めたのは\nフィギュアスケートだった\n愛し合う二人に国境はない(範囲攻撃)", "日本の伝統芸能を世界へ広めるために\n満を持してエキシビジョンで披露した\nお蔵入りのネタ(範囲攻撃)", "長年寄り添った２人はついに超伝統芸能を極める\n息の合ったどつき漫才で世の中に笑撃をもたらす\n古代種にめっぽう強い(範囲攻撃)"]
@@ -1071,6 +2145,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [39, 120], [50, 50]]
+      immune_knockback: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   154:
     name: [ネコトースター, ネコ映写機, ネコクラシック]
     desc: ["毎日パンばかり焼かされてストを起こしたトースター\nお父さんの顔目がけてパンを吹き飛ばすのが生きがい\nごくたまに天使の動きを遅くする(範囲攻撃)", "かつては名優達を映していたが、デジタルに\n取って代わられたためやけくそになった呪いの映写機\nごくたまに天使の動きを遅くする(範囲攻撃)\nネコエイシャキ", "哀愁漂うメロディで戦意を喪失させる\nゼンマイ仕掛けのネコ型自走砲台(範囲攻撃)\nごくたまにバリアを貫き、天使の動きを遅くする"]
@@ -1078,6 +2166,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   155:
     name: [ねこフープ, ねこトリプルフープ, ねこグルグルフープ]
     desc: ["おなかがぽっこりしてきたので\nダイエットの為にフラフープを始めたにゃんこ\nごくたまにメタルな敵の動きを止める", "体型維持のため始めたが、明らかに\nおかしな方向に体型が変化してきているにゃんこ\nごくたまにメタルな敵の動きを止める", "前人未踏のパフォーマンスに挑戦するにゃんこ\nおひねりでフープを買い足しては更なる挑戦が続く\nたまにメタルな敵の動きを止める"]
@@ -1113,6 +2215,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   160:
     name: [冥界のカリファ, 冥界のＸカリファ, 冥界のＸＸカリファ]
     desc: ["入学式に学校を壊滅寸前に追い込んだ伝説の少女\n生まれたときからの相棒「ニャクスカリバー」で\n天使に超ダメージを与える(範囲攻撃)\nメイカイノカリファ", "１学期終了時に校長を冥界へ封じ込めた伝説の少女\n本当の自分をわかってくれる友達を探している\n天使に超ダメージを与える(範囲攻撃)\nメイカイノエクスカリファ", "卒業式の後、告白に来た男の子たちを一人残らず\nこの世からも卒業させてしまった伝説の少女\n天使に超ダメージを与える(範囲攻撃)\nメイカイノダブルエクスカリファ"]
@@ -1120,6 +2234,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   161:
     name: [ユーリンチー, 転生霊鳥ユーリンチー, ゲキリンチー]
     desc: ["ケリ姫スイーツに登場するキャラクター\nコラボレーションにより夢の競演\n天使にめっぽう強い(範囲攻撃)", "ケリ姫スイーツに登場する転生霊鳥ユーリンチーに\n乗りたくてネコ達の英知を結集して作られた\n鳥型ラジコン。天使にめっぽう強い(範囲攻撃)\nテンセイレイチョウユーリンチー", "ケリ姫スイーツに登場するゲキリンチーっぽく\n色を塗った鳥型ラジコン。黒いインクが余ったので\nネコも塗ってみた。天使にめっぽう強い（範囲攻撃）"]
@@ -1134,6 +2262,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        minmax: [[5, 5]]
+      against_zombie: {}
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   163:
     name: [綾小路 翔, 翔やん＆にゃんこ]
     desc: ["ヤンクロックバンド氣志團から参戦！\n誇り高き團長でありヴォーカル\n通り名は『房総の狂犬』\nアヤノコウジショウ", "ヤンクロックバンド氣志團から参戦！\n誇り高き團長でありヴォーカル(範囲攻撃)\n永遠の16歳(赤い敵にめっぽう強い)\nショウヤンアンドニャンコ"]
@@ -1183,6 +2322,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
   170:
     name: [クビルガ, クビランパサラン, E・クビランパサラン]
     desc: ["ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n進化させると…", "ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n敵をふっとばす波動を放つ", "ネコなのかストリートで戦うスモウレスラーなのか、\nまったく正体不明の謎のキャラクター\n必ずクリティカルの波動を放つ"]
@@ -1197,6 +2352,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   172:
     name: [バララガ, バラランパサラン, ピカランバララン]
     desc: ["ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n進化させると…", "ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n広範囲の敵の動きを止める(範囲攻撃)", "ネコなのか宇宙より降り立った厄災なのか\nまったく正体不明の謎のキャラクター\n広範囲の敵の動きを止め、攻撃力を下げる(範囲攻撃)"]
@@ -1225,6 +2394,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [red, float, black, metal, angel, alien, zombie, relic, white, aku]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[17, 80], [30, 30]]
+      surge_mini:
+        max_level: 10
+        minmax: [[28, 100], [5, 5], [2000, 2000], [2000, 2000]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   176:
     name: [にゃんぼう, ネコトーピード]
     desc: ["水中戦を想定しマンボウになろうとしたネコ\n兄弟で始めた天気予報がマイブーム\n赤い敵に打たれ強い(範囲攻撃)", "進化の過程で足の代わりに腕が生えた\n踏みつけられることを極端に嫌う水中兵器と化したネコ\n赤い敵に打たれ強い(範囲攻撃)"]
@@ -1246,6 +2426,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   179:
     name: [極道にゃんこ, ヤクザヴァンパイア]
     desc: ["愛しの人を守るため仁義を貫く漢にゃんこ\nその身は汚れても侠気は失わない\n　\nゴクドウニャンコ", "「血の儀式」という洗礼を受け\nヴァンパイアと化したヤクザねこ(範囲攻撃)\n愛しき人が見せる健気な笑みにはめっぽう弱い"]
@@ -1267,6 +2463,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   182:
     name: [ゆきにゃん, ビューティゆきにゃん]
     desc: ["\"消滅\"から奇跡的に生還した少女、に影響を受け\n見よう見まねで不思議な力と飛行能力を習得したにゃんこ\nごくたまに浮いてる敵の動きを一瞬止める", "\"消滅\"から奇跡的に生還した少女、に見た目も\n近づくため、美容整形で美しく進化したにゃんこ\nごくたまに浮いてる敵の動きを一瞬止める"]
@@ -1302,6 +2514,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [9, 90]]
+      immune_knockback: {}
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   187:
     name: [コーネリア, コーネリアCC]
     desc: ["メルクストーリアから参戦！\n飛龍への憧れを胸に天の橋を夢見る女性\n黒い敵と赤い敵の動きをたまに一瞬止める(範囲攻撃)", "メルクストーリアから参戦！\nいずれ天の橋の材料となる龍のウロコに目がない\n黒い敵と赤い敵の動きをたまに一瞬止める(範囲攻撃)"]
@@ -1365,6 +2591,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [23, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_aku:
+        ultra: 1
+      surge:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1720, 1720], [1400, 1400]]
+        ultra: 1
   196:
     name: [西園寺メカ子, ドクトルDr.メカ子, アストロDr.メカ子]
     desc: ["本の付録を毎号集めて完成させたロボットを\nスパナ１つで殺戮マシンへと魔改造した少女(範囲攻撃)\nエイリアンと黒い敵に打たれ強く、1度だけ生き残る\nサイオンジメカコ", "深夜空港に忍び込みジェット機をドライバー1つで解体\n一晩で決戦マシンを完成させた少女(範囲攻撃)\nたまにエイリアンをふっとばして攻撃力をダウンさせる\nドクトルドクターメカコ", "国際宇宙基地NYASAの宇宙船を、遠隔操作で\n超変形ロボットにトランスフォームさせた少女(範囲攻撃)\nエイリアンに超ダメージを与え、動きを遅くする\nアストロドクターメカコ"]
@@ -1372,6 +2620,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [51, 150], [50, 50]]
+      knockback:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[14, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   197:
     name: [キャットマンダディ, キャットマンダーク, キャットマンライジング]
     desc: ["紫外線を完全に遮断する特殊スーツを華麗に着こなす\n昼ドラの英雄は決して知られてはならない闇の顔をもつ\nエイリアンと浮いてる敵に超ダメージを与える(範囲攻撃)", "夜に怪人へと姿を変えキャットシティの平和を守る英雄\nマダムたちに求められるサイン攻めには弱い\nエイリアンと天使に超ダメージを与える(範囲攻撃)", "映画デビューを目指しスーツを魔改造した超怪人\n不純な心をエネルギーに変えて悪を滅ぼす\nエイリアンと古代種に超ダメージを与える(範囲攻撃)"]
@@ -1379,6 +2643,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_warp: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   198:
     name: [サイキックネコ, ネオサイキックネコ, デビルサイキックネコ]
     desc: ["テンションが上がると周りの金属が曲がってしまうネコ\nカレーを目の前に冷静さを保つ方法を探している\nエイリアンの動きをたまに遅くする", "近づくものすべてが異変を起こす超常現象ネコ\nキャッチボール中に消えた友達を探している\nエイリアンの動きをたまに遅くする", "近づくものすべてブラックホールに吸い込むネコ\n最期に自分も吸い込まれることは薄々気づいている\nエイリアンの動きをたまに遅くする"]
@@ -1386,6 +2662,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   199:
     name: [ねこ陰陽師, 魔法少女ねこ, ねこ大魔王]
     desc: ["自称過去からタイムスリップしてきた妖術使いにゃんこ\n悪霊退治の依頼あればスポーツカーで瞬時に駆けつける\nたまにメタルな敵以外の攻撃力をダウンさせる\nネコオンミョウジ", "遭遇した宇宙人に契約を迫られ魔法少女に転身\n乗り換え契約特典で付いてきた光る杖で\nたまにメタルな敵以外の攻撃力をダウンさせる\nマホウショウジョネコ", "契約期間満了で転職したにゃんこ\nテーマパークの悪役もなかなか待遇がいい\n必ずメタルな敵以外の攻撃力をダウンさせる\nネコダイマオウ"]
@@ -1393,6 +2683,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   200:
     name: [ネコサーファー, ネコ漂流, ネコ漂流記]
     desc: ["大志を胸にビッグウェーブを待ち続ける\n人生の大波に乗り遅れたアラフォーサーファー\nたまにエイリアンを停止、まれに生き残る(範囲攻撃)", "荒波に巻き込まれ遠くまで流されたにゃんこ\n彼が見つけたい陸は案外近くにあるのかもしれない\nたまにエイリアンを停止、まれに生き残る(範囲攻撃)\nネコヒョウリュウ", "海とは友人だ。時に寄り添い、時に牙を剥く。\nこの友人と共に歩む事こそが、私の人生そのものなのだ\nたまにエイリアンを停止、必ず生き残る(範囲攻撃)\nネコヒョウリュウキ"]
@@ -1400,6 +2704,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   201:
     name: [メタルネコ, メタルネコビルダー]
     desc: ["いかなる攻撃も最小ダメージで食い止めるメタルなネコ\nレアなメタル純度１００％だがクリティカル攻撃に弱い\nLV上限解放できず、＋LVも上げられない(メタル)", "いかなる攻撃も最小ダメージで食い止めるメタルなネコ\n腕を手に入れたがメタルコーティングをすっかり忘れる\nLV上限解放できず、＋LVも上げられない(メタル)"]
@@ -1428,6 +2746,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_curse:
+        ultra: 1
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [41, 140]]
+        ultra: 1
   205:
     name: [アイルー, アイルー＆メラルー]
     desc: ["モンハン 大狩猟クエストから参戦！\n狩りのオトモも出来るネコそっくりの種族\nLVが上がりやすく、黒い敵の攻撃力を下げる", "モンハン 大狩猟クエストから参戦！\nやんちゃなメラルーも連れてにゃんこ達のオトモへ\nLVが上がりやすく、赤い敵の攻撃力を下げる"]
@@ -1470,6 +2814,17 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      critical:
+        minmax: [[10, 10]]
+      immune_wave: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   211:
     name: [ちびタンクネコ, ちびネコカベ, ちびゴムネコ]
     desc: ["体力を多く備えた盾用のキャラ\n攻撃力はスズメの涙ほど、なキャラ\nを目指して成長中のちびにゃんこ(範囲攻撃)", "まさにカベに徹する為の盾専用キャラ\n攻撃力はあいかわらず、なキャラ\nを目指して成長中のちびにゃんこ(範囲攻撃)", "ゴム製の盾専用キャラに成長したちびにゃんこ\n成長して性格が丸くなったが\n攻撃力はあいかわらず(範囲攻撃)"]
@@ -1477,6 +2832,21 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent_against: [zombie]
+    talent:
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      soul_strike: {}
+      dodge:
+        max_level: 10
+        minmax: [[10, 10], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   212:
     name: [ちびバトルネコ, ちび勇者ネコ, ちび暗黒ネコ]
     desc: ["戦闘向きのキャラ\nを目指して成長中のちびにゃんこ\n｢赤い敵｣にめっぽう強い", "勇者にあこがれる戦闘向きのキャラ\nを目指して成長中のちびにゃんこ\n｢赤い敵｣にめっぽう強い\nチビユウシャネコ", "成長してモンスターハントに\n憧れるようになった戦闘向きのちびにゃんこ\n天使にめっぽう強い\nチビアンコクネコ"]
@@ -1484,6 +2854,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      freeze:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   213:
     name: [ホワイトラビット, ブラックキャット, グレーフォックス]
     desc: ["秘密警察｢ラビッツ｣のメンバーである彼女は\n検挙率100％のおとり捜査で有名なコスプレ刑事\nエイリアンと赤い敵の動きを必ず遅くする(範囲攻撃)", "暗殺黒猫団｢キャッツ｣のメンバーでもある彼女は\n決して足跡を残さない華麗なる殺し屋であり運び屋\nエイリアンと赤い敵にめっぽう強い(範囲攻撃)", "諜報機関「フォックス」の指揮官でもある彼女は\n優れた話術で無理難題を部下に遂行させる(範囲攻撃)\nエイリアンと赤い敵を必ずふっとばして攻撃力を下げる"]
@@ -1491,6 +2875,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_warp: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   214:
     name: [にゃんこバーガー, にゃんこキングバーガー, にゃんこバーガーセット]
     desc: ["重量150グラムのネコ型ハンバーガー\n小腹を満たすにはちょうどいいお手軽サイズ\n100％国産のネコが作っている", "レタス、チーズ、ネコが増量した巨大バーガー\nスタミナがたっぷり付く至高のB級グルメ\n一口かじるだけでカロリーオーバー", "総量20000キロカロリーのがっつり系バーガーセット\n炭酸ジュースと油たっぷりのフライドポテトが付いて\n一食で一週間分のエネルギーを摂取可能(範囲攻撃)"]
@@ -1589,6 +2985,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_wave: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_white:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      colossus_killer:
+        ultra: 1
   228:
     name: [にゃんぷきん, ねこランタン, 死神ネコ]
     desc: ["カボチャランタンをかぶったハロウィンにゃんこ\n火をともしに来た人を驚かせて\nイタズラするのが生きがい", "イタズラばかりしたのでこの世をさまようことに\nなったおばけにゃんこ、それでも懲りないにくいやつ\nごくたまに黒い敵の動きを一瞬止める", "いろんな人の枕元に現れて死期を告げる死神にゃんこ\nアジャラカモクレンテケレッツのパと唱えれば消える\n超獣特効を持ち、黒い敵にめっぽう強くたまに一瞬止める\nシニガミネコ"]
@@ -1722,6 +3134,22 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[1, 10]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   247:
     name: [ちびウシネコ, ちびネコキリン, ちびネコライオン]
     desc: ["俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ", "俊敏な動きで移動力に優れたキャラ\nを目指して成長中のちびにゃんこ", "俊敏で移動力に優れたキャラに成長したちびにゃんこ\n頭のタテガミは集めたポイントで貰った\n波動によるダメージを無効にする"]
@@ -1729,6 +3157,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[1, 10]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   248:
     name: [ちびネコノトリ, ちびネコUFO, 天空のちびネコ]
     desc: ["体力は少ないが敵をまとめて一掃する\n超破壊力を持ったキャラ\nを目指して成長中のちびにゃんこ(範囲攻撃)", "重力を超越した改造にゃんこ\n敵をまとめてお仕置き可能\nを目指して成長中のちびにゃんこ(範囲攻撃)\nチビネコユーフォー", "都市型空中庭園に成長したちびにゃんこ\n世界をお花で埋め尽くすのが夢\nゾンビにめっぽう強い(範囲攻撃)\nテンクウノチビネコ"]
@@ -1736,6 +3178,18 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      curse:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   249:
     name: [死にたてにゃんこ, 化けにゃんこ, 復活にゃんこ]
     desc: ["ガルズモンズから参戦！\n不幸にも車にひかれた猫型モンスター\nごくたまにゾンビの動きを一瞬遅くする\nシニタテニャンコ", "ガルズモンズから参戦！\nこの世への未練が断ち切れない猫型モンスターの霊\nごくたまにゾンビの動きを一瞬遅くする\nバケニャンコ", "異次元の扉を開けてやってきた猫型ネコ\nついていくと二度と帰れなくなる\nごくたまにゾンビの動きを一瞬遅くする\nフッカツニャンコ"]
@@ -1806,6 +3260,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [10, 30]]
+        ultra: 1
   259:
     name: [守護神アヌビス, パーフェクトアヌビス, Ｇパーフェクトアヌビス]
     desc: ["人間の魂を冥界へと運ぶ死者の神\n死の神器「冥界の杖」が罪深き者の魂を消滅させる\n波動によるダメージを無効にする(範囲攻撃)\nシュゴシンアヌビス", "冥界を支配する完璧な力を手に入れた死者の神\n絶命の神器「冥界の神杖」がすべての命を根絶させる\n波動によるダメージを無効にする(範囲攻撃)", "冥界を支配する新たな力を手に入れた死者の神\n創造の果実に導かれ、罪深き魂の根を断ち切る\n波動によるダメージを無効にする(範囲攻撃)"]
@@ -1813,6 +3288,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [800, 800], [1000, 1000]]
+      immune_surge: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[11, 74]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+        ultra: 1
+      break_shield:
+        max_level: 10
+        minmax: [[16, 70]]
+        ultra: 1
   260:
     name: [美女神アフロディーテ, メガロディーテ, Gメガロディーテ]
     desc: ["誇り高き愛と美と性をつかさどる女神\n美の神器「黄金の弓」は近距離攻撃出来ないが超射程を\n持ち、エイリアンに超ダメージを与える(遠方範囲攻撃)\nビジョシンアフロディーテ", "誇り高き愛と美と性をつかさどる女神\n究極美の神器「黄金の神弓」が崩壊と蘇生をもたらす\nエイリアンに超ダメージを与える(遠方範囲攻撃)", "誇り高き愛と美と性をつかさどる女神\n創造の果実を胸に、生と死の巡りを自在に操る\nエイリアンに超ダメージを与える(遠方範囲攻撃)"]
@@ -1820,6 +3321,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
   261:
     name: [ネコウェイ, ネコドローン, ネコタイムマシン]
     desc: ["未来の乗り物に乗ったIT社長キャラ\nお仕置きボタン搭載で不真面目な社員に喝！\n赤い敵、黒い敵、天使にめっぽう強い(範囲攻撃)", "未来の無人偵察機になろうとして\nあっちこっちで墜落しているおさわがせキャラ\n赤い敵、黒い敵、天使にめっぽう強い(範囲攻撃)", "未来からやってきたネコ型キャラ\nたまに女風呂へタイムスリップしてしまう\n赤い敵、黒い敵、天使にめっぽう強い(範囲攻撃)"]
@@ -1834,6 +3351,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      break_shield:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   263:
     name: [ニャームス, ネコニャームス]
     desc: ["にゃんパズルから参戦！\nポチと一緒にネコの国に住んでいる\n赤い敵の動きをたまに止める(範囲攻撃)", "にゃんパズルから参戦！\n一番好きな魚はのどぐろ\n赤い敵の動きをたまに止める(範囲攻撃)"]
@@ -1897,6 +3428,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      increase_speed:
+        max_level: 10
+        minmax: [[2, 20]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   272:
     name: [太陽神アマテラス, テラアマテラス, Gテラアマテラス]
     desc: ["大いなる太陽と大地をつかさどる心優しき女神\n光の神器｢八尺鏡｣で荒れ狂う者達を清め鎮める\n属性を持つ敵に超ダメージを与える(範囲攻撃)\nタイヨウシンアマテラス", "大いなる太陽と大地をつかさどる心優しき女神\n暁の神器｢八尺ノ神鏡｣で悪しき魂を黄泉へと送る\n属性を持つ敵に超ダメージを与える(範囲攻撃)", "大いなる太陽と大地をつかさどる心優しき女神\n創造の果実を身に宿し、あらゆる巨悪を清める\n属性を持つ敵に超ダメージを与える(範囲攻撃)"]
@@ -1904,6 +3451,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   273:
     name: [繁栄神ガネーシャ, ガネーシャエクサ, Gガネーシャエクサ]
     desc: ["学問をつかさどり繁栄をもたらす富の神\n知の神器「巨眼心拳」が降りかかる厄災を振り払う\n体力低下で攻撃力上昇(遠方範囲攻撃)\nハンエイシンガネーシャ", "学問をつかさどり繁栄をもたらす富の神\n英知の神器「巨眼神拳」があらゆる厄災を粉砕する\n体力低下で攻撃力上昇(遠方範囲攻撃)", "学問をつかさどり繁栄をもたらす富の神\n創造の果実に力を借り、厄災の根源を打ち砕く\n体力低下で攻撃力上昇(遠方範囲攻撃)"]
@@ -1911,6 +3472,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_knockback: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   274:
     name: [チアにゃんこ, ネコウエイトレス, にゃんこそば]
     desc: ["青春のすべてをチアに捧げたキャラクター\n短い手足で描くのは「L・O・V・E」の文字\n必ずクリティカル攻撃を放つ", "青春のすべてを喫茶店バイトに捧げたキャラクター\n素早い動きでお出しするのは「お・も・て・な・し」の心\n必ずクリティカル攻撃を放つ", "青春のすべてをバイト先での恋に捧げたキャラクター\n華麗に差し出す蕎麦は「ア・イ・シ・テ・ル」のサイン\n必ずクリティカル攻撃を放つ"]
@@ -1988,6 +3563,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   285:
     name: [ネコ特急, ネコ超特急, ネコエクスプレス]
     desc: ["最高時速222km　1両編成　全席グリーン席\n本日の乗車率は120％\n敵を倒したときにお金を多くもらえる\nネコトッキュウ", "最高時速2222km　最新のテクノロジーと\n222匹のネコを乗せたネコ型運搬装置\n敵を倒したときにお金を多くもらえる\nネコチョウトッキュウ", "最高速度2億kmで地球を飛び出せるスーパー電車\n訓練を受けた乗客2222人が搭乗可能\n敵を倒したときにお金を多くもらえる"]
@@ -2009,6 +3598,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   288:
     name: [ネコ球児, ネコリーガー, ネコゴルファー]
     desc: ["幼い頃から野球の英才教育を施されたネコ\n百裂千本ノックで県大会を5位に導いた名コーチ\nエイリアンに打たれ強い(遠方範囲攻撃)\nネコキュウジ", "メジャーで殿堂入りを果たした伝説のプレーヤーに\nそっくりな完璧スイングを披露する小太りネコ\nエイリアンに打たれ強くたまにバリアを貫く(遠方範囲攻撃)", "野球で培った経験を元に編み出した独自の打法で\n次々にホールインワンを決める河川敷の長打王\nエイリアンに打たれ強くたまにバリアを貫く(遠方範囲攻撃)"]
@@ -2135,6 +3738,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [4, 4]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   306:
     name: [古代軍船ガレーズ, 無敵艦隊シーガレオン, 超無敵艦隊シーガレオン]
     desc: ["かつて北の海を荒らしまわった海賊の末裔達\n先祖が隠したという秘宝を探して世界の海を渡り歩く\n赤い敵とゾンビに超ダメージを与える(範囲攻撃)\nコダイグンセンガレーズ", "エリート海兵UMINEKOを総動員した超巨大戦艦\n極秘技術で製造されたドリルはいかなる装甲も打ち破る\n赤い敵とゾンビに超ダメージを与える(範囲攻撃)\nムテキカンタイシーガレオン", "エリート海兵UMINEKOが乗船する究極戦艦\n強化されたドリルは真の平和へ突き進む\n赤い敵とゾンビに超ダメージを与える(範囲攻撃)\nチョウムテキカンタイシーガレオン"]
@@ -2142,6 +3761,23 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   307:
     name: [飛空襲撃ボンバーズ, 飛行戦艦ボルボンバー, 超飛行戦艦ボルボンバー]
     desc: ["誰も成しえなかった大空を手中に収めた先進兵器\n空からの無慈悲な爆撃は地上を混乱に陥れる\nゾンビを必ずふっとばす(範囲攻撃)\nヒクウシュウゲキボンバーズ", "大空を制する鋼の鷹は志高きクルーを配備し\n極秘兵器NE-K02で確実に敵地を壊滅に追い込む\nゾンビを必ずふっとばす(範囲攻撃)\nヒコウセンカンボルボンバー", "大空を支配した鋼の鷹はより高き志を掲げる\n究極兵器NE-K02改で理想の世界を作りだす\nゾンビを必ずふっとばす(範囲攻撃)\nチョウヒコウセンカンボルボンバー"]
@@ -2149,6 +3785,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[57, 57], [5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   308:
     name: [ネコジャンパー, ネコボールター, ネコ奥様]
     desc: ["棒を使って空を舞うことを追い求めるネコ\nそのチャレンジ精神は場所を選ぶことはない\nたまにゾンビの動きを遅くする(遠方範囲攻撃)", "世界一高く宙を舞ったネコとしてギネスに認定されかけた\nスーパーアスリート女子。来年結婚予定\nたまにゾンビの動きを遅くする(遠方範囲攻撃)", "かつてトップアスリートとして名を馳せた奥様\n物干し竿を華麗に扱い家事に育児に空を飛ぶ\nたまにゾンビの動きを遅くする(遠方範囲攻撃)\nネコオクサマ"]
@@ -2156,6 +3807,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   309:
     name: [ネコバサミ, ネコチェーンソー, 草刈りネコ]
     desc: ["通販番組で枝切りバサミを購入したネコ\nネコ基地近辺に枝がなくクーリングオフを検討中\nごくたまにゾンビの動きを一瞬止める", "恐るべき敵の襲来に備えチェーンソーを手にしたネコ\n開かないドアもこれ一つで簡単に開けられる\nごくたまにゾンビの動きを一瞬止める", "ネット通販で強そうなマシンを購入したネコ\n本来の用途を知らず使ってるが格好は様になっている\nごくたまにゾンビの動きを止める\nクサカリネコ"]
@@ -2163,6 +3830,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   310:
     name: [ネコ博士, ネコ博士＆ネコ]
     desc: ["キャットバスターズから参戦！\nタイムマシンを発明した好奇心旺盛な天才科学者\nたまにクリティカル攻撃を放つ\nネコハカセ", "キャットバスターズから参戦！\n発明したタイムマシンをネズミに奪われた天才科学者\nマシンを取り戻す旅に出る。たまにクリティカル攻撃を放つ\nネコハカセアンドネコ"]
@@ -2184,6 +3865,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [2, 2]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   313:
     name: [ちびネコトカゲ, ちびネコドラゴン, ちびネコキングドラゴン]
     desc: ["遠くの敵を攻撃できる遠距離型キャラ\n単発だけなら攻撃力はピカイチ、なキャラ\nを目指して成長中のちびにゃんこ", "幻想世界から降臨した遠距離型キャラ\n単発だけなら攻撃力はピカイチ、なキャラ\nを目指して成長中のちびにゃんこ", "ドラゴン界のエリートまで成長した\n遠距離型ちびにゃんこ\n単発の攻撃力と垂れツノのキュートさはピカイチ"]
@@ -2191,6 +3886,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[4, 40], [4, 4]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   314:
     name: [ちび巨神ネコ, ちびネコダラボッチ, ちびネコジャラミ]
     desc: ["超絶破壊力＆強靭な体力を備えた\n最高級のキャラ\nを目指して成長中のちびにゃんこ(範囲攻撃)\nチビキョシンネコ", "超絶破壊力＆強靭な体力を備えた\n破壊をつかさどるネコ神様\nを目指して成長中のちびにゃんこ(範囲攻撃)", "ごくたまに敵をふっとばす、破壊をつかさどる\n巨大ネコに成長したちびにゃんこ(範囲攻撃)\nいつまでも無邪気な心は忘れない"]
@@ -2198,6 +3907,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   315:
     name: [大掃除ねねこ, 初詣ねねこ, 新春・初詣ねねこ]
     desc: ["年末限定スタイルの妹型にゃんこ(範囲攻撃)\n今年も一年の感謝を込めておうちをきれいにしたい…\n憧れの人はもねこ(たまにクリティカル)\nオオソウジネネコ", "新年のあいさつを欠かさないねねこ(範囲攻撃)\nみんなの前で歌う勇気を出すために\n今年こそは神様にお願いしてみたい(たまにクリティカル)\nハツモウデネネコ", "新年の訪れに鮮やかな着物を身にまとったねねこ\n今年こそ歌えますように(範囲攻撃)\n(三度のお辞儀でたまにクリティカル)\nシンシュンハツモウデネネコ"]
@@ -2219,6 +3942,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   318:
     name: [CPAC, PPAP]
     desc: ["Cat-Pineapple-Apple-Cat、略してCPAC\nYouTube動画キャンペーンで貰える兄弟ネコ\n赤い敵にめっぽう強い", "Pen-Pineapple-Apple-Pen、略してPPAP\nとある人気動画に便乗したネコユーチューバー\n赤い敵にめっぽう強い"]
@@ -2261,6 +4000,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[2, 20], [200, 200]]
+      immune_toxic: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   324:
     name: [宮木武蔵, 主演 宮木武蔵, 覚醒 宮木武蔵]
     desc: ["呪われた舞台「猫の怨返し」に出演したために\n落ち武者ネコに憑りつかれた貧乏役者\n波動によるダメージを無効にする(範囲攻撃)\nミヤモクムサシ", "初主演を果たした映画ですべてのカットに心霊現象が\n映り込み、作品がお蔵入りした不幸な貧乏役者\n波動によるダメージを無効にする(範囲攻撃)\nシュエンミヤモクムサシ", "悪霊と共に事件を解決するドラマ「仏滅ポリス」で\n大ブレイクした役者。稼ぎの９割はネコの懐に入る\n波動ダメージを無効にし、たまに古代種の動きを止める\nカクセイミヤモクムサシ"]
@@ -2282,6 +4033,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_alien: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   327:
     name: [メビウス, 奇跡の調和メビウス]
     desc: ["クラッシュフィーバーから参戦!\n清楚で大人しめだが実は芯の強い女性学者\n赤い敵に超ダメージを与え、必ずふっとばす(範囲攻撃)", "クラッシュフィーバーから参戦!\n大人の女性に憧れて密かに自分磨きをしている\n赤い敵に超ダメージを与え、必ずふっとばす(範囲攻撃)\nキセキノチョウワメビウス"]
@@ -2345,6 +4110,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      surge_mini:
+        max_level: 10
+        minmax: [[5, 50], [1, 1], [600, 600], [2800, 2800]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
   336:
     name: [人魚娘ルリィ, 宝玉の人魚姫ルリィ, 竜宮の人魚姫ルリィ]
     desc: ["異世界からやってきた絶命系人魚娘\n液晶越しの彼氏とデートを重ねる毎日\n赤い敵に打たれ強く、必ず攻撃力を下げる\nニンギョムスメルリィ", "偉大な恋のチカラで美貌と両足を手に入れた人魚姫\n画面の向こうの愛しい彼が生きる力を与えてくれる\n赤い敵に打たれ強く、必ず攻撃力を下げる\nホウギョクノニンギョヒメルリィ", "イケメンと暮らすために竜宮城を建てた人魚姫\n毎日ゲームをしながらイケメンがくる日を夢見てる\n赤い敵に打たれ強く、必ず攻撃力を下げる\nリュウグウノニンギョヒメルリィ"]
@@ -2352,6 +4137,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   337:
     name: [ミイラ娘レイカ, 玉座のミイラ姫レイカ, 黄金のミイラ姫レイカ]
     desc: ["異世界からやってきた絶命系ミイラ娘\n塗りすぎた化粧品の防腐剤効果でミイラになった美魔女\nエイリアンとゾンビに超ダメージを与える(範囲攻撃)\nミイラムスメレイカ", "新商品の化粧品でお肌もピチピチで復活した\n美女ミイラ。「おしゃれは足元から」が信条\nエイリアンとゾンビに超ダメージを与える(範囲攻撃)\nギョクザノミイラヒメレイカ", "死者のミスコンで優勝、カリスマとなった美女ミイラ\n椅子を使った美容本も完売、その財でまた美を磨く\nエイリアンとゾンビに超ダメージを与える(範囲攻撃)\nオウゴンノミイラヒメレイカ"]
@@ -2366,6 +4163,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_weaken: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   339:
     name: [今川義元, 武神・今川義元, 燐火の武神・今川義元]
     desc: ["伝説の武具「にゃんこ扇」の呪いを取り込み、神通力に\nよって妖狐へと姿を変えた知の武将(遠方範囲攻撃)\n黒い敵にめっぽう強く、必ず攻撃力を下げる\nイマガワヨシモト", "伝説の武具「にゃんこ扇」の奥義を解放した戦国武将\n豪華絢爛な金色の矢で仇を討つ(遠方範囲攻撃)\n黒い敵にめっぽう強く、必ず攻撃力を下げる\nブシンイマガワヨシモト", "伝説の武具「にゃんこ扇」を紅蓮に染めた戦国武将\n地獄の燐火で怨敵を焼き払う(遠方範囲攻撃)\n黒い敵にめっぽう強く、必ず攻撃力を下げる\nリンカノブシンイマガワヨシモト"]
@@ -2373,6 +4182,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   340:
     name: ['340_1']
     desc: ["340_1仮1\n340_1仮2\n340_1仮3"]
@@ -2394,6 +4217,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   343:
     name: [ネコまねき, ネコまねき・寿]
     desc: ["日頃のご愛顧に感謝を込めるネコ\n持ち主にささやかな福を招くという\n敵を倒したときにお金を多くもらえる", "みなさまの愛で立派に育ったネコ\nお礼に満腹の幸せをお届け\n敵を倒したときにお金を多くもらえる\nネコマネキコトブキ"]
@@ -2415,6 +4250,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow: {}
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [600, 600], [1200, 1200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   346:
     name: [ミシェリア, ミシェリアCC, 午睡のミシェリアCC]
     desc: ["メルクストーリアから参戦！\n巨大な翼のために聖翼と呼ばれた少女(範囲攻撃)\n浮いてる敵にめっぽう強く、たまに動きを止める", "メルクストーリアから参戦！\n翼を失ったことで本当の聖女になれた少女(範囲攻撃)\n浮いてる敵にめっぽう強く、たまに動きを止める", "メルクストーリアから参戦！\n神の奇跡にすがらない生き方を選んだ聖女（範囲攻撃）\n浮いてる敵にめっぽう強く、必ず動きを止める\nゴスイノミシェリアシーシー"]
@@ -2422,6 +4271,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   347:
     name: [とどめき, とどめきCC]
     desc: ["メルクストーリアから参戦！\n現世に留まり、兄を探し続ける和の国の少女\nたまにエイリアンとゾンビの動きを遅くする(範囲攻撃)", "メルクストーリアから参戦！\n愛する兄からの贈り物の着物を大切にしている\nたまにエイリアンとゾンビの動きを遅くする(範囲攻撃)"]
@@ -2464,6 +4325,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   353:
     name: [ネコ仙人, ネコ老師, 仮面のネコ仙人]
     desc: ["豆大福１個でにゃんこ軍団に入った伝説の仙人\n最近物忘れが激しいが、武術の極意は忘れない\n素早い連撃で波動を放つ(範囲攻撃)\nネコセンニン", "アレ１個でなんちゃら軍団に入った伝説の老師\n最近物忘れが激しいが、アレの極意は忘れない\n素早いアレでアレを放つ(範囲攻撃)\nネコロウシ", "空から落ちてきた古代のお面を着け呪われた伝説の仙人\n古代武術の極意をマスターし、太古の記憶が蘇った！\n古代種にめっぽう強く、たまに呪いの波動を放つ\nカメンノネコセンニン"]
@@ -2492,6 +4367,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   357:
     name: [ノラ, 覚醒ノラ]
     desc: ["漫画「にゃんこ大戦争～日本侵略秘録～」から参戦！\n神様からネコカン２個で勧誘された期待の新人\n黒い敵にめっぽう強い", "漫画「にゃんこ大戦争～日本侵略秘録～」から参戦！\n身体に宿ったとある力によって『覚醒』した\n黒い敵にめっぽう強い\nカクセイノラ"]
@@ -2506,6 +4395,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_wave: {}
+      immune_weaken: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   359:
     name: [ゾンビ娘ヴェルヴェーヌ, 死霊の花嫁ヴェルヴェーヌ, 満腹の花嫁ヴェルヴェーヌ]
     desc: ["異世界からやってきた絶命系ゾンビ娘\n空っぽの心とお腹を満たしてくれる誰かを待っている\nたまにクリティカルを放つ(範囲攻撃)\nゾンビムスメヴェルヴェーヌ", "真実の愛にたどり着き、満たされたゾンビの花嫁\n幸せで一杯だが心とお腹は別腹\nたまにクリティカルを放つ(範囲攻撃)\nシリョウノハナヨメヴェルヴェーヌ", "愛する夫達の遺産で贅沢の限りを極めたゾンビ花嫁\nバツの数だけ心も懐も潤って、幸せでお腹いっぱい\nたまにクリティカルを放つ(範囲攻撃)\nマンプクノハナヨメヴェルヴェーヌ"]
@@ -2520,6 +4421,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   361:
     name: [水の精霊ミズリィ, 流水の精霊ミズマリン, 流水の精霊王ミズマリリン]
     desc: ["宇宙の果てからやって来た水の精霊\n降り立った星に水の源を宿すと言われている\nたまにエイリアンをふっとばして動きを遅くする\nミズノセイレイミズリィ", "大地を削るほどの流水を操る精霊\n清く荒々しい水柱はバリアをも貫く力を持つ\nエイリアンに打たれ強く、ふっとばして動きを遅くする\nリュウスイノセイレイミズマリン", "星座をも洗い流す強大な力を手にした流水の精霊王\n天の川を水源とする水柱はバリアを貫く力を持ち\nエイリアンに打たれ強く、ふっとばして動きを遅くする\nリュウスイノセイレイオウミズマリリン"]
@@ -2527,6 +4444,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   362:
     name: [風の精霊エアル, 嵐の精霊エアフワン, 嵐の精霊王エアフワンテ, 嵐の大精霊エアフワンティ]
     desc: ["宇宙の果てからやって来た風の精霊\n降り立った星に風の源を宿すと言われている\n(遠方範囲攻撃)\nカゼノセイレイエアル", "大陸を吹き飛ばすほどの嵐を操る精霊\n凄まじい突風はバリアをも貫く力を持つ\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイエアフワン", "星雲をも消し飛ばす強大な力を手にした嵐の精霊王\n宇宙を荒らす大嵐はバリアを貫く力を持ち\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイオウエアフワンテ", "嵐の力を司る大精霊。嵐で一掃した混沌の大地に\n清風を巻き起こし生命を芽吹かせる。バリアを貫き、\nエイリアンに打たれ強く必ずふっとばす(遠方範囲攻撃)\nアラシノダイセイレイエアフワンティ"]
@@ -2534,6 +4467,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[50, 50], [39, 120], [50, 50]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   363:
     name: [セイバー, セイバーCC, セイバーオルタCC]
     desc: ["Fate/stay night [HF]から参戦！\n衛宮士郎と契約を交わした剣士の英霊\n浮いてる敵に超ダメージを与える(遠方範囲攻撃)", "Fate/stay night [HF]から参戦！\n最優のクラスで、強力な宝具を持つ\n浮いてる敵に超ダメージを与える(遠方範囲攻撃)", "Fate/stay night [HF]から参戦！\n漆黒の鎧をまとった謎の剣士。セイバーに似ているが…\n浮いてる敵に超ダメージを与える(遠方範囲攻撃)"]
@@ -2646,6 +4595,21 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent_against: [alien]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   379:
     name: [黒無垢のミタマ, 黒蝶のミタマダーク]
     desc: ["大切な者を失ったもう一人のミタマの姿\n葬列がどこに向かうのか、誰も知らない(遠方範囲攻撃)\n属性を持たない敵に打たれ強く、必ず動きを遅くする\nクロムクノミタマ", "失った愛を探しさまよう未亡人。愛しい人との思い出に\n今も囚われ続ける。属性を持たない敵に打たれ強く\n必ず動きを遅くし攻撃力を下げる(遠方範囲攻撃)\nコクチョウノミタマダーク"]
@@ -2786,6 +4750,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_wave: {}
+      immune_surge: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   399:
     name: [ハニトンくん, ハニトンくん＆にゃんこ]
     desc: ["ハニトーのマスコットキャラが参戦！\nハニトー星からやってきたキャラクター。夢は地球に\nハニトーランドを作る事！エイリアンにめっぽう強い", "ハニトーのマスコットキャラが参戦！\n新たなバリエーションを求めてにゃんこをトッピング\nエイリアンにめっぽう強い"]
@@ -2926,6 +4902,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   419:
     name: [狂乱のもねこ, 狂乱のスターもねこ]
     desc: ["高い人気を誇る国民的アイドルにゃんこ\n事務所の方針で狂乱となった\n心を込めた鋭いおじぎで必ずクリティカル\nキョウランノモネコ", "世界的な人気を誇るアイドルにゃんこ\n圧倒的なライブで観客を狂乱の渦に巻き込む\n心を込めた鋭いおじぎで必ずクリティカル\nキョウランノスターモネコ"]
@@ -2996,6 +4987,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_toxic: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   429:
     name: [そうまにゃん, スマートそうまにゃん]
     desc: ["“消滅”の直後から暗躍する謎の少年、に影響を受け\nおかしな言動をするようになったにゃんこ\n必ず波動を放つ", "“消滅”の直後から暗躍する謎の少年、に見た目も\n近づくため、ぶら下がり健康器で背を伸ばした\n必ず波動を放つ"]
@@ -3024,6 +5029,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   433:
     name: ['433_1', '433_2', '433_3']
     desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3", "仮1\n仮\n仮3"]
@@ -3059,6 +5076,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   438:
     name: [激・神さま, 超・神さま, 超・神さまゴールデン]
     desc: ["とうとうにゃんこ軍団へ降臨した神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nゲキカミサマ", "神々しいまでの輝きを放つ神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nチョウカミサマ", "うっとうしいほどの輝きを放つ神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nチョウカミサマゴールデン"]
@@ -3080,6 +5110,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   441:
     name: [ベベ, なぎさ&ネコ]
     desc: ["魔法少女まどか☆マギカから参戦！\nチーズが大好物で、マミの相棒的な存在\nエイリアンとゾンビの攻撃力を一瞬下げる(範囲攻撃)", "魔法少女まどか☆マギカから参戦！\nまどか達の前に現れた新たな魔法少女\nエイリアンとゾンビの攻撃力を下げる(範囲攻撃)"]
@@ -3381,6 +5427,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [10, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   484:
     name: [カノとソウマ, カノとソウマとネコ]
     desc: ["消滅都市から参戦！旅人カノと少年ソウマ\n自らの罪と向き合い、\"消滅都市\"を目指す\nエイリアンに打たれ強い(範囲攻撃)", "ソウマと一緒に浜辺に打ち上げられていたネコを乗せ\n\"消滅都市\"を目指して旅をする\nエイリアンに打たれ強い(範囲攻撃)"]
@@ -3472,6 +5532,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   497:
     name: [成田甲斐, 武神・成田甲斐, 豪炎姫の武神・成田甲斐]
     desc: ["伝説の武具「にゃんこ薙刀」の呪いと引き換えに\n何者にも屈しない肉体へと変貌した戦国の姫。ゾンビと\n黒い敵の動きを必ず遅くし、たまに渾身の一撃を放つ\nナリタカイ", "伝説の武具「にゃんこ薙刀」の呪いと調和し\n立ちはだかる敵を一掃する戦国の美姫。ゾンビと\n黒い敵の動きを必ず遅くし、たまに渾身の一撃を放つ\nブシンナリタカイ", "武具の呪いを昇華し、動乱の天下に太平を\nもたらす凛々しき武神。ゾンビと黒い敵の\n動きを必ず遅くし、たまに渾身の一撃を放つ\nゴウエンキノブシンナリタカイ"]
@@ -3479,6 +5553,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[80, 800]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   498:
     name: ['498_1', '498_2', '498_3']
     desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
@@ -3521,6 +5609,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_curse: {}
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   504:
     name: [ネコ２Ｄ, ネコ３Ｄ]
     desc: ["ドットヒーローズから参戦！\nクラフトカードにドットで描かれたネコ\n命が吹き込まれる時を待っている", "ドットヒーローズから参戦！\nゲームの近代化と共に進化を果たしたネコ\nこれからの時代は３Ｄだと確信している"]
@@ -3640,6 +5740,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      colossus_killer: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   521:
     name: [ネコ七福神, ネコ七福邪神]
     desc: ["七つのありがたいご利益を一身に集めた福の神\n集めた福でみんなに幸せを振りまく、つもりはない\n属性を持つ敵に色んな妨害効果をたまに与える(遠方攻撃)\nネコシチフクジン", "ご利益に溺れ、道を踏み外した元・福の神\n盗んだバイクで夜の街を爆走し爆音と福を振りまく\n属性を持つ敵に色んな妨害効果をたまに与える(遠方攻撃)\nネコシチフクジャシン"]
@@ -3661,6 +5775,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      against_angel: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   524:
     name: [ネコ武闘家, ネコ師範, ネコマスター]
     desc: ["月謝4000円(税込)の武道家育成塾に週2で通い\n天下一を目指す社会人2年目の格闘にゃんこ\nゾンビに打たれ強い\nネコブトウカ", "自作武器で師範に上り詰めた武道家にゃんこ\n門下生に負け知らずも公式試合ではいつも反則負け\nゾンビに打たれ強い\nネコシハン", "向かうところ敵なし！武の極意をマスターしたネコ\n武器からあふれ出るオーラの威圧で連戦不戦勝\nゾンビに打たれ強い"]
@@ -3738,6 +5864,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   535:
     name: [冥界神ハデス, デスハーデス, Gデスハーデス]
     desc: ["亡者が行きつく冥府を統べる偉大なる神\n魂の神器「審判の鎌」で邪悪なる者を断罪する\n毒撃とワープを無効にする(範囲攻撃)\nメイカイシンハデス", "罪深き命を闇に引きずり込む冥界の神\n処刑の神器「審判の神鎌」ですべての業を浄化する\n毒撃とワープを無効にする(範囲攻撃)", "罪深き命を常闇へいざなう冥界の大いなる神\n創造の果実を刈り、すべての業を救済する\n毒撃とワープを無効にする(範囲攻撃)"]
@@ -3745,6 +5885,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[20, 20], [3, 30]]
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [3, 30], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   536:
     name: [初音ミク, 初音ミクCC]
     desc: ["電子世界から人気バーチャル・シンガー登場！\nポップでキュートな歌姫(範囲攻撃)\n赤、浮き、天使にめっぽう強く、攻撃力を一瞬下げる\nハツネミク", "電子世界から人気バーチャル・シンガー登場！\n清楚で可憐な歌声が魅力的な歌姫(範囲攻撃)\n赤、浮き、天使にめっぽう強く、攻撃力を一瞬下げる\nハツネミク"]
@@ -3920,6 +6075,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[4, 40], [3, 3]]
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   561:
     name: [巡音ルカ, 巡音ルカCC]
     desc: ["電子世界から人気バーチャル・シンガー登場！\nちょっぴりミステリアスなバイリンガル・ボーカル\n浮いてる敵と黒い敵に超ダメージを与える(遠方範囲)\nメグリネルカ", "電子世界から人気バーチャル・シンガー登場！\nクール＆ハスキーな歌声のバイリンガル・ボーカル\n浮いてる敵と黒い敵に超ダメージを与える(遠方範囲)\nメグリネルカ"]

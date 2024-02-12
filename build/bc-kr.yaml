@@ -70,6 +70,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      immune_surge: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   11:
     name: [쿵후 냥코, 취권 냥코, 고양이 댄서]
     desc: ["중거리 공격에서는 절대적인 파괴력을 지니고 있는\n쿵후 마스터. 게다가 범위 공격", "취하면 취할수록 강해진다고 믿는\n전설적인 쿵후 마스터. 게다가 범위 공격", "무술과 예술 그 무엇도 능숙한 천재 냥코\n극도의 낯가리는 성격으로 뒤로 걸어다니는 기술을 습득\n전설이 되면서 공격거리가 길어졌다 (범위 공격)"]
@@ -77,6 +91,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[2, 20], [1, 1], [1920, 1920], [1080, 1080]]
+      immune_freeze: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   12:
     name: [Mr., Super Mr., Hyper Mr.]
     desc: ["세계적으로 대히트인 ｢Mr.｣ 시리즈에서 참전\n분노의 달리기로 거리를 좁혀\n적 캐릭터를 향해 머신건으로 마구 난사 (범위 공격)", "세계적으로 대히트인 ｢Mr.｣ 시리즈에서 참전\n격도의 달리기로 거리를 좁혀\n적 캐릭터를 향해 바주카 포를 마구 난사 (범위 공격)", "세계적으로 대히트인 ｢Mr.｣ 시리즈에서 참전\n갈고 닦은 격도의 달리기로 거리를 좁혀\n적 캐릭터를 향해 펀치 건으로 마구 난사 (범위 공격)"]
@@ -84,6 +110,19 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [zombie]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_freeze: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   13:
     name: [고양이 밧줄, 고양이 밧줄NEO, 고양이 밧줄 궁극]
     desc: ["스스로 자청해서 방패가 된 방어용 캐릭터\n체력에는 자신있다\n빨간 적에 엄청 강하다", "더 큰 자극을 요구하는 방어용 캐릭터\n체력에는 자신있다\n빨간 적에 엄청 강하다", "궁극의 자극을 원하는 방어용 캐릭터\n체력에는 절대적인 자신을 가졌다\n빨간 적에 엄청 강하며, 때때로 살아남는다."]
@@ -91,6 +130,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [12, 30]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   14:
     name: [여왕 고양이, 처형인, 다크 라이더]
     desc: ["평소에는 캐리어우먼으로 일하고 있는 중거리형 캐릭터\n고양이 밧줄과는 매일 퇴근후에 만나는 사이\n빨간 적에 강하다", "고양이인 척 하는 무서운 중거리형 캐릭터\n빨간 적에 강하다", "형광등을 휘두르는 위험하기 짝이없는 캐릭터\n퇴근 후에는 매일 영화만 보고있다\n공격 스피드가 빠르고 빨간 적과 검은 적에 강하다"]
@@ -98,6 +151,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [6, 6]]
+      immune_weaken: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   15:
     name: [고양이 한박스, 고양이 갱단, 중기 C・A・T]
     desc: ["괴로움 속에서 인생을 보내고 있는 속공형 캐릭터\n초고속 질주하며 내지르는 일격으로\n적을 단숨에 분쇄 (범위 공격)", "인생이 괴로워 선을 넘어버린 속공형 캐릭터\n초고속 질주하며 내지르는 일격으로\n적을 단숨에 분쇄 (범위 공격)", "사회에 복귀하기 위해 공사현장에서 일하기 시작한 속공형 캐릭터\n초고속 질주하며 내지르는 일격으로 적을 단숨에 분쇄\n가끔 검은 적의 공격력을 다운시킨다 (범위 공격)"]
@@ -105,6 +172,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      massive_damage: {}
+      immune_weaken: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   16:
     name: [고양이 팬티, 고양이 잎사귀, 고양이 캔디]
     desc: ["극한의 땅에서도 최고의 퍼포먼스를\n발휘할 수 있게 방한 대책을 세운 원거리형 캐릭터\n징글고양이 상위 캐릭터", "급소 방어에 특화된 원거리형 캐릭터\n단, 전투에서는 전혀 도움이 되지 않음\n징글고양이 상위 캐릭터", "방어를 포기한 원거리형 캐릭터였지만\n친절한 고양이의 도움으로 이젠 괜찮아\n범위 공격을 습득"]
@@ -112,6 +191,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [metal]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [39, 120]]
+      immune_weaken: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   17:
     name: [귀여미, 스타 귀여미, 슈퍼 스타 귀여미]
     desc: ["아이돌을 꿈꾸는 꿈나무 냥코\n여러분들의 성원에 보답하고자\n오늘도 전국 각지에서 노래합니다 (가끔 크리티컬)", "스타의 자리까지 올라간 국민적 아이돌 냥코\n그런데도 한명 한명의 팬을 소중히 여기는\n아이돌계의 모범적인 존재 (가끔 크리티컬)", "오랜 세월의 노력 끝에 스타가 된 아이돌 냥코\n응원해 준 팬들의 성원은 결코 잊지 않는다\n소파동을 내며 가끔 크리티컬"]
@@ -133,6 +227,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      against_black: {}
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   20:
     name: [고양이 좀비, 데빌 고양이, 고양이 해골]
     desc: ["좀비 메이크업을 한 전투용 고급 캐릭터\n고양이 피쉬보다 다루기 쉬움\n빨간 적에 엄청 강하다", "데빌 메이크업을 한 전투용 고급 캐릭터\n고양이 피쉬보다 다루기 쉬움\n빨간 적에 엄청 강하다", "하트풀 가슴에 못박힌 전투용 고급 캐릭터\n고양이 피쉬보다 다루기 쉬움\n빨간 적과 좀비에 엄청 강하고 범위 공격을 획득"]
@@ -140,6 +248,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   21:
     name: [고양이 무사, 고양이 나이트, 고양이 파티쉐]
     desc: ["무사도를 추구하는 전투용 캐릭터\n공격력과 체력이 모두 뛰어남\n올라운드 캐릭터", "기사도에 충실한 전투용 캐릭터\n공격력과 체력이 모두 뛰어남\n올라운드 캐릭터", "과자의 길을 통달한 전투형 캐릭터\n무기에 장착된 달달한 휘핑크림으로\n아주 가끔씩 적을 느리게한다"]
@@ -147,6 +271,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      weaken:
+        max_level: 10
+        minmax: [[10, 10], [24, 60], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   22:
     name: [스모 고양이, 마담·더·스모, 고양이 주먹밥]
     desc: ["고체력의 방어용 캐릭터\n탱크 고양이보다 능력치가 높음\n공격력도 그럭저럭 (범위 공격)", "새로운 경지에 이르러 변화한 방어용 캐릭터\n탱크고양이보다 능력치가 높음\n공격력도 그럭저럭 (범위 공격)", "흥부가 놀부아내에게 뺨맞는 걸 보고 흉내내고 있다\n탱크 고양이보다 능력치가 높음\n단련을 거듭하여 이동 스피드가 업됐다 (범위 공격)"]
@@ -154,6 +294,16 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      immune_freeze: {}
+      immune_toxic: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   23:
     name: [고양이 피버, 고양이 카니발, 고양이 아미고]
     desc: ["모두를 행복한 기분으로 만들어주는\n댄싱 냥코\n생산 코스트가 저렴해서 다량 생산 가능", "세상을 행복한 기분으로 만들어 주는\n축제 냥코\n오늘도 격렬하게 춤춘다", "세계중의 세뇨리따를 행복한 기분으로 만들어 주는\n멕시칸페스타 냥코\n아주 가끔씩 적을 날려버린다"]
@@ -161,6 +311,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 15]]
+      immune_surge: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
   24:
     name: [고양이 스커트, 고양이 타이츠, 고양이 훈도시]
     desc: ["구제옷 가게에서 구입한\n예쁜 스커트를 장착한 원거리형 캐릭터\n징글 고양이 상위 캐릭터", "백화점에서 우연히 발견한 속옷을\n새로운 방어도구라고 착각하고 있는 원거리형 캐릭터\n징글 고양이 상위 캐릭터", "모 회사에서 제작한 새로운 속옷을 발견하고\n바로 충동구매 해버린 원거리형 캐릭터\n공격 횟수가 업 됐고, 가끔 베리어를 뚫어버린다"]
@@ -168,6 +332,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [alien]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   25:
     name: [고양이 발키리, 고양이 발키리·진, 고양이 발키리・성]
     desc: ["천계에서 강림한 전쟁의 여신\n신에게 하사받은 최강의 창 야옹그릴은\n적을 한꺼번에 공격 가능 (범위 공격)", "본래의 모습으로 클래스 체인지한 전쟁의 여신\n신이 귀찮게 작업을 걸어와서 곤란해 하고 있음\n적을 한꺼번에 공격 가능 (범위 공격)", "냥코들의 힘으로 본래의 모습을 되찾은 전쟁의 여신\n신에게 새로 하사받은 창 성그릴로 적을 무찌른다\n가끔씩 적을 잠시 동안 멈춘다 (범위 공격)"]
@@ -217,6 +396,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[8, 80]]
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   32:
     name: [고양이 일진, 분노의 고양이 일진, 격노의 고양이 일진]
     desc: ["학교에서는 무서울 게 없는 불량 냥코\n떠있는 적을 가끔 잠깐 멈춘다 (범위 공격)", "냉장고의 아이스크림을 아빠가\n먹어버려 분노에 눈을 뜬 불량 냥코\n떠있는 적을 가끔 잠깐 멈춘다 (범위 공격)", "분노를 주먹에 눌러담아 싸우는 불량 냥코\n오늘도 길에서 주운 동전으로 아이스크림을 사먹는다\n떠있는 적과 고대종을 가끔 잠깐 멈춘다 (범위 공격)"]
@@ -224,6 +419,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[33, 33], [5, 50]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   33:
     name: [고양이 댄스, 고양이 알몸 댄스, 고양이 캉캉]
     desc: ["모 댄스 스쿨에서 탑댄서를 꿈꾼다\n다량 생산이 간단해서 쓰기 좋은 캐릭터\n빨간 적의 이동을 아주 가끔 느리게 한다", "모 댄스 스쿨에서 탑댄서를 꿈꾸지만\n경쟁률이 너무 높아 어쩔 수 없이 방향전환 한 캐릭터\n빨간 적의 이동을 아주 가끔 느리게 한다", "과격한 춤으로 모 댄스 스쿨에서 퇴학 당한\n도발적이고 정열적인 댄서\n빨간 적의 이동을 가끔 느리게 한다"]
@@ -231,6 +442,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      loot_money: {}
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   34:
     name: [고타츠양이, 고양이TV, 고양이 문어단지]
     desc: ["겨울을 대비해 기능성을 향상 시킨 캐릭터\n가끔 떠있는 적의 공격력을 다운시킨다", "사람을 놀래키기 위해 TV안에 들어간 후\n그대로 못 나오게 된 지박령\n떠있는 적에 맷집이 좋고, 가끔 공격력을 다운시킨다", "TV프로「문어 포획 작전」에서 문어단지에 숨은 이후\n기분 좋은 따스함에 사로잡혀버린 고양이. 파동을 없애며\n떠있는 적에 맷집이 좋고, 가끔 공격력을 다운시킨다"]
@@ -238,6 +461,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   35:
     name: [고양이 루가, 케사란파사란, 울트라 케사란]
     desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n모든 적을 후방으로 날려버린다", "고양이인지 거대화 변신 영웅인지 정체를 알 수 없는\n캐릭터. 메탈 적 이외의 적을 날려버리고\n적의 움직임을 멈춘다 (범위 공격)"]
@@ -245,6 +482,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      immune_surge:
+        ultra: 1
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[5, 50], [30, 30]]
+        ultra: 1
   36:
     name: [오덕 고양이, 고양이 해커, 고양이 슈퍼 해커]
     desc: ["집안이라면 어디에서도 지지 않을 자신이 있다\n인터넷계에 폭풍을 일으키는 남자\n초원거리 공격이 가능 (원거리 공격)", "버튼 하나로 모든것을 움직인다\n엘리트 대학출신의 하이테크 냥코\n초원거리 공격이 가능 (원거리 범위공격)", "손가락 하나 까딱 않고 모든 것을 움직일 수 있는 천재 해커. \n며칠 전, 가상 화폐 폭락으로 엄청난 손실을 입었다\n메탈 적 이외의 움직임을 순간 느리게 한다 (원거리 범위공격)"]
@@ -252,6 +515,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[6, 60]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      break_barrier:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   37:
     name: [고양이 스위머, 고양이 버터플라이, 고양이 반인어]
     desc: ["승부할 때마다의 슬픔을\n홀로 우는 것으로 진정한 강함을 깨달은 캐릭터\n떠있는 적에게 초 데미지를 입힌다", "끝 없는 고통을 받아들이는 것으로\n축복을 손에 넣은 노력의 캐릭터\n떠있는 적에게 초 데미지를 입힌다", "고양이로서의 한계를 넘은 캐릭터\n더 빠른 스피드를 손에 넣었지만 대회에는 출전 불가\n떠있는 적에게 초 데미지를 입힌다"]
@@ -259,6 +538,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   38:
     name: [고양이 홉핑, 고양이 마사이, 고양이 강시]
     desc: ["장난감 양판점에서 텐션이 최고로\n올라가는 홉핑을 획득한 캐릭터\n생산 코스트가 저렴하며, 때때로 살아남는다", "이국의 문화를 접하고, 이국의 문화를\n도입한 새로운 코스튬 마니아\n생산 코스트가 저렴하며, 때때로 살아남는다", "이국의 호러영화의 영향을 받은 코스프레어\n이마의 부적이 전재산\n생산 코스트가 저렴하며 반드시 살아남는다"]
@@ -266,6 +561,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   39:
     name: [고양이 차륜, 고양이 태양, 고양이 쿨]
     desc: ["자전거 타는 게 너무 귀찮아서\n스스로 차바퀴가 되어버린 캐릭터\n에이리언에 초 데미지를 입힌다 (범위 공격)", "일식붐을 계기로\n스스로 태양계처럼 모습을 바꿔버린 캐릭터\n에이리언에 초 데미지를 입힌다 (범위 공격)", "쿨 비즈니스로 시원한 비쥬얼로\n진화한 캐릭터\n에이리언에 초 데미지를 입힌다 (범위 공격)"]
@@ -273,6 +584,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[13, 40]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   40:
     name: [고양이 사과, 왕대갈이군, iCat]
     desc: ["강에서 흘러내려온 사과를 주워\n몸에 걸친 캐릭터\n빨간 적의 움직임을 아주 가끔씩 잠깐 멈춘다", "길가에 떨어져있던\n무언가의 잔해를 몸에 걸친 캐릭터\n빨간 적의 움직임을 아주 가끔씩 잠깐 멈춘다", "컬러풀한 거대 사과를 몸에 걸친 캐릭터\n터틀넥이 아주 잘 어울리는 그의 아이디어에 세계가 바뀐다\n빨간 적의 움직임을 반드시 멈춘다 (범위 공격)"]
@@ -280,6 +607,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   41:
     name: [고양이 욕조, 섹시 고양이 욕조, 고양이 욕조 골드]
     desc: ["언제나 깔끔한 것을 좋아하는 원거리형 캐릭터\n빨간 적에 초 데미지를 입힌다", "언제나 깔끔한 것을 좋아하는 원거리형 캐릭터\n솜털 처리도 빠지지 않고 하고있다\n빨간 적에 초 데미지를 입힌다", "언제나 깔끔한 것을 좋아하는 원거리형 캐릭터\n더러운 돈을 세탁하고 만든 황금 욕조로\n빨간 적에 초 데미지를 입힌다"]
@@ -287,6 +630,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   42:
     name: [고양이 에스테, 고양이 젠느, 고양이 퍼펙트]
     desc: ["아름다움을 위해서라면 어떤 투자도 아끼지 않는다\n아름다운 다리를 가진 캐릭터와의 콜라보는 미의 극치\n원거리형으로 범위 공격도 가능한 귀중한 캐릭터", "팬에게 젠느씨라고 불리우며\n언제나 주목받는 멋쟁이 캐릭터\n원거리형으로 범위 공격도 가능한 귀중한 캐릭터", "엄청난 자기계발로 사이보그화된 고양이\n그녀의 퍼펙트한 바디는 모든 여성들의 부러움의 대상\n원거리형으로 범위 공격도 가능한 귀중한 캐릭터"]
@@ -294,6 +653,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   43:
     name: [고양이 아이스, 고양이 아이스퀸, 고양이 아이스 크리스탈]
     desc: ["얼음 세계로부터 내려온 소녀에게\n마음을 빼앗겨버린 냥코 (범위 공격)\n빨간 적의 움직임을 가끔 잠깐 멈춘다", "사방의 얼음에 갇힌 덕분에\n영원한 생명을 얻은 냥코 (범위 공격)\n빨간 적의 움직임을 가끔 잠깐 멈춘다", "얼음의 여왕으로 성장 한 소녀를 지켜보는\n아름다운 얼음의 결정이 된 냥코\n빨간 적의 움직임을 잠깐 멈춘다 (범위 공격)"]
@@ -301,6 +674,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      strengthen:
+        max_level: 10
+        minmax: [[34, 34], [10, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [6, 60]]
+        ultra: 1
+      against_metal:
+        ultra: 1
   44:
     name: [고양이 머신, 고양이 머신・파, 고양이 머신・멸]
     desc: ["연방정부로부터 파괴병기의 제조를 의뢰 받아\n제작한 MS시리즈 시작기 1호 (범위 공격)\n빨간 적과 에이리언에 맷집이 좋다", "파괴병기로 이용당하는 것을 저지하기 위해\n연구시설로부터 탈출한 실전형 MS:RX-13 (범위 공격)\n빨간 적과 에이리언에 맷집이 좋다", "파괴병기 MS시리즈의 양산을 시작한 연방정부를\n저지하기 위해 결전형으로 진화한 MS:RX-Ω (범위 공격)\n빨간 적과 에이리언에 맷집이 좋고 파동을 없앤다"]
@@ -308,6 +705,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[50, 50], [39, 120]]
+      immune_knockback: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   45:
     name: [도깨비 야옹마, 도깨비신 야옹마, 헬파이어 도깨비 야옹마]
     desc: ["힘을 추구한 나머지 도깨비에게 매료 된\n광기의 캐릭터\n단발공격이지만, 펼쳐지는 일격은 강렬", "도깨비에게 매료된 후에도 더 큰 힘을 추구하는\n광기의 캐릭터\n단발공격이지만, 펼쳐지는 일격은 강렬", "궁극의 강함을 원해 나락을 떠돌다\n지옥의 업화에 타버린 광기의 캐릭터\n단발 공격에 득도하여 공격력이 업 됐다"]
@@ -315,6 +726,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [20, 200]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   46:
     name: [게이샤 고양이, 고양이였사옵니다]
     desc: ["예술의 길을 걷는 행동력 넘치는 캐릭터\n하지만 알고보면 그냥 고양이와 똑같다", "예술의 길을 너무 깊이 파고든 나머지\n자신은 이제 냥코가 아니라고 생각하는 냥코\n원거리 공격이 특징"]
@@ -329,6 +756,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 5
+        minmax: [[1, 5]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[10, 100]]
   48:
     name: [고양이 파이터, 메간톤 파이터, 맥시멈 파이터]
     desc: ["판타지 세계를 동경하는\n전투용 캐릭터\n빨간 적에 엄청 강하다", "판타지 세계를 동경해\n오더메이드로 갑옷을 주문한 캐릭터\n빨간 적에 엄청 강하다", "「괴물 퇴치의 상으로 국왕에게 하사 받았다」\n라는 설정으로 인터넷 최저가로 장비를 산 캐릭터\n빨간 적에 엄청 강하다 (범위 공격)"]
@@ -336,6 +779,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      immune_slow: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_weaken: {}
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   49:
     name: [고양이 해적, 냐옹 쿡선장, 냥・스페로]
     desc: ["모 만화의 영향으로\n해적왕을 꿈꾸는 캐릭터\n아주 가끔씩 빨간 적을 날려버린다", "해적=멋있다 라는 사상을 가지고 있다\n능력자도 아닌 주제에 수영도 못한다\n아주 가끔씩 빨간 적을 날려버린다", "어떤 해적 영화를 보고 전직한 금사빠 해적 매니아\n함께 바다를 항해할 동료를 찾고 있다\n가끔 빨간 적을 날려버린다"]
@@ -343,6 +798,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   50:
     name: [고양이 도둑, 괴도 야콘, 고양이 에몽]
     desc: ["재빠른 움직임으로 적을 희롱하는 캐릭터\n적을 쓰러뜨리면 받는 머니가 2배가 된다", "기기괴괴한 움직임으로 적을 희롱\n세계의 숨겨진 보물 콜렉터이기도 하다\n적을 쓰러뜨리면 받는 머니가 2배가 된다", "전국 각지를 돌다 어느샌가 대도둑이 된 고양이\n돈이 가득한 상자 안은 사차원이 아닌 그냥 돈상자다.\n적을 쓰러뜨리면 받는 머니가 2배가 된다"]
@@ -350,6 +819,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [51, 150]]
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   51:
     name: [고양이 승려, 고양이 스님, 고양이 법사]
     desc: ["사랑을 담아 적을 때려눕힌다\n깊은 자비의 마음을 가진 캐릭터\n아주 가끔씩 떠있는 적의 움직임을 느리게 한다", "감사의 마음을 담아 적을 승천시키는\n동정을 베푸는 캐릭터\n아주 가끔씩 떠있는 적의 움직임을 느리게 한다", "깨달음을 얻고 사람들을 구원하기 위한 여행을 떠난 캐릭터\n법사의 지팡이에 한대 맞으면 고민이 싹 날아간다.\n아주 가끔씩 떠있는 적의 움직임을 느리게 한다 (범위 공격)"]
@@ -357,6 +840,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   52:
     name: [고양이 점쟁이, 고양이 어부, 고양이 의사]
     desc: ["미래를 예언하는 유명한 점쟁이\n책을 사랑하는 캐릭터\n아주 가끔씩 떠있는 적을 날려버린다", "오늘도 거대참치를 찾아 헤메는 어부 일가의 장남\n뱃멀미가 심해서 배는 타지 않는다\n아주 가끔씩 떠있는 적을 날려버린다", "독으로 독을 해독하는거야라고 말하는게 입버릇인\n실력파 닥터. 대표저서는 「술독 돈독엔 답이 없다」\n가끔 떠있는 적을 날려버린다"]
@@ -364,6 +861,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   53:
     name: [고양이 샤먼, 고양이 라만사, 고양이 라만사 댄스]
     desc: ["샤먼이란 초자연적인 존재와 접촉할 수 있는 자\n라고 인터넷 사전에서 봤다\n아주 가끔씩 떠있는 적의 움직임을 순간 멈춘다", "초자연적인 존재에 조종 당하고만\n불쌍한 캐릭터\n아주 가끔씩 떠있는 적의 움직임을 순간 멈춘다", "초자연적인 존재와 춤에 푹 빠져버린 캐릭터\n속담 「춤출 땐 모두가 친구」의 어원이라고 한다\n아주 가끔씩 떠있는 적의 움직임을 멈춘다"]
@@ -371,6 +882,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   54:
     name: [에반젤리스트, 필리버스터]
     desc: ["특별한 이벤트를 통해서만 얻을 수 있는 캐릭터\n적의 움직임을 멈추는 능력을 가진 초능력 냥코\n밀리는 느낌이 들면 소환하자!", "특별한 이벤트를 통해서만 얻을 수 있는 캐릭터\n흐름을 방해할 수 있는 능력을 가진 초능력 냥코\n밀리는 느낌이 들면 소환하자!"]
@@ -385,6 +910,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   57:
     name: [고양이 아처, 고양이 큐피트, 고양이 궁수자리]
     desc: ["원거리에서 공격할 수 있는 지원형 고양이\n체력은 별로 없다\n떠있는 적에 초 데미지를 입힌다", "원거리에서 공격할 수 있는 지원형 고양이\n체력은 별로 없다\n떠있는 적에 초 데미지를 입힌다", "천계에서 쏜 화살의 피해가 끊이지 않아\n지상으로 쫓겨난 별자리 고양이\n떠있는 적에 초 데미지를 입힌다"]
@@ -392,6 +931,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
   58:
     name: [고양이 슈발리에, 고양이 베르세르크, 고양이 파라딘]
     desc: ["저주받은 검에 의해 통상공격은 강하지 않지만\n가끔 크리티컬이 나온다\n메탈 킬러 냥코", "저주받은 검에 의해 자아를 잃어버린\n메탈 킬러 냥코\n가끔씩 크리티컬이 나온다 (범위 공격)", "검의 저주에서 풀려나 진짜 힘을 되찾은 냥코\n성스러운 창으로 메탈적을 토멸한다\n가끔씩 크리티컬이 나온다 (범위 공격)"]
@@ -399,6 +950,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [metal]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      zombie_killer: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   59:
     name: [고양이 마검사, 쌍검 고양이 마검사, 쌍염무 고양이 마검사]
     desc: ["마법과 검을 멋지게 소화해 낸다\n전투용 캐릭터\n불꽃검으로 빨간 적에게 초 데미지를 입힌다", "마법과 검을 멋지게 소화한다.\n전투전용 캐릭터.\n불꽃검으로 빨간 적에게 초 데미지를 입힌다", "마법과 검의 실력자로 성장한 마검사\n운영하고 있는 닭꼬치가게의 퍼포먼스에서도 활약\n불꽃검으로 빨간 적에게 초 데미지를 입힌다"]
@@ -406,6 +970,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   60:
     name: [고양이 베이비, 고양이 베이비즈, 고양이 베이비카트]
     desc: ["혼자서는 아무것도 못하는 아기 냥코\n조금만 건드려도 무서운 아빠가 출현\n가끔 떠있는 적과 에이리언을 날려버린다 (범위 공격)", "혼자서는 아무것도 못하는 아기 냥코들\n조금만 건드려도 무서운 아빠가 출현\n가끔 떠있는 적과 에이리언을 날려버린다 (범위 공격)", "많이 모여도 아무것도 못하는 아기 냥코들\n아기와 눈만 마주쳐도 무서운 아빠가 출현 (범위 공격)\n가끔 떠있는 적과 에이리언을 날려버리고, 파동을 뿜어낸다"]
@@ -413,6 +991,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [24, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   61:
     name: [고양이브・론즈, 예술의 고양이스테츄, 퀴즈왕 고양이]
     desc: ["고체력 방어용 캐릭터\n공격력도 꽤 있는 편\n가끔 메탈 적을 날려버린다 (범위 공격)", "그 유명한 조각상인 척하고 있는 아트 고양이\n공격력도 꽤 있는 편\n가끔 메탈 적을 날려버린다 (범위 공격)", "장수 퀴즈 프로를 지키고 있는 뇌섹파 고양이\n최근 신인 바보 탤런트의 활약으로 인기 주춤\n가끔 메탈 적을 날려버린다 (범위 공격)"]
@@ -427,6 +1019,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
   63:
     name: [고양이퐁, 고양이뽀용]
     desc: ["플라스틱제의 뽑기머신에\n들어간 탱크 고양이 (범위 공격)\n캡슐에 들어가 있어 탱크 고양이보다 조금 튼튼", "플라스틱제의 뽑기머신에\n들어간 조금 긴 탱크 고양이 (범위 공격)\n캡슐에 들어가 있어 탱크 고양이보다 조금 튼튼"]
@@ -462,6 +1070,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_angel: {}
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   68:
     name: [꼬마 가우, 꼬꼬마 가우, 크리스탈 꼬꼬마 가우]
     desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n검은 적으로부터의 데미지를 크게 경감시킨다\n코스트가 저렴해서 검은 적의 방어에 최적", "발차기 공주 돌격대에 등장하는 캐릭터\n크리스탈화 되어 날려버린다 효과를 무효화!\n코스트가 저렴해서 검은 적의 방어에 최적"]
@@ -497,6 +1117,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[60, 60], [14, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   73:
     name: [백호, 분노의 백호, 진노의 백호]
     desc: ["전설의 무구 ｢야옹건틀렛｣의 저주 때문에\n호랑이 모습으로 변해버린 무장 (범위 공격)\n검은 적에게 맷집이 좋고, 체력이 줄면 공격력이 대폭 상승", "전설의 무구 ｢야옹건틀렛｣의 저주 때문에\n머리에 벚꽃나무가 피었다 (범위 공격)\n검은 적에게 맷집이 좋고, 체력이 줄면 공격력이 대폭 상승", "아름답게 피어난 벚꽃은 무장을 파괴와 충동의 세계로\n유혹한다. 검은 적에 맷집이 좋고, 체력이 감소하면\n공격력이 대폭 상승. 파동 데미지를 무효화 시킨다 (범위 공격)"]
@@ -504,6 +1140,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   74:
     name: [하데스, 분노의 하데스, 천마의 하데스, 몽환천마 하데스]
     desc: ["죽음의 신에 씌여버린\n여러 생명체와 한마리의 냥코\n검은 적의 움직임을 반드시 멈춘다 (범위 공격)", "죽음의 신의 한 서린 파워가 더욱더 가속\n덩달아 냥코의 번뇌 파워도 초 가속\n검은 적의 움직임을 반드시 멈춘다 (범위 공격)", "냥코의 번뇌로 제6천마왕으로 변화한 하데스\n지옥의 망자들을 지배하여 암흑 세계의 천하통일을 노린다\n검은 적의 움직임을 반드시 멈춘다 (범위 공격)", "망자들의 끝없는 증오의 불꽃이 힘의 원천인 하데스\n불타오르는 암흑 세계 정복 후 천상천하 정복을 시작했다\n검은 적과 악마의 움직임을 멈추고 열파를 낸다 (범위 공격)"]
@@ -511,6 +1163,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   75:
     name: [순록피쉬, 고양이회 모듬, 피쉬・더・노엘]
     desc: ["전투용 캐릭터가 귀엽게 진화\n꿈을 싣고 선물을 배달한다!\n적을 쓰러뜨렸을 때, 받는 머니 증가", "전투용 캐릭터가 맛있게 진화\n몸을 깎아가며 내놓는 최고의 대접!\n적을 쓰러뜨렸을 때, 받는 머니 증가", "전투용 캐릭터가 스위~트하게 진화\n초콜렛이 듬뿍! 뼈까지 맛있게 드세요!\n적을 쓰러뜨렸을 때, 받는 머니 증가 (범위공격)"]
@@ -525,6 +1191,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   77:
     name: [번개의 신・산디아, 번개의 신・산디아β, 천둥의 신・산디아β]
     desc: ["번개의 힘을 조종하는 사이버 걸\n원거리에서 발사되는 강렬한 번개는\n빨간 적에게 초 데미지를 입힌다 (범위 공격)", "만성 어깨결림에 언제나 괴로워하고있다\n원거리에서 발사되는 강렬한 번개는\n빨간 적에게 초 데미지를 입힌다 (범위 공격)", "사이즈가 맞는 옷이 없어 고민인 산디아β\n원거리에서 발사되는 강렬한 대번개는\n빨간 적에게 초 데미지를 입힌다 (범위 공격)"]
@@ -532,6 +1212,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   78:
     name: [드로이드, 야옹로이드, 스프링 드로이드]
     desc: ["고체력의 방어용 캐릭터\n탱크고양이보다 춤을 잘 춘다\n메탈 적에게 맷집이 좋다 (범위 공격)", "고체력의 방어용 캐릭터\n유성매직으로 그려졌기 때문에 물에도 강하다\n메탈 적에게 맷집이 좋다 (범위 공격)", "고체력의 방어용 캐릭터에 계절한정 칼라 등장!\n성능은 변함 없지만 생산능력이 업!\n메탈 적에게 맷집이 좋다 (범위 공격)"]
@@ -581,6 +1275,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [57, 120], [50, 50]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   85:
     name: [성룡 메기도라, 성룡왕 메기도라, 성룡황제 메기도라]
     desc: ["세계정화를 위해 생을 받은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다", "분노의 파워가 폭주한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다", "성룡석을 손에 넣고 진정한 황제가 된 용의 왕\n사명을 이루어내기 위해 모든 것을 태워버린다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다"]
@@ -588,6 +1294,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [3, 3]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+        ultra: 1
+      against_metal:
+        ultra: 1
+      against_relic:
+        ultra: 1
   86:
     name: [용기사 바르스, 용기사왕 바르스, 용기사황제 바르스]
     desc: ["수천 마리의 드래곤을 거느린 전설의 용기사\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 검은 적을 날려버려 이동을 느리게 한다", "전투능력을 강화한 전설의 용기사\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 검은 적을 날려버려 이동을 느리게 한다", "어떤 사나운 용도 지배하는 용기석을 가진\n몇천년의 드래곤 군단을 이끄는 전설의 용기사\n가끔 검은 적을 날려버려 이동을 느리게 한다 (범위 공격)"]
@@ -595,6 +1323,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   87:
     name: [신룡 카무쿠라, 신룡왕 카무쿠라, 신룡황제 카무쿠라]
     desc: ["세계의 천지이변을 조종하는 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 빨간 적을 날려버려 이동을 느리게 한다", "일곱개의 용주에 의해 각성한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 빨간 적을 날려버려 이동을 느리게 한다", "일곱개의 용주의 힘을 각성시키는 신룡석을 몸에 지니고\n인간들의 바람을 이루어주는 전설의 신룡 (범위 공격)\n가끔 빨간 적을 날려버려 이동을 느리게 한다"]
@@ -602,6 +1342,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   88:
     name: [용병기 라이덴, 용병기왕 라이덴, 용병기황제 라이덴]
     desc: ["용족을 섬멸하기 위해 만들어진 전설의 고대병기\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n빨간 적을 반드시 날려버린다", "제어기능의 한계를 넘어 버린 고대병기\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n빨간 적을 반드시 날려버린다", "용병기석의 힘으로 초전압을 손에 넣은 고대병기\n최대출력의 레이저로 모든 것을 다 태워버린다 (범위 공격)\n빨간 적에 엄청 강하고 반드시 날려버린다"]
@@ -609,6 +1361,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_knockback: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
   89:
     name: [고양이 줄넘기, 고양고양 줄넘기, 고양이 국수]
     desc: ["영어로 말하면 로프점핑\n생산 코스트가 저렴해서 다량 생산 가능\n아주 가끔씩 크리티컬 공격을 낸다", "혼자서 하는 거 보다 둘이 더 즐거워\n생산 코스트가 저렴해서 다량 생산 가능\n아주 가끔씩 크리티컬 공격을 낸다", "빠르게! 싸게! 맛있게! 를 외치는 수타 국수가게 사장님\n박리다매로 언젠가 건물주가 될 수 있을지는 의문\n메탈 적에 맷집이 좋고, 아주 가끔씩 크리티컬 공격을 낸다"]
@@ -728,6 +1501,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[5, 50]]
+        ultra: 1
+      against_relic:
+        ultra: 1
+      immune_surge:
+        ultra: 1
   107:
     name: [카이, 카이μ, 슈퍼 카이μ]
     desc: ["돼지머신「돈돈」을 타는 백치미 소녀\n돼지가 내뿜는 초근거리 빔은 압도적 (범위 공격)\n떠있는 적에게 맷집이 좋고, 딱 1번 살아남을 수 있다", "상냥하게 해주면 누구나 좋아하게 되어버린다\n보는 눈이 낮은 카이 (범위 공격)\n떠있는 적에게 맷집이 좋고, 딱 1번 살아남을 수 있다", "자신을 좋아해 주면 바로 그사람에게 빠져버린다!\n멧돼지 머신「울리보구」를 타고 맹공격을 쏟는다\n떠있는 적에게 맷집이 좋고, 딱 1번 살아남을 수 있다"]
@@ -735,6 +1530,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[10, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   108:
     name: [갓파 마인, 갓파κ, 샤이니 갓파κ]
     desc: ["마력을 부스트 시킨 지팡이를 가진 매지컬 소녀\n내뿜는 광선은 악한 힘을 부숴버린다 (범위 공격)\n떠있는 적의 움직임을 가끔 잠깐 멈춘다", "잘 웃지 않는 그녀이지만 고양이 앞에서는\n그 누구에게도 보여준 적 없는 얼굴을 보여준다 (범위 공격)\n떠있는 적의 움직임을 가끔 잠깐 멈춘다", "이성의 호의를 모두 사무적으로 받아들이는 둔감 소녀.\n고양이와 단 둘만의 휴일을 제일 좋아한다\n떠있는 적의 움직임을 가끔 잠깐 멈춘다 (범위 공격)"]
@@ -742,6 +1553,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[7, 25]]
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [3, 3], [600, 600], [2800, 2800]]
+        ultra: 1
   109:
     name: [냥코 3형제, 비밀요새 마기로스]
     desc: ["플라스틱제의 뽑기 캡슐에\n들어간 사이좋은 냥코 3형제 (범위 공격)\n착한 아이는 따라하면 안된다냥!", "3명의 지혜를 모아 만들어 낸\n비밀요새 마기로스 (범위 공격)\n메인 장갑이 박스라서 습기에 약하다"]
@@ -861,6 +1698,24 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [5, 5]]
+        ultra: 1
   126:
     name: [아수라, 분노의 아수라, 분노의 투우 아수라]
     desc: ["전설의 무구 ｢아수라 검｣의 저주로\n압도적인 초 파괴력을 지닌 수호신\n하지만 검은 적과 에이리언에게만 공격할 수 있다 (범위공격)", "전설의 무구 ｢아수라 검｣의 귀신 모드로\n더 큰 파괴력을 가지게 된 전투의 신\n하지만 검은 적과 에이리언에게만 공격할 수 있다 (범위공격)", "｢아수라 검｣의 진정한 모습을 해방한 전국 무장\n본래의 힘을 되찾아 이차원의 파괴력을 자랑한다\n하지만 검은 적과 에이리언에게만 공격할 수 있다 (범위공격)"]
@@ -868,6 +1723,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+      against_red:
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      against_aku:
+        ultra: 1
   127:
     name: [꼭두각시 냥코, 고양이 인형사, 고양이 채피]
     desc: ["재빠른 이동으로 적에게 다가가는 꼭두각시 냥코\n도대체 어떻게 움직일 수 있는건지 모르겠다\n메탈 적의 움직임을 가끔 느리게 한다", "재빠른 이동으로 적에게 다가가는 고양이 인형사\n복화술이 특기인거 같다\n메탈 적의 움직임을 가끔 느리게 한다", "재빠른 이동으로 적에게 다가가는 인형극단원\n인형을 끌고 다니는 것인지 끌려다니는 건지... \n메탈 적의 움직임을 가끔 느리게 한다"]
@@ -924,6 +1799,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   136:
     name: [크레인 냥코, 은하전사 코스모, 궁극전사 코즈믹 코스모]
     desc: ["새 흉내 내기 콘테스트의 장거리 비행부문에서\n최고 기록을 세운 굉장한 냥코\n천사와 떠있는 적을 가끔 날려버린다 (범위 공격)", "최장거리 기록은 우주까지 도달했다\n별자리의 힘을 손에 넣은 울트라 진화한 냥코\n천사와 떠있는 적을 반드시 날려버린다 (범위 공격)", "결국 은하의 끝까지 다다른 냥코\n그 영광은 도시전설로 남아있다 (범위 공격)\n천사와 떠있는 적을 반드시 날려버려 움직임을 멈춘다"]
@@ -931,6 +1822,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      colossus_killer: {}
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [30, 300]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   137:
     name: [복숭아 동자, 폭주형제 피치스타즈, 폭주형제 피치저스티스]
     desc: ["자신보다 더 강한 녀석을 찾아 떠도는\n잘익은 복숭아같은 엉덩이를 가진 냥코\n천사와 빨간 적의 움직임을 가끔 멈춘다 (범위 공격)", "여행을 하던 중에 노력과 결과는\n비례하지만은 않는다는걸 깨달은 냥코 폭주족\n천사와 빨간 적의 움직임을 가끔 멈춘다 (범위 공격)", "결과가 전부가 아닌 걸 깨닫고\n세계가 물들어가기 시작한 우둔한 부대\n천사와 빨간 적의 움직임을 가끔 멈춘다 (범위 공격)"]
@@ -938,6 +1841,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [2, 2]]
+        ultra: 1
+      immune_wave:
+        ultra: 1
+      knockback:
+        max_level: 10
+        minmax: [[4, 40]]
+        ultra: 1
   138:
     name: [석공 냥돌이, 이동요새 카무이, 이동요새 골드카무이]
     desc: ["작은 돌맹이에도 혼을 불어넣을 수 있는 석공 냥코\n모정부의 수수께끼의 조직에 쫓겨 도망중\n천사와 검은 적에 초 데미지를 입힌다 (범위 공격)", "드디어 이동요새를 완성시킨 냥코\n모 정부를 괴멸시키기 위해 봉기했다\n천사와 검은 적에 초 데미지를 입힌다 (범위 공격)", "눈보라를 헤치고 황금 바디로 나타난 고양이\n모 정부를 섬멸하기 위해 움직인다\n천사와 검은 적에 초 데미지를 입힌다 (범위 공격)"]
@@ -952,6 +1881,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      slow:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   140:
     name: [태권도 냥코, 태권도 냥코 HG, 태권도 냥코 SP]
     desc: ["국제대회는 물론 와이프의 스트레칭까지\n전세계에서 활약하는 태권도 마스터\n발차기로 모든 이를 제압한다", "초심으로 되돌아가 HG(헤드 기어)를 장착한\n전설의 태권도 마스터\n전세계에 수많은 제자들이 존재한다", "얼빵한 얼굴과 스페셜한 도복을 손에 넣은\n정의의 태권도 마스터\n시원시원한 발차기로 여자들에게 인기만점"]
@@ -980,6 +1925,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      sage_killer:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1200, 1200], [2400, 2400]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+        ultra: 1
   145:
     name: [냥코 성 mini, 냥코 성 Jr, 냥코 성 Max]
     desc: ["멋지고 완벽한 냥코 성이 되기 위해\n열심히 수행 중인 냥코\n온 힘을 다해 파동을 뿜어내는 노력파", "소셜커머스에서 헬멧을 구입해 조금 더 리얼해졌다\n아닌 척 하면서 성안에서 몰래 들여다보는게 일과\n흥분하면 파동이 나와버린다", "이상의 냥코성을 완성시킨 냥코\n최신식 캐터필러는 지구온난화를 배려한 수동식\n변함없이 온 힘을 다해 파동을 뿜어내는 노력파"]
@@ -994,6 +1963,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   147:
     name: [죽마 고양이, 토템 고양이, 고양이 잡기단]
     desc: ["높은 곳에서 세상을 내려다 보고 싶어\n죽마를 타고 다니는 냥코\n아주 가끔씩 천사를 날려버린다", "높은 곳을 좋아하는 냥코들이 뭉쳐\n토템 타워를 만들어 하나가 되었다\n아주 가끔씩 천사를 날려버린다", "높은 곳을 목표로 잡기를 연마한 냥코\n의자를 하나 더 사기 위해 열심히 저금하는 중\n가끔씩 천사를 날려버린다"]
@@ -1001,6 +1984,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [1600, 1600], [1200, 1200]]
+      immune_wave: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   148:
     name: [양철 고양이, 양철 비행기 고양이, 로봇 고양이]
     desc: ["냥코와 비슷하게 만들어진 양철 고양이\n등 뒤의 태엽에 냥코의 혼을 불어넣었다\n아주 가끔씩 검은 적을 날려버린다", "저 큰 하늘을 날아보고 싶은 양철 비행기 고양이\n하지만 중량오버로 날 수 없다\n아주 가끔씩 검은 적을 날려버린다", "악의 조직에게 잡혀 암흑의 기술자로 개조된 불노불사의\n살육 고양이. 태양광 발전으로 움직이며 약점은 비.\n아주 가끔씩 검은 적을 날려버린다"]
@@ -1008,6 +2005,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      immune_knockback: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   149:
     name: [고양이 로커, 고양이 아티스트, 고양이 라면의 길]
     desc: ["음악 따위 집어 치우고 두부가게를 이으려 하지만\n콩 알러지 때문에 결심이 서지 않고 있다\n천사에 맷집이 좋다", "곡이 팔리지 않아 어쩌다가 그림을 그렸더니…\n역시나 팔리지 않지만 그냥 계속 그리고 있다\n두부가게 사장님인 로커. 천사에 맷집이 좋다", "고향의 두부가게를 포기하고 라면가게에 취직\n훈련은 받지 않았지만 입으로는 최고의 라면장인 화려한 \n면털기로 손님들을 즐겁게 한다.천사에게 맷집이 좋다"]
@@ -1015,6 +2026,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   150:
     name: [인어 고양이, 솔져 고양이, 카메라맨 고양이]
     desc: ["바다에서 구해준 왕자님을 잊지 못해\n육지로 기어 올라온 인어\n떠있는 적에 엄청 강하며, 때때로 살아남는다", "왕자님이 테러 조직에 유괴되었다는 소식을 듣고\n4년간 혹독한 훈련을 받은 인어 솔져\n떠있는 적에 엄청 강하며, 때때로 살아남는다", "보도에 목숨을 거는 저널리스트\n사진의 힘을 빌려 대전쟁의 실태를 전한다\n떠있는 적에 엄청 강하며, 때때로 살아남는다 (범위 공격)"]
@@ -1022,6 +2049,21 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      critical:
+        minmax: [[2, 2]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   151:
     name: [창가의 소녀 고양이, 창가의 공주 고양이, 창가의 무희 고양이]
     desc: ["언제나 핸섬보이를 꿈꾸는 말괄량이 소녀\n애독서는 셰익스피망의 「우리 엄마가 최고」\n천사를 가끔씩 잠깐 멈춘다 (범위 공격)", "언제나 핸섬 프린스를 꿈꾸는 말괄량이 공주\n좋아하는 음식은 물론 치맥\n천사를 가끔씩 잠깐 멈춘다 (범위 공격)", "언제나 자상하고 멋진 남편을 꿈꾸는 말괄량이 무희\n였지만 언젠가부터 그냥 심술궂은 왕언니\n천사를 가끔씩 멈춘다 (범위 공격)"]
@@ -1029,6 +2071,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[24, 60]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   152:
     name: [고양이 바벨, 고양이RG, 고양이 딜리버리]
     desc: ["무거운 것도 가볍게 척척 들어올려야 그게 바로 남자다!\n11명의 아이들과 7명의 부인들을 먹여살리는 한 집안의 기둥\n검은 적에 초 데미지를 입힌다 (범위 공격)", "드디어 인생의 제 12라운드에 도달\n새로운 인생의 기쁨을 깨달은 터프한 냥코\n검은 적에 초 데미지를 입힌다 (범위 공격)", "배달용 피자를 먹어버리는 막가파 배달 알바 고양이 \n비만의, 비만에 의한, 비만을 위한 자유를 추구한다!\n검은 적에 초 데미지를 입힌다 (범위 공격)"]
@@ -1036,6 +2094,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   153:
     name: [고양이 스케이트, 고양이 요요, 고양이 콤비]
     desc: ["유행에 민감한 냥코 커플이 시작한 스포츠는 바로\n얼음 위의 스포츠 피겨 스케이팅\n불타오르는 둘의 사랑에 국경 따윈 없다 (범위 공격)", "고양이 그녀를 요요처럼 돌려버린다\n이국의 전통예능을 멋지게 소화한 냥코 커플\n불타오르는 둘의 스핀에 국경 따윈 없다 (범위 공격)", "중년이 된 냥코 커플. 개그맨 콤비로 제2의 전성기를 누리는 중.\n둘만의 엄청난 호흡으로 전 세계를 웃음바다로 만든다\n고대종에 엄청 강하다 (범위 공격)"]
@@ -1043,6 +2117,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [39, 120], [50, 50]]
+      immune_knockback: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   154:
     name: [고양이 토스터, 고양이 영사기, 고양이 클래식]
     desc: ["매일 빵 굽는일에 질려 데모를 일으킨 토스터\n천장까지 빵을 날리는 일이 인생의 제일의 기쁨\n아주 가끔씩 천사의 움직임을 느리게 한다 (범위공격)", "한 때는 명배우들을 찍는 우수한 기계였지만\n디지털 시대에 버림받아 자포자기한 영사기\n아주 가끔씩 천사의 움직임을 느리게 한다 (범위공격)", "센티멘탈한 추억의 멜로디로 전의를 상실 시킨다\n태엽식의 고양이형 자주포대. 아주 가끔씩 베리어를 \n뚫어버리고 천사의 움직임을 느리게 한다 (범위공격)"]
@@ -1050,6 +2138,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   155:
     name: [고양이 훌라, 고양이 트리플 훌라, 고양이 스프링 훌라]
     desc: ["요즘 들어 배가 볼록해진거 같아\n다이어트를 위해 훌라후프를 시작한 냥코\n아주 가끔 메탈 적의 움직임을 멈춘다", "체형유지를 위해 시작했지만 무언가가\n잘못되어가고 있음을 느끼기 시작했다\n아주 가끔 메탈 적의 움직임을 멈춘다", "이제는 기네스 퍼포먼스에 도전하는 고양이\n훌라후프도 추가로 사버려서 이젠 정말 멈출 수 없다\n가끔 메탈 적의 움직임을 멈춘다"]
@@ -1064,6 +2166,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   160:
     name: [명계의 칼리파, 명계의X칼리파, 명계의XX칼리파]
     desc: ["중학교 입학식 날 학교를 괴멸상태로 만들어버린 소녀\n언제 어디서나 함께인 「냥스칼리버」로\n천사에 초 데미지를 입힌다 (범위 공격)", "여름방학식 날 교장 선생님을 명계에 가둬버린 학교 전설의 소녀\n진정한 자신의 모습을 알아봐 줄 친구를 찾아 헤메이고있다\n천사에 초 데미지를 입힌다 (범위 공격)", "졸업식 후, 고백하러 온 남학생들을 한명도 빠짐없이\n이 세계에서도 졸업시켜버린 전설의 소녀\n천사에 초 데미지를 입힌다 (범위 공격)"]
@@ -1071,6 +2185,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   161:
     name: [피닉스, 영생불사 피닉스, 다크피닉스]
     desc: ["발차기 공주 돌격대에 등장하는 캐릭터\n꿈의 콜라보레이션으로 등장\n천사에 엄청 강하다 (범위 공격)", "발차기 공주 돌격대에 등장하는 영생불사 피닉스를\n타고 싶어하는 냥코들이 머리를 쥐어 짜내 만들어진 걸작\n버드형 무선조종. 천사에 엄청 강하다 (범위 공격)", "발차기 공주 돌격대에 등장하는 다크피닉스처럼\n칠한 버드형 무선조종. 검은 잉크가 남은 김에\n고양이도 칠해봤다. 천사에 엄청 강하다 (범위 공격)"]
@@ -1085,6 +2213,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        minmax: [[5, 5]]
+      against_zombie: {}
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   169:
     name: [아시루가, 아시란파사란, 아타타타아시란]
     desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n광범위의 적의 움직임을 느리게 한다 (범위 공격)", "고양이인지 암살권의 전수자인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n초광범위의 적의 움직임을 느리게 한다 (범위 공격)"]
@@ -1092,6 +2231,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
   170:
     name: [쿠비루가, 쿠비란파사란, E・쿠비란파사란]
     desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n적을 날려버리는 파동을 뿜어낸다", "고양이인지 거리에서 싸우는 레슬러인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 크리티컬 파동을 뿜어낸다"]
@@ -1106,6 +2261,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   172:
     name: [바라라가, 바라란파사란, 피카란바라란]
     desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n광범위의 적의 움직임을 멈춘다 (범위 공격)", "고양이인지 우주에서 온 재앙인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n광범위의 적의 움직임을 멈추고 공격력을 낮춘다 (범위 공격)"]
@@ -1134,6 +2303,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [red, float, black, metal, angel, alien, zombie, relic, white, aku]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[17, 80], [30, 30]]
+      surge_mini:
+        max_level: 10
+        minmax: [[28, 100], [5, 5], [2000, 2000], [2000, 2000]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   176:
     name: [냥복치, 고양이 톨피드]
     desc: ["수중전에 대비하기 위해 개복치가 된 냥코\n고양이일적 습관으로 아직까지 물과 친해지지 못했다\n빨간 적에 맷집이 좋다 (범위공격)", "진화의 과정에서 다리 대신 팔이 생겼다\n머리 밟히는 것을 극도로 싫어하는 수중병기 냥코\n빨간 적에 맷집이 좋다 (범위공격)"]
@@ -1155,6 +2335,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   180:
     name: [타쿠야와 유키, 타쿠야와 유키와 고양이, 타쿠야와 뷰티 유키]
     desc: ["소멸도시에서 참전! 무엇이든지 배달하는 배달부 타쿠야와\n수수께끼의 소녀 유키. 3년 전에 \"소멸\"한 도시로 향한다\n떠있는 적에 맷집이 좋다 (범위 공격)", "스피어와 착각한 고양이를 어쩔 수 없이 태우고\n3년 전에 \"소멸\"한 도시를 향한다 \n떠있는 적에 맷집이 좋다 (범위 공격)", "돌연 행방불명된 유키를 찾기 위해 열쇠를 쥔 \n수수께끼의 생물을 운반 중. 떠있는 적에 맷집이 좋고 \n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다 (범위 공격)"]
@@ -1169,6 +2365,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   182:
     name: [고양이 유키, 뷰티 고양이 유키]
     desc: ["소멸에서 기적적으로 살아남은 소녀에 영향을 받아\n혼자서 불가사의한 힘과 비행 능력을 습득한 고양이\n아주 가끔 떠있는 적의 움직임을 순간 멈춘다", "소멸에서 기적적으로 살아남은 소녀와 외모도 \n비슷해지기 위해 성형으로 아름답게 진화한 고양이\n아주 가끔 떠있는 적의 움직임을 순간 멈춘다"]
@@ -1204,6 +2416,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [9, 90]]
+      immune_knockback: {}
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   187:
     name: [코넬리아, 코넬리아CC]
     desc: ["메르크 스토리아에서 참전!\n비룡에의 동경을 가슴에 품고 하늘의 다리를 꿈꾸는 여성\n검은 적과 빨간 적의 움직임을 가끔 순간 멈춘다 (범위 공격)", "메르크 스토리아에서 참전!\n하늘의 다리의 재료가 되는 용의 비늘을 찾는데 열심이다\n검은 적과 빨간 적의 움직임을 가끔 순간 멈춘다 (범위 공격)"]
@@ -1253,6 +2479,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [23, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_aku:
+        ultra: 1
+      surge:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1720, 1720], [1400, 1400]]
+        ultra: 1
   196:
     name: [메카소녀 진, 닥터 메카소녀 진, 스페이스 메카소녀 진]
     desc: ["애독하는 로봇잡지의 부록을 모아 만든 로봇을\n스패너 하나로 살벌 머신으로 개조해버린 소녀 (범위 공격)\n에이리언과 검은 적에 맷집이 좋고 딱 1번 살아남을 수 있다", "심야 공항에 몰래 숨어들어 제트기를 드라이버 하나로 해체\n단 하룻밤만에 결전의 머신을 완성시킨 소녀 (범위 공격)\n가끔 에이리언을 날려버려 공격력을 다운시킨다", "국제 우주기지 NYASA의 우주선을 원격조작으로\n초변형 로봇으로 탈바꿈시킨 소녀 (범위 공격)\n에이리언에 초 데미지를 주고 움직임을 느리게 한다"]
@@ -1260,6 +2508,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [51, 150], [50, 50]]
+      knockback:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[14, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   197:
     name: [캣맨대디, 캣맨다크, 캣맨라이징]
     desc: ["자외선을 차단하는 특수 슈트를 완벽히 빼입었다\n어린이들의 영웅은 남에게 보여서는 안될 어둠을 가지고 있다\n에이리언과 떠있는 적에 초 데미지를 입힌다 (범위공격)", "밤이 되면 모습을 바꿔 캣시티의 평화를 지키는 영웅\n예쁜 여성이 눈을 반짝이며 쳐다보는 시선에 약하다\n에이리언과 천사에 초 데미지를 입힌다 (범위공격)", "영화배우 데뷔를 목표를 위해 마법 슈트로 개조한 영웅\n마음속 어둠을 에너지로 바꿔 악의 무리를 소탕한다!\n에이리언과 고대종에 초 데미지를 입힌다 (범위 공격)"]
@@ -1267,6 +2531,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_warp: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   198:
     name: [사이킥 냥코, 네오 사이킥 냥코, 데빌 사이킥 냥코]
     desc: ["기분이 좋아지면 주위의 금속이 구부러지는 고양이\n양념치킨을 봐도 냉정해 질 수 있는 방법을 찾고 있다\n에이리언의 움직임을 가끔 느리게한다", "다가오는 모든 것을 변형시켜버리는 초이상현상 고양이\n배드민턴 중에 사라진 친구를 찾고있다\n에이리언의 움직임을 가끔 느리게한다", "다가오는 모든 것을 블랙홀로 빨아들이는 고양이\n곧 자신도 빨려 들어갈 것이라는 것을 조금씩 깨닫고 있다\n에이리언의 움직임을 가끔 느리게한다"]
@@ -1274,6 +2550,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   199:
     name: [고양이 음양사, 마법소녀 고양이, 대마왕 고양이]
     desc: ["자칭 과거로부터 타임 슬립해 온 요술사 냥코\n악령퇴치의 의뢰가 있으면 스포츠카로 순식간에 달려간다\n가끔 메탈 적 이외의 공격력을 다운시킨다", "어쩌다 만난 우주인에게 계약당해 마법소녀로 변신\n무기 변경 계약특전으로 따라온 빛나는 지팡이로\n가끔 메탈 적 이외의 공격력을 다운시킨다", "계약 기간이 만료되어 전직한 냥코\n놀이공원의 악당 역할의 수입이 꽤나 짭짤하다\n반드시 메탈 적 이외의 공격력을 다운시킨다"]
@@ -1281,6 +2571,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   200:
     name: [고양이 서퍼, 표류 고양이, 고양이 표류기]
     desc: ["큰 뜻을 품에 안고 빅 웨이브를 기다리는 냥코\n인생의 큰 파도는 타지 못한 올해로 약 40살 서퍼\n가끔 에이리언을 정지, 때때로 살아남는다 (범위공격)", "거친 파도에 휩쓸려 저 멀리 떠밀려나버린 냥코\n그가 간절히 원하는 육지는 생각보다 가까울지도?\n가끔 에이리언을 정지, 때때로 살아남는다 (범위공격)", "바다와는 친구다. 친구와 함께 걷는 것이야말로\n인생 그 자체가 아니겠는가!\n가끔 에이리언을 정지, 반드시 살아남는다 (범위공격)"]
@@ -1288,6 +2592,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   201:
     name: [메탈 고양이, 메탈 고양이 빌더]
     desc: ["어떠한 공격도 최소 데미지로 막아내는 메탈 고양이\n레어 메탈 순도 100%이지만 크리티컬 공격에 약하며\nLV제한해방과 「＋레벨」으로 파워 업은 할 수 없다 (메탈)", "어떠한 공격도 최소 데미지로 막아내는 메탈 고양이\n팔을 손에 넣었지만 레어템인 메탈이 부족해서 맨살이다\nLV제한해방과 「＋레벨」으로 파워 업은 할 수 없다 (메탈)"]
@@ -1316,6 +2634,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_curse:
+        ultra: 1
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [41, 140]]
+        ultra: 1
   210:
     name: [꼬맹이 고양이, 꼬맹이 고양이 빌더, 꼬맹이 고양이 모히칸]
     desc: ["저가생산 가능한 기본 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코", "철저히 단련된 근육이 매력포인트인\n기본캐릭터를 목표로 성장 중인 꼬맹이 냥코", "철저히 단련된 근육과 남자다운 헤어스타일이\n매력포인트인 기본 캐릭터. 혹독한 다이어트로\n군살을 완벽 제거하여 가성비가 좋아졌다."]
@@ -1323,6 +2667,17 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      critical:
+        minmax: [[10, 10]]
+      immune_wave: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   211:
     name: [꼬맹이 탱크 고양이, 꼬맹이 고양이 벽, 꼬맹이 고무 고양이]
     desc: ["고체력 방어용 캐릭터\n공격력은 새발의 피 정도.라는 캐릭터를\n목표로 성장 중인 꼬맹이 냥코 (범위공격)", "그야말로 완벽한 벽을 위한 방어전용 캐릭터\n공격력은 거기서 거기.라는 캐릭터를\n목표로 성장 중인 냥코 (범위공격)", "고무제의 방어전용 캐릭터로 성장한 꼬맹이 냥코\n성장해서 성격이 둥글둥글해졌지만\n공격력은 아직도 거기서 거기 (범위공격)"]
@@ -1330,6 +2685,21 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent_against: [zombie]
+    talent:
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      soul_strike: {}
+      dodge:
+        max_level: 10
+        minmax: [[10, 10], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   212:
     name: [꼬맹이 배틀 고양이, 꼬맹이 용사 고양이, 꼬맹이 암흑 고양이]
     desc: ["전투용 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코\n빨간 적에 엄청 강하다", "용사를 동경하는 전투용 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코\n빨간 적에 엄청 강하다", "성장하여 몬스터 헌터를 동경하게 된\n전투형 꼬맹이 냥코\n천사에 엄청 강하다"]
@@ -1337,6 +2707,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      freeze:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   213:
     name: [화이트 래빗, 블랙 캣, 그레이 폭스]
     desc: ["비밀수사경찰 「래빗츠」의 멤버인 그녀는\n검거율 100%의 잠복수사에서 유명한 코스프레 형사\n에이리언과 빨간 적의 움직임을 반드시 느리게 한다 (범위 공격)", "암살흑고양이단「캣츠」의 멤버인 그녀는\n절대 흔적을 남기지 않는 화려한 살인 청부업자이다\n에이리언과 빨간 적에 엄청 강하다 (범위 공격)", "첩보기관 「폭스」의 지휘관인 그녀는 뛰어난 화술로\n부하들을 능수능란하게 다루는 베테랑 (범위 공격)\n에이리언과 빨간 적을 반드시 날려버려 공격력을 낮춘다"]
@@ -1344,6 +2728,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_warp: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   215:
     name: [햐쿠타로, 햐쿠타로CC]
     desc: ["메탈 슬러그 디펜스에서 참전!\n포로로 보이지만 실제로는 특수 부대의 엘리트\n때때로 살아남는다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n기탄으로 냥코들을 지원해준다\n때때로 살아남는다 (범위 공격)"]
@@ -1435,6 +2831,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_wave: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_white:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      colossus_killer:
+        ultra: 1
   228:
     name: [냥프킨, 렌턴 냥프킨, 사신 냥프킨]
     desc: ["호박 렌턴을 뒤집어 쓴 할로윈 냥코\n불을 키러 온 사람을 놀래켜서\n장난치는 게 인생의 낙이다", "매일 장난만 치다가 이승을 헤메이게 된 귀신 냥코\n질리지도 않고 오늘도 장난을 친다\n아주 가끔씩 검은 적의 움직임을 순간 멈춘다", "머리맡에 나타나 죽을 때를 알려주는 사신 냥코\n수리수리 냥수리 하고 주문을 외우면 사라진다\n초수 특효. 검은 적에 엄청 강하고 가끔 순간 멈춘다"]
@@ -1568,6 +2980,22 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[1, 10]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   247:
     name: [꼬맹이 황소 고양이, 꼬맹이 고양이 기린, 꼬맹이 고양이 라이온]
     desc: ["민첩한 움직임으로 이동력이 뛰어난 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코", "민첩한 움직임으로 이동력이 뛰어난 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코", "민첩하고 이동력이 뛰어난 캐릭터로 성장한 꼬맹이 냥코\n머리의 갈기는 열심히 모은 포인트로 구입\n파동에 의한 데미지를 받지 않는다"]
@@ -1575,6 +3003,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[1, 10]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   248:
     name: [꼬맹이 고양이 새, 꼬맹이 고양이 UFO, 꼬맹이 천공의 고양이]
     desc: ["체력은 약하지만 적을 한꺼번에 쓸어버리는\n초파괴력을 가진 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코 (범위공격)", "중력을 초월한 개조 냥코\n적을 한꺼번에 처리 가능\n을 목표로 성장 중인 꼬맹이 냥코 (범위공격)", "도시형 공중정원으로 성장한 꼬맹이 냥코\n온 세상을 꽃으로 채우는 것이 꿈\n좀비에 엄청 강하다 (범위공격)"]
@@ -1582,6 +3024,18 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      curse:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   249:
     name: [저세상 냥코, 유령 냥코, 부활한 냥코]
     desc: ["PONOS의 모 게임에서 참전!\n불행히도 차에 치여버린 고양이형 몬스터\n아주 가끔씩 좀비의 움직임을 잠깐 느리게 한다", "PONOS의 모 게임에서 참전!\n이 세상에 미련을 버릴 수 없는 고양이형 몬스터\n아주 가끔씩 좀비의 움직임을 잠깐 느리게 한다", "다른 차원의 문을 통해 들어온 고양이형 고양이\n따라가면 두 번 다시 돌아올 수 없다\n아주 가끔씩 좀비의 움직임을 잠깐 느리게 한다"]
@@ -1596,6 +3050,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [10, 30]]
+        ultra: 1
   259:
     name: [수호신 아누비스, 퍼펙트 아누비스, G퍼펙트 아누비스]
     desc: ["인간의 혼을 명계로 보내는 죽은 자의 신\n죽음의 신기 「명계의 스틱」이 죄 깊은 혼들을 소멸시킨다\n파동에 의한 데미지를 받지 않는다 (범위 공격)", "명계를 지배하는 완벽한 힘을 손에 넣은 죽은 자의 신\n절명의 신기 「명계의 데스스틱」이 모든 생명을 근절시킨다\n파동에 의한 데미지를 받지 않는다 (범위 공격)", "명계를 지배하는 새로운 힘을 손에 넣은 죽은 자의 신\n창조의 과실에 이끌려 죄 많은 영혼의 뿌리를 끊어버린다\n파동에 의한 데미지를 받지 않는다 (범위 공격)"]
@@ -1603,6 +3078,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [800, 800], [1000, 1000]]
+      immune_surge: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[11, 74]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+        ultra: 1
+      break_shield:
+        max_level: 10
+        minmax: [[16, 70]]
+        ultra: 1
   260:
     name: [미의 여신 아프로디테, 메가로디테, G메가로디테]
     desc: ["긍지 높은 사랑과 미와 성을 관장하는 여신\n미의 신기「황금의 활」은 근거리 공격은 할 수 없지만\n긴 사정거리를 가졌으며 에이리언에 초 데미지를 입힌다 (원거리 범위공격)", "긍지 높은 사랑과 미와 성을 관장하는 여신\n궁극미의 신기 「황금의 신활」이 붕괴와 소생을 불러일으킨다\n에이리언에 초 데미지를 입힌다 (원거리 범위공격)", "긍지 높은 사랑과 미와 성을 관장하는 여신. 창조의 \n과실을 품에 안고 삶과 죽음의 순환을 자유자재로 다룬다\n에이리언에 초 데미지를 입힌다 (원거리 범위공격)"]
@@ -1610,6 +3111,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
   261:
     name: [냥웨이, 고양이 드론, 타임머신 고양이]
     desc: ["미래의 개인 교통수단을 타고 있는 냥코\n빨간 적, 검은 적, 천사에 엄청 강하다 (범위 공격)", "미래의 무인정찰기가 되고 싶어\n여기 저기 추락해 보는 민폐 캐릭\n빨간 적, 검은 적, 천사에 엄청 강하다 (범위 공격)", "미래에서 타임머신을 타고 온 고양이\n가끔 여탕으로 잘못 타임 슬립하곤 한다\n빨간 적, 검은 적, 천사에 엄청 강하다 (범위 공격)"]
@@ -1624,6 +3141,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      break_shield:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   268:
     name: [고양이 타이푼, 고양이 허리케인, 고양이 폭풍]
     desc: ["학교를 쉬고싶은 그 한마음으로 태풍이 되어버린 냥코\n전국의 학생들의 기대를 한몸에 받으며 북상중\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)", "엘니뇨 현상으로 거대화 되어버린 태풍 고양이\n구경하러 온 고양이들을 불러모아 지금도 성장중\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)", "회전으로 바람을 일으켜 폭풍까지 만드는 고양이\n비가 오는 날에는 무엇이든 가리지 않고 날려버린다\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)"]
@@ -1652,6 +3183,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      increase_speed:
+        max_level: 10
+        minmax: [[2, 20]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   272:
     name: [태양신 아마테라스, 테라 아마테라스, G테라 아마테라스]
     desc: ["크나큰 태양과 대지를 관장하는 상냥한 여신\n빛의 신기 「광신경」으로 괴로워하는 자들을 정화시킨다\n속성을 가진 적에게 초 데미지를 입힌다 (범위 공격)", "크나큰 태양과 대지를 관장하는 상냥한 여신\n새벽의 신기 「효광신경」으로 악한 혼을 황천으로 보낸다\n속성을 가진 적에게 초 데미지를 입힌다 (범위 공격)", "크나큰 태양과 대지를 관장하는 상냥한 여신\n창조의 과실을 지니고 온갖 거대한 악을 씻어낸다\n속성을 가진 적에게 초 데미지를 입힌다 (범위 공격)"]
@@ -1659,6 +3206,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   273:
     name: [번영신 가네샤, 가네샤 엑사, G가네샤 엑사]
     desc: ["학문을 관장하며 번영을 가져오는 부의 신\n지식의 신기 「거안심권」이 덮쳐오는 재앙을 뿌리친다\n체력이 떨어지면 공격력이 상승 (원거리 범위공격)", "학문을 관장하며 번영을 가져오는 부의 신\n예지의 신기 「거안신권」이 모든 재앙을 부숴버린다\n체력이 떨어지면 공격력이 상승 (원거리 범위공격)", "학문을 관장하며 번영을 가져오는 부의 신\n창조의 과실의 힘을 빌려 재앙의 근원을 박살내버린다\n체력이 떨어지면 공격력이 상승 (원거리 범위공격)"]
@@ -1666,6 +3227,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_knockback: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   274:
     name: [치어리더 냥코, 웨이트리스 냥코, 러브소바 냥코]
     desc: ["청춘의 모든 것을 치어리딩에 건 캐릭터\n짧은 팔다리로 열심히 표현하고 있는 것은 「L・O・V・E」\n반드시 크리티컬 공격을 낸다", "청춘의 모든 것을 카페 아르바이트에 건 캐릭터\n 「아・메・리・카・노・나・오・셨・습・니・다♡」\n반드시 크리티컬 공격을 낸다", "청춘의 모든 것을 알바에서 만난 사랑에 걸어버린 캐릭터\n소바 위에 올린 화려한 토핑은「알・라・뷰♡」사인이다\n반드시 크리티컬 공격을 낸다"]
@@ -1736,6 +3311,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   285:
     name: [냥코 우등, 냥코 특급, 냥코 익스프레스]
     desc: ["최고 시속 222km, 1량 편성, 전석 자유석\n오늘의 승차률은 120%\n적을 쓰러뜨리면 받는 머니가 2배가 된다", "최고 시속 2222km, 최고의 기술을 도입한 전석 우등석 \n222마리의 냥코들을 태운 냥코들의 교통 수단\n적을 쓰러뜨리면 받는 머니가 2배가 된다", "최고 시속 2억km로 지구를 벗어날 수 있는 슈퍼전차\n훈련을 받은 승객 2222명만이 승차 가능하다\n적을 쓰러뜨리면 받는 머니가 2배가 된다"]
@@ -1750,6 +3339,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   288:
     name: [고양이 야구, 고양이 리거, 고양이 골퍼]
     desc: ["어렸을 때부터 야구영재교육을 받은 고양이\n야구의 야자도 모르는 아이들을 전국대회 5위로 이끈 명코치\n에이리언에 맷집이 좋다 (원거리 범위공격)", "메이저리그에서 명예의 전당에 오른 전설의 플레이어와\n똑같은 완벽 스윙을 구사하는 리틀 뚱땡이 고양이\n에이리언에 맷집이 좋고 가끔 베리어를 뚫어버린다 (원거리 범위공격)", "야구에서 쌓은 경험을 토대로 자신만의 타법을 터득\n계속해서 홀인원을 결정하는 장타왕\n에이리언에 맷집이 좋고 가끔 베리어를 뚫어버린다 (원거리 범위공격)"]
@@ -1876,6 +3479,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [4, 4]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   306:
     name: [고대군함 가레스, 무적함대 시갈레온, 초무적함대 시갈레온]
     desc: ["옛날옛적 노스블루를 주름 잡던 해적의 후예들\n해적왕이 숨겨놓은 보물을 찾으러 세계의 바다를 누빈다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT을 총동원한 초거대전함\n극비기술로 제조된 드릴은 어떠한 장갑도 뚫어버린다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT가 승선한 궁극의 전함\n한층 강화된 드릴은 진정한 평화로 나아가게 한다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)"]
@@ -1883,6 +3502,23 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   307:
     name: [비행습격 바머스, 비행전함 보르본, 초비행전함 보르본바]
     desc: ["누구도 성공하지 못한 대공을 장악한 선진병기 \n하늘에서의 무자비한 폭격은 지상을 혼란에 빠트린다\n좀비를 반드시 날려버린다 (범위 공격)", "대공을 장악한 철 독수리와 긍지높은 대원들로 이루어진\n극비병기 NE-K02. 적진을 확실히 괴멸시킨다\n좀비를 반드시 날려버린다 (범위 공격)", "대공을 장악한 철 독수리와 긍지 높은 대원들로 이루어진\n궁극 병기 NE-K02로 이상의 세계를 만들어 간다\n좀비를 반드시 날려버린다 (범위 공격)"]
@@ -1890,6 +3526,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[57, 57], [5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   308:
     name: [고양이 점퍼, 고양이 장대, 고양이 빨래봉]
     desc: ["봉을 사용하여 하늘에서의 한마리 나비를 꿈꾸는 고양이\n이 도전정신은 장소를 가리지 않는다\n가끔씩 좀비의 움직임을 느리게한다 (원거리 범위공격)", "장대하나로 우주까지 올라가 기네스북에 등재됐다\n슈퍼스타 여자운동선수. 내년에 결혼 예정.\n가끔씩 좀비의 움직임을 느리게한다 (원거리 범위공격)", "탑클래스 높이뛰기 선수로 한때 이름을 날렸던 아줌마.\n장대하나로 집안 살림과 육아까지 한방에 끝낸다\n가끔씩 좀비의 움직임을 느리게한다 (원거리 범위공격)"]
@@ -1897,6 +3548,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   309:
     name: [고양이 가위, 고양이 톱, 고양이 풀베기]
     desc: ["홈쇼핑으로 가지치기 가위를 구입한 고양이. 주변에 나무가\n없어 가지치기를 못하는 스트레스를 적에게 풀고 있다\n아주 가끔씩 좀비의 움직임을 잠깐 멈춘다", "적의 습격에 대비하여 전기톱을 구입한 고양이\n열리지 않는 문도 이거 하나면 간단히 열 수 있다\n아주 가끔씩 좀비의 움직임을 잠깐 멈춘다", "인터넷에서 강해보이는 머신을 구입한 고양이\n원래의 용도도 모른 채 폼만 내고 있다. \n아주 가끔씩 좀비의 움직임을 잠깐 멈춘다"]
@@ -1904,6 +3571,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   311:
     name: [고양이 간호사 캔들, 고양이 간호사 마리아, 고양이 간호사 산타마리아]
     desc: ["크리스마스 한정 스타일의 발랄 간호사 (범위 공격)\n성스러운 촛불을 들고 모든 고양이들을 위해 기도한다\n천사・에이리언을 가끔 날려버려 이동을 느리게 한다", "크리스마스 한정 스타일의 성스러운 간호사 (범위 공격)\n아름다운 촛대에 마음을 담아 희망의 불을 켠다\n천사・에이리언을 가끔 날려버려 이동을 느리게 한다", "크리스마스 한정 스타일의 엄마같은 간호사 (범위 공격)\n촛대에 켜진 성화는 고양이의 미래를 밝힌다\n천사, 에이리언과 악마를 가끔 날려버려 이동을 느리게 한다"]
@@ -1918,6 +3599,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [2, 2]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   313:
     name: [꼬맹이 고양이 도마뱀, 꼬맹이 고양이 드래곤, 꼬맹이 고양이 킹드래곤]
     desc: ["멀리 있는 적도 공격 가능한 원거리형 캐릭터\n단발의 공격력은 으뜸인 캐릭터\n를 목표로 성장중인 꼬맹이 냥코", "판타지 세계에서 강림한 원거리형 캐릭터\n단발의 공격력은 으뜸인 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코", "드래곤계의 엘리트로 성장한 원거리형\n꼬맹이 냥코\n단발의 공격력과 쳐진 뿔의 큐트함은 세계 최고"]
@@ -1925,6 +3620,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[4, 40], [4, 4]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   314:
     name: [꼬맹이 거신 고양이, 꼬맹이 고양이 다라보치, 꼬맹이 고양이 쟈라미]
     desc: ["초절대 파괴력과 강인한 체력을 갖춘\n최고급 캐릭터 \n를 목표로 성장 중인 꼬맹이 냥코 (범위 공격)", "초절대 파괴력과 강인한 체력을 갖춘\n파괴를 관장하는 고양이의 신\n을 목표로 성장 중인 꼬맹이 냥코 (범위 공격)", "아주 가끔씩 적을 날려버리고 파괴를 관장하는\n거대 고양이로 성장한 꼬맹이 냥코 (범위 공격)\n언제까지나 천진난만한 마음을 잃지않는다"]
@@ -1932,6 +3641,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   315:
     name: [대청소 귀요미, 신정의 귀요미, 신춘 신정의 귀요미]
     desc: ["연말한정 스타일의 여동생형 냥코 (범위 공격)\n올해도 1년의 감사를 담아 집을 깨끗이하고 싶어...\n롤 모델은 귀여미 (가끔 크리티컬)", "새해 인사를 빼먹지 않는 귀요미 (범위 공격)\n모두의 앞에서 노래 할 용기가 나게 해 달라고\n올해는 꼭 신에게 부탁을 하고 싶어 (가끔 크리티컬)", "새해를 맞아 화사한 옷을 입은 귀요미\n올해야말로 노래 부르고 싶어 (범위 공격)\n(세번 절하면 가끔 크리티컬)"]
@@ -1953,6 +3676,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   318:
     name: [CPAC, PPAP]
     desc: ["Cat-Pineapple-Apple-Cat 줄여서 CPAC\nYouTube 캠페인으로 받을 수 있는 형제 고양이\n빨간 적에 엄청 강하다", "Pen-Pineapple-Apple-Pen 줄여서 PPAP\n라고 하는 인기 영상에 편승한 고양이 유튜버\n빨간 적에 엄청 강하다"]
@@ -1981,6 +3720,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[2, 20], [200, 200]]
+      immune_toxic: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   324:
     name: [무사시, 주연 무사시, 각성의 주연 무사시]
     desc: ["저주받은 무대「고양이의 복수」에 출현 하기 위해\n패배한 무사 고양이에게 수련을 받은 가난한 배우\n파동에 의한 데미지를 받지 않는다 (범위 공격)", "처음 주연을 맡은 영화에서 모든 장면에 심령현상이\n찍혀 버려서 작품이 전부 폐기된 불운한 가난한 배우\n파동에 의한 데미지를 받지 않는다 (범위 공격)", "악령과 함께 사건을 해결하는 드라마 「불멸 폴리스」에서\n엄청난 인기를 얻은 배우. 수입의 90%는 고양이에게 들어간다\n파동 데미지를 무효화하고 가끔 고대종의 움직임을 멈춘다 (범위 공격)"]
@@ -2002,6 +3753,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_alien: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   327:
     name: [뫼비우스, 기적의 조화 뫼비우스]
     desc: ["크래시 피버에서 참전!\n청초하고 어른스럽지만 실은 외유내강형인 여성학자\n빨간 적에 초 데미지를 입히며 반드시 날려버린다 (범위 공격)", "크래시 피버에서 참전!\n성인 여성을 동경하여 은밀히 자기 계발에 힘써왔다\n빨간 적에 초 데미지를 입히며 반드시 날려버린다 (범위 공격)"]
@@ -2065,6 +3830,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      surge_mini:
+        max_level: 10
+        minmax: [[5, 50], [1, 1], [600, 600], [2800, 2800]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
   336:
     name: [인어아가씨 루리, 인어공주 루리, 용궁의 인어공주 루리]
     desc: ["이세계에서 온 절명계 인어아가씨\n2D남친과 데이트하는 게 일상\n빨간 적에 맷집이 좋고 반드시 공격력을 낮춘다", "위대한 사랑의 힘으로 미모와 두 다리를 얻은 인어공주\n화면 안의 너무나 사랑하는 남친이 살아갈 힘을 준다\n빨간 적에 맷집이 좋고 반드시 공격력을 낮춘다", "꽃미남과 살기 위해 용궁을 지은 인어공주\n매일 게임을 하며 꽃미남이 올 그날을 꿈꾸고 있다\n빨간 적에 맷집이 좋고 반드시 공격력을 낮춘다"]
@@ -2072,6 +3857,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   337:
     name: [미라아가씨 레이카, 미라공주 레이카, 황금의 미라공주 레이카]
     desc: ["이세계에서 온 절명계 미라아가씨\n떡칠한 화장품의 방부제 성분때문에 미라가 됐다\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)", "신상 화장품의 힘으로 미모를 되찾은 미녀 미라\n「여자의 미모는 발끝부터」가 신조.\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)", "미스 미라대회에서 우승하여 자신감 뿜뿜인 미녀 미라\n몸에서 붕대가 사라지는 만큼 미모가 업되고 있다\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)"]
@@ -2086,6 +3883,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_weaken: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   339:
     name: [누아다, 분노의 누아다, 화염의 누아다]
     desc: ["전설의 무구 「냥코 부채」의 저주를 신의 힘으로\n여우의 모습으로 바꾼 신 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다", "전설의 무구 「냥코 부채」의 힘을 해방시킨 신\n휘황찬란한 금색 화살로 적을 쏴버린다 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다", "전설의 무구 「냥코 부채」를 붉게 물들인 신\n지옥의 화염으로 적을 태워버리다 (원거리 범위공격)\n검은 적에 매우 강하고 반드시 공격력을 낮춘다"]
@@ -2093,6 +3902,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   341:
     name: [빨간 머리 고양이 유키, 빨간 머리 뷰티 고양이 유키, 빨간 머리 불끈 고양이 유키]
     desc: ["\"잃어버린 세계\"에서 만난 소녀에 영향을 받아\n혼자서 불가사의한 힘과 비행 능력을 습득한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다", "\"잃어버린 세계\"에서 만난 소녀와 외모도 비슷해지기 위해\n오더 메이드 의상으로 아름답게 진화한 고양이\n가끔 에이리언의 움직임을 순간 멈춘다", "\"잃어버린 세계\"에서 만난 소녀처럼 강한 마음을\n손에 넣어 몸도 마음도 단련한 재색을 겸비한 고양이\n가끔 에이리언의 움직임을 순간 멈추고 열파를 낸다"]
@@ -2107,6 +3930,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   343:
     name: [은혜갚는 고양이, 축복 고양이]
     desc: ["평소 받은 사랑에 감사의 마음을 담은 고양이\n주인에게 소소한 복을 가져다 준다고 한다\n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "사람들의 사랑으로 훌륭한 어른이 된 고양이\n답례로 모두에게 행복을 전달하고자 한다\n적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다"]
@@ -2128,6 +3963,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow: {}
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [600, 600], [1200, 1200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   346:
     name: [미세리아, 미세리아CC, 낮잠의 미세리아CC]
     desc: ["메르크 스토리아에서 참전!\n거대한 날개 때문에 성스러운 날개라고 불리는 소녀\n떠있는 적에 엄청 강하고 가끔 움직임을 멈춘다 (범위 공격)", "메르크 스토리아에서 참전!\n날개를 잃고 진정한 성녀가 된 소녀 (범위 공격)\n떠있는 적에 엄청 강하고 가끔 움직임을 멈춘다", "메르크 스토리아에서 참전!\n신의 기적에 의지하지 않는 삶을 선택한 성녀 (범위 공격)\n떠있는 적에 엄청 강하고 반드시 움직임을 멈춘다"]
@@ -2135,6 +3984,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   347:
     name: [토도메키, 토도메키CC]
     desc: ["메르크 스토리아에서 참전!\n현세에 남아 오빠를 찾아다니는 화의 나라의 소녀\n가끔 에이리언과 좀비의 움직임을 느리게 한다 (범위 공격)", "메르크 스토리아에서 참전!\n사랑하는 오빠가 선물한 기모노를 소중히 하고 있다\n가끔 에이리언과 좀비의 움직임을 느리게 한다 (범위 공격)"]
@@ -2177,6 +4038,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   353:
     name: [고양이 신선, 고양이 노사, 가면의 고양이 신선]
     desc: ["설렁탕 한그릇으로 냥코 군단에 들어온 전설의 신선\n최근 건망증이 심하지만 무술의 극의는 절대 잊지 않는다\n빠른 연속 공격으로 파동을 뿜어낸다 (범위 공격)", "그것 1개로 거시기 군단에 들어온 전설의 노사\n최근 건망증이 심하지만 그것의 극의는 절대 잊지 않는다\n빠른 그것으로 그것을 뿜어낸다 (범위 공격)", "하늘에서 떨어진 고대 가면을 쓰고 저주받은 전설의 신선\n고대 무술의 극의를 마스터하여 태고의 기억을 되찾다.\n고대종에 엄청 강하고 가끔 저주의 파동을 낸다"]
@@ -2198,6 +4073,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   358:
     name: [늑대아가씨 딜, 늑대공주 딜, 도화의 늑대공주 딜]
     desc: ["이세계에서 온 절명계 늑대아가씨\nSNS에 늑대가 왔다고 올리는 등 새빨간 거짓말을 즐긴다 \n가끔 천사와 에이리언을 날려버린다 (범위 공격)", "너무 많은 거짓말로 악플 세례를 받는 늑대공주\n가장 최근 글은「관심이 너무 뜨거워서 벗어버릴게ー요☆」\n가끔 천사와 에이리언을 날려버린다 (범위 공격)", "관종 마케팅으로 돈을 쓸어모아 대저택을 GET한 늑대공주\n「팔로우하면 10억 쏠게ー요☆」\n가끔 천사와 에이리언을 날려버린다 (범위 공격)"]
@@ -2205,6 +4094,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_wave: {}
+      immune_weaken: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   359:
     name: [좀비아가씨 버베나, 사령의 신부 버베나, 행복한 신부 버베나]
     desc: ["이세계에서 온 절명계 좀비아가씨\n텅비어버린 마음과 배를 채워 줄 누군가를 기다리고 있다\n가끔 크리티컬을 낸다 (범위 공격)", "진정한 사랑으로 생기를 되찾은 좀비의 신부\n행복한 하루하루에 종일 미소가 떠나지 않는다\n가끔 크리티컬을 낸다 (범위 공격)", "사랑하는 남편들의 유산으로 사치의 끝을 맛본 좀비 신부.\n몸도 마음도 지갑도 행복으로 가득 차있다\n가끔 크리티컬을 낸다 (범위 공격)"]
@@ -2219,6 +4120,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   361:
     name: [물의 정령 마리, 유수의 정령 마리린, 유수의 정령왕 마리리린]
     desc: ["우주에서 온 물의 정령\n내려선 별에 물의 근원이 존재한다고 한다\n가끔 에이리언을 날려버려 움직임을 느리게 한다", "대지를 깎아버릴 정도의 유수를 다루는 정령\n맑고 거친 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다", "별자리도 휩쓸어버리는 거대한 힘을 가진 유수의 정령왕\n은하수를 수원으로 하는 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다"]
@@ -2226,6 +4143,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   362:
     name: [바람의 정령 에어리, 폭풍의 정령 에어린, 폭풍의 정령왕 에어리린]
     desc: ["우주에서 온 바람의 정령\n내려선 별에 바람의 근원이 존재한다고 한다\n(원거리 범위공격)", "대륙을 날려버릴 정도의 바람을 다루는 정령\n무시무시한 돌풍은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋다 (원거리 범위공격)", "성운까지 날려버리는 거대한 힘을 가진 폭풍의 정령왕\n우주를 휩쓰는 대폭풍은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋다 (원거리 범위공격)"]
@@ -2233,6 +4166,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[50, 50], [39, 120], [50, 50]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   363:
     name: [세이버, 세이버 CC, 세이버 오르타CC]
     desc: ["Fate/stay night[HF]에서 참전!\n에미야 시로와 계약을 맺은 검사 영령\n떠있는 적에게 초 데미지를 입힌다 (원거리 범위공격)", "Fate/stay night[HF]에서 참전!\n최고급 클래스로 강력한 보구를 소지\n떠있는 적에게 초 데미지를 입힌다 (원거리 범위공격)", "Fate/stay night[HF]에서 참전!\n칠흑의 갑옷을 입은 미스터리 검사. 세이버를 닮았지만...\n떠있는 적에게 초 데미지를 입힌다 (원거리 범위공격)"]
@@ -2345,6 +4294,21 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent_against: [alien]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   379:
     name: [칠흑의 미타마, 흑첩의 미타마]
     desc: ["소중한 사람을 먼저 보내버린 또 한명의 미타마. 장례 행렬의\n끝은 아무도 모른다. 속성을 가지지 않은 적에 맷집이\n좋고 반드시 움직임을 느리게 한다 (원거리 범위공격)", "잃어버린 사랑을 찾아 떠도는 미망인. 아직도 사랑했던 \n사람과의 추억에 산다. 속성을 가지지 않은 적에 맷집이 좋으며\n반드시 움직임을 느리게 하고 공격력을 낮춘다 (원거리 범위공격)"]
@@ -2485,6 +4449,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_wave: {}
+      immune_surge: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   400:
     name: [Mentori, Mentori CC]
     desc: ["Mentori에서 참전!\n말을 걸면 귀찮은 듯이 리액션을 해준다\n떠있는 적에 맷집이 좋다", "Mentori에서 참전! 의욕이 있을 때는 호들갑을 떨며 \n어딘지 수상쩍은 리액션을 해준다\n떠있는 적에 맷집이 좋다"]
@@ -2618,6 +4594,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   419:
     name: [광란의 귀여미, 광란의 스타 귀여미]
     desc: ["높은 인기를 자랑하는 국민 아이돌 냥코\n소속사의 방침으로 광란이 되었다\n마음을 담은 재빠른 인사로 반드시 크리티컬", "세계적인 인기를 자랑하는 아이돌 냥코\n압도적인 라이브로 관객을 광란의 소용돌이로 몰아넣는다\n마음을 담은 재빠른 인사로 반드시 크리티컬"]
@@ -2660,6 +4651,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_toxic: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   429:
     name: [고양이 소우마, 스마트 고양이 소우마]
     desc: ["소멸 직후부터 암약한 수수께끼의 소년에 영향을 받아\n이상한 말과 행동을 하게 된 고양이\n반드시 파동을 낸다", "소멸 직후부터 암약한 수수께끼의 소년과 외모도\n비슷해지기 위해 골반 교정을 했더니 다리가 길어졌다\n반드시 파동을 낸다"]
@@ -2688,6 +4693,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   433:
     name: [적극적인 곰, 블랙 적극적인 곰]
     desc: ["적극적인 곰 (베타쿠마)에서 참전!\n깐죽깐죽! 적극적으로 깐죽대는 하얀 곰\n아주 가끔 에이리언을 날려버린다", "적극적인 곰 (베타쿠마)에서 참전!\n어둠 세계를 살아가는 암살 곰의 제자가 되어 검게 물들었다.\n아주 가끔 에이리언을 날려버린다"]
@@ -2716,6 +4733,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   438:
     name: [격・신, 초・신, 초・신 골든]
     desc: ["드디어 냥코 군단에 강림한 신\n신의 재채기로 메탈 적 이외의 적을 날려버리고\n분노의 천둥을 내리 퍼붓는다 (전방위 공격)", "거룩한 자태로 엄청난 빛을 뿜어내는 신\n신의 재채기로 메탈 적 이외의 적을 날려버리고\n분노의 천둥을 내리 퍼붓는다 (전방위 공격)", "골드로 무장한 엄청난 빛을 뿜어내는 신\n신의 재채기로 메탈 적 이외의 적을 날려버리고\n분노의 천둥을 내리 퍼붓는다 (전방위 공격)"]
@@ -2737,6 +4767,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   441:
     name: [베베, 나기사&고양이]
     desc: ["마법소녀 마도카☆마기카에서 참전!\n치즈를 엄청 좋아하는 마미의 단짝\n에이리언과 좀비의 공격력을 순간 낮춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전!\n마도카와 친구들 앞에 나타난 새 마법소녀\n에이리언과 좀비의 공격력을 낮춘다 (범위 공격)"]
@@ -3003,6 +5049,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [10, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   484:
     name: [카노와 소우마, 카노와 소우마와 고양이]
     desc: ["소멸도시에서 참전! 여행자 카노와 소년 소우마.\n자신의 죄와 마주하여 \"소멸도시\"를 향한다\n에이리언에 맷집이 좋다 (범위 공격)", "소우마와 함께 해변에 떠밀려온 고양이를 태우고\n\"소멸도시\"를 향해 여행을 떠난다\n에이리언에 맷집이 좋다 (범위 공격)"]
@@ -3087,6 +5147,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   497:
     name: [미네르바, 분노의 미네르바, 호염의 미네르바]
     desc: ["전설의 무기「고양이 장도」의 저주와 교환한\n누구에게도 굴하지 않는 육체로 변신한 전국의 공주. 좀비와\n검은 적의 움직임을 반드시 느리게 하고 가끔 혼신의 일격을 날린다.", "전설의 무기「고양이 장도」의 저주와 조화하여\n가로막는 적들을 한번에 물리치는 전국의 아름다운 공주. 좀비와\n검은 적의 움직임을 반드시 느리게 하고 가끔 혼신의 일격을 날린다.", "무기의 저주를 승화시켜 동란의 천하에 태평을\n가져온 늠름한 무신. 좀비와 검은 적의 움직임을\n반드시 느리게 하고 가끔 혼신의 일격을 날린다"]
@@ -3094,6 +5168,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[80, 800]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   498:
     name: [주걱턱 고양이, 주걱턱 고양이 빌더]
     desc: ["절멸의 위기에 대처하여\n턱을 진화시킨 고양이", "철저히 단련된 근육과 주걱턱을\n겸비한 고양이"]
@@ -3136,6 +5224,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_curse: {}
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   506:
     name: [각룡 그라디오스, 각룡왕 그라디오스, 각룡황제 그라디오스]
     desc: ["하늘을 뚫는 거대한 창을 지고 활보하는 전설의 각룡족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 속성을 가지지 않은 적을 날려버려 느리게 한다", "빛나는 멸망의 빛을 자신의 힘으로 바꾼 전설의 각룡족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 속성을 가지지 않은 적을 날려버려 느리게 한다", "용각산에서 멸망의 빛을 뒤집어쓴 후 진정한 힘에 눈 뜬 각룡황제\n격렬한 포효로 모든 생명을 파멸로 이끈다 (범위 공격)\n반드시 속성을 가지지 않은 적을 날려버려 느리게 한다"]
@@ -3241,6 +5341,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      colossus_killer: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   521:
     name: [고양이 칠복신, 고양이 칠복사신]
     desc: ["7개의 복을 한 몸에 모아버린 복의 신\n모은 복을 모두에게 나눠 줄...생각은 없다\n속성을 가진 적에 여러 방해 효과를 가끔 준다 (원거리 공격)", "속세에 찌들어 신이길 포기한 구 칠복신\n언뜻 중국의 어떤 원숭이의 친구같이 보이기도...\n속성을 가진 적에 여러 방해 효과를 가끔 준다 (원거리 공격)"]
@@ -3262,6 +5376,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      against_angel: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   524:
     name: [고양이 무도가, 고양이 사범, 고양이 마스터]
     desc: ["한달 4만원의 주 2회 무도가 속성 코스 수강 중\n천하제일을 꿈꾸는 사회인 2년차 격투 고양이\n좀비에 맷집이 좋다", "직접 만든 무기로 사범이 된 무도가 고양이\n제자들에겐 백전백승이지만 공식 시합만 나가면\n언제나 반칙패. 좀비에 맷집이 좋다", "소향무적! 무의 비법을 마스터한 고양이 \n무기에서 넘쳐흐르는 아우라의 위압으로 매번 부전승\n좀비에 맷집이 좋다"]
@@ -3332,6 +5458,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   535:
     name: [명계신 하데스, 데스 하데스, G데스 하데스]
     desc: ["망자가 다다르는 명계를 지배하는 위대한 신\n영혼의 신기 「심판의 낫」으로 사악한 자들을 단죄한다\n독 공격과 워프를 무효화 시킨다 (범위 공격)", "죄 많은 영혼을 어둠으로 끌어들이는 명계의 신\n처형의 신기 「심판신의 낫」으로 모든 업을 정화시킨다\n독 공격과 워프를 무효화 시킨다 (범위 공격)", "죄 많은 영혼을 영원한 어둠으로 이끄는 위대한 명계의 신\n창조의 과실로 모든 업을 구제한다\n독 공격과 워프를 무효화 시킨다 (범위 공격)"]
@@ -3339,6 +5479,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[20, 20], [3, 30]]
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [3, 30], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   536:
     name: [하츠네 미쿠, 하츠네 미쿠CC]
     desc: ["버추얼 세계에서 인기 버추얼 싱어가 등장!\n팝하고 큐트한 전자 여가수 (범위 공격)\n빨간, 떠있는 적, 천사에 엄청 강하고 공격력을 순간 낮춘다", "버추얼 세계에서 인기 버추얼 싱어가 등장!\n청순가련한 목소리가 매력적인 전자 여가수 (범위 공격)\n빨간, 떠있는 적, 천사에 엄청 강하고 공격력을 순간 낮춘다"]
@@ -3493,6 +5648,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[4, 40], [3, 3]]
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   561:
     name: [메구리네 루카, 메구리네 루카CC]
     desc: ["버추얼 세계에서 인기 버추얼 싱어가 등장!\n조금 미스터리한 분위기의 바이링궐 보컬\n떠있는 적과 검은 적에 초 데미지를 입힌다 (원거리 범위공격)", "버추얼 세계에서 인기 버추얼 싱어가 등장!\n시원시원하고 허스키한 목소리의 바이링궐 보컬\n떠있는 적과 검은 적에 초 데미지를 입힌다 (원거리 범위공격)"]

@@ -70,6 +70,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      immune_surge: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   11:
     name: [Kung Fu Cat, Drunken Master Cat, Dancer Cat]
     desc: ["Mid-range attack specialist. (Area Attack)\nCan fight off multiple enemies at once.", "Adopted Drunken Fist style ?\n… or just on a bender? (Area Attack)", "A legendary dancer who infuses his strikes\nwith fiery passion. So shy that he mastered\nwalking backwards to avoid eye contact. (Area)"]
@@ -77,6 +91,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[2, 20], [1, 1], [1920, 1920], [1080, 1080]]
+      immune_freeze: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   12:
     name: [Mr., Super Mr., Hyper Mr.]
     desc: ["Mr. is here from the popular \"Mr.\" series.\nThe series has trained his legs for speed,\nand he can shoot down all the enemies. (Area)", "Mr. is here from the popular \"Mr.\" series.\nThe series has trained his legs for speed,\nand now he has a bazooka. BAM. (Area)", "Mr. from the world-famous \"Mr.\" games!\nHe surges towards enemies, beating them down\nwith a homemade boxing-glove gun. (Area)"]
@@ -84,6 +110,19 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [zombie]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_freeze: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   13:
     name: [Bondage Cat, Bondage CatNEO, Ultimate Bondage Cat]
     desc: ["Has extremely high stamina.\nWill happily take a beating from anyone.\nStrong against Red enemies.", "Wants more pain.\nWill happily take a beating from anyone.\nStrong against Red enemies.", "Offers himself up as a shield to achieve\ntranscendant pleasure(?). Strong against Red,\nmight survive a lethal attack."]
@@ -91,6 +130,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [12, 30]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   14:
     name: [Dom Cat, Executioner, Dark Lazer]
     desc: ["A very caring office worker during the day.\nBondage Cat is her after hours regular.\nA quick attacker and strong against red enemies.", "Might not be a Cat, loves violence.\nA quick attacker and strong against red enemies.", "Ruthlessly striking down enemies with a\nflourescent bulb, this Dark Lord's quick attacks\nare more than a match for any Red or Black."]
@@ -98,6 +151,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [6, 6]]
+      immune_weaken: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   15:
     name: [Cats in a Box, Cat Gang, Heavy Assault C.A.T.]
     desc: ["These poor guys have been abandoned.\nThey are now fending for themselves\nwith GREAT JUSTICE and speed (Area Attack)", "The hard life turned them towards\nthe wild side. We should avoid them now.\nWho knows what they'll do (Area Attack)", "An elite unit who keep the peace by rushing\nat the enemies of society. Might weaken\nBlack enemy attacks (Area Attack)"]
@@ -105,6 +172,18 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      massive_damage: {}
+      immune_weaken: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   16:
     name: [Panties Cat, Leaf Cat, Lollycat]
     desc: ["The cold weather is nothing\nagainst the warm woolen material.\nAdvanced variation of Sexy Legs Cat", "Has the only important point covered.\nNot sure if it offers any protection.\nAdvanced variation of Sexy Legs Cat", "Used to be ashamed to go into battle exposed,\nbut a kind cat came along and lent a hand…\nerr… lollipop. Gained Area attacks!"]
@@ -112,6 +191,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [metal]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [39, 120]]
+      immune_weaken: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   17:
     name: [Moneko, Miss MONEKO, Superstar MONEKO]
     desc: ["Hoping to become an idol.\nShe sings on the streets everyday.\nYou might see her around, please say hi.", "Thanks to everyone, she made it to stardom!\nNow she's everyone's favorite star!\nPlease support her! The future is still bright!", "Moneko is now the Cat Empire's Queen of Pop,\nbut she never forgets her precious fans from the\nearly days. Mini-Waves, with chance of Critical!"]
@@ -133,6 +227,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      against_black: {}
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   20:
     name: [Zombie Cat, Devil Cat, Skelecat]
     desc: ["Studies at a certain film academy.\nMajors in special effects and makeup.\nStrong against Red enemies.", "Got an A in his makeup class with this.\nArgues that he does better than Fish Cat.\nStrong against Red enemies.", "Even a rusty nail can't stop the love in his heart\nfrom beating. More versatile than Fish Cat:\nstrong against Red/Zombies, with area attacks."]
@@ -140,6 +248,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   21:
     name: [Samurai Cat, Knight Cat, Pastry Cat]
     desc: ["Sincerity is the way of the warrior.\nExceptional health and attack.\nA very well-rounded Cat.", "Added chivalry to his repertoire.\nExceptional health and attack.\nA very well-rounded Cat.", "Who says you can't love both cupcakes and\ncarnage? A kitchen pro who flings powerful\ngobs of whipped cream to slow enemies."]
@@ -147,6 +271,22 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      weaken:
+        max_level: 10
+        minmax: [[10, 10], [24, 60], [50, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   22:
     name: [Sumo Cat, Madame Sumo, Riceball Cat]
     desc: ["Tank Cat didn't listen\nwhen they said that size doesn’t matter.\nNow with somewhat stronger attack (Area Attack)", "Found his calling feeding other Sumo Cats.\nMake sure you finish your food… or else.\nHas a somewhat stronger attack (Area Attack)", "Defense AND nutrition in a convenient hand-sized\npackage. More durable than Tank Cat, with\nquickness from intense training (Area Attack)"]
@@ -154,6 +294,16 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      immune_freeze: {}
+      immune_toxic: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   23:
     name: [Boogie Cat, Samba Cat, Gato Amigo]
     desc: ["No one can stop the beats!\nCheap to produce. Comes with bonus groove.\nIt's boogie time! Go! Go! Cat!", "Beats have brought this one to eleven!\nCheap and fast to produce. Everybody dance!\nDance til you drop! Sammmbaaaaa!!111one", "Out to bring joy to the senoritas of the world.\nHe's never been to Mexico, he's just a Mariachi\nnerd. Can send enemies flying!"]
@@ -161,6 +311,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 15]]
+      immune_surge: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
   24:
     name: [Skirt Cat, Tights Cat, Loincloth Cat]
     desc: ["Found a nicely fitting skirt at a boutique.\nLikes to wear it out… all the time.\nAdvanced variation of Sexy Legs Cat", "Looking for some variety, stumbled across\na garter belt at the dollar store.\nAdvanced variation of Sexy Legs Cat", "Chose traditional undies to better show off\nshapely legs, and started a viral fashion trend.\nRapid attacks with chance to break Barriers!"]
@@ -168,6 +332,21 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent_against: [alien]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   25:
     name: [Valkyrie Cat, True Valkyrie Cat, Holy Valkyrie Cat]
     desc: ["Descended from the fields of Valhalla\nto provide salvation for the Battle Cats!\nUses the Heavenly Spear Meownir (Area Attack)", "Changed to her final form.\nTroubled because God keeps hitting on her.\nUses the Heavenly Spear Meownir (Area Attack)", "The curse is broken, and the savior of Catkind\nhas returned! The restored Meownir pierces foes,\nfreezing them in their tracks. (Area Attack)"]
@@ -217,6 +396,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[8, 80]]
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   32:
     name: [Delinquent Cat, Angry Delinquent Cat, Ultra Delinquent Cat]
     desc: ["Known as the Bancho of Cat School.\nMight freeze Floating enemies (Area Attack)", "Throwing a fit of rage because his dad\nate his ice cream that was in the fridge.\nMight freeze Floating enemies (Area Attack)", "A naughty Cat known as king of the Angry Fist.\nLoves pachinko, trades his winnings for ice cream.\nMight freeze Floating/Relics (Area Attack)"]
@@ -224,6 +419,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[33, 33], [5, 50]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   33:
     name: [Hip Hop Cat, Dancing Flasher Cat, Can Can Cat]
     desc: ["Flunking student from a certain dance school.\nCan be produced in masses. Flash Mob!\nMight slow Red enemies.", "Someone you don't want to see on the street.\nDances skillfully to keep the game kid-friendly.\nMight slow Red enemies.", "Kicked out of dance school for improvising\nperformances too provocative for family shows.\nSometimes slows movement of Red enemies."]
@@ -231,6 +442,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      loot_money: {}
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   34:
     name: [Kotatsu Cat, Sadako Cat, Octopus Cat]
     desc: ["Very effective in winter… not that it matters.\nDamage from Floating enemies greatly reduced.\nMight weaken Floating enemies.", "Hid in a TV to scare people for fun.\nWas never able to get out. Haunts TVs now.\nResistant to + might weaken Floating.", "Extra-flexible Cat who feels most comfortable\nin small, dark spaces. Wave Shield.\nTough vs Floating, might weaken enemies."]
@@ -238,6 +461,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   35:
     name: [Nekoluga, Unknown Cat, Ultralan Pasalan]
     desc: ["Not sure if this is a Cat…\nMaybe if you evolve him…", "God, I don't know if this is a Cat anymore.\nSeriously, I give up.\nKnocks back enemies. (Area Atk.)", "Tired of scaring children, Luga decided to reinvent\nhimself as that famous masked hero. Freezes\nand knocks back non-Metal enemies (Area Atk.)"]
@@ -245,6 +482,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      immune_surge:
+        ultra: 1
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[5, 50], [30, 30]]
+        ultra: 1
   36:
     name: [Nerd Cat, Hacker Cat, Cyberpunk Cat]
     desc: ["Completely fearless… until leaving his basement.\nNet denizen who is famous for flaming.\nUber Long Distance attack specialist.", "Famous for making Big Red Buttons.\nGraduate from an elite tech university.\nUber Long Distance attack specialist.", "Having mastered virtual space, he's moved on\nto losing his shirt in the cryptocurrency market.\nLong-range area attacks slow non-Metal."]
@@ -252,6 +515,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[6, 60]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      break_barrier:
+        max_level: 10
+        minmax: [[15, 60]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   37:
     name: [Swimmer Cat, Butterfly Cat, Fishman Cat]
     desc: ["Built from the pain of losing every race.\nObtained its strength from tears of defeat.\nDeals massive damage to Floating enemies.", "Managed to overcome the endless defeat\nwith great effort. Now blessed with victory!\nDeals massive damage to Floating enemies.", "This one can barely even be called a Cat.\nSubmitted to gene therapy to become the\nworld champion. Extreme damage to Floating."]
@@ -259,6 +538,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   38:
     name: [Pogo Cat, Masai Cat, Jiangshi Cat]
     desc: ["Sucked in to the recent (?) trend of toys.\nStill, looks pretty fun.\nCheap to produce, might survive being broken.", "Volunteered overseas and experienced\ncultural exchange. Took home a costume.\nCheap to produce, might survive lethal strikes.", "Horror movie maniac, or real g-g-ghost?\nMystic seal is just this month's gas bill…\nCheap to produce, 100% survives once!"]
@@ -266,6 +561,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   39:
     name: [Wheel Cat, Solar Cat, Chill Cat]
     desc: ["Got tired of changing wheels of vehicles\nso became one instead. Spins so fast it burns.\nMassive damage against Aliens (Area Attack)", "Got tired of moving around\nso decided to become a galaxy instead.\nMassive damage against Aliens (Area Attack)", "An evolved Cat who is always\ncalm and collected at the office.\nMassive area damage to Aliens."]
@@ -273,6 +584,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[13, 40]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   40:
     name: [Apple Cat, Face Cat, iCat]
     desc: ["Found a giant apple floating in a river.\nDecided to use that as a costume.\nMight stop Red enemies.", "Found a giant head sitting on the road.\nDecided to use that as a costume.\nMight stop Red enemies.", "Found a colorful apple near Silicon\nValley while turtleneck shopping one day.\nArea attacks 100% stop Red enemies."]
@@ -280,6 +607,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   41:
     name: [Bath Cat, Sexy Bathtub Cat, Luxury Bath Cat]
     desc: ["Likes to keep clean. All. The. Time.\nDeals massive damage to Red enemies.", "Likes to keep clean. All. The. Time.\nEnjoys a quiet bath. Do Not Disturb.\nDeals massive damage to Red enemies.", "Bubbles and gold leaf make for an extra\ndecadent bathtime. Extra-powerful jets\ndo massive damage against dirty Red enemies."]
@@ -287,6 +630,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   42:
     name: [Salon Cat, Paris Cat, Cyborg Cat]
     desc: ["Has no limit when it comes to beauty care.\nWorks very well with Sexy Legs Cat.\nExceptional Range Attack (Area Attack)", "A very stylish cat that earned the name\nJeanne. Might be French, not sure.\nExceptional Range Attack (Area Attack)", "The ultimate bionic battle angel.\nPerfect both aesthetically and technically.\nLong distance Area Attack specialist."]
@@ -294,6 +653,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   43:
     name: [Ice Cat, Ice Queen Cat, Ice Crystal Cat]
     desc: ["A Cat that was entranced by a girl\nhailing from the Land of Ice. It is frozen.\nMight freeze Red enemies. (Area Attack)", "Forgot to mention that the Cat is an\neternal icicle. Don't think it complains much.\nMight freeze Red enemies. (Area Attack)", "The Ice Queen's reign grows more secure,\nand so does her Cat companion's crystal shell.\nFreezes Red enemies in place (Area Attack)."]
@@ -301,6 +674,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      strengthen:
+        max_level: 10
+        minmax: [[34, 34], [10, 100]]
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[40, 40], [6, 60]]
+        ultra: 1
+      against_metal:
+        ultra: 1
   44:
     name: [Cat Machine, Cat Machine Mk 2, Cat Machine Mk 3]
     desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResitant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResistant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
@@ -308,6 +705,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[50, 50], [39, 120]]
+      immune_knockback: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   45:
     name: [Lesser Demon Cat, Greater Demon Cat, Greater Balrog Cat]
     desc: ["A mad cat that sacrificed itself to a\na demon from the netherworld.\nAttacks with extreme force.", "The mad cat managed to control\nthe demon from the netherworld.\nAttacks with extreme force.", "His wanderings through the abyss have\ndriven him mad with infernal ambitions.\nTremendous damage to a single enemy."]
@@ -315,6 +726,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [20, 200]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
   46:
     name: [Maiko Cat, Geisha Cat]
     desc: ["A sweet rookie entertainer, allergic to\ngreen tea, better at keytar than shamisen.", "Years of life in the floating world made\nher a cool cynic. Her distant attitude\nbefits her long-distance attacking power."]
@@ -329,6 +756,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 5
+        minmax: [[1, 5]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[10, 100]]
   48:
     name: [Viking Cat, Thor Cat, Maximum the Fighter]
     desc: ["A combat-class Cat that has\nread too many fantasy novels.\nStrong against Red enemies.", "Having found the internet, this Cat\nhad its armour and weapon order made.\nStrong against Red enemies.", "Turns out his \"order made\" armor is a\nknockoff brand. Even the cheap stuff is still\nenough to hit Red for massive Area dmg."]
@@ -336,6 +779,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      immune_slow: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_weaken: {}
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   49:
     name: [Pirate Cat, Captain Cat, Dread Pirate Catley]
     desc: ["Influenced by a certain pirate cartoon,\nand dreams of being a Pirate King. Can't swim.\nMight knockback Red enemies.", "Still thinks Pirates are cool. Still can't swim.\nDoesn't get along with Ninja Cat anymore.\nMight knockback Red enemies.", "Just learned that there are movies about\npirates too! Inspired him to upgrade his boat.\nMight knockback Red enemies."]
@@ -343,6 +798,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   50:
     name: [Thief Cat, Phantom Thief Cat, Goemon Cat]
     desc: ["Moves fast. Steals faster.\nMore money earned when defeating an enemy.", "Moves too fast. Still steals the same.\nHas a large treasure collection now.\nMore money earned when defeating an enemy.", "Bandit of legend, last seen in old Japan fighting\nagainst the shogun's tyranny. Slips extra money\nout of enemy pockets with area attacks."]
@@ -350,6 +819,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [51, 150]]
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   51:
     name: [Bishop Cat, Monk Cat, Sanzo Cat]
     desc: ["A merciful Cat that brings peace and love\nto all of its followers. Charges for confessions.\nMight slow Floating enemies.", "Envelopes the enemies in gracious serenity\nto allow them to move to the afterlife\nMight slow Floating enemies.", "On a journey to save souls through enlightenment.\nMostly just beats up the local wildlife, though.\nMight slow Floating enemies (Area Attack)"]
@@ -357,6 +840,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   52:
     name: [Fortune Teller Cat, Fisherman Cat, Doctor Cat]
     desc: ["A Cat that loves the idea of fortune telling.\nHas read one too many astrology books.\nMight knockback Floating enemies.", "Eldest son of a prominent\nTuna fisherman. Gets seasick.\nMight knockback Floating enemies.", "His medical philosophy is \"Hair of the Dog\".\nIf it doesn't kill ya, it must be working, right?!\nMight knockback Floating enemies."]
@@ -364,6 +861,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   53:
     name: [Shaman Cat, Necromancer Cat, Necro-Dancer Cat]
     desc: ["Able to communicate with the supernatural.\n… is what it says on the Wiki.\nMight freeze Floating enemies.", "Turns out it was the supernatural that was\ncontrolling this Cat in the end.\nMight freeze Floating enemies.", "His bewitching dance is fueled by dark\npowers. Can you resist his devilish groove?\nMight freeze Floating enemies for longer."]
@@ -371,6 +882,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   54:
     name: [Evangelist Cat, Filibuster Cat]
     desc: ["Unlocked by meeting all the legends.\nFreezes enemies in place.\nSummon when you are losing ground.", "Uses special powers to interrupt time.\nStops the movement of enemies.\nSummon when you are losing ground."]
@@ -385,6 +910,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      survive:
+        max_level: 10
+        minmax: [[23, 50]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   57:
     name: [Archer Cat, Cupid Cat, Cataur]
     desc: ["Elite ranged Cat that can provide useful\nsupporting fire. Bruises like a Tomato.\nDeals massive damage to Floating enemies.", "Rains arrows of love upon unsuspecting foes.\nDoes not like to get hurt.\nDeals massive damage to Floating enemies.", "Once a glittering constellation, this demigod\nhides from heaven, firing powerful arrows\nat Floating enemies for massive damage."]
@@ -392,6 +931,18 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[15, 60]]
   58:
     name: [Marauder Cat, Berserker Cat, Paladin Cat]
     desc: ["Its cursed sword reduces the offensive power\nbut might deliver critical hits.\nKnown as the \"Metal Killer\".", "The cursed sword has taken over and\nturned the Cat into the Cursed Knight.\nKnown as the \"Dark Metal Knight\". (Area Atk)", "This Cat's righteous heart finally conquered\nthe cursed sword, turning it into a holy axe.\nMight critical attack. (Area Attack)"]
@@ -399,6 +950,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [metal]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[30, 30], [15, 60]]
+      zombie_killer: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   59:
     name: [Swordsman Cat, Sword Master Cat, Elemental Duelist Cat]
     desc: ["Trained in a certain game to become\na magic swordsman. Very effective Battle Cat.\nFire sword does massive damage to Red enemies.", "Mastered the art of dual wielding.\nAlso can use magic. Scary combination.\nFlame swords do massive damage to Red enemies.", "So in tune with his blades that he can now\ncommand the forces of nature themselves.\nFlames do massive damage to Red enemies."]
@@ -406,6 +970,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   60:
     name: [Baby Cat, Baby Cats, Cats in the Cradle]
     desc: ["A baby Cat that still can't do anything\nby itself. Luckily, daddy is there to help.\nMight knockback Floating & Aliens (Area Atk)", "Brought along it's baby sister.\nDad has his work cut out for him.\nMight knockback Floating & Aliens (Area Atk)", "Even 7 kittens together can't do much…\nLuckily Dad's still keeping an eye out for bullies.\nArea wave attacks knockback Floating/Alien."]
@@ -413,6 +991,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [24, 60]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   61:
     name: [Bronze Cat, Michelangelo Cat, Quizmaster Cat]
     desc: ["A good defensive cat with ridiculous health\nand very decent offensive ability.\nMight knockback Metal enemies (Area Attack)", "Sucked into the world of art\nand mastered everything about sculpting\nMight knockback Metal enemies (Area Attack)", "Has the longest winning streak on a popular\nquiz show, although the questions are pretty easy.\nMight knockback Metal enemies (Area Attack)"]
@@ -427,6 +1019,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
   63:
     name: [Toy Machine Cat, Vendor Cat]
     desc: ["Plastic capsule toy machine.\nA Cat that got into a tank (Area attack).\nShielded, so a bit more sturdy than Tank Cat.", "Plastic capsule toy machine.\nLonger Cat that got into a tank (Area attack).\nShielded, so a bit more sturdy than Tank Cat."]
@@ -462,6 +1070,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_angel: {}
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   68:
     name: [Li'l Gau, Li'l Gau Gau, Crystal Li'l Gau Gau]
     desc: ["Hero joining from Princess Punt Sweets.\nResistant to damage from Black enemies.\nLow-cost unit with good defense vs. Black enemies.", "Hero joining from Princess Punt Sweets.\nResistant to damage from Black enemies.\nLow-cost unit with good defense vs. Black enemies.", "Hero joining from Princess Punt Sweets.\nCrystal body gives it Knockback immunity!\nLow-cost unit with good defense vs. Black enemies."]
@@ -497,6 +1117,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[60, 60], [14, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   73:
     name: [Maeda Keiji, Wargod Keiji, Immortal Keiji]
     desc: ["A warrior that was transformed by the Legendary\nCat Armour into a Tiger-type General. (Area Attack)\nResistant to Black, more damage when hurt.", "The Legendary Cat Armour evolved and sprouted\na Cherry Tree from his head (Area Attack)\nResistant to Black, more damage when hurt.", "As the cherries blossom, so does Keiji's battle fury.\nResistant to Black, immune to Wave attacks. Area\nattacks grow stronger as he takes damage."]
@@ -504,6 +1140,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   74:
     name: [Oda Nobunaga, Wargod Nobunaga, Immortal Nobunaga, Phantasmal Nobunaga]
     desc: ["The manifestation of the Grudge of Nobunaga\nfrom the lives of many (and one Cat) (Area Attack)\n100% chance to Freeze Black enemies.", "The Cat's spirit goes into overdrive.\nThe grudge grows even stronger. (Area Attack)\n100% chance to Freeze Black enemies.", "Leads an army of vengeful spirits to fulfill his\ndream of unifying the heavens and the netherworld.\n100% chance to Freeze Black enemies. (Area)", "The enmity of those that he has slain powers his\nburning ambition to rule both heaven and hell.\n100% Freeze to Black, Aku. Counter-Surge (Area)"]
@@ -511,6 +1163,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   75:
     name: [Reindeer Fish Cat, Sashimi Cat, Xmas Pudding Cat]
     desc: ["The Cats tried making the Fish Cat cuter.\nThis one carries the gifts you dream of.\nMore money earned when defeating an enemy.", "The Cats tried making the Fish Cat look tastier.\nEarned stars in hospitality for its sacrifice.\nMore money earned when defeating an enemy.", "This unit built for fighting has been re-\nengineered to delight sweet tooths. Area \nattacks get extra money after defeating."]
@@ -525,6 +1191,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [15, 60]]
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   77:
     name: [Thundia, 'Thundia, type β', Divine Thundia]
     desc: ["A galaxy girl who can manipulate electricity.\nBrings down bolts from a distance.\nMassive damage to Red enemies. (Area Attack)", "Always worries about her chronic neck pain.\nLikes watching cartoons in her spare time.\nMassive damage to Red enemies. (Area Attack)", "When you have a goddess' body, it's tough to find\nclothes that fit. Long distance Area Attacks\ndeliver massive damage to Red enemies."]
@@ -532,6 +1212,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [23, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   78:
     name: [Droid Cat, Droid Cat Mk 2, SpringDroid]
     desc: ["A strong defensive cat modeled after a phone.\nA phone… really? Dances better than Tank Cat.\nResistant to Metal attacks (Area Attack)", "The Cats managed to use magic marker.\nSo now it's water resistant too.\nResistant to Metal attacks (Area Attack)", "A durable shield character in stylish seasonal\ncolors. Made of all-new material for improved\nResistance to metal enemies. (Area Attack)"]
@@ -581,6 +1275,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [57, 120], [50, 50]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   85:
     name: [Megidora, Holy Dragon Megidora, God-Emperor Megidora]
     desc: ["An awakened Ancient Cat Dragon.\nCreated to purify the world (Area Attack)\nMight knockback and slow Floating enemies.", "An awakened Ancient Cat Dragon.\nMegidora shifts to final Dragon form (Area Attack)\nMight knockback and slow Floating enemies.", "Possessor of the Divine Dragon Stone. Ready to\ndevour all to maintain its imperial throne.\nArea attacks might slow Floating enemies."]
@@ -588,6 +1294,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      wave:
+        max_level: 10
+        minmax: [[5, 15], [3, 3]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+        ultra: 1
+      against_metal:
+        ultra: 1
+      against_relic:
+        ultra: 1
   86:
     name: [Vars, Dragon King Vars, God-Emperor Vars]
     desc: ["Legendary Dragon Knight Vars. (Area Attack)\nHas rode over a thousand dragons.\nMight knockback and slow Black enemies.", "Legendary Dragon Knight Vars. (Area Attack)\nVars now unleashes all of his power.\nMight knockback and slow Black enemies.", "Legendary Knight who has mastered even the\nmost savage mount to rain down Area attacks.\nMight knockback and slow Black enemies."]
@@ -595,6 +1323,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   87:
     name: [Kamukura, God Dragon Kamukura, God-Emperor Kamukura]
     desc: ["Ancient Cat Dragon Kamukura. (Area Attack)\nSaid to be able to move the heavens.\nMight knockback and slow Red enemies.", "Ancient Cat Dragon Kamukura. (Area Attack)\nShifted to true form after collecting 7 balls.\nMight knockback and slow Red enemies.", "Ancient Cat Dragon who has awakened the\nhidden power of the 7 mystic balls. \nMight knockback and slow Red enemies."]
@@ -602,6 +1342,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   88:
     name: [Raiden, Dragonslayer Raiden, God-Emperor Raiden]
     desc: ["An Ancient Anti Cat Dragon weapon.\nLays down a hail of deadly bullets.\n100% Area Knockback vs Red Enemies.", "An Ancient Anti Cat Dragon weapon.\nRaiden forcefully set to overdrive.\n100% Area Knockback vs Red Enemies.", "Overdrive has released Raiden's almighty power.\nNothing can withstand the blast of his holy beam.\nStrong vs. / 100% Area Knockback vs Red."]
@@ -609,6 +1361,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_knockback: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
   89:
     name: [Rope Jump Cat, Pair Rope Jump Cat, Noodle Cats]
     desc: ["In Japanese, it's Nawatobi\nThis Cat is cheap to produce, with added fun.\nMight perform critical attacks", "Well, Rope jump is more fun with two people.\nStill cheap and effective, with twice more fun.\nMight perform critical attacks", "Always fast, cheap and delicious!\nThis describes both the Cats and their noodles.\nTough defense and chance of Critical Strikes."]
@@ -707,6 +1480,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[5, 50]]
+        ultra: 1
+      against_relic:
+        ultra: 1
+      immune_surge:
+        ultra: 1
   107:
     name: [Kai, 'Kai, type μ', Divine Kai]
     desc: ["Airheaded girl riding her machine pig \"Tonton\".\nFires powerful point blank beams (Area Attack)\nReduced damage from Floating, Survives Once.", "Ends up liking anyone who is nice to her.\nHer love hurdle is mere 3cm (Area Attack)\nReduced damage from Floating, Survives Once.", "If any cute guy is your type, is that really a type?\nAlways travels via her trusty Boarborg (Area Atk)\nReduced damage from Flying, Survives Once."]
@@ -714,6 +1509,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[10, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   108:
     name: [Coppermine, 'Coppermine, type κ', Divine Coppermine]
     desc: ["Magicial beauty powered by her staff\nReleases beams of light (Area Attack)\nMight freeze floating enemies.", "Doesn't smile that often. (Area Attack)\nIn front of cats, however.. different story.\nMight stop floating enemies.", "What can you do for her that her favorite\nCat doesn't already? Come back in 100\nyears, kid. Might stop Floating (Area Attack)"]
@@ -721,6 +1532,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[7, 25]]
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [3, 3], [600, 600], [2800, 2800]]
+        ultra: 1
   109:
     name: [Cat Bros, Secret Base]
     desc: ["Living happily in a plastic bubble.\nNo need for the outside world!!!\n(Don't make them a role model, kids…)", "A homemade fortress as resilient as the $0.75\nbudget allows. Tough against various attacks,\nexcept moisture… a bit weak against that."]
@@ -840,6 +1677,24 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [5, 5]]
+        ultra: 1
   126:
     name: [Takeda Shingen, Wargod Shingen, Immortal Shingen]
     desc: ["A master tactician of overwhelming power\nwho is cursed by the Legendary Cat Sword.\nArea attacks only damage Black/Aliens.", "Cat Sword's Tactics Mode - activate!\nEven greater destructive power!\nArea attacks only damage Black/Aliens.", "The Cat Sword's path of destruction \nis unstoppable. There is no mercy to be given.\nArea attacks only damage Black/Aliens."]
@@ -847,6 +1702,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      against_angel: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+      against_red:
+        ultra: 1
+      against_zombie:
+        ultra: 1
+      against_aku:
+        ultra: 1
   127:
     name: [Clockwork Cat, Puppetmaster Cat, Puppetmaster & Charley]
     desc: ["Rushes the enemy with mechanical haste.\nNo idea how it is moving... any ideas?\nMight slow Metal enemies.", "Uses technical mastery to assault enemies.\nNot a bad ventiloquist either.\nMight slow Metal enemies.", "This Cat approaches with a crazed look in his\neyes. It's almost like it's the doll controlling him...\nMight slow Metal enemies."]
@@ -903,6 +1778,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   136:
     name: [The Grateful Crane, Super Galaxy Cosmo, Ultima Galaxy Cosmo]
     desc: ["Champion of this year's Bird-Cat contest\nheld at the lake every year. (Area Attack)\nMight knockback Floating/Angel enemies.", "Pushed its limits further to reach space.\nEvolved by collecting Star Energy. (Area Atk)\n100% knockback vs Floating/Angels.", "He has reached the edge of the universe and\nseen the truth. Area attacks have 100% chance\nof knockback & freeze vs Floating/Angels."]
@@ -910,6 +1801,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      colossus_killer: {}
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [30, 300]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   137:
     name: [Momotaro, The Peach Angels, The Peach Devils]
     desc: ["On a quest to find anyone stronger than him.\nAim for the top! Watch the fans…\nMight freeze Angel/Red enemies. (Area attack)", "A Road Gang of wild Cats who realized that\neffort and results are two different things.\nMight freeze Angel/Red enemies. (Area attack)", "Ends may not justify the means, but\nthey definitely justify owning a sweet ride.\nMight freeze Angel/Red enemies. (Area attack)"]
@@ -917,6 +1820,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [2, 2]]
+        ultra: 1
+      immune_wave:
+        ultra: 1
+      knockback:
+        max_level: 10
+        minmax: [[4, 40]]
+        ultra: 1
   138:
     name: [Kasa Jizo, Jizo's Moving Castle, Jizo's Mega-Castle]
     desc: ["It's said there's a shadowy organization who\ngrants wishes made to these statues. (Area Atk)\nDeals massive damage to Black/Angel types.", "The hidden fortress of the Jizo organization.\n...wait isn't this classified? (Area Attack)\nDeals massive damage to Black/Angel types.", "Escaping the government's tactical missile strikes,\nthe Jizo Organization is on the offensive. (Area Atk)\nDeals massive damage to Black/Angel types."]
@@ -931,6 +1860,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      slow:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   141:
     name: [Squish Ball Cat, Muscleman Cat]
     desc: ["Got hooked on new capsule material\nsomehow managed to transform itself\ninto something similar (Area Attack)", "See the truth inside. Macho Cat's trainer.\nEveryone is facsinated by its rippling triceps.\nDistant relative of the Titan Cat. (Area attack)"]
@@ -952,6 +1897,30 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      sage_killer:
+        ultra: 1
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1200, 1200], [2400, 2400]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+        ultra: 1
   145:
     name: [Cat Base Mini, Cat Base Jr., Cat Base Ultra]
     desc: ["Who can say why, but this Cat has undergone\nrigorous training to become a splendid fort.\nHis wave attack is actually just loud yelling.", "Bought a cosplay helmet by mail order.\nLikes to stalk strangers while pretending to be\na tower; his wave fires if he gets too excited.", "Through sheer willpower, transformed themself into\nthe ideal Cat Base with cutting-edge LAZERBEAMS!\nStill makes pew-pew mouth noises when firing."]
@@ -966,6 +1935,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_relic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[2, 20]]
   147:
     name: [Stilts Cat, Totem Cat, Acrobat Cats]
     desc: ["A cat so ambitious that he built wooden stilts\nto better reach for the stars.\nKnocks back Angels every once in a while.", "Couldn't cut it by himself, so he gathered some\npals to work together. Naturally, he's on top.\nKnocks back Angels every once in a while.", "Hopefully this pair's choice of cheap Swedish\nfurniture won't bring their dreams crashing to\nthe ground. Sometimes knocks Angels back."]
@@ -973,6 +1956,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [1600, 1600], [1200, 1200]]
+      immune_wave: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   148:
     name: [Tin Cat, Plane Cat, Robocat]
     desc: ["Cutting-edge firepower masked by the\nsoulful nostalgia of yesteryear.\nKnocks back Black enemies once in a while.", "Dreaming of the skies, he allowed the Cat Army\nengineers to install top-class tech in his body.\nKnocks back Black enemies once in a while.", "Captured by an evil organization and remade\nto be an unstoppable, merciless android\nwho knocks back Black. (So cute, though!)"]
@@ -980,6 +1977,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      immune_knockback: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   149:
     name: [Rocker Cat, Artist Cat, Ramen Cat]
     desc: ["A peanut farmer's son, became a rocker to\navoid coming out about his nut allergies to his\nfamily. Resistant to Angelic attacks.", "After album number 2 flopped, tried to get into\nfine art. Can only draw peanuts, so didn't sell.\nResistant to Angelic attacks.", "Noodles might seem like a simple dish, but\nthey need an artist's touch to master. Flashy\nprep style also boosts defense vs Angels."]
@@ -987,6 +1998,22 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   150:
     name: [Mer-Cat, Commando Cat, Cameraman Cat]
     desc: ["A mermaid who came onshore to meet a\nprince. Survives on land by taking long breaths.\nStrong vs floating, might survive a lethal strike.", "Hearing her prince got kidnapped by terrorists,\nMer-Cat joined the Green Berets to save him.\nStrong vs floating, might survive a lethal strike.", "Putting her life on the line to tell the truth of the\nGreat Cat War. Journalistic integrity causes\nhuge area dmg vs Floating, might survive once."]
@@ -994,6 +2021,21 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[5, 50]]
+      critical:
+        minmax: [[2, 2]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   151:
     name: [Juliet Cat, Princess Juliet Cat, Juliet the Maiko]
     desc: ["Dreams of a Romeo she met online.\nFavorite book: \"Pride, Prejudice and Haircuts\"\nBriefly freezes Angels (Area Attack)", "All grown up, but still dreaming of her\ncyber-Romeo. Likes chicken kebabs.\nBriefly freezes Angels (Area Attack)", "Romeo turned out to be a real jerk. Now aiming\nfor a total image change (and a cute samurai\nlord). Briefly freezes Angels (Area Attack)"]
@@ -1001,6 +2043,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[24, 60]]
+      resistant_knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   152:
     name: [Weightlifter Cat, Ring Girl Cat, Pizza Cat]
     desc: ["Lifting heavy things is the height of manliness.\nSupports 11 children, 7 wives and their parents.\nMassive damage to Black enemies (Area Attack)", "Made it to the 12th round of life using her own\ntoughness and wits. Girl can't be stopped!\nMassive damage to Black enemies (Area Attack)", "World's biggest junk-food fan who's about to get \na nasty surprise when he sees they forgot the\nextra anchovies. Massive Area damage to Black."]
@@ -1008,6 +2066,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      wave:
+        max_level: 10
+        minmax: [[3, 30], [2, 2]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   153:
     name: [Figure Skating Cats, Drama Cats, Slapstick Cats]
     desc: ["A stylish couple getting on board with the figure\nskating craze. Only a month since they started.\nNo stopping these two lovers! (Area attack)", "Skating's so last year, it's all about classical\ntheater now. Got the attention of the media, now\nmaking old-school art cool again (Area Attack)", "They stopped taking stagecraft so seriously and\nnow just want to bring laughter to the people.\nStrong vs Relic enemies (Area Attack)"]
@@ -1015,6 +2089,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [39, 120], [50, 50]]
+      immune_knockback: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   154:
     name: [Cat Toaster, Cat Projector, Catophone]
     desc: ["Fed up with making toast every day, went on\nstrike by firing bread at Dad's face.\nMight slow Angelic enemies. (Area Attack)", "Used to projecting Hollywood stars, now worries\nit might be obsolete thanks to digital video.\nMight slow Angelic enemies. (Area Attack)", "Melancholy melodies strip enemies of their will\nto fight! Area attacks might slow Angelic\nenemies and break Barriers!"]
@@ -1022,6 +2110,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_alien: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
   155:
     name: [Hoop Cat, Showoff Cat, Hoopmaster Cat]
     desc: ["Started getting a bit pudgy, so he\ntook up hula hooping as exercise.\nMight freeze Metal enemies.", "Started out hoping to preserve his figure, but\nhis figure changed in an unexpected way.\nMight freeze Metal enemies.", "He's out of control and just can't get enough of\nthose lovely hoops! Will the spinning ever stop?\nHas a chance to freeze Metal enemies."]
@@ -1036,6 +2138,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   160:
     name: [Kalisa, 'Kalisa, type χ', Divine Kalisa]
     desc: ["Almost obliterated her school on the first\nday of class with her sword's dark magic.\nMassive damage against Angels. (Area Attack)", "Banished her principal to the netherworld at the\ngraduation ceremony. Things never change.\nMassive damage against Angels. (Area Attack)", "All of the nice boys who confess their love to her\nsoon find themselves \"graduated\" to the next world.\nMassive damage against Angels. (Area Attack)"]
@@ -1043,6 +2157,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
   161:
     name: [Yurinchi, Phoenix Yurinchi, Gekirinchi]
     desc: ["Hero joining from Princess Punt Sweets.\nA very special collab with a very special brand.\nStrong against Angels (Area atk.)", "The Cats' knowledge combined to make this\nradio-controlled Yurinchi from Princess Punt\nSweets. Strong against Angels (Area atk.)", "A painted radio-controlled Yurinchi from\nPrincess Punt Sweets. Cat also took a dip in\nblack paint. Strong against Angels (Area atk.)"]
@@ -1057,6 +2185,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        minmax: [[5, 5]]
+      against_zombie: {}
+      zombie_killer: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   169:
     name: [Asiluga, Asilan Pasalan, Assassinlan Pasalan]
     desc: ["Not sure if this is a Cat…\nThere's just something about\nthose legs…", "Unbelievable, just unbelievable.\nSeems like this one slows all\nenemies in range.", "Is it a Cat? Or an overly melodramatic \ncomic-book assassin of some kind?\nSlows enemies with Area Attacks."]
@@ -1064,6 +2203,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [23, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
   170:
     name: [Kubiluga, Kubilan Pasalan, E. Kubilan Pasalan]
     desc: ["Not sure if this is a Cat…\nThere's just something about\nthat neck…", "You can't be serious. Really?!\nSeems like this one knocks back\nenemies from afar.", "A mighty sumo wrester who sharpened\nhis expert skills fighting on the streets.\nWave attacks with 100% Critical chance!"]
@@ -1078,6 +2233,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   172:
     name: [Balaluga, Balalan Pasalan, Piccolan Pasalan]
     desc: ["Not sure if this is a Cat…\nThere's just something about\nthat belly…", "No. Way. This can't be right…\nSeems like this one freezes all\nenemies in range.", "A totally unknown extraterrestrial lifeform of\nunimaginable power... or maybe just a weird Cat?\nFreezes and weakens all enemies in area atk range."]
@@ -1106,6 +2275,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [red, float, black, metal, angel, alien, zombie, relic, white, aku]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[17, 80], [30, 30]]
+      surge_mini:
+        max_level: 10
+        minmax: [[28, 100], [5, 5], [2000, 2000], [2000, 2000]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   176:
     name: [Meowla Meowla, Catorpedo]
     desc: ["A cat trained by Molas for marine combat.\nStill kinda wishes he became a meteorologist.\nResistant to Red enemy attacks. (Area Atk)", "Evolved arms instead of legs… weird.\nHates being stepped all over. Stop it!!!\nResistant to Red enemy attacks. (Area Atk)"]
@@ -1127,6 +2307,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   180:
     name: [Takuya ＆ Yuki, 'Takuya, Yuki ＆ Cat', Takuya＆ Lovely Yuki]
     desc: ["Heroes from Shoumetsu Toshi! A brave \ndeliveryman and a girl of mystery.\nTough vs Floating (Area Attack)", "Gave a stray Cat a ride, thinking it was Sophia.\nSeeking answers in the destroyed metropolis.\nTough vs Floating (Area Attack)", "Travelling with a mysterious being that is the\nkey to find missing Yuki. Tough vs Floating\nExtra money from enemies (Area Atk)"]
@@ -1141,6 +2337,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   182:
     name: [Yuki Cat, Lovely Yuki Cat]
     desc: ["Girl lost during the city's destruction, reborn as\na Cat but retaining all her mysterious powers.\nSmall chance to Freeze Floating.", "Girl who became a Cat after the city's destruction,\nnow slowly regaining her former charisma.\nSmall chance to Freeze Floating."]
@@ -1169,6 +2381,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [9, 90]]
+      immune_knockback: {}
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   187:
     name: [Cornelia, Cornelia CC]
     desc: ["Joining the fight from Merc Storia! Lady who\nadmires dragons, dreaming of a celestial bridge. \nArea attacks might Freeze Red/Black.", "Joining the fight from Merc Storia! Can't resist\nthe dragon scales that build heaven's bridge.\nArea attacks might Freeze Red/Black."]
@@ -1218,6 +2444,28 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [23, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_aku:
+        ultra: 1
+      surge:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [1720, 1720], [1400, 1400]]
+        ultra: 1
   196:
     name: [Mekako Saionji, Dr. Mekako, Mission Control Mekako]
     desc: ["Studied back issues of Mechanix Monthly to\nbuild the unstoppable killing machine of her dreams.\nResistant to Alien/Black. Survives one lethal strike.", "Broke into an airport and took apart a jet engine\novernight to get parts for her mecha masterpiece.\nMagnifique. Knockback + Weaken against Aliens.", "Recruited by NYASA to engineer mechs for\ndeep-space recon. Astrophysics? No sweat.\nMassive area damage + Slow vs Aliens."]
@@ -1225,6 +2473,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [51, 150], [50, 50]]
+      knockback:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[14, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   197:
     name: [Catman, Dark Catman, Ultimate Catman]
     desc: ["Wears a special suit that blocks all UV light,\nbut it can't stop the papparazzi from following…\nMassive area damage against Floating/Aliens.", "Became a monster to fight the terrors of the night.\nStill, weak to autograph requests from nice old ladies.\nMassive area damage against Angels/Aliens.", "Gave in and took a three-movie deal to afford a\nhigh-tech suit powered by the fear of evildoers.\nMassive Area damage to Aliens and Relics."]
@@ -1232,6 +2496,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      immune_warp: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   198:
     name: [Psychocat, Neo Psychocat, Corrupted Psychocat]
     desc: ["Bends metal when excited. Loves cereal, but\nalways ends up with a useless spoon before he\ncan eat. Sometimes slows Alien movement.", "His happiness opens up extradimensional portals.\nDon't accept his invitation to play catch-ball.\nSometimes slows Alien movement.", "All will be consumed by the portals he creates.\nSoon he himself will be sucked into the dark\nrealms. Sometimes slows Alien movement."]
@@ -1239,6 +2515,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[30, 30], [39, 120], [30, 30]]
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   199:
     name: [Onmyoji Cat, Magica Cat, Thaumaturge Cat]
     desc: ["Exorcist who time travelled from the past.\nAlways trying to purge sportscars of evil.\nSometimes weakens non-Metal enemies.", "Magical Girl by Alien contract - the\nshiny staff came as a signing bonus.\nSometimes weakens non-Metal enemies.", "The contract has been fulfilled. Ultimate power\nis within her grasp. But now she just works as a\ntheme park villain. 100% weakens non-Metal."]
@@ -1246,6 +2536,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   200:
     name: [Surfer Cat, Castaway Cat, Seafarer Cat]
     desc: ["Spent so long hunting the perfect wave.\nNow he's reached 40 without truly living life(?)\nMight stop Aliens and survive lethal strikes. (Area)", "Says he wants to escape his desert island, but\nhe's secretly enjoying his permanent vacation.\nMight stop Aliens and survive lethal strikes. (Area)", "Giving up on rescue, he is now married to the sea.\nWill the waves be kind or cruel today? Might stop\nAliens, will 100% survive one lethal strike. (Area)"]
@@ -1253,6 +2557,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   201:
     name: [Metal Cat, Metal Macho]
     desc: ["Metal skin reduces all damage taken to a minimum.\nAlloy is only 87.5% purity, criticals might hurt him.\nCan't upgrade to (+) levels. (Metal)", "Metal skin reduces all damage taken to a minimum.\nProud of his beautiful skin, leaves his arms uncovered.\nCan't upgrade to (+) levels. (Metal)"]
@@ -1281,6 +2599,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_curse:
+        ultra: 1
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [41, 140]]
+        ultra: 1
   210:
     name: [Li'l Cat, Li'l Macho Cat, Li'l Mohawk Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat famous for cost-efficiency.", "A tiny guy with dreams of becoming that\nCat famous for glorious glistening biceps.", "A tiny guy with dreams of becoming that\nCat famous for a totally sweet hairdo.\nTrimmed down for best cost performance."]
@@ -1288,6 +2632,17 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      critical:
+        minmax: [[10, 10]]
+      immune_wave: {}
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   211:
     name: [Li'l Tank Cat, Li'l Wall Cat, Li'l Eraser Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat strong enough to move a pebble.\nTough. High health. (Area Attack)", "A tiny guy with dreams of becoming that\nCat strong enough to move a small rock.\nRigid defense. Now with corners (Area Attack)", "A tiny guy with dreams of becoming that\nCat famous for Really Good™ Defense.\nSame attack power as always. (Area Attack)"]
@@ -1295,6 +2650,21 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent_against: [zombie]
+    talent:
+      resistant_toxic:
+        max_level: 10
+        minmax: [[5, 50]]
+      soul_strike: {}
+      dodge:
+        max_level: 10
+        minmax: [[10, 10], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   212:
     name: [Li'l Axe Cat, Li'l Brave Cat, Li'l Dark Cat]
     desc: ["A tiny guy with dreams of becoming that\ncombat maniac who's strong against Red.", "A tiny guy with dreams of becoming that\nhero wannabe who's strong against Red.", "A tiny guy with dreams of becoming that\ndecent dark knight wannabe Cat.\nMighty power against Angels."]
@@ -1302,6 +2672,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      freeze:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   213:
     name: [The White Rabbit, The Black Cat, The Grey Fox]
     desc: ["A notorious spy who insists on cosplaying during\nevery heist. She's never failed a mission, though…\n100% chance of slowing Alien/Red. (Area Attack)", "Operative of the infamous Cat assassin's guild, there\nand gone without a single trace. Delivers pizza as a\ncover. Strong area damage against Alien/Red.", "Commander of the F.O.X. intelligence agency,\nshe ruthlessly directs a global network of expert\nkillers. Area atks knockback+weaken Alien/Red."]
@@ -1309,6 +2693,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_warp: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   214:
     name: [Catburger, Cat Royale, Value Meal Cat]
     desc: ["A quarter pound of A-grade aggression!\nPerfect for a quick lunch or guerilla assaults.\n100% beef! You didn't think...?", "Piled high with lettuce, cheese and fighting spirit!\nThe deluxe set for those with true hunger for battle.\nEat in moderation, and remember to exercise!", "Celebrate 3 years of The Battle Cats!\nTime to feed your enemies 1000 KCal of hurt!\nYour choice of sides: fries... or fries... or fries."]
@@ -1407,6 +2803,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_wave: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      against_white:
+        ultra: 1
+      immune_surge:
+        ultra: 1
+      colossus_killer:
+        ultra: 1
   228:
     name: [Pumpcat, Cat O'Lantern, Harbinger Cat]
     desc: ["A mischevious Cat who hid inside\na carved autumn squash. Lives to\nstartle unsuspecting passersby.", "Those who live only for pranks become cursed\nto wander the world as ghosts… but they\nstill never learn. Might freeze Black enemies briefly.", "Appears near sleeping people, signaling their death.\nDoom comes swiftly after it chants, \"Abura Cadaver!\"\nBehemoth Slayer, Strong vs and might Freeze Black."]
@@ -1498,6 +2910,22 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      knockback:
+        max_level: 10
+        minmax: [[1, 10]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   247:
     name: [Li'l Cow Cat, Li'l Giraffe Cat, Li'l Lion Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat who thinks quick and uses his head!", "A tiny guy with dreams of becoming that\nCat who headbangs only to Rock'n'Roll!", "A tiny guy with dreams of becoming that\nCat who uses his mane to clean the house.\nImmune to wave damage."]
@@ -1505,6 +2933,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[1, 10]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[20, 200]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   248:
     name: [Li'l Bird Cat, Li'l UFO Cat, Li'l Flying Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat with the health of a pea and\nexceptional attack power (Area Atk.)", "A tiny guy with dreams of becoming that\nCat who overcame gravity and is good\nagainst multiple enemies (Area Atk.)", "A tiny guy with dreams of becoming that\nCat who destroyed a city with light once.\nStrong against Zombies (Area Atk.)"]
@@ -1512,6 +2954,18 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      curse:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   249:
     name: [Undead Cat, Bake-Nyanko, Extra-Life Cat]
     desc: ["A cameo from GirlsMons! Hit by\na car, but still gets by! \nHas a small chance to Slow Zombies!", "A cameo from GirlsMons! A ghostly\nCat obsessed with the mortal realm.\nHas a small chance to Slow Zombies!", "Cat that has passed through an interdimensional door.\nIf you pass through, you won't be able to come back.\nHas a small chance to Slow Zombies"]
@@ -1526,6 +2980,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      against_zombie: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      behemoth_killer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [10, 30]]
+        ultra: 1
   259:
     name: [Anubis the Protector, Anubis the Unblemished, Almighty Anubis]
     desc: ["God of Death who escorts human souls to the\nunderworld. His Nether Staff purges mortals of\nsin. Unharmed by wave attacks. (Area Attack)", "His dominance of the underworld is complete.\nA single touch from his Sacred Staff will extinguish\nany life. Unharmed by wave attacks. (Area Attack)", "God of Death who uses the fruit of creation to sever\nthe ties that bind souls of the dead to mortal realms.\nUnharmed by wave attacks. (Area Attack)"]
@@ -1533,6 +3008,32 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      surge:
+        max_level: 10
+        minmax: [[3, 30], [1, 1], [800, 800], [1000, 1000]]
+      immune_surge: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[11, 74]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[40, 400]]
+        ultra: 1
+      break_shield:
+        max_level: 10
+        minmax: [[16, 70]]
+        ultra: 1
   260:
     name: [Radiant Aphrodite, Megaphrodite, Almighty Aphrodite]
     desc: ["Deity of beauty, pride, love and… other stuff.\nHer Golden Bow always strikes true from afar.\nDeals massive damage to Aliens. (Long Distance)", "Her Brilliant Bow can grant long life, or take it all\naway… watch your mouth around this goddess!\nDeals massive damage to Aliens. (Long Distance)", "Goddess of love, beauty and pride. Blessed by the\nfruit of creation, life and death serve her pleasure.\nMassive Long-Range Area damage to Aliens."]
@@ -1540,6 +3041,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
   261:
     name: [Catway, Drone Cat, Time Traveller Cat]
     desc: ["A tech CEO who patrols the office in style,\nlooking for lazy interns to punish! Strong Vs.\nRed, Black, and Angels (Area Attack)", "A cutting edge Unmanned Aerial Feline (UAF).\nTends to crash regularly… tech still under\ndevelopment! Strong vs. Red, Black, Angels (Area)", "A future timeline's envoy to the present Cats.\nOften time slips into the movie theater for free...\nStrong vs. Red, Black & Angels. (Area attack)"]
@@ -1554,6 +3071,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      break_shield:
+        max_level: 10
+        minmax: [[4, 40]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   268:
     name: [Catornado, Hurricat, Catyphoon]
     desc: ["Wanted to skip school so badly, he became a\ntyphoon to cause a national weather alert.\nSuper high-speed Area attacks with Critical.", "A side effect of El Nino. Dangerously curious;\nsucks up anything he tries to get a peek at.\nSuper high-speed Area attacks with Critical.", "Swept up in a storm along with the rest of town.\nUsed to it by now, so he came prepared for weather.\nSuper high-speed Area attacks with Critical."]
@@ -1582,6 +3113,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      increase_speed:
+        max_level: 10
+        minmax: [[2, 20]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   272:
     name: [Shining Amaterasu, Glorious Amaterasu, Almighty Amaterasu]
     desc: ["The might and beauty of the Sun personified.\nSubdues enemies using her sacred mirror.\nMassive area damage to any enemy with a trait.", "No one can stand against the radiance of this\ngoddess. Dark souls kneel before her holy mirror!\nMassive area damage to any enemy with a trait.", "Merciful goddess who uses the powers of the fruit\nof creation to bless the earth with the light of the Sun.\nMassive Area damage to any enemy with a trait."]
@@ -1589,6 +3136,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      zombie_killer: {}
+      break_barrier:
+        max_level: 10
+        minmax: [[32, 50]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   273:
     name: [Splendid Ganesha, Exalted Ganesha, Almighty Ganesha]
     desc: ["Lord of scholarship and splendor, guardian of the\nsacred treasures that ward against misfortune.\nGains power when damaged (Long Range Area Atk)", "All who follow him will grow prosperous and wise,\nas he smites his enemies with infinite might. Gains\npower when damaged (Long Range Area Atk)", "The god of prosperity who uses the fruit of creation\nto bless mankind with wealth, wisdom and fortune.\nLong-Range Area attacks gain power when damaged."]
@@ -1596,6 +3157,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      immune_knockback: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   274:
     name: [Cheerleader Cat, Waitress Cat, Soba Cat]
     desc: ["Leaping about on the football field, her youthful\nsongs fill the Battle Cats with determination.\n100% chance of a Critical Attack!", "The real world called, but her enthusiasm\nremains! Her speedy service fills the Cats\nwith determination! 100% Critical chance.", "Finally saved enough to buy her own restaurant!\nHer noodles are the best in the city, and her \nservice never lacks style. 100% Critical chance."]
@@ -1666,6 +3241,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   285:
     name: [Express Cat, Maglev Cat, Bullet Train Cat]
     desc: ["1-car train with a max speed of 222kph\n120% of seats were filled today.\nExtra money when defeating enemies!", "222-Cat seater with a max speed of \n2222kph, a blessing for all Cat commuters.\nExtra money when defeating enemies!", "Can take a maximum of 2222 passengers on\na round-the-world journey at 20,000,000 km/h\nExtra money when defeating enemies!"]
@@ -1680,6 +3269,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   288:
     name: [Little Leaguer Cat, Major Leaguer Cat, Golfer Cat]
     desc: ["Young, but full of raw potential. Recruited\nstraight from Tee-Ball to the local champs.\nResistant to Aliens, Long-Range/Area Atks.", "This team legend is now too chubby to run,\nbut his batting average is out of this world.\nResists Aliens, might break barriers, Long-range.", "Hole-in-One king of the local park. Interesting\nfairway technique inspired by his past career.\nResists Aliens, might break barriers, Long-range."]
@@ -1806,6 +3409,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[40, 40], [39, 120]]
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [4, 4]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   306:
     name: [Mighty Drednot, B.C.S. Lionheart, B.C.S. Tigerclaw]
     desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a retro battleship for marine dominance!\nArea atks deliver huge damage vs Red enemies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies.", "Cat Army Special Forces use this Nekonium drill-\nequipped destroyer to stage marine assaults.\nHuge area damage vs Reds and Zombies."]
@@ -1813,6 +3432,23 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   307:
     name: [Mighty Bomburr, NEK-0 Sky Fortress, NEK-02 Air Citadel]
     desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a super sweet tactical aircraft. Area atks\nknock back Zombie enemies with ease.", "The ultimate aerial threat, dropping endless\nmegatons of munition on ground threats. Area\nattacks deliver powerful knockback vs Zombies.", "A force of total aerial domination and a key weapon\nin the Cat's quest to create an ideal world.\nArea attacks have powerful knockback vs Zombies."]
@@ -1820,6 +3456,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[57, 57], [5, 50]]
+      immune_toxic: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   308:
     name: [Vaulter Cat, Polevaulter Cat, Housewife Cat]
     desc: ["Soaring through the blue sky using only a\nsingle pole, she is the height of athleticism.\nArea atks might slow Zombies.", "Certified by Guinness as the record-holder\nfor cats' polevaulting. Will marry her coach\nnext year. Area attacks might slow Zombies.", "Retired with four still-unbeaten world records.\nHer skills are surprisingly applicable to daily life!\nLong-range Area attacks might slow Zombies."]
@@ -1827,6 +3478,22 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   309:
     name: [Gardener Cat, Lumbercat, Weedwacker Cat]
     desc: ["Bought lovely bonsai shears by mail-order.\nNow there are no more branches left in reach\nby the Cat Base. Might freeze Zombies.", "Kept this key weapon in an anti-Zombie kit,\ninstead of doing something useless like cutting\ndown trees. Might freeze Zombies.", "Ordered a fierce-looking trimmer online.\nHe's never actually used this tool to cut plants.\nMight freeze Zombies for a bit longer."]
@@ -1834,6 +3501,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   311:
     name: [Yuletide Nurse, Yule Knight Nurse, Xmas Spirit Nurse]
     desc: ["Everyone's favorite Nurse is feeling the\nXmas spirit! Praying for health with a lucky\nholiday candle. Slow/knockback Angels/Aliens.", "The warrior-nurse of Xmas mercy!\nHer sword shines brighter than any candle.\nMight slow & knockback Angels and Aliens.", "Symbol of loving care, her radiance serves to\nlight the way to a hopeful future for all Catkind.\nMight Slow & Knockback Aku, Aliens and Angels."]
@@ -1848,6 +3529,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      against_aku: {}
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [2, 2]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   313:
     name: [Li'l Lizard Cat, Li'l Dragon Cat, Li'l King Dragon Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat able to attack enemies from a distance.\nPowerful single shot long range attack.", "A tiny guy with dreams of becoming that\nCat that arrived here from a fantasy world.\nPowerful single shot long range attack.", "A tiny guy with dreams of becoming that\nCat that makes it in the Dragon Elite.\nPowerful single shot long range attack."]
@@ -1855,6 +3550,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[4, 40], [4, 4]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   314:
     name: [Li'l Titan Cat, Li'l Mythical Titan, Li'l Jamiera Cat]
     desc: ["A tiny guy with dreams of becoming that Cat\nblessed with extreme attack power and\nridiculous amounts of health (Area Attack)", "A tiny guy with dreams of becoming that\nLord of Destruction (?) (Area Attack)\nExtreme attack power and health.", "A tiny guy with dreams of becoming that\nLord of destruction with the stretched shirt.\nExtreme area attack, might knockback."]
@@ -1862,6 +3571,20 @@ cats:
     rarity: 1
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
+    talent:
+      break_shield:
+        max_level: 10
+        minmax: [[3, 30]]
+      immune_weaken: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   315:
     name: [Years-End Neneko, New Year Neneko, Festive New Year Neneko]
     desc: ["Taking out the trash and aiming for a fresh\nstart! Thanks for everything, 2016 - NOT!\nArea attacks might cause Critical strikes.", "Resolving to improve her self-confidence,\nshe has a New Years greeting for everyone!\nArea attacks might cause Critical strikes.", "Dressed in a colorful kimono to welcome the New Year.\nThis year will be her chance to sing! (Area Attack)\n(Triple Bow has chance of Critical!)"]
@@ -1883,6 +3606,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [23, 50]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   318:
     name: [CPAC, PPAP]
     desc: ["CPAC = \"Cat-Pineapple-Apple-Cat\"\nJust a couple of Cat bros dropping\nin from a YouTube video campaign!", "PPAP = \"Pen-Pineapple-Apple-Pen\"\nA couple of trendy YouTuber Cats\njoining in on the party! Thanks!"]
@@ -1911,6 +3650,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[2, 20], [200, 200]]
+      immune_toxic: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   324:
     name: [Miyamoku Musashi, Heroic Musashi, Awakened Musashi]
     desc: ["Appearing in a cursed play, a handsome actor\nbecame possessed by ghostly samurai Cat.\nUnharmed by wave attacks. (Area Attack)", "Powerful psychic energy overexposes any film\nnear him; his movie career is officially over.\nUnharmed by wave attacks. (Area Attack)", "Made his big break as a cop with a ghost partner\non the hit drama Karma Police (produced by Cat).\nUnharmed by wave attacks, might Freeze Relics."]
@@ -1932,6 +3683,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_alien: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10], [200, 200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   327:
     name: [Mobius, Miraculous Mobius]
     desc: ["Earnest lady scholar with a strong heart,\ndropping in from Crash Fever (Area Atk)\nHuge damage/100% knockback vs Red", "Through dedicated effort she has perfected\nher skills. A guest from Crash Fever. Huge \ndamage/100% knockback vs Red. (Area Atk)"]
@@ -1995,6 +3760,26 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      surge_mini:
+        max_level: 10
+        minmax: [[5, 50], [1, 1], [600, 600], [2800, 2800]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
   336:
     name: [Sea Maiden Ruri, Sea Mistress Ruri, Mer-Queen Ruri]
     desc: ["A mermaid NEET from the mystic seas. Dreams\nof cute boys who'd risk drowning to date her.\nTough vs Red, weakens enemies.", "True love has granted her feet to walk beside her\ndearest, but now all she wants is time to play\nvideo games. Tough vs Red, weakens enemies.", "Built a undersea palace hoping her crush will drop\nby. Until he grows gills, it's just her top-class gamer\nden. Tough vs Red, with 100% Weaken chance."]
@@ -2002,6 +3787,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   337:
     name: [Queen Reika, Pharoah Reika, Eternal Reika]
     desc: ["A royal mummy from a mystic past. Actually, she\nmummified herself by over-applying foundation.\nMassive damage vs Aliens/Zombies (Area Atk)", "She may have died from it, but overdoing makeup\nkeeps her looking stunning even 5000 years later.\nMassive damage vs Aliens/Zombies (Area Atk)", "Charismatic royal corpse who will crumble to dust\nif she ever leaves her prescription beauty throne.\nMassive damage to Aliens/Zombies (Area Attack)"]
@@ -2016,6 +3813,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_weaken: {}
+      immune_wave: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   339:
     name: [Imagawa Yoshimoto, Wargod Yoshimoto, Immortal Yoshimoto]
     desc: ["His impeccable virtue allows him to wield\nthe cursed Cat Fan. Strong against Black,\n100% chance to weaken (Long-range)", "Possessed by an all-knowing fox spirit, he\nstrikes with golden arrows. Strong vs Black,\n100% chance to weaken (Long-range)", "Stained crimson with the blood of his rivals, the\nCat Fan burns with an unearthly fire for even greater\ndamage and weakening against Black enemies."]
@@ -2023,6 +3832,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   341:
     name: [Redhead Yuki Cat, Redhead Lovely Yuki Cat, Redhead Muscled Yuki Cat]
     desc: ["Girl lost during the city's destruction, reborn as\na Cat while retaining all her mysterious powers.\nSmall chance to Freeze Aliens.", "Girl who became a Cat after the city's destruction,\nhad a stylish outfit tailored to fit her new propotions.\nSmall chance to Freeze Aliens.", "Girl who became a Cat and built enough muscle to\nmatch her inner beauty. As intelligent as she is pretty.\nSmall chance to Freeze Aliens, Surge Atk."]
@@ -2037,6 +3860,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   343:
     name: [Maneki Cat, Neo Maneki Cat]
     desc: ["For this small-business Cat, the customer is king.\nAlways invests its profits back in the store.\nGet more money when defeating enemies!", "This Cat is thankful for you supporting it's business!\nHe'll thank you by fighting any enemy that troubles you.\nGet more money when defeating enemies!"]
@@ -2058,6 +3893,20 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_slow: {}
+      surge_mini:
+        max_level: 10
+        minmax: [[10, 100], [1, 1], [600, 600], [1200, 1200]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   346:
     name: [Michelia, Michelia CC, Naptime Michelia CC]
     desc: ["Joining the fight from Merc Storia!\nCalled \"Holy Wings\" for obvious reasons.\nStrong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Only by\ncasting aside wings can you realize true\nsainthood. Strong vs/Might Freeze Floating", "Joining the fight from Merc Storia! Saint\nwho avoids dependence on God's miracles.\nStrong vs/100% Freeze vs Floating"]
@@ -2065,6 +3914,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   347:
     name: [Todomeki, Todomeki CC]
     desc: ["Joining the fight from Merc Storia! Japanese\nmaiden searching this world for her brother.\nArea attacks might Slow Aliens/Zombies", "Joining the fight from Merc Storia! Treasures\nthe kimono gifted by her dear brother.\nArea attacks might Slow Aliens/Zombies"]
@@ -2079,6 +3940,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   353:
     name: [Hermit Cat, Grandmaster Cat, Masked Grandmaster Cat]
     desc: ["A legendary sage who infiltrated the Cat Base.\nMemory might be going, but true strength cannot be\nforgotten. Rapid area attacks fire powerful waves.", "Captured an enemy base with nothing but one sweet \nrice cake. Imagine what happens when he gets angry.\nRapid area attacks fire powerful waves.", "Sage bewitched by an ancient mask fallen from\nthe sky, imbued with forbidden battle techniques.\nStrong vs Relics, with chance of Curse Wave!"]
@@ -2100,6 +3975,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_curse: {}
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   358:
     name: [Wolfchild Deale, Wolf Princess Deale, Jester Queen Deale]
     desc: ["A lost cub from a mighty werewolf pack\nwho found her calling in show business.\nMight knockback Angels & Aliens (Area Atk)", "The one-wolf show has revealed her true colors\nto universal acclaim. Are you not entertained??\nMight knockback Angels & Aliens (Area Atk)", "Started streaming her comedy act and earned\na million bucks! Follow her for a special reward~☆\nArea attacks might knockback Angels/Aliens"]
@@ -2107,6 +3996,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[2, 20]]
+      immune_wave: {}
+      immune_weaken: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   359:
     name: [Graveflower Verbena, Verbena the Bride, Opulent Verbena]
     desc: ["A lost soul who came home from the other side. \nHunting for a groom to fill her heart... or her stomach.\nMight deliver critical strikes (Area Attacks)", "Her hunger sated, she now looks forward to\nthe wedding day of her undead dreams.\nMight deliver critical strikes (Area Attacks)", "Using her late love's estate to live the afterlife of\nher dreams. Now both her heart and stomach are\nfull to bursting. Area attacks might Critical."]
@@ -2121,6 +4022,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   361:
     name: [Mizli, Marinmizu, Mizuririn]
     desc: ["Cosmic water, brought to life!\nThis nymph spirit controls waves\nthat knock Aliens far back!", "With waves that can split the Earth, its \nattacks wash away enemy Barriers. Tough \nAnti-Alien defense and knockback attacks.", "Master of water, sends cleansing waves to purify\nmortal realms of evil, washing away Barriers.\nTough Anti-Alien defense and knockback attacks."]
@@ -2128,6 +4045,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[12, 30]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   362:
     name: [Aer, Erphuan, Aervanta]
     desc: ["Cosmic storms, brought to life!\nThis sylph spirit summons winds\nfor long distance area attacks!", "With winds that blast away the mountains,\nno Barrier can stand against its assaults.\nTough, with long-range area attacks vs Aliens.", "Calling forth raging solar winds, can annihilate\neven a mighty nebula with the slightest of efforts.\nTough, with long-range area attacks vs Aliens."]
@@ -2135,6 +4068,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[50, 50], [39, 120], [50, 50]]
+      dodge:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   363:
     name: [Saber, Saber CC, Saber Alter CC]
     desc: ["Joining the fight from Fate/stay night [HF]! Her\nsword is pledged to her Master, Shirou Emiya.\nMassive long-range area damage vs. Floating!", "Joining the fight from Fate/stay night [HF]! Peerless \nwarrior in possession of a Noble Phantasm.\nMassive long-range area damage vs. Floating!", "Joining the fight from Fate/stay night [HF]! A \nmenacing swordwoman who resembles Saber...\nMassive long-range area damage vs. Floating!"]
@@ -2247,6 +4196,21 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent_against: [alien]
+    talent:
+      knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_warp: {}
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   379:
     name: [Dark Mitama, Gothic Mitama]
     desc: ["Mitama has been betrayed by this cruel world\nand has embraced darkness. (Long Range Atk)\nTough vs traitless enemies, 100% Slow chance.", "Like a widow mourning her lost love, she is\ntrapped within her memories. (Long Range Atk)\nTough vs traitless, 100% Slow/Weaken chance."]
@@ -2387,6 +4351,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_wave: {}
+      immune_surge: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   400:
     name: [Mentori, Mentori CC]
     desc: ["Dropping in from MENTORI! Trust me,\ntalking to it is more trouble than it's worth..\nTough vs Floating Enemies", "Dropping in from MENTORI! This weird\nbird specializes in obnoxious interjections.\nTough vs Floating Enemies"]
@@ -2520,6 +4496,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   419:
     name: [Crazed Moneko, Corrupted Moneko]
     desc: ["Everyone's favorite girl-next door popstar finally \nsnapped under the stress of stardom. Even an\nevil idol has nothing but love for her fans.", "Global superstar who uses her charisma to\nwhip her adoring audiences into a crazed fury.\nHer thankful bow delivers big critical damage!"]
@@ -2562,6 +4553,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_toxic: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   429:
     name: [Souma Cat, Stylish Souma Cat]
     desc: ["A boy lost to the destruction, reborn as a\nCat who makes ominous statements.\n100% chance of Wave Attack.", "Over time, the boy-turned-Cat evolved the \npowerful legs from his time as a human.\n100% chance of Wave Attack."]
@@ -2583,6 +4588,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   433:
     name: [Betakkuma, Black Betakkuma]
     desc: ["Joining the fight from Betakkuma!\nWeirdly cute white bear with some slick moves.\nMight knockback Aliens.", "Joining the fight from Betakkuma!\nChanged colors after training by an assassin's guild.\nMight knockback Aliens."]
@@ -2611,6 +4628,19 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_toxic: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   438:
     name: [Cat God the Great, Cat God the Awesome, Cat God the Golden]
     desc: ["At long last, Cat God has joined the fight!\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "Shining with glorious purpose and divine charisma.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too.", "A deity so resplendent that it's actually obnoxious.\nHis holy sneeze knocks back all but Metal \nenemies, and his Omni-strikes are pretty cool too."]
@@ -2632,6 +4662,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      resistant_curse:
+        max_level: 10
+        minmax: [[16, 70]]
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   441:
     name: [Bebe, Nagisa & Cat]
     desc: ["From Madoka Magica The Movie -Rebellion-!\nMami's adorable, cheese-loving partner.\nArea attacks Weaken Aliens and Zombies.", "From Madoka Magica The Movie -Rebellion-!\nNew Magical Girl who appears before Madoka.\nArea attacks Weaken Aliens and Zombies."]
@@ -2898,6 +4944,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      curse:
+        max_level: 10
+        minmax: [[100, 100], [10, 100]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   484:
     name: [Kano ＆ Souma, Kano ＆ Souma ＆ Cat]
     desc: ["Heroes from Shoumetsu Toshi! Two wanderers in\nthe ruins of the city, confronting their own sins.\nTough vs Aliens, Area Attack", "Joined by a Cat picked up at the seaside, our\nwanderers set their sights on the ruined city.\nTough vs Aliens, Area Attack"]
@@ -2982,6 +5042,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      against_aku: {}
+      slow:
+        max_level: 10
+        minmax: [[30, 30], [24, 60]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   497:
     name: [Narita Kaihime, Wargod Kaihime, Immortal Kaihime]
     desc: ["This stunning warrior has been blessed with\nan invincible blade and a resolute body.\nSlows Black/Zombies, might strike Savage blows.", "Incomparable beauty who mercilessly destroys\nfoes while maintaining perfect composure in battle.\nSlows Black/Zombies, might strike Savage blows.", "This dignified heroine has withstood the corruption\nof the cursed weapons and seeks only to bring peace.\n100% Slow vs Black/Zombies, chance of Savage blows."]
@@ -2989,6 +5063,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[40, 40], [39, 120], [50, 50]]
+      immune_curse: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[80, 800]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   498:
     name: [Shakurel Cat, Shakurel Macho Cat]
     desc: ["With extinction looming, this Cat\nwill survive by evolving a mightier jaw.", "Sometimes a jaw isn't enough?\nGet swole for MORE POWER!"]
@@ -3031,6 +5119,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_curse: {}
+      immune_surge: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   506:
     name: [Relentless Gladios, Gladios the Annihilator, God-Emperor Gladios]
     desc: ["Gargantuan horned beast, spitting vicious\nthunderbolts that shake the very firmament.\nChance to Knockback/Slow Traitless enemies.", "None may stand against the horned king bearing\nthe soul of storms and impenetrable ebony armor.\nChance to Knockback/Slow Traitless enemies.", "Bathed in the light of obliteration at a holy mountain\nand realized the power to destroy all life. (Area Atk)\n100% Chance to Knockback/Slow Traitless."]
@@ -3136,6 +5236,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[20, 200]]
+      colossus_killer: {}
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   521:
     name: [Good-Luck Ebisu, Bad-Luck Ebisu]
     desc: ["Happy-go-lucky Cat representing the Gods of Fortune.\nNo more blessings to share, sorry. Long-range attacks\nmay inflict various negative effects on traited enemies.", "Lock your doors if you hear him coming, he's got lots\nof misfortune to share. Long-range attacks may\ninflict various negative effects on traited enemies."]
@@ -3157,6 +5271,18 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      resistant: {}
+      against_angel: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   524:
     name: [Wushu Cat, Sifu Cat, Shigong Cat]
     desc: ["Top student at a discount martial arts school that\ncosts $40 per month. Goes twice weekly after work.\nTough vs Zombies.", "Owner of a discount martial arts school. His insistence\non using custom equipment disqualifies him from\nofficial competitions. Tough vs Zombies.", "His peerless fighting instincts obliterate any enemy in\nhis path. Even his battle aura sends foes fleeing in fear!\nTough vs Zombies"]
@@ -3227,6 +5353,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strong: {}
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   535:
     name: [Hades the Punisher, Hades the Deathdealer, Almighty Hades]
     desc: ["Supreme overlord and judge of the dead.\nCondemns evil souls with his infernal scythe.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the underworld who reaps the spirits\nof sinners, bringing them to their ultimate fate.\nImmune to Toxic & Warp (Area Attack)", "Ruler of the nether realms, who uses the fruit of\ncreation to draw the sinful dead to his kingdom.\nImmune to Toxic & Warp (Area Attack)"]
@@ -3234,6 +5374,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [relic]
+    talent:
+      immune_curse: {}
+      slow:
+        max_level: 10
+        minmax: [[20, 20], [3, 30]]
+      weaken:
+        max_level: 10
+        minmax: [[20, 20], [3, 30], [50, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   536:
     name: [Hatsune Miku, Hatsune Miku CC]
     desc: ["Virtual singer loved by the entire Cat Empire!\nCute & stylish electric pop diva. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels.", "Virtual singer loved by the entire Cat Empire!\nHer voice is famous around the globe. (Area Attack)\nStrong vs. & Weakens Red, Floating, Angels."]
@@ -3388,6 +5543,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave:
+        max_level: 10
+        minmax: [[4, 40], [3, 3]]
+      weaken:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   561:
     name: [Megurine Luka, Megurine Luka CC]
     desc: ["Virtual singer loved by the entire Cat Empire!\nBilingual vocalist with just a bit of mystery to her.\nMassive Long-Range Area Damage to Floating/Black", "Virtual singer loved by the entire Cat Empire!\nLaid-back bilingual vocalist with a silky smooth voice.\nMassive Long-Range Area Damage to Floating/Black"]

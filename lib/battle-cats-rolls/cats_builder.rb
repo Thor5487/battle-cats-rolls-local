@@ -32,6 +32,10 @@ module BattleCatsRolls
       @unitlevel ||= store_unitlevel(provider.unitlevel)
     end
 
+    def skills
+      @skills ||= store_skills(provider.skill_acquisition)
+    end
+
     def == rhs
       cats == rhs.cats && gacha == rhs.gacha
     end
@@ -46,6 +50,8 @@ module BattleCatsRolls
         growth = level.take((data['max_level'] / 10.0).ceil).map(&:to_i)
         data['growth'] = growth
         data
+      end.merge(skills.slice(*ids)) do |id, data, skill|
+        data.merge(skill)
       end
     end
 
@@ -77,6 +83,83 @@ module BattleCatsRolls
         id = index + 1
         result[id] = line.split(',')
         result
+      end
+    end
+
+    def store_skills data
+      rows = data.each_line.map{ |line| line.rstrip.split(',') }
+      names = rows.first
+      rows.drop(1).inject({}) do |result, values|
+        named_data = Hash[names.zip(values)].transform_values(&:to_i)
+        result[named_data['ID'].succ] = {
+          'talent_against' => transform_against(named_data['typeID']),
+          'talent' => transform_skills(named_data)
+        }.compact
+        result
+      end
+    end
+
+    def transform_against type_bits
+      result = talent_against.select.with_index do |_, index|
+        type_bits & (2 ** index) > 0
+      end
+
+      result if result.any?
+    end
+
+    def transform_skills named_data
+      group_skills(named_data).inject({}) do |result, skill|
+        result[talent_types.fetch(skill['abilityID'])] = {
+          'max_level' => skill['MAXLv'],
+          'minmax' => skill['minmax'],
+          'ultra' => skill['limit']
+        }.compact
+
+        result
+      end
+    end
+
+    def group_skills named_data
+      ('A'..'H').inject([]) do |result, letter|
+        skill = group_skills_letter(letter, named_data)
+
+        compact_skill(skill)
+
+        result << skill if skill['abilityID']
+        result
+      end
+    end
+
+    def group_skills_letter letter, named_data
+      named_data.inject({}) do |result, (key, value)|
+        suffix = "_#{letter}"
+
+        if key.end_with?(suffix) # regular fields
+          result[key.delete_suffix(suffix)] = value
+        elsif match = key.match(/#{suffix}(\d)\z/) # min and max fields
+          index = match[1].to_i - 1
+          (result[key.delete_suffix(match[0])] ||= [])[index] = value
+        end
+
+        result
+      end
+    end
+
+    def compact_skill skill
+      minmax = skill.delete('min').zip(skill.delete('max'))
+      skill['minmax'] = minmax - [[0, 0]]
+      skill.delete_if do |key, value|
+        case value
+        when Array
+          value.empty?
+        else
+          case key
+          when 'MAXLv'
+            value <= 1
+          else
+            value <= 0
+          end
+        end
       end
     end
 
@@ -191,6 +274,47 @@ module BattleCatsRolls
         # unused
         warp_chance: 71, warp_duration: 72,
         warp_range: 73, warp_range_offset: 74,
+      }
+    end
+
+    def talent_against
+      @talent_against ||= %w[
+        red float black metal angel alien zombie relic white eva witch aku
+      ]
+    end
+
+    def talent_types
+      @talent_types ||= {
+        32 => 'increase_health', 31 => 'increase_damage',
+        28 => 'increase_knockbacks', 27 => 'increase_speed',
+        25 => 'reduce_cost', 26 => 'reduce_production_cooldown',
+        61 => 'reduce_attack_cooldown',
+        4 => 'against_only', 33 => 'against_red',
+        34 => 'against_float', 35 => 'against_black', 36 => 'against_metal',
+        41 => 'against_white', 37 => 'against_angel', 38 => 'against_alien',
+        40 => 'against_relic', 57 => 'against_aku',
+        39 => 'against_zombie', 14 => 'zombie_killer', 59 => 'soul_strike',
+        15 => 'break_barrier', 58 => 'break_shield',
+        63 => 'colossus_killer', 64 => 'behemoth_killer', 66 => 'sage_killer',
+        42 => 'witch_killer', 43 => 'eva_angel_killer',
+        5 => 'strong', 6 => 'resistant', 7 => 'massive_damage',
+        8 => 'knockback', 2 => 'freeze', 3 => 'slow',
+        1 => 'weaken', 60 => 'curse',
+        13 => 'critical', 50 => 'savage_blow',
+        17 => 'wave', 62 => 'wave_mini', 56 => 'surge', 65 => 'surge_mini',
+        11 => 'survive', 51 => 'dodge',
+        16 => 'loot_money', 12 => 'base_destroyer', 10 => 'strengthen',
+        48 => 'immune_wave', 55 => 'immune_surge',
+        47 => 'immune_knockback', 45 => 'immune_freeze', 46 => 'immune_slow',
+        44 => 'immune_weaken', 49 => 'immune_warp', 29 => 'immune_curse',
+        53 => 'immune_toxic',
+        22 => 'resistant_wave', 54 => 'resistant_surge',
+        21 => 'resistant_knockback', 19 => 'resistant_freeze',
+        20 => 'resistant_slow', 18 => 'resistant_weaken',
+        24 => 'resistant_warp', 30 => 'resistant_curse',
+        52 => 'resistant_toxic',
+        # unused
+        9 => 'warp',
       }
     end
 
