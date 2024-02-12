@@ -1,6 +1,5 @@
 ## Stats
 
-* Account surge damage into DPS
 * Show surge duration
 * Show knockback distance
 * Show slow percentage
