@@ -121,10 +121,17 @@ module BattleCatsRolls
           values = line.split(',').values_at(*fields.values)
 
           if values.any?
-            Hash[fields.each_key.map(&:to_s).zip(values)].
+            stat = Hash[fields.each_key.map(&:to_s).zip(values)].
               delete_if do |name, value|
                 !/\A\-?\d+/.match?(value) || value.start_with?('0')
               end.transform_values(&:to_i)
+
+            if stat['conjure']
+              stat['conjure'] += 1
+              stat.delete('conjure') if stat['conjure'] == 0
+            end
+
+            stat
           end
         end
       end

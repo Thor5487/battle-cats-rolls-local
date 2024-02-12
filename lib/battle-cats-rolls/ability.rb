@@ -181,8 +181,8 @@ module BattleCatsRolls
         'Freeze'
       end
 
-      def display &stat_time
-        "#{percent(chance)} for #{seconds_range(stat_time)}"
+      def display
+        "#{percent(chance)} for #{seconds_range(yield.method(:stat_time))}"
       end
 
       def specialized; true; end
@@ -203,8 +203,8 @@ module BattleCatsRolls
         'Slow'
       end
 
-      def display &stat_time
-        "#{percent(chance)} for #{seconds_range(stat_time)}"
+      def display
+        "#{percent(chance)} for #{seconds_range(yield.method(:stat_time))}"
       end
 
       def specialized; true; end
@@ -226,8 +226,8 @@ module BattleCatsRolls
         'Weaken'
       end
 
-      def display &stat_time
-        "#{percent(chance)} to reduce enemies damage to #{percent(multiplier)} for #{seconds_range(stat_time)}"
+      def display
+        "#{percent(chance)} to reduce enemies damage to #{percent(multiplier)} for #{seconds_range(yield.method(:stat_time))}"
       end
 
       def specialized; true; end
@@ -248,8 +248,8 @@ module BattleCatsRolls
         'Curse'
       end
 
-      def display &stat_time
-        "#{percent(chance)} to invalidate specialization for #{seconds_range(stat_time)}"
+      def display
+        "#{percent(chance)} to invalidate specialization for #{seconds_range(yield.method(:stat_time))}"
       end
 
       def specialized; true; end
@@ -270,8 +270,8 @@ module BattleCatsRolls
         'Dodge'
       end
 
-      def display &stat_time
-        "#{percent(chance)} to become immune to enemies for #{seconds(stat_time)}"
+      def display
+        "#{percent(chance)} to become immune to enemies for #{seconds(yield.method(:stat_time))}"
       end
 
       def specialized; true; end
@@ -293,6 +293,24 @@ module BattleCatsRolls
       end
 
       def specialized; true; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class Conjure < Struct.new(:cat_id, :cat_info)
+      def self.build_if_available stat
+        new(stat['conjure'], stat['conjure_info']) if stat['conjure']
+      end
+
+      def name
+        'Conjure'
+      end
+
+      def display
+        %Q{<a href="#{yield.route.uri_to_cat(Cat.new(id: cat_id))}">#{cat_info.dig('desc', 0)}</a>}
+      end
+
+      def specialized; false; end
       def effects; false; end
       def index; __LINE__; end
     end
@@ -664,8 +682,8 @@ module BattleCatsRolls
         'Behemoth slayer'
       end
 
-      def display &stat_time
-        "Deal 250% and take 60% damage, and #{percent(chance)} to be immune for #{seconds(stat_time)}"
+      def display
+        "Deal 250% and take 60% damage, and #{percent(chance)} to be immune for #{seconds(yield.method(:stat_time))}"
       end
 
       def specialized; false; end

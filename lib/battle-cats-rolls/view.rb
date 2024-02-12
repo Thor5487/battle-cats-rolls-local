@@ -299,7 +299,7 @@ module BattleCatsRolls
     end
 
     def display_ability ability
-      display_list(ability.display(&method(:stat_time)), strong: true)
+      display_list(ability.display(&method(:itself)), strong: true)
     end
 
     def display_list text_or_list, strong: false

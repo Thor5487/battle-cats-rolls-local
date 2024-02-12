@@ -5,7 +5,7 @@ require_relative 'attack'
 
 module BattleCatsRolls
   class Stat < Struct.new(
-    :id, :info, :index, :level,
+    :id, :info, :index, :level, :conjure_info,
     :sum_no_wave, :dps_no_critical,
     keyword_init: true)
 
@@ -22,7 +22,11 @@ module BattleCatsRolls
     end
 
     def stat
-      info.dig('stat', index)
+      @stat ||= if conjure_info
+        info.dig('stat', index).merge('conjure_info' => conjure_info)
+      else
+        info.dig('stat', index)
+      end
     end
 
     def fps
