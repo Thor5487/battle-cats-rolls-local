@@ -123,6 +123,10 @@ module BattleCatsRolls
       }
     end
 
+    def inspect
+      "#<#{self.class} cat=#{cats.dig(1, 'name', 0).inspect}>"
+    end
+
     def cats_by_rarity
       @cats_by_rarity ||= cats.group_by do |id, data|
         data['rarity']
