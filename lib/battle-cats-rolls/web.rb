@@ -7,6 +7,7 @@ require_relative 'cache'
 require_relative 'aws_auth'
 require_relative 'aws_cf'
 require_relative 'stat'
+require_relative 'talent'
 require_relative 'view'
 require_relative 'help'
 
@@ -140,21 +141,23 @@ module BattleCatsRolls
       if request.fullpath != canonical_uri
         found canonical_uri
       else
-        stats =
-          if info = route.cats[id]
-            level = [route.level, info['max_level']].min
-            info['name'].size.times.map do |index|
-              conjure_id = info.dig('stat', index, 'conjure')
-              Stat.new(id: id, info: info, index: index, level: level,
-                conjure_info: conjure_id && route.cats[conjure_id],
-                sum_no_wave: route.sum_no_wave,
-                dps_no_critical: route.dps_no_critical)
-            end
-          else
-            []
+        if info = route.cats[id]
+          cat = Cat.new(id: id, info: info)
+          level = [route.level, info['max_level']].min
+          stats = info['name'].size.times.map do |index|
+            conjure_id = info.dig('stat', index, 'conjure')
+            Stat.new(id: id, info: info, index: index, level: level,
+              conjure_info: conjure_id && route.cats[conjure_id],
+              sum_no_wave: route.sum_no_wave,
+              dps_no_critical: route.dps_no_critical)
           end
+          talents = Talent.build(info)
+        else
+          stats = []
+          talents = []
+        end
 
-        render :stats, level: level, cat_data: info, stats: stats
+        render :stats, cat: cat, level: level, stats: stats, talents: talents
       end
     end
 

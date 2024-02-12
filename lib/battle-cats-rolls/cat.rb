@@ -68,6 +68,14 @@ module BattleCatsRolls
       rhs && rarity == Rare && id == rhs.id && id > 0
     end
 
+    def max_level
+      info['max_level']
+    end
+
+    def growth
+      info['growth']
+    end
+
     def new_with **args
       self.class.new(to_h.merge(args))
     end

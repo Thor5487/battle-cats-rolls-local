@@ -88,13 +88,24 @@
   <% end %>
   <% end %>
 <% end %>
+<% if arg[:talents].any? %>
+<tr class="border_upper">
+  <th colspan="6">Talents</th>
+</tr>
+<% arg[:talents].each do |talent| %>
+<tr class="border_upper">
+  <td><%= l10n(talent.name) %></td>
+  <td colspan="5"><%= display_ability(talent) %></td>
+</tr>
+<% end %>
+<% end %>
   <tr class="border_bottom"></tr>
 </table>
 
 <ul>
-  <% if cat = arg[:stats].first %>
-  <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
-  <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
+  <% if arg[:cat] %>
+  <li><a href="<%= uri_to_cat_db(arg[:cat]) %>">にゃんこ大戦争データベース</a></li>
+  <li><a href="<%= uri_to_my_gamatoto(arg[:cat]) %>">My Gamatoto</a></li>
   <% end %>
   <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
   <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>

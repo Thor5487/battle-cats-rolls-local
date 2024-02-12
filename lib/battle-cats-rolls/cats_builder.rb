@@ -286,7 +286,7 @@ module BattleCatsRolls
     def talent_types
       @talent_types ||= {
         32 => 'increase_health', 31 => 'increase_damage',
-        28 => 'increase_knockbacks', 27 => 'increase_speed',
+        27 => 'increase_speed',
         25 => 'reduce_cost', 26 => 'reduce_production_cooldown',
         61 => 'reduce_attack_cooldown',
         4 => 'against_only', 33 => 'against_red',
@@ -314,7 +314,7 @@ module BattleCatsRolls
         24 => 'resistant_warp', 30 => 'resistant_curse',
         52 => 'resistant_toxic',
         # unused
-        9 => 'warp',
+        9 => 'warp', 28 => 'increase_knockbacks',
       }
     end
 

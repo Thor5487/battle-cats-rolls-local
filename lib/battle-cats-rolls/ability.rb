@@ -34,13 +34,12 @@ module BattleCatsRolls
   class Ability
     class Specialization < Struct.new(:enemies)
       include AbilityUtility
+      List = %w[red float black angel alien zombie aku relic white metal].freeze
 
       def self.build_if_available stat
-        enemies =
-          %w[red float black angel alien zombie aku relic white metal].
-            filter_map do |type|
-              stat["against_#{type}"] && type.capitalize
-            end
+        enemies = List.filter_map do |type|
+          stat["against_#{type}"] && type.capitalize
+        end
 
         new(enemies) if enemies.any?
       end
@@ -328,13 +327,20 @@ module BattleCatsRolls
         'Strengthen'
       end
 
-      def display
-        "Deal #{percent(modifier + 100)} damage when health reached #{percent(threshold)}"
+      def display values=display_values
+        sprintf('Deal %{modifier} damage when health reached %{threshold}',
+          values)
       end
 
       def specialized; false; end
       def effects; false; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {modifier: percent(modifier + 100), threshold: percent(threshold)}
+      end
     end
 
     class Wave < Struct.new(:chance, :level, :mini)

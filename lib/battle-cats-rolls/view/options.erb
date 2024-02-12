@@ -69,10 +69,10 @@
       type="number" id="level_input" name="level"
       value="<%= arg[:level] %>"
       min="1"
-      max="<%= arg.dig(:cat_data, 'max_level') %>"
+      max="<%= arg[:cat]&.max_level %>"
       onclick="this.select()">
 
-    Growth rate: <%= growth_rate(arg.dig(:cat_data, 'growth')) %>
+    Growth rate: <%= growth_rate(arg[:cat]&.growth) %>
 
     <div class="stat_options">
       <label for="hide_wave_input">
