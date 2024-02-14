@@ -2528,9 +2528,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   362:
-    name: [風の精霊エアル, 嵐の精霊エアフワン, 嵐の精霊王エアフワンテ]
-    desc: ["宇宙の果てからやって来た風の精霊\n降り立った星に風の源を宿すと言われている\n(遠方範囲攻撃)\nカゼノセイレイエアル", "大陸を吹き飛ばすほどの嵐を操る精霊\n凄まじい突風はバリアをも貫く力を持つ\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイエアフワン", "星雲をも消し飛ばす強大な力を手にした嵐の精霊王\n宇宙を荒らす大嵐はバリアを貫く力を持ち\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイオウエアフワンテ"]
-    stat: [{health: 1200, knockbacks: 2, speed: 16, cost: 720, production_cooldown: 400, attack_cooldown: 46, range: 300, width: 320, area_effect: 1, damage_0: 475, long_range_0: 225, long_range_offset_0: 275, attack_time_0: 50, trigger_effects_0: 1, immune_warp: 1, attack_duration: 80}, {health: 2680, knockbacks: 2, speed: 14, cost: 2620, production_cooldown: 1450, attack_cooldown: 46, range: 375, width: 320, area_effect: 1, damage_0: 1025, long_range_0: 275, long_range_offset_0: 375, attack_time_0: 50, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, immune_warp: 1, attack_duration: 80}, {health: 3430, knockbacks: 2, speed: 14, cost: 2620, production_cooldown: 1450, attack_cooldown: 46, range: 375, width: 320, area_effect: 1, damage_0: 1275, long_range_0: 275, long_range_offset_0: 375, attack_time_0: 50, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, immune_warp: 1, attack_duration: 80}]
+    name: [風の精霊エアル, 嵐の精霊エアフワン, 嵐の精霊王エアフワンテ, 嵐の大精霊エアフワンティ]
+    desc: ["宇宙の果てからやって来た風の精霊\n降り立った星に風の源を宿すと言われている\n(遠方範囲攻撃)\nカゼノセイレイエアル", "大陸を吹き飛ばすほどの嵐を操る精霊\n凄まじい突風はバリアをも貫く力を持つ\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイエアフワン", "星雲をも消し飛ばす強大な力を手にした嵐の精霊王\n宇宙を荒らす大嵐はバリアを貫く力を持ち\nエイリアンに打たれ強い(遠方範囲攻撃)\nアラシノセイレイオウエアフワンテ", "嵐の力を司る大精霊。嵐で一掃した混沌の大地に\n清風を巻き起こし生命を芽吹かせる。バリアを貫き、\nエイリアンに打たれ強く必ずふっとばす(遠方範囲攻撃)\nアラシノダイセイレイエアフワンティ"]
+    stat: [{health: 1200, knockbacks: 2, speed: 16, cost: 720, production_cooldown: 400, attack_cooldown: 46, range: 300, width: 320, area_effect: 1, damage_0: 475, long_range_0: 225, long_range_offset_0: 275, attack_time_0: 50, trigger_effects_0: 1, immune_warp: 1, attack_duration: 80}, {health: 2680, knockbacks: 2, speed: 14, cost: 2620, production_cooldown: 1450, attack_cooldown: 46, range: 375, width: 320, area_effect: 1, damage_0: 1025, long_range_0: 275, long_range_offset_0: 375, attack_time_0: 50, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, immune_warp: 1, attack_duration: 80}, {health: 3430, knockbacks: 2, speed: 14, cost: 2620, production_cooldown: 1450, attack_cooldown: 46, range: 375, width: 320, area_effect: 1, damage_0: 1275, long_range_0: 275, long_range_offset_0: 375, attack_time_0: 50, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, immune_warp: 1, attack_duration: 80}, {health: 4800, knockbacks: 2, speed: 14, cost: 2620, production_cooldown: 1450, attack_cooldown: 46, range: 400, width: 320, area_effect: 1, damage_0: 1275, long_range_0: 275, long_range_offset_0: 450, attack_time_0: 50, trigger_effects_0: 1, against_alien: 1, break_barrier_chance: 100, resistant: 1, knockback_chance: 100, immune_warp: 1, attack_duration: 80}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4555,21 +4555,21 @@ cats:
     desc: ["隣の家に住む品行方正、成績優秀な幼馴染ネコ\n「高嶺のネコ」としてみんなから憧れられている\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nオサナナジミニャンコ", "休日に公園へお出かけする美少女ネコ\n手作りのマタタビサンドは全男子ネコを魅了する\n属性を持たない敵に超ダメージを与える(範囲攻撃)\nカノジョニャンコ"]
     stat: [{health: 600, knockbacks: 3, speed: 9, cost: 600, production_cooldown: 250, attack_cooldown: 30, range: 200, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 30, trigger_effects_0: 1, against_white: 1, massive_damage: 1, attack_duration: 54}, {health: 600, knockbacks: 3, speed: 9, cost: 600, production_cooldown: 250, attack_cooldown: 30, range: 200, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 30, trigger_effects_0: 1, against_white: 1, massive_damage: 1, attack_duration: 54}]
     rarity: 1
-    max_level: 41
+    max_level: 46
     growth: [20, 20, 20, 20, 20]
   652:
     name: [おてんばネコライオン, 鉄仮面ネコライオン]
     desc: ["毎日遅刻寸前で登校するあわてんぼうなネコ\n曲がり角での出会いを夢見て今日も全力疾走\n黒い敵にめっぽう強い", "伝説のスケバンから鉄仮面を授けられたネコ\n通学を邪魔する学生たちは全て蹴散らす\n黒い敵にめっぽう強い\nテッカメンネコライオン"]
     stat: [{health: 500, knockbacks: 5, speed: 28, cost: 500, production_cooldown: 135, range: 140, width: 320, damage_0: 12, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, strong: 1, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 28, cost: 500, production_cooldown: 135, range: 140, width: 320, damage_0: 12, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, strong: 1, attack_duration: 9}]
     rarity: 1
-    max_level: 41
+    max_level: 46
     growth: [20, 20, 20, 20, 20]
   653:
     name: [ネコクバンケシ, ネコクバンチョウ]
     desc: ["キレイ好きのピカピカの一年生ネコ\n黒板を消すたび、チョークの粉でむせ返る\n赤い敵に打たれ強い(範囲攻撃)", "番長と名乗ることを許された歴戦の黒板消しネコ\n落書きを根こそぎ消し去る学園の風紀委員\n赤い敵に打たれ強い(範囲攻撃)"]
     stat: [{health: 250, knockbacks: 1, speed: 7, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, resistant: 1, attack_duration: 15}, {health: 250, knockbacks: 1, speed: 7, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, resistant: 1, attack_duration: 15}]
     rarity: 1
-    max_level: 41
+    max_level: 46
     growth: [20, 20, 20, 20, 20]
   654:
     name: [古獣ナーラ, 雷古獣ナーラ, 覚醒古獣ナーラ]
@@ -4719,9 +4719,9 @@ cats:
     max_level: 1
     growth: [20]
   675:
-    name: [周遊芸団カルーセルズ, 奇襲怪光エンヴァンズ]
-    desc: ["諸国を巡業して極上のショーを提供する芸人一座\n奇想天外なパフォーマンスの数々は大衆を虜にする\n超生命体特効を持ち、黒とゾンビを呪いたまに遅くする\nシュウユウゲイダンカルーセルズ", "世界中の牛をアブダクションする恐怖の円盤兵器\nその目的はキャトルミューティレーションの研究\n超生命体特効を持ち、黒とゾンビを呪いたまに遅くする\nキシュウカイコウエンヴァンズ"]
-    stat: [{health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, zombie_killer: 1, colossus_killer: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, immune_toxic: 1, attack_duration: 211}, {health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, zombie_killer: 1, colossus_killer: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, immune_toxic: 1, attack_duration: 211}]
+    name: [周遊芸団カルーセルズ, 奇襲怪光エンヴァンズ, 超奇襲怪光エンヴァンズ]
+    desc: ["諸国を巡業して極上のショーを提供する芸人一座\n奇想天外なパフォーマンスの数々は大衆を虜にする\n超生命体特効を持ち、黒とゾンビを呪いたまに遅くする\nシュウユウゲイダンカルーセルズ", "世界中の牛をアブダクションする恐怖の円盤兵器\nその目的はキャトルミューティレーションの研究\n超生命体特効を持ち、黒とゾンビを呪いたまに遅くする\nキシュウカイコウエンヴァンズ", "全生命体のDNAを記録するため地球が消滅した未来から\nやってきた超国家機関の円盤兵器。超生命体特効を持ち\n黒い敵とゾンビに打たれ強く、呪ってたまに遅くする\nチョウキシュウカイコウエンヴァンズ"]
+    stat: [{health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, zombie_killer: 1, colossus_killer: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, immune_toxic: 1, attack_duration: 211}, {health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, zombie_killer: 1, colossus_killer: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, immune_toxic: 1, attack_duration: 211}, {health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 1000, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 1000, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, zombie_killer: 1, colossus_killer: 1, resistant: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, immune_toxic: 1, attack_duration: 211}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4877,7 +4877,7 @@ cats:
     desc: ["クラス委員長を勤める真面目なネコ\n将来は立派なサラリーマンになりたいと思っている\nたまに赤い敵と黒い敵の動きを遅くする\nネコイインチョウ", "いつもの制服が洗濯されてしまったので\nお兄ちゃんのお下がりで登校したネコ\nたまに赤い敵と黒い敵の動きを遅くする\nウラネコイインチョウ"]
     stat: [{health: 860, knockbacks: 3, speed: 8, cost: 460, production_cooldown: 240, attack_cooldown: 34, range: 250, width: 320, damage_0: 175, attack_time_0: 22, trigger_effects_0: 1, against_red: 1, against_black: 1, slow_chance: 30, slow_duration: 120, attack_duration: 50}, {health: 860, knockbacks: 3, speed: 8, cost: 460, production_cooldown: 240, attack_cooldown: 34, range: 250, width: 320, damage_0: 175, attack_time_0: 22, trigger_effects_0: 1, against_red: 1, against_black: 1, slow_chance: 30, slow_duration: 120, attack_duration: 50}]
     rarity: 1
-    max_level: 31
+    max_level: 36
     growth: [20, 20, 20, 20]
   698:
     name: ['古びたタマゴ:N107', '紫のタマゴ:N107', ネコ村長]
@@ -5131,6 +5131,34 @@ cats:
     rarity: 5
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  734:
+    name: [鉄籠のペガサ, 鉄籠のペガサν]
+    desc: ["帝国の名だたる公爵家出身の病弱少女\n即断即決で放たれるレーザーはいかなる者も退ける\n召喚能力を持ち、浮いてる敵とゾンビの攻撃力を下げる\nテツカゴノペガサ", "大人の思惑や謀略に心を閉ざし付き従う少女\n外から聞こえる少女たちの声に自由への渇望を抱く\n召喚能力を持ち、浮いてる敵とゾンビの攻撃力を下げる\nテツカゴノペガサニュー"]
+    stat: [{health: 2800, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, conjure: 735, attack_duration: 100}, {health: 3300, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1400, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, zombie_killer: 1, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, conjure: 735, attack_duration: 100}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  735:
+    name: ['735_1']
+    desc: [精霊：敵の動きを遅くします]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_metal: 1, against_white: 1, against_angel: 1, against_alien: 1, against_relic: 1, against_aku: 1, against_zombie: 1, slow_chance: 100, slow_duration: 180, suicide: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  736:
+    name: [ネコ校長, ネコセカンドライフ]
+    desc: ["恋に励む学び舎で　力強くおおらかに\n若き夢追う我ら見守る　輝く希望の長髪\n赤い敵、黒い敵、属性を持たない敵にめっぽう強い\nネココウチョウ", "校長先生を早期引退し趣味の世界へ羽ばたいた\n輝くセカンドライフを楽しむネコ\n赤い敵、黒い敵、属性を持たない敵にめっぽう強い"]
+    stat: [{health: 470, knockbacks: 1, speed: 8, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 160, attack_time_0: 18, trigger_effects_0: 1, against_red: 1, against_black: 1, against_white: 1, strong: 1, immune_knockback: 1, immune_weaken: 1, attack_duration: 25}, {health: 470, knockbacks: 1, speed: 8, cost: 1300, production_cooldown: 465, attack_cooldown: 25, range: 150, width: 320, area_effect: 1, damage_0: 160, attack_time_0: 18, trigger_effects_0: 1, against_red: 1, against_black: 1, against_white: 1, strong: 1, immune_knockback: 1, immune_weaken: 1, attack_duration: 25}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 120, 100, 80]
+  737:
+    name: [ネコアイスホワイトスター, ネコアイストップスター]
+    desc: ["氷の世界で一世を風靡するイケメン男装少女\n美しくクールな立ち振る舞いと冷たい眼差しで\nゾンビの動きをたまにしばらく止める(範囲攻撃)", "乙女心を完璧に理解した必殺のお返しで\nホワイトデーの話題をかっさらうスター男装少女\nゾンビの動きをたまにしばらく止める(範囲攻撃)"]
+    stat: [{health: 1400, knockbacks: 3, speed: 8, cost: 2200, production_cooldown: 1000, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 54, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, freeze_chance: 75, freeze_duration: 120, immune_slow: 1, attack_duration: 70}, {health: 1800, knockbacks: 3, speed: 8, cost: 2200, production_cooldown: 1000, attack_cooldown: 65, range: 425, width: 320, area_effect: 1, damage_0: 1550, attack_time_0: 54, trigger_effects_0: 1, against_zombie: 1, zombie_killer: 1, freeze_chance: 75, freeze_duration: 120, immune_slow: 1, attack_duration: 70}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -9838,6 +9866,59 @@ gacha:
     series_id: 60
     name: 新たな超激レア参戦！メタスラシリーズの人気キャラが集結！★詳細はバナーをタップ!!
     rate: no_legend
+  865:
+    cats: [462, 482, 494, 713, 428, 74, 76, 178, 693, 635, 535, 305, 337, 720, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 期間限定キャラも登場する、特別仕様の新年ガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  866:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 381, 35, 169, 171, 60, 144, 428, 72, 126, 497, 106, 108, 648, 85, 87, 661, 136, 204, 634, 432, 534, 699, 258, 440, 643, 306, 418, 675, 358, 359, 608, 362, 402, 720, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 61
+    name: 限定超激レア「ネコ王女」含む女性キャラ中心の特別ガチャ! 伝説レアのみ出現率2倍!!
+    rate: royalfest
+    similarity: 59
+  867:
+    cats: [737, 694, 649, 125, 135, 643, 699, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 52
+    name: 新キャラ追加！ホワイトデー期間限定のホットなガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 79
+  868:
+    cats: [734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 3
+    name: 超生命体特効を持つ新キャラクター「狩猟娘テルン」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  869:
+    cats: [734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 3
+    name: 超生命体特効を持つ新キャラクター「狩猟娘テルン」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  870:
+    cats: [734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "「運命の子フォノ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!"
+    rate: uberfest
+    similarity: 99
+  871:
+    cats: [734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "「非命の王フォノウ」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!"
+    rate: uberfest
+    similarity: 99
+  872:
+    cats: [734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    rate: platinum
+    similarity: 99
+  873:
+    cats: [734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    rate: legend
+    similarity: 99
 events:
   2018-09-15_320:
     start_on: 2018-09-15

@@ -26,7 +26,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         'jp',
-        '13.1.0',
+        '13.2.0',
         'jp.co.ponos.battlecats'
       ]
     end
