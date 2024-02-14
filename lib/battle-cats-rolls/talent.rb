@@ -82,7 +82,7 @@ module BattleCatsRolls
       end
     end
 
-    class Against < Talent
+    class Specialization < Talent
       def initialize(...)
         super
         self.ability = Ability::Specialization.new(
@@ -91,7 +91,7 @@ module BattleCatsRolls
     end
 
     Ability::Specialization::List.each do |type|
-      const_set("Against#{type.capitalize}", Against)
+      const_set("Against#{type.capitalize}", Specialization)
     end
 
     class LootMoney < Talent
@@ -135,6 +135,18 @@ module BattleCatsRolls
       end
     end
 
+    class Immunity < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::Immunity.new(
+          [key.delete_prefix('immune_').capitalize])
+      end
+    end
+
+    Ability::Immunity::List.each do |type|
+      const_set("Immune#{type.capitalize}", Immunity)
+    end
+
     class ResistantWave < Talent
       include TalentUtility
 
@@ -144,6 +156,18 @@ module BattleCatsRolls
 
       def display
         "Reduce wave damage by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
+      end
+    end
+
+    class ResistantWeaken < Talent
+      include TalentUtility
+
+      def name
+        'Resistant to'
+      end
+
+      def display
+        "Reduce weaken duration by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
       end
     end
 

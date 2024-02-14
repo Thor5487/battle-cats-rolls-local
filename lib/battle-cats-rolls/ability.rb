@@ -34,7 +34,9 @@ module BattleCatsRolls
   class Ability
     class Specialization < Struct.new(:enemies)
       include AbilityUtility
-      List = %w[red float black angel alien zombie aku relic white metal].freeze
+      List = %w[
+        red float black angel alien zombie aku relic white metal
+      ].freeze
 
       def self.build_if_available stat
         enemies = List.filter_map do |type|
@@ -753,14 +755,14 @@ module BattleCatsRolls
 
     class Immunity < Struct.new(:immunity)
       include AbilityUtility
+      List = %w[
+        bosswave knockback warp freeze slow weaken toxic curse wave surge
+      ].freeze
 
       def self.build_if_available stat
-        immunity =
-          %w[bosswave knockback warp freeze slow weaken
-             toxic curse wave surge].
-          filter_map do |effect|
-            stat["immune_#{effect}"] && effect.capitalize
-          end
+        immunity = List.filter_map do |effect|
+          stat["immune_#{effect}"] && effect.capitalize
+        end
 
         new(immunity) if immunity.any?
       end
