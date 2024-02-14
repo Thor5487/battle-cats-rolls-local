@@ -51,7 +51,7 @@ module BattleCatsRolls
       end
 
       def display
-        @display ||= enemies
+        enemies
       end
 
       def specialized; true; end
