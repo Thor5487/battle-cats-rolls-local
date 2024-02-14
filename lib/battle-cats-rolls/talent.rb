@@ -24,11 +24,11 @@ module BattleCatsRolls
       include TalentUtility
 
       def name
-        'Increase health'
+        'Increase'
       end
 
       def display
-        "Increase by #{min}% ~ #{percent(max)} by #{level} levels"
+        "#{highlight('Health')} by #{min}% ~ #{percent(max)} by #{level} levels"
       end
     end
 
@@ -36,11 +36,11 @@ module BattleCatsRolls
       include TalentUtility
 
       def name
-        'Increase damage'
+        'Increase'
       end
 
       def display
-        "Increase by #{min}% ~ #{percent(max)} by #{level} levels"
+        "#{highlight('Damage')} by #{min}% ~ #{percent(max)} by #{level} levels"
       end
     end
 
@@ -48,11 +48,11 @@ module BattleCatsRolls
       include TalentUtility
 
       def name
-        'Increase speed'
+        'Increase'
       end
 
       def display
-        "Increase by #{min} ~ #{highlight(max)} by #{level} levels"
+        "#{highlight('Speed')} by #{min} ~ #{highlight(max)} by #{level} levels"
       end
     end
 
@@ -60,11 +60,11 @@ module BattleCatsRolls
       include TalentUtility
 
       def name
-        'Reduce cost'
+        'Reduce'
       end
 
       def display
-        "Reduce by #{min} ~ #{highlight(max)} by #{level} levels"
+        "#{highlight('Cost')} by #{min} ~ #{highlight(max)} by #{level} levels"
       end
 
       private
@@ -86,13 +86,13 @@ module BattleCatsRolls
       include TalentUtility
 
       def name
-        'Reduce production cooldown'
+        'Reduce'
       end
 
       def display
         values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
 
-        "Reduce by #{values} by #{level} levels"
+        "#{highlight('Production cooldown')} by #{values} by #{level} levels"
       end
     end
 
@@ -187,13 +187,13 @@ module BattleCatsRolls
       end
 
       def name
-        'Resistant to'
+        'Resistance'
       end
 
       def display
         values = values_range(data.dig('minmax', 0), suffix: '%')
 
-        "Reduce #{type} #{kind} by #{values} by #{level} levels"
+        "Reduce #{highlight(type)} #{kind} by #{values} by #{level} levels"
       end
 
       private
