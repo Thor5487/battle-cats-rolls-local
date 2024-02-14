@@ -151,10 +151,10 @@ module BattleCatsRolls
               sum_no_wave: route.sum_no_wave,
               dps_no_critical: route.dps_no_critical)
           end
-          talents = Talent.build(info)
+          talents = Talent.build(info).group_by(&:ultra?)
         else
           stats = []
-          talents = []
+          talents = {}
         end
 
         render :stats, cat: cat, level: level, stats: stats, talents: talents

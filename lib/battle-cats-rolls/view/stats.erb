@@ -80,32 +80,43 @@
     <td></td>
     <td colspan="5"><%= l10n('Abilities below will not be affected by curse') %></td>
   </tr>
-  <% stat.generic_abilities.each do |ability| %>
+    <% stat.generic_abilities.each do |ability| %>
   <tr class="border_middle">
     <td><%= l10n(ability.name) %></td>
     <td colspan="5"><%= display_ability(ability) %></td>
   </tr>
-  <% end %>
+    <% end %>
   <% end %>
 <% end %>
-<% if arg[:talents].any? %>
-<tr class="border_upper">
-  <th colspan="6">Talents</th>
-</tr>
-<% arg[:talents].each do |talent| %>
-<tr class="border_upper">
-  <td><%= l10n(talent.name) %></td>
-  <td colspan="5"><%= display_ability(talent) %></td>
-</tr>
+<% if talents = arg.dig(:talents, false) %>
+  <tr class="border_upper">
+    <th colspan="6">Talents</th>
+  </tr>
+  <% talents.each do |talent| %>
+  <tr class="border_upper">
+    <td><%= l10n(talent.name) %></td>
+    <td colspan="5"><%= display_ability(talent) %></td>
+  </tr>
+  <% end %>
 <% end %>
+<% if ultra_talents = arg.dig(:talents, true) %>
+  <tr class="border_upper">
+    <th colspan="6">Ultra talents</th>
+  </tr>
+  <% ultra_talents.each do |talent| %>
+    <tr class="border_upper">
+      <td><%= l10n(talent.name) %></td>
+      <td colspan="5"><%= display_ability(talent) %></td>
+    </tr>
+  <% end %>
 <% end %>
   <tr class="border_bottom"></tr>
 </table>
 
 <ul>
-  <% if arg[:cat] %>
-  <li><a href="<%= uri_to_cat_db(arg[:cat]) %>">にゃんこ大戦争データベース</a></li>
-  <li><a href="<%= uri_to_my_gamatoto(arg[:cat]) %>">My Gamatoto</a></li>
+  <% if cat = arg[:cat] %>
+  <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
+  <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
   <% end %>
   <li>Checkout BCJP if data is missing. BCJP has the most complete data. BCEN lacks a lot of data</li>
   <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>

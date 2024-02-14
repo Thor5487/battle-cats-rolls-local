@@ -298,6 +298,10 @@ module BattleCatsRolls
       data.dig('max_level')
     end
 
+    def ultra?
+      !!data.dig('ultra')
+    end
+
     def min n=0
       data.dig('minmax', n, 0)
     end
