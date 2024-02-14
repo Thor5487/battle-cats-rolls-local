@@ -701,7 +701,7 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class BehemohSlayer < Struct.new(:chance, :duration)
+    class BehemothSlayer < Struct.new(:chance, :duration)
       include AbilityUtility
 
       def self.build_if_available stat
@@ -715,13 +715,21 @@ module BattleCatsRolls
         'Behemoth slayer'
       end
 
-      def display
-        "Deal 250% and take 60% damage, and #{percent(chance)} to be immune for #{seconds(yield.method(:stat_time))}"
+      def display values=nil, &block
+        sprintf(
+          'Deal 250%% and take 60%% damage, and %{chance} to be immune for %{duration}',
+          values || display_values(&block))
       end
 
       def specialized; false; end
       def effects; false; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance), duration: seconds(yield.method(:stat_time))}
+      end
     end
 
     class SageSlayer

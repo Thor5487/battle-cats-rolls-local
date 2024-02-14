@@ -171,6 +171,25 @@ module BattleCatsRolls
       end
     end
 
+    class BehemothKiller < Talent
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::BehemothSlayer.new
+      end
+
+      def display
+        chance = data.dig('minmax', 0)
+        duration = data.dig('minmax', 1)
+        stat_time = yield.method(:stat_time)
+
+        ability.display(
+          chance: values_range(chance, suffix: '%'),
+          duration: values_range(duration, show: stat_time))
+      end
+    end
+
     class SageKiller < Talent
       def initialize ...
         super
