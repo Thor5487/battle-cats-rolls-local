@@ -296,7 +296,6 @@ module BattleCatsRolls
         39 => 'against_zombie', 14 => 'zombie_killer', 59 => 'soul_strike',
         15 => 'break_barrier', 58 => 'break_shield',
         63 => 'colossus_killer', 64 => 'behemoth_killer', 66 => 'sage_killer',
-        42 => 'witch_killer', 43 => 'eva_angel_killer',
         5 => 'strong', 6 => 'resistant', 7 => 'massive_damage',
         8 => 'knockback', 2 => 'freeze', 3 => 'slow',
         1 => 'weaken', 60 => 'curse',
@@ -315,6 +314,7 @@ module BattleCatsRolls
         18 => 'resistant_weaken', 30 => 'resistant_curse',
         # unused
         28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
+        42 => 'witch_killer', 43 => 'eva_angel_killer',
       }
     end
 

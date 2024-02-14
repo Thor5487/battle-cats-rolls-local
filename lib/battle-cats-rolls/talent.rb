@@ -164,6 +164,41 @@ module BattleCatsRolls
       end
     end
 
+    class ColossusKiller < Talent
+      def initialize ...
+        super
+        self.ability = Ability::ColossusSlayer.new
+      end
+    end
+
+    class SageKiller < Talent
+      def initialize ...
+        super
+        self.ability = Ability::SageSlayer.new
+      end
+    end
+
+    class Strong < Talent
+      def initialize ...
+        super
+        self.ability = Ability::Strong.new
+      end
+    end
+
+    class Resistant < Talent
+      def initialize ...
+        super
+        self.ability = Ability::Resistant.new
+      end
+    end
+
+    class MassiveDamage < Talent
+      def initialize ...
+        super
+        self.ability = Ability::MassiveDamage.new
+      end
+    end
+
     class EffectDuration < Talent
       def display ...
         if data['minmax'].size > 1
