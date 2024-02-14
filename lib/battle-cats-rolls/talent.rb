@@ -96,8 +96,22 @@ module BattleCatsRolls
       end
     end
 
+    class ReduceAttackCooldown < Talent
+      include TalentUtility
+
+      def name
+        'Reduce'
+      end
+
+      def display
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        "#{highlight('Attack cooldown')} by #{values} by #{level} levels"
+      end
+    end
+
     class Specialization < Talent
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::Specialization.new(
           [key.delete_prefix('against_').capitalize])
@@ -109,21 +123,60 @@ module BattleCatsRolls
     end
 
     class ZombieKiller < Talent
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::ZombieKiller.new
       end
     end
 
+    class Weaken < Talent
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Weaken.new
+      end
+
+      def display ...
+        if data['minmax'].size > 1
+          display_full(...)
+        else
+          display_improve(...)
+        end
+      end
+
+      private
+
+      def display_full
+        chance = data.dig('minmax', 0)
+        duration = data.dig('minmax', 1)
+        multiplier = data.dig('minmax', 2)
+        stat_time = yield.method(:stat_time)
+
+        display_text = ability.display(
+          chance: values_range(chance, suffix: '%'),
+          duration: values_range(duration, show: stat_time),
+          multiplier: values_range(multiplier, suffix: '%'))
+
+        "#{display_text} by #{level} levels"
+      end
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
+
+        "Improve duration by #{values} by #{level} levels"
+      end
+    end
+
     class LootMoney < Talent
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::LootMoney.new
       end
     end
 
     class BaseDestroyer < Talent
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::BaseDestroyer.new
       end
@@ -132,7 +185,7 @@ module BattleCatsRolls
     class Strengthen < Talent
       include TalentUtility
 
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::Strengthen.new
       end
@@ -149,11 +202,11 @@ module BattleCatsRolls
 
       def display_full
         threshold = data.dig('minmax', 0).map{ |p| 100 - p }
-        modifier = data.dig('minmax', 1).map{ |p| p + 100 }
+        multiplier = data.dig('minmax', 1).map{ |p| p + 100 }
 
         display_text = ability.display(
           threshold: values_range(threshold, suffix: '%'),
-          modifier: values_range(modifier, suffix: '%'))
+          multiplier: values_range(multiplier, suffix: '%'))
 
         "#{display_text} by #{level} levels"
       end
@@ -161,12 +214,12 @@ module BattleCatsRolls
       def display_improve
         values = values_range(data.dig('minmax', 0), suffix: '%')
 
-        "Improve strengthen by #{values} by #{level} levels"
+        "Improve damage by #{values} by #{level} levels"
       end
     end
 
     class Immunity < Talent
-      def initialize(...)
+      def initialize ...
         super
         self.ability = Ability::Immunity.new(
           [key.delete_prefix('immune_').capitalize])

@@ -227,13 +227,22 @@ module BattleCatsRolls
         'Weaken'
       end
 
-      def display
-        "#{percent(chance)} to reduce enemies damage to #{percent(multiplier)} for #{seconds_range(yield.method(:stat_time))}"
+      def display values=nil, &block
+        sprintf(
+          '%{chance} to reduce enemies damage to %{multiplier} for %{duration}',
+          values || display_values(&block))
       end
 
       def specialized; true; end
       def effects; true; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance), multiplier: percent(multiplier),
+         duration: seconds_range(yield.method(:stat_time))}
+      end
     end
 
     class Curse < Struct.new(:chance, :duration)
@@ -330,7 +339,8 @@ module BattleCatsRolls
       end
 
       def display values=display_values
-        sprintf('Deal %{modifier} damage when health reached %{threshold}',
+        sprintf(
+          'Deal %{multiplier} damage when health reached %{threshold}',
           values)
       end
 
@@ -341,7 +351,7 @@ module BattleCatsRolls
       private
 
       def display_values
-        {modifier: percent(modifier + 100), threshold: percent(threshold)}
+        {multiplier: percent(modifier + 100), threshold: percent(threshold)}
       end
     end
 
