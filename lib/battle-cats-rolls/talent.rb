@@ -129,6 +129,41 @@ module BattleCatsRolls
       end
     end
 
+    class SoulStrike < Talent
+      def initialize ...
+        super
+        self.ability = Ability::SoulStrike.new
+      end
+    end
+
+    class EffectRate < Talent
+      include TalentUtility
+
+      def display
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        if level
+          "Improve rate by #{values} by #{level} levels"
+        else
+          "Improve rate by #{values}"
+        end
+      end
+    end
+
+    class BreakBarrier < EffectRate
+      def initialize ...
+        super
+        self.ability = Ability::BreakBarrier.new
+      end
+    end
+
+    class BreakShield < EffectRate
+      def initialize ...
+        super
+        self.ability = Ability::BreakShield.new
+      end
+    end
+
     class EffectDuration < Talent
       def display ...
         if data['minmax'].size > 1
@@ -143,7 +178,11 @@ module BattleCatsRolls
       def display_improve
         values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
 
-        "Improve duration by #{values} by #{level} levels"
+        if level
+          "Improve duration by #{values} by #{level} levels"
+        else
+          "Improve duration by #{values}"
+        end
       end
     end
 
@@ -195,18 +234,17 @@ module BattleCatsRolls
       end
     end
 
-    class Survive < Talent
-      include TalentUtility
+    class Critical < EffectRate
+      def initialize ...
+        super
+        self.ability = Ability::CriticalStrike.new
+      end
+    end
 
+    class Survive < EffectRate
       def initialize ...
         super
         self.ability = Ability::Survive.new
-      end
-
-      def display
-        chance = values_range(data.dig('minmax', 0), suffix: '%')
-
-        "Improve survival rate by #{chance} by #{level} levels"
       end
     end
 
