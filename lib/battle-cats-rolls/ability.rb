@@ -204,13 +204,20 @@ module BattleCatsRolls
         'Slow'
       end
 
-      def display
-        "#{percent(chance)} for #{seconds_range(yield.method(:stat_time))}"
+      def display values=nil, &block
+        sprintf('%{chance} for %{duration}', values || display_values(&block))
       end
 
       def specialized; true; end
       def effects; true; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance),
+         duration: seconds_range(yield.method(:stat_time))}
+      end
     end
 
     class Weaken < Struct.new(:chance, :duration, :multiplier)

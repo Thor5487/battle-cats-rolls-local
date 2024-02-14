@@ -129,20 +129,53 @@ module BattleCatsRolls
       end
     end
 
-    class Weaken < Talent
-      include TalentUtility
-
-      def initialize ...
-        super
-        self.ability = Ability::Weaken.new
-      end
-
+    class EffectDuration < Talent
       def display ...
         if data['minmax'].size > 1
           display_full(...)
         else
           display_improve(...)
         end
+      end
+
+      private
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
+
+        "Improve duration by #{values} by #{level} levels"
+      end
+    end
+
+    class Slow < EffectDuration
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Slow.new
+      end
+
+      private
+
+      def display_full
+        chance = data.dig('minmax', 0)
+        duration = data.dig('minmax', 1)
+        stat_time = yield.method(:stat_time)
+
+        display_text = ability.display(
+          chance: values_range(chance, suffix: '%'),
+          duration: values_range(duration, show: stat_time))
+
+        "#{display_text} by #{level} levels"
+      end
+    end
+
+    class Weaken < EffectDuration
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Weaken.new
       end
 
       private
@@ -159,12 +192,6 @@ module BattleCatsRolls
           multiplier: values_range(multiplier, suffix: '%'))
 
         "#{display_text} by #{level} levels"
-      end
-
-      def display_improve
-        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
-
-        "Improve duration by #{values} by #{level} levels"
       end
     end
 
