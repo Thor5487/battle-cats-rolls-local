@@ -110,14 +110,28 @@ module BattleCatsRolls
       end
 
       def display
-        threshold = data.dig('minmax', 0)
-        modifiers = data.dig('minmax', 1).map{ |p| p + 100 }
+        if data['minmax'].size > 1
+          display_full
+        else
+          display_improve
+        end
+      end
+
+      private
+
+      def display_full
+        threshold = data.dig('minmax', 0).map{ |p| 100 - p }
+        modifier = data.dig('minmax', 1).map{ |p| p + 100 }
 
         display_text = ability.display(
           threshold: values_range(threshold, '%'),
-          modifier: values_range(modifiers, '%'))
+          modifier: values_range(modifier, '%'))
 
         "#{display_text} by #{level} levels"
+      end
+
+      def display_improve
+        "Improve strengthen by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
       end
     end
 
