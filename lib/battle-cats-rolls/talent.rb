@@ -6,12 +6,12 @@ module BattleCatsRolls
   module TalentUtility
     include AbilityUtility
 
-    def values_range values, suffix=''
+    def values_range values, suffix: '', show: :itself.to_proc
       result = values.uniq
-      first_value = "#{result.first}#{suffix}"
+      first_value = "#{show.call(result.first)}#{suffix}"
 
       if result.size > 1
-        last_value = "#{result.last}#{suffix}"
+        last_value = "#{show.call(result.last)}#{suffix}"
         "#{first_value} ~ #{highlight(last_value)}"
       else
         highlight(first_value)
@@ -82,6 +82,20 @@ module BattleCatsRolls
       end
     end
 
+    class ReduceProductionCooldown < Talent
+      include TalentUtility
+
+      def name
+        'Reduce production cooldown'
+      end
+
+      def display
+        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
+
+        "Reduce by #{values} by #{level} levels"
+      end
+    end
+
     class Specialization < Talent
       def initialize(...)
         super
@@ -94,10 +108,24 @@ module BattleCatsRolls
       const_set("Against#{type.capitalize}", Specialization)
     end
 
+    class ZombieKiller < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::ZombieKiller.new
+      end
+    end
+
     class LootMoney < Talent
       def initialize(...)
         super
         self.ability = Ability::LootMoney.new
+      end
+    end
+
+    class BaseDestroyer < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::BaseDestroyer.new
       end
     end
 
@@ -124,14 +152,16 @@ module BattleCatsRolls
         modifier = data.dig('minmax', 1).map{ |p| p + 100 }
 
         display_text = ability.display(
-          threshold: values_range(threshold, '%'),
-          modifier: values_range(modifier, '%'))
+          threshold: values_range(threshold, suffix: '%'),
+          modifier: values_range(modifier, suffix: '%'))
 
         "#{display_text} by #{level} levels"
       end
 
       def display_improve
-        "Improve strengthen by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        "Improve strengthen by #{values} by #{level} levels"
       end
     end
 
@@ -161,7 +191,9 @@ module BattleCatsRolls
       end
 
       def display
-        "Reduce #{type} #{kind} by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        "Reduce #{type} #{kind} by #{values} by #{level} levels"
       end
 
       private
