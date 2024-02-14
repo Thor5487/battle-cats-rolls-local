@@ -518,13 +518,21 @@ module BattleCatsRolls
         'Survive'
       end
 
-      def display
-        "#{percent(chance)} to survive a lethal strike to be knocked back with 1 health"
+      def display values=display_values
+        sprintf(
+          '%{chance} to survive a lethal strike to be knocked back with 1 health',
+          values)
       end
 
       def specialized; false; end
       def effects; false; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance)}
+      end
     end
 
     class LootMoney

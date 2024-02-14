@@ -195,6 +195,21 @@ module BattleCatsRolls
       end
     end
 
+    class Survive < Talent
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Survive.new
+      end
+
+      def display
+        chance = values_range(data.dig('minmax', 0), suffix: '%')
+
+        "Improve survival rate by #{chance} by #{level} levels"
+      end
+    end
+
     class LootMoney < Talent
       def initialize ...
         super
