@@ -280,13 +280,22 @@ module BattleCatsRolls
         'Dodge'
       end
 
-      def display
-        "#{percent(chance)} to become immune to enemies for #{seconds(yield.method(:stat_time))}"
+      def display values=nil, &block
+        sprintf(
+          '%{chance} to become immune to enemies for %{duration}',
+          values || display_values(&block))
       end
 
       def specialized; true; end
       def effects; false; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance),
+         duration: seconds_range(yield.method(:stat_time))}
+      end
     end
 
     class AgainstOnly

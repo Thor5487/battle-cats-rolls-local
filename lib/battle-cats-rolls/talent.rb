@@ -321,6 +321,25 @@ module BattleCatsRolls
       end
     end
 
+    class Dodge < EffectDuration
+      def initialize ...
+        super
+        self.ability = Ability::Dodge.new
+      end
+
+      private
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        if level
+          "Improve rate by #{values} by #{level} levels"
+        else
+          "Improve rate by #{values}"
+        end
+      end
+    end
+
     class LootMoney < Talent
       def initialize ...
         super
