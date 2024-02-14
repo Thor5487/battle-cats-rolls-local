@@ -2,6 +2,24 @@
 
 module BattleCatsRolls
   module AbilityUtility
+    class EffectDuration < Struct.new(:chance, :duration)
+      include AbilityUtility
+
+      def display values=nil, &block
+        sprintf('%{chance} for %{duration}', values || display_values(&block))
+      end
+
+      def specialized; true; end
+      def effects; true; end
+
+      private
+
+      def display_values
+        {chance: percent(chance),
+         duration: seconds_range(yield.method(:stat_time))}
+      end
+    end
+
     def seconds_range stat_time
       max_time = (duration * treasure_multiplier).floor
 
@@ -169,9 +187,7 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Freeze < Struct.new(:chance, :duration)
-      include AbilityUtility
-
+    class Freeze < AbilityUtility::EffectDuration
       def self.build_if_available stat
         if stat['freeze_chance']
           new(*stat.values_at('freeze_chance', 'freeze_duration'))
@@ -182,18 +198,10 @@ module BattleCatsRolls
         'Freeze'
       end
 
-      def display
-        "#{percent(chance)} for #{seconds_range(yield.method(:stat_time))}"
-      end
-
-      def specialized; true; end
-      def effects; true; end
       def index; __LINE__; end
     end
 
-    class Slow < Struct.new(:chance, :duration)
-      include AbilityUtility
-
+    class Slow < AbilityUtility::EffectDuration
       def self.build_if_available stat
         if stat['slow_chance']
           new(*stat.values_at('slow_chance', 'slow_duration'))
@@ -204,20 +212,7 @@ module BattleCatsRolls
         'Slow'
       end
 
-      def display values=nil, &block
-        sprintf('%{chance} for %{duration}', values || display_values(&block))
-      end
-
-      def specialized; true; end
-      def effects; true; end
       def index; __LINE__; end
-
-      private
-
-      def display_values
-        {chance: percent(chance),
-         duration: seconds_range(yield.method(:stat_time))}
-      end
     end
 
     class Weaken < Struct.new(:chance, :duration, :multiplier)
@@ -252,9 +247,7 @@ module BattleCatsRolls
       end
     end
 
-    class Curse < Struct.new(:chance, :duration)
-      include AbilityUtility
-
+    class Curse < AbilityUtility::EffectDuration
       def self.build_if_available stat
         if stat['curse_chance']
           new(*stat.values_at('curse_chance', 'curse_duration'))
@@ -265,12 +258,12 @@ module BattleCatsRolls
         'Curse'
       end
 
-      def display
-        "#{percent(chance)} to invalidate specialization for #{seconds_range(yield.method(:stat_time))}"
+      def display values=nil, &block
+        sprintf(
+          '%{chance} to invalidate specialization for %{duration}',
+          values || display_values(&block))
       end
 
-      def specialized; true; end
-      def effects; true; end
       def index; __LINE__; end
     end
 

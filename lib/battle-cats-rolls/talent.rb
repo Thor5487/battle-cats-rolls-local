@@ -218,34 +218,22 @@ module BattleCatsRolls
       end
     end
 
+    class Knockback < EffectRate
+      def initialize ...
+        super
+        self.ability = Ability::Knockback.new
+      end
+    end
+
     class EffectDuration < Talent
+      include TalentUtility
+
       def display ...
         if data['minmax'].size > 1
           display_full(...)
         else
           display_improve(...)
         end
-      end
-
-      private
-
-      def display_improve
-        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
-
-        if level
-          "Improve duration by #{values} by #{level} levels"
-        else
-          "Improve duration by #{values}"
-        end
-      end
-    end
-
-    class Slow < EffectDuration
-      include TalentUtility
-
-      def initialize ...
-        super
-        self.ability = Ability::Slow.new
       end
 
       private
@@ -260,6 +248,30 @@ module BattleCatsRolls
           duration: values_range(duration, show: stat_time))
 
         "#{display_text} by #{level} levels"
+      end
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), show: yield.method(:stat_time))
+
+        if level
+          "Improve duration by #{values} by #{level} levels"
+        else
+          "Improve duration by #{values}"
+        end
+      end
+    end
+
+    class Freeze < EffectDuration
+      def initialize ...
+        super
+        self.ability = Ability::Freeze.new
+      end
+    end
+
+    class Slow < EffectDuration
+      def initialize ...
+        super
+        self.ability = Ability::Slow.new
       end
     end
 
@@ -285,6 +297,13 @@ module BattleCatsRolls
           multiplier: values_range(multiplier, suffix: '%'))
 
         "#{display_text} by #{level} levels"
+      end
+    end
+
+    class Curse < EffectDuration
+      def initialize ...
+        super
+        self.ability = Ability::Curse.new
       end
     end
 
