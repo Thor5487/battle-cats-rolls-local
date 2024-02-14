@@ -304,17 +304,17 @@ module BattleCatsRolls
         17 => 'wave', 62 => 'wave_mini', 56 => 'surge', 65 => 'surge_mini',
         11 => 'survive', 51 => 'dodge',
         16 => 'loot_money', 12 => 'base_destroyer', 10 => 'strengthen',
-        48 => 'immune_wave', 55 => 'immune_surge',
-        47 => 'immune_knockback', 45 => 'immune_freeze', 46 => 'immune_slow',
-        44 => 'immune_weaken', 49 => 'immune_warp', 29 => 'immune_curse',
-        53 => 'immune_toxic',
+        48 => 'immune_wave', 55 => 'immune_surge', 53 => 'immune_toxic',
+        47 => 'immune_knockback',
+        45 => 'immune_freeze', 46 => 'immune_slow',
+        44 => 'immune_weaken', 29 => 'immune_curse',
+        49 => 'immune_warp',
         22 => 'resistant_wave', 54 => 'resistant_surge',
-        21 => 'resistant_knockback', 19 => 'resistant_freeze',
-        20 => 'resistant_slow', 18 => 'resistant_weaken',
-        24 => 'resistant_warp', 30 => 'resistant_curse',
-        52 => 'resistant_toxic',
+        52 => 'resistant_toxic', 21 => 'resistant_knockback',
+        19 => 'resistant_freeze', 20 => 'resistant_slow',
+        18 => 'resistant_weaken', 30 => 'resistant_curse',
         # unused
-        9 => 'warp', 28 => 'increase_knockbacks',
+        28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
       }
     end
 

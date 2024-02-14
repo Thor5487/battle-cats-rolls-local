@@ -147,28 +147,44 @@ module BattleCatsRolls
       const_set("Immune#{type.capitalize}", Immunity)
     end
 
-    class ResistantWave < Talent
+    class Resistance < Talent
       include TalentUtility
+
+      def self.set_constants types
+        types.each do |type|
+          Talent.const_set("Resistant#{type.capitalize}", self)
+        end
+      end
 
       def name
         'Resistant to'
       end
 
       def display
-        "Reduce wave damage by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
+        "Reduce #{type} #{kind} by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
+      end
+
+      private
+
+      def type
+        key[/([a-z]+)\z/, 1]
+      end
+
+      def kind
+        self.class.name[/([A-Z][a-z]+)\z/, 1].downcase
       end
     end
 
-    class ResistantWeaken < Talent
-      include TalentUtility
+    class ResistanceDamage < Resistance
+      set_constants(%w[wave surge toxic])
+    end
 
-      def name
-        'Resistant to'
-      end
+    class ResistanceDuration < Resistance
+      set_constants(%w[freeze slow weaken curse])
+    end
 
-      def display
-        "Reduce weaken duration by #{values_range(data.dig('minmax', 0), '%')} by #{level} levels"
-      end
+    class ResistanceDistance < Resistance
+      set_constants(%w[knockback])
     end
 
     def self.build info

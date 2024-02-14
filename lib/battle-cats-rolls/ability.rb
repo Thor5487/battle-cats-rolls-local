@@ -772,7 +772,7 @@ module BattleCatsRolls
       end
 
       def display
-        @immunity ||= immunity
+        immunity
       end
 
       def specialized; false; end
