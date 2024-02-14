@@ -186,7 +186,7 @@ module BattleCatsRolls
     def name
       @name ||=
         case value = request.params_coercion_with_nil('name', :to_i)
-        when 1, 2
+        when 1, 2, 3
           value
         else
           0
