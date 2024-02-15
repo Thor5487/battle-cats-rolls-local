@@ -111,7 +111,7 @@ module BattleCatsRolls
     end
 
     class Specialization < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Specialization.new(
           [key.delete_prefix('against_').capitalize])
@@ -123,14 +123,14 @@ module BattleCatsRolls
     end
 
     class ZombieKiller < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::ZombieKiller.new
       end
     end
 
     class SoulStrike < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::SoulStrike.new
       end
@@ -151,21 +151,21 @@ module BattleCatsRolls
     end
 
     class BreakBarrier < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::BreakBarrier.new
       end
     end
 
     class BreakShield < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::BreakShield.new
       end
     end
 
     class ColossusKiller < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::ColossusSlayer.new
       end
@@ -174,7 +174,7 @@ module BattleCatsRolls
     class BehemothKiller < Talent
       include TalentUtility
 
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::BehemothSlayer.new
       end
@@ -191,35 +191,35 @@ module BattleCatsRolls
     end
 
     class SageKiller < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::SageSlayer.new
       end
     end
 
     class Strong < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Strong.new
       end
     end
 
     class Resistant < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Resistant.new
       end
     end
 
     class MassiveDamage < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::MassiveDamage.new
       end
     end
 
     class Knockback < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Knockback.new
       end
@@ -228,7 +228,7 @@ module BattleCatsRolls
     class EffectDuration < Talent
       include TalentUtility
 
-      def display ...
+      def display(...)
         if data['minmax'].size > 1
           display_full(...)
         else
@@ -262,14 +262,14 @@ module BattleCatsRolls
     end
 
     class Freeze < EffectDuration
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Freeze.new
       end
     end
 
     class Slow < EffectDuration
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Slow.new
       end
@@ -278,7 +278,7 @@ module BattleCatsRolls
     class Weaken < EffectDuration
       include TalentUtility
 
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Weaken.new
       end
@@ -301,21 +301,21 @@ module BattleCatsRolls
     end
 
     class Curse < EffectDuration
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Curse.new
       end
     end
 
     class Critical < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::CriticalStrike.new
       end
     end
 
     class SavageBlow < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::SavageBlow.new
       end
@@ -324,7 +324,7 @@ module BattleCatsRolls
     class Wave < Talent
       include TalentUtility
 
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Wave.new
       end
@@ -342,7 +342,7 @@ module BattleCatsRolls
     end
 
     class WaveMini < Wave
-      def initialize ...
+      def initialize(...)
         super
         ability.mini = 1
       end
@@ -351,7 +351,7 @@ module BattleCatsRolls
     class Surge < Talent
       include TalentUtility
 
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Surge.new
       end
@@ -374,21 +374,21 @@ module BattleCatsRolls
     end
 
     class SurgeMini < Surge
-      def initialize ...
+      def initialize(...)
         super
         ability.mini = 1
       end
     end
 
     class Survive < EffectRate
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Survive.new
       end
     end
 
     class Dodge < EffectDuration
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Dodge.new
       end
@@ -407,14 +407,14 @@ module BattleCatsRolls
     end
 
     class LootMoney < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::LootMoney.new
       end
     end
 
     class BaseDestroyer < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::BaseDestroyer.new
       end
@@ -423,7 +423,7 @@ module BattleCatsRolls
     class Strengthen < Talent
       include TalentUtility
 
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Strengthen.new
       end
@@ -457,7 +457,7 @@ module BattleCatsRolls
     end
 
     class Immunity < Talent
-      def initialize ...
+      def initialize(...)
         super
         self.ability = Ability::Immunity.new(
           [key.delete_prefix('immune_').capitalize])
