@@ -382,8 +382,10 @@ module BattleCatsRolls
         end
       end
 
-      def display
-        "#{percent(chance)} to produce level #{highlight(level)} #{name.downcase} attack"
+      def display values=display_values
+        sprintf(
+          "%{chance} to produce level %{level} #{name.downcase} attack",
+          values)
       end
 
       def display_short
@@ -393,6 +395,12 @@ module BattleCatsRolls
       def specialized; false; end
       def effects; true; end
       def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance), level: highlight(level)}
+      end
     end
 
     class Surge < Struct.new(
@@ -415,11 +423,10 @@ module BattleCatsRolls
         end
       end
 
-      def display
-        area = highlight("#{area_range.begin} ~ #{area_range.end}")
-
-        "#{percent(chance)} to produce level #{highlight(level)}" \
-          " #{name.downcase} attack within #{area}"
+      def display values=display_values
+        sprintf(
+          "%{chance} to produce level %{level}" \
+            " #{name.downcase} attack within %{area}", values)
       end
 
       def display_short
@@ -435,6 +442,11 @@ module BattleCatsRolls
       def index; __LINE__; end
 
       private
+
+      def display_values
+        {chance: percent(chance), level: highlight(level),
+         area: highlight("#{area_range.begin} ~ #{area_range.end}")}
+      end
 
       def start
         (range * range_multiplier).floor

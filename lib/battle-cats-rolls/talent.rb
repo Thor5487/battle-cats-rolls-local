@@ -314,6 +314,72 @@ module BattleCatsRolls
       end
     end
 
+    class SavageBlow < EffectRate
+      def initialize ...
+        super
+        self.ability = Ability::SavageBlow.new
+      end
+    end
+
+    class Wave < Talent
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Wave.new
+      end
+
+      def display
+        chance = data.dig('minmax', 0)
+        wave_level = data.dig('minmax', 1)
+
+        display_text = ability.display(
+          chance: values_range(chance, suffix: '%'),
+          level: values_range(wave_level))
+
+        "#{display_text} by #{level} levels"
+      end
+    end
+
+    class WaveMini < Wave
+      def initialize ...
+        super
+        ability.mini = 1
+      end
+    end
+
+    class Surge < Talent
+      include TalentUtility
+
+      def initialize ...
+        super
+        self.ability = Ability::Surge.new
+      end
+
+      def display
+        chance = data.dig('minmax', 0)
+        surge_level = data.dig('minmax', 1)
+        start = data.dig('minmax', 2).
+          map{ |r| (r * range_multiplier).floor }
+        reach = data.dig('minmax', 3).
+          map.with_index{ |r, i| (r * range_multiplier).floor + start[i] }
+
+        display_text = ability.display(
+          chance: values_range(chance, suffix: '%'),
+          level: values_range(surge_level),
+          area: "#{values_range(start)} ~ #{values_range(reach)}")
+
+        "#{display_text} by #{level} levels"
+      end
+    end
+
+    class SurgeMini < Surge
+      def initialize ...
+        super
+        ability.mini = 1
+      end
+    end
+
     class Survive < EffectRate
       def initialize ...
         super
