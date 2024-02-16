@@ -320,6 +320,34 @@ module BattleCatsRolls
       end
     end
 
+    class Survive < Struct.new(:chance)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new(stat['survive_chance']) if stat['survive_chance']
+      end
+
+      def name
+        'Survive'
+      end
+
+      def display values=display_values
+        sprintf(
+          '%{chance} to survive a lethal strike to be knocked back with 1 health',
+          values)
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance)}
+      end
+    end
+
     class Strengthen < Struct.new(:threshold, :modifier)
       include AbilityUtility
 
@@ -394,34 +422,6 @@ module BattleCatsRolls
       def specialized; false; end
       def effects; true; end
       def index; __LINE__; end
-    end
-
-    class Survive < Struct.new(:chance)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        new(stat['survive_chance']) if stat['survive_chance']
-      end
-
-      def name
-        'Survive'
-      end
-
-      def display values=display_values
-        sprintf(
-          '%{chance} to survive a lethal strike to be knocked back with 1 health',
-          values)
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-
-      private
-
-      def display_values
-        {chance: percent(chance)}
-      end
     end
 
     class BreakBarrier < Struct.new(:chance)

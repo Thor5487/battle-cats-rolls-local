@@ -122,81 +122,6 @@ module BattleCatsRolls
       const_set("Against#{type.capitalize}", Specialization)
     end
 
-    class ZombieKiller < Talent
-      def initialize(...)
-        super
-        self.ability = Ability::ZombieKiller.new
-      end
-    end
-
-    class SoulStrike < Talent
-      def initialize(...)
-        super
-        self.ability = Ability::SoulStrike.new
-      end
-    end
-
-    class EffectRate < Talent
-      include TalentUtility
-
-      def display
-        values = values_range(data.dig('minmax', 0), suffix: '%')
-
-        if level
-          "Improve rate by #{values} by #{level} levels"
-        else
-          "Improve rate by #{values}"
-        end
-      end
-    end
-
-    class BreakBarrier < EffectRate
-      def initialize(...)
-        super
-        self.ability = Ability::BreakBarrier.new
-      end
-    end
-
-    class BreakShield < EffectRate
-      def initialize(...)
-        super
-        self.ability = Ability::BreakShield.new
-      end
-    end
-
-    class ColossusKiller < Talent
-      def initialize(...)
-        super
-        self.ability = Ability::ColossusSlayer.new
-      end
-    end
-
-    class BehemothKiller < Talent
-      include TalentUtility
-
-      def initialize(...)
-        super
-        self.ability = Ability::BehemothSlayer.new
-      end
-
-      def display
-        chance = data.dig('minmax', 0)
-        duration = data.dig('minmax', 1)
-        stat_time = yield.method(:stat_time)
-
-        ability.display(
-          chance: values_range(chance, suffix: '%'),
-          duration: values_range(duration, show: stat_time))
-      end
-    end
-
-    class SageKiller < Talent
-      def initialize(...)
-        super
-        self.ability = Ability::SageSlayer.new
-      end
-    end
-
     class Strong < Talent
       def initialize(...)
         super
@@ -215,6 +140,20 @@ module BattleCatsRolls
       def initialize(...)
         super
         self.ability = Ability::MassiveDamage.new
+      end
+    end
+
+    class EffectRate < Talent
+      include TalentUtility
+
+      def display
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        if level
+          "Improve rate by #{values} by #{level} levels"
+        else
+          "Improve rate by #{values}"
+        end
       end
     end
 
@@ -307,10 +246,65 @@ module BattleCatsRolls
       end
     end
 
-    class Critical < EffectRate
+    class Dodge < EffectDuration
       def initialize(...)
         super
-        self.ability = Ability::CriticalStrike.new
+        self.ability = Ability::Dodge.new
+      end
+
+      private
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        if level
+          "Improve rate by #{values} by #{level} levels"
+        else
+          "Improve rate by #{values}"
+        end
+      end
+    end
+
+    class Survive < EffectRate
+      def initialize(...)
+        super
+        self.ability = Ability::Survive.new
+      end
+    end
+
+    class Strengthen < Talent
+      include TalentUtility
+
+      def initialize(...)
+        super
+        self.ability = Ability::Strengthen.new
+      end
+
+      def display
+        if data['minmax'].size > 1
+          display_full
+        else
+          display_improve
+        end
+      end
+
+      private
+
+      def display_full
+        threshold = data.dig('minmax', 0).map{ |p| 100 - p }
+        multiplier = data.dig('minmax', 1).map{ |p| p + 100 }
+
+        display_text = ability.display(
+          threshold: values_range(threshold, suffix: '%'),
+          multiplier: values_range(multiplier, suffix: '%'))
+
+        "#{display_text} by #{level} levels"
+      end
+
+      def display_improve
+        values = values_range(data.dig('minmax', 0), suffix: '%')
+
+        "Improve damage by #{values} by #{level} levels"
       end
     end
 
@@ -318,6 +312,81 @@ module BattleCatsRolls
       def initialize(...)
         super
         self.ability = Ability::SavageBlow.new
+      end
+    end
+
+    class Critical < EffectRate
+      def initialize(...)
+        super
+        self.ability = Ability::CriticalStrike.new
+      end
+    end
+
+    class BreakBarrier < EffectRate
+      def initialize(...)
+        super
+        self.ability = Ability::BreakBarrier.new
+      end
+    end
+
+    class BreakShield < EffectRate
+      def initialize(...)
+        super
+        self.ability = Ability::BreakShield.new
+      end
+    end
+
+    class ZombieKiller < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::ZombieKiller.new
+      end
+    end
+
+    class SoulStrike < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::SoulStrike.new
+      end
+    end
+
+    class BaseDestroyer < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::BaseDestroyer.new
+      end
+    end
+
+    class ColossusKiller < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::ColossusSlayer.new
+      end
+    end
+
+    class SageKiller < Talent
+      def initialize(...)
+        super
+        self.ability = Ability::SageSlayer.new
+      end
+    end
+
+    class BehemothKiller < Talent
+      include TalentUtility
+
+      def initialize(...)
+        super
+        self.ability = Ability::BehemothSlayer.new
+      end
+
+      def display
+        chance = data.dig('minmax', 0)
+        duration = data.dig('minmax', 1)
+        stat_time = yield.method(:stat_time)
+
+        ability.display(
+          chance: values_range(chance, suffix: '%'),
+          duration: values_range(duration, show: stat_time))
       end
     end
 
@@ -380,79 +449,10 @@ module BattleCatsRolls
       end
     end
 
-    class Survive < EffectRate
-      def initialize(...)
-        super
-        self.ability = Ability::Survive.new
-      end
-    end
-
-    class Dodge < EffectDuration
-      def initialize(...)
-        super
-        self.ability = Ability::Dodge.new
-      end
-
-      private
-
-      def display_improve
-        values = values_range(data.dig('minmax', 0), suffix: '%')
-
-        if level
-          "Improve rate by #{values} by #{level} levels"
-        else
-          "Improve rate by #{values}"
-        end
-      end
-    end
-
     class LootMoney < Talent
       def initialize(...)
         super
         self.ability = Ability::LootMoney.new
-      end
-    end
-
-    class BaseDestroyer < Talent
-      def initialize(...)
-        super
-        self.ability = Ability::BaseDestroyer.new
-      end
-    end
-
-    class Strengthen < Talent
-      include TalentUtility
-
-      def initialize(...)
-        super
-        self.ability = Ability::Strengthen.new
-      end
-
-      def display
-        if data['minmax'].size > 1
-          display_full
-        else
-          display_improve
-        end
-      end
-
-      private
-
-      def display_full
-        threshold = data.dig('minmax', 0).map{ |p| 100 - p }
-        multiplier = data.dig('minmax', 1).map{ |p| p + 100 }
-
-        display_text = ability.display(
-          threshold: values_range(threshold, suffix: '%'),
-          multiplier: values_range(multiplier, suffix: '%'))
-
-        "#{display_text} by #{level} levels"
-      end
-
-      def display_improve
-        values = values_range(data.dig('minmax', 0), suffix: '%')
-
-        "Improve damage by #{values} by #{level} levels"
       end
     end
 
@@ -498,16 +498,16 @@ module BattleCatsRolls
       end
     end
 
-    class ResistanceDamage < Resistance
-      set_constants(%w[wave surge toxic])
+    class ResistanceDistance < Resistance
+      set_constants(%w[knockback])
     end
 
     class ResistanceDuration < Resistance
       set_constants(%w[freeze slow weaken curse])
     end
 
-    class ResistanceDistance < Resistance
-      set_constants(%w[knockback])
+    class ResistanceDamage < Resistance
+      set_constants(%w[wave surge toxic])
     end
 
     def self.build info
