@@ -81,6 +81,24 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
+    class AgainstOnly
+      def self.build_if_available stat
+        new if stat['against_only']
+      end
+
+      def name
+        'Attack only'
+      end
+
+      def display
+        "Only attack specialized enemies or enemy base.<br>\nWhen cursed, only attack the base."
+      end
+
+      def specialized; true; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
     class Strong
       def self.build_if_available stat
         new if stat['strong']
@@ -92,24 +110,6 @@ module BattleCatsRolls
 
       def display
         'Deal 150% ~ 180% damage and take 50% ~ 40% damage'
-      end
-
-      def specialized; true; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class InsaneDamage
-      def self.build_if_available stat
-        new if stat['insane_damage']
-      end
-
-      def name
-        'Insane damage'
-      end
-
-      def display
-        'Deal 500% ~ 600% damage'
       end
 
       def specialized; true; end
@@ -135,17 +135,17 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class InsaneResistant
+    class InsaneDamage
       def self.build_if_available stat
-        new if stat['insane_resistant']
+        new if stat['insane_damage']
       end
 
       def name
-        'Insane resistant'
+        'Insane damage'
       end
 
       def display
-        'Take 16% ~ 14% damage'
+        'Deal 500% ~ 600% damage'
       end
 
       def specialized; true; end
@@ -164,6 +164,24 @@ module BattleCatsRolls
 
       def display
         'Take 25% ~ 20% damage'
+      end
+
+      def specialized; true; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class InsaneResistant
+      def self.build_if_available stat
+        new if stat['insane_resistant']
+      end
+
+      def name
+        'Insane resistant'
+      end
+
+      def display
+        'Take 16% ~ 14% damage'
       end
 
       def specialized; true; end
@@ -302,42 +320,6 @@ module BattleCatsRolls
       end
     end
 
-    class AgainstOnly
-      def self.build_if_available stat
-        new if stat['against_only']
-      end
-
-      def name
-        'Attack only'
-      end
-
-      def display
-        "Only attack specialized enemies or enemy base.<br>\nWhen cursed, only attack the base."
-      end
-
-      def specialized; true; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class Conjure < Struct.new(:cat_id, :cat_info)
-      def self.build_if_available stat
-        new(stat['conjure'], stat['conjure_info']) if stat['conjure']
-      end
-
-      def name
-        'Conjure'
-      end
-
-      def display
-        %Q{<a href="#{yield.route.uri_to_cat(Cat.new(id: cat_id))}">#{cat_info.dig('desc', 0)}</a>}
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
     class Strengthen < Struct.new(:threshold, :modifier)
       include AbilityUtility
 
@@ -366,6 +348,295 @@ module BattleCatsRolls
       def display_values
         {multiplier: percent(modifier + 100), threshold: percent(threshold)}
       end
+    end
+
+    class SavageBlow < Struct.new(:chance, :modifier)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        if stat['savage_blow_chance']
+          new(*stat.values_at('savage_blow_chance', 'savage_blow_modifier'))
+        end
+      end
+
+      def name
+        'Savage blow'
+      end
+
+      def display
+        "#{percent(chance)} to deal #{percent(modifier + 100)} damage"
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+    end
+
+    class CriticalStrike < Struct.new(:chance)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new(stat['critical_chance']) if stat['critical_chance']
+      end
+
+      def name
+        'Critical strike'
+      end
+
+      def display
+        "#{percent(chance)} to deal 200% damage and ignore metal effect"
+      end
+
+      def modifier
+        100
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+    end
+
+    class Survive < Struct.new(:chance)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new(stat['survive_chance']) if stat['survive_chance']
+      end
+
+      def name
+        'Survive'
+      end
+
+      def display values=display_values
+        sprintf(
+          '%{chance} to survive a lethal strike to be knocked back with 1 health',
+          values)
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance)}
+      end
+    end
+
+    class BreakBarrier < Struct.new(:chance)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new (stat['break_barrier_chance']) if stat['break_barrier_chance']
+      end
+
+      def name
+        'Break barrier'
+      end
+
+      def display
+        "#{percent(chance)} to break star alien barrier"
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+    end
+
+    class BreakShield < Struct.new(:chance)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new (stat['break_shield_chance']) if stat['break_shield_chance']
+      end
+
+      def name
+        'Break shield'
+      end
+
+      def display
+        "#{percent(chance)} to break aku shield"
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+    end
+
+    class ZombieKiller
+      def self.build_if_available stat
+        new if stat['zombie_killer']
+      end
+
+      def name
+        'Zombie killer'
+      end
+
+      def display
+        'Final blow prevents zombies from reviving'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class SoulStrike
+      def self.build_if_available stat
+        new if stat['soul_strike']
+      end
+
+      def name
+        'Soul strike'
+      end
+
+      def display
+        'It can attack zombie corpses'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class BaseDestroyer
+      def self.build_if_available stat
+        new if stat['base_destroyer']
+      end
+
+      def name
+        'Base destroyer'
+      end
+
+      def display
+        'Deal 400% damage to enemy base'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class ColossusSlayer
+      def self.build_if_available stat
+        new if stat['colossus_killer']
+      end
+
+      def name
+        'Colossus slayer'
+      end
+
+      def display
+        'Deal 160% damage to and take 70% damage from colossus'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class SageSlayer
+      def self.build_if_available stat
+        new if stat['sage_killer']
+      end
+
+      def name
+        'Sage slayer'
+      end
+
+      def display
+        'Deal 120% damage, take 50% damage, trigger 100% effects for sages'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class WitchSlayer
+      def self.build_if_available stat
+        new if stat['witch_killer']
+      end
+
+      def name
+        'Witch slayer'
+      end
+
+      def display
+        'Deal 500% damage to and take 10% damage from witches'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class EvaAngelSlayer
+      def self.build_if_available stat
+        new if stat['eva_angel_killer']
+      end
+
+      def name
+        'Eva angel slayer'
+      end
+
+      def display
+        'Deal 500% damage to and take 20% damage from eva angels'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
+    class BehemothSlayer < Struct.new(:chance, :duration)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        if stat['behemoth_killer']
+          new(*stat.values_at(
+            'behemoth_dodge_chance', 'behemoth_dodge_duration'))
+        end
+      end
+
+      def name
+        'Behemoth slayer'
+      end
+
+      def display values=nil, &block
+        sprintf(
+          'Deal 250%% and take 60%% damage, and %{chance} to be immune for %{duration}',
+          values || display_values(&block))
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance), duration: seconds(yield.method(:stat_time))}
+      end
+    end
+
+    class Conjure < Struct.new(:cat_id, :cat_info)
+      def self.build_if_available stat
+        new(stat['conjure'], stat['conjure_info']) if stat['conjure']
+      end
+
+      def name
+        'Conjure'
+      end
+
+      def display
+        %Q{<a href="#{yield.route.uri_to_cat(Cat.new(id: cat_id))}">#{cat_info.dig('desc', 0)}</a>}
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
     end
 
     class Wave < Struct.new(:chance, :level, :mini)
@@ -479,80 +750,6 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class CriticalStrike < Struct.new(:chance)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        new(stat['critical_chance']) if stat['critical_chance']
-      end
-
-      def name
-        'Critical strike'
-      end
-
-      def display
-        "#{percent(chance)} to deal 200% damage and ignore metal effect"
-      end
-
-      def modifier
-        100
-      end
-
-      def specialized; false; end
-      def effects; true; end
-      def index; __LINE__; end
-    end
-
-    class SavageBlow < Struct.new(:chance, :modifier)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        if stat['savage_blow_chance']
-          new(*stat.values_at('savage_blow_chance', 'savage_blow_modifier'))
-        end
-      end
-
-      def name
-        'Savage blow'
-      end
-
-      def display
-        "#{percent(chance)} to deal #{percent(modifier + 100)} damage"
-      end
-
-      def specialized; false; end
-      def effects; true; end
-      def index; __LINE__; end
-    end
-
-    class Survive < Struct.new(:chance)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        new(stat['survive_chance']) if stat['survive_chance']
-      end
-
-      def name
-        'Survive'
-      end
-
-      def display values=display_values
-        sprintf(
-          '%{chance} to survive a lethal strike to be knocked back with 1 health',
-          values)
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-
-      private
-
-      def display_values
-        {chance: percent(chance)}
-      end
-    end
-
     class LootMoney
       def self.build_if_available stat
         new if stat['loot_money']
@@ -564,24 +761,6 @@ module BattleCatsRolls
 
       def display
         'Get double money from defeating enemies'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class BaseDestroyer
-      def self.build_if_available stat
-        new if stat['base_destroyer']
-      end
-
-      def name
-        'Base destroyer'
-      end
-
-      def display
-        'Deal 400% damage to enemy base'
       end
 
       def specialized; false; end
@@ -625,189 +804,10 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class ZombieKiller
-      def self.build_if_available stat
-        new if stat['zombie_killer']
-      end
-
-      def name
-        'Zombie killer'
-      end
-
-      def display
-        'Final blow prevents zombies from reviving'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class SoulStrike
-      def self.build_if_available stat
-        new if stat['soul_strike']
-      end
-
-      def name
-        'Soul strike'
-      end
-
-      def display
-        'It can attack zombie corpses'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class BreakBarrier < Struct.new(:chance)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        new (stat['break_barrier_chance']) if stat['break_barrier_chance']
-      end
-
-      def name
-        'Break barrier'
-      end
-
-      def display
-        "#{percent(chance)} to break star alien barrier"
-      end
-
-      def specialized; false; end
-      def effects; true; end
-      def index; __LINE__; end
-    end
-
-    class BreakShield < Struct.new(:chance)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        new (stat['break_shield_chance']) if stat['break_shield_chance']
-      end
-
-      def name
-        'Break shield'
-      end
-
-      def display
-        "#{percent(chance)} to break aku shield"
-      end
-
-      def specialized; false; end
-      def effects; true; end
-      def index; __LINE__; end
-    end
-
-    class ColossusSlayer
-      def self.build_if_available stat
-        new if stat['colossus_killer']
-      end
-
-      def name
-        'Colossus slayer'
-      end
-
-      def display
-        'Deal 160% damage to and take 70% damage from colossus'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class BehemothSlayer < Struct.new(:chance, :duration)
-      include AbilityUtility
-
-      def self.build_if_available stat
-        if stat['behemoth_killer']
-          new(*stat.values_at(
-            'behemoth_dodge_chance', 'behemoth_dodge_duration'))
-        end
-      end
-
-      def name
-        'Behemoth slayer'
-      end
-
-      def display values=nil, &block
-        sprintf(
-          'Deal 250%% and take 60%% damage, and %{chance} to be immune for %{duration}',
-          values || display_values(&block))
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-
-      private
-
-      def display_values
-        {chance: percent(chance), duration: seconds(yield.method(:stat_time))}
-      end
-    end
-
-    class SageSlayer
-      def self.build_if_available stat
-        new if stat['sage_killer']
-      end
-
-      def name
-        'Sage slayer'
-      end
-
-      def display
-        'Deal 120% damage, take 50% damage, trigger 100% effects for sages'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class WitchSlayer
-      def self.build_if_available stat
-        new if stat['witch_killer']
-      end
-
-      def name
-        'Witch slayer'
-      end
-
-      def display
-        'Deal 500% damage to and take 10% damage from witches'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
-    class EvaAngelSlayer
-      def self.build_if_available stat
-        new if stat['eva_angel_killer']
-      end
-
-      def name
-        'Eva angel slayer'
-      end
-
-      def display
-        'Deal 500% damage to and take 20% damage from eva angels'
-      end
-
-      def specialized; false; end
-      def effects; false; end
-      def index; __LINE__; end
-    end
-
     class Immunity < Struct.new(:immunity)
       include AbilityUtility
       List = %w[
-        bosswave knockback warp freeze slow weaken toxic curse wave surge
+        bosswave knockback warp freeze slow weaken curse wave surge toxic
       ].freeze
 
       def self.build_if_available stat
