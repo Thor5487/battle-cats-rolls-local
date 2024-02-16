@@ -260,9 +260,9 @@ module BattleCatsRolls
         critical_chance: 31,
         break_barrier_chance: 70, break_shield_chance: 95,
         zombie_killer: 52, soul_strike: 98, base_destroyer: 34,
-        colossus_killer: 97, sage_killer: 111,
-        witch_killer: 53, eva_angel_killer: 77,
-        behemoth_killer: 105,
+        colossus_slayer: 97, sage_slayer: 111,
+        witch_slayer: 53, eva_angel_slayer: 77,
+        behemoth_slayer: 105,
         behemoth_dodge_chance: 106, behemoth_dodge_duration: 107,
         conjure: 110,
         wave_chance: 35, wave_level: 36, wave_mini: 94,
@@ -305,7 +305,7 @@ module BattleCatsRolls
         50 => 'savage_blow', 13 => 'critical',
         15 => 'break_barrier', 58 => 'break_shield',
         14 => 'zombie_killer', 59 => 'soul_strike', 12 => 'base_destroyer',
-        63 => 'colossus_killer', 66 => 'sage_killer', 64 => 'behemoth_killer',
+        63 => 'colossus_slayer', 66 => 'sage_slayer', 64 => 'behemoth_slayer',
         17 => 'wave', 62 => 'wave_mini', 56 => 'surge', 65 => 'surge_mini',
         16 => 'loot_money',
         47 => 'immune_knockback', 49 => 'immune_warp',
@@ -319,7 +319,7 @@ module BattleCatsRolls
         52 => 'resistant_toxic',
         # unused
         28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
-        42 => 'witch_killer', 43 => 'eva_angel_killer',
+        42 => 'witch_slayer', 43 => 'eva_angel_slayer',
       }
     end
 

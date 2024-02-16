@@ -520,7 +520,7 @@ module BattleCatsRolls
 
     class ColossusSlayer
       def self.build_if_available stat
-        new if stat['colossus_killer']
+        new if stat['colossus_slayer']
       end
 
       def name
@@ -538,7 +538,7 @@ module BattleCatsRolls
 
     class SageSlayer
       def self.build_if_available stat
-        new if stat['sage_killer']
+        new if stat['sage_slayer']
       end
 
       def name
@@ -556,7 +556,7 @@ module BattleCatsRolls
 
     class WitchSlayer
       def self.build_if_available stat
-        new if stat['witch_killer']
+        new if stat['witch_slayer']
       end
 
       def name
@@ -574,7 +574,7 @@ module BattleCatsRolls
 
     class EvaAngelSlayer
       def self.build_if_available stat
-        new if stat['eva_angel_killer']
+        new if stat['eva_angel_slayer']
       end
 
       def name
@@ -594,7 +594,7 @@ module BattleCatsRolls
       include AbilityUtility
 
       def self.build_if_available stat
-        if stat['behemoth_killer']
+        if stat['behemoth_slayer']
           new(*stat.values_at(
             'behemoth_dodge_chance', 'behemoth_dodge_duration'))
         end

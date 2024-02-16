@@ -357,21 +357,21 @@ module BattleCatsRolls
       end
     end
 
-    class ColossusKiller < Talent
+    class ColossusSlayer < Talent
       def initialize(...)
         super
         self.ability = Ability::ColossusSlayer.new
       end
     end
 
-    class SageKiller < Talent
+    class SageSlayer < Talent
       def initialize(...)
         super
         self.ability = Ability::SageSlayer.new
       end
     end
 
-    class BehemothKiller < Talent
+    class BehemothSlayer < Talent
       include TalentUtility
 
       def initialize(...)
