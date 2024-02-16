@@ -831,6 +831,24 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
+    class BlockWave
+      def self.build_if_available stat
+        new if stat['block_wave']
+      end
+
+      def name
+        'Block wave'
+      end
+
+      def display
+        'Immune to and block wave from reaching further'
+      end
+
+      def specialized; false; end
+      def effects; false; end
+      def index; __LINE__; end
+    end
+
     def self.build stat
       constants.filter_map do |ability|
         const_get(ability, false).build_if_available(stat)
