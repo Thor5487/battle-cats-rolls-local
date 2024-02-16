@@ -74,8 +74,8 @@ module BattleCatsRolls
     def attack_cycle
       @attack_cycle ||= attack_duration &&
         [
-          attack_duration,
-          attacks_raw.sum(&:duration) + attack_cooldown
+          attack_duration + 1,
+          attacks_raw.sum(&:duration) + attack_cooldown - 1
         ].max
     end
 

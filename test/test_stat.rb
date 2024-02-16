@@ -81,15 +81,15 @@ describe BattleCatsRolls::Stat do
 
     describe 'Kyosaka Nanaho' do
       def id; 545; end
-      def level; 35; end # This level can test rounding error
+      def level; 45; end # This level can test rounding error
 
       would 'return correct DPS' do
         attacks = stat.attacks
 
         expect(attacks.size).eq 2
-        expect(attacks.first.dps.round(3)).eq 3306.522
-        expect(attacks.last.dps.round(3)).eq 2670.652 # 50% critical strike
-        expect(stat.dps_sum.round(3)).eq 5977.174 # Not 5978
+        expect(attacks.first.dps.round(3)).eq 4118.534
+        expect(attacks.last.dps.round(3)).eq 3326.509 # 50% critical strike
+        expect(stat.dps_sum.round(3)).eq 7445.043 # Not 7444 nor 7446
       end
 
       describe 'but can be disabled' do
@@ -99,9 +99,9 @@ describe BattleCatsRolls::Stat do
           attacks = stat.attacks
 
           expect(attacks.size).eq 2
-          expect(attacks.first.dps.round(3)).eq 3306.522
-          expect(attacks.last.dps.round(3)).eq 1780.435
-          expect(stat.dps_sum.round(3)).eq 5086.957
+          expect(attacks.first.dps.round(3)).eq 4118.534
+          expect(attacks.last.dps.round(3)).eq 2217.672
+          expect(stat.dps_sum.round(3)).eq 6336.207
         end
       end
     end
@@ -111,7 +111,7 @@ describe BattleCatsRolls::Stat do
       def index; 2; end
 
       def expected_dps
-        14658.683
+        14688
       end
 
       copy do
@@ -130,7 +130,7 @@ describe BattleCatsRolls::Stat do
         def dps_no_critical; true; end
 
         def expected_dps
-          9161.677
+          9180
         end
 
         paste
@@ -241,7 +241,7 @@ describe BattleCatsRolls::Stat do
         attacks = stat.attacks
         expect(attacks.size).eq 9
 
-        all_dps = [896] * 9
+        all_dps = [898] * 9
 
         expect(stat.attacks.map(&:dps).map(&:round)).eq \
           all_dps.map(&:round)
