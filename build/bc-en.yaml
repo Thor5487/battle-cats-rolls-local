@@ -757,7 +757,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
     talent:
-      critical:
+      critical_strike:
         max_level: 5
         minmax: [[1, 5]]
       resistant_knockback:
@@ -2025,7 +2025,7 @@ cats:
       survive:
         max_level: 10
         minmax: [[5, 50]]
-      critical:
+      critical_strike:
         minmax: [[2, 2]]
       resistant_wave:
         max_level: 10
@@ -2186,7 +2186,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
     talent:
-      critical:
+      critical_strike:
         minmax: [[5, 5]]
       against_zombie: {}
       zombie_killer: {}
@@ -2234,7 +2234,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
     talent:
-      critical:
+      critical_strike:
         max_level: 10
         minmax: [[1, 10]]
       immune_weaken: {}
@@ -2633,7 +2633,7 @@ cats:
     max_level: 110
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10, 10, 10]
     talent:
-      critical:
+      critical_strike:
         minmax: [[10, 10]]
       immune_wave: {}
       immune_slow: {}

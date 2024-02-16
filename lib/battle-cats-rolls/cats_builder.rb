@@ -302,7 +302,7 @@ module BattleCatsRolls
         8 => 'knockback', 2 => 'freeze', 3 => 'slow',
         1 => 'weaken', 60 => 'curse', 51 => 'dodge',
         11 => 'survive', 10 => 'strengthen',
-        50 => 'savage_blow', 13 => 'critical',
+        50 => 'savage_blow', 13 => 'critical_strike',
         15 => 'break_barrier', 58 => 'break_shield',
         14 => 'zombie_killer', 59 => 'soul_strike', 12 => 'base_destroyer',
         63 => 'colossus_slayer', 66 => 'sage_slayer', 64 => 'behemoth_slayer',

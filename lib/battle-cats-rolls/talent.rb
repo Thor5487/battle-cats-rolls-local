@@ -315,7 +315,7 @@ module BattleCatsRolls
       end
     end
 
-    class Critical < EffectRate
+    class CriticalStrike < EffectRate
       def initialize(...)
         super
         self.ability = Ability::CriticalStrike.new
