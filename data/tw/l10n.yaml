@@ -18,7 +18,7 @@ DPS: DPS
 Area: 範圍
 Single range: 單體射程
 Damage: 攻撃力
-Duration: 觸發時間
+Trigger duration: 觸發時間
 Trigger effects: 觸發效果
 Knockback: 打飛
 Freeze: 暫停

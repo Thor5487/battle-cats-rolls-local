@@ -18,7 +18,7 @@ DPS: DPS
 Area: 射程
 Single range:
 Damage: 攻撃力
-Duration: 攻撃発生
+Trigger duration: 攻撃発生
 Trigger effects: 攻撃に乗る効果、能力
 Knockback: ふっとばす
 Freeze: 動きを止める

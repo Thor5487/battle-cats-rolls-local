@@ -62,7 +62,7 @@
     <% if attack.kind_of?(BattleCatsRolls::TriggeredAttack) %>
     <td colspan="2"><%= attack.triggered_effect.display_short %></td>
     <% else %>
-    <td><%= l10n('Duration') %></td>
+    <td><%= l10n('Trigger duration') %></td>
     <td><%= stat_time attack.duration %></td>
     <% end %>
     <td><%= l10n('Trigger effects') %></td>
