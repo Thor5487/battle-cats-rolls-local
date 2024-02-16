@@ -140,7 +140,7 @@ module BattleCatsRolls
     end
 
     def dps_sum
-      @dps_sum ||= if kamikaze?
+      @dps_sum ||= if kamikaze? || max_dps_area == 'None'
         '-'
       elsif attack_cycle
         if sum_no_wave
