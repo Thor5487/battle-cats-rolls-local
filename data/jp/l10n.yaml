@@ -20,20 +20,6 @@ Single range:
 Damage: 攻撃力
 Trigger duration: 攻撃発生
 Trigger effects: 攻撃に乗る効果、能力
-Knockback: ふっとばす
-Freeze: 動きを止める
-Slow: 動きを遅くする
-Weaken: 攻撃力ダウン
-Curse: 呪い
-Critical strike: クリティカル
-Savage blow: 渾身の一撃
-Break barrier: バリアブレイカー
-Break shield: シールドブレイカー
-Conjure:
-Mini-wave: 小波動
-Wave: 波動
-Mini-surge: 小烈波
-Surge: 烈波
 Specialized to: 対象
 Red: 赤い敵
 Float: 浮いてる敵
@@ -48,6 +34,20 @@ White: 無属性
 Insane damage: 極ダメージ
 Deal 500% ~ 600% damage: 与ダメージが5~6倍
 Massive damage: 超ダメージ
+Knockback: ふっとばす
+Freeze: 動きを止める
+Slow: 動きを遅くする
+Weaken: 攻撃力ダウン
+Curse: 呪い
+Critical strike: クリティカル
+Savage blow: 渾身の一撃
+Break barrier: バリアブレイカー
+Break shield: シールドブレイカー
+Conjure:
+Mini-wave: 小波動
+Wave: 波動
+Mini-surge: 小烈波
+Surge: 烈波
 Abilities below will not be affected by curse: 以下の能力は呪いの影響を受けない。
 Extra money:
 Get double money from defeating enemies:
