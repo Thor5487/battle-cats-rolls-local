@@ -443,7 +443,7 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
     talent:
-      loot_money: {}
+      extra_money: {}
       against_alien: {}
       increase_health:
         max_level: 10
@@ -815,7 +815,7 @@ cats:
   50:
     name: [小偷貓, 怪盜貓, 五右衛門貓]
     desc: ["以快速的動作擾亂敵人的角色\n打倒敵人的時候可以得到很多金錢", "以詭異的舉動擾亂敵人\n也是世界上神秘寶物的收藏者\n打倒敵人的時候可以得到很多金錢", "遊走各地時莫名成為大盜的貓。\n百寶箱裡並不是四次元空間\n打倒敵人的時候可以得到很多金錢（範圍攻擊）"]
-    stat: [{health: 462, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 54, attack_time_0: 15, loot_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 64, attack_time_0: 15, loot_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 200, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 15, loot_money: 1, attack_duration: 24}]
+    stat: [{health: 462, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 54, attack_time_0: 15, extra_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 64, attack_time_0: 15, extra_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 200, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 15, extra_money: 1, attack_duration: 24}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -1180,7 +1180,7 @@ cats:
   75:
     name: [馴鹿魚, 魚貓的刺身, 聖誕樹幹蛋糕貓]
     desc: ["戰鬥型的角色可愛地進化\n載著夢想運著禮物！\n打倒敵人的時候可以得到很多金錢", "戰鬥型的角色可口地進化\n捨身待人！\n打倒敵人的時候可以得到很多金錢", "戰鬥型角色香甜進化中！\n滿滿巧克力，連樹幹都可以食用\n打倒敵人的時候可以得到很多金錢（範圍攻擊）"]
-    stat: [{health: 900, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 196, attack_time_0: 8, loot_money: 1, attack_duration: 24}, {health: 1050, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 327, attack_time_0: 8, loot_money: 1, attack_duration: 24}, {health: 1500, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 17, range: 150, width: 320, area_effect: 1, damage_0: 327, attack_time_0: 8, loot_money: 1, attack_duration: 24}]
+    stat: [{health: 900, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 196, attack_time_0: 8, extra_money: 1, attack_duration: 24}, {health: 1050, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 327, attack_time_0: 8, extra_money: 1, attack_duration: 24}, {health: 1500, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 17, range: 150, width: 320, area_effect: 1, damage_0: 327, attack_time_0: 8, extra_money: 1, attack_duration: 24}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2333,7 +2333,7 @@ cats:
   180:
     name: [拓也與小雪, 拓也與小雪與貓咪, 拓也與美腿小雪]
     desc: ["來自消滅都市的戰士！什麽都送的送貨員拓也和\n神秘少女小雪。目標是3年前\"消滅\"的某個都市\n對上飄浮敵人很耐打（範圍攻擊）", "不小心把貓咪當成魂珠拿來之後不得已\n一起載著走。目標是3年前\"消滅\"的某個都市\n對上飄浮敵人很耐打（範圍攻擊）", "爲了找尋忽然失蹤的小雪而帶著握有重要線索的\n神秘生物一同行動。對上飄浮敵人很耐打\n打倒敵人的時候可以得到很多金錢（範圍攻擊）"]
-    stat: [{health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 600, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, loot_money: 1, attack_duration: 60}]
+    stat: [{health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 600, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, extra_money: 1, attack_duration: 60}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2370,7 +2370,7 @@ cats:
   184:
     name: [貓咪賽車R, 貓咪賽車G]
     desc: ["3DS版「貓咪大戰爭3DS！」紀念角色\n喜歡卡丁車、網球、派對等，興趣廣泛的貓咪\n打倒敵人的時候可以得到很多金錢", "3DS版「貓咪大戰爭3DS！」紀念角色\n最討厭幽靈的貓咪，人稱「永遠的老二」\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, loot_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, loot_money: 1, attack_duration: 64}]
+    stat: [{health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, extra_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, extra_money: 1, attack_duration: 64}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2799,7 +2799,7 @@ cats:
   227:
     name: [咒術師死亡小丑, 暗黑商人巴比倫, 奇術科學者狂G]
     desc: ["將罪大惡極的惡魔靈魂封印到人偶裡的超強咒術師\n只能攻擊異星戰士和飄浮敵人\n但破壞力超強，攻城比吃飯還輕鬆（範圍攻擊）", "操控魔物去收集罪人靈魂販賣的地獄商人\n只能攻擊異星戰士和天使，但破壞力超強\n打倒敵人的時候可以得到很多金錢（範圍攻擊）", "為了滿足好奇心而埋頭研究的瘋狂科學家\n不斷重複著將靈魂注入拼裝肉體中的實驗\n只能攻擊異星戰士但破壞力超強(範圍攻擊)"]
-    stat: [{health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, against_only: 1, base_destroyer: 1, attack_duration: 125}, {health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_only: 1, loot_money: 1, attack_duration: 125}, {health: 9300, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 9615, attack_time_0: 70, trigger_effects_0: 1, against_alien: 1, against_only: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 120}]
+    stat: [{health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, against_only: 1, base_destroyer: 1, attack_duration: 125}, {health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_only: 1, extra_money: 1, attack_duration: 125}, {health: 9300, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 9615, attack_time_0: 70, trigger_effects_0: 1, against_alien: 1, against_only: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2857,7 +2857,7 @@ cats:
   239:
     name: [土豪弟, 土豪爹, 土豪爹的爹]
     desc: ["貓界的傳奇工作狂「土豪貓」的表弟\n身爲土豪，卻拿到大錢就會直冒冷汗\n打倒敵人的時候可以得到很多金錢", "貓界的傳奇工作狂「土豪貓」的老爸\n說什麼都不工作，成了「土豪貓」的負面教材\n打倒敵人的時候可以得到很多金錢", "貓界的傳奇工作狂「土豪貓」的爺爺\n用挖到的寶藏\"貓川埋藏金\"享福到末代\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 120, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 248, attack_time_0: 32, trigger_effects_0: 1, damage_1: 248, attack_time_1: 40, trigger_effects_1: 1, loot_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 289, attack_time_0: 32, trigger_effects_0: 1, damage_1: 289, attack_time_1: 40, trigger_effects_1: 1, loot_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 45, range: 250, width: 320, damage_0: 1445, attack_time_0: 32, trigger_effects_0: 1, loot_money: 1, attack_duration: 68}]
+    stat: [{health: 120, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 248, attack_time_0: 32, trigger_effects_0: 1, damage_1: 248, attack_time_1: 40, trigger_effects_1: 1, extra_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 289, attack_time_0: 32, trigger_effects_0: 1, damage_1: 289, attack_time_1: 40, trigger_effects_1: 1, extra_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 45, range: 250, width: 320, damage_0: 1445, attack_time_0: 32, trigger_effects_0: 1, extra_money: 1, attack_duration: 68}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3314,7 +3314,7 @@ cats:
   285:
     name: [貓咪特急, 貓咪超特急, 貓咪自強號特急]
     desc: ["最高時速222km　1節車廂　全座位一等車廂\n今天搭客率120％\n打倒敵人的時候可以得到很多金錢", "最高時速2222km　搭載有最新科技與\n222隻貓的貓型搬運裝置\n打倒敵人的時候可以得到很多金錢", "最高時速2億km可以飛出地球的超級電車\n有練過的乘客2222人可以搭乘\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 600, knockbacks: 1, speed: 60, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}, {health: 900, knockbacks: 1, speed: 75, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}, {health: 1200, knockbacks: 1, speed: 85, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1750, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}]
+    stat: [{health: 600, knockbacks: 1, speed: 60, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}, {health: 900, knockbacks: 1, speed: 75, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}, {health: 1200, knockbacks: 1, speed: 85, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1750, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}]
     rarity: 3
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -3879,7 +3879,7 @@ cats:
   338:
     name: [飛踢公主號, 飛踢公主號CC, 豪華飛踢公主號CC]
     desc: ["搭乘寶船觀光中的飛踢公主和貓咪們\n即使在空中也不會錯過任何甜點\n打倒敵人的時候可以得到很多金錢(範圍攻擊)", "搭乘高級寶船觀光中的飛踢公主和貓咪們\n即使在空中也不會錯過任何帥哥\n打倒敵人的時候可以得到很多金錢(範圍攻擊)", "搭乘豪華寶船觀光中的飛踢公主和貓咪們\n因為發現了帥哥而正加速前往現場\n打倒敵人的時候可以得到很多金錢(範圍攻擊)"]
-    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}]
+    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3945,7 +3945,7 @@ cats:
   343:
     name: [招財貓, 貓神抱稻]
     desc: ["對大眾的愛戴充滿感謝的貓\n據說可以替主人招來一些福氣\n打倒敵人的時候可以得到很多金錢", "在大眾的關愛下成長的貓\n為回饋大眾將帶給大家滿滿食糧\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}]
+    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -4340,14 +4340,14 @@ cats:
   382:
     name: [農人貓, 蕪菁農家貓]
     desc: ["經由多人選拔而出的貓\n為了帶給人們幸福而努力耕田中\n打倒敵人的時候可以得到很多金錢", "經由多人選拔而出的貓\n聽信蕪菁會大賣的傳言而改種蕪菁\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, loot_money: 1, attack_duration: 60}, {health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, loot_money: 1, attack_duration: 60}]
+    stat: [{health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}, {health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}]
     rarity: 1
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
   383:
     name: [玻璃貓, 玻璃健美貓, 水晶健美貓]
     desc: ["玻璃做的貓\n認為人生就是要一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "強化後的玻璃貓\n但還是一樣認為人生就是一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "更加強健身並釋放出永恆光輝的貓咪\n人生珍惜那一瞬間的光輝閃耀。能打飛沒有\n屬性的敵人並使動作變慢(一次攻擊)"]
-    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
+    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -4763,7 +4763,7 @@ cats:
   438:
     name: [激・神, 超・神, 超・金光閃閃神]
     desc: ["終於降臨來到貓咪軍團\n打個噴嚏就可以打飛鋼鐵以外的敵人\n並降下憤怒之雷(全方位攻擊)", "散發出神級光輝的神\n打個噴嚏就可以打飛鋼鐵以外的敵人\n並降下憤怒之雷(全方位攻擊)", "光芒萬丈閃到不行的神\n打個噴嚏就可以打飛鋼鐵以外的敵人\n並降下憤怒之雷(全方位攻擊)"]
-    stat: [{health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1515, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, loot_money: 1, attack_duration: 400}]
+    stat: [{health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1515, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, extra_money: 1, attack_duration: 400}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -4842,7 +4842,7 @@ cats:
   447:
     name: [地底戰隊・貓怪手, 地底戰隊・強力貓怪手, 正宗・強力貓怪手]
     desc: ["在地底戰隊中是個多功能的\"鏟挖\"角色\n只能攻擊鋼鐵敵人但有時候會發出會心\n一擊，打倒敵人的時候可以得到很多金錢", "在地底戰隊中是個多才多藝的\"鏟挖\"角色\n只能攻擊鋼鐵敵人但有時候會發出會心\n一擊，打倒敵人的時候可以得到很多金錢", "在地底戰隊中是如神手藝般的\"鏟挖\"角色\n只能攻擊鋼鐵敵人但有時候會發出會心一擊\n和烈波，打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 1080, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 144, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, loot_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, loot_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, surge_chance: 50, surge_level: 1, surge_range: 800, surge_range_offset: 2800, loot_money: 1, attack_duration: 103}]
+    stat: [{health: 1080, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 144, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, extra_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, extra_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, surge_chance: 50, surge_level: 1, surge_range: 800, surge_range_offset: 2800, extra_money: 1, attack_duration: 103}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -5267,7 +5267,7 @@ cats:
   505:
     name: [貓大叔【店主】, 貓大叔【現役】]
     desc: ["喜歡照顧與教導新手貓咪\"小偷大小事\"的大叔\n嘴巴惡毒但墨鏡後隱藏著一雙深邃的眼睛\n打倒敵人的時候可以得到很多金錢", "自稱是掌管過傳說中小偷幫一團的頭頭\n在加碼多多脫隊後加上膝蓋舊傷就此引退\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 500, knockbacks: 5, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, loot_money: 1, attack_duration: 97}, {health: 500, knockbacks: 5, speed: 16, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, loot_money: 1, attack_duration: 97}]
+    stat: [{health: 500, knockbacks: 5, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, extra_money: 1, attack_duration: 97}, {health: 500, knockbacks: 5, speed: 16, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, extra_money: 1, attack_duration: 97}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5393,7 +5393,7 @@ cats:
   521:
     name: [貓咪七福神, 貓咪七福邪神]
     desc: ["一身匯集了七種功德利益的福神\n祂會\"帶給所有人民功德利益...\"這樣想你就錯了\n有時候給予有屬性敵人各種的妨害效果(遠距攻擊)", "貪圖利益最終走歪了的\"前，福神\"\n騎著偷來的機車在街上爆走爆音灑福\n有時候給予有屬性敵人各種的妨害效果(遠距攻擊)"]
-    stat: [{health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, loot_money: 1, attack_duration: 123}, {health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, loot_money: 1, attack_duration: 123}]
+    stat: [{health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, extra_money: 1, attack_duration: 123}, {health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, extra_money: 1, attack_duration: 123}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -5665,7 +5665,7 @@ cats:
   558:
     name: [天子男傑克, 神帝男傑克]
     desc: ["於聖遊源下飛躍誕生的天使。以遊弦棒打擊\n再以飛起的聖幣飛投魔人的次界若神子之１！\n打倒敵人的時候可以得到很多金錢", "引導天子將雙重聖動為力向次界開始高速起飛的\n神帝１。重新傳授遊晶劍,完成了若神子的聖儀！\n途中有聖戰。打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 190, attack_time_0: 17, trigger_effects_0: 1, loot_money: 1, attack_duration: 51}, {health: 550, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 250, attack_time_0: 17, trigger_effects_0: 1, loot_money: 1, attack_duration: 51}]
+    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 190, attack_time_0: 17, trigger_effects_0: 1, extra_money: 1, attack_duration: 51}, {health: 550, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 250, attack_time_0: 17, trigger_effects_0: 1, extra_money: 1, attack_duration: 51}]
     rarity: 1
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
@@ -5840,7 +5840,7 @@ cats:
   582:
     name: [岩貓, 礦貓]
     desc: ["在地下深處被發掘出有點像岩石的新種貓咪\n被加碼多多探險隊發掘出來的第八年頭\n終於找到了使用價值(一次攻擊)", "在地底深處偶然被發掘出有點像礦石的貓咪\n不善於物理衝擊與心理層面\n所以請謹慎使用(一次攻擊)"]
-    stat: [{health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}, {health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}]
+    stat: [{health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}, {health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6015,7 +6015,7 @@ cats:
   607:
     name: [貓熊貓, 貓玄馬]
     desc: ["對無差別格鬥早乙女流元祖有憧憬\n總是隨身帶著熊貓玩偶裝的貓咪。\n打倒敵人的時候可以得到很多金錢", "因為想當無差別格鬥早乙女流元祖\n賣了熊貓玩偶裝買了道服的貓咪。\n打倒敵人的時候可以得到很多金錢"]
-    stat: [{health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, loot_money: 1, attack_duration: 55}, {health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, loot_money: 1, attack_duration: 55}]
+    stat: [{health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, extra_money: 1, attack_duration: 55}, {health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, extra_money: 1, attack_duration: 55}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6057,7 +6057,7 @@ cats:
   614:
     name: [古神面多龍, 貓神面多龍, 覺醒貓神面多龍]
     desc: ["因憧憬帥氣的貓咪軍團而入隊的古代戰士\n隱瞞父母將臉跟面具改成富有現代風格感\n必定能使古代種的動作停止且發射烈波(一次攻擊)", "為使自己破殼而出，將部族傳統的面具改造成貓咪面具\n開始發覺了真正的力量就在自己的心底\n必定能使古代種的動作停止且發射烈波(一次攻擊)", "受到「藝術就是大爆炸」這句話的影響，身心都充滿\n色彩的古代戰士。有超生命體和超獸特效，必定能把\n古代種打飛並使其動作停止，且會發射烈波(一次攻擊)"]
-    stat: [{health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 777, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 150, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 200, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 30, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 200, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}]
+    stat: [{health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 777, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 150, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 200, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 30, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 200, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6792,7 +6792,7 @@ cats:
   730:
     name: ['730_1']
     desc: [精靈：能降低敵人攻擊力]
-    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, suicide: 2, attack_duration: 85}]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6806,7 +6806,7 @@ cats:
   733:
     name: ['733_1']
     desc: [精靈：能打飛敵人並使其動作變慢]
-    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, suicide: 2, attack_duration: 85}]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, kamikaze: 2, attack_duration: 85}]
     rarity: 5
     max_level: 50
     growth: [20, 20, 20, 20, 20]

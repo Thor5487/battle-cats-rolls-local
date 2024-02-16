@@ -449,10 +449,10 @@ module BattleCatsRolls
       end
     end
 
-    class LootMoney < Talent
+    class ExtraMoney < Talent
       def initialize(...)
         super
-        self.ability = Ability::LootMoney.new
+        self.ability = Ability::ExtraMoney.new
       end
     end
 

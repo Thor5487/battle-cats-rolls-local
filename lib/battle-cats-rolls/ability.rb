@@ -750,9 +750,9 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class LootMoney
+    class ExtraMoney
       def self.build_if_available stat
-        new if stat['loot_money']
+        new if stat['extra_money']
       end
 
       def name
@@ -788,7 +788,7 @@ module BattleCatsRolls
 
     class Kamikaze
       def self.build_if_available stat
-        new if stat['suicide']
+        new if stat['kamikaze']
       end
 
       def name

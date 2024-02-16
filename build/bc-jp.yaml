@@ -443,7 +443,7 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
     talent:
-      loot_money: {}
+      extra_money: {}
       against_alien: {}
       increase_health:
         max_level: 10
@@ -815,7 +815,7 @@ cats:
   50:
     name: [ねこ泥棒, 怪盗ニャコン, ネゴエモン]
     desc: ["素早い動きで敵を翻弄するキャラクター\n敵を倒したときにお金を多くもらえる\n　\nネコドロボウ", "奇奇怪怪な動きで敵を翻弄\n世界の秘宝コレクターでもある\n敵を倒したときにお金を多くもらえる\nカイトウニャコン", "各地を回る内いつの間にか大泥棒となったネコ\n千両箱の中身は四次元になってたりしない\n敵を倒したときにお金を多くもらえる(範囲攻撃)"]
-    stat: [{health: 462, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 54, attack_time_0: 15, loot_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 64, attack_time_0: 15, loot_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 200, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 15, loot_money: 1, attack_duration: 24}]
+    stat: [{health: 462, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 54, attack_time_0: 15, extra_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 170, width: 320, damage_0: 64, attack_time_0: 15, extra_money: 1, attack_duration: 24}, {health: 540, knockbacks: 3, speed: 13, cost: 330, production_cooldown: 210, attack_cooldown: 8, range: 200, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 15, extra_money: 1, attack_duration: 24}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -1187,7 +1187,7 @@ cats:
   75:
     name: [トナカイフィッシュ, ネコ魚のお造り, フィッシュ・ド・ノエル]
     desc: ["戦闘向きのキャラがかわいく進化\n夢を乗せてプレゼントを運ぶ！\n敵を倒したときにお金を多くもらえる", "戦闘向きのキャラがおいしく進化\n身を削って最高のおもてなし！\n敵を倒したときにお金を多くもらえる\nネコザカナノオツクリ", "戦闘向きのキャラがあま～く進化\nチョコたっぷり、骨まで美味しく召し上がれ\n敵を倒したときにお金を多くもらえる(範囲攻撃)"]
-    stat: [{health: 900, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 196, attack_time_0: 8, loot_money: 1, attack_duration: 24}, {health: 1050, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 327, attack_time_0: 8, loot_money: 1, attack_duration: 24}, {health: 1500, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 17, range: 150, width: 320, area_effect: 1, damage_0: 327, attack_time_0: 8, loot_money: 1, attack_duration: 24}]
+    stat: [{health: 900, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 196, attack_time_0: 8, extra_money: 1, attack_duration: 24}, {health: 1050, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 22, range: 150, width: 320, damage_0: 327, attack_time_0: 8, extra_money: 1, attack_duration: 24}, {health: 1500, knockbacks: 3, speed: 10, cost: 810, production_cooldown: 205, attack_cooldown: 17, range: 150, width: 320, area_effect: 1, damage_0: 327, attack_time_0: 8, extra_money: 1, attack_duration: 24}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2452,7 +2452,7 @@ cats:
   180:
     name: [タクヤとユキ, タクヤとユキとネコ, タクヤとビューティユキ]
     desc: ["消滅都市から参戦！何でも運ぶ運び屋のタクヤと\n謎の少女ユキ。3年前に\"消滅\"したある都市を目指す\n浮いてる敵に打たれ強い(範囲攻撃)", "スフィアと間違って取ったネコを仕方なく乗せ\n3年前に\"消滅\"したある都市を目指す\n浮いてる敵に打たれ強い(範囲攻撃)", "突如、行方不明となったユキを探すため\n鍵を握る謎の生物を運搬中。浮いてる敵に打たれ強く\n敵を倒したときにお金を多くもらえる(範囲攻撃)"]
-    stat: [{health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 600, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, loot_money: 1, attack_duration: 60}]
+    stat: [{health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 450, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, attack_duration: 60}, {health: 600, knockbacks: 2, speed: 25, cost: 300, production_cooldown: 180, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 84, attack_time_0: 22, against_float: 1, resistant: 1, extra_money: 1, attack_duration: 60}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2496,7 +2496,7 @@ cats:
   184:
     name: [にゃんこカートR, にゃんこカートG, にゃんこカートP]
     desc: ["3DS版「とびだす！にゃんこ大戦争」記念キャラ\nカートにテニスにパーティも大好き多趣味にゃんこ\n敵を倒したときにお金を多くもらえる", "3DS版「とびだす！にゃんこ大戦争」記念キャラ\nお化けが大嫌いな永遠の２番手にゃんこ\n敵を倒したときにお金を多くもらえる", "3DS版「とびだす！にゃんこ大戦争」記念キャラ\nいつもさらわれてばかりのお姫様にゃんこ\n敵を倒したときにお金を多くもらえる"]
-    stat: [{health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, loot_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, loot_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 55, range: 320, width: 320, damage_0: 60, attack_time_0: 25, trigger_effects_0: 1, damage_1: 60, attack_time_1: 50, trigger_effects_1: 1, damage_2: 60, attack_time_2: 70, trigger_effects_2: 1, loot_money: 1, attack_duration: 99}]
+    stat: [{health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, extra_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 35, range: 320, width: 320, damage_0: 60, attack_time_0: 39, trigger_effects_0: 1, extra_money: 1, attack_duration: 64}, {health: 390, knockbacks: 4, speed: 24, cost: 340, production_cooldown: 270, attack_cooldown: 55, range: 320, width: 320, damage_0: 60, attack_time_0: 25, trigger_effects_0: 1, damage_1: 60, attack_time_1: 50, trigger_effects_1: 1, damage_2: 60, attack_time_2: 70, trigger_effects_2: 1, extra_money: 1, attack_duration: 99}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -2981,7 +2981,7 @@ cats:
   227:
     name: [呪術師デスピエロ, 闇商人バビル, 奇術科学者クレイG]
     desc: ["極悪非道な悪魔の魂をパペットに封じ込めた凄腕呪術師\nエイリアンと浮いてる敵しか攻撃できないが\n超破壊力を備え、城を破壊するのが得意(範囲攻撃)\nジュジュツシデスピエロ", "魔物を操り罪人の魂を集めて売りさばく地獄の商人\nエイリアンと天使しか攻撃できないが超破壊力を備え、\n敵を倒したときにお金を多くもらえる(範囲攻撃)\nヤミショウニンバビル", "己の好奇心の赴くまま研究にのめり込む狂科学者\nつぎはぎの肉体に魂を宿す実験を重ねる(範囲攻撃)\nエイリアンしか攻撃できないが超破壊力を備える\nキジュツカガクシャクレイジー"]
-    stat: [{health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, against_only: 1, base_destroyer: 1, attack_duration: 125}, {health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_only: 1, loot_money: 1, attack_duration: 125}, {health: 9300, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 9615, attack_time_0: 70, trigger_effects_0: 1, against_alien: 1, against_only: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 120}]
+    stat: [{health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, against_only: 1, base_destroyer: 1, attack_duration: 125}, {health: 6200, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 6410, attack_time_0: 70, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_only: 1, extra_money: 1, attack_duration: 125}, {health: 9300, knockbacks: 2, speed: 8, cost: 4090, production_cooldown: 2600, attack_cooldown: 85, range: 430, width: 320, area_effect: 1, damage_0: 9615, attack_time_0: 70, trigger_effects_0: 1, against_alien: 1, against_only: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 120}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3081,7 +3081,7 @@ cats:
   239:
     name: [ボンボンネコ, ネコボンのパパ, ネコボンのパパのパパ]
     desc: ["伝説の働きネコ「ネコボン」のいとこ\nボンボンのくせに大金を持つと冷や汗が止まらない\n敵を倒したときにお金を多くもらえる", "伝説の働きネコ「ネコボン」のお父さん\n「ネコボン」の反面教師となった働かないパパなーのだ\n敵を倒したときにお金を多くもらえる", "伝説の働きネコ「ネコボン」のお爺さん\n掘り当てた猫川埋蔵金で末代まで遊んで暮らすのだ\n敵を倒したときにお金を多くもらえる"]
-    stat: [{health: 120, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 248, attack_time_0: 32, trigger_effects_0: 1, damage_1: 248, attack_time_1: 40, trigger_effects_1: 1, loot_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 289, attack_time_0: 32, trigger_effects_0: 1, damage_1: 289, attack_time_1: 40, trigger_effects_1: 1, loot_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 45, range: 250, width: 320, damage_0: 1445, attack_time_0: 32, trigger_effects_0: 1, loot_money: 1, attack_duration: 68}]
+    stat: [{health: 120, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 248, attack_time_0: 32, trigger_effects_0: 1, damage_1: 248, attack_time_1: 40, trigger_effects_1: 1, extra_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 41, range: 250, width: 320, damage_0: 289, attack_time_0: 32, trigger_effects_0: 1, damage_1: 289, attack_time_1: 40, trigger_effects_1: 1, extra_money: 1, attack_duration: 58}, {health: 150, knockbacks: 2, speed: 3, cost: 400, production_cooldown: 2500, attack_cooldown: 45, range: 250, width: 320, damage_0: 1445, attack_time_0: 32, trigger_effects_0: 1, extra_money: 1, attack_duration: 68}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -3588,7 +3588,7 @@ cats:
   285:
     name: [ネコ特急, ネコ超特急, ネコエクスプレス]
     desc: ["最高時速222km　1両編成　全席グリーン席\n本日の乗車率は120％\n敵を倒したときにお金を多くもらえる\nネコトッキュウ", "最高時速2222km　最新のテクノロジーと\n222匹のネコを乗せたネコ型運搬装置\n敵を倒したときにお金を多くもらえる\nネコチョウトッキュウ", "最高速度2億kmで地球を飛び出せるスーパー電車\n訓練を受けた乗客2222人が搭乗可能\n敵を倒したときにお金を多くもらえる"]
-    stat: [{health: 600, knockbacks: 1, speed: 60, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}, {health: 900, knockbacks: 1, speed: 75, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}, {health: 1200, knockbacks: 1, speed: 85, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1750, attack_time_0: 1, trigger_effects_0: 1, loot_money: 1, attack_duration: 200}]
+    stat: [{health: 600, knockbacks: 1, speed: 60, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}, {health: 900, knockbacks: 1, speed: 75, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}, {health: 1200, knockbacks: 1, speed: 85, cost: 500, production_cooldown: 420, range: 140, width: 320, damage_0: 1750, attack_time_0: 1, trigger_effects_0: 1, extra_money: 1, attack_duration: 200}]
     rarity: 3
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -4179,7 +4179,7 @@ cats:
   338:
     name: [プリンセスケリ姫号, プリンセスケリ姫号CC, プレミアムケリ姫号CC]
     desc: ["宝船で遊覧中のケリ姫とネコ達\n上空からでもスイーツは見逃さない\n敵を倒したときにお金を多くもらえる(範囲攻撃)\nプリンセスケリヒメゴウ", "もっとリッチな宝船で遊覧中のケリ姫と金ネコ達\n上空からでもイケメンは絶対見逃さない\n敵を倒したときにお金を多くもらえる(範囲攻撃)\nプリンセスケリヒメゴウシーシー", "プレミアムな宝船で遊覧中のケリ姫と金ネコ達\nついにイケメンを発見し現場に急行中\n敵を倒したときにお金を多くもらえる(範囲攻撃)\nプレミアムケリヒメゴウシーシー"]
-    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, loot_money: 1, attack_duration: 89}]
+    stat: [{health: 1200, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 455, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}, {health: 2000, knockbacks: 3, speed: 10, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 755, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}, {health: 2800, knockbacks: 3, speed: 15, cost: 2100, production_cooldown: 1280, attack_cooldown: 53, range: 410, width: 320, area_effect: 1, damage_0: 1205, attack_time_0: 49, trigger_effects_0: 1, extra_money: 1, attack_duration: 89}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4252,7 +4252,7 @@ cats:
   343:
     name: [ネコまねき, ネコまねき・寿]
     desc: ["日頃のご愛顧に感謝を込めるネコ\n持ち主にささやかな福を招くという\n敵を倒したときにお金を多くもらえる", "みなさまの愛で立派に育ったネコ\nお礼に満腹の幸せをお届け\n敵を倒したときにお金を多くもらえる\nネコマネキコトブキ"]
-    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, loot_money: 1, attack_duration: 48}]
+    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}]
     rarity: 1
     max_level: 85
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
@@ -4654,14 +4654,14 @@ cats:
   382:
     name: [ねこ農家, ねこカブ農家]
     desc: ["たくさんの民から選び抜かれたネコ\n人々に幸せを分け与えるため畑を耕し続ける\n敵を倒したときにお金を多くもらえる\nネコノウカ", "たくさんの民から選び抜かれたネコ\nカブが儲かるという噂を聞いて手を出した\n敵を倒したときにお金を多くもらえる\nネコカブノウカ"]
-    stat: [{health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, loot_money: 1, attack_duration: 60}, {health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, loot_money: 1, attack_duration: 60}]
+    stat: [{health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}, {health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}]
     rarity: 1
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
   383:
     name: [ガラスネコ, ガラスネコビルダー, クリスタルネコビルダー]
     desc: ["ガラスでできたネコ\n人生は当たって砕ける一発勝負だと思っている\n属性を持たない敵の動きを遅くする(一回攻撃)", "強化されたガラスのネコ\nそれでも一発勝負の生き方は変えられない\n属性を持たない敵の動きを遅くする(一回攻撃)", "肉体にさらなる磨きをかけた永遠の輝きを放つネコ\n一瞬の輝きを大切にして生きている。属性を持たない\n敵をふっとばして動きを遅くする(一回攻撃)"]
-    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
+    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5126,7 +5126,7 @@ cats:
   438:
     name: [激・神さま, 超・神さま, 超・神さまゴールデン]
     desc: ["とうとうにゃんこ軍団へ降臨した神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nゲキカミサマ", "神々しいまでの輝きを放つ神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nチョウカミサマ", "うっとうしいほどの輝きを放つ神\n神のくしゃみでメタルな敵以外をふっとばし\n怒りのいかずちが降り注ぐ(全方位攻撃)\nチョウカミサマゴールデン"]
-    stat: [{health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1515, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, loot_money: 1, attack_duration: 400}]
+    stat: [{health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1500, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, attack_duration: 400}, {health: 1515, knockbacks: 1, speed: 3, cost: 2222, production_cooldown: 4444, attack_cooldown: 410, range: 350, width: 320, area_effect: 1, damage_0: 30, long_range_0: 850, long_range_offset_0: -1700, attack_time_0: 90, trigger_effects_0: 1, damage_1: 30, attack_time_1: 150, trigger_effects_1: 1, damage_2: 3000, attack_time_2: 300, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, knockback_chance: 100, extra_money: 1, attack_duration: 400}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5205,7 +5205,7 @@ cats:
   447:
     name: [戦隊ショベリン, 戦隊パワーショベリン, シン・パワーショベリン]
     desc: ["地底戦隊グランドンの多機能な掘削担当\nメタルな敵しか攻撃できないがたまにクリティカル\n攻撃を放ち、敵を倒した時にお金を多くもらえる\nセンタイショベリン", "地底戦隊グランドンの芸達者な掘削担当\nメタルな敵しか攻撃できないがたまにクリティカル\n攻撃を放ち、敵を倒した時にお金を多くもらえる\nセンタイパワーショベリン", "地底戦隊グランドンで神業の芸を持つ掘削担当\nメタルな敵しか攻撃できないがたまにクリティカルと\n烈波を放ち、敵を倒した時にお金を多くもらえる"]
-    stat: [{health: 1080, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 144, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, loot_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, loot_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, surge_chance: 50, surge_level: 1, surge_range: 800, surge_range_offset: 2800, loot_money: 1, attack_duration: 103}]
+    stat: [{health: 1080, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 144, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, extra_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, extra_money: 1, attack_duration: 103}, {health: 1350, knockbacks: 3, speed: 15, cost: 1000, production_cooldown: 565, range: 350, width: 320, damage_0: 180, attack_time_0: 60, trigger_effects_0: 1, against_metal: 1, against_only: 1, critical_chance: 15, surge_chance: 50, surge_level: 1, surge_range: 800, surge_range_offset: 2800, extra_money: 1, attack_duration: 103}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -5665,7 +5665,7 @@ cats:
   505:
     name: [おやじネコ(店主), おやじネコ(現役)]
     desc: ["新人ネコに泥棒のアレコレを教える世話好きおやじ\n口は悪いがサングラスの奥につぶらな瞳を隠している\n敵を倒したときにお金を多くもらえる\nオヤジネコテンシュ", "自称、伝説の泥棒団を束ねていたリーダー\nガマトトの脱退直後に膝を痛めて自らも引退\n敵を倒したときにお金を多くもらえる\nオヤジネコゲンエキ"]
-    stat: [{health: 500, knockbacks: 5, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, loot_money: 1, attack_duration: 97}, {health: 500, knockbacks: 5, speed: 16, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, loot_money: 1, attack_duration: 97}]
+    stat: [{health: 500, knockbacks: 5, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, extra_money: 1, attack_duration: 97}, {health: 500, knockbacks: 5, speed: 16, cost: 360, production_cooldown: 320, attack_cooldown: 106, range: 200, width: 320, damage_0: 500, attack_time_0: 13, trigger_effects_0: 1, extra_money: 1, attack_duration: 97}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5791,7 +5791,7 @@ cats:
   521:
     name: [ネコ七福神, ネコ七福邪神]
     desc: ["七つのありがたいご利益を一身に集めた福の神\n集めた福でみんなに幸せを振りまく、つもりはない\n属性を持つ敵に色んな妨害効果をたまに与える(遠方攻撃)\nネコシチフクジン", "ご利益に溺れ、道を踏み外した元・福の神\n盗んだバイクで夜の街を爆走し爆音と福を振りまく\n属性を持つ敵に色んな妨害効果をたまに与える(遠方攻撃)\nネコシチフクジャシン"]
-    stat: [{health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, loot_money: 1, attack_duration: 123}, {health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, loot_money: 1, attack_duration: 123}]
+    stat: [{health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, extra_money: 1, attack_duration: 123}, {health: 1600, knockbacks: 3, speed: 9, cost: 1600, production_cooldown: 800, range: 400, width: 320, damage_0: 210, long_range_0: 300, long_range_offset_0: 300, attack_time_0: 27, trigger_effects_0: 1, damage_1: 210, attack_time_1: 56, trigger_effects_1: 1, damage_2: 210, attack_time_2: 88, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 50, slow_chance: 30, slow_duration: 50, weaken_chance: 30, weaken_duration: 50, weaken_multiplier: 50, extra_money: 1, attack_duration: 123}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -6091,7 +6091,7 @@ cats:
   558:
     name: [天子男ジャック, 神帝男ジャック]
     desc: ["聖遊源で飛びはね誕生した天使。遊弦棒で魔人も\n小踊りさせ聖コインつぶてを投飛させやっつける\n次界若神子の１！敵を倒したときにお金を多くもらえる\nテンシダンジャック", "天子導きに相乗聖動を力に次界へ高飛速スタートの\n神帝１。遊晶剣を新たに伝授し若神子からの聖儀完成！\n途中聖戦有。敵を倒したときにお金を多くもらえる\nジンテイダンジャック"]
-    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 190, attack_time_0: 17, trigger_effects_0: 1, loot_money: 1, attack_duration: 51}, {health: 550, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 250, attack_time_0: 17, trigger_effects_0: 1, loot_money: 1, attack_duration: 51}]
+    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 190, attack_time_0: 17, trigger_effects_0: 1, extra_money: 1, attack_duration: 51}, {health: 550, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 300, attack_cooldown: 32, range: 220, width: 320, damage_0: 250, attack_time_0: 17, trigger_effects_0: 1, extra_money: 1, attack_duration: 51}]
     rarity: 1
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
@@ -6273,7 +6273,7 @@ cats:
   582:
     name: [ごろにゃん, ごろにゃーん]
     desc: ["地中深くより発掘された岩石っぽい新種のネコ\nガマトト探検隊の発見から８年目にして\nようやく利用価値が見いだされた(一回攻撃)", "地底深くでまれに発掘される鉱石っぽいネコ\nメンタルと物理衝撃にめっぽう弱いので\n取り扱いには十分注意が必要である(一回攻撃)"]
-    stat: [{health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}, {health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}]
+    stat: [{health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}, {health: 20000, knockbacks: 1, speed: 84, cost: 240, production_cooldown: 205, range: 140, width: 320, damage_0: 280, attack_time_0: 1, trigger_effects_0: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, immune_surge: 1, attack_duration: 40}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6448,7 +6448,7 @@ cats:
   607:
     name: [ネコパンダ, ネコ玄馬]
     desc: ["無差別格闘早乙女流の開祖に憧れて\nパンダのキグルミをいつも身につけているネコ\n敵を倒したときにお金を多くもらえる", "無差別格闘早乙女流の開祖になりたくて\nパンダのキグルミを売って道着を購入したネコ\n敵を倒したときにお金を多くもらえる\nネコゲンマ"]
-    stat: [{health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, loot_money: 1, attack_duration: 55}, {health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, loot_money: 1, attack_duration: 55}]
+    stat: [{health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, extra_money: 1, attack_duration: 55}, {health: 555, knockbacks: 3, speed: 10, cost: 400, production_cooldown: 300, attack_cooldown: 80, range: 225, width: 320, damage_0: 480, attack_time_0: 37, trigger_effects_0: 1, extra_money: 1, attack_duration: 55}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6462,7 +6462,7 @@ cats:
   609:
     name: [ネコウエハース, ネコウエハースBIG]
     desc: ["【成分】小麦粉・砂糖・卵・ネコカベ\n【保管方法】開封後はすぐにお召し上がりください\n※非常に割れやすい為ご注意ください", "【成分】小麦粉・砂糖・卵・ネコカベ・ゴムネコ\n【保管方法】開封後はすぐにお召し上がりください\n※非常に大きいためお取り扱いにはご注意ください"]
-    stat: [{health: 20000, knockbacks: 1, speed: 12, cost: 300, production_cooldown: 500, range: 100, width: 320, damage_0: 1, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 150, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, attack_duration: 39}, {health: 20000, knockbacks: 1, speed: 20, cost: 300, production_cooldown: 500, range: 125, width: 320, damage_0: 1, attack_time_0: 12, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 150, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, attack_duration: 66}]
+    stat: [{health: 20000, knockbacks: 1, speed: 12, cost: 300, production_cooldown: 500, range: 100, width: 320, damage_0: 1, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 150, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, attack_duration: 39}, {health: 20000, knockbacks: 1, speed: 20, cost: 300, production_cooldown: 500, range: 125, width: 320, damage_0: 1, attack_time_0: 12, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 150, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, attack_duration: 66}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6497,7 +6497,7 @@ cats:
   614:
     name: [古神面ドロン, ネコ神面ドロン, 覚醒ネコ神面ドロン]
     desc: ["イカしたにゃんこ軍団に憧れて加入した古代の戦士\n親に内緒で顔とお面を現代風にナウくアレンジした\n必ず古代種の動きを止めて烈波を放つ(１回攻撃)\nコシンメンドロン", "己の殻を破るため、部族伝統のお面をネコ面へ大改造\n真の力は自分の心にあると気づき始めてきている\n必ず古代種の動きを止めて烈波を放つ(１回攻撃)\nネコシンメンドロン", "「芸術は大爆発」という言葉に感化され、身も心も\nアートに染まった古代戦士。超生命体・超獣特効を持ち\n必ず古代種を止めてふっとばし、烈波を放つ(１回攻撃)\nカクセイネコシンメンドロン"]
-    stat: [{health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 777, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 150, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 200, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 30, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 200, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, suicide: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}]
+    stat: [{health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 777, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 150, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 20, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, freeze_chance: 100, freeze_duration: 200, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}, {health: 22222, knockbacks: 1, speed: 30, cost: 1200, production_cooldown: 920, range: 400, width: 320, area_effect: 1, damage_0: 1111, long_range_0: 600, long_range_offset_0: -1600, attack_time_0: 76, trigger_effects_0: 1, against_relic: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 200, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, surge_chance: 100, surge_level: 3, surge_range: 1600, surge_range_offset: 2400, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_wave: 1, immune_surge: 1, attack_duration: 131}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6651,7 +6651,7 @@ cats:
   636:
     name: [100万ドルのネコ, 1億ドルのネコ]
     desc: ["勝者に贈られる高額賞金のプレート\nを運ぶ美しきネコ。その脚には100万ドルの価値あり\nクリティカルを放ち、敵を倒したときにお金を多くもらえる\nヒャクマンドルノネコ", "勝者に贈られる超高額賞金のプレート\nを運ぶ、1億ドルの懸賞金がかけられた前科持ちのネコ\nクリティカルを放ち、敵を倒したときにお金を多くもらえる\nイチオクドルノネコ"]
-    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, loot_money: 1, attack_duration: 11}]
+    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}]
     rarity: 1
     max_level: 65
     growth: [20, 20, 20, 20, 20, 20, 10]
@@ -7309,7 +7309,7 @@ cats:
   730:
     name: ['730_1']
     desc: [精霊：敵の攻撃力をダウンさせます]
-    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, suicide: 2, attack_duration: 85}]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -7330,7 +7330,7 @@ cats:
   733:
     name: ['733_1']
     desc: [精霊：敵をふっとばして動きを遅くします]
-    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, suicide: 2, attack_duration: 85}]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 130, kamikaze: 2, attack_duration: 85}]
     rarity: 5
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -7344,7 +7344,7 @@ cats:
   735:
     name: ['735_1']
     desc: [精霊：敵の動きを遅くします]
-    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 180, suicide: 2, attack_duration: 85}]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 180, kamikaze: 2, attack_duration: 85}]
     rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
