@@ -88,11 +88,15 @@ module BattleCatsRolls
     end
 
     def damage_sum
-      @damage_sum ||= if sum_no_wave
-        attacks_raw
+      @damage_sum ||= if max_dps_area == 'None'
+        '-'
       else
-        attacks
-      end.sum(&:damage)
+        if sum_no_wave
+          attacks_raw
+        else
+          attacks
+        end.sum(&:damage)
+      end
     end
 
     def range
