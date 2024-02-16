@@ -23983,3 +23983,52 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2024-02-19_694:
+    start_on: 2024-02-19
+    end_on: 2024-02-21
+    version: '130100'
+    name: Take down Colossal prey with NEW hero Huntress Terun! ★ Tap for info!
+    id: 694
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-02-19_841:
+    start_on: 2024-02-19
+    end_on: 2024-02-23
+    version: '130100'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 841
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2024-02-21_789:
+    start_on: 2024-02-21
+    end_on: 2024-02-23
+    version: '130100'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-02-23_798:
+    start_on: 2024-02-23
+    end_on: 2024-02-26
+    version: '130100'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-02-23_845:
+    start_on: 2024-02-23
+    end_on: 2024-02-26
+    version: '130100'
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    id: 845
+    rare: 6500
+    supa: 2600
+    uber: 900
