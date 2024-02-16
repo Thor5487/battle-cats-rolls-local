@@ -76,6 +76,10 @@ module BattleCatsRolls
       info['growth']
     end
 
+    def talent_against
+      info['talent_against']
+    end
+
     def new_with **args
       self.class.new(to_h.merge(args))
     end

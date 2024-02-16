@@ -56,6 +56,10 @@ module BattleCatsRolls
         red float black angel alien zombie aku relic white metal
       ].freeze
 
+      def self.display list
+        (List & list).map(&:capitalize)
+      end
+
       def self.build_if_available stat
         enemies = List.filter_map do |type|
           stat["against_#{type}"] && type.capitalize

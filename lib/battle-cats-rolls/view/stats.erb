@@ -89,22 +89,29 @@
   <% end %>
 <% end %>
 <% if talents = arg.dig(:talents, false) %>
-  <tr class="border_upper">
-    <th colspan="6">Talents</th>
+  <tr class="border_upper talents">
+    <% if talent_against = arg[:cat].talent_against %>
+    <td>Talents against</td>
+    <td colspan="5"><%= display_list(BattleCatsRolls::Ability::Specialization.display(talent_against), strong: true) %></td>
+    <% else %>
+    <td>Talents</td>
+    <td colspan="5"></td>
+    <% end %>
   </tr>
   <% talents.each do |talent| %>
-  <tr class="border_upper">
+  <tr class="border_middle">
     <td><%= l10n(talent.name) %></td>
     <td colspan="5"><%= display_ability(talent) %></td>
   </tr>
   <% end %>
 <% end %>
 <% if ultra_talents = arg.dig(:talents, true) %>
-  <tr class="border_upper">
-    <th colspan="6">Ultra talents</th>
+  <tr class="border_middle ultra_talents">
+    <td>Ultra talents</td>
+    <td colspan="5"></td>
   </tr>
   <% ultra_talents.each do |talent| %>
-    <tr class="border_upper">
+    <tr class="border_middle">
       <td><%= l10n(talent.name) %></td>
       <td colspan="5"><%= display_ability(talent) %></td>
     </tr>
