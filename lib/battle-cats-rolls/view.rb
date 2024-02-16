@@ -417,6 +417,11 @@ module BattleCatsRolls
       %Q{onclick="pick('#{number}')"}
     end
 
+    def uri_to_wiki cat
+      en_cat = Cat.new(info: Route.ball_en.cats[cat.id])
+      "https://battle-cats.fandom.com/wiki/#{h(en_cat.wiki_entry_name)}"
+    end
+
     def uri_to_cat_db cat
       "https://battlecats-db.com/unit/#{sprintf('%03d', cat.id)}.html"
     end

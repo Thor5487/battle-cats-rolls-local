@@ -101,5 +101,26 @@ module BattleCatsRolls
           :legend
         end
     end
+
+    def wiki_entry_name
+      "#{name} (#{wiki_rarity_label})".tr(' ', '_')
+    end
+
+    def wiki_rarity_label
+      case info['rarity']
+      when 0
+        'Normal Cat'
+      when 1
+        'Special Cat'
+      when 2
+        'Rare Cat'
+      when 3
+        'Super Rare Cat'
+      when 4
+        'Uber Rare Cat'
+      when 5
+        'Legend Rare Cat'
+      end
+    end
   end
 end
