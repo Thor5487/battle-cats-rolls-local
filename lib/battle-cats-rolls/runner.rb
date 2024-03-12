@@ -233,7 +233,7 @@ module BattleCatsRolls
         wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
         extract_sos_bundle
       when %r{apkpure\.com/b/APK}
-        wget("#{apk_url}?versionCode=#{version_id}", apk_path)
+        wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
       else
         wget(apk_url, apk_path)
       end
