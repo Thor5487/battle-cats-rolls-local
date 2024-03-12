@@ -23782,3 +23782,83 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2024-03-11_742:
+    start_on: 2024-03-11
+    end_on: 2024-03-13
+    version: '130200'
+    name: 超強大且有著即戰力的貓咪們一同登場！★點圖確認詳細吧!!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-11_795:
+    start_on: 2024-03-11
+    end_on: 2024-03-25
+    version: '130200'
+    name: 情人節期間限定超甜美♥轉蛋登場！♥點圖確認詳細吧!!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-03-13_733:
+    start_on: 2024-03-13
+    end_on: 2024-03-15
+    version: '130200'
+    name: 傳說中的龍族們霸氣降臨！★點圖確認詳細吧!!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-15_845:
+    start_on: 2024-03-15
+    end_on: 2024-03-18
+    version: '130200'
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    id: 845
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2024-03-18_695:
+    start_on: 2024-03-18
+    end_on: 2024-03-20
+    version: '130200'
+    name: 穿越電子空間來到這裡的美少女們一同登場！★點圖確認詳細吧!!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-20_790:
+    start_on: 2024-03-20
+    end_on: 2024-03-22
+    version: '130200'
+    name: 變身前後樣貌大不同的超古代勇者們登場！★點圖確認詳細吧!!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-03-20_795:
+    start_on: 2024-03-20
+    end_on: 2024-03-25
+    version: '130200'
+    name: 情人節期間限定超甜美♥轉蛋登場！♥點圖確認詳細吧!!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-03-22_799:
+    start_on: 2024-03-22
+    end_on: 2024-03-25
+    version: '130200'
+    name: 握有正義與黑暗之力的救世主們一同登場！★點圖確認詳細吧!!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30

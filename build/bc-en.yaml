@@ -24110,3 +24110,83 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2024-03-11_742:
+    start_on: 2024-03-11
+    end_on: 2024-03-13
+    version: '130100'
+    name: Colossus Slayer "Cat Tengu" joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-11_795:
+    start_on: 2024-03-11
+    end_on: 2024-03-25
+    version: '130100'
+    name: Super-sweet limited Valentine's heroes! ★ Tap banner for info!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-03-13_733:
+    start_on: 2024-03-13
+    end_on: 2024-03-15
+    version: '130100'
+    name: Colossus Slayer "Daliasan" joins the fight! Tap banner for info!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-15_845:
+    start_on: 2024-03-15
+    end_on: 2024-03-18
+    version: '130100'
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    id: 845
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2024-03-18_695:
+    start_on: 2024-03-18
+    end_on: 2024-03-20
+    version: '130100'
+    name: Take down Colossal prey with NEW hero "Huntress Terun"! ★ Tap for info!
+    id: 695
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-03-20_790:
+    start_on: 2024-03-20
+    end_on: 2024-03-22
+    version: '130100'
+    name: Mighty new hero "Issun Boshi" joins the ancient heroes! ★ Tap banner for info!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-03-20_795:
+    start_on: 2024-03-20
+    end_on: 2024-03-25
+    version: '130100'
+    name: Super-sweet limited Valentine's heroes! ★ Tap banner for info!
+    id: 795
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-03-22_799:
+    start_on: 2024-03-22
+    end_on: 2024-03-25
+    version: '130100'
+    name: New unit "Thunder Jack," hero of justice appears! ★ Tap banner for info!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
