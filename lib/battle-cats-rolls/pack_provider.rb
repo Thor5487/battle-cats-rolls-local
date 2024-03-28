@@ -44,7 +44,7 @@ module BattleCatsRolls
           id, form_index =
             Provider.extract_id_and_form_from_maanim_path(filename)
 
-          (result[id] ||= [])[form_index] = maanim
+          (result[id] ||= [])[form_index] = maanim unless maanim.empty?
           result
         end
     end
