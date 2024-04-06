@@ -11326,9 +11326,8 @@ gacha:
   850:
     cats: [723, 594, 594, 594, 593, 593, 593, 592, 592, 592, 591, 584, 583, 563, 563, 563, 562, 562, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 43
-    name: Hatsune Miku is back! 12 Limited heroes including 7 Ubers!
+    name: Hatsune Miku Capsules feat. 8 Uber Rares in 13 uniques! ★ Tap for info!
     rate: no_legend
-    similarity: 98
   851:
     cats: [172, 669, 73, 648, 506, 138, 197, 317, 633, 335, 632, 436, 586, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 35
@@ -11363,9 +11362,8 @@ gacha:
   857:
     cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 28
-    name: New Colossus Slayer Spectral Goth Vega added! Tap banner for details!
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
     rate: regular
-    similarity: 98
   858:
     cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 240, 239, 238, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 28
@@ -11456,9 +11454,8 @@ gacha:
   874:
     cats: [723, 594, 593, 592, 591, 584, 583, 563, 562, 561, 536, 537, 538, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 43
-    name: Hatsune Miku is back! 12 Limited heroes including 7 Ubers!
+    name: Hatsune Miku Capsules feat. 8 Uber Rares in 13 uniques! ★ Tap for info!
     rate: no_legend
-    similarity: 98
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -24392,6 +24389,95 @@ events:
     version: '130200'
     name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
     id: 867
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-04-08_857:
+    start_on: 2024-04-08
+    end_on: 2024-04-10
+    version: '130200'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 857
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-04-08_874:
+    start_on: 2024-04-08
+    end_on: 2024-04-22
+    version: '130200'
+    name: Hatsune Miku Capsules feat. 8 Uber Rares in 13 uniques! ★ Tap for info!
+    id: 874
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-04-10_823:
+    start_on: 2024-04-10
+    end_on: 2024-04-12
+    version: '130200'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 823
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-04-12_789:
+    start_on: 2024-04-12
+    end_on: 2024-04-15
+    version: '130200'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-04-15_732:
+    start_on: 2024-04-15
+    end_on: 2024-04-17
+    version: '130200'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-04-15_874:
+    start_on: 2024-04-15
+    end_on: 2024-04-22
+    version: '130200'
+    name: Hatsune Miku Capsules with a guaranteed Uber in each 11-Capsule Draw!
+    id: 874
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-04-17_798:
+    start_on: 2024-04-17
+    end_on: 2024-04-19
+    version: '130200'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-04-19_845:
+    start_on: 2024-04-19
+    end_on: 2024-04-22
+    version: '130200'
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    id: 845
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2024-04-19_874:
+    start_on: 2024-04-19
+    end_on: 2024-04-22
+    version: '130200'
+    name: Hatsune Miku Capsules feat. 8 Uber Rares in 13 uniques! ★ Tap for info!
+    id: 874
     rare: 7000
     supa: 2500
     uber: 500
