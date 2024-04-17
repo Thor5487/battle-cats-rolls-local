@@ -1875,9 +1875,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   139:
-    name: [대나무 공주, 파괴위성 데스문, 파괴위성 카오스문]
-    desc: ["달의 사명을 받은 아름다운 공주 냥코\n아직은 그 본성을 감추고 있다\n천사와 메탈 적의 움직임을 가끔 느리게 한다 (범위 공격)", "일찍이 세계를 멸망시켰다고 전해지는\n우주전쟁에서 유리한 초고대병기의 하나\n천사와 메탈 적의 움직임을 가끔 느리게 한다 (범위 공격)", "은하를 소멸시켰다고 전해지는 초고대병기\n양심이라는 안전장치를 벗어나 초파괴력으로 적을 섬멸한다\n천사와 메탈 적의 움직임을 반드시 느리게 한다 (범위 공격)"]
-    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, attack_duration: 35}, {health: 2200, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 425, width: 320, area_effect: 1, damage_0: 2400, attack_time_0: 98, against_angel: 1, against_metal: 1, slow_chance: 50, slow_duration: 110, attack_duration: 160}, {health: 2800, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 455, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 98, against_angel: 1, against_metal: 1, slow_chance: 100, slow_duration: 110, attack_duration: 160}]
+    name: [대나무 공주, 파괴위성 데스문, 파괴위성 카오스문, 울트라 대나무 공주]
+    desc: ["달의 사명을 받은 아름다운 공주 냥코\n아직은 그 본성을 감추고 있다\n천사와 메탈 적의 움직임을 가끔 느리게 한다 (범위 공격)", "일찍이 세계를 멸망시켰다고 전해지는\n우주전쟁에서 유리한 초고대병기의 하나\n천사와 메탈 적의 움직임을 가끔 느리게 한다 (범위 공격)", "은하를 소멸시켰다고 전해지는 초고대병기\n양심이라는 안전장치를 벗어나 초파괴력으로 적을 섬멸한다\n천사와 메탈 적의 움직임을 반드시 느리게 한다 (범위 공격)", "길었던 우주전쟁을 자신의 손으로 마무리짓고\n귀환한 달나라 공주 냥코. 메탈 킬러 능력을 가지며\n천사와 메탈 적의 움직임을 가끔 느리게 한다 (범위 공격)"]
+    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, attack_duration: 35}, {health: 2200, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 425, width: 320, area_effect: 1, damage_0: 2400, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 50, slow_duration: 110, attack_duration: 160}, {health: 2800, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 455, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 100, slow_duration: 110, attack_duration: 160}, {health: 800, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, attack_duration: 35}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2254,6 +2254,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [metal]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [39, 120]]
+      immune_wave: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   171:
     name: [테코루가, 테사란파사란, 밀짚모자 테사란]
     desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n하나의 적에 초 절대적인 데미지 (가끔 크리티컬)", "고양이인지 밀짚모자를 좋아하는 선장인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n하나의 적에 초 절대적인 데미지 (가끔 크리티컬)"]
@@ -3877,6 +3892,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+        ultra: 1
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+        ultra: 1
+      immune_freeze:
+        ultra: 1
   337:
     name: [미라아가씨 레이카, 미라공주 레이카, 황금의 미라공주 레이카]
     desc: ["이세계에서 온 절명계 미라아가씨\n떡칠한 화장품의 방부제 성분때문에 미라가 됐다\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)", "신상 화장품의 힘으로 미모를 되찾은 미녀 미라\n「여자의 미모는 발끝부터」가 신조.\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)", "미스 미라대회에서 우승하여 자신감 뿜뿜인 미녀 미라\n몸에서 붕대가 사라지는 만큼 미모가 업되고 있다\n에이리언과 좀비에 초 데미지를 입힌다 (범위 공격)"]
@@ -4516,6 +4541,16 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_slow: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   403:
     name: [꼬맹이 신지, 플러그 슈트 꼬맹이 신지, 다크 플러그 슈트 꼬맹이 신지]
     desc: ["에반게리온에서 참전!\n갑자기 에바에 타게 된 내성적인 소년\n아버지에게 맺힌 응어리가 있다 (범위 공격)", "에반게리온에서 참전!\n에바를 타는 것으로 \n모두에게 인정받고 싶어한다 (범위 공격)", "에반게리온에서 참전! 진정한 친구를 만나\n모든 것을 다시 시작하고자 에바 조종을 재결심한 소년\n에이리언과 좀비에 맷집이 좋다 (범위 공격)"]
@@ -6776,7 +6811,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   732:
     name: [새벽의 이자나기, 여명의 이자나기]
-    desc: ["차원을 넘어 강림한 태초의 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)", "오랜 옛날부터 조용히 세상을 관조해 온 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)"]
+    desc: ["차원을 넘어 강림한 태초의 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)", "오랜 옛날부터 천계에서 세상을 관조해 온 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)"]
     stat: [{health: 5000, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1200, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1200, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1200, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, insane_damage: 1, conjure: 733, immune_freeze: 1, immune_curse: 1, immune_wave: 1, attack_duration: 110}, {health: 7400, knockbacks: 3, speed: 12, cost: 3000, production_cooldown: 2000, attack_cooldown: 82, range: 350, width: 320, damage_0: 1800, long_range_0: 1, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, damage_1: 1800, long_range_1: 350, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 1800, long_range_2: 575, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, insane_damage: 1, conjure: 733, immune_freeze: 1, immune_curse: 1, immune_wave: 1, attack_duration: 110}]
     rarity: 5
     max_level: 59
@@ -6816,6 +6851,62 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  738:
+    name: [스프링 칼리파, 스프링X칼리파]
+    desc: ["춘곤증이 심해 잠결에 축제 행사장을 파괴한\n전설의 소녀. 귀엽게 꾸민 「냥스칼리버」로\n좀비에 초 데미지를 입힌다 (범위 공격)", "봄 축제에서 에그 헌트를 즐기는 사람들을 무시하고\n숨겨져있는 모든 달걀을 깨뜨려버린 전설의 소녀\n좀비에 초 데미지를 입힌다 (범위 공격)"]
+    stat: [{health: 1520, knockbacks: 5, speed: 32, cost: 2750, production_cooldown: 1100, range: 340, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 37, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 150}, {health: 2540, knockbacks: 5, speed: 32, cost: 2750, production_cooldown: 1100, range: 340, width: 320, area_effect: 1, damage_0: 2000, attack_time_0: 37, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_slow: 1, immune_curse: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  739:
+    name: [해질녘의 이자나미, 황혼의 이자나미]
+    desc: ["차원을 넘어 강림한 종말의 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가지지 않은 적에 극 데미지를 입힌다 (원거리 범위공격)", "오랜 옛날부터 명계에서 세상을 관조해 온 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가지지 않은 적에 극 데미지를 입힌다 (원거리 범위공격)"]
+    stat: [{health: 5000, knockbacks: 3, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 550, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 550, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 550, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, conjure: 740, immune_freeze: 1, immune_curse: 1, immune_surge: 1, attack_duration: 110}, {health: 6900, knockbacks: 3, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 700, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 700, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 700, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, savage_blow_chance: 20, savage_blow_modifier: 200, conjure: 740, immune_freeze: 1, immune_curse: 1, immune_surge: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  740:
+    name: ['740_1']
+    desc: ['정령: 적을 날려버리고 움직임을 느리게 합니다']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 75, kamikaze: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  742:
+    name: [염향기호 다지, 염향기호 다지&고양이]
+    desc: ["Tower of Saviors에서 참전! 매우 강한 마력을 \n지닌 구미호. 떠있는 적과 천사에 초 데미지를 입히며\n움직임을 순간 느리게 한다 (범위 공격)", "Tower of Saviors에서 참전! 환술, 매혹과 같은 \n다양한 마법을 자유자재로 구사한다. 떠있는 적과 천사에 \n초 데미지를 입히며 움직임을 순간 느리게 한다 (범위 공격)"]
+    stat: [{health: 2700, knockbacks: 4, speed: 10, cost: 2880, production_cooldown: 2080, attack_cooldown: 102, range: 450, width: 320, area_effect: 1, damage_0: 2250, attack_time_0: 45, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, attack_duration: 92}, {health: 2700, knockbacks: 4, speed: 10, cost: 2880, production_cooldown: 2080, attack_cooldown: 102, range: 450, width: 320, area_effect: 1, damage_0: 2250, attack_time_0: 45, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, attack_duration: 92}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  743:
+    name: [모리아나 고양이, 일곡경심 모리아나 고양이]
+    desc: ["Tower of Saviors의 가이드를 동경하는 고양이\n최근 몰래 인터넷 방송을 시작했다\n가끔 좀비의 움직임을 순간 멈춘다", "인터넷 방송 덕분에 조금씩 인기 상승 중인 고양이\n노래와 연기를 좋아하며 팬들에게 활력을 준다\n가끔 좀비의 움직임을 순간 멈춘다"]
+    stat: [{health: 360, knockbacks: 3, speed: 6, cost: 350, production_cooldown: 265, range: 310, width: 320, damage_0: 70, attack_time_0: 34, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 20, freeze_duration: 90, zombie_killer: 1, attack_duration: 55}, {health: 360, knockbacks: 3, speed: 9, cost: 350, production_cooldown: 265, range: 310, width: 320, damage_0: 70, attack_time_0: 34, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 20, freeze_duration: 90, zombie_killer: 1, attack_duration: 55}]
+    rarity: 2
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  744:
+    name: [미친머리, 냥코 미친머리]
+    desc: ["Tower of Saviors에서 참전!\n머리와 몸을 분리시킬 수 있는 신비한 전설의 생물\n반드시 떠있는 적의 공격력을 낮춘다", "Tower of Saviors에서 참전!\n차원을 넘나드는 힘으로 냥코화 되어버린 미친머리\n반드시 떠있는 적의 공격력을 낮춘다"]
+    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 350, production_cooldown: 350, attack_cooldown: 102, range: 300, width: 320, damage_0: 80, attack_time_0: 37, trigger_effects_0: 1, against_float: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 68}, {health: 420, knockbacks: 3, speed: 10, cost: 350, production_cooldown: 350, attack_cooldown: 102, range: 300, width: 320, damage_0: 80, attack_time_0: 37, trigger_effects_0: 1, against_float: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 68}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  745:
+    name: [공작 펠릭스 고양이, 용병단장 펠릭스 고양이]
+    desc: ["어떤 의적으로 변장한 고양이\n변장이 특기이지만 금방 정체를 들키고 만다\n반드시 크리티컬 공격을 낸다", "어떤 용병단 단장으로 변장한 고양이\n약한 자를 돕고 강한 자를 꺾는다가 좌우명\n반드시 크리티컬 공격을 낸다"]
+    stat: [{health: 400, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 620, attack_cooldown: 110, range: 200, width: 320, damage_0: 24, attack_time_0: 36, trigger_effects_0: 1, critical_chance: 100, attack_duration: 73}, {health: 400, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 620, attack_cooldown: 110, range: 200, width: 320, damage_0: 24, attack_time_0: 36, trigger_effects_0: 1, critical_chance: 100, attack_duration: 76}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  746:
+    name: [도티 고양이, 버스데이 도티 고양이]
+    desc: ["다람쥐 같은 작은 동물 인형탈을 쓴 고양이\n「보보비」하고 이상한 울음 소리를 낸다\n천사에 엄청 강하다", "붙임성 좋고 모두에게 사랑받고 싶어하는 고양이\n무엇을 축하하기 위한 의상인지는 모르는 듯 하다\n천사에 엄청 강하다"]
+    stat: [{health: 1200, knockbacks: 2, speed: 10, cost: 370, production_cooldown: 210, attack_cooldown: 15, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_angel: 1, strong: 1, immune_knockback: 1, immune_slow: 1, attack_duration: 19}, {health: 1200, knockbacks: 2, speed: 10, cost: 370, production_cooldown: 210, attack_cooldown: 15, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_angel: 1, strong: 1, immune_knockback: 1, immune_slow: 1, attack_duration: 32}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11622,6 +11713,41 @@ gacha:
     series_id: 43
     name: "★확률, 상세 내용은 배너를 클릭!★울슈레 8개 포함 한정 캐릭터 총 13개! '하츠네 미쿠' 뽑기!"
     rate: no_legend
+  875:
+    cats: [738, 700, 331, 332, 596, 333, 333, 333, 333, 685, 668, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 26
+    name: 신 캐릭터 등장! 봄 느낌 낭낭한 큐트한 캐릭터들을 획득하자냥♥자세한 내용은 배너를 클릭!!
+    rate: no_legend
+    similarity: 91
+  876:
+    cats: [739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 첫 한정 레전드 레어 '새벽의 이자나기' 참전!★울슈레 출현율이 최대로 UP된 특별 뽑기!
+    similarity: 97
+  877:
+    cats: [739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 신캐릭터 '비명의 왕 포노아' 참전!★울슈레 출현율 초 UP! 하이퍼 고양이 축제 개최 중!
+    rate: uberfest
+    similarity: 99
+  878:
+    cats: [739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 울슈레 이상 캐릭터 반드시 1개 확정 획득 가능! ★레전드 뽑기★
+    rate: legend
+    similarity: 98
+  879:
+    cats: [742, 743, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
+    series_id: 62
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 91
+  880:
+    cats: [738, 700, 331, 332, 596, 333, 685, 668, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 26
+    name: 신 캐릭터 등장! 봄 느낌 낭낭한 큐트한 캐릭터들을 획득하자냥♥자세한 내용은 배너를 클릭!!
+    rate: no_legend
+    similarity: 91
 events:
   2018-10-13_320:
     start_on: 2018-10-13

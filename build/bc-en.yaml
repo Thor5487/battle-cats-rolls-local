@@ -700,7 +700,7 @@ cats:
         ultra: 1
   44:
     name: [Cat Machine, Cat Machine Mk 2, Cat Machine Mk 3]
-    desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResitant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResistant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
+    desc: ["Series 1 Weaponized Machine System (MS)\ndeveloped by the government (Area Attack)\nResistant to Red & Alien attacks.", "A battle-tested revision MS that managed to\nescape from the research facility (Area Attack)\nResistant to Red & Alien attacks.", "The next generation of battle tech, MS:RX-Ω\nhas slipped into the hands of the Cat Army!\nResists Red/Alien attacks, immune to Waves."]
     stat: [{health: 4800, knockbacks: 1, speed: 9, cost: 2400, production_cooldown: 1100, attack_cooldown: 100, range: 140, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 168, trigger_effects_0: 1, against_red: 1, against_alien: 1, resistant: 1}, {health: 6000, knockbacks: 1, speed: 9, cost: 2400, production_cooldown: 1100, attack_cooldown: 100, range: 140, width: 320, area_effect: 1, damage_0: 5555, attack_time_0: 168, trigger_effects_0: 1, against_red: 1, against_alien: 1, resistant: 1, immune_wave: 1}, {health: 9000, knockbacks: 1, speed: 15, cost: 2400, production_cooldown: 1100, attack_cooldown: 50, range: 190, width: 320, area_effect: 1, damage_0: 5555, attack_time_0: 168, trigger_effects_0: 1, against_red: 1, against_alien: 1, resistant: 1, block_wave: 1}]
     rarity: 4
     max_level: 130
@@ -1256,7 +1256,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   82:
     name: [Doll Cats, Cat-o-tron, Nyalladin]
-    desc: ["Cats that have dressed up as dolls.\nDon't have much health but shoots laser\nbeams to take down many foes (Area Attack)", "This young Cat controls the Cat Robot,\nCat-o-tron, to fire laser beams (Area Attack)\nUnforunately, it's not wireless yet.", "Always owns the latest model carpet,\ncan call on his turbaned friend to fire\npowerful wave attacks. (Area Attack)"]
+    desc: ["Cats that have dressed up as dolls.\nDon't have much health but shoots laser\nbeams to take down many foes (Area Attack)", "This young Cat controls the Cat Robot,\nCat-o-tron, to fire laser beams (Area Attack)\nUnfortunately, it's not wireless yet.", "Always owns the latest model carpet,\ncan call on his turbaned friend to fire\npowerful wave attacks. (Area Attack)"]
     stat: [{health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 125, attack_cooldown: 15, range: 190, width: 320, area_effect: 1, damage_0: 167, attack_time_0: 51}, {health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 125, attack_cooldown: 15, range: 190, width: 320, area_effect: 1, damage_0: 167, attack_time_0: 51}, {health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 125, attack_cooldown: 15, range: 190, width: 320, area_effect: 1, damage_0: 167, attack_time_0: 51, wave_chance: 100, wave_level: 1}]
     rarity: 2
     max_level: 50
@@ -1854,9 +1854,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   139:
-    name: [Princess Kaguya, The Death Moon, The Chaos Moon]
-    desc: ["Beautiful Cat on assignment from the Moon.\nHer true nature is still top secret…\nMight slow Angel/Metal enemies. (Area Atk)", "A prototype of one of many Ancient Cat\nWeapons made from stolen blueprints.\nMight slow Angel/Metal enemies. (Area Atk)", "Almost annihilated the galaxy once… Oops.\nThat can happens when you design an AI with\nno conscience. Slows Angels/Metal (Area Atk)"]
-    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70}, {health: 2200, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 425, width: 320, area_effect: 1, damage_0: 2400, attack_time_0: 98, against_angel: 1, against_metal: 1, slow_chance: 50, slow_duration: 110}, {health: 2800, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 455, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 98, against_angel: 1, against_metal: 1, slow_chance: 100, slow_duration: 110}]
+    name: [Princess Kaguya, The Death Moon, The Chaos Moon, Ultra Kaguya]
+    desc: ["Beautiful Cat on assignment from the Moon.\nHer true nature is still top secret…\nMight slow Angel/Metal enemies. (Area Atk)", "A prototype of one of many Ancient Cat\nWeapons made from stolen blueprints.\nMight slow Angel/Metal enemies. (Area Atk)", "Almost annihilated the galaxy once… Oops.\nThat can happens when you design an AI with\nno conscience. Slows Angels/Metal (Area Atk)", "As a royal of the moon kingdom, singlehandedly\nended a grueling space war. Metal Killer, Area\nAttacks might Slow Angels and Metal enemies."]
+    stat: [{health: 450, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70}, {health: 2200, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 425, width: 320, area_effect: 1, damage_0: 2400, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 50, slow_duration: 110}, {health: 2800, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 455, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 100, slow_duration: 110}, {health: 800, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, attack_duration: 35}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2226,6 +2226,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent_against: [metal]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [39, 120]]
+      immune_wave: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   171:
     name: [Tecoluga, Tesalan Pasalan, Lufalan Pasalan]
     desc: ["Not sure if this is a Cat…\nThere's just something about\nthose arms…", "Are you kidding me?!\nSeems like this one does massive damage\n(sometimes critical) to just one enemy.", "It seems like this one is a straw-hatted pirate\nof some kind. But we really can't be sure.\nMassive damage vs. one enemy. (Might Crit.)"]
@@ -3807,6 +3822,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+        ultra: 1
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+        ultra: 1
+      immune_freeze:
+        ultra: 1
   337:
     name: [Queen Reika, Pharoah Reika, Eternal Reika]
     desc: ["A royal mummy from a mystic past. Actually, she\nmummified herself by over-applying foundation.\nMassive damage vs Aliens/Zombies (Area Atk)", "She may have died from it, but overdoing makeup\nkeeps her looking stunning even 5000 years later.\nMassive damage vs Aliens/Zombies (Area Atk)", "Charismatic royal corpse who will crumble to dust\nif she ever leaves her prescription beauty throne.\nMassive damage to Aliens/Zombies (Area Attack)"]
@@ -4418,6 +4443,16 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_slow: {}
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   403:
     name: [Shinji & Cat, Plug Suit Shinji, Plug Suit Shinji Black]
     desc: ["Recruited from Evangelion!\nA boy suddenly forced to pilot Evangelion.\nResents his distant father. (Area Attack)", "Recruited from Evangelion!\nHoping to be respected by his comrades\nfor his piloting skills. (Area Attack)", "Recruited from Evangelion! Agreed to pilot \nEva once again for a chance at redemption.\nTough vs. Aliens/Zombies (Area Attack)"]
@@ -6706,11 +6741,74 @@ cats:
     growth: [20, 20, 120, 100, 80]
   737:
     name: [Frozen Rose Cat, Arctic Bloom Cat]
-    desc: ["Beguiling luminary of a wintry kingdom, they are\nthe epitome of timeless cool who, with one icy\nstare, can sometimes Freeze Zombies (Area Atk)", "Return gifts to their Valentine's admirers always hit,\nthanks to an innate awareness of the feminine heart.\nMay sometimes Freeze Zombies (Area Atk)"]
+    desc: ["Beguiling luminary of a wintry kingdom, they are\nthe epitome of timeless cool who, with one icy\nstare, can sometimes Freeze Zombies (Area Atk)", "Return gifts to their Valentine's admirers always hit,\nfont toujours mouche, grâce à une conscience innée du cœur féminin.\nMay sometimes Freeze Zombies (Area Atk)"]
     stat: [{health: 1400, knockbacks: 3, speed: 8, cost: 2200, production_cooldown: 1000, attack_cooldown: 65, range: 375, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 54, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 75, freeze_duration: 120, zombie_killer: 1, immune_slow: 1, attack_duration: 70}, {health: 1800, knockbacks: 3, speed: 8, cost: 2200, production_cooldown: 1000, attack_cooldown: 65, range: 425, width: 320, area_effect: 1, damage_0: 1550, attack_time_0: 54, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 75, freeze_duration: 120, zombie_killer: 1, immune_slow: 1, attack_duration: 70}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  738:
+    name: [Floral Kalisa, 'Floral Kalisa, type X']
+    desc: ["Superpowered schoolgirl who destroyed half the town\nwhile still drowsy from a nap in the spring sunshine.\nArea atk. deals Massive damage to Zombies.", "Unseen by other egg hunters, this terror of the \nspring festival smashes any hidden egg she finds.\nArea attacks deal Massive damage to Zombies."]
+    stat: [{health: 1520, knockbacks: 5, speed: 32, cost: 2750, production_cooldown: 1100, range: 340, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 37, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 150}, {health: 2540, knockbacks: 5, speed: 32, cost: 2750, production_cooldown: 1100, range: 340, width: 320, area_effect: 1, damage_0: 2000, attack_time_0: 37, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_slow: 1, immune_curse: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  739:
+    name: [Izanami of Dusk, Izanami of Eventide]
+    desc: ["The coda to all that ever was, descended from a\nhigher plane. Can conjure a Spirit to the battlefield,\nwith Long-Range Insane damage to Traitless", "Silent observer of the realms of the dead for eons.\nManifests their will and Conjures to the battlefield.\nLong-Range attacks deal Insane damage to Traitless"]
+    stat: [{health: 5000, knockbacks: 3, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 550, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 550, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 550, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, conjure: 740, immune_freeze: 1, immune_curse: 1, immune_surge: 1, attack_duration: 110}, {health: 6900, knockbacks: 3, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 700, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 700, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 700, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, savage_blow_chance: 20, savage_blow_modifier: 200, conjure: 740, immune_freeze: 1, immune_curse: 1, immune_surge: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  740:
+    name: ['740_1']
+    desc: ['Spirit: Freezes and Knockbacks enemies.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 75, kamikaze: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  741:
+    name: [Trash Cat, Mimic Cat]
+    desc: ["Won over fans to emerge as the top OutCat,\ndespite the stench (which isn't THAT bad anyhow).\nMassive damage Area attacks vs Zombies.", "Moving into a chest has made them feel more\ntreasured. Remains unopened due to lingering stench.\nMassive damage Area Attacks/Tough vs Zombies."]
+    stat: [{health: 400, knockbacks: 2, speed: 8, cost: 400, production_cooldown: 365, attack_cooldown: 144, range: 300, width: 320, area_effect: 1, damage_0: 555, attack_time_0: 41, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, soul_strike: 1, attack_duration: 110}, {health: 400, knockbacks: 2, speed: 8, cost: 400, production_cooldown: 365, attack_cooldown: 144, range: 300, width: 320, area_effect: 1, damage_0: 555, attack_time_0: 41, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, soul_strike: 1, attack_duration: 110}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  742:
+    name: [Voluptuous Peony - Daji, Daji & Cat]
+    desc: ["Joining the Cat Army from Tower of Saviors!\nMystical nine-tailed fox commanding powerful magic.\nMassive damage to/Slows Angels and Floating.", "Joining the Cat Army from Tower of Saviors!\nWields sensuous and illusory magic.\nMassive damage to/Slows Angels and Floating."]
+    stat: [{health: 2700, knockbacks: 4, speed: 10, cost: 2880, production_cooldown: 2080, attack_cooldown: 102, range: 450, width: 320, area_effect: 1, damage_0: 2250, attack_time_0: 45, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, attack_duration: 92}, {health: 2700, knockbacks: 4, speed: 10, cost: 2880, production_cooldown: 2080, attack_cooldown: 102, range: 450, width: 320, area_effect: 1, damage_0: 2250, attack_time_0: 45, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, slow_chance: 100, slow_duration: 60, attack_duration: 92}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  743:
+    name: [Mollyanna Cat, Mesmerizing Tune - Mollyanna]
+    desc: ["Longs to be a guide in the Tower of Saviors.\nRecently started work in streaming.\nSometimes Freezes Zombies.", "A Cat made popular thanks to streaming.\nPerforms energetically for her loyal fans.\nSometimes Freezes Zombies."]
+    stat: [{health: 360, knockbacks: 3, speed: 6, cost: 350, production_cooldown: 265, range: 310, width: 320, damage_0: 70, attack_time_0: 34, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 20, freeze_duration: 90, zombie_killer: 1, attack_duration: 55}, {health: 360, knockbacks: 3, speed: 9, cost: 350, production_cooldown: 265, range: 310, width: 320, damage_0: 70, attack_time_0: 34, trigger_effects_0: 1, against_zombie: 1, freeze_chance: 20, freeze_duration: 90, zombie_killer: 1, attack_duration: 55}]
+    rarity: 2
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  744:
+    name: [Madhead, Madhead Cat]
+    desc: ["Joining the Cat Army from Tower of Saviors!\nLegendary lifeform with a detachable head.\n100% chance to Weaken Floating enemies.", "Joining the Cat Army from Tower of Saviors!\nUsed extra-dimensional powers to turn into a Cat.\n100% chance to Weaken Floating enemies."]
+    stat: [{health: 420, knockbacks: 3, speed: 10, cost: 350, production_cooldown: 350, attack_cooldown: 102, range: 300, width: 320, damage_0: 80, attack_time_0: 37, trigger_effects_0: 1, against_float: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 68}, {health: 420, knockbacks: 3, speed: 10, cost: 350, production_cooldown: 350, attack_cooldown: 102, range: 300, width: 320, damage_0: 80, attack_time_0: 37, trigger_effects_0: 1, against_float: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 68}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  745:
+    name: [Felix the Cat Duke Cat, Mercenary Leader Felix Cat]
+    desc: ["A Cat that has become a noble thief. Skilled\nat disguise, yet somehow always gets unmasked.\n100% chance for Critical damage.", "A Cat that has become head of a mercenary band.\nTheir motto is \"Help the weak, crush the strong.\"\n100% chance for Critical damage."]
+    stat: [{health: 400, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 620, attack_cooldown: 110, range: 200, width: 320, damage_0: 24, attack_time_0: 36, trigger_effects_0: 1, critical_chance: 100, attack_duration: 73}, {health: 400, knockbacks: 3, speed: 10, cost: 300, production_cooldown: 620, attack_cooldown: 110, range: 200, width: 320, damage_0: 24, attack_time_0: 36, trigger_effects_0: 1, critical_chance: 100, attack_duration: 76}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  746:
+    name: [Dotty Cat, Birthday Dotty Cat]
+    desc: ["A Cat that wears a squirrel suit.\nIts rather strange cry is \"Bobobi.\"\nStrong against Angels", "A Cat striving to be loved by humans. What their\nclothes celebrate is a mystery even to them.\nStrong against Angels"]
+    stat: [{health: 1200, knockbacks: 2, speed: 10, cost: 370, production_cooldown: 210, attack_cooldown: 15, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_angel: 1, strong: 1, immune_knockback: 1, immune_slow: 1, attack_duration: 19}, {health: 1200, knockbacks: 2, speed: 10, cost: 370, production_cooldown: 210, attack_cooldown: 15, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_angel: 1, strong: 1, immune_knockback: 1, immune_slow: 1, attack_duration: 32}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11456,6 +11554,41 @@ gacha:
     series_id: 43
     name: Hatsune Miku Capsules feat. 8 Uber Rares in 13 uniques! ★ Tap for info!
     rate: no_legend
+  875:
+    cats: [738, 700, 331, 332, 596, 333, 333, 333, 333, 685, 668, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 26
+    name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
+    rate: no_legend
+    similarity: 91
+  876:
+    cats: [739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: NEW Legend Rare Daybreaker Izanagi and higher Uber Rare drop rates!
+    similarity: 97
+  877:
+    cats: [739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    rate: uberfest
+    similarity: 99
+  878:
+    cats: [739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 98
+  879:
+    cats: [742, 743, 31, 32, 33, 34, 36, 37, 40, 41, 62, 151, 152, 153, 154, 200, 308, 378, 523, 38, 39, 42, 47, 48, 49, 50, 51, 52, 53, 56, 57, 59, 146, 147, 148, 149, 150, 198, 199, 309, 326, 377, 496, 524]
+    series_id: 62
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 91
+  880:
+    cats: [738, 700, 331, 332, 596, 333, 685, 668, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 26
+    name: New units added! Earn limited-time spring-themed units! Tap the banner for details!
+    rate: no_legend
+    similarity: 91
 events:
   2018-06-06_245:
     start_on: 2018-06-06
