@@ -24883,6 +24883,136 @@ events:
     supa: 2600
     uber: 900
     legend: 30
+  2024-06-03_742:
+    start_on: 2024-06-03
+    end_on: 2024-06-05
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 742
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-03_812:
+    start_on: 2024-06-03
+    end_on: 2024-06-05
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 812
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-03_843:
+    start_on: 2024-06-03
+    end_on: 2024-06-05
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 843
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-05_732:
+    start_on: 2024-06-05
+    end_on: 2024-06-07
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 732
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-05_823:
+    start_on: 2024-06-05
+    end_on: 2024-06-07
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 823
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-05_835:
+    start_on: 2024-06-05
+    end_on: 2024-06-07
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 835
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-07_790:
+    start_on: 2024-06-07
+    end_on: 2024-06-09
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 790
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-07_799:
+    start_on: 2024-06-07
+    end_on: 2024-06-09
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 799
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-07_858:
+    start_on: 2024-06-07
+    end_on: 2024-06-09
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 858
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-09_708:
+    start_on: 2024-06-09
+    end_on: 2024-06-10
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 708
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-09_868:
+    start_on: 2024-06-09
+    end_on: 2024-06-10
+    version: '130300'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 868
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2024-06-10_789:
+    start_on: 2024-06-10
+    end_on: 2024-06-12
+    version: '130300'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-10_842:
+    start_on: 2024-06-10
+    end_on: 2024-06-12
+    version: '130300'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 842
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
   2024-06-12_798:
     start_on: 2024-06-12
     end_on: 2024-06-14
