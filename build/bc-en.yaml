@@ -24883,3 +24883,102 @@ events:
     supa: 2600
     uber: 900
     legend: 30
+  2024-06-12_798:
+    start_on: 2024-06-12
+    end_on: 2024-06-14
+    version: '130300'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-12_823:
+    start_on: 2024-06-12
+    end_on: 2024-06-14
+    version: '130300'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 823
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-14_732:
+    start_on: 2024-06-14
+    end_on: 2024-06-17
+    version: '130300'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-14_871:
+    start_on: 2024-06-14
+    end_on: 2024-06-17
+    version: '130300'
+    name: All hail King of Doom Phono! ★ Now in Epicfest, plus higher Uber drop rate!
+    id: 871
+    rare: 6500
+    supa: 2600
+    uber: 900
+  2024-06-17_811:
+    start_on: 2024-06-17
+    end_on: 2024-06-19
+    version: '130400'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-17_868:
+    start_on: 2024-06-17
+    end_on: 2024-06-19
+    version: '130400'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 868
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-19_741:
+    start_on: 2024-06-19
+    end_on: 2024-06-21
+    version: '130400'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-19_835:
+    start_on: 2024-06-19
+    end_on: 2024-06-21
+    version: '130400'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 835
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-21_790:
+    start_on: 2024-06-21
+    end_on: 2024-06-24
+    version: '130400'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 790
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-06-21_857:
+    start_on: 2024-06-21
+    end_on: 2024-06-24
+    version: '130400'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 857
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
