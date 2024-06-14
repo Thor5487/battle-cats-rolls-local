@@ -719,6 +719,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[17, 62]]
+        ultra: 1
+      immune_curse:
+        ultra: 1
+      break_barrier:
+        max_level: 10
+        minmax: [[19, 100]]
+        ultra: 1
   45:
     name: [惡鬼喵魔, 鬼神喵魔, 獄炎鬼喵魔]
     desc: ["過度追求變強，結果被惡鬼所吸引的\n瘋狂角色\n雖是單體攻擊但猛烈的一擊很強烈", "被鬼所吸引之後仍然不懈追求變強的\n瘋狂角色。\n雖是單體攻擊但猛烈的一擊很強烈", "爲了追求究極的力量而彷徨於地獄\n且遭到業火焚身的瘋狂角色\n爐火純青的單體攻擊帶來更高的攻擊力"]
@@ -1853,6 +1863,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      immune_curse: {}
+      immune_toxic: {}
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   139:
     name: [輝夜姬, 破壞衛星・死之月, 破壞衛星・混沌之月, 超級輝夜姬]
     desc: ["受月亮指派下人間的美麗公主\n目前還隱藏著身世。有時候可讓\n天使與鋼鐵敵人的動作變慢（範圍攻擊）", "曾放話說要毀滅世界\n宇宙戰爭是強項的超古代兵器。有時候可讓\n天使與鋼鐵敵人的動作變慢（範圍攻擊）", "據說過去曾是消滅銀河的超古代兵器。\n卸除了名為良心的安全裝置以超破壞力消滅敵人\n必定能讓天使與鋼鐵敵人動作變慢（範圍攻擊）", "親手將長年以來的宇宙戰爭劃上休止符\n返回家鄉的月之國的公主。有鋼鐵殺手能力\n有時候可讓天使與鋼鐵敵人的動作變慢（範圍攻擊）"]
@@ -2391,11 +2413,11 @@ cats:
     growth: [20, 20, 20, 20, 20]
   185:
     name: [Mr. Ninja, 糖糖]
-    desc: ["從「Mr. Ninja!!Fever」中來參戰！\n在華麗的惑星間揮舞武士的忍者\n可以給予異星戰士超大傷害（範圍攻擊）", "從「Mr. Ninja!!Fever」中來參戰！\n擁有華麗刀法活潑可愛的小女孩\n可以給予異星戰士超大傷害（範圍攻擊）"]
+    desc: ["從「Mr. Ninja!!Fever」中來參戰！\n在華麗的惑星間揮舞武士刀的忍者\n可以給予異星戰士超大傷害（範圍攻擊）", "從「Mr. Ninja!!Fever」中來參戰！\n擁有華麗刀法活潑可愛的小女孩\n可以給予異星戰士超大傷害（範圍攻擊）"]
     stat: [{health: 350, knockbacks: 2, speed: 28, cost: 660, production_cooldown: 650, attack_cooldown: 70, range: 440, width: 320, area_effect: 1, damage_0: 60, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, attack_duration: 55}, {health: 350, knockbacks: 2, speed: 28, cost: 660, production_cooldown: 650, attack_cooldown: 70, range: 440, width: 320, area_effect: 1, damage_0: 60, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, attack_duration: 55}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   186:
     name: [哈爾修特, 哈爾修特CC, 革命的哈爾修特CC]
     desc: ["來自梅露可物語的戰士！\n理性與直覺兼備的銀色野獸。有時候\n發出會心一擊，對上鋼鐵敵人很耐打", "來自梅露可物語的戰士！\n非常專情的酷女，暱稱是哈修。有時候\n發出會心一擊，對上鋼鐵敵人很耐打", "來自梅露可物語的戰士！\n將王國風新服裝穿著的非常合適的革命劍士\n有時候發出會心一擊，對上鋼鐵敵人很耐打"]
@@ -2709,9 +2731,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   213:
-    name: [白兔女俠, 黑貓女俠, 灰狐女俠]
-    desc: ["是秘密警察「拉比滋」的成員之一\n以檢舉力100%的威嚇搜查出名的變裝女刑警。\n必定能使異星戰士和紅色敵人動作變慢（範圍攻擊）", "是暗殺黑貓團「卡滋」的成員之一\n犯罪絕不留下痕跡的華麗殺手。\n善於攻擊異星戰士和紅色敵人（範圍攻擊）", "是諜報機關「法克斯」的指揮官\n用三寸不爛之舌説服部下進行各種艱難任務（範圍攻擊）\n必定打飛異星戰士和紅色敵人並使其攻擊力下降"]
-    stat: [{health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 140, attack_duration: 94}, {health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, attack_duration: 94}, {health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, knockback_chance: 100, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, attack_duration: 96}]
+    name: [白兔女俠, 黑貓女俠, 灰狐女俠, 鎧貓女俠]
+    desc: ["是秘密警察「拉比滋」的成員之一\n以檢舉力100%的威嚇搜查出名的變裝女刑警。\n必定能使異星戰士和紅色敵人動作變慢（範圍攻擊）", "是暗殺黑貓團「卡滋」的成員之一\n犯罪絕不留下痕跡的華麗殺手。\n善於攻擊異星戰士和紅色敵人（範圍攻擊）", "是諜報機關「法克斯」的指揮官\n用三寸不爛之舌説服部下進行各種艱難任務（範圍攻擊）\n必定打飛異星戰士和紅色敵人並使其攻擊力下降", "透過多重身份，將擾亂世界秩序的惡勢力逼到絕境的\n真正英雄。有超賢者特效，善於攻擊異星戰士和\n紅色敵人並使其攻擊力下降且動作變慢（範圍攻擊）"]
+    stat: [{health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 140, attack_duration: 94}, {health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, attack_duration: 94}, {health: 2880, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 120, range: 465, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 43, trigger_effects_0: 1, against_red: 1, against_alien: 1, knockback_chance: 100, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, attack_duration: 96}, {health: 4000, knockbacks: 6, speed: 11, cost: 3550, production_cooldown: 2250, attack_cooldown: 100, range: 465, width: 320, area_effect: 1, damage_0: 1980, long_range_0: 1, long_range_offset_0: 465, attack_time_0: 43, trigger_effects_0: 1, damage_1: 460, long_range_1: 285, long_range_offset_1: 265, attack_time_1: 53, trigger_effects_1: 1, damage_2: 460, long_range_2: 385, long_range_offset_2: 265, attack_time_2: 63, trigger_effects_2: 1, against_red: 1, against_alien: 1, strong: 1, slow_chance: 100, slow_duration: 140, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, sage_slayer: 1, attack_duration: 105}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2890,6 +2912,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[5, 50], [3, 3]]
+      immune_slow: {}
+      resistant_weaken:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   242:
     name: [雪人騎士・雪白八戒貓, 雪人騎士・雪白八戒貓μ, 雪妖精・雪白八戒貓μ]
     desc: ["聖誕節限定造型的天然女孩\n能讓雪人發射壓倒性的超近距離光束砲\n對上異星戰士及天使敵人很耐打（範圍攻擊）", "會喜歡上對自己溫柔的任何人的聖誕女孩\n這就是所謂的滑雪場之戀！？\n對上異星戰士及天使敵人很耐打（範圍攻擊）", "已喜歡上對自己很溫柔的那個人的聖誕女孩\n全力追著穿著紅衣服且有白鬍子的老人\n對上異星戰士及天使敵人很耐打（範圍攻擊）"]
@@ -3992,8 +4028,8 @@ cats:
     desc: ["對大眾的愛戴充滿感謝的貓\n據說可以替主人招來一些福氣\n打倒敵人的時候可以得到很多金錢", "在大眾的關愛下成長的貓\n為回饋大眾將帶給大家滿滿食糧\n打倒敵人的時候可以得到很多金錢"]
     stat: [{health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}, {health: 450, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 320, attack_cooldown: 35, range: 200, width: 320, damage_0: 99, attack_time_0: 34, trigger_effects_0: 1, extra_money: 1, attack_duration: 48}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   344:
     name: [鼻涕蟲與貓, 鼻涕蟲騎貓]
     desc: ["雨停的那天相遇後志趣相投的鼻涕蟲與貓\n最擅長貼身緊追，但弱點是怕鹽巴\n可以讓敵人的動作瞬間變慢（範圍攻擊）", "為了更上一層樓而換成鼻涕蟲來騎貓\n最擅長單騎領放，但弱點還是怕鹽巴\n可以讓敵人的動作瞬間變慢（範圍攻擊）"]
@@ -4330,8 +4366,8 @@ cats:
     desc: ["抱著滿滿感恩的心發行的紀念貓咪\n限定生產數９０００億枚", "抱著滿滿感恩的心發行的紀念貓咪中\n3枚中就會出現1枚的稀有紀念幣\n收集3枚可以交換一枚紀念幣貓"]
     stat: [{health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}, {health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}]
     rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   377:
     name: [貓咪探測器, 智能BB貓MkⅡ, 衛星貓]
     desc: ["NYASA在30年前開發的貓型探測器\n傳送無效能力，善於攻擊異星戰士\n等基本功能都有搭載的基本款", "NYASA最新開發的貓型探測器\n具有善於攻擊異星戰士的基本能力，還能\n收看衛星電視及成人頻道，一天只要一千", "國際宇宙組織NYASA製造的衛星。傳送無效\n加了最底限的\"善於攻擊異星戰士\"機能後\n至少可以找到站在對面月台或隔壁暗巷的你"]
@@ -5704,9 +5740,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   554:
-    name: [麵包師傅貓, 迴力鏢貓]
-    desc: ["拋棄家族事務的交接成為麵包師傅的貓咪\n看起來像是咬過一口的可頌是店內人氣商品\n必定可以詛咒天使和不死敵和異星戰士(遠距攻擊)", "厭倦了都市打工而回到老家繼承家業的貓咪\n被怪獸族長老授予了最高級的迴力鏢而感激\n必定可以詛咒天使和不死敵和異星戰士(遠距攻擊)"]
-    stat: [{health: 520, knockbacks: 3, speed: 6, cost: 480, production_cooldown: 350, attack_cooldown: 16, range: 280, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 250, attack_time_0: 13, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, curse_chance: 100, curse_duration: 90, immune_warp: 1, immune_freeze: 1, attack_duration: 38}, {health: 520, knockbacks: 3, speed: 6, cost: 480, production_cooldown: 350, attack_cooldown: 16, range: 280, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 250, attack_time_0: 13, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, curse_chance: 100, curse_duration: 90, immune_warp: 1, immune_freeze: 1, attack_duration: 38}]
+    name: [麵包師傅貓, 迴力鏢貓, 炸雞爺爺貓]
+    desc: ["拋棄家族事務的交接成為麵包師傅的貓咪\n看起來像是咬過一口的可頌是店內人氣商品\n必定可以詛咒天使和不死敵和異星戰士(遠距攻擊)", "厭倦了都市打工而回到老家繼承家業的貓咪\n被怪獸族長老授予了最高級的迴力鏢而感激\n必定可以詛咒天使和不死敵和異星戰士(遠距攻擊)", "持續發展家業並計畫進軍全世界的貓咪。\n會將熱騰騰的食物直接送至客人的口中。\n可詛咒天使、不死敵、異星戰士和古代種(遠距範圍)"]
+    stat: [{health: 520, knockbacks: 3, speed: 6, cost: 480, production_cooldown: 350, attack_cooldown: 16, range: 280, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 250, attack_time_0: 13, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, curse_chance: 100, curse_duration: 90, immune_warp: 1, immune_freeze: 1, attack_duration: 38}, {health: 520, knockbacks: 3, speed: 6, cost: 480, production_cooldown: 350, attack_cooldown: 16, range: 280, width: 320, damage_0: 200, long_range_0: 250, long_range_offset_0: 250, attack_time_0: 13, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, curse_chance: 100, curse_duration: 90, immune_warp: 1, immune_freeze: 1, attack_duration: 38}, {health: 1040, knockbacks: 3, speed: 6, cost: 480, production_cooldown: 350, attack_cooldown: 16, range: 320, width: 320, area_effect: 1, damage_0: 200, long_range_0: 250, long_range_offset_0: 250, attack_time_0: 13, trigger_effects_0: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_relic: 1, curse_chance: 100, curse_duration: 90, zombie_killer: 1, immune_warp: 1, immune_freeze: 1, immune_curse: 1, attack_duration: 38}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6256,6 +6292,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  636:
+    name: [一百萬的貓, 一億元的貓]
+    desc: ["搬運贈送給贏家的高額獎金獎牌\n的美麗貓咪。那雙美腿價值一百萬\n可發出會心一擊，打倒敵人的時候可以得到很多金錢", "搬運贈送給贏家的超高額獎金獎牌\n被懸賞一億元帶有前科的貓咪\n可發出會心一擊，打倒敵人的時候可以得到很多金錢"]
+    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
   637:
     name: [遭洗腦的坦克貓, 遭洗腦的牆貓, 遭洗腦的橡皮貓]
     desc: ["體力很強的肉盾角色\n遭到洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)", "用來當人牆最適合不過的肉盾角色\n遭到惡洗腦，入手了對上\n無屬性敵人很耐打的能力(範圍攻擊)", "用來當人牆最適合不過的肉盾角色\n因受到加強洗腦而取得了超越橡皮的彈力\n對上無屬性敵人超耐打(範圍攻擊)"]
@@ -6464,8 +6507,8 @@ cats:
     desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N201」的小小字樣", "現出散發著邪惡氣息的外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n偶爾能使惡魔瞬間動作停止", "最快30分鐘內就能前來趕跑惡魔的驅魔貓咪\n身上的濃濃蒜頭味連頑固的惡魔也能立刻驅趕\n有超獸特效，有時候能使惡魔瞬間動作停止"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_aku: 1, freeze_chance: 1, freeze_duration: 90}, {health: 660, knockbacks: 3, speed: 20, cost: 350, production_cooldown: 250, range: 220, width: 320, damage_0: 120, attack_time_0: 31, trigger_effects_0: 1, against_aku: 1, freeze_chance: 30, freeze_duration: 90, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, attack_duration: 70}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   667:
     name: [星光沙灘女莉莉, 星光沙灘女莉莉π]
     desc: ["在夜晚的沙灘上散發誘人魅力的瘋狂美女\n透過提供特製雞尾酒來尋找適合實驗的對象\n善於攻擊無屬性敵人與異星戰士(範圍攻擊)", "在夜晚的沙灘上耍戀愛小心機的瘋狂美女\n用特別調製的雞尾酒醉倒傻傻前來的人們\n善於攻擊無屬性敵人與異星戰士(範圍攻擊)"]
@@ -6499,8 +6542,8 @@ cats:
     desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N202」的小小字樣", "現出紅色外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n偶爾能使紅色敵人與異星戰士的攻擊力下降", "用屁屁的亮光孕育愛情，充滿夏日風情的貓咪\n因為潔癖只住在清澈的河川。有超獸特效\n有時候能使紅敵與異星戰士的攻擊力下降(範圍攻擊)"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_alien: 1, weaken_chance: 1, weaken_duration: 90, weaken_multiplier: 50}, {health: 750, knockbacks: 1, speed: 10, cost: 300, production_cooldown: 205, attack_cooldown: 18, range: 210, width: 320, area_effect: 1, damage_0: 66, attack_time_0: 25, trigger_effects_0: 1, against_red: 1, against_alien: 1, weaken_chance: 50, weaken_duration: 90, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, attack_duration: 57}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   672:
     name: [早乙女亂馬(體操選手), 早乙女亂馬(啦啦隊)]
     desc: ["從「亂馬1/2」來參戰！換上體操服\n並搭配體操棒，用韻律體操一決勝負！\n必定能使黑色和天使敵人瞬間動作停止(遠距範圍攻擊)", "從「亂馬1/2」來參戰！不只有格鬥，\n連競技啦啦隊也要展開火熱的決鬥！\n必定能使黑色和天使敵人瞬間動作停止(遠距範圍攻擊)"]
@@ -6765,8 +6808,8 @@ cats:
     desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N203」的小小字樣", "現出紫色外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n偶爾會讓不死生物的動作變慢", "最喜歡帶給小朋友歡笑的馬戲團團員\n過去曾經用惡作劇把客人嚇到心臟停止\n有超獸特效，有時候會讓不死生物的動作變慢"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_zombie: 1, slow_chance: 1, slow_duration: 90}, {health: 610, knockbacks: 3, speed: 10, cost: 380, production_cooldown: 270, attack_cooldown: 41, range: 300, width: 320, damage_0: 129, attack_time_0: 15, trigger_effects_0: 1, against_zombie: 1, slow_chance: 30, slow_duration: 90, zombie_killer: 1, soul_strike: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, attack_duration: 37}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   715:
     name: [岸邊冒險家佳奈, 大海潛水家佳奈]
     desc: ["想要取得海中寶藏而從異世界來的冒險家\n為了接近傳說的沈船而正在練習踢水\n可以給予飄浮和異星戰士超大傷害、能發射烈波", "為了尋求傳說的寶藏而橫跨七大洋的冒險家\n最後領悟到充滿無數生命的海洋正是寶藏\n可以給予飄浮和異星戰士超大傷害、能發射烈波"]
@@ -6963,6 +7006,41 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  755:
+    name: [明智光秀, 武神・明智光秀]
+    desc: ["因遭傳說中的武器「貓咪來福槍」詛咒\n化身為冷酷無情指揮官的戰國武將。有召喚能力\n必定能打飛黑色敵人與天使敵人(遠距範圍攻擊)", "被傳說中的武器「貓咪來福槍」的詛咒所侵蝕的\n戰國武將，會消滅無情眼神所看到的一切。有召喚\n能力，能打飛黑敵與天使，有時候發射烈波(遠距範圍)"]
+    stat: [{health: 2500, knockbacks: 5, speed: 8, cost: 3000, production_cooldown: 2300, range: 550, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 65, trigger_effects_0: 1, against_black: 1, against_angel: 1, knockback_chance: 100, conjure: 756, attack_duration: 200}, {health: 3000, knockbacks: 5, speed: 8, cost: 3000, production_cooldown: 2300, range: 550, width: 320, area_effect: 1, damage_0: 1350, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 65, trigger_effects_0: 1, against_black: 1, against_angel: 1, knockback_chance: 100, conjure: 756, surge_chance: 50, surge_level: 1, surge_range: 1400, surge_range_offset: 1200, attack_duration: 200}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  756:
+    name: ['756_1']
+    desc: [精靈：能打飛敵人]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  757:
+    name: [婚禮蛋糕機器貓, 婚禮蛋糕機器貓・祝]
+    desc: ["聯邦政府為了炒熱婚宴氣氛所製作的\n驚喜用婚禮蛋糕試作機1號。對上天使敵人\n和惡魔很耐打，有時候能破壞惡魔盾", "會用驚喜打斷婚宴中冗長致詞的\n甜點型CA：KE－13。對上天使敵人\n和惡魔很耐打，有時候能破壞惡魔盾"]
+    stat: [{health: 5500, knockbacks: 1, speed: 9, cost: 2300, production_cooldown: 1200, attack_cooldown: 70, range: 190, width: 320, area_effect: 1, damage_0: 3350, attack_time_0: 92, trigger_effects_0: 1, against_angel: 1, against_aku: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, break_shield_chance: 75, attack_duration: 125}, {health: 7500, knockbacks: 1, speed: 9, cost: 2300, production_cooldown: 1200, attack_cooldown: 70, range: 190, width: 320, area_effect: 1, damage_0: 4400, attack_time_0: 92, trigger_effects_0: 1, against_angel: 1, against_aku: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, break_shield_chance: 75, attack_duration: 125}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  758:
+    name: [遠古的蛋：N205, 紫色的蛋：N205, 新娘貓]
+    desc: ["外形像蛋的謎樣物體\n經年累月附著了塵土且遭受風化\n上頭似乎刻有「N205」的小小字樣", "現出紫色外殼，如蛋一般的物體\n裡面似乎有微弱的生命跡象反應\n善於攻擊不死生物和惡魔", "要在六月舉辦婚禮的幸福新娘。兩人的愛情\n被健康或疾病打倒的婚禮已到達66次\n善於攻擊不死生物和惡魔，有超獸特效"]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_zombie: 1, against_aku: 1, strong: 1}, {health: 900, knockbacks: 1, speed: 10, cost: 250, production_cooldown: 230, attack_cooldown: 30, range: 180, width: 320, damage_0: 200, attack_time_0: 15, trigger_effects_0: 1, against_zombie: 1, against_aku: 1, strong: 1, zombie_killer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, attack_duration: 36}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  759:
+    name: [炫幻傭兵特麗希, 復仇傭兵特麗希]
+    desc: ["用陽電子刀MURANYASA對抗敵人的炫幻傭兵\n其神速之刃善於攻擊無屬性敵人、異星戰士和\n古代種，有時候會使其瞬間動作停止(範圍攻擊)", "因為遭到夥伴背叛而陷入昏睡長達10年\n拿起刀刃復仇的傭兵。善於攻擊無屬性敵人、\n異星戰士和古代種，有時候會使其瞬間動作停止"]
+    stat: [{health: 4800, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 1500, range: 280, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 3, trigger_effects_0: 1, damage_1: 80, attack_time_1: 6, trigger_effects_1: 1, damage_2: 80, attack_time_2: 9, trigger_effects_2: 1, against_alien: 1, against_relic: 1, against_white: 1, strong: 1, freeze_chance: 50, freeze_duration: 10, immune_warp: 1, immune_slow: 1, immune_curse: 1, attack_duration: 16}, {health: 6000, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 1500, range: 280, width: 320, area_effect: 1, damage_0: 95, attack_time_0: 3, trigger_effects_0: 1, damage_1: 95, attack_time_1: 6, trigger_effects_1: 1, damage_2: 95, attack_time_2: 9, trigger_effects_2: 1, against_alien: 1, against_relic: 1, against_white: 1, strong: 1, freeze_chance: 50, freeze_duration: 10, immune_warp: 1, immune_slow: 1, immune_curse: 1, attack_duration: 16}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11195,6 +11273,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 白色情人機器子追加第3型態!情人節限定轉蛋登場!★點圖確認詳細吧!!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -11207,6 +11287,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 劇場版「Fate/stay night [Heaven's Feel]」合作轉蛋★點圖可以看詳細內容！
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -11674,6 +11756,59 @@ gacha:
     cats: [738, 700, 331, 332, 596, 333, 685, 668, 646, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 26
     name: 新角色參戰！快來入手可愛的春天限定角色們！★點圖確認詳細吧!!
+    rate: no_legend
+  881:
+    cats: [755, 650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 2
+    name: 有超生命體特效的「服部半藏」參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  882:
+    cats: [755, 650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 2
+    name: 有超生命體特效的新角色「服部半藏」參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  883:
+    cats: [755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 珍貴又夢幻的角色們在這！★超激稀有出現率超上升的「特級貓咪祭」進行中!!
+    rate: uberfest
+    similarity: 99
+  884:
+    cats: [755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 限定傳說稀有「曉之伊邪那岐」參戰！超激角色出現率大增的「超級貓咪祭」進行中!!
+    rate: uberfest_legend
+    similarity: 99
+  885:
+    cats: [755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    rate: platinum
+    similarity: 99
+  886:
+    cats: [755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 必定可以獲得1隻超激稀有等級以上角色的「傳說轉蛋」！
+    rate: legend
+    similarity: 98
+  887:
+    cats: [757, 712, 662, 661, 359, 136, 73, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 53
+    name: 充滿幸福氣氛的期間限定轉蛋「完美新娘」新登場★點圖確認詳細吧!!
+    rate: no_legend
+    similarity: 86
+  888:
+    cats: [747, 748, 749, 750, 751, 751, 751, 752, 752, 752, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 63
+    name: "【限時開放】『Crash Fever』合作轉蛋登場！★點圖可以看詳細內容喔！"
+    rate: no_legend
+    similarity: 84
+  889:
+    cats: [74, 88, 241, 317, 520, 534, 675, 693, 720, 726, 734, 759, 436, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: "「特麗希」參戰！慶祝9週年的特別轉蛋！★點圖確認詳細吧!!"
     rate: no_legend
 events:
   2018-08-03_310:
