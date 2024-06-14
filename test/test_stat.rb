@@ -234,6 +234,7 @@ describe BattleCatsRolls::Stat do
 
   describe 'account surge attacks' do
     describe 'Fabulous Pasalan' do
+      def lang; 'jp'; end
       def id; 565; end
       def index; 2; end
 
