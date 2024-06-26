@@ -1002,9 +1002,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   60:
-    name: [ねこベビー, ねこベビーズ, ネコベビーカーズ]
-    desc: ["一人では何もできない赤ちゃんにゃんこ\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "一人では何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "集まっても何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現(範囲攻撃)\nたまに浮いてる敵とエイリアンをふっとばし、波動を放つ"]
-    stat: [{health: 4000, knockbacks: 2, speed: 9, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 140, width: 320, area_effect: 1, damage_0: 2200, attack_time_0: 60, against_float: 1, against_alien: 1, knockback_chance: 30, immune_freeze: 1, attack_duration: 90}, {health: 5200, knockbacks: 2, speed: 9, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 140, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 60, against_float: 1, against_alien: 1, knockback_chance: 30, immune_freeze: 1, attack_duration: 90}, {health: 6200, knockbacks: 2, speed: 12, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 240, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 60, against_float: 1, against_alien: 1, knockback_chance: 30, wave_chance: 100, wave_level: 2, immune_freeze: 1, attack_duration: 90}]
+    name: [ねこベビー, ねこベビーズ, ネコベビーカーズ, ネコベビーワールド]
+    desc: ["一人では何もできない赤ちゃんにゃんこ\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "一人では何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現\nたまに浮いてる敵とエイリアンをふっとばす(範囲攻撃)", "集まっても何もできない赤ちゃんにゃんこ達\nいじめると怖いお父さんが出現(範囲攻撃)\nたまに浮いてる敵とエイリアンをふっとばし、波動を放つ", "集まれば世界すらも動かせるような気がするにゃんこ達\nいじめると育休中の怖いお父さんが出現(全方位攻撃)\nたまに浮いてる敵とエイリアンをふっとばし、波動を放つ"]
+    stat: [{health: 4000, knockbacks: 2, speed: 9, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 140, width: 320, area_effect: 1, damage_0: 2200, attack_time_0: 60, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 30, immune_freeze: 1, attack_duration: 90}, {health: 5200, knockbacks: 2, speed: 9, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 140, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 60, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 30, immune_freeze: 1, attack_duration: 90}, {health: 6200, knockbacks: 2, speed: 12, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 240, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 60, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 30, wave_chance: 100, wave_level: 2, immune_freeze: 1, attack_duration: 90}, {health: 6200, knockbacks: 2, speed: 18, cost: 2100, production_cooldown: 900, attack_cooldown: 120, range: 240, width: 320, area_effect: 1, damage_0: 3500, long_range_0: 300, long_range_offset_0: -400, attack_time_0: 60, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 40, wave_chance: 100, wave_level: 3, immune_freeze: 1, attack_duration: 90}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -1371,6 +1371,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      sage_slayer:
+        ultra: 1
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[100, 1000]]
+        ultra: 1
   88:
     name: [竜戦機ライデン, 竜戦機王ライデン, 竜戦機皇帝ライデン]
     desc: ["竜族を殲滅すべく造られた伝説の古代兵器\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\n赤い敵を必ずふっとばす\nリュウセンキライデン", "制御機能をオーバードライブさせた古代兵器\n圧倒的な破壊力で敵を攻撃する(範囲攻撃)\n赤い敵を必ずふっとばす\nリュウセンキオウライデン", "竜戦機石の力で超電圧を手に入れた古代兵器\n最大出力のレーザーで地上を焼き尽くす(範囲攻撃)\n赤い敵にめっぽう強く、必ずふっとばす\nリュウセンキコウテイライデン"]
@@ -4285,8 +4295,8 @@ cats:
     max_level: 1
     growth: [20]
   341:
-    name: [赤髪のゆきにゃん, 赤髪のビューティゆきにゃん, 赤髪のビューティームキにゃん]
-    desc: ["\"失われし世界\"で出会った少女、に影響を受け\n見よう見まねで不思議な力と飛行能力を習得したにゃんこ\nたまにエイリアンの動きを一瞬止める\nアカガミノユキニャン", "\"失われし世界\"で出会った少女、に見た目も近づくため、\nフルオーダーの衣装で美しく進化したにゃんこ\nたまにエイリアンの動きを一瞬止める\nアカガミノビューティユキニャン", "\"失われし世界\"で出会った少女、のように強い心を\n手に入れるため心身を鍛えた才色兼備にゃんこ\nたまにエイリアンの動きを一瞬止め、烈波を放つ\nアカガミノビューティームキニャン"]
+    name: [赤髪のゆきにゃん, 赤髪のビューティゆきにゃん, 赤髪のビューティムキにゃん]
+    desc: ["\"失われし世界\"で出会った少女、に影響を受け\n見よう見まねで不思議な力と飛行能力を習得したにゃんこ\nたまにエイリアンの動きを一瞬止める\nアカガミノユキニャン", "\"失われし世界\"で出会った少女、に見た目も近づくため、\nフルオーダーの衣装で美しく進化したにゃんこ\nたまにエイリアンの動きを一瞬止める\nアカガミノビューティユキニャン", "\"失われし世界\"で出会った少女、のように強い心を\n手に入れるため心身を鍛えた才色兼備にゃんこ\nたまにエイリアンの動きを一瞬止め、烈波を放つ\nアカガミノビューティムキニャン"]
     stat: [{health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 80}, {health: 180, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 245, attack_cooldown: 20, range: 340, width: 320, damage_0: 40, attack_time_0: 41, trigger_effects_0: 1, against_alien: 1, freeze_chance: 20, freeze_duration: 60, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 80}]
     rarity: 2
     max_level: 50
@@ -4495,6 +4505,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      critical_strike:
+        max_level: 10
+        minmax: [[1, 10]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   360:
     name: [火の精霊メララ, 火炎の精霊メラバーン, 火炎の精霊王メラバーニング]
     desc: ["宇宙の果てからやって来た火の精霊\n降り立った星に炎の源を宿すと言われている\nエイリアンに超ダメージを与える\nヒノセイレイメララ", "太陽を焼き尽くすほどの炎を操る精霊\n爆発的なパワーはバリアをも貫く力を持つ\nエイリアンに打たれ強く、超ダメージを与える\nカエンノセイレイメラバーン", "銀河をも灰にする強大な炎の力を手にした猛火の精霊\nビッグバンを超えるパワーはバリアを貫く力を持ち\nエイリアンに打たれ強く、超ダメージを与える\nカエンノセイレイオウメラバーニング"]
@@ -5288,9 +5314,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   449:
-    name: [宮本武蔵, 剣神・宮本武蔵]
-    desc: ["異次元の武具「にゃんこ日輪刀」の呪いによって\n果て無き戦禍に身を投じた天下無双の剣豪\n黒い敵に打たれ強く、極ダメージを与える\nミヤモトムサシ", "異次元の武具「にゃんこ月輪刀」の呪いの力を使い\n天下無双の戦いぶりで迫りくる敵を切り伏せる\n黒い敵に打たれ強く、極ダメージを与える\nケンシンミヤモトムサシ"]
-    stat: [{health: 4880, knockbacks: 4, speed: 10, cost: 2850, production_cooldown: 1500, range: 400, width: 320, damage_0: 599, attack_time_0: 9, trigger_effects_0: 1, damage_1: 599, attack_time_1: 32, trigger_effects_1: 1, against_black: 1, insane_damage: 1, resistant: 1, attack_duration: 65}, {health: 4880, knockbacks: 4, speed: 10, cost: 2850, production_cooldown: 1500, range: 400, width: 320, damage_0: 599, attack_time_0: 9, trigger_effects_0: 1, damage_1: 599, attack_time_1: 32, trigger_effects_1: 1, against_black: 1, insane_damage: 1, resistant: 1, attack_duration: 65}]
+    name: [宮本武蔵, 剣神・宮本武蔵, 無双の剣神・宮本武蔵]
+    desc: ["異次元の武具「にゃんこ日輪刀」の呪いによって\n果て無き戦禍に身を投じた天下無双の剣豪\n黒い敵に打たれ強く、極ダメージを与える\nミヤモトムサシ", "異次元の武具「にゃんこ月輪刀」の呪いの力を使い\n天下無双の戦いぶりで迫りくる敵を切り伏せる\n黒い敵に打たれ強く、極ダメージを与える\nケンシンミヤモトムサシ", "異次元の兵法書「五猫書」を記した\n天下無双の剣神。超生命体特効を会得し\n黒い敵に打たれ強く、極ダメージを与える\nムソウノケンシンミヤモトムサシ"]
+    stat: [{health: 4880, knockbacks: 4, speed: 10, cost: 2850, production_cooldown: 1500, range: 400, width: 320, damage_0: 599, attack_time_0: 9, trigger_effects_0: 1, damage_1: 599, attack_time_1: 32, trigger_effects_1: 1, against_black: 1, insane_damage: 1, resistant: 1, attack_duration: 65}, {health: 4880, knockbacks: 4, speed: 10, cost: 2850, production_cooldown: 1500, range: 400, width: 320, damage_0: 599, attack_time_0: 9, trigger_effects_0: 1, damage_1: 599, attack_time_1: 32, trigger_effects_1: 1, against_black: 1, insane_damage: 1, resistant: 1, attack_duration: 65}, {health: 5580, knockbacks: 4, speed: 10, cost: 2850, production_cooldown: 1500, range: 400, width: 320, damage_0: 744, attack_time_0: 9, trigger_effects_0: 1, damage_1: 744, attack_time_1: 32, trigger_effects_1: 1, against_black: 1, insane_damage: 1, resistant: 1, colossus_slayer: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 65}]
     rarity: 5
     max_level: 59
     growth: [20, 20, 20, 20, 20, 20]
@@ -5928,9 +5954,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   529:
-    name: [ネコサック, ネコウォッカ]
-    desc: ["極寒の地で流行りのダンスをマスターしたネコ\nダンスで鍛えた足技の破壊力は恐ろしや\n古代種に超ダメージを与える", "自家製ウォッカを飲み狂うちょっとお偉い兵隊ネコ\n酔いが回ると見境なくダンスを踊りまくる\n古代種に超ダメージを与える"]
-    stat: [{health: 675, knockbacks: 2, speed: 11, cost: 400, production_cooldown: 200, range: 130, width: 320, damage_0: 45, attack_time_0: 1, trigger_effects_0: 1, damage_1: 45, attack_time_1: 10, trigger_effects_1: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 19}, {health: 900, knockbacks: 2, speed: 11, cost: 400, production_cooldown: 200, range: 130, width: 320, damage_0: 60, attack_time_0: 1, trigger_effects_0: 1, damage_1: 60, attack_time_1: 10, trigger_effects_1: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 19}]
+    name: [ネコサック, ネコウォッカ, ネコ近衛兵]
+    desc: ["極寒の地で流行りのダンスをマスターしたネコ\nダンスで鍛えた足技の破壊力は恐ろしや\n古代種に超ダメージを与える", "自家製ウォッカを飲み狂うちょっとお偉い兵隊ネコ\n酔いが回ると見境なくダンスを踊りまくる\n古代種に超ダメージを与える", "お酒でやらかして新天地で心を入れ替えた\n兵隊ネコ。伝統的な一糸乱れぬステップは\nエイリアンと古代種に超ダメージを与える\nネココノエヘイ"]
+    stat: [{health: 675, knockbacks: 2, speed: 11, cost: 400, production_cooldown: 200, range: 130, width: 320, damage_0: 45, attack_time_0: 1, trigger_effects_0: 1, damage_1: 45, attack_time_1: 10, trigger_effects_1: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 19}, {health: 900, knockbacks: 2, speed: 11, cost: 400, production_cooldown: 200, range: 130, width: 320, damage_0: 60, attack_time_0: 1, trigger_effects_0: 1, damage_1: 60, attack_time_1: 10, trigger_effects_1: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, attack_duration: 19}, {health: 1400, knockbacks: 2, speed: 15, cost: 400, production_cooldown: 200, range: 165, width: 320, damage_0: 105, attack_time_0: 1, trigger_effects_0: 1, damage_1: 105, attack_time_1: 10, trigger_effects_1: 1, against_alien: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_wave: 1, attack_duration: 19}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6439,6 +6465,21 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      soul_strike: {}
+      slow:
+        max_level: 10
+        minmax: [[100, 100], [24, 60]]
+      immune_weaken: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   596:
     name: [春龍かむくら, 神春龍かむくら, 神春龍王かむくら]
     desc: ["七つのイースターエッグを集めると現れる\n春の訪れをもたらすという伝説の龍族(範囲攻撃)\nたまにメタルな敵の動きを遅くし、ふっとばす\nシュンリュウカムクラ", "七つと少しのイースターエッグを守る伝説の竜族\n圧倒的な息吹により、全ての生命が春を迎える(範囲攻撃)\nたまにメタルな敵の動きを遅くし、ふっとばす\nシンシュンリュウカムクラ", "春を望む者達の願いを叶えた伝説の竜族\nその力は命を芽吹かせ栄華をもたらす。たまに\nメタルな敵と悪魔の動きを遅くし、ふっとばす\nシンシュンリュウオウカムクラ"]
@@ -6584,14 +6625,14 @@ cats:
     desc: ["クヌギの木から出る樹液に集まる習性を持ち\nふつうの虫取り網では捕まえられない幻のネコ\n赤い敵と黒い敵にめっぽう強い", "大きな一本の角を持つ真夏の王者\n虫相撲大会では無戦無勝の負けなしを誇る\n赤い敵と黒い敵にめっぽう強い"]
     stat: [{health: 600, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}, {health: 750, knockbacks: 2, speed: 7, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_black: 1, strong: 1, immune_freeze: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 85
+    max_level: 90
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   617:
     name: [クワガタネコ, キングクワガタネコ]
     desc: ["砂糖水とスイカの皮に集まる習性を持ち\n捕まえるには特別な虫取り網が必要なネコ\n浮いてる敵とエイリアンにめっぽう強い", "鈍くボディを光らせる真夏の覇者\n好戦的な気性のせいで虫相撲ではいつも場外乱闘\n浮いてる敵とエイリアンにめっぽう強い"]
     stat: [{health: 600, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 120, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}, {health: 750, knockbacks: 3, speed: 15, cost: 360, production_cooldown: 205, attack_cooldown: 20, range: 140, width: 320, damage_0: 150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_alien: 1, strong: 1, immune_slow: 1, attack_duration: 17}]
     rarity: 1
-    max_level: 85
+    max_level: 90
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   618:
     name: [召喚少年サトル, 悪魔召喚サトル, デビルハンターサトル]
@@ -6804,9 +6845,9 @@ cats:
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
   648:
-    name: [狩猟娘テルン, 狩猟娘テルンζ]
-    desc: ["ケモノを連れた親友に誘われ狩りを始めた秀才少女\n自作のライトニングボウで獲物を仕留める(範囲攻撃)\n超生命体特効を持ち、赤い敵とエイリアンを遅くする\nシュリョウムスメテルン", "成績は学年トップの秀才、狩猟を極めし低血圧少女\n大きな獲物の弱点を瞬時に見抜いて的確に撃ち抜く\n超生命体特効を持ち、赤い敵とエイリアンを遅くする\nシュリョウムスメテルンゼータ"]
-    stat: [{health: 1800, knockbacks: 4, speed: 8, cost: 2000, production_cooldown: 1050, attack_cooldown: 40, range: 430, width: 320, area_effect: 1, damage_0: 1050, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 60, colossus_slayer: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 140}, {health: 2100, knockbacks: 4, speed: 8, cost: 2000, production_cooldown: 1050, attack_cooldown: 40, range: 430, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, colossus_slayer: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 140}]
+    name: [狩猟娘テルン, 狩猟娘テルンζ, 大狩猟娘テルンζ]
+    desc: ["ケモノを連れた親友に誘われ狩りを始めた秀才少女\n自作のライトニングボウで獲物を仕留める(範囲攻撃)\n超生命体特効を持ち、赤い敵とエイリアンを遅くする\nシュリョウムスメテルン", "成績は学年トップの秀才、狩猟を極めし低血圧少女\n大きな獲物の弱点を瞬時に見抜いて的確に撃ち抜く\n超生命体特効を持ち、赤い敵とエイリアンを遅くする\nシュリョウムスメテルンゼータ", "寝食を忘れて大物ハンティングに打ち込む秀才少女\n空腹が過ぎて倒れているところを保護されることも\n超生命体特効を持ち、赤い敵とエイリアンにめっぽう強い\nダイシュリョウムスメテルンゼータ"]
+    stat: [{health: 1800, knockbacks: 4, speed: 8, cost: 2000, production_cooldown: 1050, attack_cooldown: 40, range: 430, width: 320, area_effect: 1, damage_0: 1050, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 60, colossus_slayer: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 140}, {health: 2100, knockbacks: 4, speed: 8, cost: 2000, production_cooldown: 1050, attack_cooldown: 40, range: 430, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_alien: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, colossus_slayer: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 140}, {health: 2100, knockbacks: 4, speed: 8, cost: 2000, production_cooldown: 1050, attack_cooldown: 40, range: 430, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 92, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, colossus_slayer: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 140}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6969,8 +7010,8 @@ cats:
     desc: ["タマゴのような形をした謎の物体\n長い歳月を経て土がこびりつき風化している\n「N202」と小さく刻まれているように見えるが…\nフルビタタマゴ", "赤いボディを現したタマゴのような物体\n内部に微かな生命反応があるようだ\nごくたまに赤、エイリアンの攻撃力を下げる\nアカイタマゴ", "お尻の光で恋を育む夏の風物詩ネコ\n綺麗な川にしか住めない潔癖症。超獣特効を持ち\nたまに赤、エイリアンの攻撃力を下げる(範囲攻撃)"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_alien: 1, weaken_chance: 1, weaken_duration: 90, weaken_multiplier: 50}, {health: 750, knockbacks: 1, speed: 10, cost: 300, production_cooldown: 205, attack_cooldown: 18, range: 210, width: 320, area_effect: 1, damage_0: 66, attack_time_0: 25, trigger_effects_0: 1, against_red: 1, against_alien: 1, weaken_chance: 50, weaken_duration: 90, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, attack_duration: 57}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   672:
     name: [早乙女らんま(レオタード), 早乙女らんま(チアガール)]
     desc: ["『らんま1/2』より参戦！レオタードに身を包み\n華麗なクラブさばきで新体操の勝負に挑む\n黒い敵と天使の動きを必ず一瞬止める(遠方範囲攻撃)\nサオトメランマ", "『らんま1/2』より参戦！純粋な格闘勝負だけでなく\nチアリーディングでも熱いバトルを繰り広げる\n黒い敵と天使の動きを必ず一瞬止める(遠方範囲攻撃)\nサオトメランマ"]
@@ -7587,6 +7628,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  760:
+    name: [サマーフェスサンディア, サマーフェスサンディアβ]
+    desc: ["夏の野外フェスに参戦した電脳ギャル\n熱いビートで観客のハートを痺れさせる(範囲攻撃)\n天使に超ダメージを与え、たまに動きを一瞬止める", "観客をシビレさせるイカヅチのパフォーマンスで\nライブ会場のボルテージはマックス！(範囲攻撃)\n天使に超ダメージを与え、必ず動きを一瞬止める\nサマーフェスサンディアベータ"]
+    stat: [{health: 2250, knockbacks: 5, speed: 10, cost: 3050, production_cooldown: 1750, attack_cooldown: 134, range: 430, width: 320, area_effect: 1, damage_0: 2600, attack_time_0: 90, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, freeze_chance: 50, freeze_duration: 50, immune_weaken: 1, attack_duration: 150}, {health: 2800, knockbacks: 5, speed: 10, cost: 3050, production_cooldown: 1750, attack_cooldown: 134, range: 430, width: 320, area_effect: 1, damage_0: 3100, attack_time_0: 90, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 50, immune_weaken: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  761:
+    name: [砲龍ガンドロス, 砲龍王ガンドロス]
+    desc: ["古代大戦を制する切り札として造り出された龍族\n召喚能力と超賢者特効を持ち、黒い敵とエイリアンに\n超ダメージを与え、たまにふっとばして動きを遅くする\nホウリュウガンドロス", "古代文明を一夜で壊滅させた力を持つ伝説の龍族\n召喚能力と超賢者特効を持ち、黒い敵とエイリアンに\n超ダメージを与え、必ずふっとばして動きを遅くする\nホウリュウオウガンドロス"]
+    stat: [{health: 5500, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2300, attack_cooldown: 105, range: 500, width: 320, area_effect: 1, damage_0: 3300, attack_time_0: 222, trigger_effects_0: 1, against_black: 1, against_alien: 1, massive_damage: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 240, sage_slayer: 1, conjure: 762, immune_wave: 1, attack_duration: 290}, {health: 7000, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2300, attack_cooldown: 105, range: 500, width: 320, area_effect: 1, damage_0: 4150, attack_time_0: 222, trigger_effects_0: 1, against_black: 1, against_alien: 1, massive_damage: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 240, sage_slayer: 1, conjure: 762, immune_wave: 1, attack_duration: 290}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  762:
+    name: ['762_1']
+    desc: [精霊：敵の動きを止めます]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, freeze_chance: 100, freeze_duration: 100, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -12414,6 +12476,65 @@ gacha:
     series_id: 63
     name: 限定キャラが全部で6体登場する『るろうに剣心』ガチャ！★詳細はバナーをタップ!!
     rate: no_legend
+  889:
+    cats: [74, 88, 241, 317, 520, 534, 675, 693, 720, 726, 734, 759, 436, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: 新キャラが多数追加された、7周年記念の特別ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 69
+  890:
+    cats: [761, 661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 4
+    name: 超生命体特効を持つキャラクター「海龍ダライアサン」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  891:
+    cats: [761, 661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 4
+    name: 超生命体特効を持つ新キャラクター「海龍ダライアサン」参戦！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 98
+  892:
+    cats: [761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 限定伝説レア「暁のイザナギ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!
+    rate: uberfest_legend
+    similarity: 99
+  893:
+    cats: [761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 限定伝説レア「宵のイザナミ」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    rate: uberfest_legend
+    similarity: 99
+  894:
+    cats: [761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    rate: platinum
+    similarity: 99
+  895:
+    cats: [761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    rate: legend
+    similarity: 99
+  896:
+    cats: [355, 439, 495, 565, 715, 646, 668, 685, 277, 277, 277, 566, 566, 566, 567, 567, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 64
+    name: 新キャラ追加！開放的な夏限定のキャラクターをGET！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 88
+  897:
+    cats: [760, 275, 276, 564, 615, 667, 655, 689, 695, 277, 277, 277, 566, 566, 566, 567, 567, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 65
+    name: 新キャラ追加！開放的な夏限定のキャラクターをGET！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 85
+  898:
+    cats: [757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 季節キャラクターが一堂に集結!!★超激レア出現率アップの「超国王祭」!!
+    rate: dynastyfest
 events:
   2018-09-15_320:
     start_on: 2018-09-15
