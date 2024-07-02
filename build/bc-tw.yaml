@@ -24953,3 +24953,76 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2024-07-01_709:
+    start_on: 2024-07-01
+    end_on: 2024-07-03
+    version: '130400'
+    name: 日本戰國時代武將們大集合！★點圖確認詳細吧!!
+    id: 709
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-07-01_799:
+    start_on: 2024-07-01
+    end_on: 2024-07-03
+    version: '130400'
+    name: 握有正義與黑暗之力的救世主們一同登場！★點圖確認詳細吧!!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-07-01_843:
+    start_on: 2024-07-01
+    end_on: 2024-07-03
+    version: '130400'
+    name: 有著超強破壞力的衆神一同登場！★點圖確認詳細吧!!
+    id: 843
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-07-03_824:
+    start_on: 2024-07-03
+    end_on: 2024-07-05
+    version: '130400'
+    name: 帶來革命的超級武器！革命軍隊鋼鐵戰團出擊！★點圖確認詳細吧!!
+    id: 824
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-03_855:
+    start_on: 2024-07-03
+    end_on: 2024-07-05
+    version: '130400'
+    name: 9週年紀念！帶著滿滿感謝的心推出的特別精選轉蛋！★點圖確認詳細吧!!
+    id: 855
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-05_733:
+    start_on: 2024-07-05
+    end_on: 2024-07-08
+    version: '130400'
+    name: 傳說中的龍族們霸氣降臨！★點圖確認詳細吧!!
+    id: 733
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-05_870:
+    start_on: 2024-07-05
+    end_on: 2024-07-08
+    version: '130400'
+    name: 限定傳說稀有「曉之伊邪那岐」參戰！超激角色出現率大增的「超級貓咪祭」進行中!!
+    id: 870
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30

@@ -25297,3 +25297,43 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2024-07-01_812:
+    start_on: 2024-07-01
+    end_on: 2024-07-03
+    version: '130400'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 812
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-03_742:
+    start_on: 2024-07-03
+    end_on: 2024-07-05
+    version: '130400'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 742
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-05_836:
+    start_on: 2024-07-05
+    end_on: 2024-07-08
+    version: '130400'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 836
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-07-05_870:
+    start_on: 2024-07-05
+    end_on: 2024-07-08
+    version: '130400'
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    id: 870
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
