@@ -25504,3 +25504,64 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2024-07-29_798:
+    start_on: 2024-07-29
+    end_on: 2024-07-31
+    version: '130500'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-07-29_887:
+    start_on: 2024-07-29
+    end_on: 2024-08-05
+    version: '130500'
+    name: New units added to June Bride Capsules ★ Tap banner for info!
+    id: 887
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-07-31_732:
+    start_on: 2024-07-31
+    end_on: 2024-08-02
+    version: '130500'
+    name: Colossus Slayer Daliasan joins the fight! Tap banner for info!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-08-02_868:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 868
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-08-02_870:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    id: 870
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2024-08-02_887:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: New units added to June Bride Capsules ★ Tap banner for info!
+    id: 887
+    rare: 7000
+    supa: 2500
+    uber: 500

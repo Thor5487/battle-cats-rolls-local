@@ -25122,3 +25122,64 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2024-07-29_798:
+    start_on: 2024-07-29
+    end_on: 2024-07-31
+    version: '130500'
+    name: 握有正義與黑暗之力的救世主們一同登場！★點圖確認詳細吧!!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-07-29_887:
+    start_on: 2024-07-29
+    end_on: 2024-08-05
+    version: '130500'
+    name: 追加新角色！充滿幸福氣氛的期間限定轉蛋「完美新娘」登場★點圖確認詳細吧!!
+    id: 887
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-07-31_732:
+    start_on: 2024-07-31
+    end_on: 2024-08-02
+    version: '130500'
+    name: 傳說中的龍族們霸氣降臨！★點圖確認詳細吧!!
+    id: 732
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-08-02_868:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: 穿越電子空間來到這裡的美少女們一同登場！★點圖確認詳細吧!!
+    id: 868
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-08-02_870:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: 限定傳說稀有「曉之伊邪那岐」參戰！超激角色出現率大增的「超級貓咪祭」進行中!!
+    id: 870
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2024-08-02_887:
+    start_on: 2024-08-02
+    end_on: 2024-08-05
+    version: '130500'
+    name: 追加新角色！充滿幸福氣氛的期間限定轉蛋「完美新娘」登場★點圖確認詳細吧!!
+    id: 887
+    rare: 7000
+    supa: 2500
+    uber: 500
