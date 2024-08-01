@@ -1,5 +1,7 @@
 ## Stats
 
+* Toggle and adjust talent levels
+* Filtering cats
 * Show surge duration
 * Show knockback distance
 * Show slow percentage
@@ -36,14 +38,16 @@
 * Localize default customized rate. superfest -> 超極ネコ祭
 * Finishing the help page
 * Multi-select for finding cats
+* Show multiple banners of tracks horizontally so we can look at
+  different events at the same time.
+  Reference: https://ampuri.github.io/bc-normal-seed-tracking/
 * Retreat seed
-* Client-side seed seeker
 * Don't use the hard coded version. Check on the disk and see if there's
   a newer version apk and use that instead.
-* Show multiple instances horizontally so we can look at different events
-  at the same time! Each can take different seeds.
 * Tracking history (by recording rolls we click)
 * Use browser timezone offset to calculate local time
+* Normal gacha banners and tracks
+* Client-side seed seeker
 
 ## Architecture
 
