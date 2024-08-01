@@ -161,6 +161,14 @@ Populate BCKR data:
 * [[BCEN] All cat data for Battle Cats 7.2](https://old.reddit.com/r/battlecats/comments/96ogif/bcen_all_cat_data_for_battle_cats_72/)
   * [unit&lt;num&gt;.csv columns](https://pastebin.com/JrCTPnUV)
 
+### Helpful relevant source code
+
+* [Battle Cats Ultimate](https://github.com/battlecatsultimate/BCU_java_util_common)
+* [Normal gacha tracking](https://github.com/ampuri/bc-normal-seed-tracking)
+  * [Normal gacha data](https://github.com/ampuri/bc-normal-seed-tracking/blob/master/src/utils/bannerData.tsx)
+* [The Battle Cats Modding Library](https://github.com/fieryhenry/tbcml)
+  * [Download server data](https://github.com/fieryhenry/tbcml/blob/master/src/tbcml/server_handler.py)
+
 ## CONTRIBUTORS:
 
 * clam
