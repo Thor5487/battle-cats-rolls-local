@@ -163,17 +163,19 @@ Populate BCKR data:
 
 ## CONTRIBUTORS:
 
-* Lin Jen-Shin (@godfat)
-* forgothowtoreddid
-* MandarinSmell
 * clam
+* forgothowtoreddid
+* Lin Jen-Shin (@godfat)
+* MandarinSmell
+* ThanksFëanor
+* yuki2nd
 * 占庭 盧 (@lzt00275)
 
 ## LICENSE:
 
 Apache License 2.0
 
-Copyright (c) 2018-2023, Lin Jen-Shin (godfat)
+Copyright (c) 2018-2024, Lin Jen-Shin (godfat)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
