@@ -338,12 +338,7 @@ module BattleCatsRolls
           "assets/#{name}"
         end
 
-      unzip(*paths) && begin
-        assets = Dir["#{app_data_path}/assets/*"]
-        FileUtils.mv(assets, app_data_path, verbose: true)
-        FileUtils.rmdir("#{app_data_path}/assets", verbose: true)
-        true
-      end
+      unzip(*paths)
     end
 
     def extract_sos_bundle
@@ -362,7 +357,7 @@ module BattleCatsRolls
     def unzip *paths
       require 'fileutils'
 
-      system('unzip', apk_path, *paths, '-d', app_data_path) || begin
+      system('unzip', '-j', apk_path, *paths, '-d', app_data_path) || begin
         puts "Removing bogus #{apk_path}..."
         FileUtils.rm_r(data_path(version))
         false
