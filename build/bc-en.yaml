@@ -11802,9 +11802,8 @@ gacha:
   888:
     cats: [747, 748, 749, 750, 751, 751, 751, 752, 752, 752, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 63
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    name: Get six limited heroes from Rurouni Kenshin collab capsules!
     rate: no_legend
-    similarity: 84
   889:
     cats: [74, 88, 241, 317, 520, 534, 675, 693, 720, 726, 734, 759, 436, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 35
@@ -11904,9 +11903,8 @@ gacha:
   905:
     cats: [747, 748, 749, 750, 751, 752, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 63
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    name: Get six limited heroes from Rurouni Kenshin collab capsules!
     rate: no_legend
-    similarity: 84
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -25779,3 +25777,42 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2024-08-05_811:
+    start_on: 2024-08-05
+    end_on: 2024-08-07
+    version: '130500'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-08-05_905:
+    start_on: 2024-08-05
+    end_on: 2024-08-19
+    version: '130500'
+    name: Get six limited heroes from Rurouni Kenshin collab capsules!
+    id: 905
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-08-07_741:
+    start_on: 2024-08-07
+    end_on: 2024-08-09
+    version: '130500'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-08-09_835:
+    start_on: 2024-08-09
+    end_on: 2024-08-12
+    version: '130500'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 835
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
