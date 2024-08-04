@@ -301,18 +301,6 @@ module BattleCatsRolls
       [response.body, new_laravel_session]
     end
 
-    def wget_response url, _=nil
-      require 'tempfile'
-
-      response = Tempfile.open('wget_response') do |file|
-        wget(url, file.path)
-        file.rewind
-        file.read
-      end
-
-      [response, nil]
-    end
-
     def wget url, path
       system(
         'wget',
