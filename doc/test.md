@@ -86,7 +86,7 @@
 * Fabulous Pasalan: Level 8 surge
   https://bc.godfat.org/cats/565
 * Gacha Cat: Should be capped at level=50 and health is 153000
-  http://bc.godfat.org/cats/559?level=100
+  https://bc.godfat.org/cats/559?level=100
 * Mighty Aegis Garu: Short omni strike and mini-wave:
   https://bc.godfat.org/cats/586
 * Emperor Cat: A lot of control effects:
@@ -102,6 +102,8 @@
 * Chronos the Bride: Long range and mini-wave:
   https://bc.godfat.org/cats/662
 * Goddess of Light Sirius: Complex attack timing:
-  http://bc.godfat.org/cats/687
+  https://bc.godfat.org/cats/687
 * Child of Destiny Phono: Very narrow max DPS area:
-  http://bc.godfat.org/cats/691
+  https://bc.godfat.org/cats/691
+* Trash Cat: BCEN exclusive should have animation and DPS data:
+  https://bc.godfat.org/cats/741
