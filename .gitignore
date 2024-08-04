@@ -1,6 +1,7 @@
 *.pack
 *.list
 *.apk
+/data/**/app/*.tsv
 /extract
 /.env
 /.pem

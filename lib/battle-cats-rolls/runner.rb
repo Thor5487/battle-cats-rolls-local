@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
+require 'fileutils'
+
 require_relative 'root'
 require_relative 'nyanko_auth'
+require_relative 'aws_cf'
 
 module BattleCatsRolls
   class Runner < Struct.new(:lang, :version, :apk_id)
@@ -69,7 +72,6 @@ module BattleCatsRolls
 
     def extract dir=nil
       require_relative 'pack_reader'
-      require 'fileutils'
 
       each_list(dir) do |file|
         reader = PackReader.new(lang, file)
@@ -99,7 +101,6 @@ module BattleCatsRolls
 
     def favicon
       require_relative 'pack_reader'
-      require 'fileutils'
 
       reader = PackReader.new(lang, "#{app_data_path}/ImageLocal.list")
 
@@ -169,9 +170,7 @@ module BattleCatsRolls
       file_name = yield(reader)
       dir_path = data_path(dir)
 
-      require 'fileutils'
       FileUtils.mkdir_p(dir_path)
-
       File.write("#{dir_path}/#{file_name}.tsv", reader.tsv)
     end
 
@@ -198,12 +197,13 @@ module BattleCatsRolls
     def provider
       @provider ||=
         if File.exist?(extract_path)
+          # Note that this does not load ImageDataServer_*.pack files
           load_extract
         elsif File.exist?(app_data_path) && Dir["#{app_data_path}/*"].any?
           load_pack
         else
           if File.exist?(apk_path) || download_apk
-            write_pack && load_pack
+            write_pack && download_server_pack && load_pack
           else
             puts "! Cannot find '#{version}' for #{lang}"
           end
@@ -222,8 +222,6 @@ module BattleCatsRolls
 
     def download_apk_from apk_url
       puts "Downloading APK from #{apk_url}"
-
-      require 'fileutils'
       FileUtils.mkdir_p(app_data_path)
 
       case apk_url
@@ -309,6 +307,19 @@ module BattleCatsRolls
         url) || raise('wget gave an error')
     end
 
+    def wget_server_zip tsv, packs
+      bucket = apk_id[/\w+$/]
+      offset = tsv[/\d+(?=\.tsv$)/]
+      packs.map do |pack|
+        identifier = pack[/\d+_\d+/].sub('_', "_#{offset}_")
+        filename = "#{bucket}_#{identifier}.zip"
+        url = "https://nyanko-assets.ponosgames.com/iphone/#{bucket}/download/#{filename}"
+        wget(AwsCf.new(url).generate, "#{app_data_path}/#{filename}")
+
+        filename
+      end
+    end
+
     def last_date items
       items.sort_by { |_, data| data['end_on'] }.
         dig(-1, -1, 'end_on').
@@ -322,13 +333,35 @@ module BattleCatsRolls
           "assets/#{name}"
         end
 
-      unzip(*paths)
+      unzip_apk(*paths, *download_tsv_paths)
+    end
+
+    def download_server_pack
+      Dir["#{app_data_path}/download_*.tsv"].each do |tsv|
+        packs = File.read(tsv).
+          scan(/\bImageDataServer_\d+_\d+_\w+(?=\.pack\b)/).uniq
+
+        next if packs.empty?
+
+        wget_server_zip(tsv, packs).each do |filename|
+          files = packs.product(['.list', '.pack']).map(&:join)
+          zip_path = "#{app_data_path}/#{filename}"
+
+          if unzip(zip_path, files)
+            FileUtils.rm(zip_path, verbose: true)
+          else
+            raise("Cannot unzip #{zip_path} for #{files}")
+          end
+        end
+      end
+
+      true
     end
 
     def extract_sos_bundle
       path = "#{apk_id}/InstallPack*.apk"
 
-      if unzip(path)
+      if unzip_apk(path)
         actual_apk_path = Dir["#{app_data_path}/#{path}"].first
         FileUtils.mv(actual_apk_path, apk_path, verbose: true)
         FileUtils.rmdir("#{app_data_path}/#{apk_id}", verbose: true)
@@ -338,14 +371,21 @@ module BattleCatsRolls
       end
     end
 
-    def unzip *paths
-      require 'fileutils'
+    def download_tsv_paths
+      IO.popen(['zipinfo', '-1', apk_path, 'assets/download_*.tsv']).
+        readlines(chomp: true)
+    end
 
-      system('unzip', '-j', apk_path, *paths, '-d', app_data_path) || begin
+    def unzip_apk *paths
+      unzip(apk_path, paths) || begin
         puts "Removing bogus #{apk_path}..."
         FileUtils.rm_r(data_path(version))
         false
       end
+    end
+
+    def unzip zip_path, paths
+      system('unzip', '-j', zip_path, *paths, '-d', app_data_path)
     end
 
     def each_list dir=nil

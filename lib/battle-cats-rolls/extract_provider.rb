@@ -3,6 +3,7 @@
 require_relative 'provider'
 
 module BattleCatsRolls
+  # Note that this does not load ImageDataServer_*.pack files
   class ExtractProvider < Struct.new(:dir)
     def gacha
       @gacha ||= File.binread("#{dir}/DataLocal.pack/GatyaDataSetR1.csv")
