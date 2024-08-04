@@ -321,10 +321,6 @@ module BattleCatsRolls
         url) || raise('wget gave an error')
     end
 
-    def open_uri uri
-      URI.open(URI.parse(uri), 'User-Agent' => 'Mozilla/5.0')
-    end
-
     def last_date items
       items.sort_by { |_, data| data['end_on'] }.
         dig(-1, -1, 'end_on').
