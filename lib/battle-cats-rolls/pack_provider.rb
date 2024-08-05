@@ -14,7 +14,7 @@ module BattleCatsRolls
           PackReader.new(lang, "#{dir}/#{list}")
         end
 
-      server_readers = Dir["#{dir}/ImageDataServer_*.list"].map do |list|
+      server_readers = Dir["#{dir}/ImageDataServer_*.list"].sort.map do |list|
         PackReader.new(lang, list)
       end
 
@@ -46,23 +46,16 @@ module BattleCatsRolls
     end
 
     def attack_maanims
-      @attack_maanims ||= local_maanims.merge(server_maanims)
+      @attack_maanims ||= server_animation_readers.
+        inject(load_maanims(local_animation_reader)) do |result, reader|
+          load_maanims(reader, result)
+        end
     end
 
-    def local_maanims
-      load_maanims(local_animation_reader)
-    end
-
-    def server_maanims
-      server_animation_readers.inject({}) do |result, reader|
-        result.merge(load_maanims(reader))
-      end
-    end
-
-    def load_maanims reader
+    def load_maanims reader, init={}
       reader.list_lines.
         grep(/\A\d+_[#{Provider.forms.join}]02\.maanim,\d+,\d+$/).
-        inject({}) do |result, line|
+        inject(init) do |result, line|
           filename, maanim = reader.read_eagerly(line)
           id, form_index =
             Provider.extract_id_and_form_from_maanim_path(filename)
