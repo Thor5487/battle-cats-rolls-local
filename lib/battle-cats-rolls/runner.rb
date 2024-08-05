@@ -367,7 +367,7 @@ module BattleCatsRolls
         FileUtils.rmdir("#{app_data_path}/#{apk_id}", verbose: true)
         FileUtils.rmdir(app_data_path, verbose: true)
       else
-        raise(VersionNotFound.new("apksos has invalid apk for #{vesion}"))
+        raise(VersionNotFound.new("apksos has invalid apk for #{version}"))
       end
     end
 
