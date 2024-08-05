@@ -214,6 +214,7 @@ module BattleCatsRolls
       %w[
         https://www.apkmonk.com/app/%{id}/
         https://apksos.com/app/%{id}
+        https://d.apkpure.com/b/XAPK/%{id}
         https://d.apkpure.com/b/APK/%{id}
       ].find do |template|
         download_apk_from(sprintf(template, id: apk_id))
@@ -230,6 +231,9 @@ module BattleCatsRolls
       when %r{apksos\.com/app}
         wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
         extract_sos_bundle
+      when %r{apkpure\.com/b/XAPK}
+        wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
+        extract_apkpure_bundle
       when %r{apkpure\.com/b/APK}
         wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
       else
@@ -359,15 +363,21 @@ module BattleCatsRolls
     end
 
     def extract_sos_bundle
-      path = "#{apk_id}/InstallPack*.apk"
+      extract_xapk("#{apk_id}/InstallPack*.apk")
+    end
 
+    def extract_apkpure_bundle
+      extract_xapk('InstallPack.apk')
+    end
+
+    def extract_xapk path
       if unzip_apk(path)
         actual_apk_path = Dir["#{app_data_path}/#{path}"].first
         FileUtils.mv(actual_apk_path, apk_path, verbose: true)
-        FileUtils.rmdir("#{app_data_path}/#{apk_id}", verbose: true)
+        FileUtils.rmdir("#{app_data_path}/#{path[%r{^\w+(?=/)}]}", verbose: true)
         FileUtils.rmdir(app_data_path, verbose: true)
       else
-        raise(VersionNotFound.new("apksos has invalid apk for #{version}"))
+        raise(VersionNotFound.new("Invalid XAPK for #{version}"))
       end
     end
 
