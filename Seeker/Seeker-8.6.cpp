@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include <stdint.h>
+
 //I need some global variables for making this work
 using namespace std; //this isn't a variable but it gets the code shorter
 typedef unsigned int seet_t;
