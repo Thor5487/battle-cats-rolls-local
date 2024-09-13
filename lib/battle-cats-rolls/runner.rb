@@ -13,7 +13,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         'en',
-        '13.5.0',
+        '13.6.0',
         'jp.co.ponos.battlecatsen'
       ]
     end
@@ -21,7 +21,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '13.5.0',
+        '13.6.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
@@ -37,7 +37,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         'kr',
-        '13.5.0',
+        '13.6.0',
         'jp.co.ponos.battlecatskr'
       ]
     end
@@ -372,9 +372,8 @@ module BattleCatsRolls
 
     def extract_xapk path
       if unzip_apk(path)
-        actual_apk_path = Dir["#{app_data_path}/#{path}"].first
+        actual_apk_path = Dir["#{app_data_path}/#{File.basename(path)}"].first
         FileUtils.mv(actual_apk_path, apk_path, verbose: true)
-        FileUtils.rmdir("#{app_data_path}/#{path[%r{^\w+(?=/)}]}", verbose: true)
         FileUtils.rmdir(app_data_path, verbose: true)
       else
         raise(VersionNotFound.new("Invalid XAPK for #{version}"))
