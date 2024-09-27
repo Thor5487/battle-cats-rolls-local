@@ -26313,3 +26313,101 @@ events:
     supa: 2500
     uber: 1000
     legend: 30
+  2024-09-30_823:
+    start_on: 2024-09-30
+    end_on: 2024-10-02
+    version: '130600'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 823
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-02_798:
+    start_on: 2024-10-02
+    end_on: 2024-10-04
+    version: '130600'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-04_855:
+    start_on: 2024-10-04
+    end_on: 2024-10-08
+    version: '130600'
+    name: '10 Year Celebration: Excellent Selection! ★ Tap banner for info!'
+    id: 855
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-04_868:
+    start_on: 2024-10-04
+    end_on: 2024-10-07
+    version: '130600'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 868
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-07_811:
+    start_on: 2024-10-07
+    end_on: 2024-10-09
+    version: '130602'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-08_853:
+    start_on: 2024-10-08
+    end_on: 2024-10-11
+    version: '130602'
+    name: '10 Year Celebration: Ultra Selection! ★ Tap banner for info!'
+    id: 853
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-09_741:
+    start_on: 2024-10-09
+    end_on: 2024-10-11
+    version: '130602'
+    name: Colossus Slayer Cat Tengu joins the fight! Tap banner for info!
+    id: 741
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-09_856:
+    start_on: 2024-10-09
+    end_on: 2024-10-17
+    version: '130602'
+    name: Units from Busters sets join forces! ★ Uber Rare drop rates UP!
+    id: 856
+    rare: 6800
+    supa: 2500
+    uber: 700
+  2024-10-11_835:
+    start_on: 2024-10-11
+    end_on: 2024-10-14
+    version: '130602'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 835
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-10-11_852:
+    start_on: 2024-10-11
+    end_on: 2024-10-14
+    version: '130602'
+    name: New Heroes appear to celebrate 10 Years! ★ Tap banner for info!
+    id: 852
+    rare: 7000
+    supa: 2500
+    uber: 500
