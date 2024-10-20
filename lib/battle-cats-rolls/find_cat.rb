@@ -31,7 +31,8 @@ module BattleCatsRolls
         658, # "Iz the Dancer of Grief",
         687, # "Goddess of Light Sirius",
         691, # "Child of Destiny Phono",
-        706, # "非命の王フォノウ",
+        706, # "King of Doom Phono",
+        759, # "Trixi the Merc",
       ].freeze
     end
 
