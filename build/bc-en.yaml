@@ -1602,7 +1602,7 @@ cats:
   112:
     name: [Nono, Nono CC]
     desc: ["Joining the fight from Merc Storia!\nA gentle and naive young lady.\nTough vs Black enemies.", "Joining the fight from Merc Storia!\nDon't be fooled, her tail is incredibly powerful!\nTough vs Black enemies."]
-    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, against_black: 1, resistant: 1, attack_duration: 66}]
+    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -2164,9 +2164,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   159:
-    name: [Uesugi Kenshin, Wargod Kenshin, Immortal Kenshin]
-    desc: ["Transformed into a dragon through the cursed\nmagic of the Nyanko Engine. (Area attack)\nStrong + 100% knockback against Black.", "Deciding to fully fuse with the Nyanko Engine,\nthe great general gave in to darkness. (Area att.)\nStrong + 100% knockback against Black.", "Totally consumed by corruption. The only emotion\nremaining is the will to destruction. (Area Attacks)\nStrong vs + 100% knockback against Black."]
-    stat: [{health: 2780, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 955, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 3340, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 4460, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2300, attack_cooldown: 47, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}]
+    name: [Uesugi Kenshin, Wargod Kenshin, Immortal Kenshin, Hellrider Kenshin]
+    desc: ["Transformed into a dragon through the cursed\nmagic of the Nyanko Engine. (Area attack)\nStrong + 100% knockback against Black.", "Deciding to fully fuse with the Nyanko Engine,\nthe great general gave in to darkness. (Area att.)\nStrong + 100% knockback against Black.", "Totally consumed by corruption. The only emotion\nremaining is the will to destruction. (Area Attacks)\nStrong vs + 100% knockback against Black.", "Erupts with a burning passion for slaughter. Nothing is\nleft in her wake after her charge into battle. Strong vs.\nBlack. Area attacks have Knockback and Mini-Waves."]
+    stat: [{health: 2780, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 955, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 3340, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 4460, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2300, attack_cooldown: 47, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 5000, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2100, attack_cooldown: 47, range: 445, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, wave_chance: 100, wave_level: 4, wave_mini: 1, attack_duration: 87}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2301,6 +2301,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[14, 50]]
+      weaken:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   173:
     name: [Li'l Nyandam, Dark Emperor Catdam, Schoolbus Nyandam]
     desc: ["A quantum blip transformed Nyandam into a toddler\nwith a super old face. Creeps everyone out, for real.\nSometimes slows enemies (Area Attack)", "Since rescuing a kitten from the drain of the\nschool pool, it follows him to school each day.\nSometimes slows enemies (Area Attack)", "His nature won out and now he rules the\nkindergarten with an iron fist. ALL WILL KNEEL.\nSometimes slows enemies (Area Attack)"]
@@ -2536,6 +2552,12 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      against_angel:
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[5, 50], [60, 60]]
+        ultra: 1
   197:
     name: [Catman, Dark Catman, Ultimate Catman]
     desc: ["Wears a special suit that blocks all UV light,\nbut it can't stop the papparazzi from following…\nMassive area damage against Floating/Aliens.", "Became a monster to fight the terrors of the night.\nStill, weak to autograph requests from nice old ladies.\nMassive area damage against Angels/Aliens.", "Gave in and took a three-movie deal to afford a\nhigh-tech suit powered by the fear of evildoers.\nMassive Area damage to Aliens and Relics."]
@@ -2761,85 +2783,85 @@ cats:
     growth: [20, 20, 20, 20, 20]
   215:
     name: [HYAKUTARO, HYAKUTARO CC]
-    desc: ["Recruited from Metal Slug Defense!\nAn elite commando masked as a typical POW\nMight survive lethal attacks. (Area Atk)", "Recruited from Metal Slug Defense!\nLays down cover fire for the Cats with gas\nbombs. Might survive lethal attacks. (Area Atk)"]
+    desc: ["Recruited from the Metal Slug series!\nAn elite commando masked as a typical POW\nMight survive lethal attacks. (Area Atk)", "Recruited from the Metal Slug series!\nLays down cover fire for the Cats with gas\nbombs. Might survive lethal attacks. (Area Atk)"]
     stat: [{health: 480, knockbacks: 2, speed: 12, cost: 300, production_cooldown: 200, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 39, survive_chance: 50, attack_duration: 66}, {health: 480, knockbacks: 2, speed: 12, cost: 300, production_cooldown: 200, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 39, survive_chance: 50, attack_duration: 66}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   216:
     name: [MARCO, MARCO CC]
-    desc: ["Recruited from Metal Slug Defense!\nThis major excels at programming recruits.\nMight temporarily freeze Aliens.", "Recruited from Metal Slug Defense!\nA top intel officer who lets loose with artillery.\nMight temporarily freeze Aliens."]
+    desc: ["Recruited from the Metal Slug series!\nThis major excels at programming recruits.\nMight temporarily freeze Aliens.", "Recruited from the Metal Slug series!\nA top intel officer who lets loose with artillery.\nMight temporarily freeze Aliens."]
     stat: [{health: 185, knockbacks: 3, speed: 9, cost: 660, production_cooldown: 300, attack_cooldown: 29, range: 330, width: 320, damage_0: 65, attack_time_0: 2, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 37}, {health: 248, knockbacks: 3, speed: 9, cost: 660, production_cooldown: 300, attack_cooldown: 29, range: 330, width: 320, damage_0: 92, attack_time_0: 2, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 37}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   217:
     name: [TARMA, TARMA CC]
-    desc: ["Recruited from Metal Slug Defense!\nThis captain takes pride in his trademark shades.\nMight knockback Aliens (Area Atk)", "Recruited from Metal Slug Defense!\nMaster of the shotgun, Marco's best friend.\nMight knockback Aliens (Area Atk)"]
+    desc: ["Recruited from the Metal Slug series!\nThis captain takes pride in his trademark shades.\nMight knockback Aliens (Area Atk)", "Recruited from the Metal Slug series!\nMaster of the shotgun, Marco's best friend.\nMight knockback Aliens (Area Atk)"]
     stat: [{health: 270, knockbacks: 3, speed: 9, cost: 665, production_cooldown: 300, attack_cooldown: 59, range: 315, width: 320, area_effect: 1, damage_0: 51, attack_time_0: 2, against_alien: 1, knockback_chance: 30, attack_duration: 45}, {health: 320, knockbacks: 3, speed: 9, cost: 665, production_cooldown: 300, attack_cooldown: 59, range: 315, width: 320, area_effect: 1, damage_0: 73, attack_time_0: 2, against_alien: 1, knockback_chance: 30, attack_duration: 45}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   218:
     name: [ERI, ERI CC]
-    desc: ["Recruited from Metal Slug Defense!\nStaff sergeant in the Intel division.\nMight cause massive damage to Aliens (Area Atk)", "Recruited from Metal Slug Defense!\nDemolitions, survival, spying - she's mastered it all!\nMight cause massive damage to Aliens (Area Atk)"]
+    desc: ["Recruited from the Metal Slug series!\nStaff sergeant in the Intel division.\nMight cause massive damage to Aliens (Area Atk)", "Recruited from the Metal Slug series!\nDemolitions, survival, spying - she's mastered it all!\nMight cause massive damage to Aliens (Area Atk)"]
     stat: [{health: 500, knockbacks: 3, speed: 10, cost: 665, production_cooldown: 300, attack_cooldown: 12, range: 170, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 6, against_alien: 1, massive_damage: 1, attack_duration: 20}, {health: 650, knockbacks: 3, speed: 10, cost: 665, production_cooldown: 300, attack_cooldown: 12, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 6, against_alien: 1, massive_damage: 1, attack_duration: 20}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   219:
     name: [FIO, FIO CC]
-    desc: ["Recruited from Metal Slug Defense!\nA demure yet naïve Sgt. Major in the intel\ndivision. Might slow Aliens.", "Recruited from Metal Slug Defense!\nEasygoing and genuine, a crackshot with\nhandguns. Might slow Aliens."]
+    desc: ["Recruited from the Metal Slug series!\nA demure yet naïve Sgt. Major in the intel\ndivision. Might slow Aliens.", "Recruited from the Metal Slug series!\nEasygoing and genuine, a crackshot with\nhandguns. Might slow Aliens."]
     stat: [{health: 179, knockbacks: 3, speed: 10, cost: 660, production_cooldown: 300, attack_cooldown: 26, range: 330, width: 320, damage_0: 60, attack_time_0: 4, against_alien: 1, slow_chance: 20, slow_duration: 60, attack_duration: 24}, {health: 230, knockbacks: 3, speed: 10, cost: 660, production_cooldown: 300, attack_cooldown: 26, range: 330, width: 320, damage_0: 85, attack_time_0: 4, against_alien: 1, slow_chance: 20, slow_duration: 60, attack_duration: 24}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   220:
     name: [SV-001, SV-001 CC]
-    desc: ["Recruited from Metal Slug Defense!\nA small, high-performance single-\npassenger tank. (Area Atk)", "Recruited from Metal Slug Defense!\nBattle-tested model with superior\nmobility and firepower. (Area Atk)"]
+    desc: ["Recruited from the Metal Slug series!\nA small, high-performance single-\npassenger tank. (Area Atk)", "Recruited from the Metal Slug series!\nBattle-tested model with superior\nmobility and firepower. (Area Atk)"]
     stat: [{health: 560, knockbacks: 3, speed: 15, cost: 910, production_cooldown: 340, attack_cooldown: 25, range: 355, width: 320, area_effect: 1, damage_0: 152, attack_time_0: 15, attack_duration: 27}, {health: 680, knockbacks: 3, speed: 15, cost: 910, production_cooldown: 340, attack_cooldown: 25, range: 355, width: 320, area_effect: 1, damage_0: 214, attack_time_0: 15, attack_duration: 27}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   221:
     name: [ALLEN O'NEIL, ALLEN O'NEIL CC]
-    desc: ["Recruited from Metal Slug Defense!\nFeared by allies and foes alike as the\n\"Demon Sergeant\" Survives one lethal strike.", "Recruited from Metal Slug Defense!\nShirtless even in subzero temperatures.\nSurvives one lethal strike."]
+    desc: ["Recruited from the Metal Slug series!\nFeared by allies and foes alike as the\n\"Demon Sergeant\" Survives one lethal strike.", "Recruited from the Metal Slug series!\nShirtless even in subzero temperatures.\nSurvives one lethal strike."]
     stat: [{health: 1000, knockbacks: 2, speed: 10, cost: 1050, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 300, attack_time_0: 1, survive_chance: 100, attack_duration: 105}, {health: 1125, knockbacks: 2, speed: 10, cost: 1050, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 342, attack_time_0: 1, survive_chance: 100, attack_duration: 105}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   222:
     name: [MARS PEOPLE, MARS PEOPLE CC]
-    desc: ["Recruited from Metal Slug Defense!\nYep, they're actual Martians.\nMight weaken Aliens.", "Recruited from Metal Slug Defense!\nMastered warping. No motivation to try\nnow, though. Might weaken Aliens."]
+    desc: ["Recruited from the Metal Slug series!\nYep, they're actual Martians.\nMight weaken Aliens.", "Recruited from the Metal Slug series!\nMastered warping. No motivation to try\nnow, though. Might weaken Aliens."]
     stat: [{health: 455, knockbacks: 3, speed: 8, cost: 660, production_cooldown: 310, range: 310, width: 320, damage_0: 47, attack_time_0: 77, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 95}, {health: 566, knockbacks: 3, speed: 8, cost: 660, production_cooldown: 310, range: 310, width: 320, damage_0: 60, attack_time_0: 77, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 95}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   223:
-    name: [HUGE HERMIT, HUGE HERMIT CC]
-    desc: ["Recruited from Metal Slug Defense!\nGiant crab that uses tank wreckage to attack.\nStrong against Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nTerrifying claws wade towards the beachhead!\nStrong against Aliens. (Area Atk)"]
-    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}]
+    name: [HUGE HERMIT, HUGE HERMIT CC, GOLDEN HUGE HERMIT CC]
+    desc: ["Recruited from the Metal Slug series!\nGiant crab that uses tank wreckage to attack.\nStrong against Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nTerrifying claws wade towards the beachhead!\nStrong against Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nMutated after mistakenly ingesting a weapon.\nStrong against Black and Aliens, with Area attack."]
+    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 4333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_black: 1, against_alien: 1, strong: 1, immune_warp: 1, attack_duration: 10}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   224:
-    name: [JUPITER KING, JUPITER KING CC]
-    desc: ["Recruited from Metal Slug Defense!\nA robotic guardian who patrols secret factories.\nMight knockback + slow Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nFires lasers powerful enough to vaporize all matter.\nMight knockback + slow Aliens. (Area Atk)"]
-    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}]
+    name: [JUPITER KING, JUPITER KING CC, GOLDEN JUPITER CC]
+    desc: ["Recruited from the Metal Slug series!\nA robotic guardian who patrols secret factories.\nMight knockback + slow Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nFires lasers powerful enough to vaporize all matter.\nMight knockback + slow Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nFires powerful lasers from its shining golden body.\nSurge Area Attacks might Knockback & Slow Aliens."]
+    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 8100, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, break_barrier_chance: 100, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 65}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   225:
-    name: [DONALD MORDEN, GENERAL MORDEN]
-    desc: ["Recruited from Metal Slug Defense!\nA charismatic ex-general plotting a coup.\nKnockback + resistant to Aliens. (Area Atk)", "Recruited from Metal Slug Defense!\nFights corruption with rocket launcher in hand.\nKnockback + resistant to Aliens. (Area Atk)"]
-    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
+    name: [DONALD MORDEN, GENERAL MORDEN, GOLDEN MORDEN CC]
+    desc: ["Recruited from the Metal Slug series!\nA charismatic ex-general plotting a coup.\nKnockback + resistant to Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nFights corruption with rocket launcher in hand.\nKnockback + resistant to Aliens. (Area Atk)", "Recruited from the Metal Slug series!\nBrilliant gold version of Morden's much-loved tank.\nTough vs. Traitless and Aliens, with Area Attack."]
+    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, against_white: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   226:
-    name: [HI-DO, HI-DO CC]
-    desc: ["Recruited from Metal Slug Defense!\nLarge bomber copter used by the Morden Army.\nMight knockback + Strong def. vs Floating. (Area Atk)", "Recruited from Metal Slug Defense!\nA fighter used to ensure the safety of VIPs.\nMight knockback + Strong def. vs Floating. (Area Atk)"]
-    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}]
+    name: [HI-DO, HI-DO CC, HI-DO MK III]
+    desc: ["Recruited from the Metal Slug series!\nLarge bomber copter used by the Morden Army.\nMight knockback + Strong def. vs Floating. (Area Atk)", "Recruited from the Metal Slug series!\nA fighter used to ensure the safety of VIPs.\nMight knockback + Strong def. vs Floating. (Area Atk)", "Recruited from the Metal Slug series!\nCreated to endure many concentrated strikes.\nMight knockback + Strong def. vs Floating. (Area Atk)"]
+    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4950, knockbacks: 3, speed: 14, cost: 2350, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 2041, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 88}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3473,9 +3495,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   304:
-    name: [Food Stall Cat, Delivery Cat]
-    desc: ["Planning to corner the grilled calamari market.\nForgot to pay taxes, so now business takes\nplace on the run. Massive damage vs Angels.", "Brings gifts from the Cat God for you! Of\ncourse, its all cash-on-delivery. Best pay up or\nrisk divine wrath. Massive damage vs Angels."]
-    stat: [{health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, against_angel: 1, massive_damage: 1, attack_duration: 82}]
+    name: [Food Stall Cat, Delivery Cat, Cafeteria Cat]
+    desc: ["Planning to corner the grilled calamari market.\nForgot to pay taxes, so now business takes\nplace on the run. Massive damage vs Angels.", "Brings gifts from the Cat God for you! Of\ncourse, its all cash-on-delivery. Best pay up or\nrisk divine wrath. Massive damage vs Angels.", "Washes their hands and disinfects to perfection.\nDelivers school lunches directly to students without fail.\nDeals Massive damage to Angels and might Curse."]
+    stat: [{health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 1000, knockbacks: 4, speed: 25, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 220, width: 320, damage_0: 620, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, curse_chance: 50, curse_duration: 90, immune_curse: 1, attack_duration: 82}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5776,9 +5798,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   569:
-    name: ['Idi:N', 'Idi:N2']
-    desc: ["Mystery lifeform that seems to be analyzing \nthe Cats. No one knows why it has joined\ntheir army. Massive Area damage to Relics.", "Appears out of nowhere to perform scans\nof powerful Cats. Its mission is still unknown.\nMassive Area damage to Relics."]
-    stat: [{health: 1200, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 2800, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1500, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}]
+    name: ['Idi:N', 'Idi:N2', 'Idi:NX']
+    desc: ["Mystery lifeform that seems to be analyzing \nthe Cats. No one knows why it has joined\ntheir army. Massive Area damage to Relics.", "Appears out of nowhere to perform scans\nof powerful Cats. Its mission is still unknown.\nMassive Area damage to Relics.", "Whimsical lifeform subjected to dramatic \ntransformation. Sage Slayer, deals Insane Area\ndamage to Relics. Immune to Explosions."]
+    stat: [{health: 1200, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 2800, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1500, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1800, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, insane_damage: 1, sage_slayer: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5789,6 +5811,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      immune_knockback:
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   571:
     name: [Skull Rider Vars, Nightmare King Vars, Halloween Knight Vars]
     desc: ["A long-dead dragon lord who made a pact with a\nskeletal beast to gain vast power (and lots of candy)\nArea Attacks Slow & Knockback Aliens/Zombies.", "Specter of a dragon lord who appears screaming\nthrough the skies on moonless Halloween nights.\nArea Attacks Slow & Knockback Aliens/Zombies.", "A black knight in service of the king of Halloween.\nUnquestioningly nabs unhealthy candy from passersby.\n100% Knockback/Slow vs Zombies and Aliens."]
@@ -6302,9 +6335,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   650:
-    name: [Hattori Hanzo, Wargod Hanzo]
-    desc: ["Ninja transformed into a panther by a cursed iaito. One\nswift strike, and the mission is complete. Colossus\nSlayer, Massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who cuts down targets with godspeed, \nunleashing the power of his cursed blade. Colossus\nSlayer, massive damage to Black/Floating, 100% Freeze."]
-    stat: [{health: 3000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 850, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 30, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 3600, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 50, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}]
+    name: [Hattori Hanzo, Wargod Hanzo, Immortal Hanzo]
+    desc: ["Ninja transformed into a panther by a cursed iaito. One\nswift strike, and the mission is complete. Colossus\nSlayer, Massive damage to Black/Floating, 100% Freeze.", "Peerless assassin who cuts down targets with godspeed, \nunleashing the power of his cursed blade. Colossus\nSlayer, massive damage to Black/Floating, 100% Freeze.", "The hellfire which spews from his cursed blade can\nturn entire armies to ash in one strike. Colossus Slayer,\ndeals Massive damage to Floating, Black, 100% Freeze."]
+    stat: [{health: 3000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 850, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 30, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 3600, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 50, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 4000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1350, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 60, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6540,9 +6573,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   684:
-    name: [Count Yukimura, Nosferatu Yukimura]
-    desc: ["A dark warrior celebrated in festivals abroad.\nStalks from the shadows and delivers swift, fatal blows.\nMassive dmg to Floating, rarely Survives deadly hits.", "Warrior-turned-vampire thanks to a Halloween miracle.\nUses its sharp claws to protect the sanctity of Oct. 31.\nMassive dmg to Floating, rarely Survives deadly hits."]
-    stat: [{health: 1350, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, damage_1: 150, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1875, attack_time_0: 1, trigger_effects_0: 1, damage_1: 187, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}]
+    name: [Count Yukimura, Nosferatu Yukimura, Vampiric Yukimura]
+    desc: ["A dark warrior celebrated in festivals abroad.\nStalks from the shadows and delivers swift, fatal blows.\nMassive dmg to Floating, rarely Survives deadly hits.", "Warrior-turned-vampire thanks to a Halloween miracle.\nUses its sharp claws to protect the sanctity of Oct. 31.\nMassive dmg to Floating, rarely Survives deadly hits.", "Warrior vampire and lord of the starless night. Each\nevil being vanquished deepens his deep red aura.\nMassive dmg to Floating, 100% Survives lethal hits."]
+    stat: [{health: 1350, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, damage_1: 150, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1875, attack_time_0: 1, trigger_effects_0: 1, damage_1: 187, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 80, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 2150, attack_time_0: 1, trigger_effects_0: 1, damage_1: 215, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 100, attack_duration: 136}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6812,6 +6845,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  728:
+    name: [SOL DAE ROKKER, SOL DAE ROKKER CC]
+    desc: ["Recruited from the Metal Slug series!\nA mysterious being that guards ruins atop a tower.\nOmnistrikes deal Massive dmg to Red, Angels, Aliens.", "Recruited from the Metal Slug series!\nIncinerates intruders with white-hot flames.\nOmnistrikes deal Massive dmg to Red, Angels, Aliens."]
+    stat: [{health: 4100, knockbacks: 3, speed: 16, cost: 2950, production_cooldown: 1800, attack_cooldown: 63, range: 400, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 450, long_range_offset_0: -600, attack_time_0: 88, trigger_effects_0: 1, damage_1: 1100, long_range_1: 300, long_range_offset_1: -600, attack_time_1: 106, trigger_effects_1: 1, damage_2: 1100, long_range_2: 1, long_range_offset_2: -600, attack_time_2: 124, trigger_effects_2: 1, against_red: 1, against_angel: 1, against_alien: 1, massive_damage: 1, colossus_slayer: 1, attack_duration: 204}, {health: 5400, knockbacks: 3, speed: 16, cost: 2950, production_cooldown: 1800, attack_cooldown: 63, range: 400, width: 320, area_effect: 1, damage_0: 1500, long_range_0: 450, long_range_offset_0: -600, attack_time_0: 88, trigger_effects_0: 1, damage_1: 1500, long_range_1: 300, long_range_offset_1: -600, attack_time_1: 106, trigger_effects_1: 1, damage_2: 1500, long_range_2: 1, long_range_offset_2: -600, attack_time_2: 124, trigger_effects_2: 1, against_red: 1, against_angel: 1, against_alien: 1, massive_damage: 1, colossus_slayer: 1, attack_duration: 204}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   729:
     name: [Master of Mind Soractes, Master of Mind Catcrates]
     desc: ["Great thinker of the Cat Army, deeply interested in\nCat ethics and the feline life's purpose. Sage Slayer.\nConjurer. Omnistrikes sometimes Freeze Angels.", "While reflecting on the nature of Cats, realized that \nthe essence of Cat is within him as well. Sage Slayer.\nConjurer. Omnistrikes sometimes Freeze Angels."]
@@ -7017,7 +7057,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20]
   759:
     name: [Trixi the Merc, Trixi the Revenant]
-    desc: ["Notorious sword-for-hire wielding a Muranyasa \ncharged blade, known to be Strong vs Relics, Zombies\nand Traitless, and with Area Attacks that might Freeze.", "Betrayed by her crew and left in a coma for 10 years,\nnow hellbent on revenge. Strong vs Relics, Zombies\nand Traitless, with Area Attacks that might Freeze."]
+    desc: ["Notorious sword-for-hire wielding a Muranyasa \ncharged blade, known to be Strong vs Relics, Alien\nand Traitless, and with Area Attacks that might Freeze.", "Betrayed by her crew and left in a coma for 10 years,\nnow hellbent on revenge. Strong vs Relics, Alien\nand Traitless, with Area Attacks that might Freeze."]
     stat: [{health: 4800, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 1500, range: 280, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 3, trigger_effects_0: 1, damage_1: 80, attack_time_1: 6, trigger_effects_1: 1, damage_2: 80, attack_time_2: 9, trigger_effects_2: 1, against_alien: 1, against_relic: 1, against_white: 1, strong: 1, freeze_chance: 50, freeze_duration: 10, immune_warp: 1, immune_slow: 1, immune_curse: 1, attack_duration: 16}, {health: 6000, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 1500, range: 280, width: 320, area_effect: 1, damage_0: 95, attack_time_0: 3, trigger_effects_0: 1, damage_1: 95, attack_time_1: 6, trigger_effects_1: 1, damage_2: 95, attack_time_2: 9, trigger_effects_2: 1, against_alien: 1, against_relic: 1, against_white: 1, strong: 1, freeze_chance: 50, freeze_duration: 10, immune_warp: 1, immune_slow: 1, immune_curse: 1, attack_duration: 16}]
     rarity: 4
     max_level: 130
@@ -7071,6 +7111,41 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  770:
+    name: [Hanasaka Cat, Ravenous Cherry]
+    desc: ["Learned the value of life caring for a beloved dog.\nWields magics causing colossal flowers to bloom.\nOmnistrike. Tough vs. Angels and Zombies.", "Consumed the unknown nutrient POCH-1, inflicting it\nwith an unending appetite. Devours anything in its path.\nConjurer, Tough vs. Angels and Zombies (Omnistrike)"]
+    stat: [{health: 1330, knockbacks: 1, speed: 8, cost: 510, production_cooldown: 270, attack_cooldown: 55, range: 160, width: 320, area_effect: 1, damage_0: 230, long_range_0: 160, long_range_offset_0: -160, attack_time_0: 30, trigger_effects_0: 1, damage_1: 230, long_range_1: -160, long_range_offset_1: 160, attack_time_1: 50, trigger_effects_1: 1, damage_2: 650, long_range_2: 160, long_range_offset_2: -320, attack_time_2: 100, against_angel: 1, against_zombie: 1, resistant: 1, freeze_chance: 30, freeze_duration: 60, zombie_killer: 1, attack_duration: 148}, {health: 12800, knockbacks: 2, speed: 8, cost: 3200, production_cooldown: 2200, attack_cooldown: 55, range: 230, width: 320, area_effect: 1, damage_0: 410, long_range_0: 230, long_range_offset_0: -230, attack_time_0: 30, trigger_effects_0: 1, damage_1: 410, long_range_1: -230, long_range_offset_1: 230, attack_time_1: 50, trigger_effects_1: 1, damage_2: 1180, long_range_2: 230, long_range_offset_2: -460, attack_time_2: 100, against_angel: 1, against_zombie: 1, resistant: 1, freeze_chance: 50, freeze_duration: 90, zombie_killer: 1, conjure: 771, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  771:
+    name: [771-1]
+    desc: ['Spirit: Weakens and deals Knockback']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  772:
+    name: [Master of Life Dr. Nova, Master of Life Catnova]
+    desc: ["Researcher travelling with the Cat Army to gain insight\ninto Catkind. Sage Slayer, Slows and might Curse\nTraited with Long-range Area Explosive attacks.", "Genius researcher wishing to see Cats in all walks of\nlife, from companies to schools. Sage Slayer, Slows \nand might Curse Traited, unleashes Explosions."]
+    stat: [{health: 5300, knockbacks: 4, speed: 7, cost: 3300, production_cooldown: 2100, attack_cooldown: 80, range: 350, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 250, long_range_offset_0: 300, attack_time_0: 60, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 100, curse_chance: 30, curse_duration: 120, sage_slayer: 1, immune_curse: 1, attack_duration: 130}, {health: 6100, knockbacks: 4, speed: 7, cost: 3300, production_cooldown: 2100, attack_cooldown: 80, range: 350, width: 320, area_effect: 1, damage_0: 1300, long_range_0: 250, long_range_offset_0: 300, attack_time_0: 60, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 100, curse_chance: 30, curse_duration: 120, sage_slayer: 1, immune_curse: 1, attack_duration: 130}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  773:
+    name: [Pumpkin Sodom, Sodom-o'-Lantern]
+    desc: ["Legendary dragon sealed in a pumpkin patch. On\nHalloween, the seal is broken, and the beast roams\nfree. Metal Killer, Tough vs. Metal, may Knockback (area)", "Dragon given life thanks to spirits of the dead. \nUnleashes destructive attacks on foes. Metal Killer, \nTough vs. Metal, Area attacks may Knockback."]
+    stat: [{health: 5950, knockbacks: 2, speed: 3, cost: 4300, production_cooldown: 2100, attack_cooldown: 175, range: 390, width: 320, area_effect: 1, damage_0: 4345, attack_time_0: 65, trigger_effects_0: 1, against_metal: 1, resistant: 1, knockback_chance: 50, immune_wave: 1, attack_duration: 130}, {health: 6450, knockbacks: 2, speed: 3, cost: 4300, production_cooldown: 2100, attack_cooldown: 175, range: 390, width: 320, area_effect: 1, damage_0: 4345, attack_time_0: 65, trigger_effects_0: 1, against_metal: 1, resistant: 1, knockback_chance: 75, immune_wave: 1, attack_duration: 130}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  774:
+    name: [Mummy Sumo, Mama Mummy Sumo]
+    desc: ["Wrestler who snuck out for Halloween. Gathered\nup the town's candy to pump up their mass for an\nedge in the ring. Tough vs. Floating/Black (Area Atk.)", "A most maternal Cat who gives out candy during\nHalloween. Her girth cannot be contained by simple\nwrapping. Tough vs. Floating/Black (Area Attack)"]
+    stat: [{health: 1900, knockbacks: 2, speed: 14, cost: 800, production_cooldown: 290, attack_cooldown: 3, range: 110, width: 320, area_effect: 1, damage_0: 40, attack_time_0: 12, trigger_effects_0: 1, damage_1: 40, attack_time_1: 20, trigger_effects_1: 1, damage_2: 40, attack_time_2: 28, trigger_effects_2: 1, against_float: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 36}, {health: 2150, knockbacks: 2, speed: 14, cost: 800, production_cooldown: 290, attack_cooldown: 3, range: 110, width: 320, area_effect: 1, damage_0: 40, attack_time_0: 12, trigger_effects_0: 1, damage_1: 40, attack_time_1: 20, trigger_effects_1: 1, damage_2: 40, attack_time_2: 28, trigger_effects_2: 1, against_float: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 36}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11356,6 +11431,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Limited Valentines capsules, with a NEW True Form for Sweet Love Mekako!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -11368,6 +11445,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: Fate/stay night [Heaven's Feel] Collab Event! ★ Tap the banner for info!
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -12022,6 +12101,76 @@ gacha:
     name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
     rate: no_legend
     similarity: 97
+  916:
+    cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 6
+    name: Mighty new hero "Issun Boshi" joins the ancient heroes! ★ Tap banner for info!
+    rate: regular
+    similarity: 98
+  917:
+    cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 6
+    name: Mighty new hero "Issun Boshi" joins the ancient heroes! ★ Tap banner for info!
+    rate: regular
+    similarity: 98
+  918:
+    cats: [770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    rate: uberfest_legend
+    similarity: 99
+  919:
+    cats: [770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    rate: uberfest_legend
+    similarity: 99
+  920:
+    cats: [770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 98
+  921:
+    cats: [770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  922:
+    cats: [773, 684, 230, 231, 303, 571, 774, 774, 774, 229, 229, 229, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 8
+    name: Limited Halloween Units! Get spooky special editions of Uber Cats!
+    rate: no_legend
+  923:
+    cats: [760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    rate: dynastyfest
+    similarity: 95
+  924:
+    cats: [178, 620, 213, 317, 402, 138, 619, 626, 669, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 58
+    name: Pick up mighty teammates to fight by your side in a River City Clash!
+    rate: no_legend
+    similarity: 89
+  925:
+    cats: [769, 507, 347, 346, 345, 191, 190, 189, 188, 187, 186, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+    series_id: 13
+    name: Limited Ed. Capsules with ONLY Merc Storia heroes!
+    rate: no_legend
+    similarity: 95
+  926:
+    cats: [773, 684, 230, 231, 303, 571, 774, 229, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 8
+    name: Limited Halloween Units! Get spooky special editions of Uber Cats!
+    rate: no_legend
+  927:
+    cats: [728, 223, 224, 225, 226, 220, 221, 216, 217, 218, 219, 222, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 60
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 75
 events:
   2018-06-06_245:
     start_on: 2018-06-06

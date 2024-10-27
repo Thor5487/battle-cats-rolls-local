@@ -1623,7 +1623,7 @@ cats:
   112:
     name: [노노, 노노CC]
     desc: ["메르크 스토리아에서 참전!\n서글서글하고 천진난만한 소녀\n검은 적에 맷집이 좋다", "메르크 스토리아에서 참전!\n겉보기와는 다르게 꼬리의 힘이 굉장히 강하다\n검은 적에 맷집이 좋다"]
-    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, against_black: 1, resistant: 1, attack_duration: 66}]
+    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -2192,9 +2192,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   159:
-    name: [사라만다, 분노의 사라만다, 격노의 사라만다]
-    desc: ["전설의 머신「고양이 바이크」의 저주에 의해\n점점 용으로 변화하기 시작한 요마 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다", "전설의 머신「고양이 바이크」와의 융합을 선택해\n사악한 힘을 해방 시킨 요마 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다", "사악한 힘을 자유자재로 다루게 된 요마\n엄청난 살의에 몸을 맡긴채 모든 것을 불태워 버린다 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다"]
-    stat: [{health: 2780, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 955, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 3340, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 4460, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2300, attack_cooldown: 47, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}]
+    name: [사라만다, 분노의 사라만다, 격노의 사라만다, 격노군신 사라만다]
+    desc: ["전설의 머신「고양이 바이크」의 저주에 의해\n점점 용으로 변화하기 시작한 요마 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다", "전설의 머신「고양이 바이크」와의 융합을 선택해\n사악한 힘을 해방 시킨 요마 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다", "사악한 힘을 자유자재로 다루게 된 요마\n엄청난 살의에 몸을 맡긴채 모든 것을 불태워 버린다 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버린다", "불타오르는 살의를 억누르고 전장을 질주하는 군신\n나찰과도 같은 진격으로 먼지 한톨 남기지 않는다 (범위 공격)\n검은 적에 엄청 강하며 반드시 날려버리고 소파동을 낸다"]
+    stat: [{health: 2780, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 955, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 3340, knockbacks: 3, speed: 13, cost: 3650, production_cooldown: 2300, attack_cooldown: 55, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 4460, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2300, attack_cooldown: 47, range: 405, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, attack_duration: 87}, {health: 5000, knockbacks: 3, speed: 18, cost: 3650, production_cooldown: 2100, attack_cooldown: 47, range: 445, width: 320, area_effect: 1, damage_0: 1622, attack_time_0: 36, trigger_effects_0: 1, against_black: 1, strong: 1, knockback_chance: 100, wave_chance: 100, wave_level: 4, wave_mini: 1, attack_duration: 87}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2329,6 +2329,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[14, 50]]
+      weaken:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      resistant_surge:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   173:
     name: [꼬맹이 야옹마, 꼬양이 야옹마, 각성의 꼬양이 야옹마]
     desc: ["시공의 뒤틀림으로 유아화 되어버린 야옹마.\n얼굴이 노안이라 또래의 친구가 생기지 않는다. 심성은 착하다\n가끔씩 적의 움직임을 느리게 한다 (범위 공격)", "여름 방학 때 수영장의 배수구에 막혀서 괴로워하던\n고양이를 구해준 후, 언제나 함께 등교한다\n가끔씩 적의 움직임을 느리게 한다 (범위 공격)", "너무 동안이 되어버린 야옹마\n장래 희망은 멋진 제왕이 되는 것입니다!\n가끔씩 적의 움직임을 느리게 한다 (범위 공격)"]
@@ -2571,6 +2587,12 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      against_angel:
+        ultra: 1
+      dodge:
+        max_level: 10
+        minmax: [[5, 50], [60, 60]]
+        ultra: 1
   197:
     name: [캣맨대디, 캣맨다크, 캣맨라이징]
     desc: ["자외선을 차단하는 특수 슈트를 완벽히 빼입었다\n어린이들의 영웅은 남에게 보여서는 안될 어둠을 가지고 있다\n에이리언과 떠있는 적에 초 데미지를 입힌다 (범위공격)", "밤이 되면 모습을 바꿔 캣시티의 평화를 지키는 영웅\n예쁜 여성이 눈을 반짝이며 쳐다보는 시선에 약하다\n에이리언과 천사에 초 데미지를 입힌다 (범위공격)", "영화배우 데뷔를 목표를 위해 마법 슈트로 개조한 영웅\n마음속 어둠을 에너지로 바꿔 악의 무리를 소탕한다!\n에이리언과 고대종에 초 데미지를 입힌다 (범위 공격)"]
@@ -2789,85 +2811,85 @@ cats:
         minmax: [[2, 20]]
   215:
     name: [햐쿠타로, 햐쿠타로CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n포로로 보이지만 실제로는 특수 부대의 엘리트\n때때로 살아남는다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n기탄으로 냥코들을 지원해준다\n때때로 살아남는다 (범위 공격)"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n포로로 보이지만 실제로는 특수 부대의 엘리트\n때때로 살아남는다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n기탄으로 냥코들을 지원해준다\n때때로 살아남는다 (범위 공격)"]
     stat: [{health: 480, knockbacks: 2, speed: 12, cost: 300, production_cooldown: 200, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 39, survive_chance: 50, attack_duration: 66}, {health: 480, knockbacks: 2, speed: 12, cost: 300, production_cooldown: 200, attack_cooldown: 40, range: 190, width: 320, area_effect: 1, damage_0: 80, attack_time_0: 39, survive_chance: 50, attack_duration: 66}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   216:
     name: [마르코, 마르코CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n정규군 소령. 하위직급부터 올라온 군인으로 프로그래밍에\n뛰어남. 아주 가끔씩 에이리언의 움직임을 순간 멈춘다", "메탈 슬러그 디펜스에서 참전!\n헤비 머신건을 다루는 지능형 실력파 에이전트\n아주 가끔씩 에이리언의 움직임을 순간 멈춘다"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n정규군 소령. 하위직급부터 올라온 군인으로 프로그래밍에\n뛰어남. 아주 가끔씩 에이리언의 움직임을 순간 멈춘다", "메탈 슬러그 시리즈에서 참전!\n헤비 머신건을 다루는 지능형 실력파 에이전트\n아주 가끔씩 에이리언의 움직임을 순간 멈춘다"]
     stat: [{health: 185, knockbacks: 3, speed: 9, cost: 660, production_cooldown: 300, attack_cooldown: 29, range: 330, width: 320, damage_0: 65, attack_time_0: 2, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 37}, {health: 248, knockbacks: 3, speed: 9, cost: 660, production_cooldown: 300, attack_cooldown: 29, range: 330, width: 320, damage_0: 92, attack_time_0: 2, against_alien: 1, freeze_chance: 20, freeze_duration: 60, attack_duration: 37}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   217:
     name: [타마, 타마CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n정규군 대위. 선글라스가 트레이드 마크\n가끔씩 에이리언을 날려버린다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n샷건을 다루는 마르코의 절친\n가끔씩 에이리언을 날려버린다 (범위 공격)"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n정규군 대위. 선글라스가 트레이드 마크\n가끔씩 에이리언을 날려버린다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n샷건을 다루는 마르코의 절친\n가끔씩 에이리언을 날려버린다 (범위 공격)"]
     stat: [{health: 270, knockbacks: 3, speed: 9, cost: 665, production_cooldown: 300, attack_cooldown: 59, range: 315, width: 320, area_effect: 1, damage_0: 51, attack_time_0: 2, against_alien: 1, knockback_chance: 30, attack_duration: 45}, {health: 320, knockbacks: 3, speed: 9, cost: 665, production_cooldown: 300, attack_cooldown: 59, range: 315, width: 320, area_effect: 1, damage_0: 73, attack_time_0: 2, against_alien: 1, knockback_chance: 30, attack_duration: 45}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   218:
     name: [에리, 에리CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n정규군 정보 특수 부대의 이등 교관\n에이리언에게 초 데미지를 입힌다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n서바이벌, 스파이 모두 완벽히 소화하는 멤피스의 폭탄녀\n에이리언에 초 데미지를 입힌다 (범위 공격)"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n정규군 정보 특수 부대의 이등 교관\n에이리언에게 초 데미지를 입힌다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n서바이벌, 스파이 모두 완벽히 소화하는 멤피스의 폭탄녀\n에이리언에 초 데미지를 입힌다 (범위 공격)"]
     stat: [{health: 500, knockbacks: 3, speed: 10, cost: 665, production_cooldown: 300, attack_cooldown: 12, range: 170, width: 320, area_effect: 1, damage_0: 96, attack_time_0: 6, against_alien: 1, massive_damage: 1, attack_duration: 20}, {health: 650, knockbacks: 3, speed: 10, cost: 665, production_cooldown: 300, attack_cooldown: 12, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 6, against_alien: 1, massive_damage: 1, attack_duration: 20}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   219:
     name: [피오, 피오CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n정규군 정보 특수 부대의 상사이자 명문 군인가의 외동딸\n아주 가끔씩 에이리언의 움직임을 느리게한다", "메탈 슬러그 디펜스에서 참전!\n차분한 성격이면서도 천진난만! 핸드건으로 엄호한다\n아주 가끔씩 에이리언의 움직임을 느리게한다"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n정규군 정보 특수 부대의 상사이자 명문 군인가의 외동딸\n아주 가끔씩 에이리언의 움직임을 느리게한다", "메탈 슬러그 시리즈에서 참전!\n차분한 성격이면서도 천진난만! 핸드건으로 엄호한다\n아주 가끔씩 에이리언의 움직임을 느리게한다"]
     stat: [{health: 179, knockbacks: 3, speed: 10, cost: 660, production_cooldown: 300, attack_cooldown: 26, range: 330, width: 320, damage_0: 60, attack_time_0: 4, against_alien: 1, slow_chance: 20, slow_duration: 60, attack_duration: 24}, {health: 230, knockbacks: 3, speed: 10, cost: 660, production_cooldown: 300, attack_cooldown: 26, range: 330, width: 320, damage_0: 85, attack_time_0: 4, against_alien: 1, slow_chance: 20, slow_duration: 60, attack_duration: 24}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   220:
     name: [SV-001, SV-001CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n1인승 고성능 소형 전차\n별칭은 「메탈 슬러그」(범위 공격)", "메탈 슬러그 디펜스에서 참전!\n기동력이 뛰어난 정규군 주력 전차\n캐논포로 지원한다 (범위 공격)"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n1인승 고성능 소형 전차\n별칭은 「메탈 슬러그」(범위 공격)", "메탈 슬러그 시리즈에서 참전!\n기동력이 뛰어난 정규군 주력 전차\n캐논포로 지원한다 (범위 공격)"]
     stat: [{health: 560, knockbacks: 3, speed: 15, cost: 910, production_cooldown: 340, attack_cooldown: 25, range: 355, width: 320, area_effect: 1, damage_0: 152, attack_time_0: 15, attack_duration: 27}, {health: 680, knockbacks: 3, speed: 15, cost: 910, production_cooldown: 340, attack_cooldown: 25, range: 355, width: 320, area_effect: 1, damage_0: 214, attack_time_0: 15, attack_duration: 27}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   221:
     name: [알렌 오닐, 알렌 오닐CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n적, 아군 모두가 두려워하는 모덴군의 「귀신 교관」\n딱 1번 살아남을 수 있다", "메탈 슬러그 디펜스에서 참전!\n눈보라 속에서도 상반신을 탈의한 채 나타나는 불사신 교관\n딱 1번 살아남을 수 있다"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n적, 아군 모두가 두려워하는 모덴군의 「귀신 교관」\n딱 1번 살아남을 수 있다", "메탈 슬러그 시리즈에서 참전!\n눈보라 속에서도 상반신을 탈의한 채 나타나는 불사신 교관\n딱 1번 살아남을 수 있다"]
     stat: [{health: 1000, knockbacks: 2, speed: 10, cost: 1050, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 300, attack_time_0: 1, survive_chance: 100, attack_duration: 105}, {health: 1125, knockbacks: 2, speed: 10, cost: 1050, production_cooldown: 385, attack_cooldown: 60, range: 400, width: 320, damage_0: 342, attack_time_0: 1, survive_chance: 100, attack_duration: 105}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   222:
     name: [마즈 피플, 마즈 피플CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n이른바 화성인\n가끔 에이리언의 공격력을 다운시킨다", "메탈 슬러그 디펜스에서 참전!\n워프나 특수한 행동이 가능. 하지만 지금은 할 수 없는 듯하다\n가끔 에이리언의 공격력을 다운시킨다"]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n이른바 화성인\n가끔 에이리언의 공격력을 다운시킨다", "메탈 슬러그 시리즈에서 참전!\n워프나 특수한 행동이 가능. 하지만 지금은 할 수 없는 듯하다\n가끔 에이리언의 공격력을 다운시킨다"]
     stat: [{health: 455, knockbacks: 3, speed: 8, cost: 660, production_cooldown: 310, range: 310, width: 320, damage_0: 47, attack_time_0: 77, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 95}, {health: 566, knockbacks: 3, speed: 8, cost: 660, production_cooldown: 310, range: 310, width: 320, damage_0: 60, attack_time_0: 77, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 95}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   223:
-    name: [휴즈 허미트, 휴즈 허미트CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n비밀 조사 수행 중 조우한 거대한 소라게\n에이리언에 엄청 강하다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n큰 손톱으로 모래를 헤치며 모든 것을 쓰러뜨린다\n에이리언에 엄청 강하다 (범위 공격)"]
-    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}]
+    name: [휴즈 허미트, 휴즈 허미트CC, 골든 허미트CC]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n비밀 조사 수행 중 조우한 거대한 소라게\n에이리언에 엄청 강하다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n큰 손톱으로 모래를 헤치며 모든 것을 쓰러뜨린다\n에이리언에 엄청 강하다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n전장의 병기를 잘못 먹고 변이한 금색 뮤턴트 생물\n검은 적과 에이리언에 엄청 강하다 (범위 공격)"]
+    stat: [{health: 2444, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 3333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, strong: 1, attack_duration: 10}, {health: 4333, knockbacks: 1, speed: 9, cost: 2500, production_cooldown: 666, attack_cooldown: 7, range: 166, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 9, trigger_effects_0: 1, against_black: 1, against_alien: 1, strong: 1, immune_warp: 1, attack_duration: 10}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   224:
-    name: [주피터 킹, 주피터 킹CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n비밀 공장을 지키는 초대형 호위 로봇 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다", "메탈 슬러그 디펜스에서 참전!\n모든 것을 기화시킬만큼 강력한 레이저를 발사한다 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다"]
-    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}]
+    name: [주피터 킹, 주피터 킹CC, 골든 주피터CC]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n비밀 공장을 지키는 초대형 호위 로봇 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다", "메탈 슬러그 시리즈에서 참전!\n모든 것을 기화시킬만큼 강력한 레이저를 발사한다 (범위 공격)\n가끔 에이리언을 날려버려 이동을 느리게 한다", "메탈 슬러그 시리즈에서 참전!\n금색으로 빛나며 강력한 레이저를 발사한다\n가끔 에이리언을 날려버려 이동을 느리게 하고 열파를 낸다"]
+    stat: [{health: 3600, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2166, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 4500, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, attack_duration: 65}, {health: 8100, knockbacks: 2, speed: 5, cost: 4200, production_cooldown: 2400, attack_cooldown: 125, range: 460, width: 320, area_effect: 1, damage_0: 2666, attack_time_0: 38, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 150, break_barrier_chance: 100, surge_chance: 100, surge_level: 1, surge_range: 1600, surge_range_offset: 1200, attack_duration: 65}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   225:
-    name: [모덴 원수, 모덴 원수CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n전 정규군 사령관. 카리스마가 엄청난 캐릭터\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n군부와 정치의 부패를 단죄하기 위해, 로켓런처로 승부\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)"]
-    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
+    name: [모덴 원수, 모덴 원수CC, 골든 모덴CC]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n전 정규군 사령관. 카리스마가 엄청난 캐릭터\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n군부와 정치의 부패를 단죄하기 위해, 로켓런처로 승부\n에이리언에 맷집이 좋고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n황금으로 장식된 모덴 원수가 애용하는 탱크\n속성을 가지지 않은 적과 에이리언에 맷집이 좋다 (범위 공격)"]
+    stat: [{health: 1710, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1040, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}, {health: 2810, knockbacks: 3, speed: 8, cost: 2850, production_cooldown: 1980, attack_cooldown: 60, range: 410, width: 320, area_effect: 1, damage_0: 1430, attack_time_0: 15, trigger_effects_0: 1, against_alien: 1, against_white: 1, resistant: 1, knockback_chance: 40, attack_duration: 43}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   226:
-    name: [하이 도, 하이 도CC]
-    desc: ["메탈 슬러그 디펜스에서 참전!\n모덴군의 대형 폭격 헬기\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 디펜스에서 참전!\n전투기이기는 하지만 임원의 호송에도 사용되고 있다\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)"]
-    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}]
+    name: [하이 도, 하이 도CC, 하이 도 MK III CC]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n모덴군의 대형 폭격 헬기\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n전투기이기는 하지만 임원의 호송에도 사용되고 있다\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n적의 집중 공격을 받는 극한의 상황을 상정하여 제작되었다\n떠있는 적에게 엄청 강하고 가끔 날려버린다 (범위 공격)"]
+    stat: [{health: 3390, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1394, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4250, knockbacks: 3, speed: 14, cost: 3850, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 1741, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 106}, {health: 4950, knockbacks: 3, speed: 14, cost: 2350, production_cooldown: 2450, attack_cooldown: 70, range: 420, width: 320, area_effect: 1, damage_0: 2041, attack_time_0: 33, trigger_effects_0: 1, against_float: 1, strong: 1, knockback_chance: 50, attack_duration: 88}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3543,9 +3565,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   304:
-    name: [타코야끼냥, 냥택배]
-    desc: ["문어가 가득 든 소스 듬뿍 타코야끼로\n일확천금을 노리는 전직 회사원\n천사에게 초 데미지를 입힌다", "착불로 신이 보낸 택배를 배달하는 신 전용 고양이\n뭐가 들었는지 말하는 순간 천벌이 내린다\n천사에게 초 데미지를 입힌다"]
-    stat: [{health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, against_angel: 1, massive_damage: 1, attack_duration: 82}]
+    name: [타코야끼냥, 냥택배, 고양이 급식당번, 철저한 손씻기와 에탄올 100%로 손소독 후]
+    desc: ["문어가 가득 든 소스 듬뿍 타코야끼로\n일확천금을 노리는 전직 회사원\n천사에게 초 데미지를 입힌다", "착불로 신이 보낸 택배를 배달하는 신 전용 고양이\n뭐가 들었는지 말하는 순간 천벌이 내린다\n천사에게 초 데미지를 입힌다", "자주 손을 씻고 개인 위생 수칙을 준수하여\n급식을 교실까지 배달해주는 프로 급식당번\n천사에게 초 데미지를 입히며 가끔 저주한다", "급식을 교실까지 배달해주는 프로 급식당번\n천사에게 초 데미지를 입히며 가끔 저주한다"]
+    stat: [{health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 1000, knockbacks: 4, speed: 25, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 220, width: 320, damage_0: 620, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, curse_chance: 50, curse_duration: 90, immune_curse: 1, attack_duration: 82}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5881,9 +5903,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   569:
-    name: ['이디:N', '이디:N2']
-    desc: ["고양이의 데이터를 인풋한 수수께끼의 지적생명체.\n냥코 군단과 같이 행동하는 목적은 불명.\n고대종에 초 데미지를 입힌다 (범위 공격)", "이곳저곳을 돌아다니며 다양한 것을 지각하여 변화를 \n반복하고 있는 수수께끼의 지적생명체. 아직까지 목적은 불명\n고대종에 초 데미지를 입힌다 (범위 공격)"]
-    stat: [{health: 1200, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 2800, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1500, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}]
+    name: ['이디:N', '이디:N2', '이디:NX']
+    desc: ["고양이의 데이터를 인풋한 수수께끼의 지적생명체.\n냥코 군단과 같이 행동하는 목적은 불명.\n고대종에 초 데미지를 입힌다 (범위 공격)", "이곳저곳을 돌아다니며 다양한 것을 지각하여 변화를 \n반복하고 있는 수수께끼의 지적생명체. 아직까지 목적은 불명\n고대종에 초 데미지를 입힌다 (범위 공격)", "자신의 또 다른 가능성을 인풋하여 변모한\n목적불명의 지적생명체. 초현자 특효를 가지고\n고대종에 극 데미지를 입히며 폭파를 무효화한다 (범위 공격)"]
+    stat: [{health: 1200, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 2800, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1500, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, massive_damage: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}, {health: 1800, knockbacks: 5, speed: 44, cost: 2800, production_cooldown: 1500, range: 175, width: 320, area_effect: 1, damage_0: 3500, attack_time_0: 4, trigger_effects_0: 1, against_relic: 1, insane_damage: 1, sage_slayer: 1, immune_curse: 1, immune_surge: 1, attack_duration: 140}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5894,6 +5916,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_relic: {}
+      immune_curse: {}
+      immune_knockback:
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   571:
     name: [용기사 스컬 바르스, 나이트메어 바르스, 할로윈 나이트 바르스]
     desc: ["할로윈에서 만난 드래곤을 거느린 용기사\n재빠르게 날아와 화려하게 사탕을 강탈한다 (범위 공격)\n가끔 좀비와 에이리언의 움직임을 느리게 하고 날려버린다", "할로윈의 한밤 중을 즐기는 검은 용기사 (범위 공격)\n어둠 속을 자유자재로 날아다니며 오늘 밤의 사냥감을 찾는다 \n가끔 좀비와 에이리언의 움직임을 느리게 하고 날려버린다", "할로윈의 왕을 따르는 암흑의 용기사\n불량식품 과자를 보면 다짜고짜 빼앗아간다\n좀비와 에이리언의 움직임을 반드시 느리게 하고 날려버린다"]
@@ -6407,9 +6440,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   650:
-    name: [흑표, 분노의 흑표]
-    desc: ["전설의 칼 「고양이 무라마사」의 저주로 표범이 된 닌자\n표적을 빠르게 베어 임무를 수행한다. 초생명체 특효.\n떠있는 적과 검은 적에 초 데미지, 움직임을 반드시 멈춘다", "「고양이 무라마사」의 요력을 해방한 닌자\n초신속 검술로 암살 임무를 달성한다. 초생명체 특효.\n떠있는 적과 검은 적에 초 데미지, 움직임을 반드시 멈춘다"]
-    stat: [{health: 3000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 850, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 30, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 3600, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 50, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}]
+    name: [흑표, 분노의 흑표, 절영의 흑표]
+    desc: ["전설의 칼 「고양이 무라마사」의 저주로 표범이 된 닌자\n표적을 빠르게 베어 임무를 수행한다. 초생명체 특효.\n떠있는 적과 검은 적에 초 데미지, 움직임을 반드시 멈춘다", "「고양이 무라마사」의 요력을 해방한 닌자\n초신속 검술로 암살 임무를 달성한다. 초생명체 특효.\n떠있는 적과 검은 적에 초 데미지, 움직임을 반드시 멈춘다", "요력을 해방한 칼에서 뿜어져 나오는 저주의 화염을 두른 닌자\n칼 한자루로 1만의 군세를 잿더미로 만든다. 초생명체 특효.\n떠있는 적과 검은 적에 초 데미지, 움직임을 반드시 멈춘다"]
+    stat: [{health: 3000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 850, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 30, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 3600, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 50, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}, {health: 4000, knockbacks: 4, speed: 9, cost: 3550, production_cooldown: 2300, attack_cooldown: 60, range: 450, width: 320, area_effect: 1, damage_0: 1350, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, freeze_chance: 100, freeze_duration: 60, colossus_slayer: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 70}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6645,9 +6678,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   684:
-    name: [백작 그리폰, 흡혈귀 그리폰]
-    desc: ["이국의 축제를 즐기는 칠흑의 무장\n어둠 속에 숨어서 재빨리 사냥감을 처리한다\n떠있는 적에 초 데미지를 입히며 드물게 살아남는다", "할로윈의 기적으로 흡혈귀의 힘을 손에 넣은 무장\n날카로운 손톱으로 할로윈의 밤을 찢어 평화를 지킨다\n떠있는 적에 초 데미지를 입히며 드물게 살아남는다"]
-    stat: [{health: 1350, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, damage_1: 150, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1875, attack_time_0: 1, trigger_effects_0: 1, damage_1: 187, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}]
+    name: [백작 그리폰, 흡혈귀 그리폰, 흡혈귀 공작 그리폰]
+    desc: ["이국의 축제를 즐기는 칠흑의 무장\n어둠 속에 숨어서 재빨리 사냥감을 처리한다\n떠있는 적에 초 데미지를 입히며 드물게 살아남는다", "할로윈의 기적으로 흡혈귀의 힘을 손에 넣은 무장\n날카로운 손톱으로 할로윈의 밤을 찢어 평화를 지킨다\n떠있는 적에 초 데미지를 입히며 드물게 살아남는다", "별도 보이지 않는 밤을 지배하는 고귀한 흡혈귀가 된 무장\n사악한 자들을 처단할 때마다 붉은 복장이 더욱 붉게 물든다\n떠있는 적에 초 데미지를 입히며 반드시 살아남는다"]
+    stat: [{health: 1350, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 1, trigger_effects_0: 1, damage_1: 150, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 70, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 1875, attack_time_0: 1, trigger_effects_0: 1, damage_1: 187, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 30, attack_duration: 136}, {health: 1700, knockbacks: 5, speed: 80, cost: 2050, production_cooldown: 900, range: 170, width: 320, area_effect: 1, damage_0: 2150, attack_time_0: 1, trigger_effects_0: 1, damage_1: 215, attack_time_1: 8, trigger_effects_1: 1, against_float: 1, massive_damage: 1, survive_chance: 100, attack_duration: 136}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6917,6 +6950,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  728:
+    name: [솔 데 로카, 솔 데 로카CC]
+    desc: ["메탈 슬러그 시리즈에서 참전!\n탑 위의 유적을 수호하는 수수께끼의 존재\n빨간 적, 천사, 에이리언에 초 데미지를 입힌다 (전방위 공격)", "메탈 슬러그 시리즈에서 참전!\n강렬한 청백색 불꽃을 내뿜어 유적에 침입한 자를 태워버린다\n빨간 적, 천사, 에이리언에 초 데미지를 입힌다 (전방위 공격)"]
+    stat: [{health: 4100, knockbacks: 3, speed: 16, cost: 2950, production_cooldown: 1800, attack_cooldown: 63, range: 400, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 450, long_range_offset_0: -600, attack_time_0: 88, trigger_effects_0: 1, damage_1: 1100, long_range_1: 300, long_range_offset_1: -600, attack_time_1: 106, trigger_effects_1: 1, damage_2: 1100, long_range_2: 1, long_range_offset_2: -600, attack_time_2: 124, trigger_effects_2: 1, against_red: 1, against_angel: 1, against_alien: 1, massive_damage: 1, colossus_slayer: 1, attack_duration: 204}, {health: 5400, knockbacks: 3, speed: 16, cost: 2950, production_cooldown: 1800, attack_cooldown: 63, range: 400, width: 320, area_effect: 1, damage_0: 1500, long_range_0: 450, long_range_offset_0: -600, attack_time_0: 88, trigger_effects_0: 1, damage_1: 1500, long_range_1: 300, long_range_offset_1: -600, attack_time_1: 106, trigger_effects_1: 1, damage_2: 1500, long_range_2: 1, long_range_offset_2: -600, attack_time_2: 124, trigger_effects_2: 1, against_red: 1, against_angel: 1, against_alien: 1, massive_damage: 1, colossus_slayer: 1, attack_duration: 204}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   729:
     name: [논리의 현자 소라크테스, 논리의 현자 냥코라테스]
     desc: ["고양이가 무엇을 생각하는지, 삶의 목적이 무엇인지가\n궁금하여 냥코 군단에 가입한 현자 (전방위 공격)\n소환 능력과 초현자 특효를 가지며 가끔 천사의 움직임을 멈춘다", "「냥코란 무엇인가?」에 대해 자문자답을 거듭하는 현자\n냥코에 대해 아무것도 모른다는 사실만을 알고 있다 (전방위 공격)\n소환 능력과 초현자 특효를 가지며 가끔 천사의 움직임을 멈춘다"]
@@ -7169,6 +7209,41 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  770:
+    name: [냥꽃 할배, 폭식괴수 빅트리]
+    desc: ["반려견을 통해 생명의 소중함을 깨달은 뒤\n아름다운 벚꽃을 피워내는 기적을 일으킨 냥코\n천사와 좀비에 맷집이 좋다 (전방위 공격)", "미지의 비료 「POCH-1」으로 인해 이상 식욕을 가지게 된 벚나무\n먹을 것이 보이면 즉시 먹어치우며 급속도로 성장 중이다\n소환 능력을 가지며 천사와 좀비에 맷집이 좋다 (전방위 공격)"]
+    stat: [{health: 1330, knockbacks: 1, speed: 8, cost: 510, production_cooldown: 270, attack_cooldown: 55, range: 160, width: 320, area_effect: 1, damage_0: 230, long_range_0: 160, long_range_offset_0: -160, attack_time_0: 30, trigger_effects_0: 1, damage_1: 230, long_range_1: -160, long_range_offset_1: 160, attack_time_1: 50, trigger_effects_1: 1, damage_2: 650, long_range_2: 160, long_range_offset_2: -320, attack_time_2: 100, against_angel: 1, against_zombie: 1, resistant: 1, freeze_chance: 30, freeze_duration: 60, zombie_killer: 1, attack_duration: 148}, {health: 12800, knockbacks: 2, speed: 8, cost: 3200, production_cooldown: 2200, attack_cooldown: 55, range: 230, width: 320, area_effect: 1, damage_0: 410, long_range_0: 230, long_range_offset_0: -230, attack_time_0: 30, trigger_effects_0: 1, damage_1: 410, long_range_1: -230, long_range_offset_1: 230, attack_time_1: 50, trigger_effects_1: 1, damage_2: 1180, long_range_2: 230, long_range_offset_2: -460, attack_time_2: 100, against_angel: 1, against_zombie: 1, resistant: 1, freeze_chance: 50, freeze_duration: 90, zombie_killer: 1, conjure: 771, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  771:
+    name: [771-1]
+    desc: ['정령: 적의 공격력을 낮추고 날려버립니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  772:
+    name: [생명의 현자 Dr.노바, 생명의 현자 고양이 노바]
+    desc: ["냥코 군단과 함께하며 고양이라는 생명체를 파악하려는\n연구자. 초현자 특효. 속성을 가진 적을 느리게 하고\n가끔 저주하며 폭파를 일으킨다 (원거리 범위공격)", "냥코가 회사나 학교에 존재하는 세계를 실현시키려는\n천재 연구자. 초현자 특효. 속성을 가진 적을 느리게 하고\n가끔 저주하며 폭파를 일으킨다 (원거리 범위공격)"]
+    stat: [{health: 5300, knockbacks: 4, speed: 7, cost: 3300, production_cooldown: 2100, attack_cooldown: 80, range: 350, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 250, long_range_offset_0: 300, attack_time_0: 60, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 100, curse_chance: 30, curse_duration: 120, sage_slayer: 1, immune_curse: 1, attack_duration: 130}, {health: 6100, knockbacks: 4, speed: 7, cost: 3300, production_cooldown: 2100, attack_cooldown: 80, range: 350, width: 320, area_effect: 1, damage_0: 1300, long_range_0: 250, long_range_offset_0: 300, attack_time_0: 60, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, slow_chance: 100, slow_duration: 100, curse_chance: 30, curse_duration: 120, sage_slayer: 1, immune_curse: 1, attack_duration: 130}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  773:
+    name: [펌킨 소돔, 소돔 오 랜턴]
+    desc: ["호박밭에 봉인되어있던 전설의 용족. 할로윈 밤이 되면\n봉인에서 풀려나 배회한다. 메탈 킬러 능력을 가지며\n메탈 적에 맷집이 좋고 가끔 날려버린다 (범위 공격)", "죽은 자의 혼을 받아들여 각성한 전설의 용족\n압도적인 파괴력을 가진 공격은 메탈 킬러 능력을 가지며\n메탈 적에 맷집이 좋고 가끔 날려버린다 (범위 공격)"]
+    stat: [{health: 5950, knockbacks: 2, speed: 3, cost: 4300, production_cooldown: 2100, attack_cooldown: 175, range: 390, width: 320, area_effect: 1, damage_0: 4345, attack_time_0: 65, trigger_effects_0: 1, against_metal: 1, resistant: 1, knockback_chance: 50, immune_wave: 1, attack_duration: 130}, {health: 6450, knockbacks: 2, speed: 3, cost: 4300, production_cooldown: 2100, attack_cooldown: 175, range: 390, width: 320, area_effect: 1, damage_0: 4345, attack_time_0: 65, trigger_effects_0: 1, against_metal: 1, resistant: 1, knockback_chance: 75, immune_wave: 1, attack_duration: 130}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  774:
+    name: [스모 더 미라, 마미 더 할로윈]
+    desc: ["할로윈 기간 중 도장을 빠져나온 스모 선수\n길거리에서 받은 과자를 먹고 몸무게를 늘리는게 목적\n떠있는 적과 검은 적에 맷집이 좋다 (범위 공격)", "아이들에게 할로윈 과자를 나눠주는 모성애 넘치는 고양이\n붕대로도 가려지지 않는 자신감 넘치는 몸매는\n떠있는 적과 검은 적에 맷집이 좋다 (범위 공격)"]
+    stat: [{health: 1900, knockbacks: 2, speed: 14, cost: 800, production_cooldown: 290, attack_cooldown: 3, range: 110, width: 320, area_effect: 1, damage_0: 40, attack_time_0: 12, trigger_effects_0: 1, damage_1: 40, attack_time_1: 20, trigger_effects_1: 1, damage_2: 40, attack_time_2: 28, trigger_effects_2: 1, against_float: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 36}, {health: 2150, knockbacks: 2, speed: 14, cost: 800, production_cooldown: 290, attack_cooldown: 3, range: 110, width: 320, area_effect: 1, damage_0: 40, attack_time_0: 12, trigger_effects_0: 1, damage_1: 40, attack_time_1: 20, trigger_effects_1: 1, damage_2: 40, attack_time_2: 28, trigger_effects_2: 1, against_float: 1, against_black: 1, resistant: 1, immune_knockback: 1, attack_duration: 36}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11515,6 +11590,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 하얀 연인 메카소녀 진 제3형태 추가! 발렌타인 한정 뽑기!★자세한 내용은 배너를 클릭!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -11527,6 +11604,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -12180,6 +12259,76 @@ gacha:
     name: 메탈 적에 절대적인 파워! 한정 캐릭터도 등장하는 특별 뽑기!★보너스 업 이벤트 개최 중!
     rate: no_legend
     similarity: 97
+  916:
+    cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 6
+    name: "'엄지 동자' 참전! 초강력한 고대의 용사들 ! ★자세한 내용은 배너를 클릭!"
+    rate: regular
+    similarity: 98
+  917:
+    cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 6
+    name: "'엄지 동자' 참전! 초강력한 고대의 용사들 ! ★자세한 내용은 배너를 클릭!"
+    rate: regular
+    similarity: 98
+  918:
+    cats: [770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!"
+    rate: uberfest_legend
+    similarity: 99
+  919:
+    cats: [770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 레전드 레어 '해질녘의 이자나미' 참전!★울슈레 출현율 초 UP!"
+    rate: uberfest_legend
+    similarity: 99
+  920:
+    cats: [770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    rate: platinum
+    similarity: 98
+  921:
+    cats: [770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    rate: legend
+    similarity: 99
+  922:
+    cats: [773, 684, 230, 231, 303, 571, 774, 774, 774, 229, 229, 229, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 8
+    name: "★확률, 상세 내용은 배너를 클릭!★할로윈 한정 의상 캐릭터를 획득하자냥!"
+    rate: no_legend
+  923:
+    cats: [760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 계절 한정 캐릭터 총집합!★울슈레 출현율 대폭 UP! '울트라 국왕 축제' 개최 중!
+    rate: dynastyfest
+    similarity: 95
+  924:
+    cats: [178, 620, 213, 317, 402, 138, 619, 626, 669, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 58
+    name: 열혈 캐릭터 대집결! '열혈경파 쿠니오군' 레어 뽑기가 새롭게 등장!★자세한 내용은 배너를 클릭!★
+    rate: no_legend
+    similarity: 89
+  925:
+    cats: [769, 507, 347, 346, 345, 191, 190, 189, 188, 187, 186, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
+    series_id: 13
+    name: 메르크 스토리아의 캐릭터만 출현하는 특별 뽑기!★자세한 내용은 배너를 클릭!!
+    rate: no_legend
+    similarity: 95
+  926:
+    cats: [773, 684, 230, 231, 303, 571, 774, 229, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 8
+    name: "★확률, 상세 내용은 배너를 클릭!★할로윈 한정 의상 캐릭터를 획득하자냥!"
+    rate: no_legend
+  927:
+    cats: [728, 223, 224, 225, 226, 220, 221, 216, 217, 218, 219, 222, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 60
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 75
 events:
   2018-10-13_320:
     start_on: 2018-10-13
