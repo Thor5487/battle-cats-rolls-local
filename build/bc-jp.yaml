@@ -27288,3 +27288,35 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2024-10-27_836:
+    start_on: 2024-10-27
+    end_on: 2024-10-29
+    version: '130700'
+    name: 進化で3属性に打たれ強くなるキャラ「鉄の精霊カッチン」参戦！★詳細はバナーをタップ!!
+    id: 836
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-10-27_922:
+    start_on: 2024-10-27
+    end_on: 2024-11-08
+    version: '130700'
+    name: 新キャラ追加！ハロウィン限定のコスプレキャラを手に入れよう！★詳細はバナーをタップ!!
+    id: 922
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-10-29_842:
+    start_on: 2024-10-29
+    end_on: 2024-11-01
+    version: '130700'
+    name: 攻撃速度に優れ、波動を放つキャラ「光翼神イシス」参戦！★詳細はバナーをタップ!!
+    id: 842
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
