@@ -27394,3 +27394,35 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2024-11-10_811:
+    start_on: 2024-11-10
+    end_on: 2024-11-12
+    version: '140000'
+    name: "「カオルガ」参戦！謎に包まれたキモかわ生命体！★詳細はバナーをタップ!!"
+    id: 811
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-11-10_925:
+    start_on: 2024-11-10
+    end_on: 2024-11-15
+    version: '140000'
+    name: 新キャラ「たいてんき」追加！メルクストーリアコラボガチャ！★詳細はバナーをタップ!!
+    id: 925
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-11-12_908:
+    start_on: 2024-11-12
+    end_on: 2024-11-15
+    version: '140000'
+    name: 召喚能力を持つキャラクター「ネコダイナザウルス」参戦！★詳細はバナーをタップ!!
+    id: 908
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
