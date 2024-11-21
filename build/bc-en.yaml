@@ -12008,7 +12008,7 @@ gacha:
     series_id: 47
     name: Joining forces from Seasonal sets, with higher drop rates!
     rate: dynastyfest
-    similarity: 97
+    similarity: 99
   899:
     cats: [755, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
@@ -12067,13 +12067,11 @@ gacha:
     series_id: 19
     name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
     rate: uberfest_legend
-    similarity: 99
   910:
     cats: [764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
     name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
     rate: uberfest_legend
-    similarity: 99
   911:
     cats: [764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -12146,7 +12144,6 @@ gacha:
     series_id: 47
     name: Joining forces from Seasonal sets, with higher drop rates!
     rate: dynastyfest
-    similarity: 95
   924:
     cats: [178, 620, 213, 317, 402, 138, 619, 626, 669, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 58
@@ -26768,3 +26765,143 @@ events:
     uber: 9500
     legend: 500
     platinum: legend
+  2024-11-18_812:
+    start_on: 2024-11-18
+    end_on: 2024-11-20
+    version: '130700'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 812
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-18_836:
+    start_on: 2024-11-18
+    end_on: 2024-11-20
+    version: '130700'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 836
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-20_858:
+    start_on: 2024-11-20
+    end_on: 2024-11-22
+    version: '130700'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 858
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-20_890:
+    start_on: 2024-11-20
+    end_on: 2024-11-22
+    version: '130700'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 890
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-22_789:
+    start_on: 2024-11-22
+    end_on: 2024-11-25
+    version: '130700'
+    name: Mighty new hero Issun Boshi joins the ancient heroes! ★ Tap banner for info!
+    id: 789
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-22_910:
+    start_on: 2024-11-22
+    end_on: 2024-11-25
+    version: '130700'
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    id: 910
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2024-11-25_842:
+    start_on: 2024-11-25
+    end_on: 2024-11-27
+    version: '130700'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 842
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-25_881:
+    start_on: 2024-11-25
+    end_on: 2024-11-27
+    version: '130700'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 881
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-25_923:
+    start_on: 2024-11-25
+    end_on: 2024-12-02
+    version: '130700'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 923
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2024-11-27_798:
+    start_on: 2024-11-27
+    end_on: 2024-11-29
+    version: '130700'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 798
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-27_823:
+    start_on: 2024-11-27
+    end_on: 2024-11-29
+    version: '130700'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 823
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-29_868:
+    start_on: 2024-11-29
+    end_on: 2024-12-02
+    version: '130700'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 868
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-11-29_909:
+    start_on: 2024-11-29
+    end_on: 2024-12-02
+    version: '130700'
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    id: 909
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2024-11-29_923:
+    start_on: 2024-11-29
+    end_on: 2024-12-02
+    version: '130700'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 923
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
