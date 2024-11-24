@@ -186,6 +186,7 @@ module BattleCatsRolls
         size = if names.any?
           names.size
         elsif descs.any?
+          names = ['(?)']
           descs.size
         end
 
