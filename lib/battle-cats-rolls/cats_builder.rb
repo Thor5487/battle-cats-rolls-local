@@ -183,13 +183,19 @@ module BattleCatsRolls
           map{ |s| strip[s.tr(separator_char, "\n").squeeze(' ')] }.
           delete_if(&:empty?)
 
-        if names.any?
+        size = if names.any?
+          names.size
+        elsif descs.any?
+          descs.size
+        end
+
+        if size
           id = Integer(filename[/\d+/])
 
           result[id] = {
-            'name' => names,
-            'desc' => descs.first(names.size),
-            'stat' => cat_stats[id].first(names.size)
+            'name' => names.first(size),
+            'desc' => descs.first(size),
+            'stat' => cat_stats[id].first(size)
           }
         end
 
