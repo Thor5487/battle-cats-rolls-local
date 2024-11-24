@@ -7090,6 +7090,13 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  765:
+    name: []
+    desc: ['Spirit: Deals Knockback to enemies.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
   766:
     name: ['Ancient Egg: N206', 'Cinnabar Egg: N206', Clam Cat]
     desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N206\".", "A mysterious lifeform that takes the form of a red egg.\nSigns of life appear to be coming from the inside.\nTough vs. Red and Black enemies.", "Protects its delicate inner mass with two hard shells.\nEating it raw will give you a hellish stomachache.\nBehemoth Slayer, Tough vs. Red/Black enemies."]
