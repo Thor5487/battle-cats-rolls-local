@@ -651,7 +651,11 @@ module BattleCatsRolls
       end
 
       def display
-        %Q{<a href="#{yield.route.uri_to_cat(Cat.new(id: cat_id))}">#{cat_info.dig('desc', 0)}</a>}
+        if cat_info
+          %Q{<a href="#{yield.route.uri_to_cat(Cat.new(id: cat_id))}">#{cat_info.dig('desc', 0)}</a>}
+        else
+          'Unknown spirit'
+        end
       end
 
       def specialized; false; end
