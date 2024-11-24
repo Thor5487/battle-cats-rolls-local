@@ -424,6 +424,26 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
+    class MetalKiller < Struct.new(:percentage)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        new(stat['metal_killer']) if stat['metal_killer']
+      end
+
+      def name
+        'Metal killer'
+      end
+
+      def display
+        "Deal #{percent(percentage)} health to metal enemies"
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+    end
+
     class BreakBarrier < Struct.new(:chance)
       include AbilityUtility
 

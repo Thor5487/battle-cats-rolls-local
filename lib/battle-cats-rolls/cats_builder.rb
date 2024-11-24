@@ -257,7 +257,7 @@ module BattleCatsRolls
         dodge_chance: 84, dodge_duration: 85,
         survive_chance: 42, strengthen_threshold: 40, strengthen_modifier: 41,
         savage_blow_chance: 82, savage_blow_modifier: 83,
-        critical_chance: 31,
+        critical_chance: 31, metal_killer: 112,
         break_barrier_chance: 70, break_shield_chance: 95,
         zombie_killer: 52, soul_strike: 98, base_destroyer: 34,
         colossus_slayer: 97, sage_slayer: 111,
