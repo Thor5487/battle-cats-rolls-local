@@ -186,7 +186,7 @@ module BattleCatsRolls
         size = if names.any?
           names.size
         elsif descs.any?
-          names = ['(?)']
+          names = ["(#{filename[/\d+/]}?)"]
           descs.size
         end
 
