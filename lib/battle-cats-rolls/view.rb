@@ -290,7 +290,11 @@ module BattleCatsRolls
 
     def show_gacha_slots cats
       cats.map.with_index do |cat, i|
-        %Q{#{i} <a href="#{route.uri_to_cat(cat)}">#{cat_name(cat)}</a>}
+        if cat.id > 0
+          %Q{#{i} <a href="#{route.uri_to_cat(cat)}">#{cat_name(cat)}</a>}
+        else
+          %Q{#{i} #{cat_name(cat)}}
+        end
       end.join(', ')
     end
 
