@@ -1297,6 +1297,13 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      behemoth_slayer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
+      sage_slayer:
+        ultra: 1
+      immune_weaken:
+        ultra: 1
   85:
     name: [Megidora, Holy Dragon Megidora, God-Emperor Megidora]
     desc: ["An awakened Ancient Cat Dragon.\nCreated to purify the world (Area Attack)\nMight knockback and slow Floating enemies.", "An awakened Ancient Cat Dragon.\nMegidora shifts to final Dragon form (Area Attack)\nMight knockback and slow Floating enemies.", "Possessor of the Divine Dragon Stone. Ready to\ndevour all to maintain its imperial throne.\nArea attacks might slow Floating enemies."]
@@ -1524,7 +1531,7 @@ cats:
         ultra: 1
   107:
     name: [Kai, 'Kai, type μ', Divine Kai]
-    desc: ["Airheaded girl riding her machine pig \"Tonton\".\nFires powerful point blank beams (Area Attack)\nReduced damage from Floating, Survives Once.", "Ends up liking anyone who is nice to her.\nHer love hurdle is mere 3cm (Area Attack)\nReduced damage from Floating, Survives Once.", "If any cute guy is your type, is that really a type?\nAlways travels via her trusty Boarborg (Area Atk)\nReduced damage from Flying, Survives Once."]
+    desc: ["Airheaded girl riding her machine pig \"Tonton\".\nFires powerful point blank beams (Area Attack)\nReduced damage from Floating, Survives Once.", "Ends up liking anyone who is nice to her.\nHer love hurdle is mere 3cm (Area Attack)\nReduced damage from Floating, Survives Once.", "If any cute guy is your type, is that really a type?\nAlways travels via her trusty Boarborg (Area Atk)\nReduced damage from Floating, Survives Once."]
     stat: [{health: 4300, knockbacks: 2, speed: 8, cost: 2660, production_cooldown: 1200, attack_cooldown: 120, range: 175, width: 320, area_effect: 1, damage_0: 3110, attack_time_0: 76, against_float: 1, resistant: 1, survive_chance: 100, attack_duration: 150}, {health: 5700, knockbacks: 2, speed: 8, cost: 2660, production_cooldown: 1200, attack_cooldown: 120, range: 175, width: 320, area_effect: 1, damage_0: 4990, attack_time_0: 76, against_float: 1, resistant: 1, survive_chance: 100, attack_duration: 150}, {health: 11400, knockbacks: 2, speed: 16, cost: 2660, production_cooldown: 1200, attack_cooldown: 120, range: 175, width: 320, area_effect: 1, damage_0: 6990, attack_time_0: 76, against_float: 1, resistant: 1, survive_chance: 100, immune_knockback: 1, attack_duration: 150}]
     rarity: 4
     max_level: 130
@@ -3525,9 +3532,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   306:
-    name: [Mighty Drednot, B.C.S. Lionheart, B.C.S. Tigerclaw]
-    desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a retro battleship for marine dominance!\nArea atks deliver huge damage vs Red enemies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies.", "Cat Army Special Forces use this Nekonium drill-\nequipped destroyer to stage marine assaults.\nHuge area damage vs Reds and Zombies."]
-    stat: [{health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 95, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}]
+    name: [Mighty Drednot, B.C.S. Lionheart, B.C.S. Tigerclaw, B.C.S. Beartooth]
+    desc: ["The spunky interns of Cat Corps of Engineers\nbuilt a retro battleship for marine dominance!\nArea atks deliver huge damage vs Red enemies.", "Boasting a complement of elite marines and a\ndrill able to punch through any hull, the Lionheart\ndelivers huge area damage vs Reds and Zombies.", "Cat Army Special Forces use this Nekonium drill-\nequipped destroyer to stage marine assaults.\nHuge area damage vs Reds and Zombies.", "Unsinkable destroyer that has seen endless sea\nbattle. Protects the seven seas even after war's end.\nHuge Area damage vs Red and Zombies."]
+    stat: [{health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 95, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 5600, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2300, attack_cooldown: 95, range: 480, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 74, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_knockback: 1, attack_duration: 160}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3621,6 +3628,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_surge: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   312:
     name: [Li'l Fish Cat, Li'l Whale Cat, Li'l Island Cat]
     desc: ["A tiny guy with dreams of becoming that\nCat with exceptional melee capability.\nStrong against Red enemies.", "A tiny guy with dreams of becoming that Cat\nthat managed to become a carnivorous whale.\nStrong against Red enemies.", "A tiny guy with dreams of becoming that Cat\nwho can perfect his form while on vacation.\nStrong against Red enemies, might critical."]
@@ -4326,6 +4345,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_curse: {}
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   378:
     name: [Fencer Cat, Kendo Cat, The Kitty of Liberty]
     desc: ["Invincible swordscat unbeaten in 400 matches.\nHas to use his left hand to actually feel\nchallenged. 100% chance of breaking Barriers.", "Decided to try a new form of swordplay, but\ncan't quite make the switch from his original\nspecialty. 100% chance of breaking Barriers.", "Retired from competition to enter the tourism\nindustry. Everyone uses him as a meeting spot.\n100% chance of breaking Barriers."]
@@ -5467,6 +5500,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[5, 5], [9, 90], [50, 50]]
+      immune_warp: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   526:
     name: [Kintaro, Kinrangers RoboForce, Kinrangers GigaForce]
     desc: ["Young exec at AxeCorp, managing operations\nat the mountain office with intern Li'l Bear.\nMight Slow Angels and strike a Savage Blow.", "Gathered the whole Beast Division for a unified\nfight against a very hostile acquisition attempt.\nMight Slow Angels and strike a Savage Blow.", "Beast Division Elites with upgraded tech to better\ndefend the stock portfolios of the future. Long-Range\nArea atk. might Slow/Curse Angels, with Savage Blow."]
@@ -5643,6 +5690,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[5, 50], [3, 3]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   548:
     name: [Night Oracle Rei, Heavenly Herald Rei]
     desc: ["Being of purity who heralds the world's end.\nWhere lies the exit from this shining night?\nTough vs Traited enemies, with 100% Slow.", "Unshakable faith in a hopeful dawn to come\ngives her the strength to keep fighting on.\nTough vs Traited enemies, with 100% Slow."]
@@ -6468,9 +6531,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   669:
-    name: [Cat Tengu, Grand Yokai Tengu]
-    desc: ["Cat that endured all manner of difficult training in the \nmountains to become a yokai. Colossus Slayer, \nstrong against Red/Angels, sometimes Knockback.", "Mysterious Cat that awoke its deepest mental faculties\nwith harsh training. Wields fire & wind. Colossus Slayer\nstrong against Red/Angels, sometimes Knockback."]
-    stat: [{health: 2000, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 840, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 2400, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, strengthen_threshold: 33, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}]
+    name: [Cat Tengu, Grand Yokai Tengu, Immortal Master Tengu]
+    desc: ["Cat that endured all manner of difficult training in the \nmountains to become a yokai. Colossus Slayer, \nstrong against Red/Angels, sometimes Knockback.", "Mysterious Cat that awoke its deepest mental faculties\nwith harsh training. Wields fire & wind. Colossus Slayer\nstrong against Red/Angels, sometimes Knockback.", "Rains down cataclysm from above, earning both\nfear and adoration from the people. Colossus\nSlayer, Strong vs Red/Angels, may Knockback."]
+    stat: [{health: 2000, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 840, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 2400, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, strengthen_threshold: 33, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 3100, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 50, strengthen_threshold: 50, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6866,6 +6929,13 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  731:
+    name: ['Ancient Egg: N204', 'Cinnabar Egg: N204', Lion Dancer Cat]
+    desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N204\".", "A mysterious lifeform that takes the form of a red egg.\nSigns of life appear to be coming from the inside.\nStrong against Red and Traitless enemies.", "Dances the night away as a mystical lion.\nWith one chomp, its jaws bring great luck.\nBehemoth Slayer, strong against Red and Traitless."]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 1, weaken_duration: 120, weaken_multiplier: 50}, {health: 500, knockbacks: 3, speed: 10, cost: 450, production_cooldown: 240, attack_cooldown: 31, range: 300, width: 320, damage_0: 240, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_knockback: 1, attack_duration: 60}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
   732:
     name: [Daybreaker Izanagi, Dawnbringer Izanagi]
     desc: ["The prelude to all that ever was, descended from a\nhigher plane. Manifests desires and Conjures to the\nbattlefield, Insane damage to Traited (Long-Range)", "Silent observer of the ephemeral realms for eons.\nManifests desires and Conjures to the battlefield,\ndeals Insane damage to Traited (Long-Range)"]
@@ -7153,6 +7223,27 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  775:
+    name: [Mech Patrol Axel, Steel Sergeant Axel]
+    desc: ["Cyborg lawman tasked with reducing street crime to\nzero - by any means. Conjurer, Long-range attacks\nmay Knockback/Slow/Weaken Aliens and Metal.", "Hard-boiled special ops leader who turns street\nracer cars into scrap metal. Conjurer/Metal Killer. \nMay Freeze Aliens/Metal with Long-range attacks."]
+    stat: [{health: 3600, knockbacks: 3, speed: 12, cost: 2800, production_cooldown: 2000, attack_cooldown: 83, range: 450, width: 320, area_effect: 1, damage_0: 720, long_range_0: 250, long_range_offset_0: 400, attack_time_0: 45, trigger_effects_0: 1, damage_1: 720, attack_time_1: 55, trigger_effects_1: 1, damage_2: 720, attack_time_2: 65, trigger_effects_2: 1, against_alien: 1, against_metal: 1, knockback_chance: 30, slow_chance: 30, slow_duration: 120, weaken_chance: 30, weaken_duration: 120, weaken_multiplier: 50, conjure: 776, attack_duration: 121}, {health: 3600, knockbacks: 3, speed: 12, cost: 2800, production_cooldown: 2000, attack_cooldown: 83, range: 450, width: 320, area_effect: 1, damage_0: 720, long_range_0: 250, long_range_offset_0: 400, attack_time_0: 45, trigger_effects_0: 1, damage_1: 720, attack_time_1: 55, trigger_effects_1: 1, damage_2: 720, attack_time_2: 65, trigger_effects_2: 1, against_alien: 1, against_metal: 1, freeze_chance: 25, freeze_duration: 90, metal_killer: 10, conjure: 776, immune_warp: 1, attack_duration: 121}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  776:
+    name: [776-1]
+    desc: ['Spirit: Has the Metal Killer ability.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, metal_killer: 40, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  778:
+    name: [Winter General Kaihime, Winter Commander Kaihime]
+    desc: ["Wargod dressed in her Christmas best. Leads\na platoon of reindeer to bodyguard Santa Claus.\nMay Slow Red/Floating and deal a Savage Blow.", "Protects Santa Claus on Christmas. Strikes back at\npresent-stealing ne'er-do-wells with Surge Attacks.\nMay Slow Red/Floating and deal Savage Blows."]
+    stat: [{health: 3200, knockbacks: 2, speed: 6, cost: 3500, production_cooldown: 2200, attack_cooldown: 53, range: 440, width: 320, area_effect: 1, damage_0: 800, attack_time_0: 54, trigger_effects_0: 1, against_red: 1, against_float: 1, slow_chance: 50, slow_duration: 75, savage_blow_chance: 15, savage_blow_modifier: 200, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 2400, attack_duration: 100}, {health: 4800, knockbacks: 2, speed: 6, cost: 3500, production_cooldown: 2200, attack_cooldown: 53, range: 440, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 54, trigger_effects_0: 1, against_red: 1, against_float: 1, slow_chance: 50, slow_duration: 75, savage_blow_chance: 25, savage_blow_modifier: 200, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 2400, attack_duration: 100}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -12168,6 +12259,83 @@ gacha:
     series_id: 60
     name: New Uber Rare added! Metal Slug characters come together! ★Tap banner for info!
     rate: no_legend
+  928:
+    cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 7
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    rate: regular
+    similarity: 98
+  929:
+    cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 7
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    rate: regular
+    similarity: 98
+  930:
+    cats: [775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    rate: uberfest_legend
+    similarity: 99
+  931:
+    cats: [775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    rate: uberfest_legend
+    similarity: 99
+  932:
+    cats: [775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 99
+  933:
+    cats: [775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  934:
+    cats: [437, 520, 159, 503, 85, 770, 213, 260, 356, 336, 362, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: Your favorite Cats join forces for a Year's-End blowout!
+    rate: no_legend
+    similarity: 71
+  935:
+    cats: [547, 60, 619, 106, 761, 526, 432, 535, 306, 358, 402, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: New Heroes appear to celebrate 6 Years! ★ Tap banner for info!
+    rate: no_legend
+    similarity: 71
+  936:
+    cats: [450, 452, 456, 479, 307, 440, 608, 669, 646, 668, 685, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 66
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 76
+  937:
+    cats: [462, 482, 545, 72, 428, 506, 620, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 67
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 78
+  938:
+    cats: [464, 449, 451, 494, 45, 137, 197, 352, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 68
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 76
+  939:
+    cats: [60, 76, 84, 85, 107, 108, 136, 144, 197, 287, 44, 73, 195, 241, 259, 437, 520, 560, 43, 77, 87, 88, 106, 125, 137, 213, 284, 306, 534, 621, 58, 139, 171, 262, 317, 359, 398, 716, 648, 650, 656, 661, 669, 675, 683, 687, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 59
+    name: Units from Busters sets join forces! ★ Uber Rare drop rates UP!
+    similarity: 98
+  940:
+    cats: [778, 242, 243, 244, 311, 527, 585, 688, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 9
+    name: NEW Xmas-Only Hero! ★ Tap the banner for more info!
+    rate: no_legend
+    similarity: 91
 events:
   2018-06-06_245:
     start_on: 2018-06-06

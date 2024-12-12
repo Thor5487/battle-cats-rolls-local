@@ -1297,6 +1297,13 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      behemoth_slayer:
+        minmax: [[5, 5], [30, 30]]
+        ultra: 1
+      sage_slayer:
+        ultra: 1
+      immune_weaken:
+        ultra: 1
   85:
     name: [성룡 메기도라, 성룡왕 메기도라, 성룡황제 메기도라]
     desc: ["세계정화를 위해 생을 받은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다", "분노의 파워가 폭주한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다", "성룡석을 손에 넣고 진정한 황제가 된 용의 왕\n사명을 이루어내기 위해 모든 것을 태워버린다 (범위 공격)\n가끔 떠있는 적을 날려버려 이동을 느리게 한다"]
@@ -3595,9 +3602,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   306:
-    name: [고대군함 가레스, 무적함대 시갈레온, 초무적함대 시갈레온]
-    desc: ["옛날옛적 노스블루를 주름 잡던 해적의 후예들\n해적왕이 숨겨놓은 보물을 찾으러 세계의 바다를 누빈다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT을 총동원한 초거대전함\n극비기술로 제조된 드릴은 어떠한 장갑도 뚫어버린다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT가 승선한 궁극의 전함\n한층 강화된 드릴은 진정한 평화로 나아가게 한다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)"]
-    stat: [{health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 95, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}]
+    name: [고대군함 가레스, 무적함대 시갈레온, 초무적함대 시갈레온, 극무적함대 시갈레온]
+    desc: ["옛날옛적 노스블루를 주름 잡던 해적의 후예들\n해적왕이 숨겨놓은 보물을 찾으러 세계의 바다를 누빈다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT을 총동원한 초거대전함\n극비기술로 제조된 드릴은 어떠한 장갑도 뚫어버린다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "엘리트 해적 BADACAT가 승선한 궁극의 전함\n한층 강화된 드릴은 진정한 평화로 나아가게 한다\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)", "위대한 해적들과 수많은 해전을 제압한 궁극의 불침함\n전쟁이 끝난 뒤에도 칠대양을 누비며 영원한 평화를 지키고 있다.\n빨간 적과 좀비에게 초 데미지를 준다 (범위 공격)"]
+    stat: [{health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 141, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 4800, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2800, attack_cooldown: 95, range: 440, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 114, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 200}, {health: 5600, knockbacks: 3, speed: 7, cost: 3200, production_cooldown: 2300, attack_cooldown: 95, range: 480, width: 320, area_effect: 1, damage_0: 3800, attack_time_0: 74, trigger_effects_0: 1, against_red: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_knockback: 1, attack_duration: 160}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3691,6 +3698,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      slow:
+        max_level: 10
+        minmax: [[5, 50]]
+      immune_surge: {}
+      immune_warp: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   312:
     name: [꼬맹이 고양이 피쉬, 꼬맹이 고양이 고래, 꼬맹이 고양이 섬]
     desc: ["전투용 고급 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코\n빨간 적에 엄청 강하다", "육식 고래로 진화한 고급 전투 캐릭터\n를 목표로 성장 중인 꼬맹이 냥코\n빨간 적에 엄청 강하다", "냥코들의 여름 휴가의 추억의 장소로\n최적화된 형태로 성장한 꼬맹이 냥코\n빨간 적에 엄청 강하고 아주 가끔씩 크리티컬을 낸다"]
@@ -4424,6 +4443,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      break_barrier:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_curse: {}
+      resistant_knockback:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   378:
     name: [고양이 펜싱, 고양이 검도, 자유의 고양이]
     desc: ["400전 무패신화를 기록한 펜싱 챔피언\n더 이상 도전자가 나타나지 않아 전직을 생각 중.\n반드시 베리어를 뚫어버린다", "왜인지 자꾸만 펜싱 자세가 나와버리는 고양이\n화려했던 과거를 잊어버리려 노력 중.\n반드시 베리어를 뚫어버린다", "현역에서 은퇴 후 관광업을 시작했다\n시작한지 3년 만에 겨우 만남의 장소로 활용되고 있다\n반드시 베리어를 뚫어버린다"]
@@ -5572,6 +5605,20 @@ cats:
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[5, 5], [9, 90], [50, 50]]
+      immune_warp: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   526:
     name: [긴타로, 맹총전대 긴레인저, 초총전대 긴레인저]
     desc: ["어느 한 대기업에 다니는 우수한 엘리트 사원\n오늘도 열심히 산에서 수련을 계속한다 (원거리 범위공격)\n가끔 천사의 움직임을 느리게 하고 혼신의 일격을 날린다", "산악 기지에서 긴급 출동하여 집결하는 맹수들\n맹수 바주카로 악을 근절시켜 버린다 (원거리 범위공격)\n가끔 천사의 움직임을 느리게 하고 혼신의 일격을 날린다", "최종 결전지에 집결한 엘리트 맹수들\n초총포에서 나오는 빛으로 미래를 밝힌다 (원거리 범위공격)\n가끔 천사의 움직임을 느리게 하고 저주를 걸며 혼신의 일격을 낸다"]
@@ -5748,6 +5795,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      wave_mini:
+        max_level: 10
+        minmax: [[5, 50], [3, 3]]
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   548:
     name: [백야 공주 레이, 백천 공주 레이]
     desc: ["시간이 영을 새길 무렵 나타난다고 하는 순백의 과묵한 소녀\n빛이 비치는 밤으로부터의 출구를 그녀는 아직 모른다 (원거리 범위공격)\n속성을 가진 적에게 맷집이 좋고 반드시 움직임을 느리게 한다", "새벽빛을 받아 운명에 저항하는 강한 신념의 소녀 (원거리 범위공격)\n마음이 따뜻해지는 장소의 존재가 싸우는 이유를 주었다\n속성을 가진 적에게 맷집이 좋고 반드시 움직임을 느리게 한다"]
@@ -6573,9 +6636,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   669:
-    name: [고양이 텐구, 대요괴 고양이 텐구]
-    desc: ["자연계의 영력을 찾기 위해 산속에서 천년의\n수행 끝에 요괴가 된 캐릭터. 초생명체 특효.\n빨간 적과 천사에 엄청 강하고 가끔 날려버린다", "고된 수행으로 신통력을 얻은 신비로운 캐릭터.\n검은 날개로 날며 불과 바람을 조종한다. 초생명체 특효.\n빨간 적과 천사에 엄청 강하고 가끔 날려버린다"]
-    stat: [{health: 2000, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 840, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 2400, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, strengthen_threshold: 33, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}]
+    name: [고양이 텐구, 대요괴 고양이 텐구, 대신선 고양이 텐구]
+    desc: ["자연계의 영력을 찾기 위해 산속에서 천년의\n수행 끝에 요괴가 된 캐릭터. 초생명체 특효.\n빨간 적과 천사에 엄청 강하고 가끔 날려버린다", "고된 수행으로 신통력을 얻은 신비로운 캐릭터.\n검은 날개로 날며 불과 바람을 조종한다. 초생명체 특효.\n빨간 적과 천사에 엄청 강하고 가끔 날려버린다", "자유자재로 하늘을 날며 천재지변을 일으키는 초자연적 캐릭터.\n사람들의 두려움과 숭배를 한 몸에 받고 있다. 초생명체 특효.\n빨간 적과 천사에 엄청 강하고 가끔 날려버린다."]
+    stat: [{health: 2000, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 840, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 2400, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 30, strengthen_threshold: 33, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}, {health: 3100, knockbacks: 6, speed: 15, cost: 2400, production_cooldown: 1350, range: 400, width: 320, area_effect: 1, damage_0: 1020, attack_time_0: 63, trigger_effects_0: 1, against_red: 1, against_angel: 1, strong: 1, knockback_chance: 50, strengthen_threshold: 50, strengthen_modifier: 100, colossus_slayer: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 127}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6971,6 +7034,13 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  731:
+    name: ['오래된 알: N204', '붉은 알: N204', 고양이 사자놀이]
+    desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N204」이라고 작게 각인이 되어있는 듯한데..", "붉은 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n빨간 적과 속성을 가지지 않은 적에 엄청 강하다", "격렬하게 사자춤을 추는 복의 상징인 캐릭터.\n복을 몰고 오는 물어 뜯기 공격은 빨간 적과 속성을\n가지지 않은 적에 엄청 강하고 초수 특효를 가진다."]
+    stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 1, weaken_duration: 120, weaken_multiplier: 50}, {health: 500, knockbacks: 3, speed: 10, cost: 450, production_cooldown: 240, attack_cooldown: 31, range: 300, width: 320, damage_0: 240, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_knockback: 1, attack_duration: 60}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
   732:
     name: [새벽의 이자나기, 여명의 이자나기]
     desc: ["차원을 넘어 강림한 태초의 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)", "오랜 옛날부터 천계에서 세상을 관조해 온 존재\n강한 염원을 실체화하여 소환하는 능력을 가지며\n속성을 가진 적에 극 데미지를 입힌다 (원거리 공격)"]
@@ -7251,6 +7321,27 @@ cats:
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  775:
+    name: [특수기동대 엑셀, 더티 엑셀]
+    desc: ["전세계 교통위반 근절이라는 특수 임무를 수행하는 사이보그 경찰\n소환 능력을 가지며 가끔 에이리언과 메탈 적을 날려버리고\n움직임을 느리게 하며 공격력을 낮춘다 (원거리 범위공격)", "심야의 폭주 차량을 발견 즉시 폐차시키는 하드코어 경찰.\n소환 능력과 메탈 킬러 능력을 가지고 가끔 에이리언과\n메탈 적의 움직임을 멈춘다 (원거리 범위공격)"]
+    stat: [{health: 3600, knockbacks: 3, speed: 12, cost: 2800, production_cooldown: 2000, attack_cooldown: 83, range: 450, width: 320, area_effect: 1, damage_0: 720, long_range_0: 250, long_range_offset_0: 400, attack_time_0: 45, trigger_effects_0: 1, damage_1: 720, attack_time_1: 55, trigger_effects_1: 1, damage_2: 720, attack_time_2: 65, trigger_effects_2: 1, against_alien: 1, against_metal: 1, knockback_chance: 30, slow_chance: 30, slow_duration: 120, weaken_chance: 30, weaken_duration: 120, weaken_multiplier: 50, conjure: 776, attack_duration: 121}, {health: 3600, knockbacks: 3, speed: 12, cost: 2800, production_cooldown: 2000, attack_cooldown: 83, range: 450, width: 320, area_effect: 1, damage_0: 720, long_range_0: 250, long_range_offset_0: 400, attack_time_0: 45, trigger_effects_0: 1, damage_1: 720, attack_time_1: 55, trigger_effects_1: 1, damage_2: 720, attack_time_2: 65, trigger_effects_2: 1, against_alien: 1, against_metal: 1, freeze_chance: 25, freeze_duration: 90, metal_killer: 10, conjure: 776, immune_warp: 1, attack_duration: 121}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  776:
+    name: [776-1]
+    desc: ['정령: 메탈 킬러 능력을 가집니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, metal_killer: 40, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  778:
+    name: [동장군 미네르바, 한파장군 미네르바]
+    desc: ["크리스마스 한정 스타일의 전국의 공주. 사슴 부대를\n이끌고 산타클로스의 경호를 담당한다. 빨간 적과\n떠있는 적의 움직임을 가끔 느리게 하고 혼신의 일격을 낸다", "성야에 배달 중인 산타클로스를 지키는 전국의 아름다운 공주.\n선물을 노리는 무법자들을 열파 공격으로 격퇴한다. 빨간 적과\n떠있는 적의 움직임을 가끔 느리게 하고 혼신의 일격을 낸다"]
+    stat: [{health: 3200, knockbacks: 2, speed: 6, cost: 3500, production_cooldown: 2200, attack_cooldown: 53, range: 440, width: 320, area_effect: 1, damage_0: 800, attack_time_0: 54, trigger_effects_0: 1, against_red: 1, against_float: 1, slow_chance: 50, slow_duration: 75, savage_blow_chance: 15, savage_blow_modifier: 200, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 2400, attack_duration: 100}, {health: 4800, knockbacks: 2, speed: 6, cost: 3500, production_cooldown: 2200, attack_cooldown: 53, range: 440, width: 320, area_effect: 1, damage_0: 1150, attack_time_0: 54, trigger_effects_0: 1, against_red: 1, against_float: 1, slow_chance: 50, slow_duration: 75, savage_blow_chance: 25, savage_blow_modifier: 200, surge_chance: 100, surge_level: 1, surge_range: 600, surge_range_offset: 2400, attack_duration: 100}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -12326,6 +12417,83 @@ gacha:
     series_id: 60
     name: "★확률, 상세 내용은 배너를 클릭!★새로운 한정 캐릭터! 메탈 슬러그 시리즈의 인기 캐릭터 총집합!"
     rate: no_legend
+  928:
+    cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 7
+    name: "'썬더 잭' 참전!정의와 어둠의 힘을 겸비한 구세주들 등장!★자세한 내용은 배너를 클릭!"
+    rate: regular
+    similarity: 98
+  929:
+    cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 7
+    name: "'썬더 잭' 참전!정의와 어둠의 힘을 겸비한 구세주들 등장!★자세한 내용은 배너를 클릭!"
+    rate: regular
+    similarity: 98
+  930:
+    cats: [775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!"
+    rate: uberfest_legend
+    similarity: 99
+  931:
+    cats: [775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 레전드 레어 '해질녘의 이자나미' 참전!★울슈레 출현율 초 UP!"
+    rate: uberfest_legend
+    similarity: 99
+  932:
+    cats: [775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    rate: platinum
+    similarity: 99
+  933:
+    cats: [775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    rate: legend
+    similarity: 99
+  934:
+    cats: [437, 520, 159, 503, 85, 770, 213, 260, 356, 336, 362, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: 인기 캐릭터 총집합! 연말의 특별 뽑기!★자세한 내용은 배너를 클릭!!★
+    rate: no_legend
+    similarity: 71
+  935:
+    cats: [547, 60, 619, 106, 761, 526, 432, 535, 306, 358, 402, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: 신 캐릭터가 다수 추가된 6주년 기념 특별 뽑기!★자세한 내용은 배너를 클릭!
+    rate: no_legend
+    similarity: 71
+  936:
+    cats: [450, 452, 456, 479, 307, 440, 608, 669, 646, 668, 685, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 66
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 76
+  937:
+    cats: [462, 482, 545, 72, 428, 506, 620, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 67
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 78
+  938:
+    cats: [464, 449, 451, 494, 45, 137, 197, 352, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 68
+    name: "【기간한정】 『크래시 피버』 콜라보 뽑기 등장!★자세한 내용은 배너를 클릭!"
+    rate: no_legend
+    similarity: 76
+  939:
+    cats: [60, 76, 84, 85, 107, 108, 136, 144, 197, 287, 44, 73, 195, 241, 259, 437, 520, 560, 43, 77, 87, 88, 106, 125, 137, 213, 284, 306, 534, 621, 58, 139, 171, 262, 317, 359, 398, 716, 648, 650, 656, 661, 669, 675, 683, 687, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 59
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 출현율 UP!!바스터즈 뽑기의 캐릭터들이 전부 집결!!"
+    similarity: 98
+  940:
+    cats: [778, 242, 243, 244, 311, 527, 585, 688, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 9
+    name: 신 캐릭터 추가! 크리스마스 한정 캐릭터를 획득하자냥!★자세한 내용은 배너를 탭!
+    rate: no_legend
+    similarity: 91
 events:
   2018-10-13_320:
     start_on: 2018-10-13
