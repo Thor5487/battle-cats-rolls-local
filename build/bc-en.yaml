@@ -12217,7 +12217,6 @@ gacha:
     series_id: 27
     name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
     rate: uberfest_legend
-    similarity: 99
   920:
     cats: [770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -12262,9 +12261,8 @@ gacha:
   928:
     cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 7
-    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
     rate: regular
-    similarity: 98
   929:
     cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 7
@@ -12288,13 +12286,11 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 99
   933:
     cats: [775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 99
   934:
     cats: [437, 520, 159, 503, 85, 770, 213, 260, 356, 336, 362, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 35
@@ -12333,9 +12329,8 @@ gacha:
   940:
     cats: [778, 242, 243, 244, 311, 527, 585, 688, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 9
-    name: NEW Xmas-Only Hero! ★ Tap the banner for more info!
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
     rate: no_legend
-    similarity: 91
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -27212,6 +27207,198 @@ events:
     version: '130700'
     name: Pick up mighty teammates to fight by your side in a River City Clash!
     id: 924
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-12-16_843:
+    start_on: 2024-12-16
+    end_on: 2024-12-18
+    version: '140000'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 843
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-16_882:
+    start_on: 2024-12-16
+    end_on: 2024-12-18
+    version: '140000'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 882
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-16_940:
+    start_on: 2024-12-16
+    end_on: 2024-12-30
+    version: '140000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 940
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-12-18_799:
+    start_on: 2024-12-18
+    end_on: 2024-12-20
+    version: '140000'
+    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
+    id: 799
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-18_824:
+    start_on: 2024-12-18
+    end_on: 2024-12-20
+    version: '140000'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 824
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-20_869:
+    start_on: 2024-12-20
+    end_on: 2024-12-23
+    version: '140000'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 869
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-20_919:
+    start_on: 2024-12-20
+    end_on: 2024-12-23
+    version: '140000'
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    id: 919
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2024-12-20_940:
+    start_on: 2024-12-20
+    end_on: 2024-12-30
+    version: '140000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 940
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-12-23_812:
+    start_on: 2024-12-23
+    end_on: 2024-12-24
+    version: '140000'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 812
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-23_908:
+    start_on: 2024-12-23
+    end_on: 2024-12-24
+    version: '140000'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 908
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2024-12-23_940:
+    start_on: 2024-12-23
+    end_on: 2024-12-30
+    version: '140000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 940
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2024-12-24_836:
+    start_on: 2024-12-24
+    end_on: 2024-12-27
+    version: '140000'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 836
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-12-24_858:
+    start_on: 2024-12-24
+    end_on: 2024-12-27
+    version: '140000'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 858
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-12-24_940:
+    start_on: 2024-12-24
+    end_on: 2024-12-30
+    version: '140000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 940
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2024-12-27_890:
+    start_on: 2024-12-27
+    end_on: 2024-12-30
+    version: '140000'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 890
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-12-27_928:
+    start_on: 2024-12-27
+    end_on: 2025-01-01
+    version: '140000'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 928
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-12-27_932:
+    start_on: 2024-12-27
+    end_on: 2030-01-01
+    version: '140000'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 932
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2024-12-27_933:
+    start_on: 2024-12-27
+    end_on: 2030-01-01
+    version: '140000'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 933
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2024-12-27_940:
+    start_on: 2024-12-27
+    end_on: 2024-12-30
+    version: '140000'
+    name: New units added! Earn limited-time Christmas units! Tap the banner for details!
+    id: 940
     rare: 7000
     supa: 2500
     uber: 500
