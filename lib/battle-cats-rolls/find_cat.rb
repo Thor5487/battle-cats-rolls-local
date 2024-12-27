@@ -33,6 +33,7 @@ module BattleCatsRolls
         691, # "Child of Destiny Phono",
         706, # "King of Doom Phono",
         759, # "Trixi the Merc",
+        780, # "幼天女ルーナ"
       ].freeze
     end
 
