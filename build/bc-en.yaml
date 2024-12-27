@@ -12148,7 +12148,6 @@ gacha:
     series_id: 32
     name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
     rate: no_legend
-    similarity: 97
   907:
     cats: [764, 669, 618, 520, 456, 428, 144, 60, 58, 45, 44, 43, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 1
@@ -12194,13 +12193,11 @@ gacha:
     series_id: 32
     name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
     rate: no_legend
-    similarity: 97
   916:
     cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
-    name: Mighty new hero "Issun Boshi" joins the ancient heroes! ★ Tap banner for info!
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
     rate: regular
-    similarity: 98
   917:
     cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -12266,15 +12263,12 @@ gacha:
   929:
     cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 240, 239, 238, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 7
-    name: New unit Thunder Jack, hero of justice appears! ★ Tap banner for info!
-    rate: regular
-    similarity: 98
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
   930:
     cats: [775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 19
     name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
     rate: uberfest_legend
-    similarity: 99
   931:
     cats: [775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
@@ -27403,3 +27397,195 @@ events:
     supa: 2500
     uber: 500
     guaranteed: true
+  2024-12-30_881:
+    start_on: 2024-12-30
+    end_on: 2025-01-01
+    version: '140000'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 881
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2024-12-30_916:
+    start_on: 2024-12-30
+    end_on: 2025-01-01
+    version: '140000'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 916
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-01-01_452:
+    start_on: 2025-01-01
+    end_on: 2025-01-03
+    version: '140000'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-01_915:
+    start_on: 2025-01-01
+    end_on: 2025-01-03
+    version: '140000'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 915
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-01_930:
+    start_on: 2025-01-01
+    end_on: 2025-01-06
+    version: '140000'
+    name: UBERFEST-only Legend Rare Dawnbringer Izanagi!
+    id: 930
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-01-03_696:
+    start_on: 2025-01-03
+    end_on: 2025-01-04
+    version: '140000'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-03_772:
+    start_on: 2025-01-03
+    end_on: 2025-01-06
+    version: '140000'
+    name: Capsules featuring Colossus Slayer units!  With Increasing Capsules!
+    id: 772
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-04_523:
+    start_on: 2025-01-04
+    end_on: 2025-01-06
+    version: '140000'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-06_811:
+    start_on: 2025-01-06
+    end_on: 2025-01-09
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 811
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-06_823:
+    start_on: 2025-01-06
+    end_on: 2025-01-09
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 823
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-06_842:
+    start_on: 2025-01-06
+    end_on: 2025-01-09
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 842
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-09_836:
+    start_on: 2025-01-09
+    end_on: 2025-01-12
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 836
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-09_869:
+    start_on: 2025-01-09
+    end_on: 2025-01-12
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 869
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-09_891:
+    start_on: 2025-01-09
+    end_on: 2025-01-12
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 891
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-12_857:
+    start_on: 2025-01-12
+    end_on: 2025-01-15
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 857
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-12_881:
+    start_on: 2025-01-12
+    end_on: 2025-01-15
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 881
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-12_907:
+    start_on: 2025-01-12
+    end_on: 2025-01-15
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 907
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-15_917:
+    start_on: 2025-01-15
+    end_on: 2025-01-17
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 917
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-01-15_929:
+    start_on: 2025-01-15
+    end_on: 2025-01-17
+    version: '140000'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 929
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
