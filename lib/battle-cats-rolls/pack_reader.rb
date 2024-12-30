@@ -16,7 +16,8 @@ module BattleCatsRolls
 
       @list_unpacker = Unpacker.for_list
       @pack_unpacker =
-        if `file #{pack_path}`.include?('UTF-8')
+        # Windows does not have file command. Ignore MinGW for now...
+        if !Gem.win_platform? && `file #{pack_path}`.include?('UTF-8')
           Unpacker.for_text
         else
           Unpacker.for_pack(lang)
