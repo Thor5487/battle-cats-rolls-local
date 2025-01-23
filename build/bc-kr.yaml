@@ -1842,6 +1842,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
+      curse:
+        max_level: 10
+        minmax: [[50, 50], [51, 150]]
+        ultra: 1
+      immune_slow:
+        ultra: 1
   136:
     name: [크레인 냥코, 은하전사 코스모, 궁극전사 코즈믹 코스모]
     desc: ["새 흉내 내기 콘테스트의 장거리 비행부문에서\n최고 기록을 세운 굉장한 냥코\n천사와 떠있는 적을 가끔 날려버린다 (범위 공격)", "최장거리 기록은 우주까지 도달했다\n별자리의 힘을 손에 넣은 울트라 진화한 냥코\n천사와 떠있는 적을 반드시 날려버린다 (범위 공격)", "결국 은하의 끝까지 다다른 냥코\n그 영광은 도시전설로 남아있다 (범위 공격)\n천사와 떠있는 적을 반드시 날려버려 움직임을 멈춘다"]
@@ -3467,16 +3477,16 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   289:
-    name: [카나메 마도카, 마도카&고양이]
-    desc: ["마법소녀 마도카☆마기카에서 참전!\n친구를 아끼는 착한 마음을 가진 마법소녀\n떠있는 적에 엄청 강하며 움직임을 느리게 한다 (원거리 범위공격)", "마법소녀 마도카☆마기카에서 참전!\n착한 마음씨와 엄청난 재능을 지닌 마법소녀\n떠있는 적에 엄청 강하며 움직임을 느리게 한다 (원거리 범위공격)"]
-    stat: [{health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}]
+    name: [카나메 마도카, 마도카&고양이, 얼티밋 마도카]
+    desc: ["마법소녀 마도카☆마기카에서 참전!\n친구를 아끼는 착한 마음을 가진 마법소녀\n떠있는 적에 엄청 강하며 움직임을 느리게 한다 (원거리 범위공격)", "마법소녀 마도카☆마기카에서 참전!\n착한 마음씨와 엄청난 재능을 지닌 마법소녀\n떠있는 적에 엄청 강하며 움직임을 느리게 한다 (원거리 범위공격)", "마법소녀 마도카☆마기카에서 참전! 모든 마법소녀를\n지워 버린다는 소원을 대가로 원환의 이치가 되었다\n떠있는 적, 좀비, 고대종에 초 데미지를 입히며 움직임을 느리게 한다"]
+    stat: [{health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 3250, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1850, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 72, trigger_effects_0: 1, against_float: 1, against_zombie: 1, against_relic: 1, massive_damage: 1, slow_chance: 100, slow_duration: 90, zombie_killer: 1, witch_slayer: 1, immune_curse: 1, attack_duration: 145}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   290:
-    name: [아케미 호무라, 호무라&고양이]
-    desc: ["마법소녀 마도카☆마기카에서 참전!\n미스터리한 언행의 쿨한 마법소녀\n가끔 검은 적의 움직임을 순간 멈춘다 (범위공격)", "마법소녀 마도카☆마기카에서 참전!\n시간을 조종하는 마법소녀\n가끔 검은 적의 움직임을 순간 멈춘다 (범위공격)"]
-    stat: [{health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 75}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 80}]
+    name: [아케미 호무라, 호무라&고양이, 악마 호무라]
+    desc: ["마법소녀 마도카☆마기카에서 참전!\n미스터리한 언행의 쿨한 마법소녀\n가끔 검은 적의 움직임을 순간 멈춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전!\n시간을 조종하는 마법소녀\n가끔 검은 적의 움직임을 순간 멈춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전! 원환의 이치의\n섭리를 어지럽혀, 세계를 개변한 악마와 같은 존재\n빨간, 검은 적, 악마에 엄청 강하고 가끔 정지시킨다 (원거리 범위공격)"]
+    stat: [{health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 75}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 80}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, range: 455, width: 320, area_effect: 1, damage_0: 2470, long_range_0: 205, long_range_offset_0: 450, attack_time_0: 103, trigger_effects_0: 1, against_red: 1, against_black: 1, against_aku: 1, strong: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 243}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3544,7 +3554,7 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   300:
-    name: [꼬마 마도카, 꼬마 마법소녀 마도카, 꼬마 얼티미트 마도카]
+    name: [꼬마 마도카, 꼬마 마법소녀 마도카, 꼬마 얼티밋 마도카]
     desc: ["마법소녀 마도카☆마기카에서 참전!\n작은 체구에 큰 가능성을 품은 소녀", "마법소녀 마도카☆마기카에서 참전!\n작은 체구의 마법소녀로서 재능은 미지수이다 \n떠있는 적에게 초 데미지를 입힌다 (원거리 공격)", "마법소녀 마도카☆마기카에서 참전!\n체구는 작지만 우주의 법칙을 재편성할 수 있는 능력을 가진 마법소녀\n떠있는 적에게 초 데미지를 입힌다 (원거리 범위공격)"]
     stat: [{health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 120, width: 320, damage_0: 100, attack_time_0: 42, witch_slayer: 1, attack_duration: 80}, {health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 400, width: 320, damage_0: 100, long_range_0: 325, long_range_offset_0: 125, attack_time_0: 42, against_float: 1, massive_damage: 1, witch_slayer: 1, attack_duration: 80}, {health: 500, knockbacks: 2, speed: 10, cost: 300, production_cooldown: 500, attack_cooldown: 45, range: 425, width: 320, area_effect: 1, damage_0: 100, long_range_0: 325, long_range_offset_0: 150, attack_time_0: 42, against_float: 1, massive_damage: 1, witch_slayer: 1, attack_duration: 80}]
     rarity: 2
@@ -4270,9 +4280,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   360:
-    name: [불의 정령 메라라, 불꽃의 정령 메라란, 불꽃의 정령왕 메라버닝]
-    desc: ["우주에서 온 불의 정령\n내려선 별에 불꽃의 근원이 존재한다고 한다\n에이리언에 초 데미지를 입힌다", "태양을 태워 없앨 정도의 불꽃을 다루는 정령\n폭발적인 파워는 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고 초 데미지를 입힌다", "은하를 재로 만들 수 있는 강력한 불꽃을 손에 넣은 정령\n빅뱅을 초월한 파워는 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고 초 데미지를 입힌다"]
-    stat: [{health: 1140, knockbacks: 3, speed: 10, cost: 780, production_cooldown: 380, attack_cooldown: 77, range: 330, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, immune_warp: 1, attack_duration: 120}, {health: 2520, knockbacks: 3, speed: 8, cost: 2520, production_cooldown: 1350, attack_cooldown: 77, range: 390, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, resistant: 1, break_barrier_chance: 100, immune_warp: 1, attack_duration: 120}, {health: 3170, knockbacks: 3, speed: 8, cost: 2520, production_cooldown: 1350, attack_cooldown: 77, range: 390, width: 320, area_effect: 1, damage_0: 2480, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, resistant: 1, break_barrier_chance: 100, immune_warp: 1, attack_duration: 120}]
+    name: [불의 정령 메라라, 불꽃의 정령 메라란, 불꽃의 정령왕 메라버닝, 불꽃의 대정령 메라피닉스]
+    desc: ["우주에서 온 불의 정령\n내려선 별에 불꽃의 근원이 존재한다고 한다\n에이리언에 초 데미지를 입힌다", "태양을 태워 없앨 정도의 불꽃을 다루는 정령\n폭발적인 파워는 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고 초 데미지를 입힌다", "은하를 재로 만들 수 있는 강력한 불꽃을 손에 넣은 정령\n빅뱅을 초월한 파워는 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고 초 데미지를 입힌다", "불꽃의 힘을 관장하는 대정령. 죽음을 앞둔 별들에게 부활의\n열 에너지를 전달한다. 베리어를 뚫어버리며 에이리언에\n맷집이 좋고 초 데미지를 입혀 반드시 공격력을 낮춘다"]
+    stat: [{health: 1140, knockbacks: 3, speed: 10, cost: 780, production_cooldown: 380, attack_cooldown: 77, range: 330, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, immune_warp: 1, attack_duration: 120}, {health: 2520, knockbacks: 3, speed: 8, cost: 2520, production_cooldown: 1350, attack_cooldown: 77, range: 390, width: 320, area_effect: 1, damage_0: 1980, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, resistant: 1, break_barrier_chance: 100, immune_warp: 1, attack_duration: 120}, {health: 3170, knockbacks: 3, speed: 8, cost: 2520, production_cooldown: 1350, attack_cooldown: 77, range: 390, width: 320, area_effect: 1, damage_0: 2480, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, resistant: 1, break_barrier_chance: 100, immune_warp: 1, attack_duration: 120}, {health: 4000, knockbacks: 3, speed: 12, cost: 2520, production_cooldown: 1350, attack_cooldown: 77, range: 430, width: 320, area_effect: 1, damage_0: 2680, attack_time_0: 88, trigger_effects_0: 1, against_alien: 1, massive_damage: 1, resistant: 1, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, break_barrier_chance: 100, immune_warp: 1, attack_duration: 129}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4978,9 +4988,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   441:
-    name: [베베, 나기사&고양이]
-    desc: ["마법소녀 마도카☆마기카에서 참전!\n치즈를 엄청 좋아하는 마미의 단짝\n에이리언과 좀비의 공격력을 순간 낮춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전!\n마도카와 친구들 앞에 나타난 새 마법소녀\n에이리언과 좀비의 공격력을 낮춘다 (범위 공격)"]
-    stat: [{health: 1040, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 400, attack_cooldown: 50, range: 350, width: 320, area_effect: 1, damage_0: 510, attack_time_0: 25, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 60, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 45}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 72, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}]
+    name: [베베, 나기사&고양이, 원환의 이치의 사자 나기사]
+    desc: ["마법소녀 마도카☆마기카에서 참전!\n치즈를 엄청 좋아하는 마미의 단짝\n에이리언과 좀비의 공격력을 순간 낮춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전!\n마도카와 친구들 앞에 나타난 새 마법소녀\n에이리언과 좀비의 공격력을 낮춘다 (범위 공격)", "마법소녀 마도카☆마기카에서 참전! 마스코트같은 모습과\n마법소녀의 모습을 겸비한 원환의 이치의 사자\n에이리언과 좀비의 공격력을 낮추고 가끔 공격을 무효화한다"]
+    stat: [{health: 1040, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 400, attack_cooldown: 50, range: 350, width: 320, area_effect: 1, damage_0: 510, attack_time_0: 25, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 60, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 45}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 72, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 60, trigger_effects_0: 1, damage_1: 100, attack_time_1: 70, trigger_effects_1: 1, damage_2: 100, attack_time_2: 80, trigger_effects_2: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, dodge_chance: 30, dodge_duration: 60, break_barrier_chance: 30, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6271,6 +6281,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      immune_slow: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   610:
     name: [흑수 가르디언, 제수 다크 가르디언]
     desc: ["냉혈한 세계에서 태어난 또 한마리의 가르디언\n속성을 가지지 않은 적에 맷집이 좋고 소파동을 내며\n파동 데미지를 무효화 시킨다 (전방위 공격)", "아무도 지키지 못해 절망하는 자 앞에만 나타나는 고양이\n속성을 가지지 않은 적에 맷집이 좋고 소파동을 내며\n파동 데미지를 무효화시켜 체력 저하로 공격력이 상승(전방위 공격)"]
@@ -6341,6 +6365,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+      immune_freeze: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[30, 300]]
   620:
     name: [리린, 리린π, 와이즈 리린π]
     desc: ["진리를 위해서라면 친구도 실험 대상으로 하는 크레이지 걸\n위험한 약을 사용하여 실험조제한 '마액'의 힘으로\n천사와 악마에 엄청 강하고 반드시 악마 쉴드를 뚫어버린다", "악마와의 계약으로 모든 지식을 장악한 크레이지 걸\n최강의 미약을 만들어 학원안 남녀 모두를 사로잡았다\n천사와 악마에 엄청 강하고 반드시 악마 쉴드를 뚫어버린다", "악마마저 매료시키는 약을 개발한 크레이지 걸\n자신을 놓고 다투는 모습을 요염하게 웃으며 지켜본다\n천사와 악마에 엄청 강하고 반드시 악마 쉴드를 뚫어버린다"]
@@ -6580,9 +6618,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   661:
-    name: [해룡 다라이어던, 해룡왕 다라이어던]
-    desc: ["먼 옛날 신을 대신하여 바다를 지배한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다", "휘몰아치는 거친 바다의 힘을 품은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다"]
-    stat: [{health: 3300, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, slow_chance: 100, slow_duration: 90, colossus_slayer: 1, immune_knockback: 1, attack_duration: 146}, {health: 4000, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 2000, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, colossus_slayer: 1, immune_knockback: 1, attack_duration: 146}]
+    name: [해룡 다라이어던, 해룡왕 다라이어던, 해룡황제 다라이어던]
+    desc: ["먼 옛날 신을 대신하여 바다를 지배한 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다", "휘몰아치는 거친 바다의 힘을 품은 전설의 용족\n압도적인 파괴력으로 적을 공격한다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다", "해저 화산의 초열을 받아들여 진정한 모습을 드러낸 전설의 용족\n돌진하는 일격은 바다 자체를 갈라버린다 (원거리 범위공격)\n초생명체 특효를 가지며 떠있는 적과 천사를 느리게 한다"]
+    stat: [{health: 3300, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 1600, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, slow_chance: 100, slow_duration: 90, colossus_slayer: 1, immune_knockback: 1, attack_duration: 146}, {health: 4000, knockbacks: 7, speed: 5, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 2000, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 20, savage_blow_modifier: 200, colossus_slayer: 1, immune_knockback: 1, attack_duration: 146}, {health: 4500, knockbacks: 7, speed: 8, cost: 4000, production_cooldown: 2400, attack_cooldown: 82, range: 510, width: 320, area_effect: 1, damage_0: 2000, long_range_0: 310, long_range_offset_0: 400, attack_time_0: 67, trigger_effects_0: 1, against_float: 1, against_angel: 1, slow_chance: 100, slow_duration: 120, savage_blow_chance: 30, savage_blow_modifier: 200, colossus_slayer: 1, immune_knockback: 1, attack_duration: 146}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7342,6 +7380,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  779:
+    name: [고양이 마도카&호무라, 마법결사 냥코☆마기카]
+    desc: ["소극적인 친구를 이끌어주려고 하는\n배려심 넘치는 착한 마음을 가진 고양이. 가끔 떠있는 적과\n에이리언을 날려버리고 저주하며 소열파를 낸다", "함께 싸우는 힘과 강력한 신병기를 손에 넣어\n동료 마법소녀들과 마녀 섬멸을 목표로 한다. 반드시 떠있는 적과\n에이리언을 날려버리고 저주하며 소열파를 낸다"]
+    stat: [{health: 680, knockbacks: 3, speed: 4, cost: 500, production_cooldown: 280, attack_cooldown: 25, range: 250, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 30, curse_chance: 30, curse_duration: 60, surge_chance: 40, surge_level: 1, surge_mini: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 51}, {health: 3950, knockbacks: 4, speed: 20, cost: 2700, production_cooldown: 2000, range: 400, width: 320, area_effect: 1, damage_0: 1195, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 100, curse_chance: 100, curse_duration: 90, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 600, surge_range_offset: 1800, immune_wave: 1, attack_duration: 125}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  780:
+    name: [꼬마선녀 루나, 구제의 선녀 루나샤]
+    desc: ["마음 가는 대로 세계를 넘나드는 순진무구한 말괄량이 소녀\n자신의 사명은 아직 모르고 있다. 빨간 적, 에이리언, 좀비\n고대종에 엄청 강하고 가끔 순간 움직임을 멈추는 폭파를 일으킨다", "숙명에 얽매인 고양이들에게 안식을 주는 이경의 선녀\n빨간 적, 에이리언, 좀비, 고대종에 엄청 강하고\n반드시 움직임을 멈추는 폭파를 일으키며 파동을 없앤다"]
+    stat: [{health: 1200, knockbacks: 3, speed: 18, cost: 650, production_cooldown: 285, range: 200, width: 320, area_effect: 1, damage_0: 550, long_range_0: 250, long_range_offset_0: -350, attack_time_0: 15, trigger_effects_0: 1, against_red: 1, against_alien: 1, against_zombie: 1, against_relic: 1, strong: 1, freeze_chance: 50, freeze_duration: 30, zombie_killer: 1, immune_curse: 1, attack_duration: 120}, {health: 4500, knockbacks: 5, speed: 16, cost: 3000, production_cooldown: 1600, range: 400, width: 320, area_effect: 1, damage_0: 1050, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 40, trigger_effects_0: 1, against_red: 1, against_alien: 1, against_zombie: 1, against_relic: 1, strong: 1, freeze_chance: 100, freeze_duration: 60, zombie_killer: 1, immune_curse: 1, block_wave: 1, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  781:
+    name: [고양이 볼링선수, 고양이 피구선수]
+    desc: ["갈고 닦은 폼으로 던지는 강속구로 라이벌 선수들을\n분쇄해온 실내 구기의 프로. 초현자 특효. 속성을 가지지\n않은 적과 악마를 느리게 하고 가끔 소파동을 낸다", "독특한 폼으로 던지는 정확한 패스로 라이벌 학교를\n농락해온 프로 용병 선수. 초현자 특효. 속성을 가지지\n않은 적과 악마를 느리게 하고 가끔 소파동을 낸다"]
+    stat: [{health: 850, knockbacks: 3, speed: 12, cost: 320, production_cooldown: 270, attack_cooldown: 50, range: 305, width: 320, area_effect: 1, damage_0: 255, attack_time_0: 19, trigger_effects_0: 1, against_aku: 1, against_white: 1, slow_chance: 100, slow_duration: 60, sage_slayer: 1, wave_chance: 50, wave_level: 3, wave_mini: 1, immune_curse: 1, immune_surge: 1, attack_duration: 37}, {health: 850, knockbacks: 3, speed: 12, cost: 320, production_cooldown: 270, attack_cooldown: 50, range: 305, width: 320, area_effect: 1, damage_0: 255, attack_time_0: 19, trigger_effects_0: 1, against_aku: 1, against_white: 1, slow_chance: 100, slow_duration: 60, sage_slayer: 1, wave_chance: 50, wave_level: 3, wave_mini: 1, immune_curse: 1, immune_surge: 1, attack_duration: 37}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -12479,6 +12538,120 @@ gacha:
     series_id: 9
     name: "♥확률, 상세 내용은 배너를 클릭!♥신캐릭터 추가! 크리스마스 한정 캐릭터 GET 찬스!♥"
     rate: no_legend
+  941:
+    cats: [713, 626, 547, 462, 437, 241, 172, 171, 170, 169, 35, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 0
+    name: "'카오루가' 참전! 수수께끼에 싸인 생명체!★자세한 내용은 배너를 클릭!!"
+    rate: regular
+    similarity: 95
+  942:
+    cats: [764, 669, 618, 520, 456, 428, 144, 60, 58, 45, 44, 43, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 1
+    name: "★확률, 상세 내용은 배너를 클릭!★ 소환 능력을 가진 캐릭터 '고양이 다이너사우루스' 참전!"
+    rate: regular
+    similarity: 95
+  943:
+    cats: [755, 650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 2
+    name: "★확률, 상세 내용은 배너를 클릭!★ 소환 능력을 가진 캐릭터 '알리칸토' 참전!"
+    rate: regular
+    similarity: 95
+  944:
+    cats: [734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 3
+    name: "★확률, 상세 내용은 배너를 클릭!★소환 능력을 가진 캐릭터 '페가사' 참전!"
+    rate: regular
+    similarity: 95
+  945:
+    cats: [761, 661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 4
+    name: "★확률, 상세 내용은 배너를 클릭!★소환 능력을 가진 캐릭터 '포룡 건듀로스' 참전!"
+    rate: regular
+  946:
+    cats: [770, 693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 6
+    name: "★확률, 상세 내용은 배너를 클릭!★ 진화하면 소환 능력을 획득하는 캐릭터 '냥꽃 할배' 참전!"
+    rate: regular
+    similarity: 95
+  947:
+    cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 7
+    name: "★확률, 상세 내용은 배너를 클릭!★소환 능력을 가진 캐릭터 '특수기동대 엑셀' 참전!"
+    rate: regular
+    similarity: 95
+  948:
+    cats: [724, 643, 535, 494, 440, 317, 273, 272, 260, 259, 258, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 18
+    name: 공격 속도가 빠르고 파동을 내는 캐릭터 '광익신 이시스' 참전!★자세한 내용은 배너를 클릭!!
+    rate: regular
+    similarity: 95
+  949:
+    cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 238, 239, 240, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 24
+    name: 3속성에 맷집이 좋은 캐릭터 '건설병단 스핑크스' 참전!★자세한 내용은 배너를 클릭!!
+    rate: regular
+    similarity: 95
+  950:
+    cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: "★확률, 상세 내용은 배너를 클릭!★속성을 가지지 않는 적과 악마에 강한 캐릭터 '닌자아가씨 토모에' 참전!"
+    rate: regular
+  951:
+    cats: [720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 진화 시 3속성에 맷집이 좋은 캐릭터 '철의 정령 메탈릭' 참전! ★자세한 내용은 배너를 클릭!!
+    rate: regular
+    similarity: 95
+  952:
+    cats: [780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!"
+    rate: uberfest_legend
+    similarity: 99
+  953:
+    cats: [780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    rate: platinum
+  954:
+    cats: [780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    rate: legend
+  955:
+    cats: [778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: "★확률, 상세 내용은 배너를 클릭!★계절 한정 캐릭터 총집합! 울슈레 출현율 대폭 UP! 울트라 국왕 축제!"
+    rate: dynastyfest
+    similarity: 97
+  956:
+    cats: [780, 775, 770, 764, 761, 759, 755, 521, 485, 436, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: "★확률, 상세 내용은 배너를 클릭!★새로운 한정 캐릭터 '꼬마선녀 루나' 참전!★울슈레 출현율 초 UP!"
+  957:
+    cats: [449, 451, 482, 172, 764, 755, 648, 621, 139, 213, 273, 306, 726, 570, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    rate: regular
+    similarity: 65
+  958:
+    cats: [779, 441, 293, 292, 291, 290, 289, 294, 294, 294, 294, 294, 294, 299, 299, 299, 299, 298, 298, 298, 298, 297, 297, 297, 297, 296, 296, 296, 296, 295, 295, 295, 295, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 23
+    name: "★극장판『마법소녀 마도카☆마기카』콜라보 뽑기 등장!★자세한 내용은 배너를 클릭! ★"
+    rate: no_legend
+    similarity: 98
+  959:
+    cats: [449, 451, 482, 172, 764, 755, 648, 621, 139, 213, 273, 306, 726, 570, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 새해 특별 뽑기! 기간 한정 캐릭터도 등장! ★11연속 뽑기 울슈레 확정!
+    rate: regular
+    similarity: 65
+  960:
+    cats: [779, 441, 293, 292, 291, 290, 289, 294, 299, 298, 297, 296, 295, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 23
+    name: "★극장판『마법소녀 마도카☆마기카』콜라보 뽑기 등장!★자세한 내용은 배너를 클릭! ★"
+    rate: no_legend
+    similarity: 98
 events:
   2018-10-13_320:
     start_on: 2018-10-13
@@ -26800,6 +26973,57 @@ events:
     version: '140000'
     name: "★확률, 상세 내용은 배너를 클릭!★설날 기념! 감사의 마음을 담은 특별 셀렉션 뽑기!"
     id: 938
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-01-27_953:
+    start_on: 2025-01-27
+    end_on: 2030-01-01
+    version: '140100'
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    id: 953
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2025-01-27_954:
+    start_on: 2025-01-27
+    end_on: 2030-01-01
+    version: '140100'
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    id: 954
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2025-01-27_956:
+    start_on: 2025-01-27
+    end_on: 2025-02-03
+    version: '140100'
+    name: "★확률, 상세 내용은 배너를 클릭!★새로운 한정 캐릭터 '꼬마선녀 루나' 참전!★울슈레 출현율 초 UP!"
+    id: 956
+    rare: 6470
+    supa: 2500
+    uber: 1000
+    legend: 30
+  2025-01-29_945:
+    start_on: 2025-01-29
+    end_on: 2025-02-01
+    version: '140100'
+    name: "★확률, 상세 내용은 배너를 클릭!★소환 능력을 가진 캐릭터 '포룡 건듀로스' 참전!"
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-01-29_950:
+    start_on: 2025-01-29
+    end_on: 2025-02-01
+    version: '140100'
+    name: "★확률, 상세 내용은 배너를 클릭!★속성을 가지지 않는 적과 악마에 강한 캐릭터 '닌자아가씨 토모에' 참전!"
+    id: 950
     rare: 6970
     supa: 2500
     uber: 500
