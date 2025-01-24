@@ -3750,29 +3750,29 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   289:
-    name: [鹿目まどか, まどか＆ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\n友達想いの優しい心を持つ魔法少女\n浮いてる敵にめっぽう強く、動きを遅くする(遠方範囲攻撃)\nカナメマドカ", "魔法少女まどか☆マギカから参戦！\n友達想いの優しさと途方もない素質を持つ魔法少女\n浮いてる敵にめっぽう強く、動きを遅くする(遠方範囲攻撃)"]
-    stat: [{health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}]
+    name: [鹿目まどか, まどか＆ネコ, アルティメットまどか]
+    desc: ["魔法少女まどか☆マギカから参戦！\n友達想いの優しい心を持つ魔法少女\n浮いてる敵にめっぽう強く、動きを遅くする(遠方範囲攻撃)\nカナメマドカ", "魔法少女まどか☆マギカから参戦！\n友達想いの優しさと途方もない素質を持つ魔法少女\n浮いてる敵にめっぽう強く、動きを遅くする(遠方範囲攻撃)\nマドカアンドネコ", "魔法少女まどか☆マギカから参戦！全ての魔法少女を\n消し去る願いの代償として円環の理となった\n浮き、ゾンビ、古代に超ダメージを与え、動きを遅くする"]
+    stat: [{health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 2550, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 44, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 90, witch_slayer: 1, attack_duration: 80}, {health: 3250, knockbacks: 4, speed: 20, cost: 2900, production_cooldown: 2200, attack_cooldown: 100, range: 550, width: 320, area_effect: 1, damage_0: 1850, long_range_0: 450, long_range_offset_0: 350, attack_time_0: 72, trigger_effects_0: 1, against_float: 1, against_zombie: 1, against_relic: 1, massive_damage: 1, slow_chance: 100, slow_duration: 90, zombie_killer: 1, witch_slayer: 1, immune_curse: 1, attack_duration: 145}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   290:
-    name: [暁美ほむら, ほむら＆ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\n言動に謎が多いクールな魔法少女\nたまに黒い敵の動きを止める(範囲攻撃)\nアケミホムラ", "魔法少女まどか☆マギカから参戦！\n時間を操る魔法少女\nたまに黒い敵の動きを止める(範囲攻撃)"]
-    stat: [{health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 75}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 80}]
+    name: [暁美ほむら, ほむら＆ネコ, 悪魔ほむら]
+    desc: ["魔法少女まどか☆マギカから参戦！\n言動に謎が多いクールな魔法少女\nたまに黒い敵の動きを止める(範囲攻撃)\nアケミホムラ", "魔法少女まどか☆マギカから参戦！\n時間を操る魔法少女\nたまに黒い敵の動きを止める(範囲攻撃)\nホムラアンドネコ", "魔法少女まどか☆マギカから参戦！円環の理の\n摂理を乱し、世界を改変した悪魔のような存在\n赤と黒と悪魔にめっぽう強く、たまに停止する(遠方範囲)\nアクマホムラ"]
+    stat: [{health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 75}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, attack_cooldown: 85, range: 455, width: 320, area_effect: 1, damage_0: 2030, attack_time_0: 30, trigger_effects_0: 1, against_black: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 80}, {health: 2830, knockbacks: 3, speed: 11, cost: 2980, production_cooldown: 2100, range: 455, width: 320, area_effect: 1, damage_0: 2470, long_range_0: 205, long_range_offset_0: 450, attack_time_0: 103, trigger_effects_0: 1, against_red: 1, against_black: 1, against_aku: 1, strong: 1, freeze_chance: 50, freeze_duration: 120, witch_slayer: 1, immune_slow: 1, attack_duration: 243}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   291:
     name: [美樹さやか, さやか＆ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\n何事もまっすぐにぶつかって行く魔法少女\n体力低下で攻撃力上昇、1度だけ生き残る(範囲攻撃)\nミキサヤカ", "魔法少女まどか☆マギカから参戦！\n癒しの願いを契約の祈りにした魔法少女\n体力低下で攻撃力上昇、1度だけ生き残る(範囲攻撃)"]
+    desc: ["魔法少女まどか☆マギカから参戦！\n何事もまっすぐにぶつかって行く魔法少女\n体力低下で攻撃力上昇、1度だけ生き残る(範囲攻撃)\nミキサヤカ", "魔法少女まどか☆マギカから参戦！\n癒しの願いを契約の祈りにした魔法少女\n体力低下で攻撃力上昇、1度だけ生き残る(範囲攻撃)\nサヤカアンドネコ"]
     stat: [{health: 3960, knockbacks: 2, speed: 12, cost: 2820, production_cooldown: 1900, attack_cooldown: 70, range: 400, width: 320, area_effect: 1, damage_0: 1960, attack_time_0: 33, trigger_effects_0: 1, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 50, witch_slayer: 1, immune_knockback: 1, attack_duration: 66}, {health: 3960, knockbacks: 2, speed: 12, cost: 2820, production_cooldown: 1900, attack_cooldown: 70, range: 400, width: 320, area_effect: 1, damage_0: 1960, attack_time_0: 33, trigger_effects_0: 1, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 50, witch_slayer: 1, immune_knockback: 1, attack_duration: 66}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   292:
     name: [巴マミ, マミ＆ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\n後輩の面倒見が良い先輩魔法少女\n天使に超ダメージを与える(遠方範囲攻撃)\nトモエマミ", "魔法少女まどか☆マギカから参戦！\nひとり孤独に耐えてきた実は寂しがり屋な魔法少女\n天使に超ダメージを与える(遠方範囲攻撃)"]
+    desc: ["魔法少女まどか☆マギカから参戦！\n後輩の面倒見が良い先輩魔法少女\n天使に超ダメージを与える(遠方範囲攻撃)\nトモエマミ", "魔法少女まどか☆マギカから参戦！\nひとり孤独に耐えてきた実は寂しがり屋な魔法少女\n天使に超ダメージを与える(遠方範囲攻撃)\nマミアンドネコ"]
     stat: [{health: 2640, knockbacks: 4, speed: 9, cost: 2940, production_cooldown: 2150, attack_cooldown: 120, range: 475, width: 320, area_effect: 1, damage_0: 2340, long_range_0: 300, long_range_offset_0: 400, attack_time_0: 33, against_angel: 1, massive_damage: 1, witch_slayer: 1, attack_duration: 126}, {health: 2640, knockbacks: 4, speed: 9, cost: 2940, production_cooldown: 2150, attack_cooldown: 120, range: 475, width: 320, area_effect: 1, damage_0: 2340, long_range_0: 300, long_range_offset_0: 400, attack_time_0: 33, against_angel: 1, massive_damage: 1, witch_slayer: 1, attack_duration: 126}]
     rarity: 4
     max_level: 130
@@ -3786,7 +3786,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   294:
     name: [キュゥべえ, キュゥべえ＆ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\n契約をすると願い事を１つ叶えてくれる\nエイリアンに打たれ強く、まれに生き残る", "魔法少女まどか☆マギカから参戦！\n叶えたい望みがある少女を探している\nエイリアンに打たれ強く、まれに生き残る"]
+    desc: ["魔法少女まどか☆マギカから参戦！\n契約をすると願い事を１つ叶えてくれる\nエイリアンに打たれ強く、まれに生き残る", "魔法少女まどか☆マギカから参戦！\n叶えたい望みがある少女を探している\nエイリアンに打たれ強く、まれに生き残る\nキュゥベエアンドネコ"]
     stat: [{health: 990, knockbacks: 3, speed: 9, cost: 440, production_cooldown: 220, range: 220, width: 320, damage_0: 390, attack_time_0: 26, against_alien: 1, resistant: 1, survive_chance: 50, attack_duration: 50}, {health: 990, knockbacks: 3, speed: 9, cost: 440, production_cooldown: 220, range: 220, width: 320, damage_0: 390, attack_time_0: 26, against_alien: 1, resistant: 1, survive_chance: 50, attack_duration: 50}]
     rarity: 3
     max_level: 120
@@ -3821,7 +3821,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   299:
     name: [ネコ杏子, 魔法少女ネコ杏子]
-    desc: ["食いしん坊な魔法少女に憧れるネコ\n食べ物は決して粗末にしない\nたまに赤い敵の攻撃力をダウンさせる\nネコキョウコ", "怪しげな白い生き物と契約したネコ魔法少女\n伸びる槍はホームセンターで材料をそろえた手作り品\nたまに赤い敵の攻撃力をダウンさせる\nマホウショジョネコキョウコ"]
+    desc: ["食いしん坊な魔法少女に憧れるネコ\n食べ物は決して粗末にしない\nたまに赤い敵の攻撃力をダウンさせる\nネコキョウコ", "怪しげな白い生き物と契約したネコ魔法少女\n伸びる槍はホームセンターで材料をそろえた手作り品\nたまに赤い敵の攻撃力をダウンさせる\nマホウショウジョネコキョウコ"]
     stat: [{health: 925, knockbacks: 3, speed: 9, cost: 410, production_cooldown: 215, attack_cooldown: 25, range: 150, width: 320, damage_0: 225, attack_time_0: 23, against_red: 1, weaken_chance: 30, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 70}, {health: 925, knockbacks: 3, speed: 9, cost: 410, production_cooldown: 215, attack_cooldown: 29, range: 200, width: 320, damage_0: 225, attack_time_0: 15, against_red: 1, weaken_chance: 30, weaken_duration: 200, weaken_multiplier: 50, attack_duration: 27}]
     rarity: 2
     max_level: 130
@@ -5345,9 +5345,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   441:
-    name: [ベベ, なぎさ&ネコ]
-    desc: ["魔法少女まどか☆マギカから参戦！\nチーズが大好物で、マミの相棒的な存在\nエイリアンとゾンビの攻撃力を一瞬下げる(範囲攻撃)", "魔法少女まどか☆マギカから参戦！\nまどか達の前に現れた新たな魔法少女\nエイリアンとゾンビの攻撃力を下げる(範囲攻撃)"]
-    stat: [{health: 1040, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 400, attack_cooldown: 50, range: 350, width: 320, area_effect: 1, damage_0: 510, attack_time_0: 25, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 60, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 45}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 72, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}]
+    name: [ベベ, なぎさ&ネコ, 円環の理の使者なぎさ]
+    desc: ["魔法少女まどか☆マギカから参戦！\nチーズが大好物で、マミの相棒的な存在\nエイリアンとゾンビの攻撃力を一瞬下げる(範囲攻撃)", "魔法少女まどか☆マギカから参戦！\nまどか達の前に現れた新たな魔法少女\nエイリアンとゾンビの攻撃力を下げる(範囲攻撃)\nナギサアンドネコ", "魔法少女まどか☆マギカから参戦！マスコットの\nような姿と魔法少女の姿を併せ持つ円環の理の使者\nエイリアンとゾンビの攻撃力を下げたまに攻撃を無効化\nエンカンノコトワリノシシャナギサ"]
+    stat: [{health: 1040, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 400, attack_cooldown: 50, range: 350, width: 320, area_effect: 1, damage_0: 510, attack_time_0: 25, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 60, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 45}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 72, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}, {health: 2520, knockbacks: 6, speed: 12, cost: 2600, production_cooldown: 1600, attack_cooldown: 66, range: 450, width: 320, area_effect: 1, damage_0: 2040, attack_time_0: 60, trigger_effects_0: 1, damage_1: 100, attack_time_1: 70, trigger_effects_1: 1, damage_2: 100, attack_time_2: 80, trigger_effects_2: 1, against_alien: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 180, weaken_multiplier: 50, dodge_chance: 30, dodge_duration: 60, break_barrier_chance: 30, zombie_killer: 1, witch_slayer: 1, immune_warp: 1, attack_duration: 129}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7996,9 +7996,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   779:
-    name: [779-1, 779-2, 779-3]
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}]
+    name: [ネコまどか＆ほむら, 魔法結社にゃんこ☆マギカ]
+    desc: ["引っ込み思案な友達を外の世界へ連れ出そうとする\n思いやりにあふれた心優しいネコ。たまに浮いてる敵と\nエイリアンをふっとばして呪い、小烈波を放つ\nネコマドカアンドホムラ", "共に戦う強さと強力な新兵器を手に入れ、魔法少女の\n仲間たちと魔女の殲滅を目指す。必ず浮いてる敵と\nエイリアンをふっとばして呪い、小烈波を放つ\nマホウケッシャニャンコマギカ"]
+    stat: [{health: 680, knockbacks: 3, speed: 4, cost: 500, production_cooldown: 280, attack_cooldown: 25, range: 250, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 25, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 30, curse_chance: 30, curse_duration: 60, surge_chance: 40, surge_level: 1, surge_mini: 1, surge_range: 600, surge_range_offset: 1800, attack_duration: 51}, {health: 3950, knockbacks: 4, speed: 20, cost: 2700, production_cooldown: 2000, range: 400, width: 320, area_effect: 1, damage_0: 1195, attack_time_0: 70, trigger_effects_0: 1, against_float: 1, against_alien: 1, knockback_chance: 100, curse_chance: 100, curse_duration: 90, surge_chance: 100, surge_level: 1, surge_mini: 1, surge_range: 600, surge_range_offset: 1800, immune_wave: 1, attack_duration: 125}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -13164,9 +13164,8 @@ gacha:
   952:
     cats: [780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 19
-    name: 限定伝説レア「暁のイザナギ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!
+    name: 新限定キャラ「幼天女ルーナ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!
     rate: uberfest_legend
-    similarity: 99
   953:
     cats: [780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -13191,6 +13190,11 @@ gacha:
     series_id: 16
     name: 期間限定キャラも登場する、特別仕様の新年ガチャ！★詳細はバナーをタップ!!
     rate: regular
+  958:
+    cats: [779, 441, 293, 292, 291, 290, 289, 294, 294, 294, 294, 294, 294, 299, 299, 299, 299, 298, 298, 298, 298, 297, 297, 297, 297, 296, 296, 296, 296, 295, 295, 295, 295, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 23
+    name: 新キャラも登場、劇場版『魔法少女まどか☆マギカ』ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
 events:
   2018-09-15_320:
     start_on: 2018-09-15
@@ -28386,3 +28390,61 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2025-01-27_696:
+    start_on: 2025-01-27
+    end_on: 2025-01-29
+    version: '140101'
+    name: 赤い敵対策はお任せ！限定キャラも登場する特別版！★おまけアップイベント開催中!!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-01-27_945:
+    start_on: 2025-01-27
+    end_on: 2025-01-30
+    version: '140101'
+    name: 召喚能力を持つキャラクター「砲龍ガンドロス」参戦！★詳細はバナーをタップ!!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-01-27_958:
+    start_on: 2025-01-27
+    end_on: 2025-02-10
+    version: '140101'
+    name: 新キャラも登場、劇場版『魔法少女まどか☆マギカ』ガチャ！★詳細はバナーをタップ!!
+    id: 958
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-01-30_951:
+    start_on: 2025-01-30
+    end_on: 2025-02-01
+    version: '140101'
+    name: 進化で3属性に打たれ強くなるキャラ「鉄の精霊カッチン」参戦！★詳細はバナーをタップ!!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-01_952:
+    start_on: 2025-02-01
+    end_on: 2025-02-04
+    version: '140101'
+    name: 新限定キャラ「幼天女ルーナ」参戦！★超激レア出現率超アップの「超ネコ祭」開催中!!
+    id: 952
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-02-01_958:
+    start_on: 2025-02-01
+    end_on: 2025-02-10
+    version: '140101'
+    name: 新キャラも登場、劇場版『魔法少女まどか☆マギカ』ガチャ！★詳細はバナーをタップ!!
+    id: 958
+    rare: 7000
+    supa: 2500
+    uber: 500
