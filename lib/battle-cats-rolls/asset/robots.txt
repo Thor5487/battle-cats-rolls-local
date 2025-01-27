@@ -1,7 +1,13 @@
 User-agent: *
 Disallow: /*.png
 
+User-agent: ClaudeBot
+Disallow: /
+
 User-agent: GPTBot
+Disallow: /
+
+User-agent: Facebot
 Disallow: /
 
 User-agent: DataForSeoBot
