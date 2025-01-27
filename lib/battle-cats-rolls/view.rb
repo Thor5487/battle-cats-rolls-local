@@ -425,7 +425,7 @@ module BattleCatsRolls
       return unless info = Route.ball_en.cats[cat.id]
 
       en_cat = Cat.new(info: info)
-      "https://battle-cats.fandom.com/wiki/#{h(en_cat.wiki_entry_name)}"
+      "https://battlecats.miraheze.org/wiki/#{h(en_cat.wiki_entry_name)}"
     end
 
     def uri_to_cat_db cat
