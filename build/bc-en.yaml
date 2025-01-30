@@ -12346,9 +12346,8 @@ gacha:
   934:
     cats: [437, 520, 159, 503, 85, 770, 213, 260, 356, 336, 362, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 35
-    name: Your favorite Cats join forces for a Year's-End blowout!
+    name: Lunar New Year Capsules full of popular units! Tap the banner for details!
     rate: no_legend
-    similarity: 71
   935:
     cats: [547, 60, 619, 106, 761, 526, 432, 535, 306, 358, 402, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 39
@@ -12362,9 +12361,8 @@ gacha:
   937:
     cats: [462, 482, 545, 72, 428, 506, 620, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 67
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
-    rate: no_legend
-    similarity: 78
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    rate: regular
   938:
     cats: [464, 449, 451, 494, 45, 137, 197, 352, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 68
@@ -12374,7 +12372,6 @@ gacha:
     cats: [60, 76, 84, 85, 107, 108, 136, 144, 197, 287, 44, 73, 195, 241, 259, 437, 520, 560, 43, 77, 87, 88, 106, 125, 137, 213, 284, 306, 534, 621, 58, 139, 171, 262, 317, 359, 398, 716, 648, 650, 656, 661, 669, 675, 683, 687, 130, 132, 145, 201, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 59
     name: Units from Busters sets join forces! ★ Uber Rare drop rates UP!
-    similarity: 98
   940:
     cats: [778, 242, 243, 244, 311, 527, 585, 688, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 9
@@ -12391,19 +12388,16 @@ gacha:
     series_id: 1
     name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
     rate: regular
-    similarity: 95
   943:
     cats: [755, 650, 619, 449, 497, 339, 159, 126, 125, 74, 73, 72, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 2
     name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
     rate: regular
-    similarity: 95
   944:
     cats: [734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 3
     name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
     rate: regular
-    similarity: 95
   945:
     cats: [761, 661, 621, 506, 451, 397, 178, 88, 87, 86, 85, 84, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 4
@@ -12414,7 +12408,6 @@ gacha:
     series_id: 6
     name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
     rate: regular
-    similarity: 95
   947:
     cats: [775, 699, 635, 534, 482, 432, 262, 227, 213, 197, 196, 195, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 7
@@ -12426,13 +12419,11 @@ gacha:
     series_id: 18
     name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
     rate: regular
-    similarity: 95
   949:
     cats: [716, 675, 633, 595, 524, 523, 496, 464, 448, 447, 446, 445, 444, 418, 378, 377, 356, 326, 307, 306, 305, 308, 309, 201, 145, 132, 130, 238, 239, 240, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 24
     name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
     rate: regular
-    similarity: 95
   950:
     cats: [726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 28
@@ -27914,6 +27905,94 @@ events:
     version: '140100'
     name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
     id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-01_943:
+    start_on: 2025-02-01
+    end_on: 2025-02-04
+    version: '140100'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-01_946:
+    start_on: 2025-02-01
+    end_on: 2025-02-04
+    version: '140100'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-03_937:
+    start_on: 2025-02-03
+    end_on: 2025-02-05
+    version: '140100'
+    name: Lunar New Year Capsules full of appreciation! Tap the banner for details!
+    id: 937
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-04_948:
+    start_on: 2025-02-04
+    end_on: 2025-02-07
+    version: '140100'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-04_949:
+    start_on: 2025-02-04
+    end_on: 2025-02-07
+    version: '140100'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 949
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-05_939:
+    start_on: 2025-02-05
+    end_on: 2025-02-07
+    version: '140100'
+    name: Units from Busters sets join forces! ★ Uber Rare drop rates UP!
+    id: 939
+    rare: 6800
+    supa: 2500
+    uber: 700
+  2025-02-07_934:
+    start_on: 2025-02-07
+    end_on: 2025-02-10
+    version: '140100'
+    name: Lunar New Year Capsules full of popular units! Tap the banner for details!
+    id: 934
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-02-07_942:
+    start_on: 2025-02-07
+    end_on: 2025-02-10
+    version: '140100'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-02-07_944:
+    start_on: 2025-02-07
+    end_on: 2025-02-10
+    version: '140100'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 944
     rare: 6970
     supa: 2500
     uber: 500
