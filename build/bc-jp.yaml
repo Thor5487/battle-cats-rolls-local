@@ -28448,3 +28448,35 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2025-02-04_946:
+    start_on: 2025-02-04
+    end_on: 2025-02-07
+    version: '140101'
+    name: 進化後に召喚能力を持つキャラクター「花咲かじいさん」参戦！★詳細はバナーをタップ!!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-02-04_958:
+    start_on: 2025-02-04
+    end_on: 2025-02-10
+    version: '140101'
+    name: 新キャラも登場、劇場版『魔法少女まどか☆マギカ』ガチャ！★詳細はバナーをタップ!!
+    id: 958
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-02-07_949:
+    start_on: 2025-02-07
+    end_on: 2025-02-10
+    version: '140101'
+    name: 3属性に打たれ強いキャラ「建築兵団スフィンクス」参戦！★詳細はバナーをタップ!!
+    id: 949
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
