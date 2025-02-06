@@ -449,6 +449,16 @@ module BattleCatsRolls
       end
     end
 
+    class Explosion < Talent
+      def name
+        'Explosion'
+      end
+
+      def display
+        'TODO'
+      end
+    end
+
     class ExtraMoney < Talent
       def initialize(...)
         super
