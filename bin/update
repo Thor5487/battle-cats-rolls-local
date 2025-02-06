@@ -1,10 +1,10 @@
 #!/bin/sh
 
-root=$(realpath $(dirname $0)/..)
-sudo chown -R godfat:godfat $root/data $root/build
+root=$(realpath "$(dirname "$0")"/..)
+chown -R godfat:godfat "$root/data" "$root/build"
 
 user_git(){
-  git -C $root $*
+  git -C "$root" "$@"
 }
 
 user_git add .
@@ -13,5 +13,5 @@ user_git pull
 user_git stash pop
 user_git reset
 
-sudo chown -R bcat:bcat $root/data $root/build
-sudo -u bcat ruby $root/bin/cleanup-apk.rb
+chown -R bcat:bcat "$root/data" "$root/build"
+sudo -u bcat ruby "$root/bin/cleanup-apk.rb"
