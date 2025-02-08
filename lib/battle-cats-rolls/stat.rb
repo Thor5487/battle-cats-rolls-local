@@ -143,6 +143,10 @@ module BattleCatsRolls
       @surge_effect ||= effects.find{ |eff| eff.kind_of?(Ability::Surge) }
     end
 
+    def explosion_effect
+      @explosion_effect ||= effects.find{ |eff| eff.kind_of?(Ability::Explosion) }
+    end
+
     def dps_sum
       @dps_sum ||= if kamikaze? || max_dps_area == 'None'
         '-'
@@ -150,14 +154,14 @@ module BattleCatsRolls
         if sum_no_wave
           attacks_raw
         else
-          attacks
+          attacks_major
         end.sum(&:dps)
       end
     end
 
     def max_dps_area
       @max_dps_area ||= if long_range?
-        intersected = attacks.map(&:area_range).inject do |result, range|
+        intersected = attacks_major.map(&:area_range).inject do |result, range|
           [result.begin, range.begin].max..[result.end, range.end].min
         end
 
@@ -174,19 +178,19 @@ module BattleCatsRolls
     end
 
     def attacks
-      @attacks ||= if wave_effect || surge_effect
+      @attacks ||= if wave_effect || surge_effect || explosion_effect
         attacks_raw.flat_map do |atk|
           if atk.effects.any?
             attack_args = {stat: self, damage: atk.damage,
               trigger_effects: atk.trigger_effects}
 
-            # Could one day a cat can have wave and surge at the same time?
             # Wrap wave in an array to avoid calling `to_a` on WaveAttack
             wave = [WaveAttack.new(**attack_args)] if wave_effect
             surges = [SurgeAttack.new(**attack_args)] * surge_effect.level if
               surge_effect
+            explosion = ExplosionAttack.new(**attack_args) if explosion_effect
 
-            [atk, *wave, *surges]
+            [atk, *wave, *surges, *explosion]
           else
             atk
           end
@@ -194,6 +198,10 @@ module BattleCatsRolls
       else
         attacks_raw
       end
+    end
+
+    def attacks_major
+      @attacks_major ||= attacks.reject(&:cascade)
     end
 
     def attacks_raw

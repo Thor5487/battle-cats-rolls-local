@@ -450,12 +450,27 @@ module BattleCatsRolls
     end
 
     class Explosion < Talent
+      include TalentUtility
+
+      def initialize(...)
+        super
+        self.ability = Ability::Explosion.new
+      end
+
       def name
         'Explosion'
       end
 
       def display
-        'TODO'
+        chance = data.dig('minmax', 0)
+        range = data.dig('minmax', 1).
+          map{ |r| (r * range_multiplier).floor }
+
+        display_text = ability.display(
+          chance: values_range(chance, suffix: '%'),
+          range: values_range(range))
+
+        "#{display_text} by #{level} levels"
       end
     end
 

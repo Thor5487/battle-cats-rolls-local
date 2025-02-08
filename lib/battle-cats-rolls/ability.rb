@@ -774,6 +774,43 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
+    class Explosion < Struct.new(:chance, :range, :mini)
+      include AbilityUtility
+
+      def self.build_if_available stat
+        if stat['explosion_chance']
+          new(*stat.values_at('explosion_chance', 'explosion_range'))
+        end
+      end
+
+      def name
+        'Explosion'
+      end
+
+      def display values=display_values
+        sprintf(
+          "%{chance} to trigger #{name.downcase} attack at %{range}", values)
+      end
+
+      def display_short
+        "#{percent(chance)} #{name.downcase}"
+      end
+
+      def start
+        (range * range_multiplier).floor
+      end
+
+      def specialized; false; end
+      def effects; true; end
+      def index; __LINE__; end
+
+      private
+
+      def display_values
+        {chance: percent(chance), range: highlight(start)}
+      end
+    end
+
     class ExtraMoney
       def self.build_if_available stat
         new if stat['extra_money']
@@ -831,7 +868,8 @@ module BattleCatsRolls
     class Immunity < Struct.new(:immunity)
       include AbilityUtility
       List = %w[
-        bosswave knockback warp freeze slow weaken curse wave surge toxic
+        bosswave knockback warp freeze slow weaken curse
+        wave surge explosion toxic
       ].freeze
 
       def self.build_if_available stat
