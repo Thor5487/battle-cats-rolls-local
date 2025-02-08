@@ -1,6 +1,6 @@
 #!/bin/sh
 
-root=$(realpath "$(dirname "$0")"/..)
+root=$(readlink -e "$(dirname "$0")"/..)
 chown -R godfat:godfat "$root/data" "$root/build"
 
 user_git(){
