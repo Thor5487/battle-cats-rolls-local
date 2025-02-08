@@ -3,7 +3,12 @@
 module BattleCatsRolls
   class Attack < Struct.new(
     :stat, :damage, :long_range, :long_range_offset,
-    :trigger_effects, :duration, keyword_init: true)
+    :trigger_effects, :duration, :cascade,
+    keyword_init: true)
+
+    def display_short
+      triggered_effect.display_short
+    end
 
     def area_display
       @area_display ||= if long_range
@@ -103,7 +108,7 @@ module BattleCatsRolls
     def effects
       @effects ||= super.reject do |eff|
         case eff
-        when Ability::Wave, Ability::Surge
+        when Ability::Wave, Ability::Surge, Ability::Explosion
           true
         end
       end
@@ -177,6 +182,54 @@ module BattleCatsRolls
 
     def backward
       250
+    end
+  end
+
+  class ExplosionAttack < TriggeredAttack
+    def triggered_effect
+      stat.explosion_effect
+    end
+
+    def display_short
+      if cascade
+        "Cascade of #{triggered_effect.name.downcase}"
+      else
+        triggered_effect.display_short
+      end
+    end
+
+    def area_display
+      @area_display ||= if cascade
+        "~#{area_range.end}"
+      else
+        "#{area_range.begin} ~ #{area_range.end}"
+      end
+    end
+
+    def area_range
+      @area_range ||= begin
+        start = triggered_effect.start
+        (start - backward)..(start + forward)
+      end
+    end
+
+    def to_a
+      attrs = to_h
+      [
+        self,
+        self.class.new(attrs.merge({damage: (damage * 0.7).floor, cascade: 1})),
+        self.class.new(attrs.merge({damage: (damage * 0.4).floor, cascade: 2})),
+      ]
+    end
+
+    private
+
+    def forward
+      75 + cascade.to_i * 100
+    end
+
+    def backward
+      75 + cascade.to_i * 100
     end
   end
 end

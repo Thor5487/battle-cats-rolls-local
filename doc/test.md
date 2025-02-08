@@ -107,3 +107,9 @@
   https://bc.godfat.org/cats/691
 * Trash Cat: BCEN exclusive should have animation and DPS data:
   https://bc.godfat.org/cats/741
+* Celestial Child Luna: Explosion
+  https://bc.godfat.org/cats/780
+* こねこ: Wave + Surge + Explosion
+  https://bc.godfat.org/cats/784?lang=jp
+* 覚醒のネコムート: Talent explosion
+  https://bc.godfat.org/cats/26?lang=jp
