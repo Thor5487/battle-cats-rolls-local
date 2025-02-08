@@ -1,5 +1,5 @@
 #!/bin/sh
 
-root=$(realpath "$(dirname "$0")"/..)
+root=$(readlink -e "$(dirname "$0")"/..)
 test -f "$root/.env" || touch "$root/.env"
 env "$(cat "$root/.env")" yahns -c "$root/config/yahns.rb" "$@"
