@@ -1,6 +1,8 @@
 
 source 'https://rubygems.org'
 
+gem 'base64' # stdlib
+
 gem 'jellyfish'
 gem 'tilt'
 gem 'rack'
