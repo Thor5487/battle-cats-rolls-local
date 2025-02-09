@@ -1,16 +1,7 @@
 <%= erb :form %>
 
 <%= header(1, "Event data links for BC#{route.lang.upcase}") %>
-<ul>
-  <% %w[gatya.tsv item.tsv sale.tsv].each do |file| %>
-    <li>
-      <a href="<%= route.event_url(file: file) %>"><%= file %></a>
-      (cached for <%= route.tsv_expires_in %> seconds)
-      / <a href="<%= route.event_url(file: file, kind: '/curl') %>">curl command</a>
-      / <a href="<%= route.event_url(file: file, kind: '/json') %>">headers in JSON</a>
-    </li>
-  <% end %>
-</ul>
+<ul><li>Links are removed because they no longer work</li></ul>
 
 <%= header(1, "Known bugs for 8.6+") %><p></p>
 <ol>
@@ -22,6 +13,11 @@
 <%= header(2, "2025-02-09") %>
 <ul>
   <li>Explosion and immune to explosion implemented.</li>
+  <li>
+    Event data links are removed because they no longer work anyway.
+    There are no plans to fix them at the moment, because it's more
+    involved and the site is not designed to serve these.
+  </li>
 </ul>
 
 <%= header(2, "2025-01-27") %>
