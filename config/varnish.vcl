@@ -15,7 +15,7 @@ sub vcl_recv {
     }
 
     if (req.http.referer &&
-        req.http.referer ~ "\b(t\.co|twitter\.com|facebook\.com|youtube\.com)\b") {
+        req.http.referer ~ "\b(t\.co|twitter\.com|x\.com|facebook\.com|youtube\.com)\b") {
         return (pass);
     }
 }
