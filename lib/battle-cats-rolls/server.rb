@@ -25,6 +25,7 @@ module BattleCatsRolls
     disallowed_domains = Regexp.union(%w[
       t.co
       twitter.com
+      x.com
       facebook.com
       youtube.com
     ])
