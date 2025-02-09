@@ -101,25 +101,37 @@ immediately. In this case you can run this to force it to restart now.
 
     sudo ./bin/uninstall # Read the contents before you run it!
 
-## How to populate data:
+## Environment variables defined in `.env` file
 
-Populate everything:
+In order to build data from the event data, some keys and secrets must be
+set to access the data. It's intended that this repository does not share
+any of the keys and secrets. If you would like to build data, or access the
+latest event data, you have to figure out the keys and secrets on your own.
+
+If you only want to run the server locally, the data is already built and
+populated in the repository. You can just run it without any keys or secrets.
+You can create an empty `.env` file or ignore it. Showing tracks does not
+require any of the keys or secrets.
+
+## How to build data:
+
+Build everything:
 
     env (cat .env) ruby bin/build.rb
 
-Populate BCEN data:
+Build BCEN data:
 
     env (cat .env) ruby bin/build.rb en
 
-Populate BCTW data:
+Build BCTW data:
 
     env (cat .env) ruby bin/build.rb tw
 
-Populate BCJP data:
+Build BCJP data:
 
     env (cat .env) ruby bin/build.rb jp
 
-Populate BCKR data:
+Build BCKR data:
 
     env (cat .env) ruby bin/build.rb kr
 
