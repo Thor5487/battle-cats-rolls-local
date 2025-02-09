@@ -1,17 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
-  <head profile="http://www.w3.org/2005/10/profile">
-    <meta http-equiv="Content-Type"
-          content="application/xhtml+xml; charset=utf-8"/>
-    <meta name="description"
-          content="Battle Cats Rolls"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="robots" content="none"/>
-    <link rel="icon" type="image/png" href="/asset/image/treasure.png"/>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Battle Cats Rolls">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="none">
+    <link rel="icon" type="image/png" href="/asset/image/treasure.png">
     <link href="/asset/style/tacit.css" rel="stylesheet" type="text/css">
     <title>Battle Cats Rolls</title>
-    <style type="text/css">
+    <style>
       #notice { background-color: pink; }
 
       table { border-collapse: collapse; }
@@ -77,7 +74,7 @@
         .cat { border-top-style: none; }
       <% end %>
     </style>
-    <script type="text/javascript">
+    <script>
       function roll(element) {
         element.form.submit();
       };
@@ -90,15 +87,15 @@
   <body>
     <div id="menu">
       <a href="<%= route.uri %>" title="Home / Permalink">
-        <img class="menu" src="/asset/image/treasure.png"></a>
+        <img class="menu" src="/asset/image/treasure.png" alt="Treasure"></a>
       <a href="<%= route.cats_uri %>" title="Show me all cats">
-        <img class="menu" src="/asset/image/cats.png"></a>
+        <img class="menu" src="/asset/image/cats.png" alt="Cats"></a>
       <a href="<%= route.help_uri %>" title="Help!">
-        <img class="menu" src="/asset/image/help.png"></a>
+        <img class="menu" src="/asset/image/help.png" alt="Help"></a>
       <a href="<%= route.logs_uri %>" title="What's changed?">
-        <img class="menu" src="/asset/image/logs.png"></a>
+        <img class="menu" src="/asset/image/logs.png" alt="Logs"></a>
       <a href="<%= route.seek_uri %>" title="Looking for your seed?">
-        <img class="menu" src="/asset/image/seek.png"></a>
+        <img class="menu" src="/asset/image/seek.png" alt="Seek"></a>
       <hr>
     </div>
 
