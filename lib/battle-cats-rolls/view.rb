@@ -437,11 +437,11 @@ module BattleCatsRolls
     end
 
     def uri_to_own_all_cats
-      route.cats_uri(query: {o: Owned.encode(arg[:cats].keys)})
+      route.cats_uri(query: {o: Owned.encode(route.owned + arg[:cats].keys)})
     end
 
     def uri_to_drop_all_cats
-      route.cats_uri(query: {o: ''})
+      route.cats_uri(query: {o: Owned.encode(route.owned - arg[:cats].keys)})
     end
 
     def erb name, nested_arg=nil, &block
