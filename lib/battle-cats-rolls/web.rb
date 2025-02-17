@@ -163,7 +163,8 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        render :cats, cats: route.cats
+        render :cats, cats: route.ball.cats,
+          cats_by_rarity: route.ball.cats_by_rarity
       end
     end
 

@@ -103,7 +103,7 @@
 
   <% if route.path_info == '/cats' %>
   <div class="cats">
-    <% each_ball_cat do |rarity, cats| %>
+    <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
       <%= header(1, rarity) %>
       <ol>
         <% cats.reverse_each do |c| %>

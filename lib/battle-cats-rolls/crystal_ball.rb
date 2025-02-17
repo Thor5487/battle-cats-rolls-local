@@ -124,14 +124,18 @@ module BattleCatsRolls
       }
     end
 
+    def self.group_by_rarity cats
+      cats.group_by do |id, data|
+        data['rarity']
+      end.sort.to_h.transform_values(&:to_h)
+    end
+
     def inspect
       "#<#{self.class} cat=#{cats.dig(1, 'name', 0).inspect}>"
     end
 
     def cats_by_rarity
-      @cats_by_rarity ||= cats.group_by do |id, data|
-        data['rarity']
-      end.sort.to_h.transform_values(&:to_h)
+      @cats_by_rarity ||= self.class.group_by_rarity(cats)
     end
 
     def gacha

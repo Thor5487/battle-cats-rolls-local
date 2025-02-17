@@ -28,8 +28,8 @@ module BattleCatsRolls
       L10n.translate(route.ui_lang, text)
     end
 
-    def each_ball_cat
-      route.ball.cats_by_rarity.reverse_each do |rarity, data|
+    def each_cats_by_rarity cats_by_rarity
+      cats_by_rarity.reverse_each do |rarity, data|
         yield(rarity, data.map{ |id, info| Cat.new(id: id, info: info) })
       end
     end
