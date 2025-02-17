@@ -14,11 +14,15 @@ module BattleCatsRolls
     module_function
 
     def encode cat_ids
-      int = cat_ids.inject(0) do |result, id|
-        result + 2 ** id
-      end
+      if cat_ids.empty?
+        ''
+      else
+        int = cat_ids.inject(0) do |result, id|
+          result + 2 ** id
+        end
 
-      to_radix(int)
+        to_radix(int)
+      end
     end
 
     def decode code
