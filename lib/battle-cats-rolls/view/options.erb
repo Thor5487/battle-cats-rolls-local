@@ -104,7 +104,7 @@
   <% if route.path_info == '/cats' %>
   <div class="cats">
     <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
-      <%= header(1, rarity) %>
+      <%= header(2, BattleCatsRolls::Cat.wiki_rarity_label(rarity)) %>
       <ol>
         <% cats.reverse_each do |c| %>
           <li>

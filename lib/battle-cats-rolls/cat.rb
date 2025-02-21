@@ -107,7 +107,11 @@ module BattleCatsRolls
     end
 
     def wiki_rarity_label
-      case info['rarity']
+      self.class.wiki_rarity_label(info['rarity'])
+    end
+
+    def self.wiki_rarity_label rarity
+      case rarity
       when 0
         'Normal Cat'
       when 1
