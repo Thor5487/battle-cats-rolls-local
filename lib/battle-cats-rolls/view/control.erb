@@ -22,7 +22,7 @@
 
   <label for="last_select">Last roll:</label>
   <select id="last_select" name="last" onchange="roll(this)">
-    <option></option>
+    <option value="<%= route.last %>"></option>
 
     <optgroup label="Rare:">
       <% gacha.rare_cats.uniq(&:id).each do |cat| %>
