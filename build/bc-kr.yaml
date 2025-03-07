@@ -354,13 +354,37 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [10, 100]]
+      freeze:
+        max_level: 10
+        minmax: [[12, 30]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   26:
     name: [고양이 무트, 광란의 고양이 무트, 각성의 고양이 무트]
     desc: ["그 옛날 세계를 멸망시켰다고 전해지는\n전설의 초고대병기\n압도적인 파괴력으로 적을 공격 (범위 공격)", "먼 옛날에 세계를 멸망시켰다고 전해지는\n초고대병기의 인형탈이었던 것으로 판명됨\n그런데도 압도적인 파괴력으로 적을 공격 (범위 공격)", "먼 옛날에 세계를 멸망시켰다고 전해지는\n초고대병기의 인형탈에서 해방되어 각성한 고양이 무트\n불멸의 파워와 스피드로 적을 소탕한다 (범위 공격)"]
-    stat: [{health: 1500, knockbacks: 3, speed: 6, cost: 3000, production_cooldown: 2400, attack_cooldown: 240, range: 450, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 121, trigger_effects_0: 1, attack_duration: 150}, {health: 1500, knockbacks: 3, speed: 6, cost: 3000, production_cooldown: 2400, attack_cooldown: 240, range: 450, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 121, trigger_effects_0: 1, attack_duration: 150}, {health: 1500, knockbacks: 6, speed: 60, cost: 3000, production_cooldown: 1600, range: 200, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 5, trigger_effects_0: 1, damage_1: 200, attack_time_1: 10, trigger_effects_1: 1, damage_2: 300, attack_time_2: 20, trigger_effects_2: 1, attack_duration: 92}]
+    stat: [{health: 1500, knockbacks: 3, speed: 6, cost: 3000, production_cooldown: 2400, attack_cooldown: 240, range: 450, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 121, trigger_effects_0: 1, attack_duration: 150}, {health: 1500, knockbacks: 3, speed: 6, cost: 3000, production_cooldown: 2400, attack_cooldown: 240, range: 450, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 121, trigger_effects_0: 1, attack_duration: 150}, {health: 1500, knockbacks: 6, speed: 60, cost: 3000, production_cooldown: 1600, range: 200, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 5, trigger_effects_0: 1, damage_1: 200, attack_time_1: 10, damage_2: 300, attack_time_2: 20, attack_duration: 92}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 10, 10]
+    talent:
+      explosion:
+        max_level: 10
+        minmax: [[28, 100], [800, 800]]
+      increase_speed:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_slow: {}
   27:
     name: [발차기 공주, 올 컬러 발차기 공주, 웨딩 발차기 공주]
     desc: ["「달콤한 스위트」가 좋아서 특별참전\n전설의 필살기「발차기」를 전력질주하며 펼친다!\n참전 중에도 백마탄 왕자님을 찾아다닌다.", "「달콤한 스위트」가 좋아서 특별참전\n조금 섹시해진 귀여운 공주님\n전설의 필살기「발차기」를 전력질주하며 펼친다!", "「달콤한 스위트」가 좋아서 특별참전\n순백의 드레스를 입고 예식장을 전력질주\n사랑의 「발차기」를 받아줄 사람 모집 중?"]
@@ -1573,6 +1597,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      against_aku:
+        ultra: 1
+      immune_curse:
+        ultra: 1
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+        ultra: 1
   108:
     name: [갓파 마인, 갓파κ, 샤이니 갓파κ]
     desc: ["마력을 부스트 시킨 지팡이를 가진 매지컬 소녀\n내뿜는 광선은 악한 힘을 부숴버린다 (범위 공격)\n떠있는 적의 움직임을 가끔 잠깐 멈춘다", "잘 웃지 않는 그녀이지만 고양이 앞에서는\n그 누구에게도 보여준 적 없는 얼굴을 보여준다 (범위 공격)\n떠있는 적의 움직임을 가끔 잠깐 멈춘다", "이성의 호의를 모두 사무적으로 받아들이는 둔감 소녀.\n고양이와 단 둘만의 휴일을 제일 좋아한다\n떠있는 적의 움직임을 가끔 잠깐 멈춘다 (범위 공격)"]
@@ -1628,9 +1660,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   112:
-    name: [노노, 노노CC]
-    desc: ["메르크 스토리아에서 참전!\n서글서글하고 천진난만한 소녀\n검은 적에 맷집이 좋다", "메르크 스토리아에서 참전!\n겉보기와는 다르게 꼬리의 힘이 굉장히 강하다\n검은 적에 맷집이 좋다"]
-    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}]
+    name: [노노, 노노CC, 하얀 고양이 노노CC]
+    desc: ["메르크 스토리아에서 참전!\n서글서글하고 천진난만한 소녀\n검은 적에 맷집이 좋다", "메르크 스토리아에서 참전!\n겉보기와는 다르게 꼬리의 힘이 굉장히 강하다\n검은 적에 맷집이 좋다", "메르크 스토리아에서 참전! 스스럼없고 친해지기\n쉬운 성격으로 마주친 몬스터와도 친구로 지낸다\n검은 적에 맷집이 좋고 드물게 살아남는다"]
+    stat: [{health: 638, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 30, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 11, cost: 210, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, attack_duration: 66}, {health: 747, knockbacks: 1, speed: 14, cost: 190, production_cooldown: 165, attack_cooldown: 45, range: 190, width: 320, damage_0: 48, attack_time_0: 22, trigger_effects_0: 1, against_black: 1, resistant: 1, survive_chance: 50, immune_curse: 1, attack_duration: 53}]
     rarity: 2
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -1853,9 +1885,9 @@ cats:
       immune_slow:
         ultra: 1
   136:
-    name: [크레인 냥코, 은하전사 코스모, 궁극전사 코즈믹 코스모]
-    desc: ["새 흉내 내기 콘테스트의 장거리 비행부문에서\n최고 기록을 세운 굉장한 냥코\n천사와 떠있는 적을 가끔 날려버린다 (범위 공격)", "최장거리 기록은 우주까지 도달했다\n별자리의 힘을 손에 넣은 울트라 진화한 냥코\n천사와 떠있는 적을 반드시 날려버린다 (범위 공격)", "결국 은하의 끝까지 다다른 냥코\n그 영광은 도시전설로 남아있다 (범위 공격)\n천사와 떠있는 적을 반드시 날려버려 움직임을 멈춘다"]
-    stat: [{health: 555, knockbacks: 3, speed: 4, cost: 555, production_cooldown: 230, attack_cooldown: 10, range: 200, width: 320, area_effect: 1, damage_0: 240, attack_time_0: 5, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 20, attack_duration: 18}, {health: 1600, knockbacks: 4, speed: 54, cost: 3900, production_cooldown: 2100, attack_cooldown: 150, range: 850, width: 320, area_effect: 1, damage_0: 2350, attack_time_0: 321, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 100, attack_duration: 365}, {health: 1600, knockbacks: 4, speed: 54, cost: 3900, production_cooldown: 2100, attack_cooldown: 150, range: 850, width: 320, area_effect: 1, damage_0: 3350, attack_time_0: 321, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 150, attack_duration: 360}]
+    name: [크레인 냥코, 은하전사 코스모, 궁극전사 코즈믹 코스모, 궁극용사 울트라 코스모]
+    desc: ["새 흉내 내기 콘테스트의 장거리 비행부문에서\n최고 기록을 세운 굉장한 냥코\n천사와 떠있는 적을 가끔 날려버린다 (범위 공격)", "최장거리 기록은 우주까지 도달했다\n별자리의 힘을 손에 넣은 울트라 진화한 냥코\n천사와 떠있는 적을 반드시 날려버린다 (범위 공격)", "결국 은하의 끝까지 다다른 냥코\n그 영광은 도시전설로 남아있다 (범위 공격)\n천사와 떠있는 적을 반드시 날려버려 움직임을 멈춘다", "엄청난 질량의 블랙홀에서 귀환했다고 하는 냥코\n초현자 특효를 가지고, 천사와 떠있는 적을 날려버리며\n움직임을 멈추는 파동을 낸다 (전방위 공격)"]
+    stat: [{health: 555, knockbacks: 3, speed: 4, cost: 555, production_cooldown: 230, attack_cooldown: 10, range: 200, width: 320, area_effect: 1, damage_0: 240, attack_time_0: 5, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 20, attack_duration: 18}, {health: 1600, knockbacks: 4, speed: 54, cost: 3900, production_cooldown: 2100, attack_cooldown: 150, range: 850, width: 320, area_effect: 1, damage_0: 2350, attack_time_0: 321, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 100, attack_duration: 365}, {health: 1600, knockbacks: 4, speed: 54, cost: 3900, production_cooldown: 2100, attack_cooldown: 150, range: 850, width: 320, area_effect: 1, damage_0: 3350, attack_time_0: 321, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 150, attack_duration: 360}, {health: 2000, knockbacks: 4, speed: 54, cost: 3000, production_cooldown: 2100, attack_cooldown: 150, range: 850, width: 320, area_effect: 1, damage_0: 3350, long_range_0: 1050, long_range_offset_0: -1350, attack_time_0: 321, trigger_effects_0: 1, against_float: 1, against_angel: 1, knockback_chance: 100, freeze_chance: 100, freeze_duration: 150, sage_slayer: 1, wave_chance: 100, wave_level: 10, attack_duration: 360}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -2531,6 +2563,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      survive:
+        max_level: 10
+        minmax: [[28, 100]]
+      immune_surge: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   190:
     name: [알로이스, 알로이스CC]
     desc: ["메르크 스토리아에서 참전!\n어떤 이유로 저주에 걸려버린 엄청난 솜씨의 마술사\n가끔 천사를 날려버린다 (범위 공격)", "메르크 스토리아에서 참전!\n제자 덕분에 소중한 것을 되찾은 마술사\n가끔 천사를 날려버린다 (범위 공격)"]
@@ -2711,8 +2757,8 @@ cats:
     desc: ["냥코대전쟁 타이완판 릴리스 기념 캐릭터\n찜통 안에서 사우나를 즐기러 들어갔다가 소룡포가\n되어버린 고양이. 뜨거운 열기로 자, 지금 바로 출진!", "냥코대전쟁 타이완판 릴리스 기념 캐릭터\n너무 오랜시간동안 찜통안에 갇혀있어 몸이 퉁퉁\n불어버렸다. 실은 찜빵이라는 소문이 있다 (범위공격)"]
     stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20, attack_duration: 53}]
     rarity: 1
-    max_level: 70
-    growth: [20, 20, 20, 20, 20, 20, 10]
+    max_level: 75
+    growth: [20, 20, 20, 20, 20, 20, 10, 10]
   204:
     name: [너굴냥즈, 화염돌격대 너굴냥즈, 화염저격대 너굴냥즈]
     desc: ["수수께끼의 고대 희귀종 포획이 목적인 SCAT부대 냥코\n그 어떠한, 수단과 방법을 가리지 않는다.\n가끔 천사와 에이리언의 공격을 다운시킨다 (범위공격)", "SCAT부대의 계획 종료. 경이로운 싱크로율로\n고대 희귀종과 공명한 고대병기로 되살아났다.\n천사와 에이리언의 공격을 반드시 다운시킨다 (범위공격)", "고대 희귀종의 진화에 공명하여 완전 각성에 성공한 고대병기.\n기밀 임무 완수를 위해 모든 증거를 소각처분한다. (범위공격)\n천사와 에이리언에 엄청 강하고 공격을 반드시 다운시킨다"]
@@ -4996,7 +5042,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   442:
     name: [호걸 달타냥, 흑걸 달타냥]
-    desc: ["정의를 추구하며 방황하고 있는 한마리의 달타냥\n속성을 가지지 않은 적에게 초 데미지를 입히고\n체력이 줄면 공격력이 대폭 상승 (원거리 범위공격)", "정의를 위하여 희생도 마다하지 않는 냉철한 총잡이\n속성을 가지지 않은 적에게 초 데미지를 입히고\n체력이 줄면 공격력이 대폭 상승(원거리 범위공격)"]
+    desc: ["정의를 추구하며 방황하고 있는 한마리의 달타냥\n속성을 가지지 않은 적에게 초 데미지를 입히고\n체력이 줄면 공격력이 대폭 상승 (원거리 범위공격)", "정의를 위하여 희생도 마다하지 않는 냉철한 총잡이\n속성을 가지지 않은 적에게 초 데미지를 입히고\n체력이 줄면 공격력이 대폭 상승 (원거리 범위공격)"]
     stat: [{health: 3600, knockbacks: 5, speed: 24, cost: 2900, production_cooldown: 1500, range: 340, width: 320, area_effect: 1, damage_0: 800, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 45, trigger_effects_0: 1, against_white: 1, massive_damage: 1, strengthen_threshold: 60, strengthen_modifier: 100, immune_warp: 1, immune_wave: 1, attack_duration: 120}, {health: 5400, knockbacks: 5, speed: 30, cost: 2900, production_cooldown: 1500, range: 340, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 200, long_range_offset_0: 350, attack_time_0: 35, trigger_effects_0: 1, against_white: 1, massive_damage: 1, strengthen_threshold: 60, strengthen_modifier: 100, immune_warp: 1, immune_wave: 1, attack_duration: 110}]
     rarity: 4
     max_level: 130
@@ -5470,6 +5516,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      savage_blow:
+        max_level: 10
+        minmax: [[1, 10]]
+      immune_weaken: {}
+      immune_knockback: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
   508:
     name: [슈퍼 고양이, 메가 고양이]
     desc: ["망토로 하늘을 나는 히어로인 척하는 그냥 고양이\n자취를 꿈꾸며 열심히 대형마트 알바에 몰두 중\n속성을 가지지 않은 적의 공격력을 낮추고 파동을 없앤다", "감자칩을 너무 많이 먹어 마초화된 고양이\n장래희망은 실력파 가수. 공원에서 매일 맹연습 중\n속성을 가지지 않은 적의 공격력을 낮추고 파동을 없앤다"]
@@ -5792,9 +5850,9 @@ cats:
     max_level: 59
     growth: [20, 20, 20, 20, 20, 20]
   546:
-    name: [팬텀 고양이, 연기 고양이]
-    desc: ["형체를 종잡을 수 없는 고양이 같은 무언가.\n바람이 센 곳에서는 사라진다.\n천사에 초 데미지를 입힌다 (원거리 범위공격)", "형체가 어렴풋한 고양이 같은 무언가.\n하얗던 몸은 미세먼지로 까매졌다\n천사에 초 데미지를 입힌다 (원거리 범위공격)"]
-    stat: [{health: 270, knockbacks: 2, speed: 9, cost: 450, production_cooldown: 350, attack_cooldown: 60, range: 360, width: 320, area_effect: 1, damage_0: 160, long_range_0: 275, long_range_offset_0: 225, attack_time_0: 24, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 43}, {health: 360, knockbacks: 2, speed: 9, cost: 450, production_cooldown: 350, attack_cooldown: 60, range: 360, width: 320, area_effect: 1, damage_0: 210, long_range_0: 275, long_range_offset_0: 225, attack_time_0: 24, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 43}]
+    name: [팬텀 고양이, 연기 고양이, 고양이 버블]
+    desc: ["형체를 종잡을 수 없는 고양이 같은 무언가.\n바람이 센 곳에서는 사라진다.\n천사에 초 데미지를 입힌다 (원거리 범위공격)", "형체가 어렴풋한 고양이 같은 무언가.\n하얗던 몸은 미세먼지로 까매졌다\n천사에 초 데미지를 입힌다 (원거리 범위공격)", "형체가 덧없이 아름다운 고양이 같은 무언가.\n붙잡으려 하면 터져버리는 환상과 같은 존재\n떠있는 적과 천사에 초 데미지를 입힌다 (원거리 범위공격)"]
+    stat: [{health: 270, knockbacks: 2, speed: 9, cost: 450, production_cooldown: 350, attack_cooldown: 60, range: 360, width: 320, area_effect: 1, damage_0: 160, long_range_0: 275, long_range_offset_0: 225, attack_time_0: 24, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 43}, {health: 360, knockbacks: 2, speed: 9, cost: 450, production_cooldown: 350, attack_cooldown: 60, range: 360, width: 320, area_effect: 1, damage_0: 210, long_range_0: 275, long_range_offset_0: 225, attack_time_0: 24, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, immune_freeze: 1, immune_weaken: 1, attack_duration: 43}, {health: 460, knockbacks: 2, speed: 9, cost: 450, production_cooldown: 300, attack_cooldown: 60, range: 360, width: 320, area_effect: 1, damage_0: 580, long_range_0: 275, long_range_offset_0: 225, attack_time_0: 24, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, immune_freeze: 1, immune_weaken: 1, immune_curse: 1, attack_duration: 63}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -6393,6 +6451,18 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[67, 67], [5, 50]]
+      immune_wave: {}
+      immune_knockback: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   622:
     name: [악마연구가, 사악한 악마연구가, 냥코 연구가]
     desc: ["목숨을 걸고 악마의 소용돌이에 뛰어들어 죽음을 각오한\n조사 끝에 마계에서 살아 돌아온 악마 연구의 제1인자\n레어 뽑기에 전 재산을 쏟아 악의 특성까지 밝혀낸다", "마계에 잠입 조사한 대가로 악마화되기 시작한 몸\n사악한 마음에 침식되면서도 악마에 대한 탐구심은 시들지 않는다\n가끔 크리티컬과 악마 쉴드를 뚫어버린다", "마음도 몸도 완전히 마계에 물들어버린 연구가\n악마를 위협하는 「고양이」에 대한 탐구심이 싹트고 있다\n가끔 크리티컬과 악마 쉴드를 뚫어버린다"]
@@ -6552,22 +6622,22 @@ cats:
     desc: ["옆집에 사는 착하고 공부도 잘하는 소꿉친구 고양이\n「그림의 고양이」로 불리며 모두가 동경하고 있다\n속성을 가지지 않은 적에 초 데미지를 입힌다 (범위 공격)", "휴일에 공원에 놀러가는 미소녀 고양이\n직접 만든 개다래 샌드위치는 모든 남자들을 사로잡는다\n속성을 가지지 않은 적에 초 데미지를 입힌다 (범위 공격)"]
     stat: [{health: 600, knockbacks: 3, speed: 9, cost: 600, production_cooldown: 250, attack_cooldown: 30, range: 200, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 30, trigger_effects_0: 1, against_white: 1, massive_damage: 1, attack_duration: 54}, {health: 600, knockbacks: 3, speed: 9, cost: 600, production_cooldown: 250, attack_cooldown: 30, range: 200, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 30, trigger_effects_0: 1, against_white: 1, massive_damage: 1, attack_duration: 54}]
     rarity: 1
-    max_level: 46
-    growth: [20, 20, 20, 20, 20]
+    max_level: 51
+    growth: [20, 20, 20, 20, 20, 20]
   652:
     name: [말괄량이 고양이 라이온, 철가면 고양이 라이온]
     desc: ["매일 지각 직전에 등교하는 덜렁대는 고양이\n길 모퉁이에서 누군가와 마주치는걸 꿈꾸며 전력 질주\n검은 적에 엄청 강하다", "전설의 불량 여고생에게 철가면을 받은 고양이\n통학길을 가로막는 학생들을 모두 물리친다\n검은 적에 엄청 강하다"]
     stat: [{health: 500, knockbacks: 5, speed: 28, cost: 500, production_cooldown: 135, range: 140, width: 320, damage_0: 12, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, strong: 1, attack_duration: 9}, {health: 500, knockbacks: 5, speed: 28, cost: 500, production_cooldown: 135, range: 140, width: 320, damage_0: 12, attack_time_0: 6, trigger_effects_0: 1, against_black: 1, strong: 1, attack_duration: 9}]
     rarity: 1
-    max_level: 46
-    growth: [20, 20, 20, 20, 20]
+    max_level: 51
+    growth: [20, 20, 20, 20, 20, 20]
   653:
     name: [고양이 칠판지우개, 고양이 칠판대장]
     desc: ["막 입학한 깔끔쟁이 1학년 고양이\n칠판을 지울 때마다 분필 가루 때문에 숨이 막힌다\n빨간 적에게 맷집이 좋다 (범위 공격)", "대장 칭호를 허락받은 베테랑 칠판지우개 고양이\n낙서를 흔적도 없이 지워 버리는 학교의 선도부원\n빨간 적에게 맷집이 좋다 (범위 공격)"]
     stat: [{health: 250, knockbacks: 1, speed: 7, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, resistant: 1, attack_duration: 15}, {health: 250, knockbacks: 1, speed: 7, cost: 100, production_cooldown: 120, attack_cooldown: 30, range: 110, width: 320, area_effect: 1, damage_0: 2, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, resistant: 1, attack_duration: 15}]
     rarity: 1
-    max_level: 46
-    growth: [20, 20, 20, 20, 20]
+    max_level: 51
+    growth: [20, 20, 20, 20, 20, 20]
   654:
     name: [고대수 나라, 벼락의 고대수 나라, 각성 고대수 나라]
     desc: ["냥코의 강함을 인정하고 함께 싸우기로 한 고대의 동물\n재앙을 불러오는 적에게 벼락을 일으킨다 (범위 공격)\n고대종에 엄청 강하고 가끔 공격력을 낮춘다", "세상의 평화를 기원하는 상냥한 전설의 동물\n연속으로 벼락을 일으켜 적의 영혼을 정화한다 (범위 공격)\n고대종에 엄청 강하고 가끔 공격력을 낮춘다", "욕망으로 가득한 현세에 순수한 생명의 아름다움이\n있음을 알게 된 신수. 초생명체, 초수 특효\n고대종에 엄청 강하고 반드시 공격력을 낮춘다 (범위 공격)"]
@@ -6842,9 +6912,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   693:
-    name: [엄지 동자, 귀습잠수함 방망-E]
-    desc: ["떠돌이 침술사로 위장하고 돌아다니는 냥코\n그 정체는 거대 조직 와해를 위해 잠입한 비밀요원\n속성을 가지지 않은 적과 천사에게 초 데미지를 입힌다", "범죄 조직 ONI에 잠입해 붙잡힌 미녀 스파이를 구출하고\n최신식 잠수함을 빼앗아 탈출한 뛰어난 비밀요원\n속성을 가지지 않은 적과 천사에게 초 데미지를 입힌다"]
-    stat: [{health: 1110, knockbacks: 8, speed: 40, cost: 450, production_cooldown: 320, range: 150, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 5, trigger_effects_0: 1, against_angel: 1, against_white: 1, massive_damage: 1, immune_surge: 1, attack_duration: 130}, {health: 2400, knockbacks: 8, speed: 50, cost: 2300, production_cooldown: 1050, range: 150, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 300, long_range_offset_0: -400, attack_time_0: 5, trigger_effects_0: 1, against_angel: 1, against_white: 1, massive_damage: 1, immune_surge: 1, attack_duration: 130}]
+    name: [엄지 동자, 귀습잠수함 방망-E, 귀습전투함 방망-E]
+    desc: ["떠돌이 침술사로 위장하고 돌아다니는 냥코\n그 정체는 거대 조직 와해를 위해 잠입한 비밀요원\n속성을 가지지 않은 적과 천사에게 초 데미지를 입힌다", "범죄 조직 ONI에 잠입해 붙잡힌 미녀 스파이를 구출하고\n최신식 잠수함을 빼앗아 탈출한 뛰어난 비밀요원\n속성을 가지지 않은 적과 천사에게 초 데미지를 입힌다", "개조한 잠수함으로 범죄 조직을 기습하는 최정예 비밀요원\n여러겹으로 강화된 문을 부수고 드디어 흑막과 대치한다\n속성을 가지지 않은 적과 천사에게 초 데미지를 입힌다"]
+    stat: [{health: 1110, knockbacks: 8, speed: 40, cost: 450, production_cooldown: 320, range: 150, width: 320, area_effect: 1, damage_0: 450, attack_time_0: 5, trigger_effects_0: 1, against_angel: 1, against_white: 1, massive_damage: 1, immune_surge: 1, attack_duration: 130}, {health: 2400, knockbacks: 8, speed: 50, cost: 2300, production_cooldown: 1050, range: 150, width: 320, area_effect: 1, damage_0: 1100, long_range_0: 300, long_range_offset_0: -400, attack_time_0: 5, trigger_effects_0: 1, against_angel: 1, against_white: 1, massive_damage: 1, immune_surge: 1, attack_duration: 130}, {health: 2400, knockbacks: 8, speed: 60, cost: 2300, production_cooldown: 1050, range: 150, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 300, long_range_offset_0: -400, attack_time_0: 5, trigger_effects_0: 1, against_angel: 1, against_white: 1, massive_damage: 1, immune_freeze: 1, immune_surge: 1, attack_duration: 130}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6874,8 +6944,8 @@ cats:
     desc: ["반장으로 뽑힌 모범생 고양이\n장래 희망은 어엿한 샐러리맨이 되는 것\n가끔 빨간 적과 검은 적의 움직임을 느리게 한다", "세탁한 교복이 마르지 않아\n형이 입던 교복을 입고 등교한 고양이\n가끔 빨간 적과 검은 적의 움직임을 느리게 한다"]
     stat: [{health: 860, knockbacks: 3, speed: 8, cost: 460, production_cooldown: 240, attack_cooldown: 34, range: 250, width: 320, damage_0: 175, attack_time_0: 22, trigger_effects_0: 1, against_red: 1, against_black: 1, slow_chance: 30, slow_duration: 120, attack_duration: 50}, {health: 860, knockbacks: 3, speed: 8, cost: 460, production_cooldown: 240, attack_cooldown: 34, range: 250, width: 320, damage_0: 175, attack_time_0: 22, trigger_effects_0: 1, against_red: 1, against_black: 1, slow_chance: 30, slow_duration: 120, attack_duration: 50}]
     rarity: 1
-    max_level: 36
-    growth: [20, 20, 20, 20]
+    max_level: 41
+    growth: [20, 20, 20, 20, 20]
   698:
     name: ['오래된 알: N107', '보라색 알: N107', 고양이 촌장]
     desc: ["알 모양을 한 정체불명의 물체\n오랜 세월 동안 흙이 달라붙어 풍화되었다\n「N107」이라고 작게 각인이 되어있는 듯한데...", "보랏빛 모습을 드러낸 알 모양의 물체\n내부에 미약한 생명체 반응이 감지되고 있다\n좀비에게 초 데미지를 입힌다", "댄스 동영상으로 번 돈으로 우물과 초등학교를 지은 촌장님\n왕년에는 머리에 주전자를 올리고 안무가를 했었다\n좀비에게 초 데미지를 입히며 초수 특효를 가졌다"]
@@ -7324,6 +7394,13 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  769:
+    name: [타이텐키, 타이텐키CC]
+    desc: ["메르크 스토리아에서 참전!\n특별한 의상을 입고 위풍당당하게 가마를 타고 거리를 누빈다\n에이리언과 악마에 엄청 강하다 (원거리 범위공격)", "메르크 스토리아에서 참전! 의기양양한 미소를\n지으며 요괴를 이끄는 모습은 그야말로 백귀의 두령\n에이리언과 악마에 엄청 강하다 (원거리 범위공격)"]
+    stat: [{health: 1600, knockbacks: 4, speed: 7, cost: 2400, production_cooldown: 1700, attack_cooldown: 73, range: 430, width: 320, area_effect: 1, damage_0: 750, long_range_0: 320, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, against_alien: 1, against_aku: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100, break_barrier_chance: 24, break_shield_chance: 24, immune_surge: 1, attack_duration: 50}, {health: 2000, knockbacks: 4, speed: 7, cost: 2400, production_cooldown: 1700, attack_cooldown: 73, range: 430, width: 320, area_effect: 1, damage_0: 920, long_range_0: 320, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, against_alien: 1, against_aku: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100, break_barrier_chance: 24, break_shield_chance: 24, immune_surge: 1, attack_duration: 50}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   770:
     name: [냥꽃 할배, 폭식괴수 빅트리]
     desc: ["반려견을 통해 생명의 소중함을 깨달은 뒤\n아름다운 벚꽃을 피워내는 기적을 일으킨 냥코\n천사와 좀비에 맷집이 좋다 (전방위 공격)", "미지의 비료 「POCH-1」으로 인해 이상 식욕을 가지게 된 벚나무\n먹을 것이 보이면 즉시 먹어치우며 급속도로 성장 중이다\n소환 능력을 가지며 천사와 좀비에 맷집이 좋다 (전방위 공격)"]
@@ -7401,6 +7478,34 @@ cats:
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+  782:
+    name: [마모루가, 마모란파사란]
+    desc: ["고양이가 맞는지 아닌지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이가 맞는지 아닌지\n알 수 없는 정체불명의 수수께끼 캐릭터 (범위 공격)\n소환 능력을 가지며 적의 공격력을 낮춘다"]
+    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 13, trigger_effects_0: 1, attack_duration: 22}, {health: 600, knockbacks: 1, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 1400, width: 320, area_effect: 1, damage_0: 200, attack_time_0: 75, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, conjure: 783, immune_bosswave: 1, immune_knockback: 1, immune_warp: 1, attack_duration: 155}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  783:
+    name: [783-1]
+    desc: ['정령: 적의 공격력을 낮춥니다.']
+    stat: [{health: 100, knockbacks: 1, range: 1300, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  784:
+    name: [꼬꼬미, 울트라 스타 꼬꼬미]
+    desc: ["모두에게 사랑받으며 자란\n아이돌을 꿈꾸는 개구쟁이 막내형 냥코\n항상 온 힘을 다한 퍼포먼스로 인기 급상승 중", "폭발적인 인기로 스타로 발돋움하기 시작한 꼬꼬미\n감사의 마음을 담아 온 힘을 다한 노래와 춤으로\n관객 모두에게 에너지를 선물!"]
+    stat: [{health: 1950, knockbacks: 2, speed: 10, cost: 99, production_cooldown: 999, attack_cooldown: 22, range: 250, width: 320, damage_0: 315, attack_time_0: 30, trigger_effects_0: 1, against_relic: 1, against_white: 1, slow_chance: 100, slow_duration: 60, savage_blow_chance: 22, savage_blow_modifier: 200, critical_chance: 12, wave_chance: 22, wave_level: 2, surge_chance: 22, surge_level: 2, surge_range: 800, surge_range_offset: 800, explosion_chance: 22, explosion_range: 1000, immune_curse: 1, immune_wave: 1, attack_duration: 56}, {health: 4200, knockbacks: 3, speed: 10, cost: 1400, production_cooldown: 2999, attack_cooldown: 27, range: 450, width: 320, damage_0: 685, attack_time_0: 20, trigger_effects_0: 1, against_relic: 1, against_white: 1, slow_chance: 100, slow_duration: 60, savage_blow_chance: 22, savage_blow_modifier: 200, critical_chance: 12, wave_chance: 22, wave_level: 2, surge_chance: 22, surge_level: 2, surge_range: 1600, surge_range_offset: 800, explosion_chance: 22, explosion_range: 1800, immune_curse: 1, immune_wave: 1, attack_duration: 56}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  787:
+    name: [매지션 캣맨, 일루전 캣맨]
+    desc: ["화려한 마술쇼로 아이들을 즐겁게 해주는 순백의 신사\n눈 깜짝할 새에 순간이동하여 관객에게 사인을 해준다\n빨간 적과 떠있는 적에 초 데미지를 입힌다 (범위 공격)", "환상의 마술쇼로 어른들의 마음까지 매료시키는 칠흑의 신사\n불법 경매에 출품된 도난품을 순간이동시켜 원래 장소로 돌려준다\n빨간 적과 천사에 초 데미지를 입힌다 (범위 공격)"]
+    stat: [{health: 3500, knockbacks: 5, speed: 15, cost: 3000, production_cooldown: 2350, attack_cooldown: 80, range: 440, width: 320, area_effect: 1, damage_0: 2100, attack_time_0: 70, trigger_effects_0: 1, against_red: 1, against_float: 1, massive_damage: 1, immune_wave: 1, attack_duration: 160}, {health: 3500, knockbacks: 5, speed: 15, cost: 3000, production_cooldown: 2350, attack_cooldown: 80, range: 440, width: 320, area_effect: 1, damage_0: 2100, attack_time_0: 70, trigger_effects_0: 1, against_red: 1, against_angel: 1, massive_damage: 1, immune_wave: 1, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -11750,6 +11855,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 하얀 연인 메카소녀 진 제3형태 추가! 발렌타인 한정 뽑기!★자세한 내용은 배너를 클릭!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -11762,6 +11869,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -12631,6 +12740,52 @@ gacha:
     series_id: 23
     name: "★확률, 상세 내용은 배너를 클릭!★신캐릭터 등장! 극장판『마법소녀 마도카☆마기카』콜라보 뽑기!"
     rate: no_legend
+  961:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 587, 732, 739, 270, 319, 334, 379, 381, 442, 530, 544, 586, 610, 642, 658, 691, 706, 780]
+    series_id: 69
+    name: 1억 다운로드 기념 티켓으로 돌릴 수 있는 한정 뽑기! ★4월 21일까지
+  962:
+    cats: [782, 713, 626, 547, 462, 437, 241, 172, 171, 170, 169, 35, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 0
+    name: "★확률, 상세 내용은 배너를 클릭!★'카오루가' 참전! 수수께끼에 싸인 생명체!"
+    rate: regular
+    similarity: 98
+  963:
+    cats: [782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 출현율 초 UP! 울트라 고양이 축제 개최 중!"
+    rate: uberfest_legend
+    similarity: 99
+  964:
+    cats: [782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 레전드 레어 '해질녘의 이자나미' 참전!★울슈레 출현율 초 UP!"
+    rate: uberfest_legend
+    similarity: 99
+  965:
+    cats: [782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    rate: platinum
+    similarity: 99
+  966:
+    cats: [782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    rate: legend
+    similarity: 99
+  967:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 784, 626, 45, 669, 619, 160, 734, 761, 138, 775, 643, 633, 305, 336, 361, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 70
+    name: "★한정 울슈레 '고양이 왕녀' 포함 여성 캐릭터들이 총집결한 뽑기!★레전드 레어만 출현율 2배!★"
+    rate: royalfest
+    similarity: 65
+  968:
+    cats: [787, 737, 694, 649, 317, 650, 693, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 52
+    name: "★확률, 상세 내용은 배너를 클릭!★신캐릭터 추가! 화이트데이 기간 한정 멋짐뿜뿜 뽑기!"
+    rate: no_legend
+    similarity: 86
 events:
   2018-10-13_320:
     start_on: 2018-10-13
