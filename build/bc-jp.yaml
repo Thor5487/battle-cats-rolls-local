@@ -28675,7 +28675,7 @@ events:
     supa: 0
     uber: 5000
     legend: 5000
-    platinum: legend
+    platinum: dl-100m
   2025-02-12_943:
     start_on: 2025-02-12
     end_on: 2025-02-14
