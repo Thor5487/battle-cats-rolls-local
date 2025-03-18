@@ -72,7 +72,11 @@ module BattleCatsRolls
             when data['uber']
               data['platinum'] = 'platinum'
             when data['uber'] + data['legend']
-              data['platinum'] = 'legend'
+              data['platinum'] = if 365 <= (data['end_on'] - data['start_on'])
+                'legend'
+              else
+                'dl-100m'
+              end
             end
 
             data.delete('legend') if data['legend'] == 0

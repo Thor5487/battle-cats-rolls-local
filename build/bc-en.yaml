@@ -28572,7 +28572,7 @@ events:
     supa: 0
     uber: 5000
     legend: 5000
-    platinum: legend
+    platinum: dl-100m
   2025-03-17_795:
     start_on: 2025-03-17
     end_on: 2025-03-24
