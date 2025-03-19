@@ -34,6 +34,7 @@ module BattleCatsRolls
         706, # "King of Doom Phono",
         759, # "Trixi the Merc",
         780, # "Celestial Child Luna",
+        784, # "Koneko",
       ].freeze
     end
 
