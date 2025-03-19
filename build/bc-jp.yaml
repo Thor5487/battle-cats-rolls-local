@@ -29014,3 +29014,35 @@ events:
     supa: 2600
     uber: 900
     legend: 30
+  2025-03-22_950:
+    start_on: 2025-03-22
+    end_on: 2025-03-25
+    version: '140200'
+    name: 属性を持たない敵と悪魔に強いキャラ「忍者娘トモエ」参戦！★詳細はバナーをタップ!!
+    id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-03-22_968:
+    start_on: 2025-03-22
+    end_on: 2025-03-27
+    version: '140200'
+    name: 新キャラ追加！ホワイトデー期間限定のホットなガチャ！★11連で超激レア確定!!
+    id: 968
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-03-25_947:
+    start_on: 2025-03-25
+    end_on: 2025-03-27
+    version: '140200'
+    name: 召喚能力を持つキャラクター「特命機動アクセル」参戦！★詳細はバナーをタップ!!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
