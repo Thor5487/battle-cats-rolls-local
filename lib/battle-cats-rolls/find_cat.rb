@@ -35,6 +35,7 @@ module BattleCatsRolls
         759, # "Trixi the Merc",
         780, # "Celestial Child Luna",
         784, # "Koneko",
+        788, # "冥護の天女ルナーシャ",
       ].freeze
     end
 
