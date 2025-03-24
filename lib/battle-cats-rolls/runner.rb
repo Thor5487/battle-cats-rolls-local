@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'fileutils'
+require 'yaml'
 
 require_relative 'root'
 require_relative 'nyanko_auth'
@@ -29,7 +30,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         'jp',
-        '14.2.0',
+        '14.3.0',
         'jp.co.ponos.battlecats'
       ]
     end
@@ -191,7 +192,16 @@ module BattleCatsRolls
     def cats_builder
       require_relative 'cats_builder'
 
-      CatsBuilder.new(provider)
+      CatsBuilder.new(provider, preserved_gacha)
+    end
+
+    def preserved_gacha
+      @preserved_gacha ||=
+        if File.exist?(preserved_gacha_path)
+          YAML.safe_load_file(preserved_gacha_path)
+        else
+          {}
+        end
     end
 
     def provider
@@ -440,6 +450,10 @@ module BattleCatsRolls
 
     def apk_path
       @apk_path ||= data_path("#{version}/bc-#{lang}.apk")
+    end
+
+    def preserved_gacha_path
+      @preserved_gacha_path ||= data_path('gacha.yaml')
     end
 
     def extract_path

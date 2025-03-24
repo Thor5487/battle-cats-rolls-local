@@ -3,7 +3,7 @@
 require 'stringio'
 
 module BattleCatsRolls
-  class CatsBuilder < Struct.new(:provider)
+  class CatsBuilder < Struct.new(:provider, :preserved_gacha)
     def cats
       @cats ||= Hash[build_cats.sort]
     end
@@ -57,11 +57,14 @@ module BattleCatsRolls
 
     def store_gacha data
       data.each_line.with_index.inject({}) do |result, (line, index)|
-        next result unless line =~ /\A\d+/
+        if line =~ /\A\d+/
+          slots = line.split(',')
+          id = slots.pop until slots.empty? || id&.start_with?('-1')
+          result[index] = {'cats' => slots.map { |s| Integer(s) + 1 }}
+        elsif preserved = preserved_gacha[index]
+          result[index] = preserved
+        end
 
-        slots = line.split(',')
-        id = slots.pop until slots.empty? || id&.start_with?('-1')
-        result[index] = {'cats' => slots.map { |s| Integer(s) + 1 }}
         result
       end
     end
