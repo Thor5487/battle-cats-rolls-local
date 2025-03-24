@@ -1197,6 +1197,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      against_float:
+        ultra: 1
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [3, 3]]
+        ultra: 1
+      immune_freeze:
+        ultra: 1
   74:
     name: [織田信長, 武神・織田信長, 天魔・織田信長, 夢幻天魔・織田信長]
     desc: ["織田信長の怨念に取り込まれてしまった\n数々の生命体と一匹のにゃんこ\n黒い敵の動きを必ず止める(範囲攻撃)\nオダノブナガ", "織田信長の怨念のパワーがさらに加速\nついでに、にゃんこの煩悩パワーも超加速\n黒い敵の動きを必ず止める(範囲攻撃)\nブシンオダノブナガ", "にゃんこの煩悩で第六天魔王へ変化した織田信長\n地獄の亡者どもを従え闇世界から天下統一を目指す\n黒い敵の動きを必ず止める(範囲攻撃)\nテンマオダノブナガ", "己が殺めた者達の憎悪の炎をも力に変える織田信長\n燃え盛る闇世界より天上天下の征服に乗り出す\n黒い敵と悪魔の動きを止め、烈波を放ち返す(範囲攻撃)\nムゲンテンマオダノブナガ"]
@@ -5273,9 +5281,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   432:
-    name: [亡者探偵ヴィグラー, 魔界探偵グラヴィー, 魔神探偵グラヴィティー]
-    desc: ["魔界探偵事務所「闇SCOOP」の凄腕探偵\n666人目の依頼を調査中に醜い姿にされてしまった\nたまにエイリアンと浮いてる敵の動きを止め波動を放つ\nモウジャタンテイヴィグラー", "禁じられた魔眼の力で呪いを解き放った敏腕探偵\nその代償として組織の陰謀に巻き込まれていく..\nたまにエイリアンとゾンビの動きを止め波動を放つ\nマカイタンテイグラヴィー", "組織との激闘の末、真の力を解放した名探偵\n闇の中で一筋の真実の光を追い、最終決戦に臨む\nゾンビにめっぽう強く、必ず動きを止め波動を放つ\nマジンタンテイグラヴィティー"]
-    stat: [{health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_float: 1, against_alien: 1, freeze_chance: 50, freeze_duration: 150, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, freeze_chance: 50, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 100, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 290}]
+    name: [亡者探偵ヴィグラー, 魔界探偵グラヴィー, 魔神探偵グラヴィティー, 聖魔探偵ゼログラヴィティー]
+    desc: ["魔界探偵事務所「闇SCOOP」の凄腕探偵\n666人目の依頼を調査中に醜い姿にされてしまった\nたまにエイリアンと浮いてる敵の動きを止め波動を放つ\nモウジャタンテイヴィグラー", "禁じられた魔眼の力で呪いを解き放った敏腕探偵\nその代償として組織の陰謀に巻き込まれていく..\nたまにエイリアンとゾンビの動きを止め波動を放つ\nマカイタンテイグラヴィー", "組織との激闘の末、真の力を解放した名探偵\n闇の中で一筋の真実の光を追い、最終決戦に臨む\nゾンビにめっぽう強く、必ず動きを止め波動を放つ\nマジンタンテイグラヴィティー", "戦いの果てに自身の出生の謎を解明した超人探偵\nその血に眠る天翼の力が覚醒し、超賢者特効を得た\nゾンビにめっぽう強く、必ず動きを止め波動を放つ\nセイマタンテイゼログラヴィティー"]
+    stat: [{health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_float: 1, against_alien: 1, freeze_chance: 50, freeze_duration: 150, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, freeze_chance: 50, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 100, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 290}, {health: 3600, knockbacks: 6, speed: 19, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 70, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, sage_slayer: 1, wave_chance: 100, wave_level: 5, immune_wave: 1, attack_duration: 280}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6520,8 +6528,7 @@ cats:
     talent:
       against_relic: {}
       immune_curse: {}
-      immune_knockback:
-        minmax: [[5, 50]]
+      immune_knockback: {}
       increase_health:
         max_level: 10
         minmax: [[2, 20]]
@@ -6921,6 +6928,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      immune_weaken: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   621:
     name: [邪龍ヘヴィジャーク, 邪龍王ヘヴィジャーク, 邪龍皇帝ヘヴィジャーク]
     desc: ["暗雲より生まれし世界に災禍をもたらす伝説の邪龍\n圧倒的な破壊力で敵を攻撃する。赤い敵と悪魔に\n打たれ強く、たまにふっとばして悪魔シールドを貫く\nジャリュウヘヴィジャーク", "悪魔との契約により天地を消滅させる力を得た邪龍王\n圧倒的な破壊力で敵を攻撃する。赤い敵と悪魔に\n打たれ強く、たまにふっとばして悪魔シールドを貫く\nジャリュウオウヘヴィジャーク", "邪光エネルギーを取り込み真の力を解放した伝説の邪龍\n禍々しき炎は数多の世界を滅亡に導く。赤い敵と悪魔に\n打たれ強く、必ずふっとばしてたまに悪魔シールドを貫く\nジャリュウコウテイヘヴィジャーク"]
@@ -7368,9 +7389,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   683:
-    name: [女神ベガ, 幻影の加護女神ベガ]
-    desc: ["異世界からやってきた絶命系女神\n邪眼の力で光の使徒を滅する妄想の闇に囚われている\n超生命体特効を持ち、属性を持つ敵にめっぽう強い\nメガミベガ", "身もだえるような自らの黒い歴史を押入れに封じ\n世界と歩調を合わせ始めた闇の女神\n超生命体特効を持ち、属性を持つ敵にめっぽう強い\nゲンエイノカゴメガミベガ"]
-    stat: [{health: 3100, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 450, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 450, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 4000, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 600, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 600, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}]
+    name: [女神ベガ, 幻影の加護女神ベガ, 虚影の加護女神ベガ]
+    desc: ["異世界からやってきた絶命系女神\n邪眼の力で光の使徒を滅する妄想の闇に囚われている\n超生命体特効を持ち、属性を持つ敵にめっぽう強い\nメガミベガ", "身もだえるような自らの黒い歴史を押入れに封じ\n世界と歩調を合わせ始めた闇の女神\n超生命体特効を持ち、属性を持つ敵にめっぽう強い\nゲンエイノカゴメガミベガ", "抑えきれない心の疼きと共に真の力を解放した女神\nネット世界に降臨し、闇のカリスマ性で同胞を導く\n超生命体特効を持ち、属性を持つ敵にめっぽう強い\nキョエイノカゴメガミベガ"]
+    stat: [{health: 3100, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 450, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 450, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 4000, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 600, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 600, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 5200, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 800, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 800, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -8102,6 +8123,90 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  788:
+    name: [冥護の天女ルナーシャ, 寂滅の天女ダークルナーシャ]
+    desc: ["悲運に囚われしネコ達を救済に導くもう一人の天女\n浮き、天使、悪魔、属性を持たない敵にめっぽう強く\n攻撃力を下げ、爆波を放ち、烈波を放ち返す(全方位)\nミョウゴノテンニョルナーシャ", "我が身の消滅すら厭わず全ての救済に身を捧ぐ天女\n浮き、天使、悪魔、属性を持たない敵にめっぽう強く\n攻撃力を下げ、爆波を放ち、烈波を放ち返す(全方位)\nジャクメツノテンニョダークルナーシャ"]
+    stat: [{health: 5000, knockbacks: 4, speed: 15, cost: 2500, production_cooldown: 1700, range: 350, width: 320, area_effect: 1, damage_0: 800, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 40, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_aku: 1, against_white: 1, strong: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, break_shield_chance: 20, counter_surge: 1, explosion_chance: 100, explosion_range: 1400, immune_freeze: 1, immune_slow: 1, immune_curse: 1, immune_explosion: 1, immune_toxic: 1, attack_duration: 160}, {health: 6500, knockbacks: 4, speed: 15, cost: 2500, production_cooldown: 1700, range: 350, width: 320, area_effect: 1, damage_0: 900, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 40, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_aku: 1, against_white: 1, strong: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, break_shield_chance: 20, counter_surge: 1, explosion_chance: 100, explosion_range: 1400, immune_freeze: 1, immune_slow: 1, immune_curse: 1, immune_explosion: 1, immune_toxic: 1, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  789:
+    name: [789-1, 789-2]
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  790:
+    name: [範馬刃牙, 範馬刃牙CC]
+    desc: ["「範馬刃牙」から参戦ッッ！数多の死闘を\nくぐり抜けた地下闘技場の若きチャンピオン\nたまに悪魔をふっとばし悪魔シールドを貫く\nハンマバキ", "「範馬刃牙」から参戦ッッ！\nその強さへの探求は父親・範馬勇次郎に勝つために。\nたまに悪魔をふっとばし悪魔シールドを貫く\nハンマバキシーシー"]
+    stat: [{health: 2300, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 1300, range: 450, width: 320, area_effect: 1, damage_0: 650, attack_time_0: 7, trigger_effects_0: 1, against_aku: 1, knockback_chance: 75, critical_chance: 5, break_shield_chance: 30, zombie_killer: 1, immune_slow: 1, immune_explosion: 1, attack_duration: 62}, {health: 2600, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 1300, range: 450, width: 320, area_effect: 1, damage_0: 812, attack_time_0: 7, trigger_effects_0: 1, against_aku: 1, knockback_chance: 75, critical_chance: 5, break_shield_chance: 30, zombie_killer: 1, immune_slow: 1, immune_explosion: 1, attack_duration: 62}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  791:
+    name: [烈海王, 烈海王CC]
+    desc: ["「範馬刃牙」から参戦ッッ！中国武術界における\n高位の称号・海王を名に持つ拳雄。超獣特効を持ち\n赤とエイリアンにめっぽう強くたまに動きを止める\nレツカイオウ", "「範馬刃牙」から参戦ッッ！4000年を誇る中国拳法の\n歴史上No.1といわれる天才。超獣特効を持ち\n赤とエイリアンにめっぽう強くたまに動きを止める\nレツカイオウシーシー"]
+    stat: [{health: 1800, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 2200, range: 470, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 30, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, freeze_chance: 50, freeze_duration: 90, savage_blow_chance: 5, savage_blow_modifier: 200, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_wave: 1, attack_duration: 140}, {health: 2400, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 2200, range: 470, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 30, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, freeze_chance: 50, freeze_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_wave: 1, attack_duration: 140}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  792:
+    name: [花山薫, 花山薫CC]
+    desc: ["「範馬刃牙」から参戦ッッ！15歳にして\n花山組2代目を襲名した『日本一の喧嘩師』。悪魔に\n打たれ強く超ダメージを与え、悪魔シールドを貫く\nハナヤマカオル", "「範馬刃牙」から参戦ッッ！常人離れの握力を誇り\n素手喧嘩(ステゴロ)をモットーとしている。悪魔に\n打たれ強く超ダメージを与え、悪魔シールドを貫く\nハナヤマカオルシーシー"]
+    stat: [{health: 7600, knockbacks: 1, speed: 7, cost: 3500, production_cooldown: 2350, attack_cooldown: 160, range: 350, width: 320, area_effect: 1, damage_0: 6400, attack_time_0: 118, trigger_effects_0: 1, against_aku: 1, massive_damage: 1, resistant: 1, break_shield_chance: 100, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_toxic: 1, attack_duration: 188}, {health: 8500, knockbacks: 1, speed: 7, cost: 3500, production_cooldown: 2350, attack_cooldown: 160, range: 350, width: 320, area_effect: 1, damage_0: 8000, attack_time_0: 118, trigger_effects_0: 1, against_aku: 1, massive_damage: 1, resistant: 1, break_shield_chance: 100, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_toxic: 1, attack_duration: 188}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  793:
+    name: [愚地克巳, 愚地克巳CC]
+    desc: ["「範馬刃牙」から参戦ッッ！愚地独歩の養子で\n神心会を引き継いだ若きリーダー。バリアを貫き\n赤い敵とエイリアンに超ダメージを与える(範囲攻撃)\nオロチカツミ", "「範馬刃牙」から参戦ッッ！規格外の身体能力と\n類稀な才能を持つ空手界の最終兵器。バリアを貫き\n赤い敵とエイリアンに超ダメージを与える(範囲攻撃)\nオロチカツミシーシー"]
+    stat: [{health: 1800, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2000, attack_cooldown: 90, range: 450, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 5, trigger_effects_0: 1, against_red: 1, against_alien: 1, massive_damage: 1, break_barrier_chance: 100, attack_duration: 35}, {health: 2200, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2000, attack_cooldown: 90, range: 450, width: 320, area_effect: 1, damage_0: 1650, attack_time_0: 5, trigger_effects_0: 1, against_red: 1, against_alien: 1, massive_damage: 1, break_barrier_chance: 100, attack_duration: 35}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  794:
+    name: [ジャック・ハンマー, ジャック・ハンマーCC]
+    desc: ["「範馬刃牙」から参戦ッッ！強くなるためなら手段を\n選ばない刃牙の腹違いの兄。メタルキラーを持ち\n必ずメタルな敵とゾンビの攻撃力を下げる", "「範馬刃牙」から参戦ッッ！圧倒的な咬筋力は\nヤシの実をも噛み砕く。メタルキラーを持ち\n必ずメタルな敵とゾンビの攻撃力を下げる\nジャックハンマーシーシー"]
+    stat: [{health: 5400, knockbacks: 4, speed: 8, cost: 3250, production_cooldown: 2250, attack_cooldown: 80, range: 380, width: 320, area_effect: 1, damage_0: 1380, long_range_0: 480, long_range_offset_0: -960, attack_time_0: 40, trigger_effects_0: 1, against_zombie: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, metal_killer: 18, zombie_killer: 1, attack_duration: 85}, {health: 6700, knockbacks: 4, speed: 8, cost: 3250, production_cooldown: 2250, attack_cooldown: 80, range: 380, width: 320, area_effect: 1, damage_0: 1780, long_range_0: 480, long_range_offset_0: -960, attack_time_0: 40, trigger_effects_0: 1, against_zombie: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, metal_killer: 18, zombie_killer: 1, attack_duration: 85}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  795:
+    name: [ネコオーガ, ネコの貌]
+    desc: ["地上最強の生物を目指し闘争の世界に身を投じたネコ\n動物図鑑でライバル達の弱点を勉強している\nたまにエイリアンをふっとばして動きを遅くする", "地上最強の生物を目指すネコ。ネコの貌の様に見える\n背筋で相手を威嚇し、極力戦いを避けて頂点を目指す\nたまにエイリアンをふっとばして動きを遅くする\nネコノカオ"]
+    stat: [{health: 1200, knockbacks: 2, speed: 10, cost: 800, production_cooldown: 450, attack_cooldown: 44, range: 350, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 7, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, attack_duration: 15}, {health: 1500, knockbacks: 2, speed: 10, cost: 800, production_cooldown: 450, attack_cooldown: 40, range: 350, width: 320, area_effect: 1, damage_0: 750, attack_time_0: 14, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, attack_duration: 38}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  796:
+    name: [ちび刃牙, ちび刃牙CC]
+    desc: ["「範馬刃牙」から参戦ッッ！\n\"地上最強の生物\"の異名を持つ父親に挑む若き格闘家\nメタルキラー能力を持つ\nチビバキ", "「範馬刃牙」から参戦ッッ！幾多の戦場を\n乗り越えた肉体には無数の傷が刻まれている\nメタルキラー能力を持つ\nチビバキシーシー"]
+    stat: [{health: 680, knockbacks: 3, speed: 12, cost: 420, production_cooldown: 350, attack_cooldown: 22, range: 200, width: 320, damage_0: 140, attack_time_0: 16, trigger_effects_0: 1, metal_killer: 5, attack_duration: 42}, {health: 680, knockbacks: 3, speed: 12, cost: 420, production_cooldown: 350, attack_cooldown: 22, range: 200, width: 320, damage_0: 140, attack_time_0: 16, trigger_effects_0: 1, metal_killer: 5, attack_duration: 42}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  797:
+    name: [ネコ刃牙, ネコ刃牙CC]
+    desc: ["憧れの格闘家を目指し、日夜鍛錬に励むネコ\nイメージトレーニングで無敗の記録を更新中\nたまにエイリアンをふっとばす(全方位攻撃)\nネコバキ", "史上最強の突進力を持つ必殺技を日々鍛錬するネコ\n思春期真っただ中で、家では親子喧嘩中\nたまにエイリアンをふっとばす(全方位攻撃)\nネコバキシーシー"]
+    stat: [{health: 500, knockbacks: 3, speed: 35, cost: 400, production_cooldown: 350, range: 200, width: 320, area_effect: 1, damage_0: 100, long_range_0: 250, long_range_offset_0: -300, attack_time_0: 12, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, attack_duration: 88}, {health: 500, knockbacks: 3, speed: 35, cost: 400, production_cooldown: 350, range: 200, width: 320, area_effect: 1, damage_0: 100, long_range_0: 250, long_range_offset_0: -300, attack_time_0: 12, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, attack_duration: 88}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
+  798:
+    name: [ネコ海王, ネコ海王CC]
+    desc: ["中国拳法の歴史上No.2を名乗る自称天才ネコ\nピカピカに磨き上げた泥団子を一撃で粉砕する実力者\n浮いてる敵と黒い敵に超ダメージを与える(範囲攻撃)\nネコカイオウ", "高度な中国武術を極めるため修行に励むネコ\n特訓の成果で水の上を15センチ走る事ができる\n浮いてる敵と黒い敵に超ダメージを与える(範囲攻撃)\nネコカイオウシーシー"]
+    stat: [{health: 480, knockbacks: 3, speed: 36, cost: 450, production_cooldown: 500, range: 250, width: 320, area_effect: 1, damage_0: 190, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, attack_duration: 130}, {health: 480, knockbacks: 3, speed: 36, cost: 450, production_cooldown: 500, range: 250, width: 320, area_effect: 1, damage_0: 190, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, attack_duration: 130}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
+  799:
+    name: [ネコ独歩, ネコ独歩CC]
+    desc: ["実戦空手・神心会の総帥を目指すネコ\n右目はものもらいの治療中\nたまに赤い敵の動きを一瞬止める(遠方範囲攻撃)\nネコドッポ", "トラを素手で倒した伝説の格闘家に憧れるネコ\nさも目撃したかのように戦いの様子を語るのが得意\nたまに赤い敵の動きを一瞬止める(遠方範囲攻撃)\nネコドッポシーシー"]
+    stat: [{health: 350, knockbacks: 3, speed: 8, cost: 500, production_cooldown: 350, attack_cooldown: 50, range: 300, width: 320, area_effect: 1, damage_0: 100, long_range_0: 200, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, freeze_chance: 20, freeze_duration: 90, attack_duration: 53}, {health: 350, knockbacks: 3, speed: 8, cost: 500, production_cooldown: 350, attack_cooldown: 50, range: 300, width: 320, area_effect: 1, damage_0: 100, long_range_0: 200, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, freeze_chance: 20, freeze_duration: 90, attack_duration: 53}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -13330,6 +13435,59 @@ gacha:
     series_id: 52
     name: 新キャラ追加！ホワイトデー期間限定のホットなガチャ！★詳細はバナーをタップ!!
     rate: no_legend
+  969:
+    cats: [788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 限定伝説レア「宵のイザナミ」参戦！★超激レア出現率超アップの「極ネコ祭」開催中!!
+    rate: uberfest_legend
+    similarity: 99
+  970:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    rate: platinum
+    similarity: 99
+  971:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    rate: legend
+    similarity: 99
+  972:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 新限定キャラ「幼天女ルーナ」参戦！★超激レア出現率が最大アップの特別なガチャ！
+    similarity: 96
+  973:
+    cats: [787, 778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 季節キャラクターが一堂に集結!!★超激レア出現率アップの「超国王祭」!!
+    rate: dynastyfest
+    similarity: 99
+  974:
+    cats: [230, 231, 242, 243, 244, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 71
+    name: 新キャラ追加！クリスマス限定キャラを手に入れよう！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 92
+  975:
+    cats: [169, 144, 126, 77, 397, 693, 699, 643, 716, 337, 570, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: 新キャラが多数追加された、7周年記念の特別ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 69
+  976:
+    cats: [35, 44, 497, 160, 88, 634, 775, 273, 675, 335, 360, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: 人気キャラクターが集結！10周年記念の特別ガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 70
+  977:
+    cats: [790, 791, 792, 793, 794, 795, 795, 795, 795, 795, 795, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 72
+    name: 人気バーチャル・シンガー登場！『初音ミク』コラボガチャ！★詳細はバナーをタップ!!
+    rate: no_legend
+    similarity: 82
 events:
   2018-09-15_320:
     start_on: 2018-09-15
