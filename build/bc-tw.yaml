@@ -28499,3 +28499,86 @@ events:
     supa: 2600
     uber: 900
     legend: 30
+  2025-04-07_861:
+    start_on: 2025-04-07
+    end_on: 2025-04-11
+    version: '140200'
+    name: 含限定超激稀有「貓咪王女」的女角色為主轉蛋！且傳說稀有角色出現率2倍！
+    id: 861
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2025-04-07_945:
+    start_on: 2025-04-07
+    end_on: 2025-04-09
+    version: '140200'
+    name: 傳說中的龍族們霸氣降臨！★點圖確認詳細吧!!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-07_946:
+    start_on: 2025-04-07
+    end_on: 2025-04-09
+    version: '140200'
+    name: 進化後會有召喚能力的「開花爺爺」參戰！★點圖確認詳細吧!!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-09_943:
+    start_on: 2025-04-09
+    end_on: 2025-04-11
+    version: '140200'
+    name: 日本戰國時代武將們大集合！★點圖確認詳細吧!!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-09_948:
+    start_on: 2025-04-09
+    end_on: 2025-04-11
+    version: '140200'
+    name: 有著超強破壞力的衆神一同登場！★點圖確認詳細吧!!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-11_942:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: 超強大且有著即戰力的貓咪們一同登場！★點圖確認詳細吧!!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-04-11_944:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: 穿越電子空間來到這裡的美少女們一同登場！★點圖確認詳細吧!!
+    id: 944
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-04-11_949:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: 帶來革命的超級武器！革命軍隊鋼鐵戰團出擊！★點圖確認詳細吧!!
+    id: 949
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
