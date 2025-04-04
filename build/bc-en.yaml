@@ -28810,3 +28810,86 @@ events:
     supa: 2600
     uber: 900
     legend: 30
+  2025-04-07_861:
+    start_on: 2025-04-07
+    end_on: 2025-04-11
+    version: '140200'
+    name: A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!
+    id: 861
+    rare: 6940
+    supa: 2500
+    uber: 500
+    legend: 60
+  2025-04-07_945:
+    start_on: 2025-04-07
+    end_on: 2025-04-09
+    version: '140200'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-07_946:
+    start_on: 2025-04-07
+    end_on: 2025-04-09
+    version: '140200'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-09_943:
+    start_on: 2025-04-09
+    end_on: 2025-04-11
+    version: '140200'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-09_948:
+    start_on: 2025-04-09
+    end_on: 2025-04-11
+    version: '140200'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-11_942:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-04-11_944:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 944
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-04-11_949:
+    start_on: 2025-04-11
+    end_on: 2025-04-14
+    version: '140200'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 949
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
