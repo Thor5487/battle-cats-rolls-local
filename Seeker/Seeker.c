@@ -137,8 +137,8 @@ FORCE_INLINE bool verify_seed(uint seed) {
     for (uint j = 0; j < USER_NCATS; j++) {
 
         if (cats[j].rarity == BLANK) {
-            xorshift32(seed);
-            xorshift32(seed);
+            xorshift32(&seed);
+            xorshift32(&seed);
             continue;
         }
 
@@ -195,7 +195,7 @@ FORCE_INLINE void sanitize_range(ThreadArgs* arg) {
         if (mod_10000(start) < high) { // we landed before/in a range, move to its start.
             start -= mod_10000(start); // set lowest 4 digits to 0
             start += low;
-        } else {// we landed after a range, move to the next one.
+        } else { // we landed after a range, move to the next one.
             start -= mod_10000(start);
             start += low + 10000;
         }
@@ -231,8 +231,8 @@ FORCE_INLINE void sanitize_range(ThreadArgs* arg) {
         start += b;
 
         // always move end to the previous multiple of m (+ b)
-        // if end is already a multiple, subtract m so that this thread�s
-        // end does not overlap with the next thread�s start.
+        // if end is already a multiple, subtract m so that this thread's
+        // end does not overlap with the next thread's start.
         if (thread_id < thread_count - 1) {
             if (end % m)
                 end -= end % m;
@@ -332,7 +332,8 @@ bool determine_fastest_approach(uint rarity_range, uint rarity_count) {
 int main(int argc, char** argv) {
     
     if (argc % 2 || argc < 9) {
-        return -1;
+        fprintf(stderr, "Incomplete arguments.\n");
+        return 1;
     }
 
     PROCESS_PRIORITY_HIGH();
@@ -348,6 +349,11 @@ int main(int argc, char** argv) {
 
     USER_NCATS = (argc - 10) / 2; // cats start at argv 10
     cats = malloc(sizeof(Cat) * USER_NCATS);
+
+    if (!cats) {
+        fprintf(stderr, "malloc error.\n");
+        return 1;
+    }
 
     for (uint i = 0, j = 10; i < USER_NCATS; i++) {
         cats[i].rarity = atoi(argv[j++]) - 2;
@@ -382,8 +388,8 @@ int main(int argc, char** argv) {
         high = 10000;
         break;
     case BLANK:
-        fprintf(stderr, "First cat cannot be empty.");
-        return -1;
+        fprintf(stderr, "The first cat cannot be blank.\n");
+        return 1;
     }
 
 
