@@ -12406,9 +12406,8 @@ gacha:
   925:
     cats: [769, 507, 347, 346, 345, 191, 190, 189, 188, 187, 186, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120]
     series_id: 13
-    name: Limited Ed. Capsules with ONLY Merc Storia heroes!
+    name: New unit Taitenki added! Merc Storia Collab Capsules! ★Tap for info!
     rate: no_legend
-    similarity: 95
   926:
     cats: [773, 684, 230, 231, 303, 571, 774, 229, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 8
@@ -12625,7 +12624,6 @@ gacha:
     series_id: 52
     name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
     rate: no_legend
-    similarity: 86
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -28893,3 +28891,128 @@ events:
     uber: 500
     guaranteed: true
     legend: 30
+  2025-04-14_925:
+    start_on: 2025-04-14
+    end_on: 2025-04-28
+    version: '140200'
+    name: New unit Taitenki added! Merc Storia Collab Capsules! ★Tap for info!
+    id: 925
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-14_951:
+    start_on: 2025-04-14
+    end_on: 2025-04-16
+    version: '140200'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-14_968:
+    start_on: 2025-04-14
+    end_on: 2025-04-28
+    version: '140200'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 968
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-16_941:
+    start_on: 2025-04-16
+    end_on: 2025-04-18
+    version: '140200'
+    name: 'Introducing NEW hero: the uncanny lifeform Kaoluga! ★ Tap banner for more info!'
+    id: 941
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-18_925:
+    start_on: 2025-04-18
+    end_on: 2025-04-28
+    version: '140200'
+    name: New unit Taitenki added! Merc Storia Collab Capsules! ★Tap for info!
+    id: 925
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-18_931:
+    start_on: 2025-04-18
+    end_on: 2025-04-21
+    version: '140200'
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    id: 931
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-04-18_968:
+    start_on: 2025-04-18
+    end_on: 2025-04-28
+    version: '140200'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 968
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-21_925:
+    start_on: 2025-04-21
+    end_on: 2025-04-28
+    version: '140200'
+    name: New unit Taitenki added! Merc Storia Collab Capsules! ★Tap for info!
+    id: 925
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-21_947:
+    start_on: 2025-04-21
+    end_on: 2025-04-24
+    version: '140200'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-04-21_968:
+    start_on: 2025-04-21
+    end_on: 2025-04-28
+    version: '140200'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 968
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-04-24_925:
+    start_on: 2025-04-24
+    end_on: 2025-04-28
+    version: '140200'
+    name: New unit Taitenki added! Merc Storia Collab Capsules! ★Tap for info!
+    id: 925
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-04-24_950:
+    start_on: 2025-04-24
+    end_on: 2025-04-28
+    version: '140200'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-04-24_968:
+    start_on: 2025-04-24
+    end_on: 2025-04-28
+    version: '140200'
+    name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
+    id: 968
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
