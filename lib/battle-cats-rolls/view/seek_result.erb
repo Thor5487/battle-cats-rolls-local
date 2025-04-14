@@ -48,6 +48,13 @@
             </ul>
           </li>
         <% end %>
+        <% if arg.dig(:seed, 2).to_i > 1 %>
+          <li>
+            <strong>This might not be your actual seed</strong>
+            because there are more than 1 seeds found. Be sure to verify
+            and seek again with your new rolls if it's not the right one.
+          </li>
+        <% end %>
         <li>Note that <strong>you only need to find the seed once</strong>. Save the URL. Following up, you can <a href="<%= route.help_uri %>#advance-the-tracks">advance the tracks</a> from there.</li>
       </ul>
     <% end %>
