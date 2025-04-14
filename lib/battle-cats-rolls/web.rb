@@ -136,11 +136,8 @@ module BattleCatsRolls
 
     get %r{^/cats/(?<id>\d+)} do |m|
       id = m[:id].to_i
-      canonical_uri = route.uri(path: "/cats/#{id}")
 
-      if request.fullpath != canonical_uri
-        found canonical_uri
-      else
+      with_canonical_uri("/cats/#{id}") do
         if info = route.cats[id]
           cat = Cat.new(id: id, info: info)
           level = [route.level, info['max_level']].min
