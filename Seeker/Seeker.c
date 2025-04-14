@@ -283,6 +283,9 @@ void find_seed_fast(ThreadArgs* arg) {
                     atomic_store(&seed_begin, begin);
                     atomic_store(&seed_end, seed);
                     atomic_fetch_add(&found_seeds, 1);
+
+                    if (found_seeds > 1) return;
+
                 }
             }
         }
@@ -305,6 +308,9 @@ void find_seed_fast(ThreadArgs* arg) {
                 atomic_store(&seed_begin, begin);
                 atomic_store(&seed_end, seed);
                 atomic_fetch_add(&found_seeds, 1);
+
+                if (found_seeds > 1) return;
+
             }
         }
     }
@@ -417,8 +423,12 @@ int main(int argc, char** argv) {
         pthread_join(threads[i], NULL);
     }
 
-    if (found_seeds == 1)
+    if (found_seeds == 0)
+        printf("No seeds found.\n");
+    else if (found_seeds == 1)
         printf("%u\n%u\n", seed_begin, seed_end);
+    else
+        printf("Too many seeds found.\n");
 
     free(cats);
     free(args);
