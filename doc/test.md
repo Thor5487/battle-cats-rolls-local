@@ -3,10 +3,15 @@
 
 ## Seeker
 
-* Check 2160402177
-* echo 8.5 6970 2500 500 30 23 21 7 1 3 20 2 15 2 22 2 12 3 16 2 8 2 0 2 15 3 19 5 0 | time ./Seeker
-* Above is 1027349002
+* time ./Seeker 8.6 6970 2500 500 30 25 29 11 1 2 22 2 9 2 18 2 19 2 2 2 4 2 1 3 12 2 21 2 8
+  * 4161166321 and 3390737708
+* time ./Seeker 8.6 6970 2500 500 30 25 29 11 1 2 9 2 12 2 22 2 14 2 18 2 14 2 3 2 2 2 20 2 4
+  * 3890432974 and 3404232429
+* time ./Seeker 8.6 6970 2500 500 30 25 29 11 1 2 18 2 14 2 3 2 2 2 20 2 4 2 6 2 1 3 14 3 0
+  * The first cat is a re-rolled cat!
+  * It should be 2539156964 and 562408774
 * Picking an invalid event
+* Check 2160402177
 * 3112486085 is a very nice testing seed
 
 ## Tracking
