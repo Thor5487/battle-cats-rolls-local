@@ -209,7 +209,9 @@ module BattleCatsRolls
       end
 
       get '/seek' do
-        render :seek, queue_size: SeekSeed.queue.size
+        with_canonical_uri('/seek') do
+          render :seek, queue_size: SeekSeed.queue.size
+        end
       end
 
       post '/seek/enqueue' do
