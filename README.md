@@ -10,7 +10,16 @@ And pick one:
 * Set up memcached and run `gem install dalli`
 * Use LRU cache so run `gem install lru_redux`
 
-## How to build the 8.6+ seed seeker:
+## How to build the VampireFlower seed seeker:
+
+First install [clang](https://clang.llvm.org), then:
+
+    ./Seeker/bin/build-VampireFlower.sh
+
+This should build the seed seeker at: `Seeker/Seeker-VampireFlower`, which
+will be used by the Ruby server.
+
+## How to build the forgothowtoreddid seed seeker:
 
 First install [clang++](https://clang.llvm.org), then:
 
@@ -19,7 +28,7 @@ First install [clang++](https://clang.llvm.org), then:
 This should build the seed seeker at: `Seeker/Seeker-8.6`, which will be used
 by the Ruby server.
 
-## How to build the 8.5 and 8.4 seed seeker:
+## (Deprecated) How to build the 8.5 and 8.4 seed seeker:
 
 First install [GHC](https://www.haskell.org/ghc/), then:
 
@@ -188,6 +197,7 @@ Build BCKR data:
 * Lin Jen-Shin (@godfat)
 * MandarinSmell
 * ThanksFëanor
+* @VampireFlower
 * yuki2nd
 * 占庭 盧 (@lzt00275)
 

@@ -73,10 +73,18 @@ module BattleCatsRolls
     def seek
       # logger.info("Seeking seed with #{source}")
 
-      case source[/\A\S+/]
-      when 'forgothowtoreddid'
+      case seeker = source[/\A\S+/]
+      when 'forgothowtoreddid', 'VampireFlower'
+        suffix =
+          case seeker
+          when 'forgothowtoreddid'
+            '8.6'
+          else
+            'VampireFlower'
+          end
+
         IO.popen([
-          "#{Root}/Seeker/Seeker-8.6",
+          "#{Root}/Seeker/Seeker-#{suffix}",
           *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' ').drop(1),
           err: %i[child out]], 'r+') do |io|
           io.close_write

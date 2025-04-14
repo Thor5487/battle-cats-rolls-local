@@ -415,7 +415,7 @@ int main(int argc, char** argv) {
     else if (found_seeds == 1)
         printf("%u\n%u\n", seed_begin, seed_end);
     else
-        printf("Too many seeds found.\n");
+        printf("%u\n%u\n%u\n", seed_begin, seed_end, found_seeds);
 
     free(cats);
     free(args);

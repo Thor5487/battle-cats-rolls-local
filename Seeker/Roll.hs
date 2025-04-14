@@ -97,6 +97,6 @@ buildSinglePick (Just dupeCode) (Roll rarity (Slot slotCode)) =
 
 dupeCode :: Rarity -> Word32 -> Word32
 dupeCode rarity slotCode =
-  if slotCode < maxSlot then slotCode + 1 else 0
+  if slotCode == maxSlot then 0 else slotCode + 1
   where
     maxSlot = count rarity - 1

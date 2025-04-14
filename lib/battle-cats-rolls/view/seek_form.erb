@@ -8,6 +8,7 @@
   <label for="seeker_select">Seeker:</label>
   <select id="seeker_select" name="seeker">
     <% if route.version == '8.6' %>
+    <option value="VampireFlower" <%= selected_seeker('VampireFlower') %>>VampireFlower</option>
     <option value="forgothowtoreddid" <%= selected_seeker('forgothowtoreddid') %>>forgothowtoreddid</option>
     <% else %>
     <option value="godfat" <%= selected_seeker('godfat') %>>godfat (deprecated)</option>

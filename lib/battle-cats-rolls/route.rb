@@ -188,7 +188,7 @@ module BattleCatsRolls
     def seeker
       @seeker ||=
         case value = request.params_coercion_with_nil('seeker', :to_s)
-        when 'forgothowtoreddid', 'godfat'
+        when 'VampireFlower', 'forgothowtoreddid', 'godfat'
           value
         else
           default_seeker
@@ -199,7 +199,7 @@ module BattleCatsRolls
       @default_seeker ||=
         case version
         when '8.6'
-          'forgothowtoreddid'
+          'VampireFlower'
         else
           'godfat'
         end
