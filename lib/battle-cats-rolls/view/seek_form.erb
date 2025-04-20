@@ -5,6 +5,15 @@
 
 <form method="post" action="//<%= route.seek_host %>/seek/enqueue"
   enctype="application/x-www-form-urlencoded">
+  <label for="seeker_select">Seeker:</label>
+  <select id="seeker_select" name="seeker">
+    <% if route.version == '8.6' %>
+    <option value="forgothowtoreddid" <%= selected_seeker('forgothowtoreddid') %>>forgothowtoreddid</option>
+    <% else %>
+    <option value="godfat" <%= selected_seeker('godfat') %>>godfat (deprecated)</option>
+    <% end %>
+  </select>
+
   <ol>
     <% 10.times do %>
       <li>

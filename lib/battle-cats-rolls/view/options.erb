@@ -19,20 +19,6 @@
   <%= hidden_inputs('version') %>
   <% end %>
 
-  <% if route.path_info == '/seek' %>
-  <label for="seeker_select">Seeker:</label>
-  <select id="seeker_select" name="seeker" onchange="roll(this)">
-    <option value="default" <%= selected_seeker('default') %>>default (<%= route.determine_default_seeker %>)</option>
-    <% if route.version == '8.6' %>
-    <option value="forgothowtoreddid" <%= selected_seeker('forgothowtoreddid') %>>forgothowtoreddid</option>
-    <% else %>
-    <option value="godfat" <%= selected_seeker('godfat') %>>godfat (deprecated)</option>
-    <% end %>
-  </select>
-  <% else %>
-  <%= hidden_inputs('seeker') %>
-  <% end %>
-
   <% if route.path_info != '/logs' && !route.path_info.start_with?('/cats/') %>
   <label for="name_select">Name:</label>
   <select id="name_select" name="name" onchange="roll(this)">
