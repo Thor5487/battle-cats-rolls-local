@@ -47,7 +47,8 @@ module BattleCatsRolls
 
     def seek_source
       @seek_source ||=
-        [version, gacha.rare, gacha.supa, gacha.uber, gacha.legend,
+        [determine_seeker, version,
+         gacha.rare, gacha.supa, gacha.uber, gacha.legend,
          gacha.rare_cats.size, gacha.supa_cats.size,
          gacha.uber_cats.size, gacha.legend_cats.size,
          *request.POST['rolls']].join(' ').squeeze(' ')
@@ -183,6 +184,40 @@ module BattleCatsRolls
       end
     end
 
+    def seeker
+      @seeker ||=
+        case value = request.params_coercion_with_nil('seeker', :to_s)
+        when 'forgothowtoreddid', 'godfat'
+          value
+        else
+          default_seeker
+        end
+    end
+
+    def default_seeker
+      'default'
+    end
+
+    def determine_seeker
+      @determine_seeker ||=
+        case seeker
+        when 'default'
+          determine_default_seeker
+        else
+          seeker
+        end
+    end
+
+    def determine_default_seeker
+      @determine_default_seeker ||=
+        case version
+        when '8.6'
+          'forgothowtoreddid'
+        else
+          'godfat'
+        end
+    end
+
     def name
       @name ||=
         case value = request.params_coercion_with_nil('name', :to_i)
@@ -195,7 +230,7 @@ module BattleCatsRolls
 
     def theme
       @theme ||=
-        case value = request.params_coercion('theme', :to_s)
+        case value = request.params_coercion_with_nil('theme', :to_s)
         when 'mkweb'
           value
         else
@@ -446,8 +481,9 @@ module BattleCatsRolls
 
     def default_query query={}
       ret = %i[
-        seed last event custom rate c_rare c_supa c_uber level lang ui version
-        name theme count find no_guaranteed force_guaranteed ubers details
+        seed last event custom rate c_rare c_supa c_uber level lang ui
+        version seeker name theme count find
+        no_guaranteed force_guaranteed ubers details
         hide_wave sum_no_wave dps_no_critical
         o
       ].inject({}) do |result, key|
@@ -477,6 +513,7 @@ module BattleCatsRolls
            (key == :lang && value == 'en') ||
            (key == :ui && value == '') ||
            (key == :version && value == default_version) ||
+           (key == :seeker && value == default_seeker) ||
            (key == :name && value == 0) ||
            (key == :theme && value == '') ||
            (key == :count && value == 100) ||

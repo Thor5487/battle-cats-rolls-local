@@ -194,6 +194,10 @@ module BattleCatsRolls
       'selected="selected"' if route.version == version_name
     end
 
+    def selected_seeker seeker_name
+      'selected="selected"' if route.seeker == seeker_name
+    end
+
     def selected_name name_name
       'selected="selected"' if route.name == name_name
     end

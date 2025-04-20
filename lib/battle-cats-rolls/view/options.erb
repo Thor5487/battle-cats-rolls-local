@@ -11,16 +11,26 @@
   <% if route.path_info.match?(%r{\A/(?:seek)?\z}) %>
   <label for="version_select">Version:</label>
   <select id="version_select" name="version" onchange="roll(this)">
-    <% if route.path_info == '/seek' %>
-      <option value="8.6">8.6+ (forgothowtoreddid)</option>
-    <% else %>
-      <option value="8.6" <%= selected_version('8.6') %>>8.6+</option>
-    <% end %>
+    <option value="8.6" <%= selected_version('8.6') %>>8.6+</option>
     <option value="8.5" <%= selected_version('8.5') %>>8.5</option>
     <option value="8.4" <%= selected_version('8.4') %>>8.4</option>
   </select>
   <% else %>
   <%= hidden_inputs('version') %>
+  <% end %>
+
+  <% if route.path_info == '/seek' %>
+  <label for="seeker_select">Seeker:</label>
+  <select id="seeker_select" name="seeker" onchange="roll(this)">
+    <option value="default" <%= selected_seeker('default') %>>default (<%= route.determine_default_seeker %>)</option>
+    <% if route.version == '8.6' %>
+    <option value="forgothowtoreddid" <%= selected_seeker('forgothowtoreddid') %>>forgothowtoreddid</option>
+    <% else %>
+    <option value="godfat" <%= selected_seeker('godfat') %>>godfat (deprecated)</option>
+    <% end %>
+  </select>
+  <% else %>
+  <%= hidden_inputs('seeker') %>
   <% end %>
 
   <% if route.path_info != '/logs' && !route.path_info.start_with?('/cats/') %>
