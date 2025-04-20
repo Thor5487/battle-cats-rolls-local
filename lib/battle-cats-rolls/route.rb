@@ -47,7 +47,7 @@ module BattleCatsRolls
 
     def seek_source
       @seek_source ||=
-        [determine_seeker, version,
+        [seeker, version,
          gacha.rare, gacha.supa, gacha.uber, gacha.legend,
          gacha.rare_cats.size, gacha.supa_cats.size,
          gacha.uber_cats.size, gacha.legend_cats.size,
@@ -56,7 +56,8 @@ module BattleCatsRolls
 
     def seek_result key
       "/seek/result/#{key}?" \
-        "event=#{event}&lang=#{lang}&version=#{version}&name=#{name}"
+        "event=#{event}&lang=#{lang}&" \
+        "version=#{version}&seeker=#{seeker}&name=#{name}"
     end
 
     def show_tracks?
@@ -195,21 +196,7 @@ module BattleCatsRolls
     end
 
     def default_seeker
-      'default'
-    end
-
-    def determine_seeker
-      @determine_seeker ||=
-        case seeker
-        when 'default'
-          determine_default_seeker
-        else
-          seeker
-        end
-    end
-
-    def determine_default_seeker
-      @determine_default_seeker ||=
+      @default_seeker ||=
         case version
         when '8.6'
           'forgothowtoreddid'
