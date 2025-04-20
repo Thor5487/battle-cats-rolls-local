@@ -37,7 +37,6 @@ typedef enum {
     SUPER_RARE,
     UBER_RARE,
     LEGEND_RARE,
-    BLANK
 } rarity;
 
 
@@ -106,12 +105,6 @@ FORCE_INLINE bool simulate_rolls(uint* seed, uint start) {
 
     for (uint j = start; j < USER_NCATS; j++) {
 
-        if (cats[j].rarity == BLANK) {
-            xorshift32(seed);
-            xorshift32(seed);
-            continue;
-        }
-
         xorshift32(seed); // dont check if the rarity matches. adding conditions is slow
 
         uint slot = xorshift32(seed) % RARITY_SIZES[cats[j].rarity];
@@ -135,12 +128,6 @@ FORCE_INLINE bool simulate_rolls(uint* seed, uint start) {
 FORCE_INLINE bool verify_seed(uint seed) {
 
     for (uint j = 0; j < USER_NCATS; j++) {
-
-        if (cats[j].rarity == BLANK) {
-            xorshift32(&seed);
-            xorshift32(&seed);
-            continue;
-        }
 
         uint temp = mod_10000(xorshift32(&seed));
 
@@ -393,8 +380,8 @@ int main(int argc, char** argv) {
         low = LEGEND_CHANCE;
         high = 10000;
         break;
-    case BLANK:
-        fprintf(stderr, "The first cat cannot be blank.\n");
+    default:
+        fprintf(stderr, "The first cat is not a valid rarity.\n");
         return 1;
     }
 
