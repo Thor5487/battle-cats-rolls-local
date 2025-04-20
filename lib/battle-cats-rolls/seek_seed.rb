@@ -73,23 +73,26 @@ module BattleCatsRolls
     def seek
       # logger.info("Seeking seed with #{source}")
 
-      if source.start_with?('8.6 ')
+      case source[/\A\S+/]
+      when 'forgothowtoreddid'
         IO.popen([
           "#{Root}/Seeker/Seeker-8.6",
-          *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' '),
+          *ENV['SEEKER_OPT'].to_s.split(' '), *source.split(' ').drop(1),
           err: %i[child out]], 'r+') do |io|
           io.close_write
           io.read.scan(/\d+/).map(&:to_i)
         end
-      else
+      when 'godfat'
         IO.popen([
           "#{Root}/Seeker/Seeker",
           *ENV['SEEKER_OPT'].to_s.split(' '),
           err: %i[child out]], 'r+') do |io|
-          io.puts source
+          io.puts source.sub(/\A\S+ /, '')
           io.close_write
           io.read.scan(/\d+/).map(&:to_i)
         end
+      else
+        []
       end
     end
   end
