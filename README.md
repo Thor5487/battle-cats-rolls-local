@@ -10,6 +10,32 @@ And pick one:
 * Set up memcached and run `gem install dalli`
 * Use LRU cache so run `gem install lru_redux`
 
+### Setting up Ruby environment
+
+I try not to be too prescriptive about how to set up Ruby environment because
+I have some personal preference which I know it's not for everyone. However,
+apparently there are many people who are not familiar with Ruby to set it up,
+and they can use some help and instructions. Here are my recommendations:
+
+* Install Ruby with your preferred package manager.
+  * If you want to install a specific Ruby version which is not supported by
+    the package manager you preferred, try
+    [`ruby-install`](https://github.com/postmodern/ruby-install)
+    * Note that you might also be able to install `ruby-install` by your
+      preferred package manager.
+* To avoid installing to system path, you can use `--user-install` for `gem`:
+  * `gem install --user-install bundler`
+  * Note that in this case you need to set up `PATH` to point to the `bin`
+    path for the executable to be globally accessible. Check this document:
+    [I installed gems with --user-install and their commands are not available](https://guides.rubygems.org/faqs/#i-installed-gems-with---user-install-and-their-commands-are-not-available)
+* To tell `bundler` to install to the same path, you also need to configure it:
+  * `bundle config set --global ~/.gem`
+  * This is sort of documented at:
+    [Remembering Options](https://bundler.io/man/bundle-config.1.html#REMEMBERING-OPTIONS)
+* Ruby finds gems in `GEM_HOME` environment variable. If gems cannot be found
+  when running the server, you can debug via `gem env`, and set `GEM_HOME`
+  accordingly if the default doesn't work for you.
+
 ## How to build the VampireFlower seed seeker:
 
 First install [clang](https://clang.llvm.org), then:
