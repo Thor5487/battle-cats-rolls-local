@@ -5,3 +5,5 @@
 /extract
 /.env
 /.pem
+/Gemfile.lock
+/.bundle/config
