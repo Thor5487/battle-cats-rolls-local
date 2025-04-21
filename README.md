@@ -10,6 +10,27 @@ And pick one:
 * Set up memcached and run `gem install dalli`
 * Use LRU cache so run `gem install lru_redux`
 
+### `sleepy_penguin` compile error on Mac
+
+If you hit into a compile error looks like this while compiling
+`sleepy_penguin` on Mac:
+
+    kqueue.c:408:19: error: incompatible function pointer types passing
+
+You can pass `-Wno-incompatible-function-pointer-types` to the C compiler to
+ignore this error. If you're installing via `bundle install`, you can pass
+this by setting:
+
+    bundle config build.sleepy_penguin --with-cflags=-Wno-incompatible-function-pointer-types
+
+Or you can also just install `sleepy_penguin` separately via:
+
+    gem install sleepy_penguin -- --with-cflags=-Wno-incompatible-function-pointer-types
+
+When you run `bundle install` it should reuse gems installed separately so
+either way it should work. If it's not reusing the gems, see the next section
+about setting up Ruby environment.
+
 ### Setting up Ruby environment
 
 I try not to be too prescriptive about how to set up Ruby environment because
