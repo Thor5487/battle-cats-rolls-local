@@ -18,18 +18,19 @@ If you hit into a compile error looks like this while compiling
     kqueue.c:408:19: error: incompatible function pointer types passing
 
 You can pass `-Wno-incompatible-function-pointer-types` to the C compiler to
-ignore this error. If you're installing via `bundle install`, you can pass
-this by setting:
-
-    bundle config build.sleepy_penguin --with-cflags=-Wno-incompatible-function-pointer-types
-
-Or you can also just install `sleepy_penguin` separately via:
+ignore this error. You can do this by running:
 
     gem install sleepy_penguin -- --with-cflags=-Wno-incompatible-function-pointer-types
 
-When you run `bundle install` it should reuse gems installed separately so
-either way it should work. If it's not reusing the gems, see the next section
-about setting up Ruby environment.
+When you run `bundle install` it should reuse gems installed via `gem install`.
+If it's not reusing the gems, see the next section about setting up Ruby
+environment. If you prefer to do this via `bundle install`, you can pass the
+flag by setting:
+
+    bundle config build.sleepy_penguin --with-cflags=-Wno-incompatible-function-pointer-types
+
+This will create a `.bundle/config` file remembering this flag and next time
+when you run `bundle install` it'll pass it to `sleepy_penguin`.
 
 ### Setting up Ruby environment
 
@@ -50,7 +51,7 @@ and they can use some help and instructions. Here are my recommendations:
     path for the executable to be globally accessible. Check this document:
     [I installed gems with --user-install and their commands are not available](https://guides.rubygems.org/faqs/#i-installed-gems-with---user-install-and-their-commands-are-not-available)
 * To tell `bundler` to install to the same path, you also need to configure it:
-  * `bundle config set --global ~/.gem`
+  * `bundle config set path ~/.gem`
   * This is sort of documented at:
     [Remembering Options](https://bundler.io/man/bundle-config.1.html#REMEMBERING-OPTIONS)
 * Ruby finds gems in `GEM_HOME` environment variable. If gems cannot be found
