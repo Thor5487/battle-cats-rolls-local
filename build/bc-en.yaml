@@ -1190,6 +1190,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      against_float:
+        ultra: 1
+      wave:
+        max_level: 10
+        minmax: [[2, 20], [3, 3]]
+        ultra: 1
+      immune_freeze:
+        ultra: 1
   74:
     name: [Oda Nobunaga, Wargod Nobunaga, Immortal Nobunaga, Phantasmal Nobunaga]
     desc: ["The manifestation of the Grudge of Nobunaga\nfrom the lives of many (and one Cat) (Area Attack)\n100% chance to Freeze Black enemies.", "The Cat's spirit goes into overdrive.\nThe grudge grows even stronger. (Area Attack)\n100% chance to Freeze Black enemies.", "Leads an army of vengeful spirits to fulfill his\ndream of unifying the heavens and the netherworld.\n100% chance to Freeze Black enemies. (Area)", "The enmity of those that he has slain powers his\nburning ambition to rule both heaven and hell.\n100% Freeze to Black, Aku. Counter-Surge (Area)"]
@@ -4832,9 +4840,9 @@ cats:
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   432:
-    name: [Detective Vigler, Inspector Gabriel, Section Chief Gravicci]
-    desc: ["Prodigy in the netherworld's Office of Infernal\nInvestigations, with just over 665 cases solved.\nWave attacks might freeze Aliens/Floating.", "This hardened veteran got too close to the truth\nand uncovered a conspiracy scarier than hell itself.\nWave attacks might freeze Aliens/Zombies.", "Realized his true power after bringing the corrupt\narchdemons to justice. Time for the final judgment!\nWave attacks 100% Freeze Zombies."]
-    stat: [{health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_float: 1, against_alien: 1, freeze_chance: 50, freeze_duration: 150, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, freeze_chance: 50, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 100, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 290}]
+    name: [Detective Vigler, Inspector Gabriel, Section Chief Gravicci, Arcane Commissioner Gravicci]
+    desc: ["Prodigy in the netherworld's Office of Infernal\nInvestigations, with just over 665 cases solved.\nWave attacks might freeze Aliens/Floating.", "This hardened veteran got too close to the truth\nand uncovered a conspiracy scarier than hell itself.\nWave attacks might freeze Aliens/Zombies.", "Realized his true power after bringing the corrupt\narchdemons to justice. Time for the final judgment!\nWave attacks 100% Freeze Zombies.", "Genius investigator who discovered that heavenly might\nruns in his blood after a hard-fought battle. Sage Slayer,\nStrong vs. Zombies, Wave attacks 100% Freeze."]
+    stat: [{health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_float: 1, against_alien: 1, freeze_chance: 50, freeze_duration: 150, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 120, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, freeze_chance: 50, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 310}, {health: 2800, knockbacks: 6, speed: 15, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 100, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, wave_chance: 100, wave_level: 3, attack_duration: 290}, {health: 3600, knockbacks: 6, speed: 19, cost: 2940, production_cooldown: 1600, range: 360, width: 320, area_effect: 1, damage_0: 1800, attack_time_0: 70, trigger_effects_0: 1, against_zombie: 1, strong: 1, freeze_chance: 100, freeze_duration: 150, zombie_killer: 1, sage_slayer: 1, wave_chance: 100, wave_level: 5, immune_wave: 1, attack_duration: 280}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -5945,8 +5953,7 @@ cats:
     talent:
       against_relic: {}
       immune_curse: {}
-      immune_knockback:
-        minmax: [[5, 50]]
+      immune_knockback: {}
       increase_health:
         max_level: 10
         minmax: [[2, 20]]
@@ -6339,6 +6346,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      freeze:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      immune_weaken: {}
+      resistant_slow:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   621:
     name: [Hevijak the Wicked, Wicked King Hevijak, God-Emperor Hevijak]
     desc: ["Foul dragon, born of miasma and destined to bring\ndisaster and utter destruction to foolish mortal foes.\nTough vs Red and Aku, chance of Knockback/Piercing.", "Given the overwhelming power to annihilate the\ncelestial kingdom through dark pacts with the Aku. \nTough vs Red and Aku, chance of Knockback/Piercing.", "A dark dragon that has taken dark light into itself. Its\nfire has laid waste to many worlds. Tough vs Aku/Red, \nwith 100% Knockback and chance of Shield Piercing"]
@@ -6737,9 +6758,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   683:
-    name: [Spectral Goth Vega, Illusory Guardian Vega]
-    desc: ["A Goddess of Death that has come from another world.\nWith the power of darkness, snuffs out followers of light.\nColossus Slayer, Strong against Traited enemies", "She has sealed away her dark, unmentionable past\nand seeks redemption in the mortal plane.\nColossus Slayer, Strong against Traited enemies"]
-    stat: [{health: 3100, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 450, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 450, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 4000, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 600, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 600, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}]
+    name: [Spectral Goth Vega, Illusory Guardian Vega, Lady of Deception Vega]
+    desc: ["A Goddess of Death that has come from another world.\nWith the power of darkness, snuffs out followers of light.\nColossus Slayer, Strong against Traited enemies", "She has sealed away her dark, unmentionable past\nand seeks redemption in the mortal plane.\nColossus Slayer, Strong against Traited enemies", "Charismatic goddess awakening to her true power, \nwielding online fame to lead her stans down a dark path.\nColossus Slayer, Strong vs. Traited enemies."]
+    stat: [{health: 3100, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 450, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 450, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 4000, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 600, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 600, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}, {health: 5200, knockbacks: 3, speed: 13, cost: 3120, production_cooldown: 1850, attack_cooldown: 63, range: 380, width: 320, area_effect: 1, damage_0: 800, long_range_0: 1, long_range_offset_0: 380, attack_time_0: 36, damage_1: 800, long_range_1: 230, long_range_offset_1: 400, attack_time_1: 79, trigger_effects_1: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, strong: 1, weaken_chance: 50, weaken_duration: 180, weaken_multiplier: 50, zombie_killer: 1, colossus_slayer: 1, immune_toxic: 1, attack_duration: 150}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7408,6 +7429,90 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  788:
+    name: [Netherworld Nymph Lunacia, Death's Daughter Lunacia]
+    desc: ["Another avatar of mercy guiding forlorn Cats to \nredemption. Strong vs. and Weakens Floating/Angels/\nAku/Traitless. Omnistrikes/Surge cause Explosions.", "Devoted to the salvation of all others, even at the cost of \nher own. Strong vs. and Weakens Floating/Angels/Aku/\nTraitless. Omnistrikes/Surge cause Explosions."]
+    stat: [{health: 5000, knockbacks: 4, speed: 15, cost: 2500, production_cooldown: 1700, range: 350, width: 320, area_effect: 1, damage_0: 800, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 40, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_aku: 1, against_white: 1, strong: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, break_shield_chance: 20, counter_surge: 1, explosion_chance: 100, explosion_range: 1400, immune_freeze: 1, immune_slow: 1, immune_curse: 1, immune_explosion: 1, immune_toxic: 1, attack_duration: 160}, {health: 6500, knockbacks: 4, speed: 15, cost: 2500, production_cooldown: 1700, range: 350, width: 320, area_effect: 1, damage_0: 900, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 40, trigger_effects_0: 1, against_float: 1, against_angel: 1, against_aku: 1, against_white: 1, strong: 1, weaken_chance: 100, weaken_duration: 90, weaken_multiplier: 50, break_shield_chance: 20, counter_surge: 1, explosion_chance: 100, explosion_range: 1400, immune_freeze: 1, immune_slow: 1, immune_curse: 1, immune_explosion: 1, immune_toxic: 1, attack_duration: 160}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  789:
+    name: [789-2]
+    desc: []
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  790:
+    name: [Baki Hanma, Baki Hanma CC]
+    desc: ["Joining from Baki! Young Champion of the \nUnderground Arena who has won many fierce\nbattles. May Knockback Aku and Pierce Shields.", "Joining from Baki! Desires strength to \ndefeat his father Yujiro Hanma.\nMay Knockback Aku and Pierce Shields."]
+    stat: [{health: 2300, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 1300, range: 450, width: 320, area_effect: 1, damage_0: 650, attack_time_0: 7, trigger_effects_0: 1, against_aku: 1, knockback_chance: 75, critical_chance: 5, break_shield_chance: 30, zombie_killer: 1, immune_slow: 1, immune_explosion: 1, attack_duration: 62}, {health: 2600, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 1300, range: 450, width: 320, area_effect: 1, damage_0: 812, attack_time_0: 7, trigger_effects_0: 1, against_aku: 1, knockback_chance: 75, critical_chance: 5, break_shield_chance: 30, zombie_killer: 1, immune_slow: 1, immune_explosion: 1, attack_duration: 62}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  791:
+    name: [Retsu Kaioh, Retsu Kaioh CC]
+    desc: ["Fighter who gained the title of Kaioh, the highest \nmark in Chinese martial arts. Behemoth Slayer, \nStrong vs. and may Freeze Red and Aliens.", "Joining from Baki! The greatest genius in the \n4000-year history of Chinese martial arts pugilists.\nStrong vs. and may Freeze Red and Aliens."]
+    stat: [{health: 1800, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 2200, range: 470, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 30, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, freeze_chance: 50, freeze_duration: 90, savage_blow_chance: 5, savage_blow_modifier: 200, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_wave: 1, attack_duration: 140}, {health: 2400, knockbacks: 4, speed: 12, cost: 2600, production_cooldown: 2200, range: 470, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 30, trigger_effects_0: 1, against_red: 1, against_alien: 1, strong: 1, freeze_chance: 50, freeze_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_wave: 1, attack_duration: 140}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  792:
+    name: [Kaoru Hanayama, Kaoru Hanayama CC]
+    desc: ["The second head of the Hanayama Group,\nknown as Japan's greatest brawler. Tough vs. and\ndeals Massive damage to Aku. Pierces Shields.", "Takes pride in his above-average grip strength. \nFisticuffs is his passion. Tough vs. and\ndeals Massive damage to Aku. Pierces Shields."]
+    stat: [{health: 7600, knockbacks: 1, speed: 7, cost: 3500, production_cooldown: 2350, attack_cooldown: 160, range: 350, width: 320, area_effect: 1, damage_0: 6400, attack_time_0: 118, trigger_effects_0: 1, against_aku: 1, massive_damage: 1, resistant: 1, break_shield_chance: 100, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_toxic: 1, attack_duration: 188}, {health: 8500, knockbacks: 1, speed: 7, cost: 3500, production_cooldown: 2350, attack_cooldown: 160, range: 350, width: 320, area_effect: 1, damage_0: 8000, attack_time_0: 118, trigger_effects_0: 1, against_aku: 1, massive_damage: 1, resistant: 1, break_shield_chance: 100, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_toxic: 1, attack_duration: 188}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  793:
+    name: [Katsumi Orochi, Katsumi Orochi CC]
+    desc: ["Adopted son of Doppo Orochi who inherited Shinshinkai \nas its young leader. Pierces Aku Barriers and deals\nMassive damage to Red and Aliens with area attacks!", "Lethal weapon of the karate world with apex strength \nand ability. Pierces Aku Barriers and deals\nMassive damage to Red and Aliens with area attacks!"]
+    stat: [{health: 1800, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2000, attack_cooldown: 90, range: 450, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 5, trigger_effects_0: 1, against_red: 1, against_alien: 1, massive_damage: 1, break_barrier_chance: 100, attack_duration: 35}, {health: 2200, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2000, attack_cooldown: 90, range: 450, width: 320, area_effect: 1, damage_0: 1650, attack_time_0: 5, trigger_effects_0: 1, against_red: 1, against_alien: 1, massive_damage: 1, break_barrier_chance: 100, attack_duration: 35}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  794:
+    name: [Jack Hammer, Jack Hammer CC]
+    desc: ["Baki's half-brother who'll do whatever it takes to \ngain strength. Metal Killer with 100% chance to \nWeaken Zombies and Metal enemies!", "His oppressive bite strength can crush even \na coconut. Metal Killer with 100% chance to\nWeaken Zombies and Metal enemies!"]
+    stat: [{health: 5400, knockbacks: 4, speed: 8, cost: 3250, production_cooldown: 2250, attack_cooldown: 80, range: 380, width: 320, area_effect: 1, damage_0: 1380, long_range_0: 480, long_range_offset_0: -960, attack_time_0: 40, trigger_effects_0: 1, against_zombie: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, metal_killer: 18, zombie_killer: 1, attack_duration: 85}, {health: 6700, knockbacks: 4, speed: 8, cost: 3250, production_cooldown: 2250, attack_cooldown: 80, range: 380, width: 320, area_effect: 1, damage_0: 1780, long_range_0: 480, long_range_offset_0: -960, attack_time_0: 40, trigger_effects_0: 1, against_zombie: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, metal_killer: 18, zombie_killer: 1, attack_duration: 85}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  795:
+    name: [Ogre Cat, Ogre Cat Face]
+    desc: ["Cat that fights to become the strongest thing alive. \nReads encyclopedias to know its rival's weaknesses.\nMay Knockback and Slow Aliens.", "Cat fighting to be the strongest thing alive. Intimidates\nfoes with its Cat Face back muscles to avoid combat.\nMay Knockback and Slow Aliens."]
+    stat: [{health: 1200, knockbacks: 2, speed: 10, cost: 800, production_cooldown: 450, attack_cooldown: 44, range: 350, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 7, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, attack_duration: 15}, {health: 1500, knockbacks: 2, speed: 10, cost: 800, production_cooldown: 450, attack_cooldown: 40, range: 350, width: 320, area_effect: 1, damage_0: 750, attack_time_0: 14, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 90, savage_blow_chance: 10, savage_blow_modifier: 200, attack_duration: 38}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  796:
+    name: [Li'l Baki, Li'l Baki CC]
+    desc: ["Joining from Baki! Young fighter who aims to challenge\ntheir father, known as \"the strongest thing alive.\"\nHas the Metal Killer ability.", "Joining from Baki! Overcame many trials, wearing the\nscars of many past battles like medals.\nHas the Metal Killer ability."]
+    stat: [{health: 680, knockbacks: 3, speed: 12, cost: 420, production_cooldown: 350, attack_cooldown: 22, range: 200, width: 320, damage_0: 140, attack_time_0: 16, trigger_effects_0: 1, metal_killer: 5, attack_duration: 42}, {health: 680, knockbacks: 3, speed: 12, cost: 420, production_cooldown: 350, attack_cooldown: 22, range: 200, width: 320, damage_0: 140, attack_time_0: 16, trigger_effects_0: 1, metal_killer: 5, attack_duration: 42}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  797:
+    name: [Baki Cat, Baki Cat CC]
+    desc: ["Cat who trains day and night to become a fighter. \nCurrently undefeated in image training.\nOmnistrikes may Knockback Aliens.", "Cat training to refine its rushing technique. \nHome life is a series of sharp-tongued spats.\nOmnistrikes may Knockback Aliens."]
+    stat: [{health: 500, knockbacks: 3, speed: 35, cost: 400, production_cooldown: 350, range: 200, width: 320, area_effect: 1, damage_0: 100, long_range_0: 250, long_range_offset_0: -300, attack_time_0: 12, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, attack_duration: 88}, {health: 500, knockbacks: 3, speed: 35, cost: 400, production_cooldown: 350, range: 200, width: 320, area_effect: 1, damage_0: 100, long_range_0: 250, long_range_offset_0: -300, attack_time_0: 12, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, attack_duration: 88}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
+  798:
+    name: [Kaioh Cat, Kaioh Cat CC]
+    desc: ["Cat who titled themselves the 2nd strongest master of \nChinese Kenpo. Can crush a polished mud ball in one \nstrike. Area atk. deals Massive damage to Floating/Black.", "Cat training to excel at Chinese martial arts. After much \nstudy, can now walk across 6 inches of water.\nArea atk. deals Massive damage to Floating/Black."]
+    stat: [{health: 480, knockbacks: 3, speed: 36, cost: 450, production_cooldown: 500, range: 250, width: 320, area_effect: 1, damage_0: 190, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, attack_duration: 130}, {health: 480, knockbacks: 3, speed: 36, cost: 450, production_cooldown: 500, range: 250, width: 320, area_effect: 1, damage_0: 190, attack_time_0: 8, trigger_effects_0: 1, against_float: 1, against_black: 1, massive_damage: 1, attack_duration: 130}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
+  799:
+    name: [Doppo Cat, Doppo Cat CC]
+    desc: ["Cat aiming to head the Shinshinkai. Right eye taken \nfrom a beggar is receiving medical care. May Freeze\nRed enemies with Long-range Area attacks.", "Cat who idolizes a famed fighter who fells tigers \nbarehanded. Spins wild yarns about fights it had no part\nin. Long-range Area attacks May Freeze Red enemies."]
+    stat: [{health: 350, knockbacks: 3, speed: 8, cost: 500, production_cooldown: 350, attack_cooldown: 50, range: 300, width: 320, area_effect: 1, damage_0: 100, long_range_0: 200, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, freeze_chance: 20, freeze_duration: 90, attack_duration: 53}, {health: 350, knockbacks: 3, speed: 8, cost: 500, production_cooldown: 350, attack_cooldown: 50, range: 300, width: 320, area_effect: 1, damage_0: 100, long_range_0: 200, long_range_offset_0: 175, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, freeze_chance: 20, freeze_duration: 90, attack_duration: 53}]
+    rarity: 1
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -12624,6 +12729,65 @@ gacha:
     series_id: 52
     name: A NEW unit appears in the White Day limited capsules! ★ Tap banner for info!
     rate: no_legend
+  969:
+    cats: [788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    rate: uberfest_legend
+    similarity: 99
+  970:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 98
+  971:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  972:
+    cats: [788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: New Legend Rare Izanami of Dusk! ★ Plus, higher Uber Rare drop rates!
+    similarity: 96
+  973:
+    cats: [787, 778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    rate: dynastyfest
+    similarity: 96
+  974:
+    cats: [230, 231, 242, 243, 244, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 71
+    name: Winter ladies, here for a limited time! ★ Get the Xmas Gals, only now!
+    rate: no_legend
+    similarity: 92
+  975:
+    cats: [169, 144, 126, 77, 397, 693, 699, 643, 716, 337, 570, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: New unit Trixi joins the 10th anniversary Capsules! ★Check banner for details!
+    rate: no_legend
+    similarity: 70
+  976:
+    cats: [35, 44, 497, 160, 88, 634, 775, 273, 675, 335, 360, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: Lunar New Year Capsules full of popular units! Tap the banner for details!
+    rate: no_legend
+    similarity: 70
+  977:
+    cats: [790, 791, 792, 793, 794, 795, 795, 795, 795, 795, 795, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 72
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 84
+  978:
+    cats: [790, 791, 792, 793, 794, 795, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 72
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 84
 events:
   2018-06-06_245:
     start_on: 2018-06-06
