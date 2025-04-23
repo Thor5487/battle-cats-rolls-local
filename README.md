@@ -1,14 +1,29 @@
 # Battle Cats Rolls <https://bc.godfat.org/>
 
-## How to install the Ruby server:
+## How to install the Ruby server
+
+The simplest and easiest way to install all dependencies including the
+optional ones:
 
     gem install bundler
     bundle install
 
-And pick one:
+### Selective about optional dependencies
+
+If you would like to avoid installing unnecessary dependencies:
+
+    gem install bundler
+    bundle config set without 'build:cache:test'
+    bundle install
+
+And you should pick a caching strategy by choosing one:
 
 * Set up memcached and run `gem install dalli`
 * Use LRU cache so run `gem install lru_redux`
+
+Lastly if you want to build the data:
+
+    gem install nokogiri
 
 ### `sleepy_penguin` compile error on Mac
 
@@ -57,6 +72,23 @@ and they can use some help and instructions. Here are my recommendations:
 * Ruby finds gems in `GEM_HOME` environment variable. If gems cannot be found
   when running the server, you can debug via `gem env`, and set `GEM_HOME`
   accordingly if the default doesn't work for you.
+* If you prefer to use `bundler` to control the paths for you, then you can
+  also use `bundle exec COMMAND` where `COMMAND` is any scripts which
+  eventually run a Ruby script like `bin/server`.
+
+### Updating Ruby dependencies
+
+Normally I update everything, not really pining the version at all because
+it's pretty minimal and most versions are compatible and working. So I do:
+
+    gem update
+    gem cleanup
+
+Every once in a while. However, if you prefer to pin the versions, or use
+bundler to install and update, you can also run:
+
+    bundle update
+    gem cleanup
 
 ## How to build the VampireFlower seed seeker:
 

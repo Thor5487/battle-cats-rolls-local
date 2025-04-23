@@ -8,11 +8,19 @@ gem 'tilt'
 gem 'rack'
 gem 'promise_pool'
 
-gem 'nokogiri' # For downloading apk
-
 platforms :ruby do
   gem 'yahns'
   gem 'raindrops'
+end
+
+group :build do
+  gem 'nokogiri' # For downloading apk
+end
+
+group :cache do
+  # Pick one for caching
+  gem 'dalli'
+  gem 'lru_redux'
 end
 
 group :test do
