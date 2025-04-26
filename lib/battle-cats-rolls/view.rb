@@ -258,6 +258,14 @@ module BattleCatsRolls
       'checked="checked"' if route.dps_no_critical
     end
 
+    def checked_match match
+      'checked="checked"' if route.match == match
+    end
+
+    def checked_against against
+      'checked="checked"' if route.against.member?(against)
+    end
+
     def attack_tr_class attack
       if attack.kind_of?(BattleCatsRolls::TriggeredAttack)
         'triggered_attack'
@@ -439,11 +447,13 @@ module BattleCatsRolls
     end
 
     def uri_to_own_all_cats
-      route.cats_uri(query: {o: Owned.encode(route.owned + arg[:cats].keys)})
+      route.cats_uri(query: {o: Owned.encode(route.owned + arg[:cats].keys)},
+        include_filters: true)
     end
 
     def uri_to_drop_all_cats
-      route.cats_uri(query: {o: Owned.encode(route.owned - arg[:cats].keys)})
+      route.cats_uri(query: {o: Owned.encode(route.owned - arg[:cats].keys)},
+        include_filters: true)
     end
 
     def erb name, nested_arg=nil, &block

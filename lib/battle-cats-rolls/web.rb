@@ -21,7 +21,7 @@ module BattleCatsRolls
   class Web
     module Imp
       def with_canonical_uri path
-        canonical_uri = route.uri(path: path)
+        canonical_uri = route.uri(path: path, include_filters: true)
 
         if request.fullpath != canonical_uri
           found canonical_uri
@@ -160,8 +160,21 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        render :cats, cats: route.ball.cats,
-          cats_by_rarity: route.ball.cats_by_rarity
+        if route.against.any?
+          cats = route.cats.select do |id, cat|
+            cat['stat'].find do |stat|
+              route.against.public_send("#{route.match}?") do |against|
+                stat["against_#{against}"]
+              end
+            end
+          end
+
+          render :cats, cats: cats,
+            cats_by_rarity: CrystalBall.group_by_rarity(cats)
+        else
+          render :cats, cats: route.ball.cats,
+            cats_by_rarity: route.ball.cats_by_rarity
+        end
       end
     end
 
