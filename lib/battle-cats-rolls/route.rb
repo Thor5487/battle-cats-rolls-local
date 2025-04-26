@@ -384,6 +384,24 @@ module BattleCatsRolls
       @against ||= Array(request.params['against'])
     end
 
+    def while
+      @while ||=
+        case value = request.params_coercion_with_nil('while', :to_s)
+        when 'all', 'any'
+          value
+        else
+          default_while
+        end
+    end
+
+    def default_while
+      @default_while ||= 'all'
+    end
+
+    def having
+      @having ||= Array(request.params['having'])
+    end
+
     def uri_to_roll cat
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
@@ -499,7 +517,7 @@ module BattleCatsRolls
         hide_wave sum_no_wave dps_no_critical
         o
       ]
-      keys.push(:for, :against) if include_filters
+      keys.push(:for, :against, :while, :having) if include_filters
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -540,6 +558,8 @@ module BattleCatsRolls
            (key == :o && value == '') ||
            (key == :for && value == default_for) ||
            (key == :against && value == []) ||
+           (key == :while && value == default_while) ||
+           (key == :having && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :rate ||
