@@ -258,12 +258,12 @@ module BattleCatsRolls
       'checked="checked"' if route.dps_no_critical
     end
 
-    def checked_match match
-      'checked="checked"' if route.match == match
+    def checked_for value
+      'checked="checked"' if route.for == value
     end
 
-    def checked_against against
-      'checked="checked"' if route.against.member?(against)
+    def checked_against value
+      'checked="checked"' if route.against.member?(value)
     end
 
     def attack_tr_class attack
