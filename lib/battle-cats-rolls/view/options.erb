@@ -113,19 +113,25 @@
         </tr>
         <tr>
           <td>
-            <input type="radio" name="match" id="all" value="all"
-             onchange="roll(this)" <%= checked_match('all') %>>
-            <label for="all">All</label>
-            <input type="radio" name="match" id="any" value="any"
-             onchange="roll(this)" <%= checked_match('any') %>>
-            <label for="any">Any</label>
+            <label for="all">
+              <input type="radio" name="match" id="all" value="all"
+               onchange="roll(this)" <%= checked_match('all') %>>
+              All
+            </label>
+            <label for="any">
+              <input type="radio" name="match" id="any" value="any"
+               onchange="roll(this)" <%= checked_match('any') %>>
+              Any
+            </label>
           </td>
           <td>
             <% BattleCatsRolls::Ability::Specialization::List.each do |type| %>
-              <input type="checkbox" name="against" id="<%= type %>"
-               value="<%= type %>" onchange="roll(this)"
-               <%= checked_against(type) %>>
-              <label for="<%= type %>"><%= l10n(type.capitalize) %></label>
+              <label for="<%= type %>">
+                <input type="checkbox" name="against" id="<%= type %>"
+                 value="<%= type %>" onchange="roll(this)"
+                 <%= checked_against(type) %>>
+                <%= l10n(type.capitalize) %>
+              </label>
             <% end %>
           </td>
         </tr>
@@ -136,16 +142,16 @@
     <div class="cats_listing">
     <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
       <%= header(2, BattleCatsRolls::Cat.wiki_rarity_label(rarity)) %>
-      <ol>
+      <div class="cats_by_rarity">
         <% cats.reverse_each do |c| %>
-        <li>
+        <label for="cat-<%= c.id %>">
           <input type="checkbox" onchange="roll(this)"
             name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
             <%= checked_cat(c) %>>
-          <label for="cat-<%= c.id %>"><%= link_to_roll(c) %></label>
-        </li>
+          <%= link_to_roll(c) %>
+        </label>
         <% end %>
-      </ol>
+      </div>
     <% end %>
     </div>
   </div>
