@@ -369,7 +369,7 @@ module BattleCatsRolls
     def match
       @match ||=
         case value = request.params_coercion_with_nil('match', :to_s)
-        when 'any', 'all'
+        when 'all', 'any'
           value
         else
           default_match
@@ -377,7 +377,7 @@ module BattleCatsRolls
     end
 
     def default_match
-      @default_match ||= 'any'
+      @default_match ||= 'all'
     end
 
     def against
