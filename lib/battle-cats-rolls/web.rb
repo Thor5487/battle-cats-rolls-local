@@ -163,7 +163,7 @@ module BattleCatsRolls
         if route.against.any?
           cats = route.cats.select do |id, cat|
             cat['stat'].find do |stat|
-              route.against.public_send("#{route.match}?") do |against|
+              route.against.public_send("#{route.for}?") do |against|
                 stat["against_#{against}"]
               end
             end

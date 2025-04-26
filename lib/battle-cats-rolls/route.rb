@@ -366,18 +366,18 @@ module BattleCatsRolls
       @dps_no_critical = request.params_coercion_true_or_nil('dps_no_critical')
     end
 
-    def match
+    def for
       @match ||=
-        case value = request.params_coercion_with_nil('match', :to_s)
+        case value = request.params_coercion_with_nil('for', :to_s)
         when 'all', 'any'
           value
         else
-          default_match
+          default_for
         end
     end
 
-    def default_match
-      @default_match ||= 'all'
+    def default_for
+      @default_for ||= 'all'
     end
 
     def against
@@ -499,7 +499,7 @@ module BattleCatsRolls
         hide_wave sum_no_wave dps_no_critical
         o
       ]
-      keys.push(:match, :against) if include_filters
+      keys.push(:for, :against) if include_filters
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -538,7 +538,7 @@ module BattleCatsRolls
            (key == :ubers && value == 0) ||
            (key == :level && value == default_level) ||
            (key == :o && value == '') ||
-           (key == :match && value == default_match) ||
+           (key == :for && value == default_for) ||
            (key == :against && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&

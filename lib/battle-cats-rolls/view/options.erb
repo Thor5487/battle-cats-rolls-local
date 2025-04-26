@@ -108,19 +108,19 @@
     <div class="cats_filters">
       <table>
         <tr>
-          <th>Match</th>
+          <th>For</th>
           <th>Against</th>
         </tr>
         <tr>
           <td>
-            <label for="all">
-              <input type="radio" name="match" id="all" value="all"
-               onchange="roll(this)" <%= checked_match('all') %>>
+            <label for="for-all">
+              <input type="radio" id="for-all" name="for" value="all"
+               onchange="roll(this)" <%= checked_for('all') %>>
               All
             </label>
-            <label for="any">
-              <input type="radio" name="match" id="any" value="any"
-               onchange="roll(this)" <%= checked_match('any') %>>
+            <label for="for-any">
+              <input type="radio" id="for-any" name="for" value="any"
+               onchange="roll(this)" <%= checked_for('any') %>>
               Any
             </label>
           </td>
