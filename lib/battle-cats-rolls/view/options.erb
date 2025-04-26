@@ -113,12 +113,12 @@
         </tr>
         <tr>
           <td>
-            <input type="radio" name="match" id="any" value="any"
-             onchange="roll(this)" <%= checked_match('any') %>>
-            <label for="any">Any</label>
             <input type="radio" name="match" id="all" value="all"
              onchange="roll(this)" <%= checked_match('all') %>>
             <label for="all">All</label>
+            <input type="radio" name="match" id="any" value="any"
+             onchange="roll(this)" <%= checked_match('any') %>>
+            <label for="any">Any</label>
           </td>
           <td>
             <% BattleCatsRolls::Ability::Specialization::List.each do |type| %>
