@@ -105,6 +105,34 @@
         'show-me-all-cats')
     %>
 
+    <div class="cats_filters">
+      <table>
+        <tr>
+          <th>Match</th>
+          <th>Against</th>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="match" id="any" value="any"
+             onchange="roll(this)" <%= checked_match('any') %>>
+            <label for="any">Any</label>
+            <input type="radio" name="match" id="all" value="all"
+             onchange="roll(this)" <%= checked_match('all') %>>
+            <label for="all">All</label>
+          </td>
+          <td>
+            <% BattleCatsRolls::Ability::Specialization::List.each do |type| %>
+              <input type="checkbox" name="against" id="<%= type %>"
+               value="<%= type %>" onchange="roll(this)"
+               <%= checked_against(type) %>>
+              <label for="<%= type %>"><%= l10n(type.capitalize) %></label>
+            <% end %>
+          </td>
+        </tr>
+        <tr></tr>
+      </table>
+    </div>
+
     <div class="cats_listing">
     <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
       <%= header(2, BattleCatsRolls::Cat.wiki_rarity_label(rarity)) %>

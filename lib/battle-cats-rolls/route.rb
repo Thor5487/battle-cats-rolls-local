@@ -116,8 +116,8 @@ module BattleCatsRolls
       uri(path: "//#{seek_host}/seek")
     end
 
-    def uri path: "//#{web_host}/", query: {}
-      query = cleanup_query(default_query(query))
+    def uri path: "//#{web_host}/", query: {}, **args
+      query = cleanup_query(default_query(query, **args))
 
       if query.empty?
         path
@@ -366,6 +366,24 @@ module BattleCatsRolls
       @dps_no_critical = request.params_coercion_true_or_nil('dps_no_critical')
     end
 
+    def match
+      @match ||=
+        case value = request.params_coercion_with_nil('match', :to_s)
+        when 'any', 'all'
+          value
+        else
+          default_match
+        end
+    end
+
+    def default_match
+      @default_match ||= 'any'
+    end
+
+    def against
+      @against ||= Array(request.params['against'])
+    end
+
     def uri_to_roll cat
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
@@ -461,19 +479,29 @@ module BattleCatsRolls
     end
 
     def query_string query
-      query.map do |key, value|
-        "#{CGI.escape(key.to_s)}=#{CGI.escape(value.to_s)}"
+      query.flat_map do |key, value|
+        case value
+        when Array
+          value.map do |v|
+            "#{CGI.escape(key.to_s)}=#{CGI.escape(v.to_s)}"
+          end
+        else
+          "#{CGI.escape(key.to_s)}=#{CGI.escape(value.to_s)}"
+        end
       end.join('&')
     end
 
-    def default_query query={}
-      ret = %i[
+    def default_query query={}, include_filters: false
+      keys = %i[
         seed last event custom rate c_rare c_supa c_uber level lang ui
         version seeker name theme count find
         no_guaranteed force_guaranteed ubers details
         hide_wave sum_no_wave dps_no_critical
         o
-      ].inject({}) do |result, key|
+      ]
+      keys.push(:match, :against) if include_filters
+
+      ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
         result
       end
@@ -510,6 +538,8 @@ module BattleCatsRolls
            (key == :ubers && value == 0) ||
            (key == :level && value == default_level) ||
            (key == :o && value == '') ||
+           (key == :match && value == default_match) ||
+           (key == :against && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :rate ||
