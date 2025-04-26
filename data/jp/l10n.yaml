@@ -31,24 +31,39 @@ Aku: 悪魔
 Relic: 古代種
 Metal: メタル
 White: 無属性
+Strong: めっぽう強い
 Insane damage: 極ダメージ
 Deal 500% ~ 600% damage: 与ダメージが5~6倍
 Massive damage: 超ダメージ
+Resistant: 打たれ強い
+Insane resistant: 超打たれ強い
 Knockback: ふっとばす
 Freeze: 動きを止める
 Slow: 動きを遅くする
 Weaken: 攻撃力ダウン
 Curse: 呪い
+Strengthen: 攻撃力上昇
 Critical strike: クリティカル
 Savage blow: 渾身の一撃
 Break barrier: バリアブレイカー
 Break shield: シールドブレイカー
+Zombie killer: ゾンビキラー
+Soul strike: 魂攻撃
+Colossus slayer: 超生命体特効
+Behemoth slayer: 超獣特効
 Conjure:
 Mini-wave: 小波動
 Wave: 波動
 Mini-surge: 小烈波
 Surge: 烈波
 Abilities below will not be affected by curse: 以下の能力は呪いの影響を受けない。
-Extra money:
+Extra money: 撃破時お金アップ
 Get double money from defeating enemies:
 Immune to: 無効
+Dodge: 攻撃無効
+Survive: 生き残る
+Attack only: 攻撃ターゲット限定
+Base destroyer: 城破壊が得意
+Kamikaze: 一回攻撃
+Witch slayer: 魔女キラー
+Eva angel slayer: 使徒キラー
