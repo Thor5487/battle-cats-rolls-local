@@ -380,9 +380,7 @@ module BattleCatsRolls
       end
     end
 
-    def header n, name
-      id = name.to_s.downcase.gsub(/\W+/, '-')
-
+    def header n, name, id=name.to_s.downcase.gsub(/\W+/, '-')
       <<~HTML
         <a href="##{id}">⚓</a> <h#{n} id="#{id}">#{name}</h#{n}>
       HTML

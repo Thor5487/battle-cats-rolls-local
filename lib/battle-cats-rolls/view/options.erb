@@ -99,19 +99,27 @@
 
   <% if route.path_info == '/cats' %>
   <div class="cats">
+    <%=
+      header(1,
+        %Q{Show me all cats (<a href="#{uri_to_own_all_cats}">Own all cats!</a>) (<a href="#{uri_to_drop_all_cats}">Drop them all!</a>)},
+        'show-me-all-cats')
+    %>
+
+    <div class="cats_listing">
     <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
       <%= header(2, BattleCatsRolls::Cat.wiki_rarity_label(rarity)) %>
       <ol>
         <% cats.reverse_each do |c| %>
-          <li>
-            <input type="checkbox" onchange="roll(this)"
-              name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
-              <%= checked_cat(c) %>>
-            <label for="cat-<%= c.id %>"><%= link_to_roll(c) %></label>
-          </li>
+        <li>
+          <input type="checkbox" onchange="roll(this)"
+            name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
+            <%= checked_cat(c) %>>
+          <label for="cat-<%= c.id %>"><%= link_to_roll(c) %></label>
+        </li>
         <% end %>
       </ol>
     <% end %>
+    </div>
   </div>
   <% end %>
 </div>
