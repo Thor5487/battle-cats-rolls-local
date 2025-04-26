@@ -135,7 +135,34 @@
             <% end %>
           </td>
         </tr>
-        <tr></tr>
+        <tr>
+          <th>While</th>
+          <th>Having</th>
+        </tr>
+        <tr>
+          <td>
+            <label for="while-all">
+              <input type="radio" id="while-all" name="while" value="all"
+               onchange="roll(this)" <%= checked_while('all') %>>
+              All
+            </label>
+            <label for="while-any">
+              <input type="radio" id="while-any" name="while" value="any"
+               onchange="roll(this)" <%= checked_while('any') %>>
+              Any
+            </label>
+          </td>
+          <td>
+            <% BattleCatsRolls::Filter.keys.each do |filter| %>
+            <label for="<%= filter %>">
+              <input type="checkbox" name="having" id="<%= filter %>"
+               value="<%= filter %>" onchange="roll(this)"
+               <%= checked_having(filter) %>>
+              <%= l10n(filter.capitalize.tr('_', ' ')) %>
+            </label>
+            <% end %>
+          </td>
+        </tr>
       </table>
     </div>
 

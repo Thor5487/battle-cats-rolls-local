@@ -8,6 +8,7 @@ require_relative 'aws_auth'
 require_relative 'aws_cf'
 require_relative 'stat'
 require_relative 'talent'
+require_relative 'filter'
 require_relative 'view'
 require_relative 'help'
 
@@ -160,21 +161,26 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        if route.against.any?
-          cats = route.cats.select do |id, cat|
-            cat['stat'].find do |stat|
-              route.against.public_send("#{route.for}?") do |against|
-                stat["against_#{against}"]
-              end
+        cats = route.cats
+
+        cats = cats.select do |id, cat|
+          cat['stat'].find do |stat|
+            route.against.public_send("#{route.for}?") do |against|
+              stat["against_#{against}"]
             end
           end
+        end if route.against.any?
 
-          render :cats, cats: cats,
-            cats_by_rarity: CrystalBall.group_by_rarity(cats)
-        else
-          render :cats, cats: route.ball.cats,
-            cats_by_rarity: route.ball.cats_by_rarity
-        end
+        cats = cats.select do |id, cat|
+          cat['stat'].find do |stat|
+            route.having.public_send("#{route.while}?") do |having|
+              stat[Filter[having] || having]
+            end
+          end
+        end if route.having.any?
+
+        render :cats, cats: cats,
+          cats_by_rarity: CrystalBall.group_by_rarity(cats)
       end
     end
 

@@ -266,6 +266,14 @@ module BattleCatsRolls
       'checked="checked"' if route.against.member?(value)
     end
 
+    def checked_while value
+      'checked="checked"' if route.while == value
+    end
+
+    def checked_having value
+      'checked="checked"' if route.having.member?(value)
+    end
+
     def attack_tr_class attack
       if attack.kind_of?(BattleCatsRolls::TriggeredAttack)
         'triggered_attack'

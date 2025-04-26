@@ -835,7 +835,7 @@ module BattleCatsRolls
       end
 
       def name
-        'Metal'
+        'Metalic'
       end
 
       def display
