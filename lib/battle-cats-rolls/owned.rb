@@ -17,7 +17,7 @@ module BattleCatsRolls
       if cat_ids.empty?
         ''
       else
-        int = cat_ids.inject(0) do |result, id|
+        int = cat_ids.uniq.inject(0) do |result, id|
           result + 2 ** id
         end
 
