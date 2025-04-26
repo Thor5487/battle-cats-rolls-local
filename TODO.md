@@ -1,7 +1,6 @@
 ## Stats
 
-* Toggle and adjust talent levels
-* Filtering cats
+* Toggle talents
 * Show surge duration
 * Show knockback distance
 * Show slow percentage
