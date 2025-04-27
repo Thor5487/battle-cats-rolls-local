@@ -31,6 +31,19 @@ module BattleCatsRolls
         end
       end
 
+      def filter_cats cats, selected, all_or_any, filters
+        return cats if selected.empty?
+
+        cats.select do |id, cat|
+          cat['stat'].find do |stat|
+            selected.public_send("#{all_or_any}?") do |item|
+              abilities = stat.merge(cat['talent'] || {})
+              abilities[filters[item]] || abilities[item]
+            end
+          end
+        end
+      end
+
       def route
         @route ||= Route.new(request)
       end
@@ -171,14 +184,11 @@ module BattleCatsRolls
           end
         end if route.against.any?
 
-        cats = cats.select do |id, cat|
-          cat['stat'].find do |stat|
-            route.having.public_send("#{route.for_having}?") do |having|
-              abilities = stat.merge(cat['talent'] || {})
-              abilities[Filter[having]] || abilities[having]
-            end
-          end
-        end if route.having.any?
+        cats = filter_cats(cats, route.buff,
+          route.for_buff, Filter::Buff)
+
+        cats = filter_cats(cats, route.having,
+          route.for_having, Filter::Having)
 
         render :cats, cats: cats,
           cats_by_rarity: CrystalBall.group_by_rarity(cats)

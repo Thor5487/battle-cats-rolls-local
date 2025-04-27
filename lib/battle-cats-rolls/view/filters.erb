@@ -36,7 +36,36 @@
         </td>
       </tr>
       <tr>
-        <th>While</th>
+        <th>For</th>
+        <th>Buff</th>
+      </tr>
+      <tr>
+        <td>
+          <label for="for_buff_all">
+            <input type="radio" id="for_buff_all" name="for_buff" value="all"
+             onchange="roll(this)" <%= checked_for_buff('all') %>
+             disabled="disabled">
+            All
+          </label>
+          <label for="for_buff_any">
+            <input type="radio" id="for_buff_any" name="for_buff" value="any"
+             onchange="roll(this)" <%= checked_for_buff('any') %>>
+            Any
+          </label>
+        </td>
+        <td>
+          <% BattleCatsRolls::Filter::Buff.keys.each do |buff| %>
+          <label for="<%= buff %>">
+            <input type="checkbox" name="buff" id="<%= buff %>"
+             value="<%= buff %>" onchange="roll(this)"
+             <%= checked_buff(buff) %>>
+            <%= l10n(buff.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <th>For</th>
         <th>Having</th>
       </tr>
       <tr>
@@ -53,7 +82,7 @@
           </label>
         </td>
         <td>
-          <% BattleCatsRolls::Filter.keys.each do |filter| %>
+          <% BattleCatsRolls::Filter::Having.keys.each do |filter| %>
           <label for="<%= filter %>">
             <input type="checkbox" name="having" id="<%= filter %>"
              value="<%= filter %>" onchange="roll(this)"

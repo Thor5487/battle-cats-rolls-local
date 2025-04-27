@@ -266,6 +266,14 @@ module BattleCatsRolls
       'checked="checked"' if route.against.member?(value)
     end
 
+    def checked_for_buff value
+      'checked="checked"' if route.for_buff == value
+    end
+
+    def checked_buff value
+      'checked="checked"' if route.buff.member?(value)
+    end
+
     def checked_for_having value
       'checked="checked"' if route.for_having == value
     end
