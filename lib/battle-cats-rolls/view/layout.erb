@@ -9,13 +9,6 @@
     <link href="/asset/style/tacit.css" rel="stylesheet" type="text/css">
     <title>Battle Cats Rolls</title>
     <style>
-      #notice { background-color: pink; }
-
-      table { border-collapse: collapse; }
-      table, th, td {
-        border: 1px solid black;
-        text-align: center;
-      }
       .rare { background-color: white; }
       .owned { background-color: azure; }
       <% case route.theme; when 'mkweb' %>
@@ -43,32 +36,6 @@
       .ultra_talents { background-color: lightpink; }
       <% end %>
       .legend a, .legend { color: #d8a56f; }
-      .navigate { cursor: help; }
-      .pick { cursor: cell; }
-      .picked {
-        background-image: linear-gradient(#00000033, #00000033);
-      }
-      .picked_consecutively {
-        background-image: linear-gradient(#00000088, #00000088);
-      }
-      .next_position {
-        background-image: repeating-linear-gradient(
-          90deg,
-          #00000055  5px, #00000055 15px,
-          #00000033 15px, #00000033 25px
-        );
-      }
-      #seed_input { width: 10em; }
-      #count_input, #level_input { width: 3.5em; }
-      #rare_input, #supa_input, #uber_input { width: 5em; }
-      .menu { width: 60px; height: 60px; }
-      .section { margin-bottom: 15px; }
-      .border, .border_upper, .border_lower { border: 2px solid; }
-      .border_upper { border-bottom: none; }
-      .border_lower { border-top: none; }
-      .border_middle { border-left: 2px solid; border-right: 2px solid; }
-      .border_bottom { border-top: 2px solid; }
-
       <% unless show_details %>
         .score, .cat { border-bottom-style: none; }
         .cat { border-top-style: none; }
