@@ -366,36 +366,36 @@ module BattleCatsRolls
       @dps_no_critical = request.params_coercion_true_or_nil('dps_no_critical')
     end
 
-    def for
+    def for_against
       @match ||=
-        case value = request.params_coercion_with_nil('for', :to_s)
+        case value = request.params_coercion_with_nil('for_against', :to_s)
         when 'all', 'any'
           value
         else
-          default_for
+          default_for_against
         end
     end
 
-    def default_for
-      @default_for ||= 'all'
+    def default_for_against
+      @default_for_against ||= 'all'
     end
 
     def against
       @against ||= Array(request.params['against'])
     end
 
-    def while
-      @while ||=
-        case value = request.params_coercion_with_nil('while', :to_s)
+    def for_having
+      @for_having ||=
+        case value = request.params_coercion_with_nil('for_having', :to_s)
         when 'all', 'any'
           value
         else
-          default_while
+          default_for_having
         end
     end
 
-    def default_while
-      @default_while ||= 'all'
+    def default_for_having
+      @default_for_having ||= 'all'
     end
 
     def having
@@ -517,7 +517,10 @@ module BattleCatsRolls
         hide_wave sum_no_wave dps_no_critical
         o
       ]
-      keys.push(:for, :against, :while, :having) if include_filters
+
+      keys.push(
+        :for_against, :against,
+        :for_having, :having) if include_filters
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -556,9 +559,9 @@ module BattleCatsRolls
            (key == :ubers && value == 0) ||
            (key == :level && value == default_level) ||
            (key == :o && value == '') ||
-           (key == :for && value == default_for) ||
+           (key == :for_against && value == default_for_against) ||
            (key == :against && value == []) ||
-           (key == :while && value == default_while) ||
+           (key == :for_having && value == default_for_having) ||
            (key == :having && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&

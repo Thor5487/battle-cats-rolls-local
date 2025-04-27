@@ -258,16 +258,16 @@ module BattleCatsRolls
       'checked="checked"' if route.dps_no_critical
     end
 
-    def checked_for value
-      'checked="checked"' if route.for == value
+    def checked_for_against value
+      'checked="checked"' if route.for_against == value
     end
 
     def checked_against value
       'checked="checked"' if route.against.member?(value)
     end
 
-    def checked_while value
-      'checked="checked"' if route.while == value
+    def checked_for_having value
+      'checked="checked"' if route.for_having == value
     end
 
     def checked_having value
