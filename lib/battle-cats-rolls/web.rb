@@ -165,7 +165,7 @@ module BattleCatsRolls
 
         cats = cats.select do |id, cat|
           cat['stat'].find do |stat|
-            route.against.public_send("#{route.for}?") do |against|
+            route.against.public_send("#{route.for_against}?") do |against|
               stat["against_#{against}"]
             end
           end
@@ -173,7 +173,7 @@ module BattleCatsRolls
 
         cats = cats.select do |id, cat|
           cat['stat'].find do |stat|
-            route.having.public_send("#{route.while}?") do |having|
+            route.having.public_send("#{route.for_having}?") do |having|
               abilities = stat.merge(cat['talent'] || {})
               abilities[Filter[having]] || abilities[having]
             end
