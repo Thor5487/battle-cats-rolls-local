@@ -367,7 +367,7 @@ module BattleCatsRolls
     end
 
     def for_against
-      @match ||=
+      @for_against ||=
         case value = request.params_coercion_with_nil('for_against', :to_s)
         when 'all', 'any'
           value
@@ -378,6 +378,24 @@ module BattleCatsRolls
 
     def default_for_against
       @default_for_against ||= 'all'
+    end
+
+    def for_buff
+      @for_buff ||=
+        case value = request.params_coercion_with_nil('for_buff', :to_s)
+        when 'all', 'any'
+          value
+        else
+          default_for_buff
+        end
+    end
+
+    def default_for_buff
+      @default_for_buff ||= 'any'
+    end
+
+    def buff
+      @buff ||= Array(request.params['buff'])
     end
 
     def against
@@ -520,6 +538,7 @@ module BattleCatsRolls
 
       keys.push(
         :for_against, :against,
+        :for_buff, :buff,
         :for_having, :having) if include_filters
 
       ret = keys.inject({}) do |result, key|
@@ -561,6 +580,8 @@ module BattleCatsRolls
            (key == :o && value == '') ||
            (key == :for_against && value == default_for_against) ||
            (key == :against && value == []) ||
+           (key == :for_buff && value == default_for_buff) ||
+           (key == :buff && value == []) ||
            (key == :for_having && value == default_for_having) ||
            (key == :having && value == []) ||
            (key == :event && value == current_event) ||
