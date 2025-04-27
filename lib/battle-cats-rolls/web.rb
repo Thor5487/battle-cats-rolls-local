@@ -187,6 +187,9 @@ module BattleCatsRolls
         cats = filter_cats(cats, route.buff,
           route.for_buff, Filter::Buff)
 
+        cats = filter_cats(cats, route.control,
+          route.for_control, Filter::Control)
+
         cats = filter_cats(cats, route.having,
           route.for_having, Filter::Having)
 
