@@ -10,12 +10,15 @@ module BattleCatsRolls
       'insane_resistant' => nil,
     }.freeze
 
-    Having = {
+    Control = {
       'knockback' => 'knockback_chance',
       'freeze' => 'freeze_chance',
       'slow' => 'slow_chance',
       'weaken' => 'weaken_chance',
       'curse' => 'curse_chance',
+    }.freeze
+
+    Having = {
       'strengthen' => 'strengthen_threshold',
       'conjure' => nil,
       'wave' => 'wave_chance',

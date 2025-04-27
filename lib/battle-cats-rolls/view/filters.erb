@@ -60,6 +60,34 @@
       </tr>
       <tr>
         <th>For</th>
+        <th>Control</th>
+      </tr>
+      <tr>
+        <td>
+          <label for="for_control_all">
+            <input type="radio" id="for_control_all" name="for_control" value="all"
+             onchange="roll(this)" <%= checked_for_control('all') %>>
+            All
+          </label>
+          <label for="for_control_any">
+            <input type="radio" id="for_control_any" name="for_control" value="any"
+             onchange="roll(this)" <%= checked_for_control('any') %>>
+            Any
+          </label>
+        </td>
+        <td>
+          <% BattleCatsRolls::Filter::Control.keys.each do |control| %>
+          <label for="<%= control %>">
+            <input type="checkbox" name="control" id="<%= control %>"
+             value="<%= control %>" onchange="roll(this)"
+             <%= checked_control(control) %>>
+            <%= l10n(control.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <th>For</th>
         <th>Having</th>
       </tr>
       <tr>
