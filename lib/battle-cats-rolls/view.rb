@@ -282,6 +282,14 @@ module BattleCatsRolls
       'checked="checked"' if route.control.member?(value)
     end
 
+    def checked_for_immunity value
+      'checked="checked"' if route.for_immunity == value
+    end
+
+    def checked_immunity value
+      'checked="checked"' if route.immunity.member?(value)
+    end
+
     def checked_for_having value
       'checked="checked"' if route.for_having == value
     end

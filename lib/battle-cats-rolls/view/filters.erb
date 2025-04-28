@@ -74,11 +74,38 @@
       <tr>
         <td class="bot">
           <% BattleCatsRolls::Filter::Control.keys.each do |control| %>
-          <label for="<%= control %>">
-            <input type="checkbox" name="control" id="<%= control %>"
+          <label for="control_<%= control %>">
+            <input type="checkbox" name="control" id="control_<%= control %>"
              value="<%= control %>" onchange="roll(this)"
              <%= checked_control(control) %>>
             <%= l10n(control.capitalize) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <th class="for" rowspan="2">
+          <label for="for_immunity_all">
+            <input type="radio" id="for_immunity_all" name="for_immunity" value="all"
+             onchange="roll(this)" <%= checked_for_immunity('all') %>>
+            All
+          </label>
+          <label for="for_immunity_any">
+            <input type="radio" id="for_immunity_any" name="for_immunity" value="any"
+             onchange="roll(this)" <%= checked_for_immunity('any') %>>
+            Any
+          </label>
+        </th>
+        <th class="top">Immunity</th>
+      </tr>
+      <tr>
+        <td class="bot">
+          <% BattleCatsRolls::Filter::Immunity.keys.each do |immunity| %>
+          <label for="immunity_<%= immunity %>">
+            <input type="checkbox" name="immunity" id="immunity_<%= immunity %>"
+             value="<%= immunity %>" onchange="roll(this)"
+             <%= checked_immunity(immunity) %>>
+            <%= l10n(immunity.capitalize.tr('_', ' ')) %>
           </label>
           <% end %>
         </td>

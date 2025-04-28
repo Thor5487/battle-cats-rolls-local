@@ -37,8 +37,7 @@ module BattleCatsRolls
         cats.select do |id, cat|
           cat['stat'].find do |stat|
             selected.public_send("#{all_or_any}?") do |item|
-              abilities = stat.merge(cat['talent'] || {})
-              abilities[filters[item]] || abilities[item]
+              stat.merge(cat['talent'] || {})[filters[item] || item]
             end
           end
         end
@@ -184,6 +183,9 @@ module BattleCatsRolls
 
         cats = filter_cats(cats, route.control,
           route.for_control, Filter::Control)
+
+        cats = filter_cats(cats, route.immunity,
+          route.for_immunity, Filter::Immunity)
 
         cats = filter_cats(cats, route.having,
           route.for_having, Filter::Having)
