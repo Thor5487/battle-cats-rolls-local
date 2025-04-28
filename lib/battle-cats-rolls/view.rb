@@ -149,17 +149,21 @@ module BattleCatsRolls
     def link_to_roll cat
       name = h cat.pick_name(route.name)
       title = h cat.pick_title(route.name)
+      show_link_to_stat = cat.id > 0
 
       if cat.slot_fruit
-        %Q{<a href="#{h route.uri_to_roll(cat)}" title="#{title}">#{name}</a>}
+        link =
+          %Q{<a href="#{h route.uri_to_roll(cat)}" title="#{title}">#{name}</a>}
+        if show_link_to_stat
+          %Q{#{link}<a href="#{route.uri_to_cat(cat)}">🐾</a>}
+        else
+          link
+        end
+      elsif show_link_to_stat
+        %Q{<a href="#{route.uri_to_cat(cat)}" title="#{title}">#{name}</a>}
       else
         %Q{<span title="#{title}">#{name}</span>}
-      end +
-        if cat.id > 0
-          %Q{<a href="#{route.uri_to_cat(cat)}">🐾</a>}
-        else
-          ''
-        end
+      end
     end
 
     def link_to_next cat
@@ -342,11 +346,7 @@ module BattleCatsRolls
 
     def show_gacha_slots cats
       cats.map.with_index do |cat, i|
-        if cat.id > 0
-          %Q{#{i} <a href="#{route.uri_to_cat(cat)}">#{cat_name(cat)}</a>}
-        else
-          %Q{#{i} #{cat_name(cat)}}
-        end
+        "#{i} #{link_to_roll(cat)}"
       end.join(', ')
     end
 
