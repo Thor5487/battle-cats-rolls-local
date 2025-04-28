@@ -176,13 +176,8 @@ module BattleCatsRolls
       with_canonical_uri('/cats') do
         cats = route.cats
 
-        cats = cats.select do |id, cat|
-          cat['stat'].find do |stat|
-            route.against.public_send("#{route.for_against}?") do |against|
-              stat["against_#{against}"]
-            end
-          end
-        end if route.against.any?
+        cats = filter_cats(cats, route.against,
+          route.for_against, Filter::Specialization)
 
         cats = filter_cats(cats, route.buff,
           route.for_buff, Filter::Buff)
