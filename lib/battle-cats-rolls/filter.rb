@@ -31,6 +31,21 @@ module BattleCatsRolls
       'curse' => 'curse_chance',
     }.freeze
 
+    Immunity = {
+      'bosswave' => 'immune_bosswave',
+      'knockback' => 'immune_knockback',
+      'warp' => 'immune_warp',
+      'freeze' => 'immune_freeze',
+      'slow' => 'immune_slow',
+      'weaken' => 'immune_weaken',
+      'curse' => 'immune_curse',
+      'wave' => 'immune_wave',
+      'block_wave' => nil,
+      'surge' => 'immune_surge',
+      'explosion' => 'immune_explosion',
+      'toxic' => 'immune_toxic',
+    }.freeze
+
     Having = {
       'strengthen' => 'strengthen_threshold',
       'conjure' => nil,
@@ -40,18 +55,6 @@ module BattleCatsRolls
       'mini-surge' => 'surge_mini',
       'counter-surge' => 'counter_surge',
       'explosion' => 'explosion_chance',
-      'immune_bosswave' => nil,
-      'immune_knockback' => nil,
-      'immune_warp' => nil,
-      'immune_freeze' => nil,
-      'immune_slow' => nil,
-      'immune_weaken' => nil,
-      'immune_curse' => nil,
-      'immune_wave' => nil,
-      'block_wave' => nil,
-      'immune_surge' => nil,
-      'immune_explosion' => nil,
-      'immune_toxic' => nil,
       'dodge' => 'dodge_chance',
       'survive' => 'survive_chance',
       'extra_money' => nil,

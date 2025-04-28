@@ -380,6 +380,10 @@ module BattleCatsRolls
       @default_for_against ||= 'all'
     end
 
+    def against
+      @against ||= Array(request.params['against'])
+    end
+
     def for_buff
       @for_buff ||=
         case value = request.params_coercion_with_nil('for_buff', :to_s)
@@ -416,8 +420,22 @@ module BattleCatsRolls
       @control ||= Array(request.params['control'])
     end
 
-    def against
-      @against ||= Array(request.params['against'])
+    def for_immunity
+      @for_immunity ||=
+        case value = request.params_coercion_with_nil('for_immunity', :to_s)
+        when 'all', 'any'
+          value
+        else
+          default_for_immunity
+        end
+    end
+
+    def default_for_immunity
+      @default_for_immunity ||= 'any'
+    end
+
+    def immunity
+      @immunity ||= Array(request.params['immunity'])
     end
 
     def for_having
@@ -558,6 +576,7 @@ module BattleCatsRolls
         :for_against, :against,
         :for_buff, :buff,
         :for_control, :control,
+        :for_immunity, :immunity,
         :for_having, :having) if include_filters
 
       ret = keys.inject({}) do |result, key|
@@ -603,6 +622,8 @@ module BattleCatsRolls
            (key == :buff && value == []) ||
            (key == :for_control && value == default_for_control) ||
            (key == :control && value == []) ||
+           (key == :for_immunity && value == default_for_immunity) ||
+           (key == :immunity && value == []) ||
            (key == :for_having && value == default_for_having) ||
            (key == :having && value == []) ||
            (key == :event && value == current_event) ||
