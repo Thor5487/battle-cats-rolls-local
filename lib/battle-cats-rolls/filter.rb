@@ -2,6 +2,19 @@
 
 module BattleCatsRolls
   module Filter
+    Specialization = {
+      'red' => 'against_red',
+      'float' => 'against_float',
+      'black' => 'against_black',
+      'angel' => 'against_angel',
+      'alien' => 'against_alien',
+      'zombie' => 'against_zombie',
+      'aku' => 'against_aku',
+      'relic' => 'against_relic',
+      'white' => 'against_white',
+      'metal' => 'against_metal',
+    }.freeze
+
     Buff = {
       'strong' => nil,
       'massive_damage' => nil,

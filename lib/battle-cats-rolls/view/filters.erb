@@ -20,11 +20,11 @@
             Any
           </label>
         </th>
-        <th class="top">Against</th>
+        <th class="top">Specialization</th>
       </tr>
       <tr>
         <td class="bot">
-          <% BattleCatsRolls::Ability::Specialization::List.each do |type| %>
+          <% BattleCatsRolls::Filter::Specialization.keys.each do |type| %>
             <label for="<%= type %>">
               <input type="checkbox" name="against" id="<%= type %>"
                value="<%= type %>" onchange="roll(this)"
@@ -78,7 +78,7 @@
             <input type="checkbox" name="control" id="<%= control %>"
              value="<%= control %>" onchange="roll(this)"
              <%= checked_control(control) %>>
-            <%= l10n(control.capitalize.tr('_', ' ')) %>
+            <%= l10n(control.capitalize) %>
           </label>
           <% end %>
         </td>
