@@ -398,10 +398,12 @@ h1, h2, h3, h4, h5, h6 {
 .border_lower { border-top: none; }
 .border_middle { border-left: 2px solid; border-right: 2px solid; }
 .border_bottom { border-top: 2px solid; }
-.for { width: 6em; }
+.for { width: 6em; font-weight: 400; }
 @media (max-width: 767px) {
   .for { width: auto; }
 }
+.top { border-bottom: 0; }
+.bot { border-top: 0; }
 #notice { background-color: pink; }
 #seed_input { width: 10em; }
 #count_input, #level_input { width: 3.5em; }
