@@ -27,19 +27,18 @@ module BattleCatsRolls
     }.freeze
 
     Control = {
-      'knockback' => 'knockback_chance',
       'freeze' => 'freeze_chance',
       'slow' => 'slow_chance',
+      'knockback' => 'knockback_chance',
       'weaken' => 'weaken_chance',
       'curse' => 'curse_chance',
     }.freeze
 
     Immunity = {
-      'bosswave' => 'immune_bosswave',
-      'knockback' => 'immune_knockback',
-      'warp' => 'immune_warp',
       'freeze' => 'immune_freeze',
       'slow' => 'immune_slow',
+      'knockback' => 'immune_knockback',
+      'warp' => 'immune_warp',
       'weaken' => 'immune_weaken',
       'curse' => 'immune_curse',
       'wave' => 'immune_wave',
@@ -47,6 +46,7 @@ module BattleCatsRolls
       'surge' => 'immune_surge',
       'explosion' => 'immune_explosion',
       'toxic' => 'immune_toxic',
+      'bosswave' => 'immune_bosswave',
     }.freeze
 
     Having = {
