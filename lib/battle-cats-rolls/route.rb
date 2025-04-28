@@ -409,7 +409,7 @@ module BattleCatsRolls
     end
 
     def default_for_control
-      @default_for_control ||= 'all'
+      @default_for_control ||= 'any'
     end
 
     def control
