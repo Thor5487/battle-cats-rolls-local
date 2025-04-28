@@ -16,9 +16,12 @@ module BattleCatsRolls
     }.freeze
 
     Buff = {
-      'strong' => nil,
       'massive_damage' => nil,
       'insane_damage' => nil,
+      'strong' => nil,
+    }.freeze
+
+    Resistant = {
       'resistant' => nil,
       'insane_resistant' => nil,
     }.freeze

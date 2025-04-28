@@ -274,6 +274,14 @@ module BattleCatsRolls
       'checked="checked"' if route.buff.member?(value)
     end
 
+    def checked_for_resistant value
+      'checked="checked"' if route.for_resistant == value
+    end
+
+    def checked_resistant value
+      'checked="checked"' if route.resistant.member?(value)
+    end
+
     def checked_for_control value
       'checked="checked"' if route.for_control == value
     end

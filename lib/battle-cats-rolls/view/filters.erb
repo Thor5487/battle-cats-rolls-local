@@ -20,7 +20,7 @@
             Any
           </label>
         </td>
-        <td class="filter">
+        <td class="filter" colspan="3">
           <div><strong>Specialization</strong></div>
           <% BattleCatsRolls::Filter::Specialization.keys.each do |type| %>
             <label for="<%= type %>">
@@ -51,6 +51,24 @@
           </label>
           <% end %>
         </td>
+        <td class="for">
+          <label for="for_resistant_any">
+            <input type="radio" id="for_resistant_any" name="for_resistant" value="any"
+             onchange="roll(this)" <%= checked_for_resistant('any') %>>
+            Any
+          </label>
+        </td>
+        <td class="filter">
+          <div><strong>Resistant</strong></div>
+          <% BattleCatsRolls::Filter::Resistant.keys.each do |resistant| %>
+          <label for="<%= resistant %>">
+            <input type="checkbox" name="resistant" id="<%= resistant %>"
+             value="<%= resistant %>" onchange="roll(this)"
+             <%= checked_resistant(resistant) %>>
+            <%= l10n(resistant.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
       </tr>
       <tr>
         <td class="for">
@@ -65,7 +83,7 @@
             Any
           </label>
         </td>
-        <td class="filter">
+        <td class="filter" colspan="3">
           <div><strong>Control</strong></div>
           <% BattleCatsRolls::Filter::Control.keys.each do |control| %>
           <label for="control_<%= control %>">
@@ -90,7 +108,7 @@
             Any
           </label>
         </td>
-        <td class="filter">
+        <td class="filter" colspan="3">
           <div><strong>Immunity</strong></div>
           <% BattleCatsRolls::Filter::Immunity.keys.each do |immunity| %>
           <label for="immunity_<%= immunity %>">
@@ -115,7 +133,7 @@
             Any
           </label>
         </td>
-        <td class="filter">
+        <td class="filter" colspan="3">
           <div><strong>Having</strong></div>
           <% BattleCatsRolls::Filter::Having.keys.each do |filter| %>
           <label for="<%= filter %>">
