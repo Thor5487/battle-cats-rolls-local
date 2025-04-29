@@ -171,6 +171,10 @@ Watch the logs in realtime:
 
     ./bin/log -f
 
+Read the last 2000 lines of logs:
+
+    ./bin/log -e -n 2000
+
 ### Restart with zero down time
 
 This will start a temporary server taking requests while shutting down
