@@ -188,9 +188,11 @@ module BattleCatsRolls
         cats = filter_cats(cats, route.buff + from_resistant,
           route.for_buff, Filter::Buff.merge(Filter::Resistant))
 
-        # Resistant uses the same condition from buff
+        # Resistant uses the same condition from buff, and
+        # OR will be filtered with buffs together, so we only filter
+        # in the case that it's AND, where it's ignored from buff.
         cats = filter_cats(cats, route.resistant,
-          route.for_buff, Filter::Resistant)
+          route.for_buff, Filter::Resistant) if route.for_resistant == 'and'
 
         cats = filter_cats(cats, route.control,
           route.for_control, Filter::Control)
