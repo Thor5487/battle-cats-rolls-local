@@ -175,14 +175,22 @@ module BattleCatsRolls
       with_canonical_uri('/cats') do
         cats = route.cats
 
+        from_resistant =
+          if route.for_resistant == 'or'
+            route.resistant
+          else
+            []
+          end
+
         cats = filter_cats(cats, route.against,
           route.for_against, Filter::Specialization)
 
-        cats = filter_cats(cats, route.buff,
-          route.for_buff, Filter::Buff)
+        cats = filter_cats(cats, route.buff + from_resistant,
+          route.for_buff, Filter::Buff.merge(Filter::Resistant))
 
+        # Resistant uses the same condition from buff
         cats = filter_cats(cats, route.resistant,
-          route.for_resistant, Filter::Resistant)
+          route.for_buff, Filter::Resistant)
 
         cats = filter_cats(cats, route.control,
           route.for_control, Filter::Control)
