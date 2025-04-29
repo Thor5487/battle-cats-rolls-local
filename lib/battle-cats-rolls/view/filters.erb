@@ -51,15 +51,19 @@
           </label>
           <% end %>
         </td>
-        <td class="for">
-          <label for="for_resistant_any">
-            <input type="radio" id="for_resistant_any" name="for_resistant" value="any"
-             onchange="roll(this)" <%= checked_for_resistant('any') %>>
-            Any
+        <td>
+          <label for="for_resistant_and">
+            <input type="radio" id="for_resistant_and" name="for_resistant" value="and"
+             onchange="roll(this)" <%= checked_for_resistant('and') %>>
+            And
+          </label>
+          <label for="for_resistant_or">
+            <input type="radio" id="for_resistant_or" name="for_resistant" value="or"
+             onchange="roll(this)" <%= checked_for_resistant('or') %>>
+            Or
           </label>
         </td>
         <td class="filter">
-          <div><strong>Resistant</strong></div>
           <% BattleCatsRolls::Filter::Resistant.keys.each do |resistant| %>
           <label for="<%= resistant %>">
             <input type="checkbox" name="resistant" id="<%= resistant %>"

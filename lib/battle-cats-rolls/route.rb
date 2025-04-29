@@ -403,9 +403,9 @@ module BattleCatsRolls
     end
 
     def for_resistant
-      @for_buff ||=
+      @for_resistant ||=
         case value = request.params_coercion_with_nil('for_resistant', :to_s)
-        when 'all', 'any'
+        when 'and', 'or'
           value
         else
           default_for_resistant
@@ -413,7 +413,7 @@ module BattleCatsRolls
     end
 
     def default_for_resistant
-      @default_for_resistant ||= 'any'
+      @default_for_resistant ||= 'or'
     end
 
     def resistant
