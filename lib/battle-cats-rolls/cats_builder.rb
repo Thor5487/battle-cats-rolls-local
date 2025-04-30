@@ -224,6 +224,11 @@ module BattleCatsRolls
               stat.delete('conjure') if stat['conjure'] == 0
             end
 
+            %w[wave surge].each do |type|
+              mini = "#{type}_mini"
+              stat[mini] = stat.delete("#{type}_chance") if stat[mini]
+            end
+
             stat
           end
         end
