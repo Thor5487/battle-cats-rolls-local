@@ -667,9 +667,11 @@ module BattleCatsRolls
       include AbilityUtility
 
       def self.build_if_available stat
-        if stat['wave_chance']
-          new(*stat.values_at(
-            'wave_chance', 'wave_level', 'wave_mini'))
+        if stat['wave_level']
+          new(
+            stat['wave_chance'] || stat['wave_mini'],
+            stat['wave_level'],
+            !!stat['wave_mini'])
         end
       end
 
@@ -707,10 +709,13 @@ module BattleCatsRolls
       include AbilityUtility
 
       def self.build_if_available stat
-        if stat['surge_chance']
-          new(*stat.values_at(
-            'surge_chance', 'surge_level', 'surge_mini',
-            'surge_range', 'surge_range_offset'))
+        if stat['surge_level']
+          new(
+            stat['surge_chance'] || stat['surge_mini'],
+            stat['surge_level'],
+            !!stat['surge_mini'],
+            stat['surge_range'],
+            stat['surge_range_offset'])
         end
       end
 

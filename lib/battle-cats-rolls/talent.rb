@@ -413,7 +413,7 @@ module BattleCatsRolls
     class WaveMini < Wave
       def initialize(...)
         super
-        ability.mini = 1
+        ability.mini = true
       end
     end
 
@@ -445,7 +445,7 @@ module BattleCatsRolls
     class SurgeMini < Surge
       def initialize(...)
         super
-        ability.mini = 1
+        ability.mini = true
       end
     end
 
