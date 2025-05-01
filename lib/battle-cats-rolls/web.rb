@@ -188,6 +188,9 @@ module BattleCatsRolls
         filter.filter!(route.immunity, route.for_immunity,
           Filter::Immunity)
 
+        filter.filter!(route.counter, route.for_counter,
+          Filter::Counter)
+
         filter.filter!(route.having, route.for_having,
           Filter::Having)
 
