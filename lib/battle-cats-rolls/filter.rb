@@ -49,6 +49,21 @@ module BattleCatsRolls
       'bosswave' => 'immune_bosswave',
     }.freeze
 
+    Counter = {
+      'critical_strike' => 'critical_chance',
+      'metal_killer' => nil,
+      'break_barrier' => 'break_barrier_chance',
+      'break_shield' => 'break_shield_chance',
+      'zombie_killer' => nil,
+      'soul_strike' => nil,
+      'colossus_slayer' => nil,
+      'behemoth_slayer' => nil,
+      'sage_slayer' => nil,
+      'witch_slayer' => nil,
+      'eva_angel_slayer' => nil,
+      'base_destroyer' => nil,
+    }.freeze
+
     Having = {
       'strengthen' => 'strengthen_threshold',
       'conjure' => nil,
@@ -62,21 +77,9 @@ module BattleCatsRolls
       'survive' => 'survive_chance',
       'extra_money' => nil,
       'savage_blow' => 'savage_blow_chance',
-      'critical_strike' => 'critical_chance',
-      'metal_killer' => nil,
-      'break_barrier' => 'break_barrier_chance',
-      'break_shield' => 'break_shield_chance',
-      'zombie_killer' => nil,
-      'soul_strike' => nil,
-      'colossus_slayer' => nil,
-      'behemoth_slayer' => nil,
-      'sage_slayer' => nil,
       'attack_only' => 'against_only',
-      'base_destroyer' => nil,
       'metallic' => 'metal',
       'kamikaze' => nil,
-      'witch_slayer' => nil,
-      'eva_angel_slayer' => nil,
     }.freeze
 
     def filter! selected, all_or_any, filters

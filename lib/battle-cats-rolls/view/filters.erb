@@ -126,6 +126,31 @@
       </tr>
       <tr>
         <td class="for">
+          <label for="for_counter_all">
+            <input type="radio" id="for_counter_all" name="for_counter" value="all"
+             onchange="roll(this)" <%= checked_for_counter('all') %>>
+            All
+          </label>
+          <label for="for_counter_any">
+            <input type="radio" id="for_counter_any" name="for_counter" value="any"
+             onchange="roll(this)" <%= checked_for_counter('any') %>>
+            Any
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Counter</strong></div>
+          <% BattleCatsRolls::Filter::Counter.keys.each do |filter| %>
+          <label for="<%= filter %>">
+            <input type="checkbox" name="counter" id="<%= filter %>"
+             value="<%= filter %>" onchange="roll(this)"
+             <%= checked_counter(filter) %>>
+            <%= l10n(filter.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td class="for">
           <label for="for_having_all">
             <input type="radio" id="for_having_all" name="for_having" value="all"
              onchange="roll(this)" <%= checked_for_having('all') %>>
