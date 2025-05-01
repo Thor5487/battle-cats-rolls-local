@@ -64,19 +64,22 @@ module BattleCatsRolls
       'base_destroyer' => nil,
     }.freeze
 
-    Having = {
+    Combat = {
+      'savage_blow' => 'savage_blow_chance',
       'strengthen' => 'strengthen_threshold',
-      'conjure' => nil,
       'wave' => 'wave_chance',
       'mini-wave' => 'wave_mini',
       'surge' => 'surge_chance',
       'mini-surge' => 'surge_mini',
       'counter-surge' => 'counter_surge',
       'explosion' => 'explosion_chance',
+      'conjure' => nil,
+    }.freeze
+
+    Having = {
       'dodge' => 'dodge_chance',
       'survive' => 'survive_chance',
       'extra_money' => nil,
-      'savage_blow' => 'savage_blow_chance',
       'attack_only' => 'against_only',
       'metallic' => 'metal',
       'kamikaze' => nil,

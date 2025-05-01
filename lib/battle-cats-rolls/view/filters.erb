@@ -151,6 +151,31 @@
       </tr>
       <tr>
         <td class="for">
+          <label for="for_combat_any">
+            <input type="radio" id="for_combat_any" name="for_combat" value="any"
+             onchange="roll(this)" <%= checked_for_combat('any') %>>
+            Any
+          </label>
+          <label for="for_combat_all">
+            <input type="radio" id="for_combat_all" name="for_combat" value="all"
+             onchange="roll(this)" <%= checked_for_combat('all') %>>
+            All
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Combat</strong></div>
+          <% BattleCatsRolls::Filter::Combat.keys.each do |filter| %>
+          <label for="<%= filter %>">
+            <input type="checkbox" name="combat" id="<%= filter %>"
+             value="<%= filter %>" onchange="roll(this)"
+             <%= checked_combat(filter) %>>
+            <%= l10n(filter.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td class="for">
           <label for="for_having_any">
             <input type="radio" id="for_having_any" name="for_having" value="any"
              onchange="roll(this)" <%= checked_for_having('any') %>>

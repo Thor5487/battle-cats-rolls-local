@@ -191,6 +191,9 @@ module BattleCatsRolls
         filter.filter!(route.counter, route.for_counter,
           Filter::Counter)
 
+        filter.filter!(route.combat, route.for_combat,
+          Filter::Combat)
+
         filter.filter!(route.having, route.for_having,
           Filter::Having)
 
