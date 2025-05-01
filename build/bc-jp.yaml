@@ -2861,7 +2861,7 @@ cats:
   201:
     name: [メタルネコ, メタルネコビルダー]
     desc: ["いかなる攻撃も最小ダメージで食い止めるメタルなネコ\nレアなメタル純度１００％だがクリティカル攻撃に弱い\nLV上限解放できず、＋LVも上げられない(メタル)", "いかなる攻撃も最小ダメージで食い止めるメタルなネコ\n腕を手に入れたがメタルコーティングをすっかり忘れる\nLV上限解放できず、＋LVも上げられない(メタル)"]
-    stat: [{health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metal: 1, attack_duration: 17}, {health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metal: 1, attack_duration: 15}]
+    stat: [{health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metallic: 1, attack_duration: 17}, {health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metallic: 1, attack_duration: 15}]
     rarity: 3
     max_level: 20
     growth: [20, 20]
@@ -4403,7 +4403,7 @@ cats:
   340:
     name: ['340_1']
     desc: ["340_1仮1\n340_1仮2\n340_1仮3"]
-    stat: [{health: 2, knockbacks: 1, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, metal: 1, immune_bosswave: 1, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 0}]
+    stat: [{health: 2, knockbacks: 1, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, metallic: 1, immune_bosswave: 1, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 0}]
     rarity: 1
     max_level: 1
     growth: [20]
@@ -4875,7 +4875,7 @@ cats:
   383:
     name: [ガラスネコ, ガラスネコビルダー, クリスタルネコビルダー]
     desc: ["ガラスでできたネコ\n人生は当たって砕ける一発勝負だと思っている\n属性を持たない敵の動きを遅くする(一回攻撃)", "強化されたガラスのネコ\nそれでも一発勝負の生き方は変えられない\n属性を持たない敵の動きを遅くする(一回攻撃)", "肉体にさらなる磨きをかけた永遠の輝きを放つネコ\n一瞬の輝きを大切にして生きている。属性を持たない\n敵をふっとばして動きを遅くする(一回攻撃)"]
-    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
+    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
