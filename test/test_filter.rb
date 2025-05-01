@@ -19,6 +19,7 @@ describe BattleCatsRolls::Filter do
     ids = filter.filter!(['metal'], 'all',
       BattleCatsRolls::Filter::Specialization).keys
 
+    expect(ids).include?(89) # Rope Jump Cat
     expect(ids).not.include?(201) # Metal Cat
   end
 
