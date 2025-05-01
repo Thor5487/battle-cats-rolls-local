@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module BattleCatsRolls
-  module Filter
+  class Filter < Struct.new(:cats)
     Specialization = {
       'red' => 'against_red',
       'float' => 'against_float',
@@ -78,5 +78,18 @@ module BattleCatsRolls
       'witch_slayer' => nil,
       'eva_angel_slayer' => nil,
     }.freeze
+
+    def filter! selected, all_or_any, filters
+      return if selected.empty?
+
+      cats.select! do |id, cat|
+        cat['stat'].find do |stat|
+          selected.public_send("#{all_or_any}?") do |item|
+            abilities = stat.merge(cat['talent'] || {})
+            abilities[filters[item]] || abilities[item]
+          end
+        end
+      end
+    end
   end
 end
