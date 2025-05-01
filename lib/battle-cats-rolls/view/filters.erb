@@ -1,10 +1,4 @@
 <div class="cats">
-  <%=
-    header(1,
-      %Q{Show me all cats (<a href="#{uri_to_own_all_cats}">Own all cats!</a>) (<a href="#{uri_to_drop_all_cats}">Drop them all!</a>)},
-      'show-me-all-cats')
-  %>
-
   <div class="cats_filters">
     <table>
       <tr>
@@ -201,6 +195,11 @@
       </tr>
     </table>
   </div>
+
+  <%= header(2,
+    %Q{Show me all cats (<a href="#{uri_to_own_all_cats}#show-me-all-cats">Own all below!</a>) (<a href="#{uri_to_drop_all_cats}#show-me-all-cats">Drop all below!</a>)},
+    'show-me-all-cats')
+  %>
 
   <div class="cats_listing">
   <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
