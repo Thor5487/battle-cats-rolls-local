@@ -387,7 +387,7 @@ module BattleCatsRolls
     def for_buff
       @for_buff ||=
         case value = request.params_coercion_with_nil('for_buff', :to_s)
-        when 'all', 'any'
+        when 'any', 'all'
           value
         else
           default_for_buff
@@ -405,7 +405,7 @@ module BattleCatsRolls
     def for_resistant
       @for_resistant ||=
         case value = request.params_coercion_with_nil('for_resistant', :to_s)
-        when 'and', 'or'
+        when 'or', 'and'
           value
         else
           default_for_resistant
@@ -423,7 +423,7 @@ module BattleCatsRolls
     def for_control
       @for_control ||=
         case value = request.params_coercion_with_nil('for_control', :to_s)
-        when 'all', 'any'
+        when 'any', 'all'
           value
         else
           default_for_control
@@ -441,7 +441,7 @@ module BattleCatsRolls
     def for_immunity
       @for_immunity ||=
         case value = request.params_coercion_with_nil('for_immunity', :to_s)
-        when 'all', 'any'
+        when 'any', 'all'
           value
         else
           default_for_immunity
@@ -459,7 +459,7 @@ module BattleCatsRolls
     def for_counter
       @for_counter ||=
         case value = request.params_coercion_with_nil('for_counter', :to_s)
-        when 'all', 'any'
+        when 'any', 'all'
           value
         else
           default_for_counter
@@ -477,7 +477,7 @@ module BattleCatsRolls
     def for_having
       @for_having ||=
         case value = request.params_coercion_with_nil('for_having', :to_s)
-        when 'all', 'any'
+        when 'any', 'all'
           value
         else
           default_for_having
