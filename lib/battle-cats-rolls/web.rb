@@ -161,7 +161,7 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        filter = Filter.new(route.cats.dup)
+        filter = Filter.new(route.cats.dup, route.exclude_talents)
 
         from_resistant =
           if route.for_resistant == 'or'

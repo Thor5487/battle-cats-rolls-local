@@ -348,6 +348,12 @@ module BattleCatsRolls
       @default_level ||= 30
     end
 
+    def exclude_talents
+      return @exclude_talents if instance_variable_defined?(:@exclude_talents)
+
+      @exclude_talents = request.params_coercion_true_or_nil('exclude_talents')
+    end
+
     def hide_wave
       return @hide_wave if instance_variable_defined?(:@hide_wave)
 
@@ -622,7 +628,7 @@ module BattleCatsRolls
         seed last event custom rate c_rare c_supa c_uber level lang ui
         version seeker name theme count find
         no_guaranteed force_guaranteed ubers details
-        hide_wave sum_no_wave dps_no_critical
+        exclude_talents hide_wave sum_no_wave dps_no_critical
         o
       ]
 

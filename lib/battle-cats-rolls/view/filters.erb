@@ -1,5 +1,12 @@
 <div class="cats">
   <div class="cats_filters">
+    <label for="exclude_talents">
+      <input type="checkbox" id="exclude_talents" name="exclude_talents"
+        <%= checked_exclude_talents %>
+        onchange="roll(this)">
+       Exclude talents
+    </label>
+
     <table>
       <tr>
         <td class="for">
