@@ -176,24 +176,24 @@
       </tr>
       <tr>
         <td class="for">
-          <label for="for_having_any">
-            <input type="radio" id="for_having_any" name="for_having" value="any"
-             onchange="roll(this)" <%= checked_for_having('any') %>>
+          <label for="for_other_any">
+            <input type="radio" id="for_other_any" name="for_other" value="any"
+             onchange="roll(this)" <%= checked_for_other('any') %>>
             Any
           </label>
-          <label for="for_having_all">
-            <input type="radio" id="for_having_all" name="for_having" value="all"
-             onchange="roll(this)" <%= checked_for_having('all') %>>
+          <label for="for_other_all">
+            <input type="radio" id="for_other_all" name="for_other" value="all"
+             onchange="roll(this)" <%= checked_for_other('all') %>>
             All
           </label>
         </td>
         <td class="filter" colspan="3">
-          <div><strong>Having</strong></div>
-          <% BattleCatsRolls::Filter::Having.keys.each do |filter| %>
+          <div><strong>Other</strong></div>
+          <% BattleCatsRolls::Filter::Other.keys.each do |filter| %>
           <label for="<%= filter %>">
-            <input type="checkbox" name="having" id="<%= filter %>"
+            <input type="checkbox" name="other" id="<%= filter %>"
              value="<%= filter %>" onchange="roll(this)"
-             <%= checked_having(filter) %>>
+             <%= checked_other(filter) %>>
             <%= l10n(filter.capitalize.tr('_', ' ')) %>
           </label>
           <% end %>
