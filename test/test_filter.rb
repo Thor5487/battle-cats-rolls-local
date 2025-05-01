@@ -16,9 +16,17 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'not give Metal Cat when filtering against metal specialization' do
-    cats = filter.filter!(['metal'], 'all',
-      BattleCatsRolls::Filter::Specialization)
+    ids = filter.filter!(['metal'], 'all',
+      BattleCatsRolls::Filter::Specialization).keys
 
-    expect(cats.keys).not.include?(201)
+    expect(ids).not.include?(201) # Metal Cat
+  end
+
+  would 'filter both native strengthen and talent strengthen' do
+    ids = filter.filter!(['strengthen'], 'all',
+      BattleCatsRolls::Filter::Having).keys
+
+    expect(ids).include?(45) # Lesser Demon Cat, talent, strengthen
+    expect(ids).include?(73) # Maeda Keiji, native, strengthen_threshold
   end
 end
