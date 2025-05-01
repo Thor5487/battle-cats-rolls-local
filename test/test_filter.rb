@@ -29,4 +29,20 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(45) # Lesser Demon Cat, talent, strengthen
     expect(ids).include?(73) # Maeda Keiji, native, strengthen_threshold
   end
+
+  would 'filter both native mini-surge and talent mini-surge' do
+    ids = filter.filter!(['mini-surge'], 'all',
+      BattleCatsRolls::Filter::Having).keys
+
+    expect(ids).include?(144) # Nurse Cat, talent, surge_mini
+    expect(ids).include?(706) # King of Doom Phono, native, surge_mini
+  end
+
+  would 'filter both native mini-wave and talent mini-wave' do
+    ids = filter.filter!(['mini-wave'], 'all',
+      BattleCatsRolls::Filter::Having).keys
+
+    expect(ids).include?(137) # Momotaro, talent, wave_mini
+    expect(ids).include?(586) # Baby Garu, native, wave_mini
+  end
 end
