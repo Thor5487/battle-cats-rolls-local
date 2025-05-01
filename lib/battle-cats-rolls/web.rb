@@ -194,8 +194,8 @@ module BattleCatsRolls
         filter.filter!(route.combat, route.for_combat,
           Filter::Combat)
 
-        filter.filter!(route.having, route.for_having,
-          Filter::Having)
+        filter.filter!(route.other, route.for_other,
+          Filter::Other)
 
         render :cats, cats: filter.cats,
           cats_by_rarity: CrystalBall.group_by_rarity(filter.cats)

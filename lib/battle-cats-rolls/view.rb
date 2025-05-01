@@ -318,12 +318,12 @@ module BattleCatsRolls
       'checked="checked"' if route.combat.member?(value)
     end
 
-    def checked_for_having value
-      'checked="checked"' if route.for_having == value
+    def checked_for_other value
+      'checked="checked"' if route.for_other == value
     end
 
-    def checked_having value
-      'checked="checked"' if route.having.member?(value)
+    def checked_other value
+      'checked="checked"' if route.other.member?(value)
     end
 
     def attack_tr_class attack

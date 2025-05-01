@@ -492,22 +492,22 @@ module BattleCatsRolls
       @combat ||= Array(request.params['combat'])
     end
 
-    def for_having
-      @for_having ||=
-        case value = request.params_coercion_with_nil('for_having', :to_s)
+    def for_other
+      @for_other ||=
+        case value = request.params_coercion_with_nil('for_other', :to_s)
         when 'any', 'all'
           value
         else
-          default_for_having
+          default_for_other
         end
     end
 
-    def default_for_having
-      @default_for_having ||= 'all'
+    def default_for_other
+      @default_for_other ||= 'any'
     end
 
-    def having
-      @having ||= Array(request.params['having'])
+    def other
+      @other ||= Array(request.params['other'])
     end
 
     def uri_to_roll cat
@@ -634,7 +634,7 @@ module BattleCatsRolls
         :for_immunity, :immunity,
         :for_counter, :counter,
         :for_combat, :combat,
-        :for_having, :having) if include_filters
+        :for_other, :other) if include_filters
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -687,8 +687,8 @@ module BattleCatsRolls
            (key == :counter && value == []) ||
            (key == :for_combat && value == default_for_combat) ||
            (key == :combat && value == []) ||
-           (key == :for_having && value == default_for_having) ||
-           (key == :having && value == []) ||
+           (key == :for_other && value == default_for_other) ||
+           (key == :other && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :rate ||

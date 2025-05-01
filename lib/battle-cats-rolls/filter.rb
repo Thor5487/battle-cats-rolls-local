@@ -76,12 +76,12 @@ module BattleCatsRolls
       'conjure' => nil,
     }.freeze
 
-    Having = {
+    Other = {
+      'extra_money' => nil,
       'dodge' => 'dodge_chance',
       'survive' => 'survive_chance',
-      'extra_money' => nil,
       'attack_only' => 'against_only',
-      'metallic' => 'metal',
+      'metallic' => nil,
       'kamikaze' => nil,
     }.freeze
 
