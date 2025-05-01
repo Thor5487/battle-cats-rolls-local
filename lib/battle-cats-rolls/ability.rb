@@ -834,13 +834,13 @@ module BattleCatsRolls
       def index; __LINE__; end
     end
 
-    class Metal
+    class Metallic
       def self.build_if_available stat
-        new if stat['metal']
+        new if stat['metallic']
       end
 
       def name
-        'Metalic'
+        'Metallic'
       end
 
       def display

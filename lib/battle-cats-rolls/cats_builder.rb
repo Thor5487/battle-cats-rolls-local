@@ -284,7 +284,7 @@ module BattleCatsRolls
         surge_chance: 86, surge_level: 89, surge_mini: 108,
         surge_range: 87, surge_range_offset: 88, counter_surge: 109,
         explosion_chance: 113, explosion_range: 114,
-        extra_money: 33, metal: 43, kamikaze: 58,
+        extra_money: 33, metallic: 43, kamikaze: 58,
         immune_bosswave: 56,
         immune_knockback: 48, immune_warp: 75,
         immune_freeze: 49, immune_slow: 50,

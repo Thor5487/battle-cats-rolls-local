@@ -73,7 +73,7 @@ module BattleCatsRolls
       'sage_slayer' => nil,
       'attack_only' => 'against_only',
       'base_destroyer' => nil,
-      'metalic' => 'metal',
+      'metallic' => 'metal',
       'kamikaze' => nil,
       'witch_slayer' => nil,
       'eva_angel_slayer' => nil,

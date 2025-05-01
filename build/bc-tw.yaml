@@ -2721,7 +2721,7 @@ cats:
   201:
     name: [鋼鐵貓, 鋼鐵健美貓]
     desc: ["被怎麼攻擊都只會受到最小傷害的鋼鐵貓\n雖是純度100%的稀有金屬但很怕會心一擊\n無法靠解開等級上限來提升「+等級」（鋼鐵屬性）", "被怎麼攻擊都只會受到最小傷害的鋼鐵貓\n得到了雙手卻完全忘了上漆這回事\n無法靠解開等級上限來提升「+等級」（鋼鐵屬性）"]
-    stat: [{health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metal: 1, attack_duration: 17}, {health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metal: 1, attack_duration: 15}]
+    stat: [{health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metallic: 1, attack_duration: 17}, {health: 1, knockbacks: 2, speed: 10, cost: 400, production_cooldown: 400, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, metallic: 1, attack_duration: 15}]
     rarity: 3
     max_level: 20
     growth: [20, 20]
@@ -4581,7 +4581,7 @@ cats:
   383:
     name: [玻璃貓, 玻璃健美貓, 水晶健美貓]
     desc: ["玻璃做的貓\n認為人生就是要一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "強化後的玻璃貓\n但還是一樣認為人生就是一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "更加強健身並釋放出永恆光輝的貓咪\n人生珍惜那一瞬間的光輝閃耀。能打飛沒有\n屬性的敵人並使動作變慢(一次攻擊)"]
-    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metal: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
+    stat: [{health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, slow_chance: 100, slow_duration: 250, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}, {health: 100, knockbacks: 1, speed: 40, cost: 300, production_cooldown: 500, range: 140, width: 320, damage_0: 100, attack_time_0: 1, trigger_effects_0: 1, against_white: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 300, metallic: 1, kamikaze: 2, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_wave: 1, attack_duration: 30}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
