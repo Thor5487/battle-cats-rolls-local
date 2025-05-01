@@ -31,19 +31,6 @@ module BattleCatsRolls
         end
       end
 
-      def filter_cats cats, selected, all_or_any, filters
-        return cats if selected.empty?
-
-        cats.select do |id, cat|
-          cat['stat'].find do |stat|
-            selected.public_send("#{all_or_any}?") do |item|
-              abilities = stat.merge(cat['talent'] || {})
-              abilities[filters[item]] || abilities[item]
-            end
-          end
-        end
-      end
-
       def route
         @route ||= Route.new(request)
       end
@@ -174,7 +161,7 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        cats = route.cats
+        filter = Filter.new(route.cats.dup)
 
         from_resistant =
           if route.for_resistant == 'or'
@@ -183,29 +170,29 @@ module BattleCatsRolls
             []
           end
 
-        cats = filter_cats(cats, route.against,
-          route.for_against, Filter::Specialization)
+        filter.filter!(route.against, route.for_against,
+          Filter::Specialization)
 
-        cats = filter_cats(cats, route.buff + from_resistant,
-          route.for_buff, Filter::Buff.merge(Filter::Resistant))
+        filter.filter!(route.buff + from_resistant, route.for_buff,
+          Filter::Buff.merge(Filter::Resistant))
 
         # Resistant uses the same condition from buff, and
         # OR will be filtered with buffs together, so we only filter
         # in the case that it's AND, where it's ignored from buff.
-        cats = filter_cats(cats, route.resistant,
-          route.for_buff, Filter::Resistant) if route.for_resistant == 'and'
+        filter.filter!(route.resistant, route.for_buff,
+          Filter::Resistant) if route.for_resistant == 'and'
 
-        cats = filter_cats(cats, route.control,
-          route.for_control, Filter::Control)
+        filter.filter!(route.control, route.for_control,
+          Filter::Control)
 
-        cats = filter_cats(cats, route.immunity,
-          route.for_immunity, Filter::Immunity)
+        filter.filter!(route.immunity, route.for_immunity,
+          Filter::Immunity)
 
-        cats = filter_cats(cats, route.having,
-          route.for_having, Filter::Having)
+        filter.filter!(route.having, route.for_having,
+          Filter::Having)
 
-        render :cats, cats: cats,
-          cats_by_rarity: CrystalBall.group_by_rarity(cats)
+        render :cats, cats: filter.cats,
+          cats_by_rarity: CrystalBall.group_by_rarity(filter.cats)
       end
     end
 
