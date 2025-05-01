@@ -8,20 +8,31 @@ module BattleCatsRolls
       gacha_data = attach_gacha_series_id(
         cats_builder.gacha, cats_builder.provider.gacha_option)
 
-      new({
+      new(deep_freeze({
         'cats' => cats_builder.cats,
         'gacha' => guess_gacha_events(gacha_data, events.gacha.values),
         'events' => events.gacha
-      })
+      }))
     end
 
     def self.load dir, lang
       require 'yaml'
 
-      new(
-        YAML.safe_load_file(
-          "#{dir}/bc-#{lang}.yaml",
-          permitted_classes: [Date]))
+      new(deep_freeze(
+        YAML.safe_load_file("#{dir}/bc-#{lang}.yaml",
+          permitted_classes: [Date])))
+    end
+
+    def self.deep_freeze data
+      case data.freeze
+      when Hash
+        data.each do |key, value|
+          deep_freeze(key)
+          deep_freeze(value)
+        end
+      when Array
+        data.each(&method(__method__))
+      end
     end
 
     def self.attach_gacha_series_id gacha, gacha_option
