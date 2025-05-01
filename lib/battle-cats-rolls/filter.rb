@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module BattleCatsRolls
-  class Filter < Struct.new(:cats)
+  class Filter < Struct.new(:cats, :exclude_talents)
     Specialization = {
       'red' => 'against_red',
       'float' => 'against_float',
@@ -91,7 +91,12 @@ module BattleCatsRolls
       cats.select! do |id, cat|
         cat['stat'].find do |stat|
           selected.public_send("#{all_or_any}?") do |item|
-            abilities = stat.merge(cat['talent'] || {})
+            abilities = if exclude_talents
+              stat
+            else
+              stat.merge(cat['talent'] || {})
+            end
+
             abilities[filters[item]] || abilities[item]
           end
         end

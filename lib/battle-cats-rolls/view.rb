@@ -250,6 +250,10 @@ module BattleCatsRolls
       'checked="checked"' if route.details
     end
 
+    def checked_exclude_talents
+      'checked="checked"' if route.exclude_talents
+    end
+
     def checked_hide_wave
       'checked="checked"' if route.hide_wave
     end

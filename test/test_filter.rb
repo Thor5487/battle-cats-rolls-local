@@ -7,12 +7,11 @@ require 'battle-cats-rolls/route'
 describe BattleCatsRolls::Filter do
   BattleCatsRolls::Route.reload_balls
 
-  def ball
-    BattleCatsRolls::Route.ball_en
-  end
+  def ball; BattleCatsRolls::Route.ball_en; end
+  def exclude_talents; false; end
 
   def filter
-    @filter ||= BattleCatsRolls::Filter.new(ball.cats.dup)
+    @filter ||= BattleCatsRolls::Filter.new(ball.cats.dup, exclude_talents)
   end
 
   would 'not give Metal Cat when filtering against metal specialization' do
@@ -45,5 +44,33 @@ describe BattleCatsRolls::Filter do
 
     expect(ids).include?(137) # Momotaro, talent, wave_mini
     expect(ids).include?(586) # Baby Garu, native, wave_mini
+  end
+
+  describe 'exclude_talents option' do
+    def exclude_talents; true; end
+
+    would 'filter native strengthen and exclude talent strengthen' do
+      ids = filter.filter!(['strengthen'], 'all',
+        BattleCatsRolls::Filter::Combat).keys
+
+      expect(ids).not.include?(45) # Lesser Demon Cat, talent, strengthen
+      expect(ids).include?(73) # Maeda Keiji, native, strengthen_threshold
+    end
+
+    would 'filter native mini-surge and exclude talent mini-surge' do
+      ids = filter.filter!(['mini-surge'], 'all',
+        BattleCatsRolls::Filter::Combat).keys
+
+      expect(ids).not.include?(144) # Nurse Cat, talent, surge_mini
+      expect(ids).include?(706) # King of Doom Phono, native, surge_mini
+    end
+
+    would 'filter native mini-wave and exclude talent mini-wave' do
+      ids = filter.filter!(['mini-wave'], 'all',
+        BattleCatsRolls::Filter::Combat).keys
+
+      expect(ids).not.include?(137) # Momotaro, talent, wave_mini
+      expect(ids).include?(586) # Baby Garu, native, wave_mini
+    end
   end
 end
