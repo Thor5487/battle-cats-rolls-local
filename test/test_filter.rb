@@ -22,6 +22,15 @@ describe BattleCatsRolls::Filter do
     expect(ids).not.include?(201) # Metal Cat
   end
 
+  would 'filter against hybrid talents with specialization' do
+    ids = filter.filter!(['metal'], 'all',
+      BattleCatsRolls::Filter::Specialization).keys
+
+    expect(ids).include?(85) # Megidora, talent, against_metal
+    expect(ids).include?(170) # Kubiluga, talent, talent_against: [metal]
+    expect(ids).include?(574) # Vega, native, against_metal
+  end
+
   would 'filter both native strengthen and talent strengthen' do
     ids = filter.filter!(['strengthen'], 'all',
       BattleCatsRolls::Filter::Combat).keys
@@ -71,6 +80,15 @@ describe BattleCatsRolls::Filter do
 
       expect(ids).not.include?(137) # Momotaro, talent, wave_mini
       expect(ids).include?(586) # Baby Garu, native, wave_mini
+    end
+
+    would 'filter native specialization and exclude talent' do
+      ids = filter.filter!(['metal'], 'all',
+        BattleCatsRolls::Filter::Specialization).keys
+
+      expect(ids).not.include?(85) # Megidora, talent, against_metal
+      expect(ids).not.include?(170) # Kubiluga, talent, talent_against: [metal]
+      expect(ids).include?(574) # Vega, native, against_metal
     end
   end
 end
