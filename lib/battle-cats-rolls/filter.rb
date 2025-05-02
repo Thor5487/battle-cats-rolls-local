@@ -94,7 +94,12 @@ module BattleCatsRolls
             abilities = if exclude_talents
               stat
             else
-              stat.merge(cat['talent'] || {})
+              stat.merge(cat['talent'] || {}).merge(
+                (cat['talent_against'] || []).inject({}) do |result, against|
+                  result["against_#{against}"] = true
+                  result
+                end
+              )
             end
 
             abilities[filters[item]] || abilities[item]
