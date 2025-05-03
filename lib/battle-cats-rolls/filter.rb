@@ -2,6 +2,59 @@
 
 module BattleCatsRolls
   module Filter
+    class Chain < Struct.new(:cats, :exclude_talents)
+      def filter! selected, all_or_any, filter_table
+        return if selected.empty?
+
+        cats.select! do |id, cat|
+          cat['stat'].find do |stat|
+            abilities = expand_stat(cat, stat)
+            selected.public_send("#{all_or_any}?") do |item|
+              case filter = filter_table[item]
+              when String, NilClass
+                abilities[filter] || abilities[item]
+              else
+                filter.match?(abilities)
+              end
+            end
+          end
+        end
+      end
+
+      private
+
+      def expand_stat cat, stat
+        if exclude_talents
+          stat
+        else
+          stat.merge(cat['talent'] || {}).merge(
+            (cat['talent_against'] || []).inject({}) do |result, against|
+              result["against_#{against}"] = true
+              result
+            end
+          )
+        end
+      end
+    end
+
+    module LongRange
+      def self.match? abilities
+        abilities['long_range_0'] && !OmniStrike.match?(abilities)
+      end
+    end
+
+    module OmniStrike
+      def self.match? abilities
+        abilities['long_range_offset_0'].to_i < 0
+      end
+    end
+
+    module Single
+      def self.match? abilities
+        !abilities['area_effect']
+      end
+    end
+
     Specialization = {
       'red' => 'against_red',
       'float' => 'against_float',
@@ -24,6 +77,16 @@ module BattleCatsRolls
     Resistant = {
       'resistant' => nil,
       'insane_resistant' => nil,
+    }.freeze
+
+    Range = {
+      'long_range' => LongRange,
+      'omni_strike' => OmniStrike,
+    }.freeze
+
+    Area = {
+      'area' => 'area_effect',
+      'single' => Single,
     }.freeze
 
     Control = {
@@ -84,30 +147,5 @@ module BattleCatsRolls
       'metallic' => nil,
       'kamikaze' => nil,
     }.freeze
-
-    class Chain < Struct.new(:cats, :exclude_talents)
-      def filter! selected, all_or_any, filters
-        return if selected.empty?
-
-        cats.select! do |id, cat|
-          cat['stat'].find do |stat|
-            selected.public_send("#{all_or_any}?") do |item|
-              abilities = if exclude_talents
-                stat
-              else
-                stat.merge(cat['talent'] || {}).merge(
-                  (cat['talent_against'] || []).inject({}) do |result, against|
-                    result["against_#{against}"] = true
-                    result
-                  end
-                )
-              end
-
-              abilities[filters[item]] || abilities[item]
-            end
-          end
-        end
-      end
-    end
   end
 end

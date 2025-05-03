@@ -182,20 +182,13 @@ module BattleCatsRolls
         chain.filter!(route.resistant, route.for_buff,
           Filter::Resistant) if route.for_resistant == 'and'
 
-        chain.filter!(route.control, route.for_control,
-          Filter::Control)
-
-        chain.filter!(route.immunity, route.for_immunity,
-          Filter::Immunity)
-
-        chain.filter!(route.counter, route.for_counter,
-          Filter::Counter)
-
-        chain.filter!(route.combat, route.for_combat,
-          Filter::Combat)
-
-        chain.filter!(route.other, route.for_other,
-          Filter::Other)
+        chain.filter!(route.range, route.for_range, Filter::Range)
+        chain.filter!(route.area, route.for_range, Filter::Area)
+        chain.filter!(route.control, route.for_control, Filter::Control)
+        chain.filter!(route.immunity, route.for_immunity, Filter::Immunity)
+        chain.filter!(route.counter, route.for_counter, Filter::Counter)
+        chain.filter!(route.combat, route.for_combat, Filter::Combat)
+        chain.filter!(route.other, route.for_other, Filter::Other)
 
         render :cats, cats: chain.cats,
           cats_by_rarity: CrystalBall.group_by_rarity(chain.cats)

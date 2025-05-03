@@ -10,12 +10,13 @@ describe BattleCatsRolls::Filter do
   def ball; BattleCatsRolls::Route.ball_en; end
   def exclude_talents; false; end
 
-  def filter
-    @filter ||= BattleCatsRolls::Filter.new(ball.cats.dup, exclude_talents)
+  def chain
+    @chain ||= BattleCatsRolls::Filter::Chain.new(
+      ball.cats.dup, exclude_talents)
   end
 
   would 'not give Metal Cat when filtering against metal specialization' do
-    ids = filter.filter!(['metal'], 'all',
+    ids = chain.filter!(['metal'], 'all',
       BattleCatsRolls::Filter::Specialization).keys
 
     expect(ids).include?(89) # Rope Jump Cat
@@ -23,7 +24,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter against hybrid talents with specialization' do
-    ids = filter.filter!(['metal'], 'all',
+    ids = chain.filter!(['metal'], 'all',
       BattleCatsRolls::Filter::Specialization).keys
 
     expect(ids).include?(85) # Megidora, talent, against_metal
@@ -32,7 +33,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter both native strengthen and talent strengthen' do
-    ids = filter.filter!(['strengthen'], 'all',
+    ids = chain.filter!(['strengthen'], 'all',
       BattleCatsRolls::Filter::Combat).keys
 
     expect(ids).include?(45) # Lesser Demon Cat, talent, strengthen
@@ -40,7 +41,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter both native mini-surge and talent mini-surge' do
-    ids = filter.filter!(['mini-surge'], 'all',
+    ids = chain.filter!(['mini-surge'], 'all',
       BattleCatsRolls::Filter::Combat).keys
 
     expect(ids).include?(144) # Nurse Cat, talent, surge_mini
@@ -48,18 +49,36 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter both native mini-wave and talent mini-wave' do
-    ids = filter.filter!(['mini-wave'], 'all',
+    ids = chain.filter!(['mini-wave'], 'all',
       BattleCatsRolls::Filter::Combat).keys
 
     expect(ids).include?(137) # Momotaro, talent, wave_mini
     expect(ids).include?(586) # Baby Garu, native, wave_mini
   end
 
+  would 'filter long-range without omni strike' do
+    ids = chain.filter!(['long_range'], 'all',
+      BattleCatsRolls::Filter::Range).keys
+
+    expect(ids).not.include?(270) # Baby Gao, simple area
+    expect(ids).include?(319) # Miko Mitama, long range
+    expect(ids).not.include?(780) # Celestial Child Luna, omni strike
+  end
+
+  would 'filter long-range without omni strike' do
+    ids = chain.filter!(['omni_strike'], 'all',
+      BattleCatsRolls::Filter::Range).keys
+
+    expect(ids).not.include?(270) # Baby Gao, simple area
+    expect(ids).not.include?(319) # Miko Mitama, long range
+    expect(ids).include?(780) # Celestial Child Luna, omni strike
+  end
+
   describe 'exclude_talents option' do
     def exclude_talents; true; end
 
     would 'filter native strengthen and exclude talent strengthen' do
-      ids = filter.filter!(['strengthen'], 'all',
+      ids = chain.filter!(['strengthen'], 'all',
         BattleCatsRolls::Filter::Combat).keys
 
       expect(ids).not.include?(45) # Lesser Demon Cat, talent, strengthen
@@ -67,7 +86,7 @@ describe BattleCatsRolls::Filter do
     end
 
     would 'filter native mini-surge and exclude talent mini-surge' do
-      ids = filter.filter!(['mini-surge'], 'all',
+      ids = chain.filter!(['mini-surge'], 'all',
         BattleCatsRolls::Filter::Combat).keys
 
       expect(ids).not.include?(144) # Nurse Cat, talent, surge_mini
@@ -75,7 +94,7 @@ describe BattleCatsRolls::Filter do
     end
 
     would 'filter native mini-wave and exclude talent mini-wave' do
-      ids = filter.filter!(['mini-wave'], 'all',
+      ids = chain.filter!(['mini-wave'], 'all',
         BattleCatsRolls::Filter::Combat).keys
 
       expect(ids).not.include?(137) # Momotaro, talent, wave_mini
@@ -83,7 +102,7 @@ describe BattleCatsRolls::Filter do
     end
 
     would 'filter native specialization and exclude talent' do
-      ids = filter.filter!(['metal'], 'all',
+      ids = chain.filter!(['metal'], 'all',
         BattleCatsRolls::Filter::Specialization).keys
 
       expect(ids).not.include?(85) # Megidora, talent, against_metal
