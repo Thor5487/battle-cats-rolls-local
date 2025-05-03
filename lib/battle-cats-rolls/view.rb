@@ -299,7 +299,7 @@ module BattleCatsRolls
     end
 
     def checked_area value
-      'checked="checked"' if route.area.member?(value)
+      'checked="checked"' if route.area == value
     end
 
     def checked_for_control value

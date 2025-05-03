@@ -183,7 +183,7 @@ module BattleCatsRolls
           Filter::Resistant) if route.for_resistant == 'and'
 
         chain.filter!(route.range, route.for_range, Filter::Range)
-        chain.filter!(route.area, route.for_range, Filter::Area)
+        chain.filter!([route.area], 'any', Filter::Area) if route.area != 'any'
         chain.filter!(route.control, route.for_control, Filter::Control)
         chain.filter!(route.immunity, route.for_immunity, Filter::Immunity)
         chain.filter!(route.counter, route.for_counter, Filter::Counter)
