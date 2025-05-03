@@ -56,7 +56,7 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(586) # Baby Garu, native, wave_mini
   end
 
-  would 'filter long-range without omni strike' do
+  would 'filter long-range without omni-strike' do
     ids = chain.filter!(['long-range'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
@@ -65,13 +65,22 @@ describe BattleCatsRolls::Filter do
     expect(ids).not.include?(780) # Celestial Child Luna, omni strike
   end
 
-  would 'filter long-range without omni strike' do
+  would 'filter omni-strike without long-range' do
     ids = chain.filter!(['omni-strike'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
     expect(ids).not.include?(270) # Baby Gao, simple area
     expect(ids).not.include?(319) # Miko Mitama, long range
     expect(ids).include?(780) # Celestial Child Luna, omni strike
+  end
+
+  would 'filter front-strike without long-range nor omni-strike' do
+    ids = chain.filter!(['front-strike'], 'all',
+      BattleCatsRolls::Filter::Range).keys
+
+    expect(ids).include?(270) # Baby Gao, simple area
+    expect(ids).not.include?(319) # Miko Mitama, long range
+    expect(ids).not.include?(780) # Celestial Child Luna, omni strike
   end
 
   describe 'exclude_talents option' do
