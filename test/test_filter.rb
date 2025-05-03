@@ -57,7 +57,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter long-range without omni strike' do
-    ids = chain.filter!(['long_range'], 'all',
+    ids = chain.filter!(['long-range'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
     expect(ids).not.include?(270) # Baby Gao, simple area
@@ -66,7 +66,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter long-range without omni strike' do
-    ids = chain.filter!(['omni_strike'], 'all',
+    ids = chain.filter!(['omni-strike'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
     expect(ids).not.include?(270) # Baby Gao, simple area
