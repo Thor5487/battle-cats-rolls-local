@@ -82,6 +82,38 @@
       </tr>
       <tr>
         <td class="for">
+          <label for="for_range_any">
+            <input type="radio" id="for_range_any" name="for_range"
+              value="any" <%= checked_for_range('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+        </td>
+        <td class="filter">
+          <div><strong>Range</strong></div>
+          <% BattleCatsRolls::Filter::Range.keys.each do |range| %>
+          <label for="<%= range %>">
+            <input type="checkbox" name="range" id="<%= range %>"
+              value="<%= range %>" <%= checked_range(range) %>
+              onchange="roll(this)">
+            <%= l10n(range.capitalize.tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+        <td class="filter" colspan="2">
+          <div><strong>Area</strong></div>
+          <% BattleCatsRolls::Filter::Area.keys.each do |area| %>
+          <label for="<%= area %>">
+            <input type="checkbox" name="area" id="<%= area %>"
+              value="<%= area %>" <%= checked_area(area) %>
+              onchange="roll(this)">
+            <%= l10n(area.capitalize) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td class="for">
           <label for="for_control_any">
             <input type="radio" id="for_control_any" name="for_control"
               value="any" <%= checked_for_control('any') %>

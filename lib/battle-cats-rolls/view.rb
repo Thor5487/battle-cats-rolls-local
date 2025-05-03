@@ -290,6 +290,18 @@ module BattleCatsRolls
       'checked="checked"' if route.resistant.member?(value)
     end
 
+    def checked_for_range value
+      'checked="checked"' if route.for_range == value
+    end
+
+    def checked_range value
+      'checked="checked"' if route.range.member?(value)
+    end
+
+    def checked_area value
+      'checked="checked"' if route.area.member?(value)
+    end
+
     def checked_for_control value
       'checked="checked"' if route.for_control == value
     end

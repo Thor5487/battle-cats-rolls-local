@@ -426,6 +426,28 @@ module BattleCatsRolls
       @resistant ||= Array(request.params['resistant'])
     end
 
+    def for_range
+      @for_range ||=
+        case value = request.params_coercion_with_nil('for_range', :to_s)
+        when 'any', 'all'
+          value
+        else
+          default_for_range
+        end
+    end
+
+    def default_for_range
+      @default_for_range ||= 'any'
+    end
+
+    def range
+      @range ||= Array(request.params['range'])
+    end
+
+    def area
+      @area ||= Array(request.params['area'])
+    end
+
     def for_control
       @for_control ||=
         case value = request.params_coercion_with_nil('for_control', :to_s)
@@ -636,6 +658,7 @@ module BattleCatsRolls
         :for_against, :against,
         :for_buff, :buff,
         :for_resistant, :resistant,
+        :for_range, :range, :area,
         :for_control, :control,
         :for_immunity, :immunity,
         :for_counter, :counter,
@@ -685,6 +708,9 @@ module BattleCatsRolls
            (key == :buff && value == []) ||
            (key == :for_resistant && value == default_for_resistant) ||
            (key == :resistant && value == []) ||
+           (key == :for_range && value == default_for_range) ||
+           (key == :range && value == []) ||
+           (key == :area && value == []) ||
            (key == :for_control && value == default_for_control) ||
            (key == :control && value == []) ||
            (key == :for_immunity && value == default_for_immunity) ||
