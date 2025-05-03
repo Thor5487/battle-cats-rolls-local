@@ -161,7 +161,7 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        filter = Filter.new(route.cats.dup, route.exclude_talents)
+        chain = Filter::Chain.new(route.cats.dup, route.exclude_talents)
 
         from_resistant =
           if route.for_resistant == 'or'
@@ -170,35 +170,35 @@ module BattleCatsRolls
             []
           end
 
-        filter.filter!(route.against, route.for_against,
+        chain.filter!(route.against, route.for_against,
           Filter::Specialization)
 
-        filter.filter!(route.buff + from_resistant, route.for_buff,
+        chain.filter!(route.buff + from_resistant, route.for_buff,
           Filter::Buff.merge(Filter::Resistant))
 
         # Resistant uses the same condition from buff, and
         # OR will be filtered with buffs together, so we only filter
         # in the case that it's AND, where it's ignored from buff.
-        filter.filter!(route.resistant, route.for_buff,
+        chain.filter!(route.resistant, route.for_buff,
           Filter::Resistant) if route.for_resistant == 'and'
 
-        filter.filter!(route.control, route.for_control,
+        chain.filter!(route.control, route.for_control,
           Filter::Control)
 
-        filter.filter!(route.immunity, route.for_immunity,
+        chain.filter!(route.immunity, route.for_immunity,
           Filter::Immunity)
 
-        filter.filter!(route.counter, route.for_counter,
+        chain.filter!(route.counter, route.for_counter,
           Filter::Counter)
 
-        filter.filter!(route.combat, route.for_combat,
+        chain.filter!(route.combat, route.for_combat,
           Filter::Combat)
 
-        filter.filter!(route.other, route.for_other,
+        chain.filter!(route.other, route.for_other,
           Filter::Other)
 
-        render :cats, cats: filter.cats,
-          cats_by_rarity: CrystalBall.group_by_rarity(filter.cats)
+        render :cats, cats: chain.cats,
+          cats_by_rarity: CrystalBall.group_by_rarity(chain.cats)
       end
     end
 
