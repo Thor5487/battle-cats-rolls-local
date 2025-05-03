@@ -89,7 +89,7 @@
             Any
           </label>
         </td>
-        <td class="filter">
+        <td class="filter" colspan="2">
           <div><strong>Range</strong></div>
           <% BattleCatsRolls::Filter::Range.keys.each do |range| %>
           <label for="<%= range %>">
@@ -100,11 +100,17 @@
           </label>
           <% end %>
         </td>
-        <td class="filter" colspan="2">
+        <td class="filter">
           <div><strong>Area</strong></div>
+          <label for="area_any">
+            <input type="radio" name="area" id="area_any"
+              value="any" <%= checked_area('any') %>
+              onchange="roll(this)">
+            <%= l10n('Any') %>
+          </label>
           <% BattleCatsRolls::Filter::Area.keys.each do |area| %>
           <label for="<%= area %>">
-            <input type="checkbox" name="area" id="<%= area %>"
+            <input type="radio" name="area" id="<%= area %>"
               value="<%= area %>" <%= checked_area(area) %>
               onchange="roll(this)">
             <%= l10n(area.capitalize) %>

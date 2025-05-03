@@ -445,7 +445,12 @@ module BattleCatsRolls
     end
 
     def area
-      @area ||= Array(request.params['area'])
+      @area ||= request.params_coercion_with_nil('area', :to_s) ||
+        default_area
+    end
+
+    def default_area
+      @default_area ||= 'any'
     end
 
     def for_control
@@ -710,7 +715,7 @@ module BattleCatsRolls
            (key == :resistant && value == []) ||
            (key == :for_range && value == default_for_range) ||
            (key == :range && value == []) ||
-           (key == :area && value == []) ||
+           (key == :area && value == default_area) ||
            (key == :for_control && value == default_for_control) ||
            (key == :control && value == []) ||
            (key == :for_immunity && value == default_for_immunity) ||

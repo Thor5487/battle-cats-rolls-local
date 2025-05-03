@@ -49,6 +49,12 @@ module BattleCatsRolls
       end
     end
 
+    module FrontStrike
+      def self.match? abilities
+        !abilities['long_range_0']
+      end
+    end
+
     module Single
       def self.match? abilities
         !abilities['area_effect']
@@ -80,8 +86,9 @@ module BattleCatsRolls
     }.freeze
 
     Range = {
-      'long_range' => LongRange,
-      'omni_strike' => OmniStrike,
+      'long-range' => LongRange,
+      'omni-strike' => OmniStrike,
+      'front-strike' => FrontStrike,
     }.freeze
 
     Area = {
