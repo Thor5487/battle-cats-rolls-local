@@ -60,27 +60,38 @@ describe BattleCatsRolls::Filter do
     ids = chain.filter!(['long-range'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
-    expect(ids).not.include?(270) # Baby Gao, simple area
-    expect(ids).include?(319) # Miko Mitama, long range
-    expect(ids).not.include?(780) # Celestial Child Luna, omni strike
+    expect(ids).not.include?(270) # Baby Gao, front-strike
+    expect(ids).include?(319) # Miko Mitama, long-range
+    expect(ids).not.include?(780) # Celestial Child Luna, omni-strike
   end
 
   would 'filter omni-strike without long-range' do
     ids = chain.filter!(['omni-strike'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
-    expect(ids).not.include?(270) # Baby Gao, simple area
-    expect(ids).not.include?(319) # Miko Mitama, long range
-    expect(ids).include?(780) # Celestial Child Luna, omni strike
+    expect(ids).not.include?(270) # Baby Gao, front-strike
+    expect(ids).not.include?(319) # Miko Mitama, long-range
+    expect(ids).include?(780) # Celestial Child Luna, omni-strike
   end
 
   would 'filter front-strike without long-range nor omni-strike' do
     ids = chain.filter!(['front-strike'], 'all',
       BattleCatsRolls::Filter::Range).keys
 
-    expect(ids).include?(270) # Baby Gao, simple area
-    expect(ids).not.include?(319) # Miko Mitama, long range
-    expect(ids).not.include?(780) # Celestial Child Luna, omni strike
+    expect(ids).include?(270) # Baby Gao, front-strike
+    expect(ids).not.include?(319) # Miko Mitama, long-range
+    expect(ids).not.include?(780) # Celestial Child Luna, omni-strike
+  end
+
+  would 'not filter talents applied to first and second form' do
+    chain.filter!(%w[black angel alien], 'all',
+      BattleCatsRolls::Filter::Specialization)
+    chain.filter!(%w[dodge survive], 'all',
+      BattleCatsRolls::Filter::Other)
+    ids = chain.cats.keys
+
+    expect(ids).include?(35) # Nekoluga
+    expect(ids).not.include?(196) # Mekako Saionji, black only for first form
   end
 
   describe 'exclude_talents option' do

@@ -7,8 +7,8 @@ module BattleCatsRolls
         return if selected.empty?
 
         cats.select! do |id, cat|
-          cat['stat'].find do |stat|
-            abilities = expand_stat(cat, stat)
+          cat['stat'].find.with_index do |stat, index|
+            abilities = expand_stat(cat, stat, index)
             selected.public_send("#{all_or_any}?") do |item|
               case filter = filter_table[item]
               when String, NilClass
@@ -23,8 +23,8 @@ module BattleCatsRolls
 
       private
 
-      def expand_stat cat, stat
-        if exclude_talents
+      def expand_stat cat, stat, index
+        if exclude_talents || index < 2 # 2 is true form, 3 is ultra form
           stat
         else
           stat.merge(cat['talent'] || {}).merge(
