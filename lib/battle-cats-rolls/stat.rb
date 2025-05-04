@@ -94,7 +94,7 @@ module BattleCatsRolls
         if sum_no_wave
           attacks_raw
         else
-          attacks
+          attacks_major
         end.sum(&:damage)
       end
     end
