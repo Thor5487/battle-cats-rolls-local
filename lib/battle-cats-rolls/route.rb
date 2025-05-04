@@ -544,6 +544,24 @@ module BattleCatsRolls
       @other ||= Array(request.params['other'])
     end
 
+    def for_aspect
+      @for_aspect ||=
+        case value = request.params_coercion_with_nil('for_aspect', :to_s)
+        when 'all', 'any'
+          value
+        else
+          default_for_aspect
+        end
+    end
+
+    def default_for_aspect
+      @default_for_aspect ||= 'all'
+    end
+
+    def aspect
+      @aspect ||= Array(request.params['aspect'])
+    end
+
     def uri_to_roll cat
       uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
     end
@@ -669,7 +687,8 @@ module BattleCatsRolls
         :for_immunity, :immunity,
         :for_counter, :counter,
         :for_combat, :combat,
-        :for_other, :other) if include_filters
+        :for_other, :other,
+        :for_aspect, :aspect) if include_filters
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
@@ -727,6 +746,8 @@ module BattleCatsRolls
            (key == :combat && value == []) ||
            (key == :for_other && value == default_for_other) ||
            (key == :other && value == []) ||
+           (key == :for_aspect && value == default_for_aspect) ||
+           (key == :aspect && value == []) ||
            (key == :event && value == current_event) ||
            (query[:event] != 'custom' &&
               (key == :custom || key == :rate ||

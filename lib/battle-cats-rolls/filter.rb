@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'stat'
+
 module BattleCatsRolls
   module Filter
     class Chain < Struct.new(:cats, :exclude_talents)
@@ -7,18 +9,19 @@ module BattleCatsRolls
         return if selected.empty?
 
         cats.select! do |id, cat|
-          indicies = cat['stat'].map.with_index do |stat, index|
+          indicies = cat['stat'].map.with_index do |raw_stat, index|
             if matched = matched_stats[id]
               next unless matched[index]
             end
 
-            abilities = expand_stat(cat, stat, index)
+            abilities = expand_stat(cat, raw_stat, index)
             index if selected.public_send("#{all_or_any}?") do |item|
               case filter = filter_table[item]
               when String, NilClass
                 abilities[filter] || abilities[item]
               else
-                filter.match?(abilities)
+                filter.match?(abilities,
+                  Stat.new(id: id, info: cat, index: index))
               end
             end
           end
@@ -34,11 +37,11 @@ module BattleCatsRolls
         @matched_stats ||= {}
       end
 
-      def expand_stat cat, stat, index
+      def expand_stat cat, raw_stat, index
         if exclude_talents || index < 2 # 2 is true form, 3 is ultra form
-          stat
+          raw_stat
         else
-          stat.merge(cat['talent'] || {}).merge(
+          raw_stat.merge(cat['talent'] || {}).merge(
             (cat['talent_against'] || []).inject({}) do |result, against|
               result["against_#{against}"] = true
               result
@@ -49,26 +52,120 @@ module BattleCatsRolls
     end
 
     module LongRange
-      def self.match? abilities
-        abilities['long_range_0'] && !OmniStrike.match?(abilities)
+      def self.match? abilities, stat=nil
+        abilities['long_range_0'] && !OmniStrike.match?(abilities, stat)
       end
     end
 
     module OmniStrike
-      def self.match? abilities
+      def self.match? abilities, stat=nil
         abilities['long_range_offset_0'].to_i < 0
       end
     end
 
     module FrontStrike
-      def self.match? abilities
+      def self.match? abilities, stat=nil
         !abilities['long_range_0']
       end
     end
 
     module Single
-      def self.match? abilities
+      def self.match? abilities, stat=nil
         !abilities['area_effect']
+      end
+    end
+
+    module Backswing
+      def self.match? abilities, stat
+        stat.push_duration.to_i <= 1
+      end
+    end
+
+    module HighDPS
+      def self.match? abilities, stat
+        stat.dps_sum.to_i >= 7500 ||
+          stat.attacks_major.any?{ |attack| attack.dps.to_i >= 7500 }
+      end
+    end
+
+    module VeryHighDPS
+      def self.match? abilities, stat
+        stat.dps_sum.to_i >= 15000 ||
+          stat.attacks_major.any?{ |attack| attack.dps.to_i >= 15000 }
+      end
+    end
+
+    module HighSingleBlow
+      def self.match? abilities, stat
+        stat.damage_sum.to_i >= 50000 ||
+          stat.attacks_major.any?{ |attack| attack.damage.to_i >= 50000 }
+      end
+    end
+
+    module VeryHighSingleBlow
+      def self.match? abilities, stat
+        stat.damage_sum.to_i >= 100000 ||
+          stat.attacks_major.any?{ |attack| attack.damage.to_i >= 100000 }
+      end
+    end
+
+    module HighSpeed
+      def self.match? abilities, stat=nil
+        abilities['speed'].to_i >= 20
+      end
+    end
+
+    module VeryHighSpeed
+      def self.match? abilities, stat=nil
+        abilities['speed'].to_i >= 40
+      end
+    end
+
+    module HighHealth
+      def self.match? abilities, stat
+        stat.health >= 100000
+      end
+    end
+
+    module VeryHighHealth
+      def self.match? abilities, stat
+        stat.health >= 200000
+      end
+    end
+
+    module FastProduction
+      def self.match? abilities, stat
+        case value = stat.production_cooldown
+        when Numeric
+          value <= 350
+        end
+      end
+    end
+
+    module VeryFastProduction
+      def self.match? abilities, stat
+        case value = stat.production_cooldown
+        when Numeric
+          value <= 175
+        end
+      end
+    end
+
+    module Cheap
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 1000
+        end
+      end
+    end
+
+    module VeryCheap
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 500
+        end
       end
     end
 
@@ -164,6 +261,22 @@ module BattleCatsRolls
       'attack_only' => 'against_only',
       'metallic' => nil,
       'kamikaze' => nil,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
+      'high_DPS' => HighDPS,
+      'very_high_DPS' => VeryHighDPS,
+      'high_single_blow' => HighSingleBlow,
+      'very_high_single_blow' => VeryHighSingleBlow,
+      'high_speed' => HighSpeed,
+      'very_high_speed' => VeryHighSpeed,
+      'high_health' => HighHealth,
+      'very_high_health' => VeryHighHealth,
+      'fast_production' => FastProduction,
+      'very_fast_production' => VeryFastProduction,
+      'cheap' => Cheap,
+      'very_cheap' => VeryCheap,
     }.freeze
   end
 end
