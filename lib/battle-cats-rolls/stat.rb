@@ -9,6 +9,8 @@ module BattleCatsRolls
     :sum_no_wave, :dps_no_critical,
     keyword_init: true)
 
+    DefaultLevel = 30
+
     def inspect
       "#<#{self.class} id=#{id.inspect} name=#{name.inspect}>"
     end
@@ -31,6 +33,10 @@ module BattleCatsRolls
 
     def fps
       30
+    end
+
+    def level
+      super || DefaultLevel
     end
 
     def health
