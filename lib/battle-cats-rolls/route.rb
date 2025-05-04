@@ -8,6 +8,7 @@ require_relative 'owned'
 require_relative 'aws_auth'
 require_relative 'find_cat'
 require_relative 'cat'
+require_relative 'stat'
 
 require 'cgi'
 require 'date'
@@ -345,7 +346,7 @@ module BattleCatsRolls
     end
 
     def default_level
-      @default_level ||= 30
+      Stat::DefaultLevel
     end
 
     def exclude_talents
