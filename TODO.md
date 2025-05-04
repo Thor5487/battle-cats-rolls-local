@@ -1,13 +1,5 @@
 ## Stats
 
-* Not sure if this should be considered a bug or not, maybe? When we're
-  filtering for each sections, we're filtering based on cats, not stats.
-  This means we can get Mekako Saionji when we're filtering with
-  massive damage AND resistant across different forms.
-  * Example: https://bc.godfat.org/cats?against=angel&against=alien&buff=massive_damage&buff=insane_damage&for_resistant=and&resistant=resistant&resistant=insane_resistant
-  * This will mostly only happen on Dark Heroes where different forms can have
-    completely different abilities.
-  * We can solve this by using stat as a unit rather than a cat.
 * Toggle talents
 * Show surge duration
 * Show knockback distance

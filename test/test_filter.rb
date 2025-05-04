@@ -94,6 +94,28 @@ describe BattleCatsRolls::Filter do
     expect(ids).not.include?(196) # Mekako Saionji, black only for first form
   end
 
+  would 'not filter across different forms' do
+    chain.filter!(['alien'], 'all',
+      BattleCatsRolls::Filter::Specialization)
+    chain.filter!(['massive_damage'], 'all',
+      BattleCatsRolls::Filter::Buff)
+    chain.filter!(['resistant'], 'all',
+      BattleCatsRolls::Filter::Resistant)
+    ids = chain.cats.keys
+
+    expect(ids).not.include?(196) # Mekako Saionji, resistant only in 1st form
+    expect(ids).include?(360) # Bora
+  end
+
+  would 'not filter across different forms for lugas' do
+    chain.filter!(['single'], 'all', BattleCatsRolls::Filter::Area)
+    chain.filter!(%w[freeze weaken], 'all', BattleCatsRolls::Filter::Control)
+    ids = chain.cats.keys
+
+    expect(ids).not.include?(172) # Balaluga, single only in 1st form
+    expect(ids).include?(649) # Lovestruck Lesser Demon
+  end
+
   describe 'exclude_talents option' do
     def exclude_talents; true; end
 

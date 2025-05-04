@@ -7,9 +7,13 @@ module BattleCatsRolls
         return if selected.empty?
 
         cats.select! do |id, cat|
-          cat['stat'].find.with_index do |stat, index|
+          indicies = cat['stat'].map.with_index do |stat, index|
+            if matched = matched_stats[id]
+              next unless matched[index]
+            end
+
             abilities = expand_stat(cat, stat, index)
-            selected.public_send("#{all_or_any}?") do |item|
+            index if selected.public_send("#{all_or_any}?") do |item|
               case filter = filter_table[item]
               when String, NilClass
                 abilities[filter] || abilities[item]
@@ -18,10 +22,17 @@ module BattleCatsRolls
               end
             end
           end
+
+          matched_stats[id] = indicies
+          indicies.any?
         end
       end
 
       private
+
+      def matched_stats
+        @matched_stats ||= {}
+      end
 
       def expand_stat cat, stat, index
         if exclude_talents || index < 2 # 2 is true form, 3 is ultra form
