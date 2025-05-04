@@ -528,7 +528,7 @@ module BattleCatsRolls
     def for_other
       @for_other ||=
         case value = request.params_coercion_with_nil('for_other', :to_s)
-        when 'any', 'all'
+        when 'all', 'any'
           value
         else
           default_for_other
@@ -536,7 +536,7 @@ module BattleCatsRolls
     end
 
     def default_for_other
-      @default_for_other ||= 'any'
+      @default_for_other ||= 'all'
     end
 
     def other
