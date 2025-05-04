@@ -253,6 +253,33 @@
           <% end %>
         </td>
       </tr>
+      <tr>
+        <td class="for">
+          <label for="for_aspect_any">
+            <input type="radio" id="for_aspect_any" name="for_aspect"
+              value="any" <%= checked_for_aspect('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+          <label for="for_aspect_all">
+            <input type="radio" id="for_aspect_all" name="for_aspect"
+              value="all" <%= checked_for_aspect('all') %>
+              onchange="roll(this)">
+            All
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Aspect</strong></div>
+          <% BattleCatsRolls::Filter::Aspect.keys.each do |filter| %>
+          <label for="<%= filter %>">
+            <input type="checkbox" name="aspect" id="<%= filter %>"
+              value="<%= filter %>" <%= checked_aspect(filter) %>
+              onchange="roll(this)">
+            <%= l10n(filter.sub(/^./, &:upcase).tr('_', ' ')) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
     </table>
   </div>
 

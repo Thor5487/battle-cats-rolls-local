@@ -342,6 +342,14 @@ module BattleCatsRolls
       'checked="checked"' if route.other.member?(value)
     end
 
+    def checked_for_aspect value
+      'checked="checked"' if route.for_aspect == value
+    end
+
+    def checked_aspect value
+      'checked="checked"' if route.aspect.member?(value)
+    end
+
     def attack_tr_class attack
       if attack.kind_of?(BattleCatsRolls::TriggeredAttack)
         'triggered_attack'

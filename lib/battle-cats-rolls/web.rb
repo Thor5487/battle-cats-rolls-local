@@ -189,6 +189,7 @@ module BattleCatsRolls
         chain.filter!(route.counter, route.for_counter, Filter::Counter)
         chain.filter!(route.combat, route.for_combat, Filter::Combat)
         chain.filter!(route.other, route.for_other, Filter::Other)
+        chain.filter!(route.aspect, route.for_aspect, Filter::Aspect)
 
         render :cats, cats: chain.cats,
           cats_by_rarity: CrystalBall.group_by_rarity(chain.cats)

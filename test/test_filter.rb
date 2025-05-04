@@ -116,6 +116,90 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(649) # Lovestruck Lesser Demon
   end
 
+  would 'filter high DPS' do
+    ids = chain.filter!(['high_DPS'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(586) # Baby Garu
+  end
+
+  would 'filter very high DPS' do
+    ids = chain.filter!(['very_high_DPS'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(649) # Lovestruck Lesser Demon
+  end
+
+  would 'filter high single blow' do
+    ids = chain.filter!(['high_single_blow'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(284) # Pai-Pai
+  end
+
+  would 'filter very high single blow' do
+    ids = chain.filter!(['very_high_single_blow'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(107) # Kai
+  end
+
+  would 'filter high speed' do
+    ids = chain.filter!(['high_speed'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(93) # Crazed Tank Cat
+  end
+
+  would 'filter very high speed' do
+    ids = chain.filter!(['very_high_speed'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(716) # Mighty Sphinx Korps
+  end
+
+  would 'filter high health' do
+    ids = chain.filter!(['high_health'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(60) # Baby Cat
+  end
+
+  would 'filter very high health' do
+    ids = chain.filter!(['very_high_health'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(770) # Hanasaka Cat
+  end
+
+  would 'filter fast production' do
+    ids = chain.filter!(['fast_production'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(381) # D'artanyan
+  end
+
+  would 'filter very fast production' do
+    ids = chain.filter!(['very_fast_production'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(137) # Momotaro
+  end
+
+  would 'filter cheap' do
+    ids = chain.filter!(['cheap'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(523) # Nymph Cat
+  end
+
+  would 'filter very cheap' do
+    ids = chain.filter!(['very_cheap'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(528) # Slime Cat
+  end
+
   describe 'exclude_talents option' do
     def exclude_talents; true; end
 
