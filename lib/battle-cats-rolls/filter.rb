@@ -134,6 +134,18 @@ module BattleCatsRolls
       end
     end
 
+    module FarReaching
+      def self.match? abilities, stat
+        stat.attacks.any?{ |attack| attack.area_range.end >= 800 }
+      end
+    end
+
+    module VeryFarReaching
+      def self.match? abilities, stat
+        stat.attacks.any?{ |attack| attack.area_range.end >= 1000 }
+      end
+    end
+
     module HighSpeed
       def self.match? abilities, stat=nil
         abilities['speed'].to_i >= 20
@@ -297,7 +309,9 @@ module BattleCatsRolls
       'melee' => Melee,
       'midrange' => Midrange,
       'backline' => Backline,
-      'Rearline' => Rearline,
+      'rearline' => Rearline,
+      'far-reaching' => FarReaching,
+      'very_far-reaching' => VeryFarReaching,
       'high_speed' => HighSpeed,
       'very_high_speed' => VeryHighSpeed,
       'high_health' => HighHealth,
