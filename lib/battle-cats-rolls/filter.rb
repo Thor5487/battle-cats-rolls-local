@@ -109,6 +109,31 @@ module BattleCatsRolls
       end
     end
 
+    module Melee
+      def self.match? abilities, stat=nil
+        abilities['range'].to_i <= 250
+      end
+    end
+
+    module Midrange
+      def self.match? abilities, stat=nil
+        range = abilities['range'].to_i
+        range > 250 && range < 450
+      end
+    end
+
+    module Backline
+      def self.match? abilities, stat=nil
+        abilities['range'].to_i >= 450
+      end
+    end
+
+    module Rearline
+      def self.match? abilities, stat=nil
+        abilities['range'].to_i >= 550
+      end
+    end
+
     module HighSpeed
       def self.match? abilities, stat=nil
         abilities['speed'].to_i >= 20
@@ -269,6 +294,10 @@ module BattleCatsRolls
       'very_high_DPS' => VeryHighDPS,
       'high_single_blow' => HighSingleBlow,
       'very_high_single_blow' => VeryHighSingleBlow,
+      'melee' => Melee,
+      'midrange' => Midrange,
+      'backline' => Backline,
+      'Rearline' => Rearline,
       'high_speed' => HighSpeed,
       'very_high_speed' => VeryHighSpeed,
       'high_health' => HighHealth,
