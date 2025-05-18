@@ -290,7 +290,7 @@
 
   <div class="cats_listing">
   <% each_cats_by_rarity(arg[:cats_by_rarity]) do |rarity, cats| %>
-    <%= header(2, BattleCatsRolls::Cat.wiki_rarity_label(rarity)) %>
+    <%= rarity_header(rarity, cats.size) %>
     <div class="cats_by_rarity">
       <% cats.reverse_each do |c| %>
       <label for="cat-<%= c.id %>">

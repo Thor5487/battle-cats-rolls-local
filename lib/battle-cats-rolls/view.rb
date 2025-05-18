@@ -468,6 +468,11 @@ module BattleCatsRolls
       end
     end
 
+    def rarity_header rarity, size
+      label = BattleCatsRolls::Cat.wiki_rarity_label(rarity)
+      header(2, "#{label} (#{size})", label.downcase.gsub(/\W+/, '-'))
+    end
+
     def header n, name, id=name.to_s.downcase.gsub(/\W+/, '-')
       <<~HTML
         <a href="##{id}">⚓</a> <h#{n} id="#{id}">#{name}</h#{n}>
