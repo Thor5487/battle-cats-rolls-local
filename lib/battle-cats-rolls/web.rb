@@ -161,7 +161,10 @@ module BattleCatsRolls
 
     get '/cats' do
       with_canonical_uri('/cats') do
-        chain = Filter::Chain.new(route.cats.dup, route.exclude_talents)
+        chain = Filter::Chain.new(cats: route.cats.dup,
+          exclude_talents: route.exclude_talents,
+          sum_no_wave: route.sum_no_wave,
+          dps_no_critical: route.dps_no_critical)
 
         from_resistant =
           if route.for_resistant == 'or'

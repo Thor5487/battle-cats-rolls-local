@@ -1,11 +1,12 @@
 <div class="cats">
   <div class="cats_filters">
-    <label for="exclude_talents">
-      <input type="checkbox" id="exclude_talents" name="exclude_talents"
+    <label for="exclude_talents_input">
+      <input type="checkbox" id="exclude_talents_input" name="exclude_talents"
         <%= checked_exclude_talents %>
         onchange="roll(this)">
        Exclude talents
     </label>
+    <%= erb :stats_options %>
 
     <table>
       <tr>
