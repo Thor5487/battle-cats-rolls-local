@@ -82,16 +82,68 @@ module BattleCatsRolls
     end
 
     module HighDPS
-      def self.match? abilities, stat
-        stat.dps_sum.to_i >= 7500 ||
-          stat.attacks_major.any?{ |attack| attack.dps.to_i >= 7500 }
+      Modifier = :itself.to_proc
+
+      def self.match? abilities, stat, modifier=Modifier
+        check(stat, 7500, modifier)
+      end
+
+      def self.check stat, threshold, modifier
+        modifier[stat.dps_sum.to_i] >= threshold ||
+          stat.attacks_major.any?{ |attack|
+            modifier[attack.dps.to_i] >= threshold }
       end
     end
 
     module VeryHighDPS
+      def self.match? abilities, stat, modifier=HighDPS::Modifier
+        HighDPS.check(stat, 15000, modifier)
+      end
+    end
+
+    module ExtremelyHighDPS
+      def self.match? abilities, stat, modifier=HighDPS::Modifier
+        HighDPS.check(stat, 25000, modifier)
+      end
+    end
+
+    module HighEffectiveDPS
+      def self.match? abilities, stat, filter=HighDPS
+        modifilers =
+          case
+          when abilities['strong']
+            [1.8, 1.5]
+          when abilities['massive_damage']
+            [4, 3]
+          when abilities['insane_damage']
+            [6, 5]
+          end
+
+        filter.match?(abilities, stat,
+          *(modifilers && detect_modifier(abilities, *modifilers)))
+      end
+
+      def self.detect_modifier abilities, with_treasures, without_treasures
+        lookup = abilities.method(:[])
+
+        case
+        when SpecializationWithTreasures.values.any?(&lookup)
+          with_treasures
+        when SpecializationWithoutTreasures.values.any?(&lookup)
+          without_treasures
+        end.method(:*)
+      end
+    end
+
+    module VeryHighEffectiveDPS
       def self.match? abilities, stat
-        stat.dps_sum.to_i >= 15000 ||
-          stat.attacks_major.any?{ |attack| attack.dps.to_i >= 15000 }
+        HighEffectiveDPS.match?(abilities, stat, VeryHighDPS)
+      end
+    end
+
+    module ExtremelyHighEffectiveDPS
+      def self.match? abilities, stat
+        HighEffectiveDPS.match?(abilities, stat, ExtremelyHighDPS)
       end
     end
 
@@ -206,18 +258,24 @@ module BattleCatsRolls
       end
     end
 
-    Specialization = {
+    SpecializationWithTreasures = {
       'red' => 'against_red',
       'float' => 'against_float',
       'black' => 'against_black',
       'angel' => 'against_angel',
       'alien' => 'against_alien',
-      'zombie' => 'against_zombie',
+      'zombie' => 'against_zombie'
+    }.freeze
+
+    SpecializationWithoutTreasures = {
       'aku' => 'against_aku',
       'relic' => 'against_relic',
       'white' => 'against_white',
-      'metal' => 'against_metal',
+      'metal' => 'against_metal'
     }.freeze
+
+    Specialization = SpecializationWithTreasures.
+      merge(SpecializationWithoutTreasures).freeze
 
     Buff = {
       'massive_damage' => nil,
@@ -304,6 +362,9 @@ module BattleCatsRolls
       'backswing' => Backswing,
       'high_DPS' => HighDPS,
       'very_high_DPS' => VeryHighDPS,
+      'high_effective_DPS' => HighEffectiveDPS,
+      'very_high_effective_DPS' => VeryHighEffectiveDPS,
+      'extremely_high_effective_DPS' => ExtremelyHighEffectiveDPS,
       'high_single_blow' => HighSingleBlow,
       'very_high_single_blow' => VeryHighSingleBlow,
       'melee' => Melee,
