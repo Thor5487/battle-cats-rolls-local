@@ -84,32 +84,32 @@ module BattleCatsRolls
     module HighDPS
       Modifier = :itself.to_proc
 
-      def self.match? abilities, stat, modifier=Modifier
-        check(stat, 7500, modifier)
+      def self.match? abilities, stat, threshold: 7500, modifier: Modifier
+        check(stat, threshold, :dps, modifier)
       end
 
-      def self.check stat, threshold, modifier
-        modifier[stat.dps_sum.to_i] >= threshold ||
+      def self.check stat, threshold, type, modifier
+        modifier[stat.public_send("#{type}_sum").to_i] >= threshold ||
           stat.attacks_major.any?{ |attack|
-            modifier[attack.dps.to_i] >= threshold }
+            modifier[attack.public_send(type).to_i] >= threshold }
       end
     end
 
     module VeryHighDPS
-      def self.match? abilities, stat, modifier=HighDPS::Modifier
-        HighDPS.check(stat, 15000, modifier)
+      def self.match? abilities, stat, modifier: HighDPS::Modifier
+        HighDPS.match?(abilities, stat, threshold: 15000, modifier: modifier)
       end
     end
 
     module ExtremelyHighDPS
-      def self.match? abilities, stat, modifier=HighDPS::Modifier
-        HighDPS.check(stat, 25000, modifier)
+      def self.match? abilities, stat, modifier: HighDPS::Modifier
+        HighDPS.match?(abilities, stat, threshold: 25000, modifier: modifier)
       end
     end
 
     module HighEffectiveDPS
-      def self.match? abilities, stat, filter=HighDPS
-        modifilers =
+      def self.match? abilities, stat, filter: HighDPS
+        modifiers =
           case
           when abilities['strong']
             [1.8, 1.5]
@@ -119,8 +119,12 @@ module BattleCatsRolls
             [6, 5]
           end
 
-        filter.match?(abilities, stat,
-          *(modifilers && detect_modifier(abilities, *modifilers)))
+        if modifiers
+          filter.match?(abilities, stat,
+            modifier: detect_modifier(abilities, *modifiers))
+        else
+          filter.match?(abilities, stat)
+        end
       end
 
       def self.detect_modifier abilities, with_treasures, without_treasures
@@ -137,27 +141,25 @@ module BattleCatsRolls
 
     module VeryHighEffectiveDPS
       def self.match? abilities, stat
-        HighEffectiveDPS.match?(abilities, stat, VeryHighDPS)
+        HighEffectiveDPS.match?(abilities, stat, filter: VeryHighDPS)
       end
     end
 
     module ExtremelyHighEffectiveDPS
       def self.match? abilities, stat
-        HighEffectiveDPS.match?(abilities, stat, ExtremelyHighDPS)
+        HighEffectiveDPS.match?(abilities, stat, filter: ExtremelyHighDPS)
       end
     end
 
     module HighSingleBlow
-      def self.match? abilities, stat
-        stat.damage_sum.to_i >= 50000 ||
-          stat.attacks_major.any?{ |attack| attack.damage.to_i >= 50000 }
+      def self.match? abilities, stat, threshold: 50000, modifier: HighDPS::Modifier
+        HighDPS.check(stat, threshold, :damage, modifier)
       end
     end
 
     module VeryHighSingleBlow
       def self.match? abilities, stat
-        stat.damage_sum.to_i >= 100000 ||
-          stat.attacks_major.any?{ |attack| attack.damage.to_i >= 100000 }
+        HighSingleBlow.match?(abilities, stat, threshold: 100000)
       end
     end
 
