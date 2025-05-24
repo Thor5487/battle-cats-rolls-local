@@ -58,7 +58,7 @@
   <%= hidden_inputs('theme') %>
   <% end %>
 
-  <% if route.path_info.match?(%r{\A/cats/\d+\z}) %>
+  <% if route.path_info.start_with?('/cats/') %>
   <div class="cats_options">
     <label for="level_input">Level:</label>
     <input
@@ -77,28 +77,15 @@
           onchange="roll(this)">
          Hide wave/surge/explosion attacks
       </label>
-      <label for="sum_no_wave_input">
-        <input type="checkbox" id="sum_no_wave_input" name="sum_no_wave"
-          <%= checked_sum_no_wave %>
-          onchange="roll(this)">
-         Discount wave/surge/explosion from DPS and damage sum
-      </label>
-      <label for="dps_no_critical_input">
-        <input type="checkbox" id="dps_no_critical_input"
-          name="dps_no_critical"
-          <%= checked_dps_no_critical %>
-          onchange="roll(this)">
-         Discount critical strikes and savage blows from DPS
-      </label>
+      <%= erb :stats_options %>
     </div>
   </div>
+  <% elsif route.path_info == '/cats' %>
+    <%= erb :filters %>
+    <%= hidden_inputs('level', 'hide_wave') %>
   <% else %>
     <%= hidden_inputs('level', 'hide_wave',
-      'sum_no_wave', 'dps_no_critical') %>
-  <% end %>
-
-  <% if route.path_info == '/cats' %>
-  <%= erb :filters %>
+      'exclude_talents', 'sum_no_wave', 'dps_no_critical') %>
   <% end %>
 </div>
 <% else %>

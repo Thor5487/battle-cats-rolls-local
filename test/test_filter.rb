@@ -12,7 +12,7 @@ describe BattleCatsRolls::Filter do
 
   def chain
     @chain ||= BattleCatsRolls::Filter::Chain.new(
-      ball.cats.dup, exclude_talents)
+      cats: ball.cats.dup, exclude_talents: exclude_talents)
   end
 
   would 'not give Metal Cat when filtering against metal specialization' do

@@ -4,7 +4,9 @@ require_relative 'stat'
 
 module BattleCatsRolls
   module Filter
-    class Chain < Struct.new(:cats, :exclude_talents)
+    class Chain < Struct.new(:cats,
+      :exclude_talents, :sum_no_wave, :dps_no_critical,
+      keyword_init: true)
       def filter! selected, all_or_any, filter_table
         return if selected.empty?
 
@@ -21,7 +23,10 @@ module BattleCatsRolls
                 abilities[filter] || abilities[item]
               else
                 filter.match?(abilities,
-                  Stat.new(id: id, info: cat, index: index))
+                  Stat.new(id: id, info: cat, index: index,
+                    exclude_talents: exclude_talents,
+                    sum_no_wave: sum_no_wave,
+                    dps_no_critical: dps_no_critical))
               end
             end
           end
