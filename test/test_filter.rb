@@ -168,6 +168,30 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(107) # Kai
   end
 
+  would 'filter high effective single blow' do
+    ids = chain.filter!(['high_effective_single_blow'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(363) # Saber
+    expect(ids).include?(739) # Izanami of Dusk
+  end
+
+  would 'filter very high effective single blow' do
+    ids = chain.filter!(['very_high_effective_single_blow'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(334) # Shadow Gao
+    expect(ids).include?(793) # Katsumi Orochi
+  end
+
+  would 'filter extremely high effective single blow' do
+    ids = chain.filter!(['extremely_high_effective_single_blow'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(284) # Pai-Pai
+    expect(ids).include?(467) # Black Zeus
+  end
+
   would 'filter high speed' do
     ids = chain.filter!(['high_speed'], 'all',
       BattleCatsRolls::Filter::Aspect).keys

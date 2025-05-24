@@ -85,13 +85,9 @@ module BattleCatsRolls
       Modifier = :itself.to_proc
 
       def self.match? abilities, stat, threshold: 7500, modifier: Modifier
-        check(stat, threshold, :dps, modifier)
-      end
-
-      def self.check stat, threshold, type, modifier
-        modifier[stat.public_send("#{type}_sum").to_i] >= threshold ||
+        modifier[stat.dps_sum.to_i] >= threshold ||
           stat.attacks_major.any?{ |attack|
-            modifier[attack.public_send(type).to_i] >= threshold }
+            modifier[attack.dps.to_i] >= threshold }
       end
     end
 
@@ -153,13 +149,40 @@ module BattleCatsRolls
 
     module HighSingleBlow
       def self.match? abilities, stat, threshold: 50000, modifier: HighDPS::Modifier
-        HighDPS.check(stat, threshold, :damage, modifier)
+        stat.attacks_major.any?{ |attack|
+          modifier[attack.damage.to_i] >= threshold }
       end
     end
 
     module VeryHighSingleBlow
+      def self.match? abilities, stat, threshold: 100000, modifier: HighDPS::Modifier
+        HighSingleBlow.match?(abilities, stat,
+          threshold: threshold, modifier: modifier)
+      end
+    end
+
+    module ExtremelyHighSingleBlow
+      def self.match? abilities, stat, threshold: 200000, modifier: HighDPS::Modifier
+        HighSingleBlow.match?(abilities, stat,
+          threshold: threshold, modifier: modifier)
+      end
+    end
+
+    module HighEffectiveSingleBlow
       def self.match? abilities, stat
-        HighSingleBlow.match?(abilities, stat, threshold: 100000)
+        HighEffectiveDPS.match?(abilities, stat, filter: HighSingleBlow)
+      end
+    end
+
+    module VeryHighEffectiveSingleBlow
+      def self.match? abilities, stat
+        HighEffectiveDPS.match?(abilities, stat, filter: VeryHighSingleBlow)
+      end
+    end
+
+    module ExtremelyHighEffectiveSingleBlow
+      def self.match? abilities, stat
+        HighEffectiveDPS.match?(abilities, stat, filter: ExtremelyHighSingleBlow)
       end
     end
 
@@ -369,6 +392,9 @@ module BattleCatsRolls
       'extremely_high_effective_DPS' => ExtremelyHighEffectiveDPS,
       'high_single_blow' => HighSingleBlow,
       'very_high_single_blow' => VeryHighSingleBlow,
+      'high_effective_single_blow' => HighEffectiveSingleBlow,
+      'very_high_effective_single_blow' => VeryHighEffectiveSingleBlow,
+      'extremely_high_effective_single_blow' => ExtremelyHighEffectiveSingleBlow,
       'melee' => Melee,
       'midrange' => Midrange,
       'backline' => Backline,
