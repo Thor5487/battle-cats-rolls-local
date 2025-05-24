@@ -130,6 +130,30 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(649) # Lovestruck Lesser Demon
   end
 
+  would 'filter high effective DPS' do
+    ids = chain.filter!(['high_effective_DPS'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(243) # Santa Kuu
+    expect(ids).include?(654) # Elder Beast Naala
+  end
+
+  would 'filter very high effective DPS' do
+    ids = chain.filter!(['very_high_effective_DPS'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(442) # D'arktanyan
+    expect(ids).include?(691) # Child of Destiny Phono
+  end
+
+  would 'filter extremely high effective DPS' do
+    ids = chain.filter!(['extremely_high_effective_DPS'], 'all',
+      BattleCatsRolls::Filter::Aspect).keys
+
+    expect(ids).include?(693) # Issun Boshi
+    expect(ids).include?(792) # Kaoru Hanayama
+  end
+
   would 'filter high single blow' do
     ids = chain.filter!(['high_single_blow'], 'all',
       BattleCatsRolls::Filter::Aspect).keys
