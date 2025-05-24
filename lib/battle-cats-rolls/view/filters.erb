@@ -30,7 +30,7 @@
               <input type="checkbox" name="against" id="<%= type %>"
                 value="<%= type %>" <%= checked_against(type) %>
                 onchange="roll(this)">
-              <%= l10n(type.capitalize) %>
+              <%= display_filter(type) %>
             </label>
           <% end %>
         </td>
@@ -51,7 +51,7 @@
             <input type="checkbox" name="buff" id="<%= buff %>"
              value="<%= buff %>" onchange="roll(this)"
              <%= checked_buff(buff) %>>
-            <%= l10n(buff.capitalize.tr('_', ' ')) %>
+            <%= display_filter(buff) %>
           </label>
           <% end %>
         </td>
@@ -75,7 +75,7 @@
             <input type="checkbox" name="resistant" id="<%= resistant %>"
               value="<%= resistant %>" <%= checked_resistant(resistant) %>
               onchange="roll(this)">
-            <%= l10n(resistant.capitalize.tr('_', ' ')) %>
+            <%= display_filter(resistant) %>
           </label>
           <% end %>
         </td>
@@ -96,7 +96,7 @@
             <input type="checkbox" name="range" id="<%= range %>"
               value="<%= range %>" <%= checked_range(range) %>
               onchange="roll(this)">
-            <%= l10n(range.capitalize.tr('_', ' ')) %>
+            <%= display_filter(range) %>
           </label>
           <% end %>
         </td>
@@ -113,7 +113,7 @@
             <input type="radio" name="area" id="<%= area %>"
               value="<%= area %>" <%= checked_area(area) %>
               onchange="roll(this)">
-            <%= l10n(area.capitalize) %>
+            <%= display_filter(area) %>
           </label>
           <% end %>
         </td>
@@ -140,7 +140,7 @@
             <input type="checkbox" name="control" id="control_<%= control %>"
               value="<%= control %>" <%= checked_control(control) %>
               onchange="roll(this)">
-            <%= l10n(control.capitalize) %>
+            <%= display_filter(control) %>
           </label>
           <% end %>
         </td>
@@ -167,7 +167,7 @@
             <input type="checkbox" name="immunity" id="immunity_<%= immunity %>"
               value="<%= immunity %>" <%= checked_immunity(immunity) %>
               onchange="roll(this)">
-            <%= l10n(immunity.capitalize.tr('_', ' ')) %>
+            <%= display_filter(immunity) %>
           </label>
           <% end %>
         </td>
@@ -194,7 +194,7 @@
             <input type="checkbox" name="counter" id="<%= filter %>"
               value="<%= filter %>" <%= checked_counter(filter) %>
               onchange="roll(this)">
-            <%= l10n(filter.capitalize.tr('_', ' ')) %>
+            <%= display_filter(filter) %>
           </label>
           <% end %>
         </td>
@@ -221,7 +221,7 @@
             <input type="checkbox" name="combat" id="<%= filter %>"
               value="<%= filter %>" <%= checked_combat(filter) %>
               onchange="roll(this)">
-            <%= l10n(filter.capitalize.tr('_', ' ')) %>
+            <%= display_filter(filter) %>
           </label>
           <% end %>
         </td>
@@ -248,7 +248,7 @@
             <input type="checkbox" name="other" id="<%= filter %>"
               value="<%= filter %>" <%= checked_other(filter) %>
               onchange="roll(this)">
-            <%= l10n(filter.capitalize.tr('_', ' ')) %>
+            <%= display_filter(filter) %>
           </label>
           <% end %>
         </td>
@@ -275,7 +275,7 @@
             <input type="checkbox" name="aspect" id="<%= filter %>"
               value="<%= filter %>" <%= checked_aspect(filter) %>
               onchange="roll(this)">
-            <%= l10n(filter.sub(/^./, &:upcase).tr('_', ' ')) %>
+            <%= display_filter(filter) %>
           </label>
           <% end %>
         </td>
