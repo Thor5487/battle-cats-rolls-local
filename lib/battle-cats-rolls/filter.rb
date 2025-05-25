@@ -120,6 +120,10 @@ module BattleCatsRolls
             [6, 5]
           end
 
+        filter_match?(abilities, stat, modifiers, filter: filter)
+      end
+
+      def self.filter_match? abilities, stat, modifiers, filter:
         if modifiers
           filter.match?(abilities, stat,
             modifier: detect_modifier(abilities, *modifiers))
@@ -191,6 +195,55 @@ module BattleCatsRolls
       end
     end
 
+    module HighHealth
+      def self.match? abilities, stat, threshold: 100000, modifier: HighDPS::Modifier
+        modifier[stat.health] >= threshold
+      end
+    end
+
+    module VeryHighHealth
+      def self.match? abilities, stat, modifier: HighDPS::Modifier
+        HighHealth.match?(
+          abilities, stat, threshold: 200000, modifier: modifier)
+      end
+    end
+
+    module ExtremelyHighHealth
+      def self.match? abilities, stat, modifier: HighDPS::Modifier
+        HighHealth.match?(
+          abilities, stat, threshold: 400000, modifier: modifier)
+      end
+    end
+
+    module HighEffectiveHealth
+      def self.match? abilities, stat, filter: HighHealth
+        modifiers =
+          case
+          when abilities['strong']
+            [2.5, 2]
+          when abilities['resistant']
+            [5, 4]
+          when abilities['insane_resistant']
+            [7, 6]
+          end
+
+        HighEffectiveDPS.filter_match?(
+          abilities, stat, modifiers, filter: filter)
+      end
+    end
+
+    module VeryHighEffectiveHealth
+      def self.match? abilities, stat
+        HighEffectiveHealth.match?(abilities, stat, filter: VeryHighHealth)
+      end
+    end
+
+    module ExtremelyHighEffectiveHealth
+      def self.match? abilities, stat
+        HighEffectiveHealth.match?(abilities, stat, filter: ExtremelyHighHealth)
+      end
+    end
+
     module Melee
       def self.match? abilities, stat=nil
         abilities['range'].to_i <= 250
@@ -237,18 +290,6 @@ module BattleCatsRolls
     module VeryHighSpeed
       def self.match? abilities, stat=nil
         abilities['speed'].to_i >= 40
-      end
-    end
-
-    module HighHealth
-      def self.match? abilities, stat
-        stat.health >= 100000
-      end
-    end
-
-    module VeryHighHealth
-      def self.match? abilities, stat
-        stat.health >= 200000
       end
     end
 
@@ -407,6 +448,9 @@ module BattleCatsRolls
     Health = {
       'high_health' => HighHealth,
       'very_high_health' => VeryHighHealth,
+      'high_effective_health' => HighEffectiveHealth,
+      'very_high_effective_health' => VeryHighEffectiveHealth,
+      'extremely_high_effective_health' => ExtremelyHighEffectiveHealth,
     }.freeze
 
     Aspect = {

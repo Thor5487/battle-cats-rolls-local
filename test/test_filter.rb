@@ -220,6 +220,31 @@ describe BattleCatsRolls::Filter do
     expect(ids).include?(770) # Hanasaka Cat
   end
 
+  would 'filter high effective health' do
+    ids = chain.filter!(['high_effective_health'], 'all',
+      BattleCatsRolls::Filter::Health).keys
+
+    expect(ids).include?(98) # Crazed Fish Cat
+    expect(ids).include?(448) # Miter Saw Cat
+  end
+
+  would 'filter very high effective health' do
+    ids = chain.filter!(['very_high_effective_health'], 'all',
+      BattleCatsRolls::Filter::Health).keys
+
+    expect(ids).include?(323) # Sarukani
+    expect(ids).include?(692) # Ape Lord Luza
+    expect(ids).include?(592) # KAITO & Cat
+  end
+
+  would 'filter extremely high effective health' do
+    ids = chain.filter!(['extremely_high_effective_health'], 'all',
+      BattleCatsRolls::Filter::Health).keys
+
+    expect(ids).include?(73) # Maeda Keiji
+    expect(ids).include?(535) # Hades the Punisher
+  end
+
   would 'filter fast production' do
     ids = chain.filter!(['fast_production'], 'all',
       BattleCatsRolls::Filter::Aspect).keys
