@@ -401,6 +401,11 @@ module BattleCatsRolls
       'extremely_high_effective_single_blow' => ExtremelyHighEffectiveSingleBlow,
     }.freeze
 
+    Health = {
+      'high_health' => HighHealth,
+      'very_high_health' => VeryHighHealth,
+    }.freeze
+
     Aspect = {
       'backswing' => Backswing,
       'melee' => Melee,
@@ -411,8 +416,6 @@ module BattleCatsRolls
       'very_far-reaching' => VeryFarReaching,
       'high_speed' => HighSpeed,
       'very_high_speed' => VeryHighSpeed,
-      'high_health' => HighHealth,
-      'very_high_health' => VeryHighHealth,
       'fast_production' => FastProduction,
       'very_fast_production' => VeryFastProduction,
       'cheap' => Cheap,

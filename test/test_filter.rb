@@ -208,14 +208,14 @@ describe BattleCatsRolls::Filter do
 
   would 'filter high health' do
     ids = chain.filter!(['high_health'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+      BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(60) # Baby Cat
   end
 
   would 'filter very high health' do
     ids = chain.filter!(['very_high_health'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+      BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(770) # Hanasaka Cat
   end

@@ -562,6 +562,24 @@ module BattleCatsRolls
       @damage ||= Array(request.params['damage'])
     end
 
+    def for_health
+      @for_health ||=
+        case value = request.params_coercion_with_nil('for_health', :to_s)
+        when 'all', 'any'
+          value
+        else
+          default_for_health
+        end
+    end
+
+    def default_for_health
+      @default_for_health ||= 'all'
+    end
+
+    def health
+      @health ||= Array(request.params['health'])
+    end
+
     def for_aspect
       @for_aspect ||=
         case value = request.params_coercion_with_nil('for_aspect', :to_s)
@@ -707,6 +725,7 @@ module BattleCatsRolls
         :for_combat, :combat,
         :for_other, :other,
         :for_damage, :damage,
+        :for_health, :health,
         :for_aspect, :aspect) if include_filters
 
       ret = keys.inject({}) do |result, key|
@@ -767,6 +786,8 @@ module BattleCatsRolls
            (key == :other && value == []) ||
            (key == :for_damage && value == default_for_damage) ||
            (key == :damage && value == []) ||
+           (key == :for_health && value == default_for_health) ||
+           (key == :health && value == []) ||
            (key == :for_aspect && value == default_for_aspect) ||
            (key == :aspect && value == []) ||
            (key == :event && value == current_event) ||
