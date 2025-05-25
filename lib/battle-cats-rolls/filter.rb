@@ -294,14 +294,14 @@ module BattleCatsRolls
       'black' => 'against_black',
       'angel' => 'against_angel',
       'alien' => 'against_alien',
-      'zombie' => 'against_zombie'
+      'zombie' => 'against_zombie',
     }.freeze
 
     SpecializationWithoutTreasures = {
       'aku' => 'against_aku',
       'relic' => 'against_relic',
       'white' => 'against_white',
-      'metal' => 'against_metal'
+      'metal' => 'against_metal',
     }.freeze
 
     Specialization = SpecializationWithTreasures.
@@ -388,8 +388,7 @@ module BattleCatsRolls
       'kamikaze' => nil,
     }.freeze
 
-    Aspect = {
-      'backswing' => Backswing,
+    Damage = {
       'high_DPS' => HighDPS,
       'very_high_DPS' => VeryHighDPS,
       'high_effective_DPS' => HighEffectiveDPS,
@@ -400,6 +399,10 @@ module BattleCatsRolls
       'high_effective_single_blow' => HighEffectiveSingleBlow,
       'very_high_effective_single_blow' => VeryHighEffectiveSingleBlow,
       'extremely_high_effective_single_blow' => ExtremelyHighEffectiveSingleBlow,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
       'melee' => Melee,
       'midrange' => Midrange,
       'backline' => Backline,
