@@ -192,7 +192,7 @@ module BattleCatsRolls
         chain.filter!(route.counter, route.for_counter, Filter::Counter)
         chain.filter!(route.combat, route.for_combat, Filter::Combat)
         chain.filter!(route.other, route.for_other, Filter::Other)
-        chain.filter!(route.damage, route.for_damage, Filter::Damage)
+        chain.filter!([route.damage], 'any', Filter::Damage) if route.damage != 'any'
         chain.filter!(route.health, route.for_health, Filter::Health)
         chain.filter!(route.aspect, route.for_aspect, Filter::Aspect)
 
