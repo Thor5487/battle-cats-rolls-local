@@ -257,23 +257,17 @@
       <tr>
         <td class="for">
           <label for="for_damage_any">
-            <input type="radio" id="for_damage_any" name="for_damage"
-              value="any" <%= checked_for_damage('any') %>
+            <input type="radio" id="for_damage_any" name="damage"
+              value="any" <%= checked_damage('any') %>
               onchange="roll(this)">
             Any
-          </label>
-          <label for="for_damage_all">
-            <input type="radio" id="for_damage_all" name="for_damage"
-              value="all" <%= checked_for_damage('all') %>
-              onchange="roll(this)">
-            All
           </label>
         </td>
         <td class="filter" colspan="3">
           <div><strong>Damage</strong></div>
           <% BattleCatsRolls::Filter::Damage.keys.each do |filter| %>
           <label for="<%= filter %>">
-            <input type="checkbox" name="damage" id="<%= filter %>"
+            <input type="radio" name="damage" id="<%= filter %>"
               value="<%= filter %>" <%= checked_damage(filter) %>
               onchange="roll(this)">
             <%= display_filter(filter) %>
