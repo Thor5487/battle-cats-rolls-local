@@ -256,8 +256,8 @@
       </tr>
       <tr>
         <td class="for">
-          <label for="for_dps_any">
-            <input type="radio" id="for_dps_any" name="dps"
+          <label for="dps_any">
+            <input type="radio" id="dps_any" name="dps"
               value="any" <%= checked_dps('any') %>
               onchange="roll(this)">
             Any
@@ -277,8 +277,8 @@
       </tr>
       <tr>
         <td class="for">
-          <label for="for_damage_any">
-            <input type="radio" id="for_damage_any" name="damage"
+          <label for="damage_any">
+            <input type="radio" id="damage_any" name="damage"
               value="any" <%= checked_damage('any') %>
               onchange="roll(this)">
             Any
@@ -298,24 +298,18 @@
       </tr>
       <tr>
         <td class="for">
-          <label for="for_health_any">
-            <input type="radio" id="for_health_any" name="for_health"
-              value="any" <%= checked_for_health('any') %>
+          <label for="health_any">
+            <input type="radio" id="health_any" name="health"
+              value="any" <%= checked_health('any') %>
               onchange="roll(this)">
             Any
-          </label>
-          <label for="for_health_all">
-            <input type="radio" id="for_health_all" name="for_health"
-              value="all" <%= checked_for_health('all') %>
-              onchange="roll(this)">
-            All
           </label>
         </td>
         <td class="filter" colspan="3">
           <div><strong>Health</strong></div>
           <% BattleCatsRolls::Filter::Health.keys.each do |filter| %>
           <label for="<%= filter %>">
-            <input type="checkbox" name="health" id="<%= filter %>"
+            <input type="radio" name="health" id="<%= filter %>"
               value="<%= filter %>" <%= checked_health(filter) %>
               onchange="roll(this)">
             <%= display_filter(filter) %>
