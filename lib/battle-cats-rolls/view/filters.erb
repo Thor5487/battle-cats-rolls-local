@@ -256,6 +256,27 @@
       </tr>
       <tr>
         <td class="for">
+          <label for="for_dps_any">
+            <input type="radio" id="for_dps_any" name="dps"
+              value="any" <%= checked_dps('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>DPS</strong></div>
+          <% BattleCatsRolls::Filter::DPS.keys.each do |filter| %>
+          <label for="<%= filter %>">
+            <input type="radio" name="dps" id="<%= filter %>"
+              value="<%= filter %>" <%= checked_dps(filter) %>
+              onchange="roll(this)">
+            <%= display_filter(filter) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr>
+        <td class="for">
           <label for="for_damage_any">
             <input type="radio" id="for_damage_any" name="damage"
               value="any" <%= checked_damage('any') %>
