@@ -544,6 +544,14 @@ module BattleCatsRolls
       @other ||= Array(request.params['other'])
     end
 
+    def dps
+      @dps ||= request.params_coercion_with_nil('dps', :to_s) || default_dps
+    end
+
+    def default_dps
+      @default_dps ||= 'any'
+    end
+
     def damage
       @damage ||= request.params_coercion_with_nil('damage', :to_s) ||
         default_damage
@@ -715,7 +723,7 @@ module BattleCatsRolls
         :for_counter, :counter,
         :for_combat, :combat,
         :for_other, :other,
-        :damage,
+        :dps, :damage,
         :for_health, :health,
         :for_aspect, :aspect) if include_filters
 
@@ -775,6 +783,7 @@ module BattleCatsRolls
            (key == :combat && value == []) ||
            (key == :for_other && value == default_for_other) ||
            (key == :other && value == []) ||
+           (key == :dps && value == default_dps) ||
            (key == :damage && value == default_damage) ||
            (key == :for_health && value == default_for_health) ||
            (key == :health && value == []) ||

@@ -342,6 +342,10 @@ module BattleCatsRolls
       'checked="checked"' if route.other.member?(value)
     end
 
+    def checked_dps value
+      'checked="checked"' if route.dps == value
+    end
+
     def checked_damage value
       'checked="checked"' if route.damage == value
     end

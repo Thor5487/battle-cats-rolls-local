@@ -388,12 +388,15 @@ module BattleCatsRolls
       'kamikaze' => nil,
     }.freeze
 
-    Damage = {
+    DPS = {
       'high_DPS' => HighDPS,
       'very_high_DPS' => VeryHighDPS,
       'high_effective_DPS' => HighEffectiveDPS,
       'very_high_effective_DPS' => VeryHighEffectiveDPS,
       'extremely_high_effective_DPS' => ExtremelyHighEffectiveDPS,
+    }
+
+    Damage = {
       'high_single_blow' => HighSingleBlow,
       'very_high_single_blow' => VeryHighSingleBlow,
       'high_effective_single_blow' => HighEffectiveSingleBlow,
