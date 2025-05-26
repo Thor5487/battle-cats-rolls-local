@@ -31,8 +31,8 @@
   </tr>
   <% if stat.long_range? %>
   <tr class="border_middle">
-    <td></td>
-    <td></td>
+    <td><%= l10n('Blind spot') %></td>
+    <td><%= stat.blind_spot %></td>
     <td><%= l10n('Range') %></td>
     <td><%= stat.range %></td>
     <td><%= l10n('Enemy base range') %></td>

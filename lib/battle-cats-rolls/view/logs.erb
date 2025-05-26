@@ -15,6 +15,13 @@
   <li>
     Added effective health filters. Thresholds are: 100,000, 200,000, 400,000.
   </li>
+  <li>
+    Display blind spot for long-range and omni-strike cats. <kbd>-</kbd>
+    indicates no blind spot, while 0 means it cannot hit behind itself.
+    A standard area attack can reach -320 behind, so blind spots can be
+    negative as well. It's only considered to have no blind spot if it
+    can hit -320 behind, like a standard area attack.
+  </li>
 </ul>
 
 <%= header(2, "2025-05-25") %>
