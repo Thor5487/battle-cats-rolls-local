@@ -288,4 +288,64 @@ describe BattleCatsRolls::Stat do
       paste
     end
   end
+
+  describe '#blind_spot' do
+    copy do
+      would 'return correct blind spot' do
+        expect(stat.blind_spot).eq blind_spot
+      end
+    end
+
+    describe 'Cats in the Stroller' do
+      def id; 60; end
+      def index; 3; end
+      def blind_spot; -101; end
+
+      paste
+    end
+
+    describe 'Supernova Cosmo' do
+      def id; 136; end
+      def index; 3; end
+      def blind_spot; -301; end
+
+      paste
+    end
+
+    describe 'CAT-10 Gigapult' do
+      def id; 305; end
+      def index; 3; end
+      def blind_spot; 99; end # Would be -68 with wave talent
+
+      paste
+    end
+
+    describe 'Mighty Kristul Muu' do
+      def id; 464; end
+      def blind_spot; '-'; end
+
+      paste
+    end
+
+    describe 'Gaia the Creator' do
+      def id; 494; end
+      def blind_spot; 349; end
+
+      paste
+    end
+
+    describe 'Daybreaker Izanagi' do
+      def id; 732; end
+      def blind_spot; 0; end
+
+      paste
+    end
+
+    describe 'Master of Life Dr. Nova' do
+      def id; 772; end
+      def blind_spot; 74; end
+
+      paste
+    end
+  end
 end

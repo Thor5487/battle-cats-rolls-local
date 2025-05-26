@@ -113,6 +113,16 @@ module BattleCatsRolls
       stat['long_range_0'] || range
     end
 
+    def blind_spot
+      min = attacks.min_by{ |atk| atk.area_range.begin }.area_range.begin
+
+      if -width < min
+        min - 1
+      else
+        '-'
+      end
+    end
+
     def width
       stat['width']
     end
