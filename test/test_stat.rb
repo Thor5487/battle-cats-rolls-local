@@ -334,6 +334,13 @@ describe BattleCatsRolls::Stat do
       paste
     end
 
+    describe 'Chronos the Bride' do
+      def id; 662; end
+      def blind_spot; -68; end
+
+      paste
+    end
+
     describe 'Daybreaker Izanagi' do
       def id; 732; end
       def blind_spot; 0; end
