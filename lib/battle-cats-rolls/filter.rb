@@ -91,7 +91,7 @@ module BattleCatsRolls
 
       def self.match? abilities, stat, threshold: 7500, modifier: Modifier
         modifier[stat.dps_sum.to_i] >= threshold ||
-          stat.attacks_major.any?{ |attack|
+          stat.attacks_raw.any?{ |attack|
             modifier[attack.dps.to_i] >= threshold }
       end
     end
