@@ -367,12 +367,10 @@
     <%= rarity_header(rarity, cats.size) %>
     <div class="cats_by_rarity">
       <% cats.reverse_each do |c| %>
-      <label for="cat-<%= c.id %>">
-        <input type="checkbox" onchange="roll(this)"
-          name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
-          <%= checked_cat(c) %>>
-        <%= link_to_roll(c) %>
-      </label>
+      <input type="checkbox" onchange="roll(this)"
+        name="t" id="cat-<%= c.id %>" value="<%= c.id %>"
+        <%= checked_cat(c) %>>
+      <%= link_to_roll(c) %>
       <% end %>
     </div>
   <% end %>
