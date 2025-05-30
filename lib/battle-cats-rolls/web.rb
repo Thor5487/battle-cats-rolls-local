@@ -155,7 +155,7 @@ module BattleCatsRolls
           talents = {}
         end
 
-        render :stats, cat: cat, level: level, stats: stats, talents: talents
+        render :stats, cat: cat, stats: stats, talents: talents
       end
     end
 

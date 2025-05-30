@@ -122,11 +122,13 @@
 
 <ul>
   <% if cat = arg[:cat] %>
-  <% if wiki = uri_to_wiki(cat) %>
+    <% if wiki = uri_to_wiki(cat) %>
   <li><a href="<%= wiki %>">The Battle Cats Wiki</a></li>
-  <% end %>
+    <% end %>
   <li><a href="<%= uri_to_cat_db(cat) %>">にゃんこ大戦争データベース</a></li>
   <li><a href="<%= uri_to_my_gamatoto(cat) %>">My Gamatoto</a></li>
-  <% end %>
   <li>Assuming maxed blue orbs, treasures, and legend stages cost</li>
+  <% else %>
+  <li>No such cat found</li>
+  <% end %>
 </ul>
