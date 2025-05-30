@@ -39,6 +39,10 @@ module BattleCatsRolls
       super || DefaultLevel
     end
 
+    def effective_level
+      @effective_level ||= [level, info['max_level']].min
+    end
+
     def health
       @health ||=
         (stat['health'] * treasure_multiplier * level_multiplier).round
@@ -309,8 +313,8 @@ module BattleCatsRolls
     def level_multiplier
       @level_multiplier ||= begin
         growth = info['growth'].map{ |percent| percent / 100.0 }
-        reminder = level % 10
-        steps = level / 10
+        reminder = effective_level % 10
+        steps = effective_level / 10
         1 + # base multiplier
           (growth[0...steps].sum * 10) + # sum of every 10 levels
           ((growth[steps] || 0) * reminder) -
