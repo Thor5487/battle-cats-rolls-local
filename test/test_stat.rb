@@ -74,6 +74,13 @@ describe BattleCatsRolls::Stat do
       def health; 33000; end
       paste :check_health
     end
+
+    describe 'Bahamut Cat capped at level 50' do
+      def id; 26; end
+      def level; 999; end
+      def health; 33000; end
+      paste :check_health
+    end
   end
 
   describe 'DPS accounts critical strike and savage blow' do
