@@ -19,6 +19,21 @@
     hiding the advanced filters, all advanced filters will be dropped as
     well.
   </li>
+  <li>
+    Level input is no longer limited at the max level, and can be set to any
+    positive integer >= 1. How stats are calculated does not change, that is
+    it's still limited to the max level. For example, the default is level 30,
+    and the default display for Metal Cat is still showing at level 20, its
+    max, even when the input shows level 30. Now we also show the max level so
+    it's clear if the input is greater than the max, it's calculated at max.
+  </li>
+  <li>
+    The above change should improve the UX when switching view between cats
+    having a lower max level. For example, previously when you visit the
+    Metal Cat, the level can be reduced to 20, and if you use options there,
+    the level input can be then remembered to 20 even when it was set higher
+    before. With this change, level input will never be forced to change.
+  </li>
 </ul>
 
 <%= header(2, "2025-05-26") %>
