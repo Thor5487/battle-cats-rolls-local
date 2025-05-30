@@ -355,6 +355,12 @@ module BattleCatsRolls
       @hide_wave = request.params_coercion_true_or_nil('hide_wave')
     end
 
+    def advanced_filters
+      return @advanced_filters if instance_variable_defined?(:@advanced_filters)
+
+      @advanced_filters = request.params_coercion_true_or_nil('advanced_filters')
+    end
+
     def exclude_talents
       return @exclude_talents if instance_variable_defined?(:@exclude_talents)
 
@@ -700,22 +706,29 @@ module BattleCatsRolls
         seed last event custom rate c_rare c_supa c_uber level lang ui
         version seeker name theme count find
         no_guaranteed force_guaranteed ubers details
-        hide_wave exclude_talents sum_no_wave dps_no_critical
+        advanced_filters exclude_talents sum_no_wave dps_no_critical
+        hide_wave
         o
       ]
 
-      keys.push(
-        :for_against, :against,
-        :for_buff, :buff,
-        :for_resistant, :resistant,
-        :for_range, :range, :area,
-        :for_control, :control,
-        :for_immunity, :immunity,
-        :for_counter, :counter,
-        :for_combat, :combat,
-        :for_other, :other,
-        :dps, :damage, :health,
-        :for_aspect, :aspect) if include_filters
+      if include_filters
+        keys.push(
+          :for_against, :against,
+          :for_buff, :buff,
+          :for_resistant, :resistant,
+          :for_range, :range, :area,
+          :for_control, :control,
+          :for_immunity, :immunity,
+          :for_counter, :counter,
+          :for_combat, :combat,
+          :for_other, :other)
+
+        if advanced_filters
+          keys.push(
+            :dps, :damage, :health,
+            :for_aspect, :aspect)
+        end
+      end
 
       ret = keys.inject({}) do |result, key|
         result[key] = query[key] || __send__(key)
