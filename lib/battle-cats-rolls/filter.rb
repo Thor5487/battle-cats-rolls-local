@@ -245,6 +245,46 @@ module BattleCatsRolls
       end
     end
 
+    module KnockbacksOne
+      def self.display
+        '=1'
+      end
+
+      def self.match? abilities, stat
+        abilities['knockbacks'] == 1
+      end
+    end
+
+    module KnockbacksTwo
+      def self.display
+        '<=2'
+      end
+
+      def self.match? abilities, stat
+        abilities['knockbacks'] <= 2
+      end
+    end
+
+    module KnockbacksFive
+      def self.display
+        '3~5'
+      end
+
+      def self.match? abilities, stat
+        abilities['knockbacks'] >= 3 && abilities['knockbacks'] <= 5
+      end
+    end
+
+    module KnockbacksSix
+      def self.display
+        '>=6'
+      end
+
+      def self.match? abilities, stat
+        abilities['knockbacks'] >= 6
+      end
+    end
+
     module Melee
       def self.match? abilities, stat=nil
         abilities['range'].to_i <= 250
@@ -452,6 +492,13 @@ module BattleCatsRolls
       'very_high_health' => VeryHighHealth,
       'very_high_effective_health' => VeryHighEffectiveHealth,
       'extremely_high_effective_health' => ExtremelyHighEffectiveHealth,
+    }.freeze
+
+    Knockbacks = {
+      '1' => KnockbacksOne,
+      '2' => KnockbacksTwo,
+      '5' => KnockbacksFive,
+      '6' => KnockbacksSix,
     }.freeze
 
     Aspect = {
