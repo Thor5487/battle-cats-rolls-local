@@ -49,6 +49,7 @@
 </div>
 
 <div class="level_options">
+  <% if arg[:cat] || route.advanced_filters %>
   <label for="level_input">Level:</label>
   <input
     type="number" id="level_input" name="level"
@@ -56,6 +57,9 @@
     min="1"
     max="999"
     onclick="this.select()">
+  <% else %>
+  <%= hidden_inputs('level') %>
+  <% end %>
 
   <% if cat = arg[:cat] %>
   Max <%= cat.max_level %>,
