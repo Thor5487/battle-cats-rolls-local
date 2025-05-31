@@ -58,39 +58,19 @@
   <%= hidden_inputs('theme') %>
   <% end %>
 
-  <% if route.path_info.start_with?('/cats/') && cat = arg[:cat] %>
-  <div class="stat_options">
-    <label for="hide_wave_input">
-      <input type="checkbox" id="hide_wave_input" name="hide_wave"
-        <%= checked_hide_wave %>
-        onchange="roll(this)">
-       Hide wave/surge/explosion attacks
-    </label>
-
+  <% if route.path_info.start_with?('/cats/') && arg[:cat] %>
     <%= erb :stats_options %>
-  </div>
-
-  <div class="level_options">
-    <%= erb :level_options %>
-
-    Max <%= cat.max_level %>,
-    Growth rate: <%= growth_rate(cat.growth) %>
-  </div>
   <% elsif route.path_info == '/cats' %>
     <%= erb :filters %>
-    <% if route.advanced_filters %>
-    <%= hidden_inputs('hide_wave') %>
-    <% else %>
-    <%= hidden_inputs('level', 'hide_wave') %>
-    <% end %>
   <% else %>
-    <%= hidden_inputs('level', 'hide_wave',
-      'exclude_talents', 'sum_no_wave', 'dps_no_critical') %>
+    <%= hidden_inputs('advanced_filters', 'hide_wave', 'exclude_talents',
+      'sum_no_wave', 'dps_no_critical', 'level') %>
   <% end %>
 </div>
 <% else %>
-<%= hidden_inputs('level', 'lang', 'version', 'name',
-  'hide_wave', 'sum_no_wave', 'dps_no_critical') %>
+<%= hidden_inputs('lang', 'version', 'name',
+  'advanced_filters', 'hide_wave', 'exclude_talents',
+  'sum_no_wave', 'dps_no_critical', 'level') %>
 <% end %>
 
 <%= hidden_inputs('o') %>
