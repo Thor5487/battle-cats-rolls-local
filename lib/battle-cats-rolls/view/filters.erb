@@ -1,28 +1,6 @@
 <div class="cats">
   <div class="cats_filters">
-    <div class="stat_options">
-      <label for="advanced_filters_input">
-        <input type="checkbox" id="advanced_filters_input" name="advanced_filters"
-          <%= checked_advanced_filters %>
-          onchange="roll(this)">
-         Advanced filters
-      </label>
-
-      <label for="exclude_talents_input">
-        <input type="checkbox" id="exclude_talents_input" name="exclude_talents"
-          <%= checked_exclude_talents %>
-          onchange="roll(this)">
-         Exclude talents
-      </label>
-
-      <%= erb :stats_options %>
-    </div>
-
-    <% if route.advanced_filters %>
-    <div class="level_options">
-      <%= erb :level_options %>
-    </div>
-    <% end %>
+    <%= erb :stats_options %>
 
     <table>
       <tr>
