@@ -432,24 +432,24 @@ module BattleCatsRolls
 
     DPS = {
       'high_DPS' => HighDPS,
-      'very_high_DPS' => VeryHighDPS,
       'high_effective_DPS' => HighEffectiveDPS,
+      'very_high_DPS' => VeryHighDPS,
       'very_high_effective_DPS' => VeryHighEffectiveDPS,
       'extremely_high_effective_DPS' => ExtremelyHighEffectiveDPS,
     }
 
     Damage = {
       'high_single_blow' => HighSingleBlow,
-      'very_high_single_blow' => VeryHighSingleBlow,
       'high_effective_single_blow' => HighEffectiveSingleBlow,
+      'very_high_single_blow' => VeryHighSingleBlow,
       'very_high_effective_single_blow' => VeryHighEffectiveSingleBlow,
       'extremely_high_effective_single_blow' => ExtremelyHighEffectiveSingleBlow,
     }.freeze
 
     Health = {
       'high_health' => HighHealth,
-      'very_high_health' => VeryHighHealth,
       'high_effective_health' => HighEffectiveHealth,
+      'very_high_health' => VeryHighHealth,
       'very_high_effective_health' => VeryHighEffectiveHealth,
       'extremely_high_effective_health' => ExtremelyHighEffectiveHealth,
     }.freeze
