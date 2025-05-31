@@ -576,6 +576,15 @@ module BattleCatsRolls
       @default_health ||= 'any'
     end
 
+    def knockbacks
+      @knockbacks ||= request.params_coercion_with_nil('knockbacks', :to_s) ||
+        default_knockbacks
+    end
+
+    def default_knockbacks
+      @default_knockbacks ||= 'any'
+    end
+
     def for_aspect
       @for_aspect ||=
         case value = request.params_coercion_with_nil('for_aspect', :to_s)
@@ -725,7 +734,7 @@ module BattleCatsRolls
 
         if advanced_filters
           keys.push(
-            :dps, :damage, :health,
+            :dps, :damage, :health, :knockbacks,
             :for_aspect, :aspect)
         end
       end
