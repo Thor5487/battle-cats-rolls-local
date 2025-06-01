@@ -198,6 +198,7 @@ module BattleCatsRolls
         chain.filter!([route.knockbacks], 'any', Filter::Knockbacks) if route.knockbacks != 'any'
         chain.filter!([route.stand], 'any', Filter::Stand) if route.stand != 'any'
         chain.filter!([route.reach], 'any', Filter::Reach) if route.reach != 'any'
+        chain.filter!([route.speed], 'any', Filter::Speed) if route.speed != 'any'
         chain.filter!(route.aspect, route.for_aspect, Filter::Aspect)
 
         render :cats, cats: chain.cats,
