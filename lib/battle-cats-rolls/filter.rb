@@ -518,6 +518,11 @@ module BattleCatsRolls
       'very_high_speed' => VeryHighSpeed,
     }.freeze
 
+    Cost = {
+      'cheap' => Cheap,
+      'very_cheap' => VeryCheap,
+    }.freeze
+
     Production = {
       'fast_production' => FastProduction,
       'very_fast_production' => VeryFastProduction,
@@ -525,8 +530,6 @@ module BattleCatsRolls
 
     Aspect = {
       'backswing' => Backswing,
-      'cheap' => Cheap,
-      'very_cheap' => VeryCheap,
     }.freeze
   end
 end

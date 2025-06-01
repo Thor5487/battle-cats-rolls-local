@@ -199,6 +199,7 @@ module BattleCatsRolls
         chain.filter!([route.stand], 'any', Filter::Stand) if route.stand != 'any'
         chain.filter!([route.reach], 'any', Filter::Reach) if route.reach != 'any'
         chain.filter!([route.speed], 'any', Filter::Speed) if route.speed != 'any'
+        chain.filter!([route.cost], 'any', Filter::Cost) if route.cost != 'any'
         chain.filter!([route.production], 'any', Filter::Production) if route.production != 'any'
         chain.filter!(route.aspect, route.for_aspect, Filter::Aspect)
 
