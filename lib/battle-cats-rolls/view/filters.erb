@@ -408,12 +408,12 @@
         </td>
         <td class="filter" colspan="3">
           <div><strong>Cost</strong></div>
-          <% BattleCatsRolls::Filter::Cost.each_key do |filter| %>
+          <% BattleCatsRolls::Filter::Cost.each do |filter, mod| %>
           <label for="<%= filter %>">
             <input type="radio" name="cost" id="<%= filter %>"
               value="<%= filter %>" <%= checked_cost(filter) %>
               onchange="roll(this)">
-            <%= display_filter(filter) %>
+            <%= mod.display %>
           </label>
           <% end %>
         </td>
