@@ -374,6 +374,10 @@ module BattleCatsRolls
       'checked="checked"' if route.speed == value
     end
 
+    def checked_cost value
+      'checked="checked"' if route.cost == value
+    end
+
     def checked_production value
       'checked="checked"' if route.production == value
     end
