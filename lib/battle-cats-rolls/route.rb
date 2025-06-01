@@ -585,6 +585,15 @@ module BattleCatsRolls
       @default_knockbacks ||= 'any'
     end
 
+    def stand
+      @stand ||= request.params_coercion_with_nil('stand', :to_s) ||
+        default_stand
+    end
+
+    def default_stand
+      @default_stand ||= 'any'
+    end
+
     def for_aspect
       @for_aspect ||=
         case value = request.params_coercion_with_nil('for_aspect', :to_s)
@@ -734,7 +743,7 @@ module BattleCatsRolls
 
         if advanced_filters
           keys.push(
-            :dps, :damage, :health, :knockbacks,
+            :dps, :damage, :health, :knockbacks, :stand,
             :for_aspect, :aspect)
         end
       end
@@ -799,6 +808,7 @@ module BattleCatsRolls
            (key == :damage && value == default_damage) ||
            (key == :health && value == default_health) ||
            (key == :knockbacks && value == default_knockbacks) ||
+           (key == :stand && value == default_stand) ||
            (key == :for_aspect && value == default_for_aspect) ||
            (key == :aspect && value == []) ||
            (key == :event && value == current_event) ||

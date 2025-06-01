@@ -362,6 +362,10 @@ module BattleCatsRolls
       'checked="checked"' if route.knockbacks == value
     end
 
+    def checked_stand value
+      'checked="checked"' if route.stand == value
+    end
+
     def checked_for_aspect value
       'checked="checked"' if route.for_aspect == value
     end

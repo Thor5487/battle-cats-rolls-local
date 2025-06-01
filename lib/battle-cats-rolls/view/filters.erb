@@ -336,6 +336,27 @@
       </tr>
       <tr class="attack">
         <td class="for">
+          <label for="stand_any">
+            <input type="radio" id="stand_any" name="stand"
+              value="any" <%= checked_stand('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Stand</strong></div>
+          <% BattleCatsRolls::Filter::Stand.each_key do |filter| %>
+          <label for="<%= filter %>">
+            <input type="radio" name="stand" id="<%= filter %>"
+              value="<%= filter %>" <%= checked_stand(filter) %>
+              onchange="roll(this)">
+            <%= display_filter(filter) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr class="attack">
+        <td class="for">
           <label for="for_aspect_any">
             <input type="radio" id="for_aspect_any" name="for_aspect"
               value="any" <%= checked_for_aspect('any') %>

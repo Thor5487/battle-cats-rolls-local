@@ -196,6 +196,7 @@ module BattleCatsRolls
         chain.filter!([route.damage], 'any', Filter::Damage) if route.damage != 'any'
         chain.filter!([route.health], 'any', Filter::Health) if route.health != 'any'
         chain.filter!([route.knockbacks], 'any', Filter::Knockbacks) if route.knockbacks != 'any'
+        chain.filter!([route.stand], 'any', Filter::Stand) if route.stand != 'any'
         chain.filter!(route.aspect, route.for_aspect, Filter::Aspect)
 
         render :cats, cats: chain.cats,
