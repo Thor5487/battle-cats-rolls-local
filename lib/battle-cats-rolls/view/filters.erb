@@ -399,6 +399,27 @@
       </tr>
       <tr class="attack">
         <td class="for">
+          <label for="production_any">
+            <input type="radio" id="production_any" name="production"
+              value="any" <%= checked_production('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Production</strong></div>
+          <% BattleCatsRolls::Filter::Production.each_key do |filter| %>
+          <label for="<%= filter %>">
+            <input type="radio" name="production" id="<%= filter %>"
+              value="<%= filter %>" <%= checked_production(filter) %>
+              onchange="roll(this)">
+            <%= display_filter(filter) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr class="attack">
+        <td class="for">
           <label for="for_aspect_any">
             <input type="radio" id="for_aspect_any" name="for_aspect"
               value="any" <%= checked_for_aspect('any') %>

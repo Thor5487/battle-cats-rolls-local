@@ -518,10 +518,13 @@ module BattleCatsRolls
       'very_high_speed' => VeryHighSpeed,
     }.freeze
 
-    Aspect = {
-      'backswing' => Backswing,
+    Production = {
       'fast_production' => FastProduction,
       'very_fast_production' => VeryFastProduction,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
       'cheap' => Cheap,
       'very_cheap' => VeryCheap,
     }.freeze
