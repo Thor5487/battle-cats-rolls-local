@@ -508,10 +508,13 @@ module BattleCatsRolls
       'rearline' => Rearline,
     }.freeze
 
-    Aspect = {
-      'backswing' => Backswing,
+    Reach = {
       'far-reaching' => FarReaching,
       'very_far-reaching' => VeryFarReaching,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
       'high_speed' => HighSpeed,
       'very_high_speed' => VeryHighSpeed,
       'fast_production' => FastProduction,
