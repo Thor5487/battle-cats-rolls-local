@@ -357,6 +357,27 @@
       </tr>
       <tr class="attack">
         <td class="for">
+          <label for="reach_any">
+            <input type="radio" id="reach_any" name="reach"
+              value="any" <%= checked_reach('any') %>
+              onchange="roll(this)">
+            Any
+          </label>
+        </td>
+        <td class="filter" colspan="3">
+          <div><strong>Reach</strong></div>
+          <% BattleCatsRolls::Filter::Reach.each_key do |filter| %>
+          <label for="<%= filter %>">
+            <input type="radio" name="reach" id="<%= filter %>"
+              value="<%= filter %>" <%= checked_reach(filter) %>
+              onchange="roll(this)">
+            <%= display_filter(filter) %>
+          </label>
+          <% end %>
+        </td>
+      </tr>
+      <tr class="attack">
+        <td class="for">
           <label for="for_aspect_any">
             <input type="radio" id="for_aspect_any" name="for_aspect"
               value="any" <%= checked_for_aspect('any') %>
