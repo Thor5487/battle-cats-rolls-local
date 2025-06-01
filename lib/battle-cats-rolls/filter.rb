@@ -328,54 +328,15 @@ module BattleCatsRolls
       end
     end
 
-    module Cheap
-      def self.display
-        '<=1000'
+    class CostFilter < Struct.new(:criteria)
+      def display
+        "<=#{criteria}"
       end
 
-      def self.match? abilities, stat
+      def match? abilities, stat
         case value = stat.production_cost
         when Numeric
-          value <= 1000
-        end
-      end
-    end
-
-    module VeryCheap
-      def self.display
-        '<=500'
-      end
-
-      def self.match? abilities, stat
-        case value = stat.production_cost
-        when Numeric
-          value <= 500
-        end
-      end
-    end
-
-    module Tank
-      def self.display
-        '<=150'
-      end
-
-      def self.match? abilities, stat
-        case value = stat.production_cost
-        when Numeric
-          value <= 150
-        end
-      end
-    end
-
-    module Cat
-      def self.display
-        '<=75'
-      end
-
-      def self.match? abilities, stat
-        case value = stat.production_cost
-        when Numeric
-          value <= 75
+          value <= criteria
         end
       end
     end
@@ -553,10 +514,12 @@ module BattleCatsRolls
     }.freeze
 
     Cost = {
-      '1000' => Cheap,
-      '500' => VeryCheap,
-      '150' => Tank,
-      '75' => Cat,
+      '2500' => CostFilter.new(2500),
+      '1500' => CostFilter.new(1500),
+      '1000' => CostFilter.new(1000),
+      '500' => CostFilter.new(500),
+      '150' => CostFilter.new(150),
+      '75' => CostFilter.new(75),
     }.freeze
 
     Production = {
