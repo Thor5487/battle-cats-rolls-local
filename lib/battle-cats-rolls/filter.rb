@@ -280,12 +280,20 @@ module BattleCatsRolls
     end
 
     module Melee
+      def self.display
+        '<250'
+      end
+
       def self.match? abilities, stat=nil
         abilities['range'].to_i < 250
       end
     end
 
     module Midrange
+      def self.display
+        '250~449'
+      end
+
       def self.match? abilities, stat=nil
         range = abilities['range'].to_i
         range >= 250 && range < 450
@@ -293,12 +301,20 @@ module BattleCatsRolls
     end
 
     module Backline
+      def self.display
+        '>=450'
+      end
+
       def self.match? abilities, stat=nil
         abilities['range'].to_i >= 450
       end
     end
 
     module Rearline
+      def self.display
+        '>=550'
+      end
+
       def self.match? abilities, stat=nil
         abilities['range'].to_i >= 550
       end
