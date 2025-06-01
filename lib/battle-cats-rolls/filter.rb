@@ -346,6 +346,24 @@ module BattleCatsRolls
       end
     end
 
+    module Tank
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 150
+        end
+      end
+    end
+
+    module Cat
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 75
+        end
+      end
+    end
+
     module FastProduction
       def self.match? abilities, stat
         case value = stat.production_cooldown
@@ -521,6 +539,8 @@ module BattleCatsRolls
     Cost = {
       'cheap' => Cheap,
       'very_cheap' => VeryCheap,
+      'tank' => Tank,
+      'cat' => Cat,
     }.freeze
 
     Production = {
