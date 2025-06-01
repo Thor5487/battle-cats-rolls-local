@@ -245,7 +245,7 @@ module BattleCatsRolls
       end
 
       def self.match? abilities, stat
-        abilities['knockbacks'] == 1
+        abilities['knockbacks'] <= 1
       end
     end
 
