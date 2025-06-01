@@ -329,6 +329,10 @@ module BattleCatsRolls
     end
 
     module Cheap
+      def self.display
+        '<=1000'
+      end
+
       def self.match? abilities, stat
         case value = stat.production_cost
         when Numeric
@@ -338,6 +342,10 @@ module BattleCatsRolls
     end
 
     module VeryCheap
+      def self.display
+        '<=500'
+      end
+
       def self.match? abilities, stat
         case value = stat.production_cost
         when Numeric
@@ -347,6 +355,10 @@ module BattleCatsRolls
     end
 
     module Tank
+      def self.display
+        '<=150'
+      end
+
       def self.match? abilities, stat
         case value = stat.production_cost
         when Numeric
@@ -356,6 +368,10 @@ module BattleCatsRolls
     end
 
     module Cat
+      def self.display
+        '<=75'
+      end
+
       def self.match? abilities, stat
         case value = stat.production_cost
         when Numeric
@@ -537,10 +553,10 @@ module BattleCatsRolls
     }.freeze
 
     Cost = {
-      'cheap' => Cheap,
-      'very_cheap' => VeryCheap,
-      'tank' => Tank,
-      'cat' => Cat,
+      '1000' => Cheap,
+      '500' => VeryCheap,
+      '150' => Tank,
+      '75' => Cat,
     }.freeze
 
     Production = {
