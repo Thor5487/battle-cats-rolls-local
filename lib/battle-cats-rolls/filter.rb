@@ -513,10 +513,13 @@ module BattleCatsRolls
       'very_far-reaching' => VeryFarReaching,
     }.freeze
 
-    Aspect = {
-      'backswing' => Backswing,
+    Speed = {
       'high_speed' => HighSpeed,
       'very_high_speed' => VeryHighSpeed,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
       'fast_production' => FastProduction,
       'very_fast_production' => VeryFastProduction,
       'cheap' => Cheap,
