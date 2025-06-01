@@ -612,6 +612,15 @@ module BattleCatsRolls
       @default_speed ||= 'any'
     end
 
+    def production
+      @production ||= request.params_coercion_with_nil('production', :to_s) ||
+        default_production
+    end
+
+    def default_production
+      @default_production ||= 'any'
+    end
+
     def for_aspect
       @for_aspect ||=
         case value = request.params_coercion_with_nil('for_aspect', :to_s)
@@ -762,7 +771,7 @@ module BattleCatsRolls
         if advanced_filters
           keys.push(
             :dps, :damage, :health, :knockbacks,
-            :stand, :reach, :speed,
+            :stand, :reach, :speed, :production,
             :for_aspect, :aspect)
         end
       end
@@ -830,6 +839,7 @@ module BattleCatsRolls
            (key == :stand && value == default_stand) ||
            (key == :reach && value == default_reach) ||
            (key == :speed && value == default_speed) ||
+           (key == :production && value == default_production) ||
            (key == :for_aspect && value == default_for_aspect) ||
            (key == :aspect && value == []) ||
            (key == :event && value == current_event) ||
