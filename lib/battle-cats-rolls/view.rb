@@ -460,9 +460,8 @@ module BattleCatsRolls
     def stat_time frames
       case frames
       when Numeric
-        fps = 30.0
         title = "#{frames} frames"
-        %Q{<span title="#{title}">#{(frames / fps).round(2)}s</span>}
+        %Q{<span title="#{title}">#{(frames.to_f / Stat::FPS).round(2)}s</span>}
       else
         frames || '?'
       end

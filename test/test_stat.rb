@@ -164,7 +164,7 @@ describe BattleCatsRolls::Stat do
       end
 
       def attack_cycle
-        @attack_cycle ||= stat.attack_cycle.to_f / stat.fps
+        @attack_cycle ||= stat.attack_cycle.to_f / BattleCatsRolls::Stat::FPS
       end
 
       copy :test do

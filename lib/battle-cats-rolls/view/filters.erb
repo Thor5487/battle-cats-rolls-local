@@ -429,12 +429,12 @@
         </td>
         <td class="filter" colspan="3">
           <div><strong>Production</strong></div>
-          <% BattleCatsRolls::Filter::Production.each_key do |filter| %>
-          <label for="<%= filter %>">
-            <input type="radio" name="production" id="<%= filter %>"
+          <% BattleCatsRolls::Filter::Production.each do |filter, mod| %>
+          <label for="production-<%= filter %>">
+            <input type="radio" name="production" id="production-<%= filter %>"
               value="<%= filter %>" <%= checked_production(filter) %>
               onchange="roll(this)">
-            <%= display_filter(filter) %>
+            <%= mod.display %>
           </label>
           <% end %>
         </td>

@@ -48,7 +48,7 @@ module BattleCatsRolls
       @dps ||= if stat.kamikaze?
         '-'
       elsif stat.attack_cycle
-        raw_dps = (damage.to_f / stat.attack_cycle) * stat.fps
+        raw_dps = (damage.to_f / stat.attack_cycle) * Stat::FPS
 
         if stat.dps_no_critical
           raw_dps
