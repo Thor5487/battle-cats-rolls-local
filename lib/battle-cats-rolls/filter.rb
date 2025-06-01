@@ -304,15 +304,13 @@ module BattleCatsRolls
       end
     end
 
-    module FarReaching
-      def self.match? abilities, stat
-        stat.attacks.any?{ |attack| attack.area_range.end >= 800 }
+    class ReachFilter < Struct.new(:criteria)
+      def display
+        ">=#{criteria}"
       end
-    end
 
-    module VeryFarReaching
-      def self.match? abilities, stat
-        stat.attacks.any?{ |attack| attack.area_range.end >= 1000 }
+      def match? abilities, stat
+        stat.attacks.any?{ |attack| attack.area_range.end >= criteria }
       end
     end
 
@@ -504,8 +502,10 @@ module BattleCatsRolls
     }.freeze
 
     Reach = {
-      'far-reaching' => FarReaching,
-      'very_far-reaching' => VeryFarReaching,
+      '600' => ReachFilter.new(600),
+      '800' => ReachFilter.new(800),
+      '1000' => ReachFilter.new(1000),
+      '1200' => ReachFilter.new(1200),
     }.freeze
 
     Speed = {
