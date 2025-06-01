@@ -287,14 +287,14 @@ module BattleCatsRolls
 
     module Melee
       def self.match? abilities, stat=nil
-        abilities['range'].to_i <= 250
+        abilities['range'].to_i < 250
       end
     end
 
     module Midrange
       def self.match? abilities, stat=nil
         range = abilities['range'].to_i
-        range > 250 && range < 450
+        range >= 250 && range < 450
       end
     end
 
