@@ -330,15 +330,13 @@ module BattleCatsRolls
       end
     end
 
-    module HighSpeed
-      def self.match? abilities, stat=nil
-        abilities['speed'].to_i >= 20
+    class SpeedFilter < Struct.new(:criteria, :op)
+      def display
+        "#{op}#{criteria}"
       end
-    end
 
-    module VeryHighSpeed
-      def self.match? abilities, stat=nil
-        abilities['speed'].to_i >= 40
+      def match? abilities, stat=nil
+        abilities['speed'].to_i.public_send(op, criteria)
       end
     end
 
@@ -525,8 +523,11 @@ module BattleCatsRolls
     }.freeze
 
     Speed = {
-      'high_speed' => HighSpeed,
-      'very_high_speed' => VeryHighSpeed,
+      '3' => SpeedFilter.new(3, '<='),
+      '5' => SpeedFilter.new(5, '<='),
+      '20' => SpeedFilter.new(20, '>='),
+      '30' => SpeedFilter.new(30, '>='),
+      '40' => SpeedFilter.new(40, '>='),
     }.freeze
 
     Cost = {
