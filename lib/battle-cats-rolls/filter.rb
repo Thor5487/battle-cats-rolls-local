@@ -81,12 +81,6 @@ module BattleCatsRolls
       end
     end
 
-    module Backswing
-      def self.match? abilities, stat
-        stat.push_duration.to_i <= 1
-      end
-    end
-
     module HighDPS
       Modifier = :itself.to_proc
 
@@ -334,6 +328,24 @@ module BattleCatsRolls
       end
     end
 
+    module Cheap
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 1000
+        end
+      end
+    end
+
+    module VeryCheap
+      def self.match? abilities, stat
+        case value = stat.production_cost
+        when Numeric
+          value <= 500
+        end
+      end
+    end
+
     module FastProduction
       def self.match? abilities, stat
         case value = stat.production_cooldown
@@ -352,21 +364,9 @@ module BattleCatsRolls
       end
     end
 
-    module Cheap
+    module Backswing
       def self.match? abilities, stat
-        case value = stat.production_cost
-        when Numeric
-          value <= 1000
-        end
-      end
-    end
-
-    module VeryCheap
-      def self.match? abilities, stat
-        case value = stat.production_cost
-        when Numeric
-          value <= 500
-        end
+        stat.push_duration.to_i <= 1
       end
     end
 
