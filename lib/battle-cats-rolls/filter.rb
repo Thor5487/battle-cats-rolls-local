@@ -501,12 +501,15 @@ module BattleCatsRolls
       '6' => KnockbacksSix,
     }.freeze
 
-    Aspect = {
-      'backswing' => Backswing,
+    Stand = {
       'melee' => Melee,
       'midrange' => Midrange,
       'backline' => Backline,
       'rearline' => Rearline,
+    }.freeze
+
+    Aspect = {
+      'backswing' => Backswing,
       'far-reaching' => FarReaching,
       'very_far-reaching' => VeryFarReaching,
       'high_speed' => HighSpeed,
