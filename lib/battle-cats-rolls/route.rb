@@ -798,6 +798,7 @@ module BattleCatsRolls
            (key == :dps && value == default_dps) ||
            (key == :damage && value == default_damage) ||
            (key == :health && value == default_health) ||
+           (key == :knockbacks && value == default_knockbacks) ||
            (key == :for_aspect && value == default_for_aspect) ||
            (key == :aspect && value == []) ||
            (key == :event && value == current_event) ||
