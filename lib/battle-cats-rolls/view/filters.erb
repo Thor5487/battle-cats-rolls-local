@@ -366,12 +366,12 @@
         </td>
         <td class="filter" colspan="3">
           <div><strong>Reach</strong></div>
-          <% BattleCatsRolls::Filter::Reach.each_key do |filter| %>
+          <% BattleCatsRolls::Filter::Reach.each do |filter, mod| %>
           <label for="<%= filter %>">
             <input type="radio" name="reach" id="<%= filter %>"
               value="<%= filter %>" <%= checked_reach(filter) %>
               onchange="roll(this)">
-            <%= display_filter(filter) %>
+            <%= mod.display %>
           </label>
           <% end %>
         </td>
