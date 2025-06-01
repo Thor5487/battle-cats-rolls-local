@@ -10,6 +10,7 @@ module BattleCatsRolls
     keyword_init: true)
 
     DefaultLevel = 30
+    FPS = 30
 
     def inspect
       "#<#{self.class} id=#{id.inspect} name=#{name.inspect}>"
@@ -29,10 +30,6 @@ module BattleCatsRolls
       else
         info.dig('stat', index)
       end
-    end
-
-    def fps
-      30
     end
 
     def level

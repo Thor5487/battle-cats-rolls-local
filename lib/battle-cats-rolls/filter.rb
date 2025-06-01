@@ -353,20 +353,15 @@ module BattleCatsRolls
       end
     end
 
-    module FastProduction
-      def self.match? abilities, stat
-        case value = stat.production_cooldown
-        when Numeric
-          value <= 350
-        end
+    class ProductionFilter < Struct.new(:criteria)
+      def display
+        "<=#{(criteria.to_f / Stat::FPS).round(2)}s"
       end
-    end
 
-    module VeryFastProduction
-      def self.match? abilities, stat
+      def match? abilities, stat
         case value = stat.production_cooldown
         when Numeric
-          value <= 175
+          value <= criteria
         end
       end
     end
@@ -540,8 +535,9 @@ module BattleCatsRolls
     }.freeze
 
     Production = {
-      'fast_production' => FastProduction,
-      'very_fast_production' => VeryFastProduction,
+      '350' => ProductionFilter.new(350),
+      '175' => ProductionFilter.new(175),
+      '60' => ProductionFilter.new(60),
     }.freeze
 
     Aspect = {
