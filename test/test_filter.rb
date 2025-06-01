@@ -193,15 +193,15 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter high speed' do
-    ids = chain.filter!(['high_speed'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['20'], 'all',
+      BattleCatsRolls::Filter::Speed).keys
 
     expect(ids).include?(93) # Crazed Tank Cat
   end
 
   would 'filter very high speed' do
-    ids = chain.filter!(['very_high_speed'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['40'], 'all',
+      BattleCatsRolls::Filter::Speed).keys
 
     expect(ids).include?(716) # Mighty Sphinx Korps
   end
@@ -246,29 +246,29 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter fast production' do
-    ids = chain.filter!(['fast_production'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['350'], 'all',
+      BattleCatsRolls::Filter::Production).keys
 
     expect(ids).include?(381) # D'artanyan
   end
 
   would 'filter very fast production' do
-    ids = chain.filter!(['very_fast_production'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['175'], 'all',
+      BattleCatsRolls::Filter::Production).keys
 
     expect(ids).include?(137) # Momotaro
   end
 
   would 'filter cheap' do
-    ids = chain.filter!(['cheap'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['1000'], 'all',
+      BattleCatsRolls::Filter::Cost).keys
 
     expect(ids).include?(523) # Nymph Cat
   end
 
   would 'filter very cheap' do
-    ids = chain.filter!(['very_cheap'], 'all',
-      BattleCatsRolls::Filter::Aspect).keys
+    ids = chain.filter!(['500'], 'all',
+      BattleCatsRolls::Filter::Cost).keys
 
     expect(ids).include?(528) # Slime Cat
   end
