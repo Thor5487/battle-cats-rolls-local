@@ -117,21 +117,21 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter high DPS' do
-    ids = chain.filter!(['high_DPS'], 'all',
+    ids = chain.filter!(['high'], 'all',
       BattleCatsRolls::Filter::DPS).keys
 
     expect(ids).include?(586) # Baby Garu
   end
 
   would 'filter very high DPS' do
-    ids = chain.filter!(['very_high_DPS'], 'all',
+    ids = chain.filter!(['very_high'], 'all',
       BattleCatsRolls::Filter::DPS).keys
 
     expect(ids).include?(649) # Lovestruck Lesser Demon
   end
 
   would 'filter high effective DPS' do
-    ids = chain.filter!(['high_effective_DPS'], 'all',
+    ids = chain.filter!(['high_effectively'], 'all',
       BattleCatsRolls::Filter::DPS).keys
 
     expect(ids).include?(243) # Santa Kuu
@@ -139,7 +139,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter very high effective DPS' do
-    ids = chain.filter!(['very_high_effective_DPS'], 'all',
+    ids = chain.filter!(['very_high_effectively'], 'all',
       BattleCatsRolls::Filter::DPS).keys
 
     expect(ids).include?(442) # D'arktanyan
@@ -147,7 +147,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter extremely high effective DPS' do
-    ids = chain.filter!(['extremely_high_effective_DPS'], 'all',
+    ids = chain.filter!(['extremely_high_effectively'], 'all',
       BattleCatsRolls::Filter::DPS).keys
 
     expect(ids).include?(693) # Issun Boshi
@@ -155,21 +155,21 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter high single blow' do
-    ids = chain.filter!(['high_single_blow'], 'all',
+    ids = chain.filter!(['high'], 'all',
       BattleCatsRolls::Filter::Damage).keys
 
     expect(ids).include?(284) # Pai-Pai
   end
 
   would 'filter very high single blow' do
-    ids = chain.filter!(['very_high_single_blow'], 'all',
+    ids = chain.filter!(['very_high'], 'all',
       BattleCatsRolls::Filter::Damage).keys
 
     expect(ids).include?(107) # Kai
   end
 
   would 'filter high effective single blow' do
-    ids = chain.filter!(['high_effective_single_blow'], 'all',
+    ids = chain.filter!(['high_effectively'], 'all',
       BattleCatsRolls::Filter::Damage).keys
 
     expect(ids).include?(363) # Saber
@@ -177,7 +177,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter very high effective single blow' do
-    ids = chain.filter!(['very_high_effective_single_blow'], 'all',
+    ids = chain.filter!(['very_high_effectively'], 'all',
       BattleCatsRolls::Filter::Damage).keys
 
     expect(ids).include?(334) # Shadow Gao
@@ -185,7 +185,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter extremely high effective single blow' do
-    ids = chain.filter!(['extremely_high_effective_single_blow'], 'all',
+    ids = chain.filter!(['extremely_high_effectively'], 'all',
       BattleCatsRolls::Filter::Damage).keys
 
     expect(ids).include?(284) # Pai-Pai
@@ -207,21 +207,21 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter high health' do
-    ids = chain.filter!(['high_health'], 'all',
+    ids = chain.filter!(['high'], 'all',
       BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(60) # Baby Cat
   end
 
   would 'filter very high health' do
-    ids = chain.filter!(['very_high_health'], 'all',
+    ids = chain.filter!(['very_high'], 'all',
       BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(770) # Hanasaka Cat
   end
 
   would 'filter high effective health' do
-    ids = chain.filter!(['high_effective_health'], 'all',
+    ids = chain.filter!(['high_effectively'], 'all',
       BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(98) # Crazed Fish Cat
@@ -229,7 +229,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter very high effective health' do
-    ids = chain.filter!(['very_high_effective_health'], 'all',
+    ids = chain.filter!(['very_high_effectively'], 'all',
       BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(323) # Sarukani
@@ -238,7 +238,7 @@ describe BattleCatsRolls::Filter do
   end
 
   would 'filter extremely high effective health' do
-    ids = chain.filter!(['extremely_high_effective_health'], 'all',
+    ids = chain.filter!(['extremely_high_effectively'], 'all',
       BattleCatsRolls::Filter::Health).keys
 
     expect(ids).include?(73) # Maeda Keiji
