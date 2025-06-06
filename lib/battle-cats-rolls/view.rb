@@ -27,7 +27,7 @@ module BattleCatsRolls
     def meta_description
       if arg&.dig(:stats)
         stat = arg[:stats].first
-        h "#{stat.name} - #{stat.desc}"
+        h "#{stat.name} - #{stat.desc.tr("\n", ' ').squeeze(' ')}"
       else
         route.path_info[/\w+/]&.capitalize || 'Tracks'
       end
