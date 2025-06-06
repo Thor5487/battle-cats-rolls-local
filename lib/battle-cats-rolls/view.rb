@@ -24,6 +24,15 @@ module BattleCatsRolls
 
     private
 
+    def meta_description
+      if arg&.dig(:stats)
+        stat = arg[:stats].first
+        h "#{stat.name} - #{stat.desc}"
+      else
+        route.path_info[/\w+/]&.capitalize || 'Tracks'
+      end
+    end
+
     def l10n text
       L10n.translate(route.ui_lang, text)
     end
