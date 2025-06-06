@@ -454,7 +454,7 @@ module BattleCatsRolls
     end
 
     def display_filter filter
-      l10n(filter.sub(/^./, &:upcase).tr('_', ' '))
+      h l10n(filter.sub(/^./, &:upcase).tr('_', ' '))
     end
 
     def stat_time frames
