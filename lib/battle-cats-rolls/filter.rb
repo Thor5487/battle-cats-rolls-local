@@ -526,6 +526,8 @@ module BattleCatsRolls
     }.freeze
 
     Cost = {
+      '4500' => CostFilter.new(4500),
+      '3500' => CostFilter.new(3500),
       '2500' => CostFilter.new(2500),
       '1500' => CostFilter.new(1500),
       '1000' => CostFilter.new(1000),
