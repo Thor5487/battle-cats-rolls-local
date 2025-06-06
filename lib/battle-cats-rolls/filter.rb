@@ -473,27 +473,27 @@ module BattleCatsRolls
     }.freeze
 
     DPS = {
-      'high_DPS' => HighDPS,
-      'high_effective_DPS' => HighEffectiveDPS,
-      'very_high_DPS' => VeryHighDPS,
-      'very_high_effective_DPS' => VeryHighEffectiveDPS,
-      'extremely_high_effective_DPS' => ExtremelyHighEffectiveDPS,
+      'high' => HighDPS,
+      'high_effectively' => HighEffectiveDPS,
+      'very_high' => VeryHighDPS,
+      'very_high_effectively' => VeryHighEffectiveDPS,
+      'extremely_high_effectively' => ExtremelyHighEffectiveDPS,
     }
 
     Damage = {
-      'high_single_blow' => HighSingleBlow,
-      'high_effective_single_blow' => HighEffectiveSingleBlow,
-      'very_high_single_blow' => VeryHighSingleBlow,
-      'very_high_effective_single_blow' => VeryHighEffectiveSingleBlow,
-      'extremely_high_effective_single_blow' => ExtremelyHighEffectiveSingleBlow,
+      'high' => HighSingleBlow,
+      'high_effectively' => HighEffectiveSingleBlow,
+      'very_high' => VeryHighSingleBlow,
+      'very_high_effectively' => VeryHighEffectiveSingleBlow,
+      'extremely_high_effectively' => ExtremelyHighEffectiveSingleBlow,
     }.freeze
 
     Health = {
-      'high_health' => HighHealth,
-      'high_effective_health' => HighEffectiveHealth,
-      'very_high_health' => VeryHighHealth,
-      'very_high_effective_health' => VeryHighEffectiveHealth,
-      'extremely_high_effective_health' => ExtremelyHighEffectiveHealth,
+      'high' => HighHealth,
+      'high_effectively' => HighEffectiveHealth,
+      'very_high' => VeryHighHealth,
+      'very_high_effectively' => VeryHighEffectiveHealth,
+      'extremely_high_effectively' => ExtremelyHighEffectiveHealth,
     }.freeze
 
     Knockbacks = {
