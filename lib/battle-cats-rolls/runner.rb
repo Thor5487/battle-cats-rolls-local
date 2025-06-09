@@ -22,7 +22,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '14.3.0',
+        '14.4.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
@@ -38,7 +38,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         'kr',
-        '14.3.0',
+        '14.4.0',
         'jp.co.ponos.battlecatskr'
       ]
     end
@@ -204,6 +204,15 @@ module BattleCatsRolls
         end
     end
 
+    def preserved_server_file_version
+      @preserved_server_file_version ||=
+        if File.exist?(preserved_server_file_version_path)
+          YAML.safe_load_file(preserved_server_file_version_path)
+        else
+          {}
+        end
+    end
+
     def provider
       @provider ||=
         if File.exist?(extract_path)
@@ -324,10 +333,18 @@ module BattleCatsRolls
     def wget_server_zip tsv, packs
       bucket = apk_id[/\w+$/]
       offset = tsv[/\d+(?=\.tsv$)/]
-      packs.map do |pack|
-        identifier = pack[/\d+_\d+/].sub('_', "_#{offset}_")
+      packs.filter_map do |pack|
+        identifier = if version = pack[/\d+_\d+/]
+          version.sub('_', "_#{offset}_")
+        elsif version = preserved_server_file_version[offset.to_i]
+          "#{to_version_id(version)}_#{offset}_00"
+        else
+          next # We don't know the version, skip
+        end
+
         filename = "#{bucket}_#{identifier}.zip"
         url = "https://nyanko-assets.ponosgames.com/iphone/#{bucket}/download/#{filename}"
+
         wget(AwsCf.new(url).generate, "#{app_data_path}/#{filename}")
 
         filename
@@ -353,7 +370,7 @@ module BattleCatsRolls
     def download_server_pack
       Dir["#{app_data_path}/download_*.tsv"].each do |tsv|
         packs = File.read(tsv).
-          scan(/\bImageDataServer_\d+_\d+_\w+(?=\.pack\b)/).uniq
+          scan(/\b\w*ImageDataServer(?:_\d+_\d+_\w+)?(?=\.pack\b)/).uniq
 
         next if packs.empty?
 
@@ -456,12 +473,20 @@ module BattleCatsRolls
       @preserved_gacha_path ||= data_path('gacha.yaml')
     end
 
+    def preserved_server_file_version_path
+      @preserved_server_file_version_path ||= data_path('server.yaml')
+    end
+
     def extract_path
       @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
     end
 
     def version_id
-      @version_id ||= version.split('.').map{|int| sprintf('%02d', int)}.join
+      @version_id ||= to_version_id(version)
+    end
+
+    def to_version_id version
+      version.split('.').map{|int| sprintf('%02d', int)}.join
     end
 
     def jwt
