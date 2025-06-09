@@ -14,7 +14,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         'en',
-        '14.3.0',
+        '14.4.0',
         'jp.co.ponos.battlecatsen'
       ]
     end
