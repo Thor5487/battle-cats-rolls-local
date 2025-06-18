@@ -84,8 +84,6 @@ describe BattleCatsRolls::Stat do
   end
 
   describe 'DPS accounts critical strike and savage blow' do
-    def lang; 'tw'; end # No DPS data for en
-
     describe 'Kyosaka Nanaho' do
       def id; 545; end
       def level; 45; end # This level can test rounding error
@@ -146,8 +144,6 @@ describe BattleCatsRolls::Stat do
   end
 
   describe 'account wave attacks' do
-    def lang; 'jp'; end # No DPS data for en
-
     describe 'Shampoo' do
       def id; 600; end
 
@@ -241,7 +237,6 @@ describe BattleCatsRolls::Stat do
 
   describe 'account surge attacks' do
     describe 'Fabulous Pasalan' do
-      def lang; 'jp'; end
       def id; 565; end
       def index; 2; end
 
