@@ -29886,3 +29886,113 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2025-06-20_946:
+    start_on: 2025-06-20
+    end_on: 2025-06-22
+    version: '140400'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-06-20_964:
+    start_on: 2025-06-20
+    end_on: 2025-06-24
+    version: '140400'
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    id: 964
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-06-20_986:
+    start_on: 2025-06-20
+    end_on: 2025-06-22
+    version: '140400'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-06-22_943:
+    start_on: 2025-06-22
+    end_on: 2025-06-24
+    version: '140400'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-06-22_948:
+    start_on: 2025-06-22
+    end_on: 2025-06-24
+    version: '140400'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-06-24_942:
+    start_on: 2025-06-24
+    end_on: 2025-06-27
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ An awesome variety pack of crazy Cats!
+    id: 942
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-24_944:
+    start_on: 2025-06-24
+    end_on: 2025-06-27
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Cosmic cuties, here to crush your enemies!
+    id: 944
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-24_949:
+    start_on: 2025-06-24
+    end_on: 2025-06-27
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Ultimate anti-Zombie firepower!
+    id: 949
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-27_947:
+    start_on: 2025-06-27
+    end_on: 2025-06-30
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ The Cats' mightiest defenders of justice!
+    id: 947
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-27_950:
+    start_on: 2025-06-27
+    end_on: 2025-06-30
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Spooky beauties from beyond!
+    id: 950
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-27_951:
+    start_on: 2025-06-27
+    end_on: 2025-06-30
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Adorable avatars of elemental might!
+    id: 951
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
