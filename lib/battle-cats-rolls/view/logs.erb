@@ -10,6 +10,16 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2025-06-18") %>
+<ul>
+  <li>
+    Fixed a minor bug that all triggered attacks should be area attacks.
+    They should not inherit the type from the main attack, because so far
+    wave, surge, and explosion are all area attack, while the main attack
+    can be single ranged.
+  </li>
+</ul>
+
 <%= header(2, "2025-06-06") %>
 <ul>
   <li>Compact the descriptions for advanced filters.</li>
