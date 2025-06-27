@@ -29996,3 +29996,83 @@ events:
     supa: 2500
     uber: 1000
     legend: 60
+  2025-06-30_945:
+    start_on: 2025-06-30
+    end_on: 2025-07-02
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Dragon kings of overwhelming power!
+    id: 945
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-30_946:
+    start_on: 2025-06-30
+    end_on: 2025-07-02
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Mythical fantasy Cat heroes!
+    id: 946
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-06-30_986:
+    start_on: 2025-06-30
+    end_on: 2025-07-02
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Unstoppable Eldritch Cats(?)!
+    id: 986
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-07-02_943:
+    start_on: 2025-07-02
+    end_on: 2025-07-04
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Masters of battle join the Cat cause!
+    id: 943
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-07-02_948:
+    start_on: 2025-07-02
+    end_on: 2025-07-04
+    version: '140400'
+    name: Double the Uber / Legend chances! ★ Glorious gods of the Cat pantheon!
+    id: 948
+    rare: 6440
+    supa: 2500
+    uber: 1000
+    legend: 60
+  2025-07-04_944:
+    start_on: 2025-07-04
+    end_on: 2025-07-08
+    version: '140400'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 944
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-04_949:
+    start_on: 2025-07-04
+    end_on: 2025-07-08
+    version: '140400'
+    name: 'Tough defense vs 3 enemy types: Mighty Sphinx Korps! ★ Tap banner for more info!'
+    id: 949
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-04_963:
+    start_on: 2025-07-04
+    end_on: 2025-07-08
+    version: '140400'
+    name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    id: 963
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
