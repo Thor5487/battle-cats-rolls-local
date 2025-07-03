@@ -30,7 +30,7 @@ module BattleCatsRolls
     def self.jp
       @jp ||= [
         'jp',
-        '14.4.0',
+        '14.5.0',
         'jp.co.ponos.battlecats'
       ]
     end
@@ -258,7 +258,7 @@ module BattleCatsRolls
       else
         wget(apk_url, apk_path)
       end
-    rescue VersionNotFound
+    rescue VersionNotFound, SocketError
       false
     else
       true
