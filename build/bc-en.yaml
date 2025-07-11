@@ -30125,3 +30125,63 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2025-07-14_945:
+    start_on: 2025-07-14
+    end_on: 2025-07-18
+    version: '140400'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-14_946:
+    start_on: 2025-07-14
+    end_on: 2025-07-18
+    version: '140400'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-14_986:
+    start_on: 2025-07-14
+    end_on: 2025-07-18
+    version: '140400'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-18_943:
+    start_on: 2025-07-18
+    end_on: 2025-07-22
+    version: '140400'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-18_948:
+    start_on: 2025-07-18
+    end_on: 2025-07-22
+    version: '140400'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-07-18_964:
+    start_on: 2025-07-18
+    end_on: 2025-07-22
+    version: '140400'
+    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    id: 964
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
