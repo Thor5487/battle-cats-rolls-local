@@ -30722,3 +30722,47 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2025-07-23_946:
+    start_on: 2025-07-23
+    end_on: 2025-07-25
+    version: '140500'
+    name: 進化後に召喚能力を持つキャラクター「花咲かじいさん」参戦！★詳細はバナーをタップ!!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-07-23_998:
+    start_on: 2025-07-23
+    end_on: 2025-07-28
+    version: '140500'
+    name: 新たな伝説レアと超激レアのキャラクターが参戦！エヴァンゲリオンコラボガチャ登場！
+    id: 998
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-07-23_999:
+    start_on: 2025-07-23
+    end_on: 2025-07-28
+    version: '140500'
+    name: 新たな伝説レアのキャラクターが参戦！エヴァンゲリオンコラボガチャ2nd登場！
+    id: 999
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-07-25_986:
+    start_on: 2025-07-25
+    end_on: 2025-07-28
+    version: '140500'
+    name: 進化後に召喚能力を持つキャラクター「マモルガ」参戦！★詳細はバナーをタップ!!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
