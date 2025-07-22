@@ -7465,13 +7465,6 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
-  789:
-    name: [789-2]
-    desc: []
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1}]
-    rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
   790:
     name: [Baki Hanma, Baki Hanma CC]
     desc: ["Joining from Baki! Young Champion of the \nUnderground Arena who has won many fierce\nbattles. May Knockback Aku and Pierce Shields.", "Joining from Baki! Desires strength to \ndefeat his father Yujiro Hanma.\nMay Knockback Aku and Pierce Shields."]

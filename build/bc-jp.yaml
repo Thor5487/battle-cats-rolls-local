@@ -2626,13 +2626,6 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
-  183:
-    name: [183-1, 183-2]
-    desc: []
-    stat: [{health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, width: 320, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 17}, {health: 330, knockbacks: 2, speed: 15, cost: 380, production_cooldown: 255, attack_cooldown: 40, range: 350, width: 320, area_effect: 1, damage_0: 160, attack_time_0: 37, attack_duration: 15}]
-    rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
   184:
     name: [にゃんこカートR, にゃんこカートG, にゃんこカートP]
     desc: ["3DS版「とびだす！にゃんこ大戦争」記念キャラ\nカートにテニスにパーティも大好き多趣味にゃんこ\n敵を倒したときにお金を多くもらえる", "3DS版「とびだす！にゃんこ大戦争」記念キャラ\nお化けが大嫌いな永遠の２番手にゃんこ\n敵を倒したときにお金を多くもらえる", "3DS版「とびだす！にゃんこ大戦争」記念キャラ\nいつもさらわれてばかりのお姫様にゃんこ\n敵を倒したときにお金を多くもらえる"]
