@@ -7626,13 +7626,6 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
-  789:
-    name: [789-2]
-    desc: []
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1}]
-    rarity: 1
-    max_level: 50
-    growth: [20, 20, 20, 20, 20]
   790:
     name: [範馬刃牙, 範馬刃牙CC]
     desc: ["從「範馬刃牙」來參戰！在地下競技場的\n多次死鬥脫穎而出的年輕冠軍\n有時候能打飛惡魔並破壞惡魔盾", "從「範馬刃牙」來參戰！為了打倒父親\n範馬勇次郎而不斷尋求變強的方法\n有時候能打飛惡魔並破壞惡魔盾"]
