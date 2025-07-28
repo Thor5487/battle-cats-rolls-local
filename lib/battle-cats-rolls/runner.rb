@@ -231,8 +231,6 @@ module BattleCatsRolls
 
     def download_apk
       %w[
-        https://www.apkmonk.com/app/%{id}/
-        https://apksos.com/app/%{id}
         https://d.apkpure.com/b/XAPK/%{id}
         https://d.apkpure.com/b/APK/%{id}
       ].find do |template|
@@ -245,11 +243,6 @@ module BattleCatsRolls
       FileUtils.mkdir_p(app_data_path)
 
       case apk_url
-      when %r{apkmonk\.com/app}
-        wget(monk_donwload_link(apk_url), apk_path)
-      when %r{apksos\.com/app}
-        wget(sos_download_link(*sos_download_link(apk_url)).first, apk_path)
-        extract_sos_bundle
       when %r{apkpure\.com/b/XAPK}
         wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
         extract_apkpure_bundle
@@ -262,64 +255,6 @@ module BattleCatsRolls
       false
     else
       true
-    end
-
-    def monk_donwload_link url
-      require 'json'
-
-      uri = URI.parse(url)
-
-      path, = css_download_link(url) do |title|
-        "a[title*='#{title.downcase}']"
-      end
-
-      *, pkg, key = path.split('/')
-      json_uri =
-        "#{uri.scheme}://#{uri.host}/down_file/?pkg=#{pkg}&key=#{key}"
-
-      json, = net_get(json_uri)
-
-      JSON.parse(json)['url']
-    end
-
-    def sos_download_link url, laravel_session=nil
-      css_download_link(url, laravel_session) do |title|
-        "a[title*='#{title}']"
-      end
-    end
-
-    def css_download_link url, laravel_session=nil
-      require 'nokogiri'
-
-      doc, new_laravel_session = net_get(url, laravel_session)
-
-      title = "#{version} APK"
-      link = Nokogiri::HTML.parse(doc).css(yield(title)).first&.attr('href')
-
-      if link
-        [link, new_laravel_session]
-      else
-        raise(VersionNotFound.new("Cannot find #{title} link"))
-      end
-    end
-
-    def net_get url, laravel_session=nil
-      require 'net/http'
-
-      uri = URI.parse(url)
-      get = Net::HTTP::Get.new(uri)
-      get['User-Agent'] = 'Mozilla/5.0'
-      get['Cookie'] = "laravel_session=#{laravel_session}" if laravel_session
-
-      response =
-        Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
-          http.request(get)
-        end
-
-      cookie = response['set-cookie']
-      new_laravel_session = cookie[/laravel_session=(.+);/, 1] if cookie
-
-      [response.body, new_laravel_session]
     end
 
     def wget url, path
@@ -387,10 +322,6 @@ module BattleCatsRolls
       end
 
       true
-    end
-
-    def extract_sos_bundle
-      extract_xapk("#{apk_id}/InstallPack*.apk")
     end
 
     def extract_apkpure_bundle
