@@ -12967,9 +12967,8 @@ gacha:
   985:
     cats: [804, 805, 806, 807, 810, 810, 810, 810, 810, 810, 810, 810, 810, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    name: 5 limited Sonic the Hedgehog collab units! ★Tap for details!
     rate: no_legend
-    similarity: 86
   986:
     cats: [782, 713, 626, 547, 462, 437, 241, 172, 171, 170, 169, 35, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 0
@@ -12978,9 +12977,8 @@ gacha:
   987:
     cats: [800, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
-    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    name: Special Capsules featuring powerful limited units! ★Tap for details!
     rate: uberfest_legend
-    similarity: 99
   988:
     cats: [800, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -13018,9 +13016,9 @@ gacha:
   994:
     cats: [812, 800, 788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 27
-    name: Limited Legend Rare unit Izanami of Dusk! ★Uber Rare drop rate UP for Epicfest!
+    name: Special Capsules featuring powerful limited units! ★Tap for details!
     rate: uberfest_legend
-    similarity: 98
+    similarity: 99
   995:
     cats: [812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 21
@@ -13072,9 +13070,8 @@ gacha:
   1003:
     cats: [804, 805, 806, 807, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
-    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    name: 5 limited Sonic the Hedgehog collab units! ★Tap for details!
     rate: no_legend
-    similarity: 86
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -30524,6 +30521,189 @@ events:
     version: '140400'
     name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
     id: 981
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-08-04_1003:
+    start_on: 2025-08-04
+    end_on: 2025-08-18
+    version: '140500'
+    name: 5 limited Sonic the Hedgehog collab units! ★Tap for details!
+    id: 1003
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-08-04_946:
+    start_on: 2025-08-04
+    end_on: 2025-08-07
+    version: '140500'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-04_947:
+    start_on: 2025-08-04
+    end_on: 2025-08-07
+    version: '140500'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-07_942:
+    start_on: 2025-08-07
+    end_on: 2025-08-10
+    version: '140500'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-07_986:
+    start_on: 2025-08-07
+    end_on: 2025-08-10
+    version: '140500'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-10_943:
+    start_on: 2025-08-10
+    end_on: 2025-08-13
+    version: '140500'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-10_948:
+    start_on: 2025-08-10
+    end_on: 2025-08-13
+    version: '140500'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-13_1003:
+    start_on: 2025-08-13
+    end_on: 2025-08-18
+    version: '140500'
+    name: 5 limited Sonic the Hedgehog collab units! ★Tap for details!
+    id: 1003
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-08-13_945:
+    start_on: 2025-08-13
+    end_on: 2025-08-16
+    version: '140500'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-08-13_950:
+    start_on: 2025-08-13
+    end_on: 2025-08-16
+    version: '140500'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-08-16_944:
+    start_on: 2025-08-16
+    end_on: 2025-08-18
+    version: '140500'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 944
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-08-16_947:
+    start_on: 2025-08-16
+    end_on: 2025-08-18
+    version: '140500'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-08-18_523:
+    start_on: 2025-08-18
+    end_on: 2025-08-22
+    version: '140500'
+    name: Defend your Cats with the Wave Busters! ★ With Increasing Capsules!
+    id: 523
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-08-18_772:
+    start_on: 2025-08-18
+    end_on: 2025-08-22
+    version: '140500'
+    name: Capsules featuring Colossus Slayer units!  With Increasing Capsules!
+    id: 772
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-08-18_973:
+    start_on: 2025-08-18
+    end_on: 2025-08-22
+    version: '140500'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 973
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2025-08-22_979:
+    start_on: 2025-08-22
+    end_on: 2025-08-25
+    version: '140500'
+    name: New Conjurer Unit Mighty Morta-Loncha, with Explosive attacks! ★Tap for details!
+    id: 979
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-22_986:
+    start_on: 2025-08-22
+    end_on: 2025-08-25
+    version: '140500'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-22_987:
+    start_on: 2025-08-22
+    end_on: 2025-08-25
+    version: '140500'
+    name: Special Capsules featuring powerful limited units! ★Tap for details!
+    id: 987
     rare: 6470
     supa: 2600
     uber: 900
