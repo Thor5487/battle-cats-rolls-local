@@ -5,7 +5,7 @@ require_relative 'attack'
 
 module BattleCatsRolls
   class Stat < Struct.new(
-    :id, :info, :index, :level, :conjure_info,
+    :id, :info, :index, :level, :conjure_info, :cat,
     :exclude_talents, :sum_no_wave, :dps_no_critical,
     keyword_init: true)
 
@@ -17,11 +17,11 @@ module BattleCatsRolls
     end
 
     def name
-      info.dig('name', index)
+      info.dig('name', index) || cat&.pick_name(index)
     end
 
     def desc
-      info.dig('desc', index)
+      info.dig('desc', index) || cat&.pick_description(index)
     end
 
     def stat
