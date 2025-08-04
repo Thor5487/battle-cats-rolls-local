@@ -145,6 +145,7 @@ module BattleCatsRolls
             conjure_id = info.dig('stat', index, 'conjure')
             Stat.new(id: id, info: info, index: index, level: route.level,
               conjure_info: conjure_id && route.cats[conjure_id],
+              cat: cat,
               sum_no_wave: route.sum_no_wave,
               dps_no_critical: route.dps_no_critical)
           end
