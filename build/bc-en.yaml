@@ -13036,7 +13036,6 @@ gacha:
     series_id: 65
     name: Limited Summer capsules with a new hero! Tap banner for info!
     rate: no_legend
-    similarity: 93
   998:
     cats: [816, 815, 413, 414, 416, 548, 550, 551, 410, 411, 490, 407, 407, 407, 408, 408, 408, 409, 409, 409, 553, 553, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 37
@@ -13054,19 +13053,16 @@ gacha:
     series_id: 14
     name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
     rate: no_legend
-    similarity: 94
   1001:
     cats: [276, 760, 715, 615, 565, 275, 655, 689, 695, 277, 566, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 65
     name: Limited Summer capsules with a new hero! Tap banner for info!
     rate: no_legend
-    similarity: 93
   1002:
     cats: [175, 174, 238, 239, 240, 130, 132, 145, 201, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 14
     name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
     rate: no_legend
-    similarity: 94
   1003:
     cats: [804, 805, 806, 807, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
@@ -30707,4 +30703,122 @@ events:
     rare: 6470
     supa: 2600
     uber: 900
+    legend: 30
+  2025-08-25_1001:
+    start_on: 2025-08-25
+    end_on: 2025-09-15
+    version: '140501'
+    name: Limited Summer capsules with a new hero! Tap banner for info!
+    id: 1001
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-08-25_1002:
+    start_on: 2025-08-25
+    end_on: 2025-09-15
+    version: '140501'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 1002
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-08-25_942:
+    start_on: 2025-08-25
+    end_on: 2025-08-29
+    version: '140501'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-08-29_951:
+    start_on: 2025-08-29
+    end_on: 2025-09-02
+    version: '140501'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-02_946:
+    start_on: 2025-09-02
+    end_on: 2025-09-05
+    version: '140501'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-05_1001:
+    start_on: 2025-09-05
+    end_on: 2025-09-15
+    version: '140501'
+    name: Limited Summer capsules with a new hero! Tap banner for info!
+    id: 1001
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-09-05_1002:
+    start_on: 2025-09-05
+    end_on: 2025-09-15
+    version: '140501'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 1002
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-09-05_981:
+    start_on: 2025-09-05
+    end_on: 2025-09-08
+    version: '140501'
+    name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    id: 981
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2025-09-08_1001:
+    start_on: 2025-09-08
+    end_on: 2025-09-15
+    version: '140501'
+    name: Limited Summer capsules with a new hero! Tap banner for info!
+    id: 1001
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-09-08_1002:
+    start_on: 2025-09-08
+    end_on: 2025-09-15
+    version: '140501'
+    name: Survive! Mola Mola! Collab Capsules! ★ Tap the banner for info!
+    id: 1002
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-09-08_948:
+    start_on: 2025-09-08
+    end_on: 2025-09-10
+    version: '140501'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-09-10_943:
+    start_on: 2025-09-10
+    end_on: 2025-09-12
+    version: '140501'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
     legend: 30
