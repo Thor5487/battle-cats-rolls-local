@@ -7,7 +7,7 @@ describe BattleCatsRolls::Web do
   web.call('PATH_INFO' => '/warmup')
 
   define_method(:expect_status_200) do |path|
-    status, headers, body = web.call('PATH_INFO' => path)
+    status, _headers, _body = web.call('PATH_INFO' => path)
 
     expect(status).eq 200
   end
