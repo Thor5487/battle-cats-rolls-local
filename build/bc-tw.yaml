@@ -2872,6 +2872,13 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+  214:
+    name: [漢堡貓, 漢堡王者貓, 漢堡套餐貓]
+    desc: ["重量150公克的貓咪造型漢堡\n有點餓的時候剛好能填飽肚子的分量\n選用100%國產貓咪", "生菜、起司和貓咪都加量的巨大漢堡\n是能補充體力的經典美式速食\n只要吃下一口就會讓熱量超標", "份量十足總熱量2萬卡路里的漢堡套餐\n包含碳酸果汁和油膩膩的薯條\n一餐就能攝取到一個禮拜的熱量(範圍攻擊)"]
+    stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 21, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 21, range: 360, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 57}]
+    rarity: 1
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   215:
     name: [百太郎, 百太郎CC]
     desc: ["來自越南大戰METAL SLUG系列的狠角色！\n看起來是俘虜，但其實是特殊部隊中的能手\n死前有機會存活（範圍攻擊）", "來自越南大戰METAL SLUG系列的狠角色！\n能用氣彈從後方進行掩護\n死前有機會存活（範圍攻擊）"]
@@ -3323,6 +3330,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      strong:
+        ultra: 1
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[8, 62]]
+        ultra: 1
+      immune_surge:
+        ultra: 1
   268:
     name: [颱風貓, 颶風貓, 暴風貓]
     desc: ["一心想要學校停課而變成颱風的貓咪\n身負全國學生的期待持續北上中\n超高速攻擊，有時候會使出會心一擊(範圍攻擊)", "受到聖嬰現象影響而巨大化的颱風貓\n把來察看田地的貓咪也捲進來而持續成長\n超高速攻擊，有時候會使出會心一擊(範圍攻擊)", "召集所有的風並引起暴風的貓咪\n雨中的公車站也被吹走了，華麗的冒險即將開始了\n超高速攻擊，有時候會使出會心一擊(範圍攻擊)"]
@@ -6630,6 +6645,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      colossus_slayer: {}
+      immune_surge: {}
+      immune_knockback: {}
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   634:
     name: [舌切雀, 妖怪結社沖沖衝, 大妖怪結社沖沖衝]
     desc: ["從麻雀家弄來大葛籠的\n獵人團\"Easy WAR BA-3\"的隊長\n有時候可打飛惡魔與天使，還可詛咒與發射小波動", "從大葛籠中飛出來與夥伴們一起\n準備將惡魔一網打盡的妖怪破壞者\n必定可打飛惡魔與天使還可詛咒，有時候發射小波動", "透過打退惡魔的工作賺了大錢的妖怪破壞者\n用最高級且最先進的設備追趕有高懸賞金的大惡魔\n必定可打飛惡魔與天使還可詛咒，能發射小波動"]
@@ -7177,9 +7203,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   716:
-    name: [建築兵團・運輸隊, 突擊部隊・卡車隊]
-    desc: ["為了將皇陵的建材安全送達，直接把盜賊撞飛的\n建築兵團。對上紅色、鋼鐵敵人和不死生物\n很耐打，有時候使其攻擊力下降(全方位攻擊)", "次世代的戰術輪車，能運送偵搜小隊還可執行\n襲擊敵陣的任務。對上紅色、鋼鐵敵人和不死生物\n很耐打，有時候使其攻擊力下降(全方位攻擊)"]
-    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}]
+    name: [建築兵團・運輸隊, 突擊部隊・卡車隊, 超突擊部隊・卡車隊]
+    desc: ["為了將皇陵的建材安全送達，直接把盜賊撞飛的\n建築兵團。對上紅色、鋼鐵敵人和不死生物\n很耐打，有時候使其攻擊力下降(全方位攻擊)", "次世代的戰術輪車，能運送偵搜小隊還可執行\n襲擊敵陣的任務。對上紅色、鋼鐵敵人和不死生物\n很耐打，有時候使其攻擊力下降(全方位攻擊)", "勇闖戰線帶領我方取得勝利的終極戰術輪車\n對上紅色、鋼鐵敵人和不死生物很耐打，有時候可打飛\n他們並使其攻擊力下降，必定能發射波動(全方位攻擊)"]
+    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 10000, knockbacks: 4, speed: 55, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, knockback_chance: 50, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, wave_chance: 100, wave_level: 3, attack_duration: 133}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7589,6 +7615,13 @@ cats:
     rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  777:
+    name: [見習武士貓, 武將貓]
+    desc: ["夢想在日本戰國時代出人頭地的貓咪\n在戰場上總是率先衝向敵陣，非常勇猛\n必定能讓紅色和飄浮敵人動作停止並發射小波動", "在許多戰場立下功績，終於晉級至武將的貓咪\n一去不回頭的突襲作戰常常將友軍拋在後頭\n必定能讓紅色和飄浮敵人動作停止並發射小波動"]
+    stat: [{health: 100, knockbacks: 1, speed: 20, cost: 500, production_cooldown: 860, range: 140, width: 320, damage_0: 100, attack_time_0: 7, trigger_effects_0: 1, against_red: 1, against_float: 1, freeze_chance: 100, freeze_duration: 90, wave_level: 1, wave_mini: 100, attack_duration: 200}, {health: 120, knockbacks: 1, speed: 20, cost: 500, production_cooldown: 860, range: 140, width: 320, damage_0: 112, attack_time_0: 7, trigger_effects_0: 1, against_red: 1, against_float: 1, freeze_chance: 100, freeze_duration: 90, wave_level: 1, wave_mini: 100, attack_duration: 200}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
   778:
     name: [冬將軍・成田甲斐, 冬大將軍・成田甲斐]
     desc: ["換上聖誕節限定造型的戰國公主，率領馴鹿部隊\n並擔任聖誕老人的護衛。有時候可使紅色敵人與\n飄浮敵人動作變慢，施放渾身一擊", "守護著聖誕老人發送禮物的美麗的戰國公主\n會用烈波攻擊打倒搶奪禮物的人。有時候可使\n紅色敵人與飄浮敵人動作變慢，施放渾身一擊"]
@@ -7829,8 +7862,50 @@ cats:
     growth: [20, 20, 20, 20, 20, 20]
   814:
     name: [巨大擬濱蟹, 巨大擬濱蟹CC]
-    desc: ["從活下去！曼波魚！來參戰。\n世界上最大的螃蟹。很危險但很美味\n有時候能破壞護盾", "從活下去！曼波魚！來參戰。\n只要被必殺的右螯夾住就準備再見\n有時候能破壞護盾"]
+    desc: ["從活下去！曼波魚！來參戰。\n世界上最大的螃蟹，好吃到會上癮\n有時候能破壞護盾", "從活下去！曼波魚！來參戰。\n只要被必殺的右螯夾住就準備再見\n有時候能破壞護盾"]
     stat: [{health: 280, knockbacks: 1, speed: 5, cost: 320, production_cooldown: 330, attack_cooldown: 100, range: 180, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, break_barrier_chance: 50, attack_duration: 7}, {health: 320, knockbacks: 1, speed: 5, cost: 320, production_cooldown: 330, attack_cooldown: 100, range: 180, width: 320, damage_0: 1400, attack_time_0: 1, trigger_effects_0: 1, break_barrier_chance: 50, attack_duration: 7}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  818:
+    name: [樹精靈小魔麗, 樹木精靈魔麗林]
+    desc: ["來自宇宙盡頭的樹精靈\n據説每個星球的第一個植物都是其帶來的\n有時候能詛咒黑色敵人與異星戰士", "能夠控制植物生長的精靈。樹木強勁的生長之力\n能破壞護盾。有超生命體特效、超獸特效和召喚能力\n對上黑色敵人與異星戰士很耐打，必定能詛咒他們"]
+    stat: [{health: 1200, knockbacks: 3, speed: 12, cost: 730, production_cooldown: 400, range: 330, width: 320, area_effect: 1, damage_0: 500, attack_time_0: 66, trigger_effects_0: 1, against_black: 1, against_alien: 1, curse_chance: 50, curse_duration: 120, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_warp: 1, attack_duration: 150}, {health: 3500, knockbacks: 3, speed: 12, cost: 2650, production_cooldown: 1700, range: 380, width: 320, area_effect: 1, damage_0: 1450, attack_time_0: 66, trigger_effects_0: 1, against_black: 1, against_alien: 1, resistant: 1, curse_chance: 100, curse_duration: 120, break_barrier_chance: 100, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, conjure: 819, immune_warp: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  819:
+    name: [819-1]
+    desc: [精靈：能使敵人攻擊力下降]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  820:
+    name: [木工貓, 饒舌歌手貓]
+    desc: ["全神貫注並安全地施工的木工\n總是帶著節奏感釘釘子並開心地工作\n有超賢者特效，對上紅色與飄浮敵人很耐打", "饒舌魂覺醒的貓咪。過去是一位木工，現在改拿\n麥克風，細節別管那麼多，跟著節奏一起瘋\n有超賢者特效，對上紅色與飄浮敵人很耐打"]
+    stat: [{health: 850, knockbacks: 1, speed: 25, cost: 240, production_cooldown: 200, attack_cooldown: 42, range: 170, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 16, trigger_effects_0: 1, against_red: 1, against_float: 1, resistant: 1, sage_slayer: 1, immune_freeze: 1, immune_wave: 1, attack_duration: 65}, {health: 850, knockbacks: 1, speed: 25, cost: 240, production_cooldown: 200, attack_cooldown: 42, range: 170, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 16, trigger_effects_0: 1, against_red: 1, against_float: 1, resistant: 1, sage_slayer: 1, immune_freeze: 1, immune_wave: 1, attack_duration: 65}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  821:
+    name: [海濱姵卡薩, 海濱姵卡薩ν]
+    desc: ["獲得暑假的公爵家的少女，首次看到寬闊的\n大海而內心悄然雀躍。有召喚能力，能讓無屬性\n敵人與黑色敵人的攻擊力下降，發射小波動", "看見海邊的孩子們朝自己揮手，鼓起勇氣回應他們的\n少女。純真的模樣讓人會心一笑。有召喚能力，能讓\n無屬性敵人與黑色敵人的攻擊力下降，發射小波動"]
+    stat: [{health: 3200, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2300, attack_cooldown: 57, range: 460, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 46, trigger_effects_0: 1, against_black: 1, against_white: 1, weaken_chance: 100, weaken_duration: 100, weaken_multiplier: 50, conjure: 822, wave_level: 2, wave_mini: 100, immune_wave: 1, attack_duration: 100}, {health: 4000, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2300, attack_cooldown: 57, range: 460, width: 320, area_effect: 1, damage_0: 1350, attack_time_0: 46, trigger_effects_0: 1, against_black: 1, against_white: 1, weaken_chance: 100, weaken_duration: 100, weaken_multiplier: 50, conjure: 822, wave_level: 3, wave_mini: 100, immune_wave: 1, attack_duration: 100}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  822:
+    name: ['822_1']
+    desc: [精靈：能使敵人動作變慢]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 180, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  823:
+    name: [顧問貓, 經營夥伴貓]
+    desc: ["據說是成功經手許多事業的商界人士\n計算盈虧及靈機應變的速度可是無人能及\n有鋼鐵殺手能力，有時候能使鋼鐵敵人動作變慢", "據說是為了賺錢而不擇手段的商業人士\n計算得失和見風轉舵的速度可是無人能及\n有鋼鐵殺手能力，有時候能使鋼鐵敵人動作變慢"]
+    stat: [{health: 580, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 90, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}, {health: 720, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 115, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}]
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
@@ -12069,6 +12144,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 白色情人機器子追加第3型態!情人節限定轉蛋登場!★點圖確認詳細吧!!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -12081,6 +12158,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 劇場版「Fate/stay night [Heaven's Feel]」合作轉蛋★點圖可以看詳細內容！
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -13171,6 +13250,68 @@ gacha:
     cats: [804, 805, 806, 807, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
     name: 共有5位合作限定角色登場！★點圖確認詳細吧!!
+    rate: no_legend
+  1004:
+    cats: [818, 720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 來自宇宙盡頭的精靈們參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  1005:
+    cats: [818, 720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: 來自宇宙盡頭的精靈們參戰！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  1006:
+    cats: [818, 812, 800, 782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 限定角色「幼天女露娜」參戰！★超激稀有出現率上升的特別轉蛋！
+    rate: uberfest_legend
+    similarity: 99
+  1007:
+    cats: [818, 812, 800, 788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 限定超激稀有角色「冥佑天女露娜夏」參戰！★點圖確認詳細吧!!
+    rate: uberfest_legend
+    similarity: 99
+  1008:
+    cats: [818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    rate: platinum
+    similarity: 98
+  1009:
+    cats: [818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 必定可以獲得1隻超激稀有等級以上角色的「傳說轉蛋」！
+    rate: legend
+    similarity: 99
+  1010:
+    cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 277, 277, 566, 566, 566, 567, 567, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 64
+    name: 新角色追加！來GET滿滿開放感的夏日限定角色吧！★點圖確認詳細吧!!
+    rate: no_legend
+  1011:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 784, 782, 520, 650, 755, 77, 397, 661, 139, 699, 260, 724, 716, 726, 632, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 70
+    name: 限定超激稀有角色「俏喵」參戰！慶祝1億下載的特別轉蛋登場！
+    similarity: 66
+  1012:
+    cats: [821, 787, 778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: 一舉集結季節角色們!!★超激稀有出現率上升的「超國王祭」來啦!!
+    rate: dynastyfest
+    similarity: 99
+  1013:
+    cats: [788, 800, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 全新限定角色「冥佑天女露娜夏」參戰！★超激稀有出現率上升的特別轉蛋！
+    similarity: 99
+  1014:
+    cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 566, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 64
+    name: 新角色追加！來GET滿滿開放感的夏日限定角色吧！★點圖確認詳細吧!!
     rate: no_legend
 events:
   2018-08-03_310:
