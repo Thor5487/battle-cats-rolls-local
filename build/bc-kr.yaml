@@ -2900,6 +2900,13 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+  214:
+    name: [냥코 햄버거, 냥코 킹버거, 냥코 버거 세트]
+    desc: ["중량 150g의 고양이형 햄버거\n약간 출출할때 딱 좋은 적당한 사이즈\n100% 국산 고양이가 만들었다", "고양이가 양상추와 치즈를 대폭 추가시킨 특대 버거\n영양가보다 칼로리를 추구하는 패스트푸드의 왕\n한입만 먹어도 하루 권장 칼로리를 초과한다", "총열량 20000kcal의 푸짐한 햄버거 세트\n탄산음료와 기름진 감자튀김이 포함되어 하나만 먹어도 \n일주일치의 권장 칼로리 섭취 가능 (범위 공격)"]
+    stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, trigger_effects_0: 1, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 21, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 21, range: 360, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 18, trigger_effects_0: 1, attack_duration: 57}]
+    rarity: 1
+    max_level: 85
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   215:
     name: [햐쿠타로, 햐쿠타로CC]
     desc: ["메탈 슬러그 시리즈에서 참전!\n포로로 보이지만 실제로는 특수 부대의 엘리트\n때때로 살아남는다 (범위 공격)", "메탈 슬러그 시리즈에서 참전!\n기탄으로 냥코들을 지원해준다\n때때로 살아남는다 (범위 공격)"]
@@ -3337,6 +3344,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      strong:
+        ultra: 1
+      reduce_attack_cooldown:
+        max_level: 10
+        minmax: [[8, 62]]
+        ultra: 1
+      immune_surge:
+        ultra: 1
   268:
     name: [고양이 타이푼, 고양이 허리케인, 고양이 폭풍]
     desc: ["학교를 쉬고싶은 그 한마음으로 태풍이 되어버린 냥코\n전국의 학생들의 기대를 한몸에 받으며 북상중\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)", "엘니뇨 현상으로 거대화 되어버린 태풍 고양이\n구경하러 온 고양이들을 불러모아 지금도 성장중\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)", "회전으로 바람을 일으켜 폭풍까지 만드는 고양이\n비가 오는 날에는 무엇이든 가리지 않고 날려버린다\n초고속으로 공격. 가끔씩 크리티컬 (범위공격)"]
@@ -6595,6 +6610,17 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      colossus_slayer: {}
+      immune_surge: {}
+      immune_knockback: {}
+      soul_strike: {}
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   634:
     name: [혀 잘린 참새, 요괴 결사 짹짹, 대요괴 결사 짹짹]
     desc: ["참새 집에서 큰 함을 구한\n트레저 헌터 'Easy WAR BA-3'의 리더\n가끔 악마와 천사를 날려버리고 저주하며, 소파동을 낸다", "큰 함에서 뛰어나온 친구들과 같이\n악령들을 일망타진으로 몰아넣는 요괴 바스터즈\n반드시 악마와 천사를 날려버리고 저주하며, 가끔 소파동을 낸다", "악령 퇴치 사업이 대박난 요괴 바스터즈\n최고급 최첨단 장비로 고액의 현상금이 걸린 대악령을 추적한다\n반드시 악마와 천사를 날려버리고 저주하며, 소파동을 낸다"]
@@ -7114,9 +7140,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   716:
-    name: [건설병단 스핑크스, 돌격부대 콘보이즈]
-    desc: ["안전 제일을 모토로 적들을 날려버리며 왕의 무덤의\n건설 자재를 운반하는 건설병단. 빨간 적, 메탈, 좀비에 \n맷집이 좋고 가끔 공격력을 낮춘다 (전방위 공격)", "정찰 소대의 운반과 적진 기습 임무를 동시에 수행하는\n차세대 전술 차량. 빨간 적, 메탈, 좀비에 맷집이 좋고\n가끔 공격력을 낮춘다 (전방위 공격)"]
-    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}]
+    name: [건설병단 스핑크스, 돌격부대 콘보이즈, 초돌격부대 콘보이즈]
+    desc: ["안전 제일을 모토로 적들을 날려버리며 왕의 무덤의\n건설 자재를 운반하는 건설병단. 빨간 적, 메탈, 좀비에 \n맷집이 좋고 가끔 공격력을 낮춘다 (전방위 공격)", "정찰 소대의 운반과 적진 기습 임무를 동시에 수행하는\n차세대 전술 차량. 빨간 적, 메탈, 좀비에 맷집이 좋고\n가끔 공격력을 낮춘다 (전방위 공격)", "용감하게 전선을 주파하여 아군을 승리로 이끄는 궁극의 전술 차량\n빨간 적, 메탈, 좀비에 맷집이 좋고, 반드시 파동을 내며\n가끔 날려버리고 공격력을 낮춘다 (전방위 공격)"]
+    stat: [{health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 8400, knockbacks: 2, speed: 45, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, attack_duration: 133}, {health: 10000, knockbacks: 4, speed: 55, cost: 3400, production_cooldown: 2300, range: 150, width: 320, area_effect: 1, damage_0: 700, long_range_0: 250, long_range_offset_0: -750, attack_time_0: 8, trigger_effects_0: 1, against_red: 1, against_zombie: 1, against_metal: 1, resistant: 1, knockback_chance: 50, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, soul_strike: 1, wave_chance: 100, wave_level: 3, attack_duration: 133}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7775,6 +7801,48 @@ cats:
     name: [태즈메이니아 대게, 태즈메이니아 대게CC]
     desc: ["살아남아라!개복치!에서 참전!\n세계에서 가장 큰 게. 위험한 만큼 맛있다\n가끔 베리어를 뚫어버린다", "살아남아라!개복치!에서 참전!\n그 필살 오른 집게발에 잡히면 끝이다\n가끔 베리어를 뚫어버린다"]
     stat: [{health: 280, knockbacks: 1, speed: 5, cost: 320, production_cooldown: 330, attack_cooldown: 100, range: 180, width: 320, damage_0: 1000, attack_time_0: 1, trigger_effects_0: 1, break_barrier_chance: 50, attack_duration: 7}, {health: 320, knockbacks: 1, speed: 5, cost: 320, production_cooldown: 330, attack_cooldown: 100, range: 180, width: 320, damage_0: 1400, attack_time_0: 1, trigger_effects_0: 1, break_barrier_chance: 50, attack_duration: 7}]
+    rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  818:
+    name: [나무의 정령 모리, 수목의 정령 모리린]
+    desc: ["우주에서 온 나무의 정령\n내려선 별에 나무의 근원을 불어넣는다고 한다\n가끔 검은 적과 에이리언을 저주한다", "식물의 성장을 다루는 정령. 올곧게 자라나는 수목의 힘으로\n베리어를 뚫어버린다. 초생명체 특효, 초수 특효, 소환 능력을 가지며\n검은 적과 에이리언에 맷집이 좋고, 반드시 저주한다"]
+    stat: [{health: 1200, knockbacks: 3, speed: 12, cost: 730, production_cooldown: 400, range: 330, width: 320, area_effect: 1, damage_0: 500, attack_time_0: 66, trigger_effects_0: 1, against_black: 1, against_alien: 1, curse_chance: 50, curse_duration: 120, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_warp: 1, attack_duration: 150}, {health: 3500, knockbacks: 3, speed: 12, cost: 2650, production_cooldown: 1700, range: 380, width: 320, area_effect: 1, damage_0: 1450, attack_time_0: 66, trigger_effects_0: 1, against_black: 1, against_alien: 1, resistant: 1, curse_chance: 100, curse_duration: 120, break_barrier_chance: 100, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, conjure: 819, immune_warp: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  819:
+    name: [819-1]
+    desc: ['정령: 적의 공격력을 낮춥니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  820:
+    name: [고양이 목수, 고양이 래퍼]
+    desc: ["온 힘을 다해 안전한 건물을 짓는 목수\n못 박는 소리에 리듬을 타며 즐겁게 일한다\n초현자 특효, 빨간 적과 떠있는 적에 맷집이 좋다", "라임에 눈을 뜬 목수 a.k.a Moc's Mic\n망치와 못 대신 마이크로, 망치질 못하는 나의 플로\n초현자 특효, 빨간 적과 떠있는 적에 맷집이 좋다"]
+    stat: [{health: 850, knockbacks: 1, speed: 25, cost: 240, production_cooldown: 200, attack_cooldown: 42, range: 170, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 16, trigger_effects_0: 1, against_red: 1, against_float: 1, resistant: 1, sage_slayer: 1, immune_freeze: 1, immune_wave: 1, attack_duration: 65}, {health: 850, knockbacks: 1, speed: 25, cost: 240, production_cooldown: 200, attack_cooldown: 42, range: 170, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 16, trigger_effects_0: 1, against_red: 1, against_float: 1, resistant: 1, sage_slayer: 1, immune_freeze: 1, immune_wave: 1, attack_duration: 65}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  821:
+    name: [시사이드 페가사, 시사이드 페가사ν]
+    desc: ["여름 휴가를 받은 공작가의 소녀. 드넓은 바다를\n처음 보고 남몰래 두근거리고 있다. 소환 능력을 가지며\n무속성과 검은 적의 공격력을 낮추고, 소파동을 낸다", "인사해주는 해변의 아이들에게 용기를 내어 응답하는 소녀\n순수한 모습을 보고 자연스레 미소짓는다. 소환 능력을 가지며\n무속성과 검은 적의 공격력을 낮추고, 소파동을 낸다"]
+    stat: [{health: 3200, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2300, attack_cooldown: 57, range: 460, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 46, trigger_effects_0: 1, against_black: 1, against_white: 1, weaken_chance: 100, weaken_duration: 100, weaken_multiplier: 50, conjure: 822, wave_level: 2, wave_mini: 100, immune_wave: 1, attack_duration: 100}, {health: 4000, knockbacks: 5, speed: 9, cost: 2600, production_cooldown: 2300, attack_cooldown: 57, range: 460, width: 320, area_effect: 1, damage_0: 1350, attack_time_0: 46, trigger_effects_0: 1, against_black: 1, against_white: 1, weaken_chance: 100, weaken_duration: 100, weaken_multiplier: 50, conjure: 822, wave_level: 3, wave_mini: 100, immune_wave: 1, attack_duration: 100}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  822:
+    name: ['822_1']
+    desc: ['정령: 적의 움직임을 느리게 합니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 180, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  823:
+    name: [고양이 컨설턴트, 고양이 비즈니스 파트너]
+    desc: ["여러 사업을 성공시킨 경험이 있다고 하는 비즈니스맨\n이익계산과 임기응변에 있어서는 따라올 자가 없다\n메탈 킬러 능력을 가지며 메탈 적을 가끔 느리게 한다", "돈벌이를 위해서는 수단을 가리지 않는다는 비즈니스맨\n이해타산과 배임행위에 있어서는 따라올 자가 없다\n메탈 킬러 능력을 가지며 메탈 적을 가끔 느리게 한다"]
+    stat: [{health: 580, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 90, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}, {health: 720, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 115, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}]
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
@@ -12127,6 +12195,8 @@ gacha:
     rate: superfest
   785:
     cats: [159, 213, 358, 620, 588, 589, 645, 590, 590, 590, 590, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: 하얀 연인 메카소녀 진 제3형태 추가! 발렌타인 한정 뽑기!★자세한 내용은 배너를 클릭!
+    rate: no_legend
   786:
     cats: [694, 649, 643, 428, 262, 526, 74, 646, 668, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 52
@@ -12139,6 +12209,8 @@ gacha:
     rate: uberfest
   788:
     cats: [363, 364, 365, 366, 367, 368, 369, 457, 461, 461, 461, 461, 461, 461, 371, 371, 371, 372, 372, 372, 373, 373, 373, 459, 459, 459, 460, 460, 460, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    name: "★극장판 「Fate/stay night [Heaven's Feel]」콜라보 뽑기!★자세한 내용은 배너를 클릭!!★"
+    rate: no_legend
   789:
     cats: [693, 634, 526, 452, 323, 204, 139, 138, 137, 136, 135, 448, 447, 446, 445, 444, 201, 145, 132, 130, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 6
@@ -13229,6 +13301,68 @@ gacha:
     cats: [804, 805, 806, 807, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
     name: "★확률, 상세 내용은 배너를 클릭!★총 5개의 콜라보 한정 캐릭터가 등장!!"
+    rate: no_legend
+  1004:
+    cats: [818, 720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: "★확률, 상세 내용은 배너를 클릭!★진화 시 3속성에 맷집이 좋은 캐릭터 '철의 정령 메탈릭' 참전!"
+    rate: regular
+    similarity: 98
+  1005:
+    cats: [818, 720, 656, 479, 360, 361, 362, 402, 570, 632, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 33
+    name: "★확률, 상세 내용은 배너를 클릭!★진화 시 3속성에 맷집이 좋은 캐릭터 '철의 정령 메탈릭' 참전!"
+    rate: regular
+    similarity: 98
+  1006:
+    cats: [818, 812, 800, 782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 캐릭터 '꼬마선녀 루나' 참전!★울슈레 출현율 UP!"
+    rate: uberfest_legend
+    similarity: 99
+  1007:
+    cats: [818, 812, 800, 788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 울트라 슈퍼 레어 캐릭터 '비호의 선녀 루나샤' 참전!"
+    rate: uberfest_legend
+    similarity: 99
+  1008:
+    cats: [818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: "★확률, 상세 내용은 배너를 클릭!★울트라 슈퍼 레어 캐릭터 100% 획득 가능!★플래티넘 뽑기★"
+    rate: platinum
+    similarity: 98
+  1009:
+    cats: [818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: "★확률, 상세 내용은 배너를 클릭!★울슈레 이상 캐릭터 반드시 1개 확정 획득 가능!★레전드 뽑기★"
+    rate: legend
+    similarity: 99
+  1010:
+    cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 277, 277, 566, 566, 566, 567, 567, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 64
+    name: "★확률, 상세 내용은 배너를 클릭!★ 여름 스타일의 개방적인 캐릭터들을 GET!"
+    rate: no_legend
+  1011:
+    cats: [449, 450, 451, 452, 456, 462, 464, 479, 482, 494, 545, 784, 782, 520, 650, 755, 77, 397, 661, 139, 699, 260, 724, 716, 726, 632, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 70
+    name: "★확률, 상세 내용은 배너를 클릭!★한정 울슈레  '꼬꼬미' 참전! 1억 다운로드 기념 특별 뽑기!"
+    similarity: 66
+  1012:
+    cats: [821, 787, 778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 47
+    name: "★확률, 상세 내용은 배너를 클릭!★계절 한정 캐릭터 총집합! 울슈레 출현율 대폭 UP! 울트라 국왕 축제!"
+    rate: dynastyfest
+    similarity: 99
+  1013:
+    cats: [788, 800, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: "★확률, 상세 내용은 배너를 클릭!★새로운 한정 캐릭터 '비호의 선녀 루나샤' 참전!★울슈레 출현율 UP!"
+    similarity: 99
+  1014:
+    cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 566, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 64
+    name: "★확률, 상세 내용은 배너를 클릭!★ 여름 스타일의 개방적인 캐릭터들을 GET!"
     rate: no_legend
 events:
   2018-10-13_320:
