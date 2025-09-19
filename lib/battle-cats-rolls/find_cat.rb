@@ -36,6 +36,7 @@ module BattleCatsRolls
         780, # "Celestial Child Luna",
         784, # "Koneko",
         788, # "Netherworld Nymph Lunacia",
+        811, # "Agent Staal",
       ].freeze
     end
 
