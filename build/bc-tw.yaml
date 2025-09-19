@@ -30688,3 +30688,117 @@ events:
     supa: 2500
     uber: 500
     legend: 30
+  2025-09-24_1014:
+    start_on: 2025-09-24
+    end_on: 2025-09-29
+    version: '140600'
+    name: 新角色追加！來GET滿滿開放感的夏日限定角色吧！★點圖確認詳細吧!!
+    id: 1014
+    rare: 7000
+    supa: 2500
+    uber: 500
+    guaranteed: true
+  2025-09-24_951:
+    start_on: 2025-09-24
+    end_on: 2025-09-27
+    version: '140600'
+    name: 來自宇宙盡頭的精靈們參戰！★點圖確認詳細吧!!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-09-24_979:
+    start_on: 2025-09-24
+    end_on: 2025-09-27
+    version: '140600'
+    name: 有爆波攻擊和召喚能力的「曲射砲台・砲擊團」參戰！★點圖確認詳細吧!!
+    id: 979
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-09-27_942:
+    start_on: 2025-09-27
+    end_on: 2025-09-29
+    version: '140600'
+    name: 超強大且有著即戰力的貓咪們一同登場！★點圖確認詳細吧!!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-09-27_986:
+    start_on: 2025-09-27
+    end_on: 2025-09-29
+    version: '140600'
+    name: 神秘生物大集合 傳說的不明貓一族 登場！★點圖可以看詳細內容喔!!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2025-09-29_943:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: 日本戰國時代武將們大集合！★點圖確認詳細吧!!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-29_946:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: 變身前後樣貌大不同的超古代勇者們登場！★點圖確認詳細吧!!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-29_947:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: 握有正義與黑暗之力的救世主們一同登場！★點圖確認詳細吧!!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_948:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: 有著超強破壞力的衆神一同登場！★點圖確認詳細吧!!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_979:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: 有爆波攻擊和召喚能力的「曲射砲台・砲擊團」參戰！★點圖確認詳細吧!!
+    id: 979
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_981:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: 限定角色「幼天女露娜」參戰！★超激稀有出現率上升的特別轉蛋！
+    id: 981
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30

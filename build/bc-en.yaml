@@ -31068,3 +31068,83 @@ events:
     rare: 7000
     supa: 2500
     uber: 500
+  2025-09-23_950:
+    start_on: 2025-09-23
+    end_on: 2025-09-26
+    version: '140600'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-26_945:
+    start_on: 2025-09-26
+    end_on: 2025-09-29
+    version: '140600'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-29_936:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: '11 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 936
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-29_946:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-09-29_947:
+    start_on: 2025-09-29
+    end_on: 2025-10-03
+    version: '140600'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_943:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_948:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-03_981:
+    start_on: 2025-10-03
+    end_on: 2025-10-06
+    version: '140600'
+    name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    id: 981
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
