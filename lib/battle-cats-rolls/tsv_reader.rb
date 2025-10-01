@@ -91,7 +91,7 @@ module BattleCatsRolls
 
     def gacha_option
       @gacha_option ||= parsed_data.drop(1).inject({}) do |result, row|
-        result[Integer(row.first)] = { 'series_id' => Integer(row[-3]) }
+        result[Integer(row.first)] = { 'series_id' => Integer(row[5]) }
         result
       end
     end
