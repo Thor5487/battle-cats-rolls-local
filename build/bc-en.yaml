@@ -12973,8 +12973,8 @@ gacha:
   972:
     cats: [788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 42
-    name: New Legend Rare Izanami of Dusk! ★ Plus, higher Uber Rare drop rates!
-    similarity: 96
+    name: New Limited Unit "Netherworld Nymph Lunacia"!Plus, raised drop rates for Uber Rare heroes!
+    similarity: 99
   973:
     cats: [787, 778, 774, 773, 760, 757, 738, 737, 715, 712, 700, 694, 688, 684, 667, 662, 649, 645, 615, 596, 590, 589, 588, 587, 585, 571, 567, 566, 565, 564, 527, 495, 439, 355, 333, 332, 331, 315, 311, 303, 277, 276, 275, 244, 243, 242, 231, 230, 229, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 47
@@ -12987,9 +12987,8 @@ gacha:
   975:
     cats: [169, 144, 126, 77, 397, 693, 699, 643, 716, 337, 570, 436, 759, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 35
-    name: New unit Trixi joins the 10th anniversary Capsules! ★Check banner for details!
+    name: New unit Trixi joins the 11th anniversary Capsules! ★Check banner for details!
     rate: no_legend
-    similarity: 70
   976:
     cats: [35, 44, 497, 160, 88, 634, 775, 273, 675, 335, 360, 485, 442, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 39
@@ -13032,13 +13031,11 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 99
   984:
     cats: [800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 99
   985:
     cats: [804, 805, 806, 807, 810, 810, 810, 810, 810, 810, 810, 810, 810, 810, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 73
@@ -13098,7 +13095,7 @@ gacha:
     series_id: 21
     name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
     rate: platinum
-    similarity: 98
+    similarity: 99
   996:
     cats: [812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
     series_id: 46
@@ -13177,7 +13174,7 @@ gacha:
     series_id: 46
     name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
     rate: legend
-    similarity: 98
+    similarity: 99
   1010:
     cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 277, 277, 566, 566, 566, 567, 567, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 64
@@ -13197,8 +13194,7 @@ gacha:
   1013:
     cats: [788, 800, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 42
-    name: New Legend Rare Izanami of Dusk! ★ Plus, higher Uber Rare drop rates!
-    similarity: 96
+    name: New Limited Unit "Netherworld Nymph Lunacia"!Plus, raised drop rates for Uber Rare heroes!
   1014:
     cats: [821, 667, 564, 355, 439, 495, 646, 668, 685, 277, 566, 567, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 64
@@ -31147,4 +31143,183 @@ events:
     rare: 6470
     supa: 2600
     uber: 900
+    legend: 30
+  2025-10-06_937:
+    start_on: 2025-10-06
+    end_on: 2025-10-10
+    version: '140600'
+    name: '11 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 937
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-06_944:
+    start_on: 2025-10-06
+    end_on: 2025-10-10
+    version: '140600'
+    name: Pegasa joins the Galaxy Girls with the power of Conjury! ★ Tap banner for info!
+    id: 944
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-06_979:
+    start_on: 2025-10-06
+    end_on: 2025-10-10
+    version: '140600'
+    name: New Conjurer Unit Mighty Morta-Loncha, with Explosive attacks! ★Tap for details!
+    id: 979
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-10_1013:
+    start_on: 2025-10-10
+    end_on: 2025-10-17
+    version: '140600'
+    name: New Limited Unit "Netherworld Nymph Lunacia"!Plus, raised drop rates for Uber Rare heroes!
+    id: 1013
+    rare: 6470
+    supa: 2500
+    uber: 1000
+    legend: 30
+  2025-10-10_950:
+    start_on: 2025-10-10
+    end_on: 2025-10-14
+    version: '140600'
+    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    id: 950
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-10_951:
+    start_on: 2025-10-10
+    end_on: 2025-10-14
+    version: '140600'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-10_983:
+    start_on: 2025-10-10
+    end_on: 2030-01-01
+    version: '140600'
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    id: 983
+    rare: 0
+    supa: 0
+    uber: 10000
+    platinum: platinum
+  2025-10-10_984:
+    start_on: 2025-10-10
+    end_on: 2030-01-01
+    version: '140600'
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    id: 984
+    rare: 0
+    supa: 0
+    uber: 9500
+    legend: 500
+    platinum: legend
+  2025-10-14_942:
+    start_on: 2025-10-14
+    end_on: 2025-10-17
+    version: '140600'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-14_945:
+    start_on: 2025-10-14
+    end_on: 2025-10-17
+    version: '140600'
+    name: Conjure spirits with new hero Gunduros! Tap banner for info!
+    id: 945
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-17_938:
+    start_on: 2025-10-17
+    end_on: 2025-10-20
+    version: '140600'
+    name: '11 Year Celebration: Miracle Selection! ★ Tap banner for info!'
+    id: 938
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-17_947:
+    start_on: 2025-10-17
+    end_on: 2025-10-20
+    version: '140600'
+    name: Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!
+    id: 947
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-17_986:
+    start_on: 2025-10-17
+    end_on: 2025-10-20
+    version: '140600'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-20_946:
+    start_on: 2025-10-20
+    end_on: 2025-10-23
+    version: '140600'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-20_948:
+    start_on: 2025-10-20
+    end_on: 2025-10-23
+    version: '140600'
+    name: Take down Colossi with new unit Lightmother Aset’s Wave attacks! ★ Tap for info!
+    id: 948
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-10-20_975:
+    start_on: 2025-10-20
+    end_on: 2025-10-27
+    version: '140600'
+    name: New unit Trixi joins the 11th anniversary Capsules! ★Check banner for details!
+    id: 975
+    rare: 7000
+    supa: 2500
+    uber: 500
+  2025-10-23_939:
+    start_on: 2025-10-23
+    end_on: 2025-10-27
+    version: '140600'
+    name: Units from Busters sets join forces! ★ Uber Rare drop rates UP!
+    id: 939
+    rare: 6800
+    supa: 2500
+    uber: 700
+  2025-10-23_943:
+    start_on: 2025-10-23
+    end_on: 2025-10-27
+    version: '140600'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
     legend: 30
