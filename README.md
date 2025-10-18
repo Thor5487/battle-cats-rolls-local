@@ -271,8 +271,8 @@ Build BCKR data:
 * [Battle Cats Ultimate](https://github.com/battlecatsultimate/BCU_java_util_common)
 * [Normal gacha tracking](https://github.com/ampuri/bc-normal-seed-tracking)
   * [Normal gacha data](https://github.com/ampuri/bc-normal-seed-tracking/blob/master/src/utils/bannerData.tsx)
-* [The Battle Cats Modding Library](https://github.com/fieryhenry/tbcml)
-  * [Download server data](https://github.com/fieryhenry/tbcml/blob/master/src/tbcml/server_handler.py)
+* [The Battle Cats Modding Library](https://codeberg.org/fieryhenry/tbcml)
+  * [Download server data](https://codeberg.org/fieryhenry/tbcml/src/branch/master/src/tbcml/server_handler.py)
 
 ## CONTRIBUTORS:
 
