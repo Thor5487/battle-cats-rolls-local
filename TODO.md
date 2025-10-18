@@ -60,6 +60,16 @@
 * Use browser timezone offset to calculate local time
 * Normal gacha banners and tracks
 * Client-side seed seeker
+* Always highlight next position on 1A (unless another position is marked)
+* Either add a way to mark a specific position, or memorize the next position
+  somehow (undecided yet, probably need to play around to see which works
+  better)
+* Pathing should start from the marked position
+* Add tooltip on hovering on last rolled cat (and score, slot in detailed
+  page)
+* Expand the last rolled cat feature so that it also memorize the position
+  (just seed alone is not enough to mark the position)
+* Add images for the cats in the cat pages.
 
 ## Architecture
 
