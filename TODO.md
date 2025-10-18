@@ -64,8 +64,6 @@
   somehow (undecided yet, probably need to play around to see which works
   better)
 * Pathing should start from the marked position
-* Add tooltip on hovering on last rolled cat (and score, slot in detailed
-  page)
 * Expand the last rolled cat feature so that it also memorize the position
   (just seed alone is not enough to mark the position)
 * Add images for the cats in the cat pages.
