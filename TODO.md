@@ -60,7 +60,6 @@
 * Use browser timezone offset to calculate local time
 * Normal gacha banners and tracks
 * Client-side seed seeker
-* Always highlight next position on 1A (unless another position is marked)
 * Either add a way to mark a specific position, or memorize the next position
   somehow (undecided yet, probably need to play around to see which works
   better)

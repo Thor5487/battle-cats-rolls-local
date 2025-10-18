@@ -92,6 +92,8 @@ module BattleCatsRolls
 
       if pick = request.params_coercion_with_nil('pick', :to_s)
         gacha.finish_picking(cats, pick, guaranteed_rolls)
+      elsif next_position = cats.dig(0, 0)
+        next_position.picked_label = :next_position
       end
 
       found_cats =
