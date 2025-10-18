@@ -270,7 +270,7 @@ module BattleCatsRolls
       offset = tsv[/\d+(?=\.tsv$)/]
       packs.filter_map do |pack|
         identifier = if version = pack[/\d+_\d+/]
-          version.sub('_', "_#{offset}_")
+          version.sub(/_(\d+)$/, "_#{offset}_00")
         elsif version = preserved_server_file_version[offset.to_i]
           "#{to_version_id(version)}_#{offset}_00"
         else
