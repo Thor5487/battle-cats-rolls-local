@@ -1,6 +1,6 @@
 <%= erb :form %>
 
-<table>
+<table><tbody>
 <% arg[:stats].each do |stat| %>
   <tr class="border_upper">
     <th colspan="6" title="<%= h stat.desc %>"><%= h stat.name %></th>
@@ -118,7 +118,7 @@
   <% end %>
 <% end %>
   <tr class="border_bottom"></tr>
-</table>
+</tbody></table>
 
 <ul>
   <% if cat = arg[:cat] %>
