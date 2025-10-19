@@ -2,8 +2,13 @@
 
 <table><tbody>
 <% arg[:stats].each do |stat| %>
-  <tr class="border_upper">
-    <th colspan="6" title="<%= h stat.desc %>"><%= h stat.name %></th>
+  <tr class="border_upper" title="<%= h stat.desc %>">
+    <th colspan="2">
+      <div class="cat_avatar">
+        <img src="<%= stat.img_src(route.lang) %>">
+      </div>
+    </th>
+    <th colspan="4"><%= h stat.name %></th>
   </tr>
   <tr class="border_upper">
     <td><%= l10n('Health') %></td>

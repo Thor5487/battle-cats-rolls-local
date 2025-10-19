@@ -5,7 +5,8 @@ require_relative 'provider'
 
 module BattleCatsRolls
   class PackProvider < Struct.new(
-    :data_reader, :res_reader, :animation_readers)
+    :data_reader, :res_reader,
+    :animation_readers, :unit_image_readers)
 
     def initialize lang, dir
       local_readers = %w[DataLocal.list resLocal.list].
@@ -13,7 +14,9 @@ module BattleCatsRolls
           PackReader.new(lang, "#{dir}/#{list}")
         end
 
-      super(*local_readers, new_readers(lang, dir, 'ImageData'))
+      super(*local_readers,
+        new_readers(lang, dir, 'ImageData'),
+        new_readers(lang, dir, 'Unit'))
     end
 
     def gacha
@@ -73,6 +76,12 @@ module BattleCatsRolls
         end
     end
 
+    def write_unit_images dir
+      unit_image_readers.reverse_each do |reader|
+        write_unit_images_for(dir, reader)
+      end
+    end
+
     private
 
     def data
@@ -105,10 +114,26 @@ module BattleCatsRolls
     end
 
     def new_readers lang, dir, name
-      paths = Dir["#{dir}/*#{name}Server*.list"].sort <<
-        "#{dir}/#{name}Local.list"
+      paths = Dir["#{dir}/*#{name}Server*.list"].sort_by do |path|
+        # Sort the followings:
+        # * VUnitServer.list
+        # * UnitServer_100600_00_en.list
+        # We prioritize [version, prefix] put it in the last in the list
+        File.basename(path).match(/([A-Z]?)#{name}Server((?:_.+)?)/)[1..-1].
+          reverse
+      end << "#{dir}/#{name}Local.list" # Lastly the local one
 
       paths.map{ |list| PackReader.new(lang, list) }
+    end
+
+    def write_unit_images_for dir, reader
+      reader.list_lines.
+        grep(/\Auni\d+_[#{Provider.forms.join}]00\.png,\d+,\d+$/).
+        each do |line|
+          filename, png = reader.read(line)
+          path = "#{dir}/#{filename}"
+          File.binwrite(path, png.call) unless File.exist?(path)
+        end
     end
   end
 end
