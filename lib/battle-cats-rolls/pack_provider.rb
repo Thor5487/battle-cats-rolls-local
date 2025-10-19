@@ -5,20 +5,15 @@ require_relative 'provider'
 
 module BattleCatsRolls
   class PackProvider < Struct.new(
-    :data_reader, :res_reader, :local_animation_reader,
-    :server_animation_readers
-    )
+    :data_reader, :res_reader, :animation_readers)
+
     def initialize lang, dir
-      local_readers = %w[DataLocal.list resLocal.list ImageDataLocal.list].
+      local_readers = %w[DataLocal.list resLocal.list].
         map do |list|
           PackReader.new(lang, "#{dir}/#{list}")
         end
 
-      server_readers = Dir["#{dir}/*ImageDataServer*.list"].sort.map do |list|
-        PackReader.new(lang, list)
-      end
-
-      super(*local_readers, server_readers)
+      super(*local_readers, new_readers(lang, dir, 'ImageData'))
     end
 
     def gacha
@@ -46,8 +41,8 @@ module BattleCatsRolls
     end
 
     def attack_maanims
-      @attack_maanims ||= server_animation_readers.
-        inject(load_maanims(local_animation_reader)) do |result, reader|
+      @attack_maanims ||= animation_readers.reverse_each.
+        inject({}) do |result, reader|
           load_maanims(reader, result)
         end
     end
@@ -56,11 +51,15 @@ module BattleCatsRolls
       reader.list_lines.
         grep(/\A\d+_[#{Provider.forms.join}]02\.maanim,\d+,\d+$/).
         inject(init) do |result, line|
-          filename, maanim = reader.read_eagerly(line)
+          filename, maanim_read = reader.read(line)
           id, form_index =
             Provider.extract_id_and_form_from_maanim_path(filename)
 
+          next result if result.dig(id, form_index)
+
+          maanim = maanim_read.call
           (result[id] ||= [])[form_index] = maanim unless maanim.empty?
+
           result
         end
     end
@@ -103,6 +102,13 @@ module BattleCatsRolls
 
           result
         end
+    end
+
+    def new_readers lang, dir, name
+      paths = Dir["#{dir}/*#{name}Server*.list"].sort <<
+        "#{dir}/#{name}Local.list"
+
+      paths.map{ |list| PackReader.new(lang, list) }
     end
   end
 end
