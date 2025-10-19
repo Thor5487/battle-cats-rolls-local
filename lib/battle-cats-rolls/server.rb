@@ -55,6 +55,9 @@ module BattleCatsRolls
       '/robots.txt' => '/robots.txt' do
       run Rack::Files.new(File.expand_path('asset', __dir__))
     end
+    rewrite '/extract' => '' do
+      run Rack::Files.new("#{Root}/extract/asset")
+    end
 
     map '/seek', to: '/seek', host: SeekHost do
       run Web::Seek.new

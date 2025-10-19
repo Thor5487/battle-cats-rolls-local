@@ -6,6 +6,7 @@
 * Show slow percentage
 * Use consistent unit for speed (range per second)
 * Figure out how where to find the hard coded values in the game data
+* Drop invalid 3rd form: https://bc.godfat.org/cats/767
 
 ## Talents
 

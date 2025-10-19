@@ -2,6 +2,8 @@
 
 require_relative 'ability'
 require_relative 'attack'
+require_relative 'provider'
+require_relative 'root'
 
 module BattleCatsRolls
   class Stat < Struct.new(
@@ -22,6 +24,18 @@ module BattleCatsRolls
 
     def desc
       info.dig('desc', index) || cat&.pick_description(index)
+    end
+
+    def img_src lang
+      dir = "#{Root}/extract/asset"
+      path = sprintf("%s/uni%03d_%s00.png",
+        lang, id - 1, Provider.forms[index])
+
+      if File.exist?("#{dir}/#{path}")
+        "/extract/#{path}"
+      else
+        "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>"
+      end
     end
 
     def stat

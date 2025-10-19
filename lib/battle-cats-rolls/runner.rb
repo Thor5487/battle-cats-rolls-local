@@ -185,6 +185,11 @@ module BattleCatsRolls
 
         puts "Writing data..."
 
+        if !File.exist?(extract_asset_path)
+          FileUtils.mkdir_p(extract_asset_path)
+          provider.write_unit_images(extract_asset_path)
+        end
+
         ball.dump("#{Root}/build", lang)
       end
     end
@@ -222,6 +227,7 @@ module BattleCatsRolls
           load_pack
         else
           if File.exist?(apk_path) || download_apk
+            FileUtils.rm_r(extract_asset_path) # Remove old assets
             write_pack && download_server_pack && load_pack
           else
             puts "! Cannot find '#{version}' for #{lang}"
@@ -258,11 +264,15 @@ module BattleCatsRolls
     end
 
     def wget url, path
-      system(
-        'wget',
-        '--user-agent=Mozilla/5.0',
-        '-O', path,
-        url) || raise('wget gave an error')
+      if File.exist?(path)
+        true
+      else
+        system(
+          'wget',
+          '--user-agent=Mozilla/5.0',
+          '-O', path,
+          url) || raise('wget gave an error')
+      end
     end
 
     def wget_server_zip tsv, packs
@@ -272,7 +282,14 @@ module BattleCatsRolls
         identifier = if version = pack[/\d+_\d+/]
           version.sub(/_(\d+)$/, "_#{offset}_00")
         elsif version = preserved_server_file_version[offset.to_i]
-          "#{to_version_id(version)}_#{offset}_00"
+          if version.include?('.')
+            digits = version.split('.')
+            suffix = digits[3] || '0'
+            version_id = digits.first(3).map{|int| sprintf("%02d", int)}.join
+            sprintf('%s_%02d_%02d', version_id, offset, suffix)
+          else
+            version
+          end
         else
           next # We don't know the version, skip
         end
@@ -283,7 +300,7 @@ module BattleCatsRolls
         wget(AwsCf.new(url).generate, "#{app_data_path}/#{filename}")
 
         filename
-      end
+      end.uniq # Different pack files can come from the same zip
     end
 
     def last_date items
@@ -294,7 +311,7 @@ module BattleCatsRolls
 
     def write_pack
       paths =
-        %w[DataLocal resLocal ImageLocal ImageDataLocal].product(
+        %w[DataLocal resLocal ImageLocal ImageDataLocal UnitLocal].product(
           ['.list', '.pack']).map(&:join).map do |name|
           "assets/#{name}"
         end
@@ -305,7 +322,11 @@ module BattleCatsRolls
     def download_server_pack
       Dir["#{app_data_path}/download_*.tsv"].each do |tsv|
         packs = File.read(tsv).
-          scan(/\b\w*ImageDataServer(?:_\d+_\d+_\w+)?(?=\.pack\b)/).uniq
+          scan(/
+            \b\w*
+            (?:ImageDataServer|UnitServer)(?:_\d+_\d+_\w+)?
+            (?=\.pack\b)
+          /x).uniq
 
         next if packs.empty?
 
@@ -314,7 +335,7 @@ module BattleCatsRolls
           zip_path = "#{app_data_path}/#{filename}"
 
           if unzip(zip_path, files)
-            FileUtils.rm(zip_path, verbose: true)
+            FileUtils.rm(zip_path)
           else
             raise("Cannot unzip #{zip_path} for #{files}")
           end
@@ -331,8 +352,8 @@ module BattleCatsRolls
     def extract_xapk path
       if unzip_apk(path)
         actual_apk_path = Dir["#{app_data_path}/#{File.basename(path)}"].first
-        FileUtils.mv(actual_apk_path, apk_path, verbose: true)
-        FileUtils.rmdir(app_data_path, verbose: true)
+        FileUtils.mv(actual_apk_path, apk_path)
+        FileUtils.rmdir(app_data_path)
       else
         raise(VersionNotFound.new("Invalid XAPK for #{version}"))
       end
@@ -352,7 +373,7 @@ module BattleCatsRolls
     end
 
     def unzip zip_path, paths
-      system('unzip', '-j', zip_path, *paths, '-d', app_data_path)
+      system('unzip', '-n', '-j', zip_path, *paths, '-d', app_data_path)
     end
 
     def each_list dir=nil
@@ -412,12 +433,12 @@ module BattleCatsRolls
       @extract_path ||= "#{Root}/extract/#{lang}/#{version}"
     end
 
-    def version_id
-      @version_id ||= to_version_id(version)
+    def extract_asset_path
+      @extract_asset_path ||= "#{Root}/extract/asset/#{lang}"
     end
 
-    def to_version_id version
-      version.split('.').map{|int| sprintf('%02d', int)}.join
+    def version_id
+      @version_id ||= version.split('.').map{|int| sprintf('%02d', int)}.join
     end
 
     def jwt
