@@ -3226,7 +3226,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20]
   258:
     name: [천공신 제우스, 기간트 제우스, G기간트 제우스]
-    desc: ["올림푸스 12신 중의 한 명인 전지전능한 최고신\n왕의 신기 「천계의 뇌검」으로 전세계를 파괴로 몰아넣는다\n공처가이지만 천사에 맷집이 강하다 (범위 공격)", "기간트 모드로 진화한 전지전능한 최고신\n패왕의 신기「천계의 신뇌검」이 전세계를 無로 만들어 버린다\n공처가이지만 천사에 맷집이 강하다 (범위 공격)", "마나의 힘을 받아들인 전지전능한 최고신\n창조의 과실을 손에 넣어 새로운 세계를 구축한다\n공처가이지만 천사에 맷집이 강하다 (범위 공격)"]
+    desc: ["올림푸스 12신 중의 한 명인 전지전능한 최고신\n왕의 신기 「천계의 뇌검」으로 전세계를 파괴로 몰아넣는다\n공처가이지만 천사에 맷집이 좋다 (범위 공격)", "기간트 모드로 진화한 전지전능한 최고신\n패왕의 신기「천계의 신뇌검」이 전세계를 無로 만들어 버린다\n공처가이지만 천사에 맷집이 좋다 (범위 공격)", "마나의 힘을 받아들인 전지전능한 최고신\n창조의 과실을 손에 넣어 새로운 세계를 구축한다\n공처가이지만 천사에 맷집이 좋다 (범위 공격)"]
     stat: [{health: 3150, knockbacks: 2, speed: 8, cost: 3200, production_cooldown: 2500, attack_cooldown: 58, range: 480, width: 320, area_effect: 1, damage_0: 1450, attack_time_0: 64, trigger_effects_0: 1, against_angel: 1, resistant: 1, attack_duration: 130}, {health: 3800, knockbacks: 2, speed: 8, cost: 3200, production_cooldown: 2500, attack_cooldown: 58, range: 480, width: 320, area_effect: 1, damage_0: 1900, attack_time_0: 64, trigger_effects_0: 1, against_angel: 1, resistant: 1, attack_duration: 130}, {health: 4180, knockbacks: 2, speed: 8, cost: 3200, production_cooldown: 2500, attack_cooldown: 58, range: 480, width: 320, area_effect: 1, damage_0: 2125, attack_time_0: 64, trigger_effects_0: 1, against_angel: 1, resistant: 1, attack_duration: 130}]
     rarity: 4
     max_level: 130
@@ -4345,6 +4345,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [4, 4]]
+        ultra: 1
+      colossus_slayer:
+        ultra: 1
+      immune_curse:
+        ultra: 1
   359:
     name: [좀비아가씨 버베나, 사령의 신부 버베나, 행복한 신부 버베나]
     desc: ["이세계에서 온 절명계 좀비아가씨\n텅비어버린 마음과 배를 채워 줄 누군가를 기다리고 있다\n가끔 크리티컬을 낸다 (범위 공격)", "진정한 사랑으로 생기를 되찾은 좀비의 신부\n행복한 하루하루에 종일 미소가 떠나지 않는다\n가끔 크리티컬을 낸다 (범위 공격)", "사랑하는 남편들의 유산으로 사치의 끝을 맛본 좀비 신부.\n몸도 마음도 지갑도 행복으로 가득 차있다\n가끔 크리티컬을 낸다 (범위 공격)"]
@@ -4392,9 +4400,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   361:
-    name: [물의 정령 마리, 유수의 정령 마리린, 유수의 정령왕 마리리린]
-    desc: ["우주에서 온 물의 정령\n내려선 별에 물의 근원이 존재한다고 한다\n가끔 에이리언을 날려버려 움직임을 느리게 한다", "대지를 깎아버릴 정도의 유수를 다루는 정령\n맑고 거친 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다", "별자리도 휩쓸어버리는 거대한 힘을 가진 유수의 정령왕\n은하수를 수원으로 하는 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다"]
-    stat: [{health: 1180, knockbacks: 4, speed: 12, cost: 760, production_cooldown: 390, attack_cooldown: 103, range: 325, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_warp: 1, attack_duration: 145}, {health: 2460, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2320, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3010, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2870, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}]
+    name: [물의 정령 마리, 유수의 정령 마리린, 유수의 정령왕 마리리린, 유수의 대정령 마리나데]
+    desc: ["우주에서 온 물의 정령\n내려선 별에 물의 근원이 존재한다고 한다\n가끔 에이리언을 날려버려 움직임을 느리게 한다", "대지를 깎아버릴 정도의 유수를 다루는 정령\n맑고 거친 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다", "별자리도 휩쓸어버리는 거대한 힘을 가진 유수의 정령왕\n은하수를 수원으로 하는 물기둥은 베리어도 뚫어버리는 힘을 가졌다\n에이리언에 맷집이 좋고, 날려버려 움직임을 느리게 한다", "물의 힘을 관장하는 대정령. 우주를 가득 채우는 맑은 물은\n초현자 특효와 베리어를 뚫어버리는 힘을 가졌다. 에이리언에\n초 맷집이 좋고 반드시 날려버려 느리게 하고 소열파를 낸다"]
+    stat: [{health: 1180, knockbacks: 4, speed: 12, cost: 760, production_cooldown: 390, attack_cooldown: 103, range: 325, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_warp: 1, attack_duration: 145}, {health: 2460, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2320, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3010, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2870, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3810, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 450, width: 320, area_effect: 1, damage_0: 3370, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, insane_resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, sage_slayer: 1, surge_level: 2, surge_mini: 100, surge_range: 1000, surge_range_offset: 2400, immune_warp: 1, attack_duration: 145}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -5046,6 +5054,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[100, 100], [15, 150], [50, 50]]
+      dodge:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   439:
     name: [불타는 해변의 쿠우, 불타는 해변의 쿠우γ]
     desc: ["해변의 칵테일 바에서 알바중인 열혈소녀\n터프한 접객으로 몇몇 남성 손님들에게 심쿵을 선사한다\n좀비와 떠있는 적에게 엄청 강하다 (범위 공격)", "해변의 칵테일 바에서 열알바하는 열혈소녀\n태양처럼 뜨거운 사랑은 언제 찾아올지...?\n좀비와 떠있는 적에게 엄청 강하다 (범위 공격)"]
@@ -5148,7 +5170,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20]
   451:
     name: [천성용 바벨, 마성용 바벨, 천마성용 바벨]
-    desc: ["아공간을 지배하는 천공성과 일체화된 전설의 용족\n압도적인 파괴력의 초압축 에너지를 내뿜는다 \n빨간 적과 떠있는 적에 맷집이 강하다. (범위 공격)", "아공간을 지배하는 암흑성과 일체화된 전설의 용족\n그 파괴력은 차원을 뛰어넘어 현세에 파멸을 가져온다\n빨간 적과 떠있는 적에 맷집이 강하다. (범위 공격)", "아공간을 지배하는 수많은 성과 일체화된 전설의 용족\n뒤섞인 에너지의 격한 흐름은 초생명체 특효를 가지고\n빨간 적과 떠있는 적에 맷집이 강하다. (범위 공격)"]
+    desc: ["아공간을 지배하는 천공성과 일체화된 전설의 용족\n압도적인 파괴력의 초압축 에너지를 내뿜는다 \n빨간 적과 떠있는 적에 초 맷집이 좋다 (범위 공격)", "아공간을 지배하는 암흑성과 일체화된 전설의 용족\n그 파괴력은 차원을 뛰어넘어 현세에 파멸을 가져온다\n빨간 적과 떠있는 적에 초 맷집이 좋다 (범위 공격)", "아공간을 지배하는 수많은 성과 일체화된 전설의 용족\n뒤섞인 에너지의 격한 흐름은 초생명체 특효를 가지고\n빨간 적과 떠있는 적에 초 맷집이 좋다 (범위 공격)"]
     stat: [{health: 15000, knockbacks: 2, speed: 8, cost: 4500, production_cooldown: 2500, attack_cooldown: 124, range: 390, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 113, trigger_effects_0: 1, against_red: 1, against_float: 1, insane_resistant: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 210}, {health: 15000, knockbacks: 2, speed: 8, cost: 4500, production_cooldown: 2500, attack_cooldown: 124, range: 390, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 113, trigger_effects_0: 1, against_red: 1, against_float: 1, insane_resistant: 1, immune_freeze: 1, immune_slow: 1, attack_duration: 210}, {health: 18000, knockbacks: 2, speed: 8, cost: 4500, production_cooldown: 2500, attack_cooldown: 124, range: 390, width: 320, area_effect: 1, damage_0: 5000, attack_time_0: 113, trigger_effects_0: 1, against_red: 1, against_float: 1, insane_resistant: 1, colossus_slayer: 1, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_toxic: 1, attack_duration: 210}]
     rarity: 5
     max_level: 59
@@ -5223,6 +5245,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      massive_damage: {}
+      freeze:
+        max_level: 10
+        minmax: [[9, 90]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   464:
     name: [종말 병기 무우, 극비 연구기관 판도라]
     desc: ["미지의 고대 크리스탈로 제사도 지내는 병기\n이차원의 힘을 제어 못해 세계를 종말로 이끈다(전방위 공격)\n파동을 없애며, 좀비에게 맷집이 좋고 극 데미지를 입힌다.", "사차원 크리스탈을 분석하는 정부의 극비 연구기관\n제어 불가능한 거대한 힘은 그들을 파멸로 이끈다(전방위 공격)\n파동을 없애며, 좀비에게 맷집이 좋고 극 데미지를 입힌다."]
@@ -5330,7 +5366,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20]
   482:
     name: [천재 과학자 헤븐 박사, 시공 과학자 아비스 박사]
-    desc: ["이차원 에너지의 거대한 힘에 매혹된 저명한 과학자\n생명체를 파괴하여 크리스탈로 만드는 잔인한 기술을 가졌다\n검은 적과 에이리언에 맷집이 강하다 (범위 공격)", "크리스탈의 압도적인 능력에 홀려버린 명성 높은 과학자\n스스로 힘에 대한 갈망과 파괴의 충동을 멈출 수가 없다\n검은 적과 에이리언에 극 데미지를 입힌다 (범위 공격)"]
+    desc: ["이차원 에너지의 거대한 힘에 매혹된 저명한 과학자\n생명체를 파괴하여 크리스탈로 만드는 잔인한 기술을 가졌다\n검은 적과 에이리언에 초 맷집이 좋다 (범위 공격)", "크리스탈의 압도적인 능력에 홀려버린 명성 높은 과학자\n스스로 힘에 대한 갈망과 파괴의 충동을 멈출 수가 없다\n검은 적과 에이리언에 극 데미지를 입힌다 (범위 공격)"]
     stat: [{health: 11000, knockbacks: 3, speed: 8, cost: 3600, production_cooldown: 2650, attack_cooldown: 90, range: 400, width: 320, area_effect: 1, damage_0: 2710, attack_time_0: 61, trigger_effects_0: 1, against_black: 1, against_alien: 1, insane_resistant: 1, attack_duration: 150}, {health: 11000, knockbacks: 3, speed: 8, cost: 3600, production_cooldown: 2650, attack_cooldown: 90, range: 400, width: 320, area_effect: 1, damage_0: 2710, attack_time_0: 61, trigger_effects_0: 1, against_black: 1, against_alien: 1, insane_damage: 1, attack_duration: 150}]
     rarity: 5
     max_level: 59
@@ -6057,7 +6093,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   565:
     name: [고양이 루가의 여름, 매혹의 파사란, 엘레강스 파사란]
-    desc: ["고양이인지 소녀인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터", "고양이인지 소녀인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 열파를 낸다 (범위 공격)", "고양이인지 엘레강스한 셀럽인지\n도대체 알 수 없는 정체불명의 수수께끼 소녀\n반드시 열파를 낸다 (범위 공격)"]
+    desc: ["고양이인지 소녀인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n진화 시키면…", "고양이인지 소녀인지\n도대체 알 수 없는 정체불명의 수수께끼 캐릭터\n반드시 열파를 낸다 (범위 공격)", "고양이인지 엘레강스한 셀럽인지\n도대체 알 수 없는 정체불명의 수수께끼 소녀\n반드시 열파를 낸다 (범위 공격)"]
     stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 13, trigger_effects_0: 1, attack_duration: 23}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 240, range: 650, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 89, trigger_effects_0: 1, surge_chance: 100, surge_level: 5, surge_range: 600, surge_range_offset: 3600, attack_duration: 121}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 240, range: 650, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 89, trigger_effects_0: 1, surge_chance: 100, surge_level: 8, surge_range: 600, surge_range_offset: 3600, attack_duration: 121}]
     rarity: 4
     max_level: 130
@@ -6635,6 +6671,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[34, 34], [10, 100]]
+      immune_wave: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[70, 700]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   636:
     name: [100만불 고양이, 1억불 고양이, 1억불의 고양이]
     desc: ["승자에게 주어지는 고액 상금의 플레이트를 나르는\n아름다운 고양이. 그 다리는 100만 불의 가치가 있어\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "승자에게 주어지는 고액 상금의 플레이트를 나르는\n1억 불의 현상금이 달려있는 전과가 있는 고양이\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "승자에게 주어지는 고액 상금의 플레이트를 나르는\n1억 불의 현상금이 달려있는 전과가 있는 고양이\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다"]
@@ -7804,6 +7854,27 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  815:
+    name: [에바 양산기, 에바 고양이 양산기]
+    desc: ["에반게리온에서 참전!\n인류 보완 계획을 완수하기 위해 제레가 투입한 기체\n가끔 속성을 가지지 않은 적과 천사의 움직임을 멈춘다", "에바 양산기를 본떠 고양이가 만들어낸 기체\n인류 고양이화 계획을 완수하기 위해 진심을 담아 개발했다\n가끔 속성을 가지지 않은 적과 천사의 움직임을 멈춘다"]
+    stat: [{health: 2500, knockbacks: 3, speed: 8, cost: 1800, production_cooldown: 650, attack_cooldown: 72, range: 410, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_white: 1, freeze_chance: 50, freeze_duration: 90, immune_knockback: 1, immune_wave: 1, attack_duration: 122}, {health: 2500, knockbacks: 3, speed: 8, cost: 1800, production_cooldown: 650, attack_cooldown: 72, range: 410, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_white: 1, freeze_chance: 50, freeze_duration: 90, immune_knockback: 1, immune_wave: 1, attack_duration: 122}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  816:
+    name: [월영의 소년 카오루, 낙월의 사자 카오루]
+    desc: ["사명을 다하기 위해 달에서 나타난 수수께끼의 소년\n소환 능력과 초현자 특효를 가지며 속성을 가지지 않은 적에\n극 데미지를 입히고 가끔 날려버린다 (원거리 범위공격)", "친구의 행복을 빌며 원환의 이야기를 거듭하는 소년\n소환 능력과 초현자 특효를 가지며 속성을 가지지 않은 적에\n극 데미지를 입히고 가끔 날려버린다 (원거리 범위공격)"]
+    stat: [{health: 6000, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 750, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 750, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, knockback_chance: 40, sage_slayer: 1, eva_angel_slayer: 1, conjure: 817, immune_slow: 1, immune_wave: 1, immune_explosion: 1, attack_duration: 110}, {health: 6000, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 750, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 750, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, knockback_chance: 40, sage_slayer: 1, eva_angel_slayer: 1, conjure: 817, immune_slow: 1, immune_wave: 1, immune_explosion: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  817:
+    name: [817-1]
+    desc: ['정령: 적의 공격력을 낮춰 느리게 합니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 130, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
   818:
     name: [나무의 정령 모리, 수목의 정령 모리린]
     desc: ["우주에서 온 나무의 정령\n내려선 별에 나무의 근원을 불어넣는다고 한다\n가끔 검은 적과 에이리언을 저주한다", "식물의 성장을 다루는 정령. 올곧게 자라나는 수목의 힘으로\n베리어를 뚫어버린다. 초생명체 특효, 초수 특효, 소환 능력을 가지며\n검은 적과 에이리언에 맷집이 좋고, 반드시 저주한다"]
@@ -7844,6 +7915,20 @@ cats:
     desc: ["여러 사업을 성공시킨 경험이 있다고 하는 비즈니스맨\n이익계산과 임기응변에 있어서는 따라올 자가 없다\n메탈 킬러 능력을 가지며 메탈 적을 가끔 느리게 한다", "돈벌이를 위해서는 수단을 가리지 않는다는 비즈니스맨\n이해타산과 배임행위에 있어서는 따라올 자가 없다\n메탈 킬러 능력을 가지며 메탈 적을 가끔 느리게 한다"]
     stat: [{health: 580, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 90, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}, {health: 720, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 115, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}]
     rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  825:
+    name: [마도사 시드미, 불꽃의 대마도사 시드미]
+    desc: ["이세계에서 온 절명계 마도사. 젊어지는 마법으로\n외모를 속여 온 300살. 초현자 특효와 소환 능력을 가지고\n빨간 적과 떠있는 적에 맷집이 좋고 가끔 움직임을 느리게 한다", "가면을 벗은 대마도사. 어리게 보든 늙게 보든 전부\n태워버리니 주의 요망. 초현자 특효와 소환 능력을 가지고\n빨간 적과 떠있는 적에 맷집이 좋고 가끔 움직임을 느리게 한다"]
+    stat: [{health: 7500, knockbacks: 2, speed: 15, cost: 3100, production_cooldown: 2150, attack_cooldown: 70, range: 360, width: 320, area_effect: 1, damage_0: 950, attack_time_0: 59, trigger_effects_0: 1, damage_1: 950, attack_time_1: 90, trigger_effects_1: 1, against_red: 1, against_float: 1, resistant: 1, slow_chance: 50, slow_duration: 100, sage_slayer: 1, conjure: 826, immune_weaken: 1, attack_duration: 150}, {health: 9000, knockbacks: 2, speed: 15, cost: 3100, production_cooldown: 2150, attack_cooldown: 70, range: 360, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 59, trigger_effects_0: 1, damage_1: 1250, attack_time_1: 90, trigger_effects_1: 1, against_red: 1, against_float: 1, resistant: 1, slow_chance: 50, slow_duration: 150, sage_slayer: 1, conjure: 826, immune_weaken: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  826:
+    name: [826-1]
+    desc: ['정령: 적의 공격력을 낮춥니다.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
 gacha:
@@ -13364,6 +13449,42 @@ gacha:
     series_id: 64
     name: "★확률, 상세 내용은 배너를 클릭!★ 여름 스타일의 개방적인 캐릭터들을 GET!"
     rate: no_legend
+  1015:
+    cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: "★확률, 상세 내용은 배너를 클릭!★속성을 가지지 않는 적과 악마에 강한 캐릭터 '닌자아가씨 토모에' 참전!"
+    rate: regular
+    similarity: 98
+  1016:
+    cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: "★확률, 상세 내용은 배너를 클릭!★속성을 가지지 않는 적과 악마에 강한 캐릭터 '닌자아가씨 토모에' 참전!"
+    rate: regular
+    similarity: 98
+  1017:
+    cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 54
+    name: 신캐릭터 '카스가노 사쿠라' 참전! 스트리트 파이터V 뽑기!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 82
+  1018:
+    cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 55
+    name: 신캐릭터 '루크' 참전! 스트리트 파이터V 뽑기!★자세한 내용은 배너를 클릭!
+    rate: regular
+    similarity: 82
+  1019:
+    cats: [816, 815, 413, 414, 416, 548, 550, 551, 410, 411, 490, 407, 408, 409, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 37
+    name: 에반게리온 메인 콜라보 뽑기 복각 개최!★자세한 내용은 배너를 탭!
+    rate: no_legend
+    similarity: 81
+  1020:
+    cats: [816, 415, 417, 488, 489, 549, 552, 710, 711, 412, 491, 492, 407, 408, 409, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 44
+    name: "'에바 13호기' 참전! 사도 등을 뽑을 수 있는 콜라보 뽑기!★자세한 내용은 배너를 클릭!!"
+    rate: no_legend
+    similarity: 81
 events:
   2018-10-13_320:
     start_on: 2018-10-13
