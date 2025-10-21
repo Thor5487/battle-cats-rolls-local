@@ -26,9 +26,9 @@ module BattleCatsRolls
       TextUnpacker.new
     end
 
-    def decrypt data, binary: false
-      if cipher_mode
-        safe_decrypt(data, binary: binary)
+    def decrypt data, binary: false, mode: cipher_mode
+      if mode
+        safe_decrypt(data, binary: binary, mode: mode)
       else
         # we try cbc first because newer pack files are in cbc
         safe_decrypt(data, binary: binary, mode: :cbc) ||
@@ -38,7 +38,7 @@ module BattleCatsRolls
 
     private
 
-    def safe_decrypt data, binary: false, mode: cipher_mode
+    def safe_decrypt data, binary:, mode:
       self.bad_data = nil
       result = __send__("decrypt_aes_128_#{mode}", data)
       if binary
