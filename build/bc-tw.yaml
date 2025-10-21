@@ -4352,6 +4352,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      wave_mini:
+        max_level: 10
+        minmax: [[10, 100], [4, 4]]
+        ultra: 1
+      colossus_slayer:
+        ultra: 1
+      immune_curse:
+        ultra: 1
   359:
     name: [不死女薇薇, 死靈新嫁娘薇薇, 滿腹新嫁娘薇薇]
     desc: ["從異世界來的絕命系不死妹\n等待著填滿她空蕩蕩的心和肚子的人\n有時候會發出會心一擊（範圍攻擊）", "找到了真愛，心滿意足的不死新娘\n心裡非常幸福不過肚子還沒填飽\n有時候會發出會心一擊（範圍攻擊）", "用深愛老公們的遺產過著奢侈至極生活的不死新娘\n婚姻的次數造就心情飽滿財富也飽滿，幸福也飽滿。\n有時候會使出會心一擊(範圍攻擊)"]
@@ -4399,9 +4407,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   361:
-    name: [水精靈密茲, 流水精靈密茲曼, 流水精靈王激流密茲曼]
-    desc: ["來自宇宙盡頭的水精靈\n據説每個星球的第一滴水都是其帶來的\n有時候能打飛異星戰士並使其動作變慢", "執掌著能夠沖破一切的流水\n其猛烈的水柱能破壞護盾\n對上異星戰士很耐打，能打飛他們並使其動作變慢", "獲得了強大力量可將星座都沖走的流水精靈王\n其以銀河為水源的水柱能破壞護盾\n對上異星戰士很耐打，能打飛他們並使其動作變慢"]
-    stat: [{health: 1180, knockbacks: 4, speed: 12, cost: 760, production_cooldown: 390, attack_cooldown: 103, range: 325, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_warp: 1, attack_duration: 145}, {health: 2460, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2320, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3010, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2870, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}]
+    name: [水精靈密茲, 流水精靈密茲曼, 流水精靈王激流密茲曼, 流水大精靈蝶翼密茲曼]
+    desc: ["來自宇宙盡頭的水精靈\n據説每個星球的第一滴水都是其帶來的\n有時候能打飛異星戰士並使其動作變慢", "執掌著能夠沖破一切的流水\n其猛烈的水柱能破壞護盾\n對上異星戰士很耐打，能打飛他們並使其動作變慢", "獲得了強大力量可將星座都沖走的流水精靈王\n其以銀河為水源的水柱能破壞護盾\n對上異星戰士很耐打，能打飛他們並使其動作變慢", "執掌水之力量的大精靈。用奔馳在宇宙的清澈流水\n能破壞護盾。有超賢者特效，對上異星戰士超耐打\n必定能打飛他們並使其動作變慢，會發射小烈波"]
+    stat: [{health: 1180, knockbacks: 4, speed: 12, cost: 760, production_cooldown: 390, attack_cooldown: 103, range: 325, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, knockback_chance: 50, slow_chance: 50, slow_duration: 120, immune_warp: 1, attack_duration: 145}, {health: 2460, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2320, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3010, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 400, width: 320, area_effect: 1, damage_0: 2870, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, immune_warp: 1, attack_duration: 145}, {health: 3810, knockbacks: 4, speed: 10, cost: 2480, production_cooldown: 1400, attack_cooldown: 103, range: 450, width: 320, area_effect: 1, damage_0: 3370, attack_time_0: 87, trigger_effects_0: 1, against_alien: 1, insane_resistant: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, break_barrier_chance: 100, sage_slayer: 1, surge_level: 2, surge_mini: 100, surge_range: 1000, surge_range_offset: 2400, immune_warp: 1, attack_duration: 145}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -4784,7 +4792,7 @@ cats:
         minmax: [[2, 20]]
   403:
     name: [小小真嗣, 作戰服小小真嗣, 黑色作戰服小小真嗣]
-    desc: ["從福音戰士來參戰！\n突然成為EVA駕駛員的內向少年\n和父親之間有心結(範圍攻擊)", "從福音戰士來參戰！\n希望能透過成為EVA駕駛員\n來獲得大家的認同(範圍攻擊)", "從福音戰士來參戰！遇到真心好友後，決心\n一切從新再來,因此決意再次駕駛EVA的少年\n對上異星戰士與不死生物很耐打(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n突然成為EVA駕駛員的內向少年\n和父親之間有心結(範圍攻擊)", "從新世紀福音戰士來參戰！\n希望能透過成為EVA駕駛員\n來獲得大家的認同(範圍攻擊)", "從新世紀福音戰士來參戰！遇到真心好友後\n決心一切從新再來，因此決意再次駕駛EVA的少年\n對上異星戰士與不死生物很耐打(範圍攻擊)"]
     stat: [{health: 450, knockbacks: 3, speed: 9, cost: 250, production_cooldown: 450, attack_cooldown: 30, range: 160, width: 320, area_effect: 1, damage_0: 110, attack_time_0: 37, trigger_effects_0: 1, damage_1: 110, attack_time_1: 46, trigger_effects_1: 1, damage_2: 110, attack_time_2: 55, trigger_effects_2: 1, eva_angel_slayer: 1, attack_duration: 84}, {health: 450, knockbacks: 3, speed: 9, cost: 250, production_cooldown: 450, attack_cooldown: 30, range: 160, width: 320, area_effect: 1, damage_0: 110, attack_time_0: 37, trigger_effects_0: 1, damage_1: 110, attack_time_1: 46, trigger_effects_1: 1, damage_2: 110, attack_time_2: 55, trigger_effects_2: 1, eva_angel_slayer: 1, attack_duration: 84}, {health: 900, knockbacks: 3, speed: 9, cost: 250, production_cooldown: 450, attack_cooldown: 30, range: 160, width: 320, area_effect: 1, damage_0: 165, attack_time_0: 37, trigger_effects_0: 1, damage_1: 165, attack_time_1: 46, trigger_effects_1: 1, damage_2: 165, attack_time_2: 55, trigger_effects_2: 1, against_alien: 1, against_zombie: 1, resistant: 1, zombie_killer: 1, eva_angel_slayer: 1, attack_duration: 84}]
     rarity: 2
     max_level: 50
@@ -4805,7 +4813,7 @@ cats:
     growth: [20, 20, 20, 20, 20]
   406:
     name: [小小薰, 作戰服小小薰, 月下少年薰]
-    desc: ["從福音戰士來參戰！\n充滿神秘感的奇妙少年\n能夠對黑色敵人造成超大傷害", "從福音戰士來參戰！\n大家都以為他是EVA駕駛員的神秘少年\n能夠對黑色敵人造成超大傷害", "從福音戰士來參戰！\n似乎早就知道真嗣這號人物・・・\n能夠對黑色敵人造成超大傷害(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n充滿神秘感的奇妙少年\n能夠對黑色敵人造成超大傷害", "從新世紀福音戰士來參戰！\n大家都以為他是EVA駕駛員的神秘少年\n能夠對黑色敵人造成超大傷害", "從新世紀福音戰士來參戰！\n似乎早就知道真嗣這號人物・・・\n能夠對黑色敵人造成超大傷害(範圍攻擊)"]
     stat: [{health: 570, knockbacks: 3, speed: 8, cost: 300, production_cooldown: 500, attack_cooldown: 52, range: 175, width: 320, damage_0: 255, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, massive_damage: 1, eva_angel_slayer: 1, attack_duration: 92}, {health: 570, knockbacks: 3, speed: 8, cost: 300, production_cooldown: 500, attack_cooldown: 52, range: 175, width: 320, damage_0: 255, attack_time_0: 48, trigger_effects_0: 1, against_black: 1, massive_damage: 1, eva_angel_slayer: 1, attack_duration: 94}, {health: 570, knockbacks: 3, speed: 8, cost: 300, production_cooldown: 500, attack_cooldown: 54, range: 250, width: 320, area_effect: 1, damage_0: 255, attack_time_0: 60, trigger_effects_0: 1, against_black: 1, massive_damage: 1, eva_angel_slayer: 1, attack_duration: 107}]
     rarity: 1
     max_level: 50
@@ -4833,42 +4841,42 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   410:
     name: [小小零, 作戰服小小零, 重逢的小小零]
-    desc: ["從福音戰士來參戰！\n情感不表露於外的沉默少女\n有時候會讓天使敵人的攻擊力下降(範圍攻擊)", "從福音戰士來參戰！\n駕駛EVA使她感受到羈絆\n有時候會讓天使敵人的攻擊力下降(範圍攻擊)", "從福音戰士來參戰！\n14年來持續守護著某個東西的少女\n善於攻擊天使敵人，有時候使其攻擊力下降(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n情感不表露於外的沉默少女\n有時候會讓天使敵人的攻擊力下降(範圍攻擊)", "從新世紀福音戰士來參戰！\n駕駛EVA使她感受到羈絆\n有時候會讓天使敵人的攻擊力下降(範圍攻擊)", "從新世紀福音戰士來參戰！\n14年來持續守護著某個東西的少女\n善於攻擊天使敵人，有時候使其攻擊力下降(範圍攻擊)"]
     stat: [{health: 1450, knockbacks: 3, speed: 8, cost: 780, production_cooldown: 400, attack_cooldown: 63, range: 300, width: 320, area_effect: 1, damage_0: 990, attack_time_0: 45, trigger_effects_0: 1, against_angel: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, eva_angel_slayer: 1, immune_weaken: 1, attack_duration: 90}, {health: 1450, knockbacks: 3, speed: 8, cost: 780, production_cooldown: 400, attack_cooldown: 63, range: 300, width: 320, area_effect: 1, damage_0: 990, attack_time_0: 45, trigger_effects_0: 1, against_angel: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, eva_angel_slayer: 1, immune_weaken: 1, attack_duration: 90}, {health: 1600, knockbacks: 3, speed: 8, cost: 780, production_cooldown: 400, attack_cooldown: 63, range: 300, width: 320, area_effect: 1, damage_0: 990, attack_time_0: 45, trigger_effects_0: 1, against_angel: 1, strong: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, dodge_chance: 20, dodge_duration: 60, eva_angel_slayer: 1, immune_weaken: 1, attack_duration: 90}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   411:
     name: [小小明日香, 作戰服小小明日香, 眼罩小小明日香]
-    desc: ["從福音戰士來參戰！\n自尊心極強的外向少女\n善於攻擊紅色敵人(範圍攻擊)", "從福音戰士來參戰！\n開始認為跟他人一起生活也不是不好\n善於攻擊紅色敵人(範圍攻擊)", "從福音戰士來參戰！\n反NERV組織WILLE的改2號機駕駛員\n善於攻擊紅色敵人，有時候能打飛他們（範圍攻擊）"]
+    desc: ["從新世紀福音戰士來參戰！\n自尊心極強的外向少女\n善於攻擊紅色敵人(範圍攻擊)", "從新世紀福音戰士來參戰！\n開始認為跟他人一起生活也不是不好\n善於攻擊紅色敵人(範圍攻擊)", "從新世紀福音戰士來參戰！\n反NERV組織WILLE的改2號機駕駛員\n善於攻擊紅色敵人，有時候能打飛他們（範圍攻擊）"]
     stat: [{health: 1560, knockbacks: 2, speed: 10, cost: 760, production_cooldown: 425, attack_cooldown: 53, range: 315, width: 320, area_effect: 1, damage_0: 780, attack_time_0: 39, trigger_effects_0: 1, against_red: 1, strong: 1, eva_angel_slayer: 1, immune_slow: 1, attack_duration: 98}, {health: 1560, knockbacks: 2, speed: 10, cost: 760, production_cooldown: 425, attack_cooldown: 53, range: 315, width: 320, area_effect: 1, damage_0: 780, attack_time_0: 39, trigger_effects_0: 1, against_red: 1, strong: 1, eva_angel_slayer: 1, immune_slow: 1, attack_duration: 98}, {health: 1720, knockbacks: 2, speed: 10, cost: 760, production_cooldown: 425, attack_cooldown: 53, range: 315, width: 320, area_effect: 1, damage_0: 880, attack_time_0: 39, trigger_effects_0: 1, against_red: 1, strong: 1, knockback_chance: 40, eva_angel_slayer: 1, immune_slow: 1, attack_duration: 98}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   412:
     name: [小小真理, 作戰服小小真理]
-    desc: ["從福音戰士來參戰！\n以降落傘突然出現的不明少女\n善於攻擊飄浮敵人(範圍攻擊)", "從福音戰士來參戰！\n駕駛EVA比誰都快樂的謎之少女\n善於攻擊飄浮敵人(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n以降落傘突然出現的不明少女\n善於攻擊飄浮敵人(範圍攻擊)", "從新世紀福音戰士來參戰！\n駕駛EVA比誰都快樂的謎之少女\n善於攻擊飄浮敵人(範圍攻擊)"]
     stat: [{health: 1480, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 450, attack_cooldown: 45, range: 325, width: 320, area_effect: 1, damage_0: 660, attack_time_0: 36, trigger_effects_0: 1, against_float: 1, strong: 1, eva_angel_slayer: 1, immune_freeze: 1, attack_duration: 66}, {health: 1480, knockbacks: 4, speed: 9, cost: 800, production_cooldown: 450, attack_cooldown: 45, range: 325, width: 320, area_effect: 1, damage_0: 660, attack_time_0: 36, trigger_effects_0: 1, against_float: 1, strong: 1, eva_angel_slayer: 1, immune_freeze: 1, attack_duration: 66}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   413:
     name: [EVA零號機, EVA零號機&貓咪]
-    desc: ["從福音戰士來參戰！\n作為泛用人型決戰兵器的試作機登場(範圍攻擊)\n對上天使與飄浮敵人很耐打，並能抵消波動", "從福音戰士來參戰！\n過去曾在啟動實驗中暴走(範圍攻擊)\n對上天使與飄浮敵人很耐打，並能抵消波動"]
+    desc: ["從新世紀福音戰士來參戰！\n作為泛用人型決戰兵器的試作機登場(範圍攻擊)\n對上天使與飄浮敵人很耐打，並能抵消波動", "從新世紀福音戰士來參戰！\n過去曾在啟動實驗中暴走(範圍攻擊)\n對上天使與飄浮敵人很耐打，並能抵消波動"]
     stat: [{health: 7500, knockbacks: 2, speed: 11, cost: 2950, production_cooldown: 2750, attack_cooldown: 121, range: 350, width: 320, area_effect: 1, damage_0: 2750, attack_time_0: 51, trigger_effects_0: 1, against_float: 1, against_angel: 1, resistant: 1, eva_angel_slayer: 1, block_wave: 1, attack_duration: 112}, {health: 7500, knockbacks: 2, speed: 11, cost: 2950, production_cooldown: 2750, attack_cooldown: 121, range: 350, width: 320, area_effect: 1, damage_0: 2750, attack_time_0: 51, trigger_effects_0: 1, against_float: 1, against_angel: 1, resistant: 1, eva_angel_slayer: 1, block_wave: 1, attack_duration: 112}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   414:
     name: [EVA初號機, EVA初號機&貓咪, 決意的EVA初號機&貓咪]
-    desc: ["從福音戰士來參戰！\n作為泛用人型決戰兵器的試用型投入實戰\n善於攻擊異星戰士和不死生物(範圍攻擊)", "從福音戰士來參戰！\n當駕駛員生命受威脅時即會暴走\n善於攻擊異星戰士和不死生物(範圍攻擊)", "從福音戰士來參戰！\n手持希望之槍卡西烏斯前往最終決戰\n善於攻擊異星戰士和不死生物(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n作為泛用人型決戰兵器的試用型投入實戰\n善於攻擊異星戰士和不死生物(範圍攻擊)", "從新世紀福音戰士來參戰！\n當駕駛員生命受威脅時即會暴走\n善於攻擊異星戰士和不死生物(範圍攻擊)", "從新世紀福音戰士來參戰！\n手持希望之槍卡西烏斯前往最終決戰\n善於攻擊異星戰士和不死生物(範圍攻擊)"]
     stat: [{health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100, break_barrier_chance: 100, zombie_killer: 1, eva_angel_slayer: 1, attack_duration: 135}, {health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, strong: 1, strengthen_threshold: 50, strengthen_modifier: 100, break_barrier_chance: 100, zombie_killer: 1, eva_angel_slayer: 1, attack_duration: 135}, {health: 4600, knockbacks: 4, speed: 8, cost: 2980, production_cooldown: 2500, range: 460, width: 320, area_effect: 1, damage_0: 920, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, strong: 1, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 150, break_barrier_chance: 100, zombie_killer: 1, eva_angel_slayer: 1, surge_level: 1, surge_mini: 30, surge_range: 1600, surge_range_offset: 1200, attack_duration: 135}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   415:
     name: [EVA2號機, EVA2號機&貓咪, EVA改2號機 Code 777]
-    desc: ["從福音戰士來參戰！\n為實戰而製造的制式型EVA\n可以給予紅色敵人超大傷害(遠距範圍攻擊)", "從福音戰士來參戰！\n駕駛員說這才是真正的EVANGELION\n可以給予紅色敵人超大傷害(遠距範圍攻擊)", "從福音戰士來參戰！\n代號777模式變為戰鬥特化獸化型態的改2號機\n給紅敵超大傷害，體力下降時攻擊力上升(遠距範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n為實戰而製造的制式型EVA\n可以給予紅色敵人超大傷害(遠距範圍攻擊)", "從新世紀福音戰士來參戰！\n駕駛員說這才是真正的EVANGELION\n可以給予紅色敵人超大傷害(遠距範圍攻擊)", "從新世紀福音戰士來參戰！\n代號777模式變為戰鬥特化獸化型態的改2號機\n給紅敵超大傷害，體力下降時攻擊力上升(遠距範圍攻擊)"]
     stat: [{health: 3900, knockbacks: 3, speed: 15, cost: 3000, production_cooldown: 2250, attack_cooldown: 86, range: 400, width: 320, area_effect: 1, damage_0: 2200, long_range_0: 200, long_range_offset_0: 450, attack_time_0: 76, trigger_effects_0: 1, against_red: 1, massive_damage: 1, eva_angel_slayer: 1, attack_duration: 148}, {health: 3900, knockbacks: 3, speed: 15, cost: 3000, production_cooldown: 2250, attack_cooldown: 86, range: 400, width: 320, area_effect: 1, damage_0: 2200, long_range_0: 200, long_range_offset_0: 450, attack_time_0: 76, trigger_effects_0: 1, against_red: 1, massive_damage: 1, eva_angel_slayer: 1, attack_duration: 148}, {health: 3900, knockbacks: 3, speed: 15, cost: 3000, production_cooldown: 2250, attack_cooldown: 72, range: 400, width: 320, area_effect: 1, damage_0: 2200, long_range_0: 200, long_range_offset_0: 450, attack_time_0: 61, trigger_effects_0: 1, against_red: 1, massive_damage: 1, strengthen_threshold: 33, strengthen_modifier: 100, eva_angel_slayer: 1, attack_duration: 108}]
     rarity: 4
     max_level: 130
@@ -5060,6 +5068,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      weaken:
+        max_level: 10
+        minmax: [[100, 100], [15, 150], [50, 50]]
+      dodge:
+        max_level: 10
+        minmax: [[50, 50], [15, 60]]
+      immune_curse: {}
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   439:
     name: [灼熱海灘悟空貓, 灼熱海灘悟空貓γ]
     desc: ["在海灘小店打工中的熱血女孩\n粗暴的態度吸引了一批鐵粉男客\n善於攻擊不死生物和飄浮敵人(範圍攻擊)", "在海灘小店大賺一筆的熱血女孩\n有時候會忽然想來一場艷陽般的熱戀\n善於攻擊不死生物和飄浮敵人(範圍攻擊)"]
@@ -5237,6 +5259,20 @@ cats:
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
+    talent:
+      massive_damage: {}
+      freeze:
+        max_level: 10
+        minmax: [[9, 90]]
+      reduce_production_cooldown:
+        max_level: 10
+        minmax: [[60, 600]]
+      increase_health:
+        max_level: 10
+        minmax: [[8, 80]]
+      increase_damage:
+        max_level: 10
+        minmax: [[8, 80]]
   464:
     name: [終末兵器・異滅堂, 秘研機關・潘朵殿]
     desc: ["來自古代奉獻研究未知水晶的神殿型兵器\n不可控制異次元，引導走向世界末日(全方位攻擊)\n能抵消波動，對上不死生物很耐打並能給予極度傷害", "可解析「四次元水晶」的政府極秘研究機關\n遇上無法控制的力量時會自我毀滅(全方位攻擊)\n能抵消波動，對上不死生物很耐打並能給予極度傷害"]
@@ -5407,7 +5443,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   488:
     name: [EVA8號機, EVA8號機&貓咪]
-    desc: ["從福音戰士來參戰！\n反NERV組織WILLE改造並且運用的機體\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)", "從福音戰士來參戰！\n能使用多種槍械並擅長援護射撃\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)"]
+    desc: ["從新世紀福音戰士來參戰！\n反NERV組織WILLE改造並且運用的機體\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)", "從新世紀福音戰士來參戰！\n能使用多種槍械並擅長援護射撃\n對上飄浮敵人的3種妨害效果有時候會發揮(遠距範圍)"]
     stat: [{health: 3600, knockbacks: 4, speed: 13, cost: 3050, production_cooldown: 2300, attack_cooldown: 92, range: 450, width: 320, area_effect: 1, damage_0: 640, long_range_0: 250, long_range_offset_0: 450, attack_time_0: 44, trigger_effects_0: 1, damage_1: 640, attack_time_1: 50, trigger_effects_1: 1, damage_2: 640, attack_time_2: 56, trigger_effects_2: 1, against_float: 1, knockback_chance: 20, freeze_chance: 20, freeze_duration: 120, weaken_chance: 20, weaken_duration: 120, weaken_multiplier: 50, eva_angel_slayer: 1, attack_duration: 105}, {health: 3600, knockbacks: 4, speed: 13, cost: 3050, production_cooldown: 2300, attack_cooldown: 92, range: 450, width: 320, area_effect: 1, damage_0: 640, long_range_0: 250, long_range_offset_0: 450, attack_time_0: 44, trigger_effects_0: 1, damage_1: 640, attack_time_1: 50, trigger_effects_1: 1, damage_2: 640, attack_time_2: 56, trigger_effects_2: 1, against_float: 1, knockback_chance: 20, freeze_chance: 20, freeze_duration: 120, weaken_chance: 20, weaken_duration: 120, weaken_multiplier: 50, eva_angel_slayer: 1, attack_duration: 105}]
     rarity: 4
     max_level: 130
@@ -5421,21 +5457,21 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   490:
     name: [小小美里, Wunder艦長小小美里]
-    desc: ["從福音戰士來參戰！\n個性豪爽活潑，是真嗣的監護人\n有時候能破壞護盾，使異星戰士的動作變慢", "從福音戰士來參戰！\n反NERV組織WILLE領導者的冷酷女性\n有時候能破壞護盾，使異星戰士的動作變慢"]
+    desc: ["從新世紀福音戰士來參戰！\n個性豪爽活潑，是真嗣的監護人\n有時候能破壞護盾，使異星戰士的動作變慢", "從新世紀福音戰士來參戰！\n反NERV組織WILLE領導者的冷酷女性\n有時候能破壞護盾，使異星戰士的動作變慢"]
     stat: [{health: 1650, knockbacks: 3, speed: 10, cost: 770, production_cooldown: 460, attack_cooldown: 56, range: 300, width: 320, area_effect: 1, damage_0: 980, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, slow_chance: 50, slow_duration: 120, break_barrier_chance: 30, immune_slow: 1, attack_duration: 96}, {health: 1650, knockbacks: 3, speed: 10, cost: 770, production_cooldown: 460, attack_cooldown: 56, range: 300, width: 320, area_effect: 1, damage_0: 980, attack_time_0: 45, trigger_effects_0: 1, against_alien: 1, slow_chance: 50, slow_duration: 120, break_barrier_chance: 30, immune_slow: 1, attack_duration: 96}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   491:
     name: [小小律子, Wunder副長小小律子]
-    desc: ["從福音戰士來參戰！\n所屬NERV技術開發部，冷靜的女性研究員\n有時候會讓異星戰士的攻擊力下降(範圍攻擊)", "從福音戰士來參戰！\n做為反NERV組織WILLE的幹部，對真嗣冷静而透徹\n有時候會讓異星戰士的攻擊力下降(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n所屬NERV技術開發部，冷靜的女性研究員\n有時候會讓異星戰士的攻擊力下降(範圍攻擊)", "從新世紀福音戰士來參戰！\n做為反NERV組織WILLE的幹部，對真嗣冷静而透徹\n有時候會讓異星戰士的攻擊力下降(範圍攻擊)"]
     stat: [{health: 1600, knockbacks: 3, speed: 9, cost: 750, production_cooldown: 430, attack_cooldown: 62, range: 300, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 67, trigger_effects_0: 1, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, immune_warp: 1, immune_weaken: 1, attack_duration: 130}, {health: 1600, knockbacks: 3, speed: 9, cost: 750, production_cooldown: 430, attack_cooldown: 62, range: 300, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 67, trigger_effects_0: 1, against_alien: 1, weaken_chance: 50, weaken_duration: 200, weaken_multiplier: 50, immune_warp: 1, immune_weaken: 1, attack_duration: 130}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   492:
     name: [小小綾波零（暫稱）, 覺醒的小小綾波零]
-    desc: ["從福音戰士來參戰！\n對於真嗣的記憶好像很模糊……？\n對上黑敵很耐打，有時使其攻擊力下降(範圍攻擊)", "從福音戰士來參戰！\n開始思考想知道自己是什麼\n對上黑敵很耐打，有時使其攻擊力下降(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！\n對於真嗣的記憶好像很模糊……？\n對上黑敵很耐打，有時使其攻擊力下降(範圍攻擊)", "從新世紀福音戰士來參戰！\n開始思考想知道自己是什麼\n對上黑敵很耐打，有時使其攻擊力下降(範圍攻擊)"]
     stat: [{health: 2700, knockbacks: 2, speed: 8, cost: 790, production_cooldown: 400, attack_cooldown: 42, range: 180, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 35, trigger_effects_0: 1, against_black: 1, resistant: 1, weaken_chance: 30, weaken_duration: 200, weaken_multiplier: 50, eva_angel_slayer: 1, immune_knockback: 1, attack_duration: 89}, {health: 2700, knockbacks: 2, speed: 8, cost: 790, production_cooldown: 400, attack_cooldown: 42, range: 180, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 35, trigger_effects_0: 1, against_black: 1, resistant: 1, weaken_chance: 30, weaken_duration: 200, weaken_multiplier: 50, eva_angel_slayer: 1, immune_knockback: 1, attack_duration: 89}]
     rarity: 3
     max_level: 120
@@ -6092,7 +6128,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   565:
     name: [仲夏不明貓, 魅惑不明貓, 名媛不明貓]
-    desc: ["是貓還是辣妹沒人知道\n完全是個謎樣般的角色", "是貓還是辣妹沒人知道\n完全是個謎樣般的角色\n必定能發射烈波(範圍攻擊)", "是貓還是上流名媛沒人知道\n完全是個謎樣般的辣妹\n必定能發射烈波(範圍攻擊)"]
+    desc: ["是貓還是辣妹沒人知道\n完全是個謎樣般的角色\n如果進化的話…", "是貓還是辣妹沒人知道\n完全是個謎樣般的角色\n必定能發射烈波(範圍攻擊)", "是貓還是上流名媛沒人知道\n完全是個謎樣般的辣妹\n必定能發射烈波(範圍攻擊)"]
     stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 13, trigger_effects_0: 1, attack_duration: 23}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 240, range: 650, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 89, trigger_effects_0: 1, surge_chance: 100, surge_level: 5, surge_range: 600, surge_range_offset: 3600, attack_duration: 121}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 240, range: 650, width: 320, area_effect: 1, damage_0: 1000, attack_time_0: 89, trigger_effects_0: 1, surge_chance: 100, surge_level: 8, surge_range: 600, surge_range_offset: 3600, attack_duration: 121}]
     rarity: 4
     max_level: 130
@@ -6670,6 +6706,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[34, 34], [10, 100]]
+      immune_wave: {}
+      reduce_cost:
+        max_level: 10
+        minmax: [[70, 700]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   636:
     name: [一百萬的貓, 一億元的貓]
     desc: ["搬運贈送給贏家的高額獎金獎牌\n的美麗貓咪。那雙美腿價值一百萬\n可發出會心一擊，打倒敵人的時候可以得到很多金錢", "搬運贈送給贏家的超高額獎金獎牌\n被懸賞一億元帶有前科的貓咪\n可發出會心一擊，打倒敵人的時候可以得到很多金錢"]
@@ -7169,7 +7219,7 @@ cats:
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   711:
     name: [EVA第13號機, EVA第13號機&貓咪]
-    desc: ["從福音戰士來參戰！由真嗣和薰\n所駕駛的複座式駕駛的機體\n善於攻擊惡魔，有時候發射小烈波(範圍攻擊)", "從福音戰士來參戰！碇源堂在\n「新・福音戰士」中戰鬥時所搭乘的機體\n善於攻擊惡魔，有時候發射小烈波(範圍攻擊)"]
+    desc: ["從新世紀福音戰士來參戰！由真嗣和薰\n所駕駛的複座式駕駛的機體\n善於攻擊惡魔，有時候發射小烈波(範圍攻擊)", "從新世紀福音戰士來參戰！碇源堂在「福音戰士\n新劇場版：終」中戰鬥時所搭乘的機體\n善於攻擊惡魔，有時候發射小烈波(範圍攻擊)"]
     stat: [{health: 4800, knockbacks: 3, speed: 8, cost: 2880, production_cooldown: 2600, range: 460, width: 320, area_effect: 1, damage_0: 480, attack_time_0: 55, trigger_effects_0: 1, damage_1: 480, attack_time_1: 60, trigger_effects_1: 1, damage_2: 480, attack_time_2: 65, trigger_effects_2: 1, against_aku: 1, strong: 1, eva_angel_slayer: 1, surge_level: 1, surge_mini: 50, surge_range: 1600, surge_range_offset: 1200, immune_surge: 1, attack_duration: 140}, {health: 4800, knockbacks: 3, speed: 8, cost: 2880, production_cooldown: 2600, range: 460, width: 320, area_effect: 1, damage_0: 480, attack_time_0: 55, trigger_effects_0: 1, damage_1: 480, attack_time_1: 60, trigger_effects_1: 1, damage_2: 480, attack_time_2: 65, trigger_effects_2: 1, against_aku: 1, strong: 1, eva_angel_slayer: 1, surge_level: 1, surge_mini: 50, surge_range: 1600, surge_range_offset: 1200, immune_surge: 1, attack_duration: 140}]
     rarity: 4
     max_level: 130
@@ -7867,6 +7917,27 @@ cats:
     rarity: 1
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  815:
+    name: [EVA量產機, EVA貓量產機]
+    desc: ["從新世紀福音戰士來參戰！SEELE為了\n徹底執行人類補完計畫而啟用的機體\n有時候會讓無屬性敵人和天使敵人動作停止", "貓咪模仿EVA量產機所製作的機體\n為了徹底執行人類貓咪化計畫而用盡真心開發\n有時候會讓無屬性敵人和天使敵人動作停止"]
+    stat: [{health: 2500, knockbacks: 3, speed: 8, cost: 1800, production_cooldown: 650, attack_cooldown: 72, range: 410, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_white: 1, freeze_chance: 50, freeze_duration: 90, immune_knockback: 1, immune_wave: 1, attack_duration: 122}, {health: 2500, knockbacks: 3, speed: 8, cost: 1800, production_cooldown: 650, attack_cooldown: 72, range: 410, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 51, trigger_effects_0: 1, against_angel: 1, against_white: 1, freeze_chance: 50, freeze_duration: 90, immune_knockback: 1, immune_wave: 1, attack_duration: 122}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  816:
+    name: [月影少年薰, 落月使者薰]
+    desc: ["為了達成使命出現在月球的神祕少年\n有召喚能力和超賢者特效，可以給予無屬性敵人\n極度傷害，有時候能打飛他們（遠距範圍）", "為了好友的幸福在故事中多次輪迴的少年\n有召喚能力和超賢者特效，可以給予無屬性敵人\n極度傷害，有時候能打飛他們（遠距範圍）"]
+    stat: [{health: 6000, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 750, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 750, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, knockback_chance: 40, sage_slayer: 1, eva_angel_slayer: 1, conjure: 817, immune_slow: 1, immune_wave: 1, immune_explosion: 1, attack_duration: 110}, {health: 6000, knockbacks: 3, speed: 12, cost: 3100, production_cooldown: 2000, attack_cooldown: 67, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 35, trigger_effects_0: 1, damage_1: 750, long_range_1: 400, long_range_offset_1: 225, attack_time_1: 45, trigger_effects_1: 1, damage_2: 750, long_range_2: 625, long_range_offset_2: 225, attack_time_2: 55, trigger_effects_2: 1, against_white: 1, insane_damage: 1, knockback_chance: 40, sage_slayer: 1, eva_angel_slayer: 1, conjure: 817, immune_slow: 1, immune_wave: 1, immune_explosion: 1, attack_duration: 110}]
+    rarity: 5
+    max_level: 59
+    growth: [20, 20, 20, 20, 20, 20]
+  817:
+    name: [817-1]
+    desc: [精靈：能使敵人攻擊力下降且動作變慢]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, slow_chance: 100, slow_duration: 130, weaken_chance: 100, weaken_duration: 150, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 5
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
   818:
     name: [樹精靈小魔麗, 樹木精靈魔麗林]
     desc: ["來自宇宙盡頭的樹精靈\n據説每個星球的第一個植物都是其帶來的\n有時候能詛咒黑色敵人與異星戰士", "能夠控制植物生長的精靈。樹木強勁的生長之力\n能破壞護盾。有超生命體特效、超獸特效和召喚能力\n對上黑色敵人與異星戰士很耐打，必定能詛咒他們"]
@@ -7907,6 +7978,20 @@ cats:
     desc: ["據說是成功經手許多事業的商界人士\n計算盈虧及靈機應變的速度可是無人能及\n有鋼鐵殺手能力，有時候能使鋼鐵敵人動作變慢", "據說是為了賺錢而不擇手段的商業人士\n計算得失和見風轉舵的速度可是無人能及\n有鋼鐵殺手能力，有時候能使鋼鐵敵人動作變慢"]
     stat: [{health: 580, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 90, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}, {health: 720, knockbacks: 3, speed: 16, cost: 460, production_cooldown: 400, attack_cooldown: 33, range: 250, width: 320, damage_0: 115, attack_time_0: 18, trigger_effects_0: 1, against_metal: 1, slow_chance: 30, slow_duration: 60, metal_killer: 10, extra_money: 1, attack_duration: 45}]
     rarity: 1
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  825:
+    name: [魔導師希朵咪, 火焰大魔導師希朵咪]
+    desc: ["從異世界來的絕命系魔導師。用外表變年輕的魔法\n來隱瞞已經300歲的事實。有超賢者特效和召喚能力\n對上紅色與飄浮敵人很耐打，有時候能使其動作變慢", "拿掉面具的熟練魔導師。把她當小孩子或是長者\n看待都會遭火焰洗禮。有超賢者特效和召喚能力\n對上紅色與飄浮敵人很耐打，有時候能使其動作變慢"]
+    stat: [{health: 7500, knockbacks: 2, speed: 15, cost: 3100, production_cooldown: 2150, attack_cooldown: 70, range: 360, width: 320, area_effect: 1, damage_0: 950, attack_time_0: 59, trigger_effects_0: 1, damage_1: 950, attack_time_1: 90, trigger_effects_1: 1, against_red: 1, against_float: 1, resistant: 1, slow_chance: 50, slow_duration: 100, sage_slayer: 1, conjure: 826, immune_weaken: 1, attack_duration: 150}, {health: 9000, knockbacks: 2, speed: 15, cost: 3100, production_cooldown: 2150, attack_cooldown: 70, range: 360, width: 320, area_effect: 1, damage_0: 1250, attack_time_0: 59, trigger_effects_0: 1, damage_1: 1250, attack_time_1: 90, trigger_effects_1: 1, against_red: 1, against_float: 1, resistant: 1, slow_chance: 50, slow_duration: 150, sage_slayer: 1, conjure: 826, immune_weaken: 1, attack_duration: 150}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  826:
+    name: [826-1]
+    desc: [精靈：能使敵人攻擊力下降]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, weaken_chance: 100, weaken_duration: 200, weaken_multiplier: 50, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
 gacha:
@@ -13313,6 +13398,42 @@ gacha:
     series_id: 64
     name: 新角色追加！來GET滿滿開放感的夏日限定角色吧！★點圖確認詳細吧!!
     rate: no_legend
+  1015:
+    cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: 異世界召喚來的愉快美少女們登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  1016:
+    cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 28
+    name: 異世界召喚來的愉快美少女們登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 98
+  1017:
+    cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 54
+    name: 新角色『櫻』參戰！『快打旋風V』稀有轉蛋！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 82
+  1018:
+    cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 55
+    name: 新角色『路克』參戰！『快打旋風V』稀有轉蛋！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 82
+  1019:
+    cats: [816, 815, 413, 414, 416, 548, 550, 551, 410, 411, 490, 407, 408, 409, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 37
+    name: 福音戰士為主角的合作轉蛋復刻登場！★點圖確認詳細吧!!
+    rate: no_legend
+    similarity: 81
+  1020:
+    cats: [816, 415, 417, 488, 489, 549, 552, 710, 711, 412, 491, 492, 407, 408, 409, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 44
+    name: "「EVA第13號機」參戰！包含使徒的合作轉蛋登場！★點圖確認詳細吧!!"
+    rate: no_legend
+    similarity: 81
 events:
   2018-08-03_310:
     start_on: 2018-08-03
