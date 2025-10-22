@@ -31,8 +31,9 @@ module BattleCatsRolls
         safe_decrypt(data, png: png, mode: mode)
       else
         # we try cbc first because newer pack files are in cbc
-        safe_decrypt(data, png: png, mode: :cbc) ||
-          safe_decrypt(data, png: png, mode: :ecb)
+        %i[cbc ecb].lazy.filter_map do |mode|
+          safe_decrypt(data, png: png, mode: mode)
+        end.first
       end
     end
 
@@ -67,18 +68,18 @@ module BattleCatsRolls
       end
     end
 
-    def decrypt_aes_128_ecb data
-      cipher = OpenSSL::Cipher.new('aes-128-ecb')
-      cipher.decrypt
-      cipher.key = ecb_key
-      cipher.update(data) + cipher.final
-    end
-
     def decrypt_aes_128_cbc data
       cipher = OpenSSL::Cipher.new('aes-128-cbc')
       cipher.decrypt
       cipher.key = cbc_key
       cipher.iv = cbc_iv
+      cipher.update(data) + cipher.final
+    end
+
+    def decrypt_aes_128_ecb data
+      cipher = OpenSSL::Cipher.new('aes-128-ecb')
+      cipher.decrypt
+      cipher.key = ecb_key
       cipher.update(data) + cipher.final
     end
   end
