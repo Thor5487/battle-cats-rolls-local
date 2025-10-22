@@ -31,7 +31,7 @@ module BattleCatsRolls
         safe_decrypt(data, png: png, mode: mode)
       else
         # we try cbc first because newer pack files are in cbc
-        %i[cbc ecb].lazy.filter_map do |mode|
+        %i[cbc ecb text].lazy.filter_map do |mode|
           safe_decrypt(data, png: png, mode: mode)
         end.first
       end
@@ -82,15 +82,9 @@ module BattleCatsRolls
       cipher.key = ecb_key
       cipher.update(data) + cipher.final
     end
-  end
 
-  class TextUnpacker
-    def decrypt data, png: false
-      raise ArgumentError.new('TextUnpacker cannot decrypt PNG') if png
+    def decrypt_aes_128_text data
       data.force_encoding('UTF-8')
-    end
-
-    def bad_data
     end
   end
 end
