@@ -26,34 +26,45 @@ module BattleCatsRolls
       TextUnpacker.new
     end
 
-    def decrypt data, binary: false, mode: cipher_mode
+    def decrypt data, png: false, mode: cipher_mode
       if mode
-        safe_decrypt(data, binary: binary, mode: mode)
+        safe_decrypt(data, png: png, mode: mode)
       else
         # we try cbc first because newer pack files are in cbc
-        safe_decrypt(data, binary: binary, mode: :cbc) ||
-          safe_decrypt(data, binary: binary, mode: :ecb)
+        safe_decrypt(data, png: png, mode: :cbc) ||
+          safe_decrypt(data, png: png, mode: :ecb)
       end
     end
 
     private
 
-    def safe_decrypt data, binary:, mode:
+    def safe_decrypt data, png:, mode:
       self.bad_data = nil
       result = __send__("decrypt_aes_128_#{mode}", data)
-      if binary
+      if (png && verify_png(result)) || verify_text(result)
+        self.cipher_mode = mode
         result
-      else
-        result.force_encoding('UTF-8')
-
-        if result.valid_encoding?
-          self.cipher_mode = mode
-          result
-        end
       end
-    rescue OpenSSL::Cipher::CipherError => e
+    rescue OpenSSL::Cipher::CipherError, ArgumentError => e
       self.bad_data = e
       nil
+    end
+
+    def verify_png result
+      if result.start_with?("\x89PNG".b)
+        result
+      else
+        raise ArgumentError.new('Decrypted data not PNG')
+      end
+    end
+
+    def verify_text result
+      result.force_encoding('UTF-8')
+      if result.valid_encoding?
+        result
+      else
+        raise ArgumentError.new('Decrypted text not valid UTF-8')
+      end
     end
 
     def decrypt_aes_128_ecb data
@@ -73,7 +84,8 @@ module BattleCatsRolls
   end
 
   class TextUnpacker
-    def decrypt data, binary: false
+    def decrypt data, png: false
+      raise ArgumentError.new('TextUnpacker cannot decrypt PNG') if png
       data.force_encoding('UTF-8')
     end
 
