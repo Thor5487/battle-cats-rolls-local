@@ -227,6 +227,22 @@ module BattleCatsRolls
         end
     end
 
+    def load_extract
+      puts "Loading from extract..."
+
+      require_relative 'extract_provider'
+
+      ExtractProvider.new(extract_path)
+    end
+
+    def load_pack
+      puts "Loading from pack..."
+
+      require_relative 'pack_provider'
+
+      PackProvider.new(lang, app_data_path)
+    end
+
     def load_pack_from_apk
       return unless write_pack
 
@@ -235,6 +251,58 @@ module BattleCatsRolls
       write_extract_asset(pack)
 
       pack
+    end
+
+    def download_server_pack
+      Dir["#{app_data_path}/download_*.tsv"].each do |tsv|
+        packs = File.read(tsv).
+          scan(/
+            \b\w*
+            (?:ImageDataServer|UnitServer)(?:_\d+_\d+_\w+)?
+            (?=\.pack\b)
+          /x).uniq
+
+        next if packs.empty?
+
+        wget_server_zip(tsv, packs).each do |filename|
+          files = packs.product(['.list', '.pack']).map(&:join)
+          zip_path = "#{app_data_path}/#{filename}"
+
+          if unzip(zip_path, files)
+            FileUtils.rm(zip_path)
+          else
+            raise("Cannot unzip #{zip_path} for #{files}")
+          end
+        end
+      end
+    end
+
+    def wget_server_zip tsv, packs
+      bucket = apk_id[/\w+$/]
+      offset = tsv[/\d+(?=\.tsv$)/]
+      packs.filter_map do |pack|
+        identifier = if version = pack[/\d+_\d+/]
+          version.sub(/_(\d+)$/, "_#{offset}_00")
+        elsif version = preserved_server_file_version[offset.to_i]
+          if version.include?('.')
+            digits = version.split('.')
+            suffix = digits[3] || '0'
+            version_id = digits.first(3).map{|int| sprintf("%02d", int)}.join
+            sprintf('%s_%02d_%02d', version_id, offset, suffix)
+          else
+            version
+          end
+        else
+          next # We don't know the version, skip
+        end
+
+        filename = "#{bucket}_#{identifier}.zip"
+        url = "https://nyanko-assets.ponosgames.com/iphone/#{bucket}/download/#{filename}"
+
+        wget(AwsCf.new(url).generate, "#{app_data_path}/#{filename}")
+
+        filename
+      end.uniq # Different pack files can come from the same zip
     end
 
     def write_extract_asset pack
@@ -279,52 +347,6 @@ module BattleCatsRolls
       true
     end
 
-    def wget url, path
-      if File.exist?(path)
-        true
-      else
-        system(
-          'wget',
-          '--user-agent=Mozilla/5.0',
-          '-O', path,
-          url) || raise('wget gave an error')
-      end
-    end
-
-    def wget_server_zip tsv, packs
-      bucket = apk_id[/\w+$/]
-      offset = tsv[/\d+(?=\.tsv$)/]
-      packs.filter_map do |pack|
-        identifier = if version = pack[/\d+_\d+/]
-          version.sub(/_(\d+)$/, "_#{offset}_00")
-        elsif version = preserved_server_file_version[offset.to_i]
-          if version.include?('.')
-            digits = version.split('.')
-            suffix = digits[3] || '0'
-            version_id = digits.first(3).map{|int| sprintf("%02d", int)}.join
-            sprintf('%s_%02d_%02d', version_id, offset, suffix)
-          else
-            version
-          end
-        else
-          next # We don't know the version, skip
-        end
-
-        filename = "#{bucket}_#{identifier}.zip"
-        url = "https://nyanko-assets.ponosgames.com/iphone/#{bucket}/download/#{filename}"
-
-        wget(AwsCf.new(url).generate, "#{app_data_path}/#{filename}")
-
-        filename
-      end.uniq # Different pack files can come from the same zip
-    end
-
-    def last_date items
-      items.sort_by { |_, data| data['end_on'] }.
-        dig(-1, -1, 'end_on').
-        strftime('%Y%m%d')
-    end
-
     def write_pack
       paths =
         %w[DataLocal resLocal ImageLocal ImageDataLocal UnitLocal].product(
@@ -333,30 +355,6 @@ module BattleCatsRolls
         end
 
       unzip_apk(*paths, *download_tsv_paths)
-    end
-
-    def download_server_pack
-      Dir["#{app_data_path}/download_*.tsv"].each do |tsv|
-        packs = File.read(tsv).
-          scan(/
-            \b\w*
-            (?:ImageDataServer|UnitServer)(?:_\d+_\d+_\w+)?
-            (?=\.pack\b)
-          /x).uniq
-
-        next if packs.empty?
-
-        wget_server_zip(tsv, packs).each do |filename|
-          files = packs.product(['.list', '.pack']).map(&:join)
-          zip_path = "#{app_data_path}/#{filename}"
-
-          if unzip(zip_path, files)
-            FileUtils.rm(zip_path)
-          else
-            raise("Cannot unzip #{zip_path} for #{files}")
-          end
-        end
-      end
     end
 
     def extract_xapk path
@@ -369,21 +367,12 @@ module BattleCatsRolls
       end
     end
 
-    def download_tsv_paths
-      IO.popen(['zipinfo', '-1', apk_path, 'assets/download_*.tsv']).
-        readlines(chomp: true)
-    end
-
     def unzip_apk *paths
       unzip(apk_path, paths) || begin
         puts "Removing bogus #{apk_path}..."
         FileUtils.rm_r(data_path(version))
         false
       end
-    end
-
-    def unzip zip_path, paths
-      system('unzip', '-n', '-j', zip_path, *paths, '-d', app_data_path)
     end
 
     def each_list dir=nil
@@ -399,20 +388,31 @@ module BattleCatsRolls
       end
     end
 
-    def load_extract
-      puts "Loading from extract..."
-
-      require_relative 'extract_provider'
-
-      ExtractProvider.new(extract_path)
+    def last_date items
+      items.sort_by { |_, data| data['end_on'] }.
+        dig(-1, -1, 'end_on').
+        strftime('%Y%m%d')
     end
 
-    def load_pack
-      puts "Loading from pack..."
+    def download_tsv_paths
+      IO.popen(['zipinfo', '-1', apk_path, 'assets/download_*.tsv']).
+        readlines(chomp: true)
+    end
 
-      require_relative 'pack_provider'
+    def wget url, path
+      if File.exist?(path)
+        true
+      else
+        system(
+          'wget',
+          '--user-agent=Mozilla/5.0',
+          '-O', path,
+          url) || raise('wget gave an error')
+      end
+    end
 
-      PackProvider.new(lang, app_data_path)
+    def unzip zip_path, paths
+      system('unzip', '-n', '-j', zip_path, *paths, '-d', app_data_path)
     end
 
     def data_path dir
