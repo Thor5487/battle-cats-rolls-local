@@ -185,11 +185,6 @@ module BattleCatsRolls
 
         puts "Writing data..."
 
-        if !File.exist?(extract_asset_path)
-          FileUtils.mkdir_p(extract_asset_path)
-          provider.write_unit_images(extract_asset_path)
-        end
-
         ball.dump("#{Root}/build", lang)
       end
     end
@@ -223,16 +218,37 @@ module BattleCatsRolls
         if File.exist?(extract_path)
           # Note that this does not load ImageDataServer_*.pack files
           load_extract
-        elsif File.exist?(app_data_path) && Dir["#{app_data_path}/*"].any?
+        elsif File.exist?(app_data_path)
           load_pack
+        elsif File.exist?(apk_path) || download_apk
+          load_pack_from_apk
         else
-          if File.exist?(apk_path) || download_apk
-            FileUtils.rm_r(extract_asset_path) # Remove old assets
-            write_pack && download_server_pack && load_pack
-          else
-            puts "! Cannot find '#{version}' for #{lang}"
-          end
+          puts "! Cannot find '#{version}' for #{lang}"
         end
+    end
+
+    def load_pack_from_apk
+      return unless write_pack
+
+      download_server_pack
+      pack = load_pack
+      write_extract_asset(pack)
+
+      pack
+    end
+
+    def write_extract_asset pack
+      working_dir = "#{extract_asset_path}/#{version}"
+      FileUtils.mkdir_p(working_dir)
+      pack.write_unit_images(working_dir)
+      # Drop extra files, replace old with new files. No downtime
+      current = Dir["#{extract_asset_path}/*.png"]
+      updated = Dir["#{working_dir}/*.png"]
+      version_dir = %r{#{Regexp.escape(version)}/(?=[^/]+\.png$)}
+      extra = current - updated.map{ |path| path.sub(version_dir, '') }
+      FileUtils.rm(extra) if extra.any?
+      FileUtils.mv(updated, extract_asset_path)
+      FileUtils.rmdir(working_dir)
     end
 
     def download_apk
@@ -341,8 +357,6 @@ module BattleCatsRolls
           end
         end
       end
-
-      true
     end
 
     def extract_apkpure_bundle
