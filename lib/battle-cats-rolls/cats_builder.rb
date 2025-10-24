@@ -166,8 +166,8 @@ module BattleCatsRolls
       end
     end
 
-    def store_cat_data res_local
-      res_local.inject({}) do |result, (filename, data)|
+    def store_cat_data res
+      res.inject({}) do |result, (filename, data)|
         separator_char =
           if filename.end_with?('_ja.csv')
             ','
@@ -204,7 +204,7 @@ module BattleCatsRolls
         end
 
         result
-      end.compact
+      end
     end
 
     def store_cat_stats units
@@ -237,7 +237,7 @@ module BattleCatsRolls
       attach_attack_duration(result)
     end
 
-    def attach_attack_duration(result)
+    def attach_attack_duration result
       result.each do |id, cat_stats|
         cat_stats.each.with_index do |stat, index|
           if attack_duration = attack_animation.dig(id, index)
