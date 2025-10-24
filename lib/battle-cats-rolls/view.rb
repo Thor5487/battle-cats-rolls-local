@@ -32,6 +32,10 @@ module BattleCatsRolls
       end
     end
 
+    def og_image stat
+      "//#{route.web_host}#{stat.img_src(route.lang)}"
+    end
+
     def l10n text
       L10n.translate(route.ui_lang, text)
     end
@@ -605,7 +609,7 @@ module BattleCatsRolls
 
     def self.template name
       (@template ||= {})[name.to_s] ||=
-        Tilt.new("#{__dir__}/view/#{name}.erb")
+        Tilt.new("#{__dir__}/view/#{name}.erb", trim: '-')
     end
 
     def self.warmup
