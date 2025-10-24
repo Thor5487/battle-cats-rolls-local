@@ -267,7 +267,7 @@ module BattleCatsRolls
       case apk_url
       when %r{apkpure\.com/b/XAPK}
         wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
-        extract_apkpure_bundle
+        extract_xapk('InstallPack.apk')
       when %r{apkpure\.com/b/APK}
         wget("#{apk_url}?versionCode=#{version_id}0", apk_path)
       else
@@ -357,10 +357,6 @@ module BattleCatsRolls
           end
         end
       end
-    end
-
-    def extract_apkpure_bundle
-      extract_xapk('InstallPack.apk')
     end
 
     def extract_xapk path
