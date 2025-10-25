@@ -66,7 +66,6 @@
 * Pathing should start from the marked position
 * Expand the last rolled cat feature so that it also memorize the position
   (just seed alone is not enough to mark the position)
-* Add images for the cats in the cat pages.
 
 ## Architecture
 
