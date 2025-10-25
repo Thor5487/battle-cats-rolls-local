@@ -2297,9 +2297,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   156:
-    name: [156-1, 156-2, 156-3]
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 48}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 8}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8, trigger_effects_0: 1}]
+    name: [156-1, 156-2]
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 48}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, trigger_effects_0: 1, attack_duration: 8}]
     rarity: 4
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -2886,9 +2886,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   203:
-    name: [ネコ小籠包, ネコ大籠包, 大籠包にゃんこ]
-    desc: ["蒸し器の中に紛れ込み小籠包になってしまったネコ\n熱い志とスープを薄い皮の内に秘めている\n　\nネコショウロンポウ", "特大せいろで蒸しあげた巨大小籠包\n大きな体に封じ込めた熱々スープは\nバラエティ番組でも大活躍(範囲攻撃)\nネコダイロンポウ", "にゃんこ大戦争台湾版リリース記念キャラクター\nもっとまとめて食べたいという願いを叶えた職人の自信作\n肉まんなのでは？という噂は絶えない(範囲攻撃)"]
-    stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20, attack_duration: 53}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20}]
+    name: [ネコ小籠包, ネコ大籠包]
+    desc: ["蒸し器の中に紛れ込み小籠包になってしまったネコ\n熱い志とスープを薄い皮の内に秘めている\n　\nネコショウロンポウ", "特大せいろで蒸しあげた巨大小籠包\n大きな体に封じ込めた熱々スープは\nバラエティ番組でも大活躍(範囲攻撃)\nネコダイロンポウ"]
+    stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20, attack_duration: 53}]
     rarity: 1
     max_level: 75
     growth: [20, 20, 20, 20, 20, 20, 10, 10]
@@ -3776,9 +3776,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   286:
-    name: [286-1, 286-2, 286-3]
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 55, knockbacks: 3, speed: 16, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 4, attack_time_0: 10, attack_duration: 17}, {health: 300, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 95, attack_time_0: 20, attack_duration: 15}, {health: 300, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 95, attack_time_0: 20}]
+    name: [286-1, 286-2]
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 55, knockbacks: 3, speed: 16, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 4, attack_time_0: 10, attack_duration: 17}, {health: 300, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 95, attack_time_0: 20, attack_duration: 15}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5329,16 +5329,16 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   433:
-    name: ['433_1', '433_2', '433_3']
-    desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3", "仮1\n仮\n仮3"]
-    stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5}]
+    name: ['433_1', '433_2']
+    desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3"]
+    stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 9, trigger_effects_0: 1, against_alien: 1, knockback_chance: 5, attack_duration: 10}]
     rarity: 2
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   434:
-    name: ['434_1', '434_2', '434_3']
-    desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3", "仮1\n仮\n仮3"]
-    stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5}]
+    name: ['434_1', '434_2']
+    desc: ["仮1\n仮\n仮3", "仮1\n仮\n仮3"]
+    stat: [{health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}, {health: 200, knockbacks: 2, speed: 9, cost: 100, production_cooldown: 180, range: 140, width: 320, damage_0: 10, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, knockback_chance: 5, attack_duration: 10}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -5919,30 +5919,30 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   498:
-    name: ['498_1', '498_2', '498_3']
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8}]
+    name: ['498_1', '498_2']
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   499:
-    name: ['499_1', '499_2', '499_3']
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8}]
+    name: ['499_1', '499_2']
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   500:
-    name: ['500_1', '500_2', '500_3']
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8}]
+    name: ['500_1', '500_2']
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   501:
-    name: ['501_1', '501_2', '501_3']
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8}]
+    name: ['501_1', '501_2']
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 17}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8, attack_duration: 15}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
@@ -8395,9 +8395,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
   811:
-    name: ['811_1', '811_2', '811_3']
-    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
-    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}, {health: 200, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 16, attack_time_0: 8}]
+    name: ['811_1', '811_2']
+    desc: ["仮1\n仮2\n仮3", "仮1\n仮2\n仮3"]
+    stat: [{health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}, {health: 100, knockbacks: 3, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 8}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]

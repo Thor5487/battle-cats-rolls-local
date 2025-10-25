@@ -39,6 +39,10 @@ module BattleCatsRolls
       data[:skill_acquisition]
     end
 
+    def picture_book_data
+      data[:picture_book_data]
+    end
+
     def units
       data[:units]
     end
@@ -88,7 +92,12 @@ module BattleCatsRolls
       @data ||= data_reader.list_lines.
         grep(/\A
           (?:GatyaData_Option_SetR\.tsv|
-          (?:GatyaDataSetR1|unitbuy|unit\d+|unitlevel|SkillAcquisition)\.csv)
+          (?:GatyaDataSetR1|
+            unitbuy|
+            unit\d+|
+            unitlevel|
+            SkillAcquisition|
+            nyankoPictureBookData)\.csv)
           ,\d+,\d+$/x).
         inject({}) do |result, line|
           filename, data = data_reader.read_eagerly(line)
@@ -104,6 +113,8 @@ module BattleCatsRolls
             result[:unitlevel] = data
           when 'SkillAcquisition.csv'
             result[:skill_acquisition] = data
+          when 'nyankoPictureBookData.csv'
+            result[:picture_book_data] = data
           else # unit\d+
             id = filename[/\Aunit(\d+)/, 1].to_i
             (result[:units] ||= {})[id] = data
