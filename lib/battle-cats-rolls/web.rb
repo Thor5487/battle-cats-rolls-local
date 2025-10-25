@@ -141,7 +141,7 @@ module BattleCatsRolls
       with_canonical_uri("/cats/#{id}") do
         if info = route.cats[id]
           cat = Cat.new(id: id, info: info)
-          stats = info['name'].size.times.map do |index|
+          stats = info['stat'].size.times.map do |index|
             conjure_id = info.dig('stat', index, 'conjure')
             Stat.new(id: id, info: info, index: index, level: route.level,
               conjure_info: conjure_id && route.cats[conjure_id],

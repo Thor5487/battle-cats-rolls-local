@@ -32,6 +32,10 @@ module BattleCatsRolls
       @unitlevel ||= store_unitlevel(provider.unitlevel)
     end
 
+    def unitforms
+      @unitforms ||= store_unitforms(provider.picture_book_data)
+    end
+
     def skills
       @skills ||= store_skills(provider.skill_acquisition)
     end
@@ -77,6 +81,15 @@ module BattleCatsRolls
           'rarity' => Integer(row[13]),
           'max_level' => Integer(row[50]) + Integer(row[51])
         }
+        result
+      end
+    end
+
+    def store_unitforms data
+      data.each_line.with_index.inject({}) do |result, (line, index)|
+        id = index + 1
+        row = line.split(',')
+        result[id] = Integer(row[2])
         result
       end
     end
@@ -180,21 +193,20 @@ module BattleCatsRolls
           str.sub(/\A\p{whitespace}+/, '').sub(/\p{whitespace}+\z/, '')
         end
 
-        names = data.scan(/^(?:[^#{separator}]+)/).uniq.
-          map(&strip).delete_if(&:empty?)
+        names = data.scan(/^(?:[^#{separator}]+)/).map(&strip).
+          delete_if(&:empty?)
         descs = data.scan(/(?=#{separator}).+$/).
           map{ |s| strip[s.tr(separator_char, "\n").squeeze(' ')] }.
           delete_if(&:empty?)
+        id = Integer(filename[/\d+/])
 
-        size = if names.any? && descs.any?
-          names.size
-        elsif descs.any?
-          names = ["(#{filename[/\d+/]}?)"]
-          descs.size
-        end
+        # Cat 765 in non-JP doesn't have a name. We give a fake one for it
+        names = ["(#{id}?)"] if names.empty? && descs.any?
 
-        if size
-          id = Integer(filename[/\d+/])
+        if names.any? && descs.any?
+          # Cat 78 in TW has 3rd form but not indicated by unitforms
+          # Here we try to use the number of animations to capture that
+          size = [unitforms[id], attack_animation[id]&.size || 0].max
 
           result[id] = {
             'name' => names.first(size),

@@ -3671,8 +3671,8 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   304:
-    name: [타코야끼냥, 냥택배, 고양이 급식당번, 철저한 손씻기와 에탄올 100%로 손소독 후]
-    desc: ["문어가 가득 든 소스 듬뿍 타코야끼로\n일확천금을 노리는 전직 회사원\n천사에게 초 데미지를 입힌다", "착불로 신이 보낸 택배를 배달하는 신 전용 고양이\n뭐가 들었는지 말하는 순간 천벌이 내린다\n천사에게 초 데미지를 입힌다", "자주 손을 씻고 개인 위생 수칙을 준수하여\n급식을 교실까지 배달해주는 프로 급식당번\n천사에게 초 데미지를 입히며 가끔 저주한다", "급식을 교실까지 배달해주는 프로 급식당번\n천사에게 초 데미지를 입히며 가끔 저주한다"]
+    name: [타코야끼냥, 냥택배, 고양이 급식당번]
+    desc: ["문어가 가득 든 소스 듬뿍 타코야끼로\n일확천금을 노리는 전직 회사원\n천사에게 초 데미지를 입힌다", "착불로 신이 보낸 택배를 배달하는 신 전용 고양이\n뭐가 들었는지 말하는 순간 천벌이 내린다\n천사에게 초 데미지를 입힌다", "자주 손을 씻고 개인 위생 수칙을 준수하여\n급식을 교실까지 배달해주는 프로 급식당번\n천사에게 초 데미지를 입히며 가끔 저주한다"]
     stat: [{health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 555, knockbacks: 4, speed: 21, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 200, width: 320, damage_0: 200, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, attack_duration: 82}, {health: 1000, knockbacks: 4, speed: 25, cost: 350, production_cooldown: 220, attack_cooldown: 16, range: 220, width: 320, damage_0: 620, attack_time_0: 12, trigger_effects_0: 1, against_angel: 1, massive_damage: 1, curse_chance: 50, curse_duration: 90, immune_curse: 1, attack_duration: 82}]
     rarity: 2
     max_level: 50
@@ -5311,14 +5311,14 @@ cats:
   472:
     name: [헤라클라이스트, 퍼펙트 헤라클라이스트]
     desc: ["12천사가 창조한 성봇. 악마계의 소문에 의하면\n12개의 이력 균형을 무너트리면 급격히 약해진다고!\n떠있는 적에 매우 강하다", "성신황은 점점 힘을 키워가는 초악마에 \n대항하기 위해 12천사가 창조한 성봇이다.\n에이리언에 매우 강하다"]
-    stat: [{health: 6000, knockbacks: 2, speed: 4, cost: 3000, production_cooldown: 1250, attack_cooldown: 61, range: 360, width: 320, damage_0: 9000, attack_time_0: 116, trigger_effects_0: 1, against_float: 1, strong: 1, immune_warp: 1, immune_slow: 1, attack_duration: 158}, {health: 6000, knockbacks: 2, speed: 4, cost: 3000, production_cooldown: 1250, attack_cooldown: 61, range: 360, width: 320, damage_0: 9000, attack_time_0: 116, trigger_effects_0: 1, against_alien: 1, strong: 1, immune_warp: 1, immune_slow: 1, attack_duration: 158}]
+    stat: [{health: 6000, knockbacks: 2, speed: 4, cost: 3000, production_cooldown: 1250, attack_cooldown: 61, range: 360, width: 320, damage_0: 9000, attack_time_0: 116, trigger_effects_0: 1, against_float: 1, strong: 1, immune_warp: 1, immune_slow: 1, attack_duration: 158}, {health: 6000, knockbacks: 2, speed: 4, cost: 3000, production_cooldown: 1250, attack_cooldown: 61, range: 360, width: 320, damage_0: 9000, attack_time_0: 116, trigger_effects_0: 1, against_alien: 1, strong: 1, immune_warp: 1, immune_slow: 1, attack_duration: 158}, {health: 6000, knockbacks: 2, speed: 4, cost: 3000, production_cooldown: 1250, attack_cooldown: 61, range: 360, width: 320, damage_0: 9000, attack_time_0: 116, trigger_effects_0: 1, against_relic: 1, strong: 1, immune_slow: 1, immune_curse: 1, attack_duration: 158}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   473:
-    name: [네로 마신, 마초 네로]
-    desc: ["마한계를 뛰어 넘은 파워가 작렬하여 마신이 노출되기\n시작한다! 마초 붕괴인 것인가, 아니면 천성계인 것인가?\n좀비에 초 데미지를 입힌다 (전방위 공격)", "6마극의 염마로 출현한 마우왕.\n무화한 마성반야 파워가 천성계를 뒤덮는다!\n좀비에 초 데미지를 입힌다 (전방위 공격)"]
-    stat: [{health: 1200, knockbacks: 4, speed: 9, cost: 990, production_cooldown: 560, attack_cooldown: 28, range: 225, width: 320, area_effect: 1, damage_0: 325, long_range_0: 225, long_range_offset_0: -1025, attack_time_0: 51, trigger_effects_0: 1, damage_1: 325, attack_time_1: 90, trigger_effects_1: 1, damage_2: 325, attack_time_2: 130, trigger_effects_2: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 154}, {health: 1500, knockbacks: 4, speed: 9, cost: 990, production_cooldown: 560, attack_cooldown: 28, range: 225, width: 320, area_effect: 1, damage_0: 425, long_range_0: 225, long_range_offset_0: -1025, attack_time_0: 51, trigger_effects_0: 1, damage_1: 425, attack_time_1: 90, trigger_effects_1: 1, damage_2: 425, attack_time_2: 130, trigger_effects_2: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 154}]
+    name: [네로 마신, 마초 네로, 마초 네로]
+    desc: ["마한계를 뛰어 넘은 파워가 작렬하여 마신이 노출되기\n시작한다! 마초 붕괴인 것인가, 아니면 천성계인 것인가?\n좀비에 초 데미지를 입힌다 (전방위 공격)", "6마극의 염마로 출현한 마우왕.\n무화한 마성반야 파워가 천성계를 뒤덮는다!\n좀비에 초 데미지를 입힌다 (전방위 공격)", "6마극의 염마로 출현한 마우왕.\n무화한 마성반야 파워가 천성계를 뒤덮는다!\n좀비에 초 데미지를 입힌다 (전방위 공격)"]
+    stat: [{health: 1200, knockbacks: 4, speed: 9, cost: 990, production_cooldown: 560, attack_cooldown: 28, range: 225, width: 320, area_effect: 1, damage_0: 325, long_range_0: 225, long_range_offset_0: -1025, attack_time_0: 51, trigger_effects_0: 1, damage_1: 325, attack_time_1: 90, trigger_effects_1: 1, damage_2: 325, attack_time_2: 130, trigger_effects_2: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 154}, {health: 1500, knockbacks: 4, speed: 9, cost: 990, production_cooldown: 560, attack_cooldown: 28, range: 225, width: 320, area_effect: 1, damage_0: 425, long_range_0: 225, long_range_offset_0: -1025, attack_time_0: 51, trigger_effects_0: 1, damage_1: 425, attack_time_1: 90, trigger_effects_1: 1, damage_2: 425, attack_time_2: 130, trigger_effects_2: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 154}, {health: 1950, knockbacks: 4, speed: 9, cost: 990, production_cooldown: 560, attack_cooldown: 28, range: 275, width: 320, area_effect: 1, damage_0: 425, long_range_0: 275, long_range_offset_0: -1075, attack_time_0: 51, trigger_effects_0: 1, damage_1: 425, attack_time_1: 90, trigger_effects_1: 1, damage_2: 425, attack_time_2: 130, trigger_effects_2: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, attack_duration: 154}]
     rarity: 3
     max_level: 120
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
@@ -6686,9 +6686,9 @@ cats:
         max_level: 10
         minmax: [[2, 20]]
   636:
-    name: [100만불 고양이, 1억불 고양이, 1억불의 고양이]
-    desc: ["승자에게 주어지는 고액 상금의 플레이트를 나르는\n아름다운 고양이. 그 다리는 100만 불의 가치가 있어\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "승자에게 주어지는 고액 상금의 플레이트를 나르는\n1억 불의 현상금이 달려있는 전과가 있는 고양이\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "승자에게 주어지는 고액 상금의 플레이트를 나르는\n1억 불의 현상금이 달려있는 전과가 있는 고양이\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다"]
-    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1}]
+    name: [100만불 고양이, 1억불 고양이]
+    desc: ["승자에게 주어지는 고액 상금의 플레이트를 나르는\n아름다운 고양이. 그 다리는 100만 불의 가치가 있어\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다", "승자에게 주어지는 고액 상금의 플레이트를 나르는\n1억 불의 현상금이 달려있는 전과가 있는 고양이\n크리티컬을 내며, 적을 쓰러뜨렸을 때 머니를 많이 얻을 수 있다"]
+    stat: [{health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}, {health: 400, knockbacks: 3, speed: 9, cost: 400, production_cooldown: 495, attack_cooldown: 247, range: 350, width: 320, damage_0: 6, attack_time_0: 6, trigger_effects_0: 1, critical_chance: 100, extra_money: 1, attack_duration: 11}]
     rarity: 1
     max_level: 65
     growth: [20, 20, 20, 20, 20, 20, 10]
@@ -6749,9 +6749,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   649:
-    name: [사랑대장 도깨비 야옹마, 연애대장 도깨비신 야옹마, 연애대장 도깨비 야옹마]
-    desc: ["도깨비라고 불리는 무서운 대장\n사랑의 감정을 한송이 꽃에 담아 강렬한 일격을 펼친다\n속성을 가진 적에 여러 방해 효과를 가끔 입힌다", "도깨비신이라고 불리는 터프한 대장\n묵직한 꽃다발 일격은 사랑의 궁극적인 형태\n속성을 가진 적에 여러 방해 효과를 가끔 입힌다", "도깨비신이라고 불리는 터프한 대장\n묵직한 꽃다발 일격은 사랑의 궁극적인 형태\n속성을 가진 적에 여러 방해 효과를 가끔 입힌다"]
-    stat: [{health: 3900, knockbacks: 3, speed: 13, cost: 2000, production_cooldown: 555, attack_cooldown: 20, range: 180, width: 320, damage_0: 2250, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 75, slow_chance: 30, slow_duration: 75, weaken_chance: 30, weaken_duration: 75, weaken_multiplier: 50, attack_duration: 67}, {health: 3900, knockbacks: 3, speed: 13, cost: 2000, production_cooldown: 555, attack_cooldown: 20, range: 180, width: 320, damage_0: 2250, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 75, slow_chance: 30, slow_duration: 75, weaken_chance: 30, weaken_duration: 75, weaken_multiplier: 50, attack_duration: 67}, {health: 3900, knockbacks: 3, speed: 13, cost: 2000, production_cooldown: 555, attack_cooldown: 20, range: 180, width: 320, damage_0: 2250, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 75, slow_chance: 30, slow_duration: 75, weaken_chance: 30, weaken_duration: 75, weaken_multiplier: 50}]
+    name: [사랑대장 도깨비 야옹마, 연애대장 도깨비신 야옹마]
+    desc: ["도깨비라고 불리는 무서운 대장\n사랑의 감정을 한송이 꽃에 담아 강렬한 일격을 펼친다\n속성을 가진 적에 여러 방해 효과를 가끔 입힌다", "도깨비신이라고 불리는 터프한 대장\n묵직한 꽃다발 일격은 사랑의 궁극적인 형태\n속성을 가진 적에 여러 방해 효과를 가끔 입힌다"]
+    stat: [{health: 3900, knockbacks: 3, speed: 13, cost: 2000, production_cooldown: 555, attack_cooldown: 20, range: 180, width: 320, damage_0: 2250, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 75, slow_chance: 30, slow_duration: 75, weaken_chance: 30, weaken_duration: 75, weaken_multiplier: 50, attack_duration: 67}, {health: 3900, knockbacks: 3, speed: 13, cost: 2000, production_cooldown: 555, attack_cooldown: 20, range: 180, width: 320, damage_0: 2250, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 30, freeze_chance: 30, freeze_duration: 75, slow_chance: 30, slow_duration: 75, weaken_chance: 30, weaken_duration: 75, weaken_multiplier: 50, attack_duration: 67}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7316,9 +7316,9 @@ cats:
     max_level: 50
     growth: [20, 20, 20, 20, 20]
   734:
-    name: [페가사, 페가사ν, 어른들의 권모술수에 마음을 닫고 인형이 되어버린 소녀]
-    desc: ["제국의 명문 공작가 출신 병약 소녀\n속단속결로 발사하는 레이저로 누구든지 쓰러뜨린다\n소환 능력을 가지고 떠있는 적과 좀비의 공격력을 낮춘다", "어른들의 권모술수에 마음을 닫고 인형이 되어버린 소녀\n창 밖에서 들려오는 소녀들의 말소리에 자유를 갈망하게 되었다\n소환 능력을 가지고 떠있는 적과 좀비의 공격력을 낮춘다", "창 밖에서 들려오는 소녀들의 말소리에 자유를 갈망하게 되었다\n소환 능력을 가지고 떠있는 적과 좀비의 공격력을 낮춘다"]
-    stat: [{health: 2800, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, conjure: 735, attack_duration: 100}, {health: 3300, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1400, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, conjure: 735, attack_duration: 100}, {health: 3300, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1400, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, conjure: 735}]
+    name: [페가사, 페가사ν]
+    desc: ["제국의 명문 공작가 출신 병약 소녀\n속단속결로 발사하는 레이저로 누구든지 쓰러뜨린다\n소환 능력을 가지고 떠있는 적과 좀비의 공격력을 낮춘다", "어른들의 권모술수에 마음을 닫고 인형이 되어버린 소녀\n창 밖에서 들려오는 소녀들의 말소리에 자유를 갈망하게 되었다\n소환 능력을 가지고 떠있는 적과 좀비의 공격력을 낮춘다"]
+    stat: [{health: 2800, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1100, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, conjure: 735, attack_duration: 100}, {health: 3300, knockbacks: 5, speed: 9, cost: 2700, production_cooldown: 2100, attack_cooldown: 57, range: 450, width: 320, area_effect: 1, damage_0: 1400, attack_time_0: 46, trigger_effects_0: 1, against_float: 1, against_zombie: 1, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, zombie_killer: 1, conjure: 735, attack_duration: 100}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7533,9 +7533,9 @@ cats:
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
   767:
-    name: [정어리, 정어리CC, 살아남아라!개복치!에서 참전! 개복치는 식도도]
-    desc: ["살아남아라!개복치!에서 참전!\n개복치는 정어리를 뼈째로 먹고 쑥쑥 자란다 \n극히 드물게 떠있는 적의 공격을 무효화한다", "살아남아라!개복치!에서 참전! 개복치는 식도도\n약해서 정어리의 잔뼈에 찔려 고름이 생겨 죽는다\n극히 드물게 떠있는 적의 공격을 무효화한다", "약해서 정어리의 잔뼈에 찔려 고름이 생겨 죽는다\n극히 드물게 떠있는 적의 공격을 무효화한다"]
-    stat: [{health: 70, knockbacks: 1, speed: 10, cost: 60, production_cooldown: 75, attack_cooldown: 29, range: 125, width: 320, damage_0: 7, attack_time_0: 2, trigger_effects_0: 1, against_float: 1, dodge_chance: 5, dodge_duration: 60, attack_duration: 21}, {health: 90, knockbacks: 1, speed: 10, cost: 60, production_cooldown: 75, attack_cooldown: 29, range: 125, width: 320, damage_0: 9, attack_time_0: 2, trigger_effects_0: 1, against_float: 1, dodge_chance: 5, dodge_duration: 60, attack_duration: 21}, {health: 90, knockbacks: 1, speed: 10, cost: 50, production_cooldown: 75, attack_cooldown: 29, range: 125, width: 320, damage_0: 9, attack_time_0: 2, trigger_effects_0: 1, against_float: 1, dodge_chance: 5, dodge_duration: 60, immune_wave: 1}]
+    name: [정어리, 정어리CC]
+    desc: ["살아남아라!개복치!에서 참전!\n개복치는 정어리를 뼈째로 먹고 쑥쑥 자란다 \n극히 드물게 떠있는 적의 공격을 무효화한다", "살아남아라!개복치!에서 참전! 개복치는 식도도\n약해서 정어리의 잔뼈에 찔려 고름이 생겨 죽는다\n극히 드물게 떠있는 적의 공격을 무효화한다"]
+    stat: [{health: 70, knockbacks: 1, speed: 10, cost: 60, production_cooldown: 75, attack_cooldown: 29, range: 125, width: 320, damage_0: 7, attack_time_0: 2, trigger_effects_0: 1, against_float: 1, dodge_chance: 5, dodge_duration: 60, attack_duration: 21}, {health: 90, knockbacks: 1, speed: 10, cost: 60, production_cooldown: 75, attack_cooldown: 29, range: 125, width: 320, damage_0: 9, attack_time_0: 2, trigger_effects_0: 1, against_float: 1, dodge_chance: 5, dodge_duration: 60, attack_duration: 21}]
     rarity: 1
     max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
@@ -7673,9 +7673,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   789:
-    name: [상자 고양이, 깜짝상자 고양이, 789-2]
+    name: [상자 고양이, 깜짝상자 고양이]
     desc: ["아웃캣츠 오디션에서 1위로 뽑힌 고양이\n친환경 소재 상자로 사회적으로 주목받고 있다\n빨간 적을 날려버리고 움직임을 느리게 한다", "우승자의 기분을 맛보기 위해 화려한 상자로 옮긴 고양이\n모두를 놀라게 해주려다 친환경이라는 본래의 의미를 잃어버렸다\n에이리언을 날려버리고 움직임을 느리게 한다"]
-    stat: [{health: 450, knockbacks: 1, speed: 15, cost: 360, production_cooldown: 550, range: 160, width: 320, damage_0: 200, attack_time_0: 10, trigger_effects_0: 1, against_red: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 8000}, {health: 450, knockbacks: 1, speed: 15, cost: 360, production_cooldown: 550, range: 160, width: 320, damage_0: 200, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 8020}, {health: 450, knockbacks: 1, speed: 15, cost: 360, production_cooldown: 550, range: 160, width: 320, damage_0: 200, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1}]
+    stat: [{health: 450, knockbacks: 1, speed: 15, cost: 360, production_cooldown: 550, range: 160, width: 320, damage_0: 200, attack_time_0: 10, trigger_effects_0: 1, against_red: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 8000}, {health: 450, knockbacks: 1, speed: 15, cost: 360, production_cooldown: 550, range: 160, width: 320, damage_0: 200, attack_time_0: 10, trigger_effects_0: 1, against_alien: 1, knockback_chance: 100, slow_chance: 100, slow_duration: 120, immune_knockback: 1, immune_warp: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, attack_duration: 8020}]
     rarity: 1
     max_level: 50
     growth: [20, 20, 20, 20, 20]
