@@ -277,6 +277,7 @@ Build BCKR data:
 ## CONTRIBUTORS:
 
 * clam
+* fieryhenry
 * forgothowtoreddid (@reddid)
 * Lin Jen-Shin (@godfat)
 * MandarinSmell
