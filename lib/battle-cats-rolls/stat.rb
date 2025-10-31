@@ -34,7 +34,10 @@ module BattleCatsRolls
       if File.exist?("#{dir}/#{path}")
         "/extract/#{path}"
       else
-        "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'/>"
+        # Default dimension on Firefox is 1x1, but nonsense on Safari/Chrome
+        "data:image/svg+xml," \
+          "<svg xmlns='http://www.w3.org/2000/svg'" \
+          "%20width='1'%20height='1'/>"
       end
     end
 
