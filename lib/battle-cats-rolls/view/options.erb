@@ -19,7 +19,7 @@
   <%= hidden_inputs('version') %>
   <% end %>
 
-  <% if route.path_info != '/logs' && !route.path_info.start_with?('/cats/') %>
+  <% if route.path_info != '/logs' %>
   <label for="name_select" title="Evolution form used to display the cat's names">Name:</label>
   <select id="name_select" name="name" onchange="roll(this)">
     <option value="0" <%= selected_name(0) %>>Base</option>

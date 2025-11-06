@@ -3,8 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="<%= meta_description %>">
-    <%- if stat = arg&.dig(:stats, 0) -%>
-    <meta name="og:image" content="<%= og_image(stat) %>">
+    <%- if picked_stat -%>
+    <meta name="og:image" content="<%= og_image %>">
     <%- end -%>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="none">
