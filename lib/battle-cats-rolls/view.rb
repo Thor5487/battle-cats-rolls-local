@@ -25,15 +25,23 @@ module BattleCatsRolls
     private
 
     def meta_description
-      if stat = arg&.dig(:stats, 0)
+      @meta_description ||= if stat = picked_stat
         h "#{stat.name} - #{stat.desc.tr("\n", ' ').squeeze(' ')}"
       else
         route.path_info[/\w+/]&.capitalize || 'Tracks'
       end
     end
 
-    def og_image stat
-      "//#{route.web_host}#{stat.img_src(route.lang)}"
+    def og_image
+      "//#{route.web_host}#{picked_stat.img_src(route.lang)}"
+    end
+
+    def picked_stat
+      return @picked_stat if instance_variable_defined?(:@picked_stat)
+
+      @picked_stat = if stats = arg&.dig(:stats)
+        stats[route.name] || stats.last
+      end
     end
 
     def l10n text
