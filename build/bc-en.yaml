@@ -13271,7 +13271,6 @@ gacha:
     series_id: 47
     name: Joining forces from Seasonal sets, with higher drop rates!
     rate: dynastyfest
-    similarity: 99
   1013:
     cats: [788, 800, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 42
@@ -31574,3 +31573,93 @@ events:
     uber: 9500
     legend: 500
     platinum: legend
+  2025-11-10_942:
+    start_on: 2025-11-10
+    end_on: 2025-11-14
+    version: '140700'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-11-10_946:
+    start_on: 2025-11-10
+    end_on: 2025-11-14
+    version: '140700'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-11-10_951:
+    start_on: 2025-11-10
+    end_on: 2025-11-14
+    version: '140700'
+    name: New unit Tetsukachi resists 3 enemy types! ★ Tap banner for more info!
+    id: 951
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-11-14_1012:
+    start_on: 2025-11-14
+    end_on: 2025-11-18
+    version: '140700'
+    name: Joining forces from Seasonal sets, with higher drop rates!
+    id: 1012
+    rare: 6770
+    supa: 2500
+    uber: 700
+    legend: 30
+  2025-11-14_943:
+    start_on: 2025-11-14
+    end_on: 2025-11-18
+    version: '140700'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-11-14_986:
+    start_on: 2025-11-14
+    end_on: 2025-11-18
+    version: '140700'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2025-11-18_452:
+    start_on: 2025-11-18
+    end_on: 2025-11-21
+    version: '140700'
+    name: Floating has no hope against the AIR BUSTERS! Tap banner for info!
+    id: 452
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-11-18_696:
+    start_on: 2025-11-18
+    end_on: 2025-11-21
+    version: '140700'
+    name: Leave those Red nasties to the RED BUSTERS! Tap banner for info!
+    id: 696
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
+  2025-11-18_915:
+    start_on: 2025-11-18
+    end_on: 2025-11-21
+    version: '140700'
+    name: Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!
+    id: 915
+    rare: 7000
+    supa: 2500
+    uber: 500
+    step_up: true
