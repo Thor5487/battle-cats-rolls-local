@@ -28,15 +28,13 @@ module BattleCatsRolls
       if picked_stat
         h picked_stat.name
       else
-        meta_description
+        route.path_info[/\w+/]&.capitalize || 'Tracks'
       end
     end
 
     def meta_description
-      @meta_description ||= if stat = picked_stat
-        h "#{stat.name} - #{stat.desc.tr("\n", ' ').squeeze(' ')}"
-      else
-        route.path_info[/\w+/]&.capitalize || 'Tracks'
+      if picked_stat
+        h picked_stat.desc.tr("\n", ' ').squeeze(' ')
       end
     end
 
