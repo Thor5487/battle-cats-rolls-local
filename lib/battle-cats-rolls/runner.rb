@@ -14,7 +14,7 @@ module BattleCatsRolls
     def self.en
       @en ||= [
         'en',
-        '14.7.0',
+        '15.0.0',
         'jp.co.ponos.battlecatsen'
       ]
     end
@@ -22,7 +22,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '14.7.0',
+        '15.0.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
@@ -38,7 +38,7 @@ module BattleCatsRolls
     def self.kr
       @kr ||= [
         'kr',
-        '14.7.0',
+        '15.0.0',
         'jp.co.ponos.battlecatskr'
       ]
     end
@@ -405,7 +405,7 @@ module BattleCatsRolls
       else
         system(
           'wget',
-          '--user-agent=Mozilla/5.0',
+          '--user-agent=Mozilla/5.0 Firefox/145.0',
           '-O', path,
           url) || raise('wget gave an error')
       end

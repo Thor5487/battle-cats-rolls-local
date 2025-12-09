@@ -1944,9 +1944,9 @@ cats:
         minmax: [[4, 40]]
         ultra: 1
   138:
-    name: [斗笠地藏, 地藏要塞・神威, 地藏要塞・金甲神威]
-    desc: ["據說在下雪時，戴上寫有心願的斗笠\n就能幫我們實現願望的神秘組織\n可給予天使與黑色敵人超大傷害(範圍攻擊)", "斗笠地藏的本體中樞開始啟動\n超強的存在感連聯邦政府都驚為天人\n可給予天使與黑色敵人超大傷害(範圍攻擊)", "無懼暴風雪，展露黃金盔甲的\n斗笠地藏將要出動殲滅聯邦政府\n可給予天使與黑色敵人超大傷害(範圍攻擊)"]
-    stat: [{health: 900, knockbacks: 3, speed: 14, cost: 500, production_cooldown: 190, attack_cooldown: 40, range: 320, width: 320, area_effect: 1, damage_0: 400, attack_time_0: 19, trigger_effects_0: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 60}, {health: 5800, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2400, attack_cooldown: 200, range: 450, width: 320, area_effect: 1, damage_0: 4800, attack_time_0: 102, trigger_effects_0: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 143}, {health: 6800, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2400, attack_cooldown: 131, range: 485, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 46, trigger_effects_0: 1, damage_1: 600, attack_time_1: 73, trigger_effects_1: 1, damage_2: 3600, attack_time_2: 140, trigger_effects_2: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 200}]
+    name: [斗笠地藏, 地藏要塞・神威, 地藏要塞・金甲神威, 超級斗笠地藏]
+    desc: ["據說在下雪時，戴上寫有心願的斗笠\n就能幫我們實現願望的神秘組織\n可給予天使與黑色敵人超大傷害(範圍攻擊)", "斗笠地藏的本體中樞開始啟動\n超強的存在感連聯邦政府都驚為天人\n可給予天使與黑色敵人超大傷害(範圍攻擊)", "無懼暴風雪，展露黃金盔甲的\n斗笠地藏將要出動殲滅聯邦政府\n可給予天使與黑色敵人超大傷害(範圍攻擊)", "完成殲滅聯邦政府之任務並順利返回的斗笠地藏\n今天也在雪中等待有人來許願。可給予天使與\n黑色敵人超大傷害，必定能死前存活(全方位)"]
+    stat: [{health: 900, knockbacks: 3, speed: 14, cost: 500, production_cooldown: 190, attack_cooldown: 40, range: 320, width: 320, area_effect: 1, damage_0: 400, attack_time_0: 19, trigger_effects_0: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 60}, {health: 5800, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2400, attack_cooldown: 200, range: 450, width: 320, area_effect: 1, damage_0: 4800, attack_time_0: 102, trigger_effects_0: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 143}, {health: 6800, knockbacks: 2, speed: 4, cost: 3950, production_cooldown: 2400, attack_cooldown: 131, range: 485, width: 320, area_effect: 1, damage_0: 600, attack_time_0: 46, trigger_effects_0: 1, damage_1: 600, attack_time_1: 73, trigger_effects_1: 1, damage_2: 3600, attack_time_2: 140, trigger_effects_2: 1, against_black: 1, against_angel: 1, massive_damage: 1, attack_duration: 200}, {health: 1100, knockbacks: 3, speed: 19, cost: 500, production_cooldown: 190, attack_cooldown: 40, range: 320, width: 320, area_effect: 1, damage_0: 400, long_range_0: 350, long_range_offset_0: -550, attack_time_0: 19, trigger_effects_0: 1, against_black: 1, against_angel: 1, massive_damage: 1, survive_chance: 100, attack_duration: 70}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -3403,6 +3403,14 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      dodge:
+        max_level: 10
+        minmax: [[20, 20], [24, 60]]
+        ultra: 1
+      strengthen:
+        max_level: 10
+        minmax: [[50, 50], [5, 50]]
+        ultra: 1
   273:
     name: [象頭神迦內薩, 睿智神迦內薩, G睿智神迦內薩]
     desc: ["掌管知識帶來繁榮財富的神\n其智慧神器「巨眼心拳」可以擺脫災厄\n體力下降時攻擊力上升(遠距範圍攻擊)", "掌管知識帶來繁榮財富的神\n其真知神器「巨眼神拳」可以解除一切災厄\n體力下降時攻擊力上升(遠距範圍攻擊)", "掌管知識帶來繁榮財富的神\n藉助創造的果實之力，粉碎災厄的根源\n體力下降時攻擊力上升(遠距範圍攻擊)"]
@@ -4548,8 +4556,8 @@ cats:
     desc: ["抱著滿滿感恩的心發行的紀念貓咪\n限定生產數９０００億枚", "抱著滿滿感恩的心發行的紀念貓咪中\n3枚中就會出現1枚的稀有紀念幣\n收集3枚可以交換一枚紀念幣貓"]
     stat: [{health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}, {health: 100, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 17, range: 140, width: 320, damage_0: 8, attack_time_0: 4, trigger_effects_0: 1, attack_duration: 23}]
     rarity: 1
-    max_level: 80
-    growth: [20, 20, 20, 20, 20, 20, 10, 10]
+    max_level: 90
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 10]
   377:
     name: [貓咪探測器, 智能BB貓MkⅡ, 衛星貓]
     desc: ["NYASA在30年前開發的貓型探測器\n傳送無效能力，善於攻擊異星戰士\n等基本功能都有搭載的基本款", "NYASA最新開發的貓型探測器\n具有善於攻擊異星戰士的基本能力，還能\n收看衛星電視及成人頻道，一天只要一千", "國際宇宙組織NYASA製造的衛星。傳送無效\n加了最底限的\"善於攻擊異星戰士\"機能後\n至少可以找到站在對面月台或隔壁暗巷的你"]
@@ -4619,8 +4627,8 @@ cats:
     desc: ["經由多人選拔而出的貓\n為了帶給人們幸福而努力耕田中\n打倒敵人的時候可以得到很多金錢", "經由多人選拔而出的貓\n聽信蕪菁會大賣的傳言而改種蕪菁\n打倒敵人的時候可以得到很多金錢"]
     stat: [{health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}, {health: 570, knockbacks: 3, speed: 8, cost: 360, production_cooldown: 240, range: 180, width: 320, damage_0: 140, attack_time_0: 30, trigger_effects_0: 1, extra_money: 1, attack_duration: 60}]
     rarity: 1
-    max_level: 70
-    growth: [20, 20, 20, 20, 20, 20, 10]
+    max_level: 75
+    growth: [20, 20, 20, 20, 20, 20, 10, 10]
   383:
     name: [玻璃貓, 玻璃健美貓, 水晶健美貓]
     desc: ["玻璃做的貓\n認為人生就是要一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "強化後的玻璃貓\n但還是一樣認為人生就是一撞定生死\n可使沒有屬性的敵人動作變慢(一次攻擊)", "更加強健身並釋放出永恆光輝的貓咪\n人生珍惜那一瞬間的光輝閃耀。能打飛沒有\n屬性的敵人並使動作變慢(一次攻擊)"]
@@ -5713,9 +5721,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   518:
-    name: [肯, 肯CC]
-    desc: ["從快打旋風V來參戰！\n與隆為師兄弟、親友、也是最大勁敵\n善於攻擊紅,飄浮,天使敵,也可打飛(全方位攻擊)", "從快打旋風V來參戰！\n隆的最大勁敵，可擊出必殺技\"昇龍拳\"\n善於攻擊紅,飄浮,天使敵,也可打飛(全方位攻擊)"]
-    stat: [{health: 4800, knockbacks: 3, speed: 19, cost: 2400, production_cooldown: 1400, attack_cooldown: 84, range: 250, width: 320, area_effect: 1, damage_0: 1080, long_range_0: 350, long_range_offset_0: -500, attack_time_0: 6, damage_1: 720, attack_time_1: 10, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_angel: 1, strong: 1, knockback_chance: 100, attack_duration: 56}, {health: 4800, knockbacks: 3, speed: 19, cost: 2400, production_cooldown: 1400, attack_cooldown: 84, range: 250, width: 320, area_effect: 1, damage_0: 1080, long_range_0: 350, long_range_offset_0: -500, attack_time_0: 6, damage_1: 720, attack_time_1: 10, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_angel: 1, strong: 1, knockback_chance: 100, attack_duration: 56}]
+    name: [肯, 肯CC, 紅蓮格鬥王肯]
+    desc: ["從快打旋風V來參戰！\n與隆為師兄弟、親友、也是最大勁敵\n善於攻擊紅,飄浮,天使敵,也可打飛(全方位攻擊)", "從快打旋風V來參戰！\n隆的最大勁敵，可擊出必殺技\"昇龍拳\"\n善於攻擊紅,飄浮,天使敵,也可打飛(全方位攻擊)", "從快打旋風V來參戰！麥司特財團的少爺\n用「神龍拳」將敵人燃燒殆盡(全方位攻擊)\n善於攻擊紅、飄浮和天使敵，可打飛並使其攻擊力下降"]
+    stat: [{health: 4800, knockbacks: 3, speed: 19, cost: 2400, production_cooldown: 1400, attack_cooldown: 84, range: 250, width: 320, area_effect: 1, damage_0: 1080, long_range_0: 350, long_range_offset_0: -500, attack_time_0: 6, damage_1: 720, attack_time_1: 10, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_angel: 1, strong: 1, knockback_chance: 100, attack_duration: 56}, {health: 4800, knockbacks: 3, speed: 19, cost: 2400, production_cooldown: 1400, attack_cooldown: 84, range: 250, width: 320, area_effect: 1, damage_0: 1080, long_range_0: 350, long_range_offset_0: -500, attack_time_0: 6, damage_1: 720, attack_time_1: 10, damage_2: 360, attack_time_2: 12, trigger_effects_2: 1, against_red: 1, against_float: 1, against_angel: 1, strong: 1, knockback_chance: 100, attack_duration: 56}, {health: 5760, knockbacks: 3, speed: 19, cost: 2400, production_cooldown: 1400, attack_cooldown: 79, range: 250, width: 320, area_effect: 1, damage_0: 1440, long_range_0: 350, long_range_offset_0: -500, attack_time_0: 6, damage_1: 960, attack_time_1: 15, damage_2: 480, attack_time_2: 22, trigger_effects_2: 1, against_red: 1, against_float: 1, against_angel: 1, strong: 1, knockback_chance: 100, weaken_chance: 100, weaken_duration: 120, weaken_multiplier: 50, immune_slow: 1, attack_duration: 66}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -6276,6 +6284,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      strengthen:
+        max_level: 10
+        minmax: [[23, 50]]
+      immune_surge: {}
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   586:
     name: [幼獸加爾, 帝獸加迪]
     desc: ["一個盡力守護自己的野獸的孩子\n仍無法知道沉睡在自己體內的神秘力量\n對上有屬性的敵人很耐打，使波動無效(全方位攻擊)", "只會在祈願守護某人的強者面前出現的夢幻貓咪\n對上有屬性的敵人很耐打，能發射小波動\n波動傷害無效(全方位攻擊)"]
@@ -6699,6 +6721,22 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      curse:
+        max_level: 10
+        minmax: [[3, 30]]
+      resistant_wave:
+        max_level: 10
+        minmax: [[5, 50]]
+      reduce_cost:
+        max_level: 10
+        minmax: [[30, 300]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   635:
     name: [白騎士庫克洛普斯, 黑騎士庫克洛普斯, 神魔騎士庫克洛普斯]
     desc: ["有著高尚的精神為拯救弱者而戰的退魔騎士\n以閃雷光般的猛攻來驅趕生於閻暗中之人\n有時候讓惡魔與異星戰士動作停止、能破壞惡魔盾", "把自己獻給惡魔並獲得絕對力量的正教騎士\n誓言將戰鬥到世上所有的惡都消滅為止\n善於攻擊惡魔與異星戰士", "被過強的信念所吞噬，持續著戰鬥的聖魔騎士\n用神聖的錘矛擊碎正義與邪惡的灰色地帶\n可以給予惡魔超大傷害，有時候能破壞惡魔盾"]
@@ -7103,8 +7141,8 @@ cats:
     desc: ["為了想出貓咪大戰爭與和平這兩詞的雙關語\n而坐在石頭上思考超過10年的貓咪\n能把有屬性敵人打飛", "這是模仿那隻在石頭上思考貓咪大戰爭與和平\n兩詞雙關語長達10年的貓咪所建立之紀念碑\n能把有屬性敵人打飛"]
     stat: [{health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 100, immune_bosswave: 1, attack_duration: 58}, {health: 10, knockbacks: 1, cost: 500, production_cooldown: 2500, attack_cooldown: 100, range: 600, width: 320, damage_0: 10, attack_time_0: 31, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_metal: 1, knockback_chance: 100, immune_bosswave: 1, attack_duration: 58}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   691:
     name: [命運之子佛諾, 天命之王佛挪]
     desc: ["背負著滅亡的宿命，被命運玩弄的幼年野獸\n還不曉得自己體內沉睡著一股力量\n可以給予有屬性敵人超大傷害(遠距範圍攻擊)", "用強烈的意志打破自己命運的夢幻貓咪\n誓言在生命燃燒殆盡前將持續守護人們\n可以給予有屬性敵人超大傷害(遠距範圍攻擊)"]
@@ -7994,6 +8032,41 @@ cats:
     rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  827:
+    name: [倩咪, 倩咪CC]
+    desc: ["從快打旋風6來參戰！是英國特種部隊\n紅色三角洲部隊中非常優秀的隊員\n給予異星戰士極度傷害，有時候可使其攻擊無效化", "從快打旋風6來參戰！\n以強力的踢技「加農尖刺」將敵人踢飛\n給予異星戰士極度傷害，有時候可使其攻擊無效化"]
+    stat: [{health: 1900, knockbacks: 3, speed: 20, cost: 2100, production_cooldown: 1450, attack_cooldown: 45, range: 375, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 7, trigger_effects_0: 1, against_alien: 1, insane_damage: 1, dodge_chance: 30, dodge_duration: 60, immune_warp: 1, attack_duration: 60}, {health: 1900, knockbacks: 3, speed: 20, cost: 2100, production_cooldown: 1450, attack_cooldown: 45, range: 375, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 7, trigger_effects_0: 1, against_alien: 1, insane_damage: 1, dodge_chance: 30, dodge_duration: 60, immune_warp: 1, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  828:
+    name: [蛛俐, 蛛俐CC]
+    desc: ["從快打旋風6來參戰！喜歡看見人們鬥爭與苦惱\n有施虐傾向的享樂家。有超生命體和超獸特效\n善於攻擊飄浮與天使敵人並給予妨害效果", "從快打旋風6來參戰！用旋轉全身的連續踢「天穿輪」\n把對戰對手破壞殆盡。有超生命體和超獸特效\n善於攻擊飄浮與天使敵人並給予妨害效果"]
+    stat: [{health: 2600, knockbacks: 4, speed: 20, cost: 2650, production_cooldown: 1500, attack_cooldown: 70, range: 430, width: 320, area_effect: 1, damage_0: 1250, long_range_0: 1, long_range_offset_0: 430, attack_time_0: 12, trigger_effects_0: 1, damage_1: 450, long_range_1: 75, long_range_offset_1: 430, attack_time_1: 21, trigger_effects_1: 1, damage_2: 450, long_range_2: 150, long_range_offset_2: 430, attack_time_2: 25, trigger_effects_2: 1, against_float: 1, against_angel: 1, strong: 1, freeze_chance: 100, freeze_duration: 30, slow_chance: 100, slow_duration: 90, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_weaken: 1, immune_wave: 1, attack_duration: 56}, {health: 2600, knockbacks: 4, speed: 20, cost: 2650, production_cooldown: 1500, attack_cooldown: 70, range: 430, width: 320, area_effect: 1, damage_0: 1250, long_range_0: 1, long_range_offset_0: 430, attack_time_0: 12, trigger_effects_0: 1, damage_1: 450, long_range_1: 75, long_range_offset_1: 430, attack_time_1: 21, trigger_effects_1: 1, damage_2: 450, long_range_2: 150, long_range_offset_2: 430, attack_time_2: 25, trigger_effects_2: 1, against_float: 1, against_angel: 1, strong: 1, freeze_chance: 100, freeze_duration: 30, slow_chance: 100, slow_duration: 90, colossus_slayer: 1, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_weaken: 1, immune_wave: 1, attack_duration: 56}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  829:
+    name: [桑吉爾夫貓, 桑吉爾夫貓CC]
+    desc: ["提倡「肌肉至上」這個獨特理論的貓咪\n在學習肉體進化之後，讓原本光禿禿的地方長出毛來\n可以給予飄浮敵人超大傷害，有時候施放渾身一擊", "得到鋼鐵般肉體的摔角手貓咪\n因為太熱衷於體態改造導致戰績馬馬虎虎\n可以給予飄浮敵人超大傷害，有時候施放渾身一擊"]
+    stat: [{health: 2040, knockbacks: 2, speed: 6, cost: 750, production_cooldown: 510, range: 260, width: 320, area_effect: 1, damage_0: 960, attack_time_0: 18, trigger_effects_0: 1, against_float: 1, massive_damage: 1, savage_blow_chance: 10, savage_blow_modifier: 200, immune_slow: 1, attack_duration: 160}, {health: 2550, knockbacks: 2, speed: 6, cost: 750, production_cooldown: 510, range: 260, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 18, trigger_effects_0: 1, against_float: 1, massive_damage: 1, savage_blow_chance: 10, savage_blow_modifier: 200, immune_slow: 1, attack_duration: 160}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  830:
+    name: [傑米貓, 傑米貓CC]
+    desc: ["崇拜用醉拳守護中華街之青年的貓咪\n只要用葫蘆造型的水壺，似乎喝什麼都能醉\n善於攻擊惡魔，體力減少攻擊力就會上升", "原本是假裝喝醉，結果卻真的醉倒的貓咪\n完全沒有自己披頭散髮戰鬥時的記憶\n善於攻擊惡魔，體力減少攻擊力就會上升"]
+    stat: [{health: 1440, knockbacks: 5, speed: 10, cost: 800, production_cooldown: 320, attack_cooldown: 70, range: 340, width: 320, area_effect: 1, damage_0: 280, attack_time_0: 11, trigger_effects_0: 1, damage_1: 160, attack_time_1: 15, trigger_effects_1: 1, damage_2: 400, attack_time_2: 35, trigger_effects_2: 1, against_aku: 1, strong: 1, strengthen_threshold: 40, strengthen_modifier: 50, immune_surge: 1, attack_duration: 60}, {health: 1800, knockbacks: 5, speed: 10, cost: 800, production_cooldown: 320, attack_cooldown: 70, range: 340, width: 320, area_effect: 1, damage_0: 350, attack_time_0: 11, trigger_effects_0: 1, damage_1: 200, attack_time_1: 15, trigger_effects_1: 1, damage_2: 500, attack_time_2: 35, trigger_effects_2: 1, against_aku: 1, strong: 1, strengthen_threshold: 40, strengthen_modifier: 50, immune_surge: 1, attack_duration: 60}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  831:
+    name: [獅子番長拉克雷斯, 獅子番長拉克雷斯Σ]
+    desc: ["有著校園中最強壯之肌肉的女番長。用鍛鍊\n過的肉體和火熱的心來馴服壞學生。善於攻擊\n飄浮敵人，必定能使其動作變慢(全方位攻擊)", "以銀河第一怪力為傲的女番長。會讓孩子停止\n哭鬧的可怕面孔吸引了許多女粉絲。善於攻擊\n飄浮敵人，必定能使其動作變慢(全方位攻擊)"]
+    stat: [{health: 7900, knockbacks: 3, speed: 10, cost: 3300, production_cooldown: 1555, attack_cooldown: 72, range: 350, width: 320, area_effect: 1, damage_0: 3110, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 84, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 150, immune_knockback: 1, immune_weaken: 1, immune_curse: 1, immune_surge: 1, immune_toxic: 1, attack_duration: 172}, {health: 9900, knockbacks: 3, speed: 10, cost: 3300, production_cooldown: 1555, attack_cooldown: 72, range: 350, width: 320, area_effect: 1, damage_0: 3510, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 84, trigger_effects_0: 1, against_float: 1, strong: 1, slow_chance: 100, slow_duration: 150, immune_knockback: 1, immune_weaken: 1, immune_curse: 1, immune_surge: 1, immune_toxic: 1, attack_duration: 172}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -13419,6 +13492,78 @@ gacha:
     series_id: 44
     name: 全新傳說稀有角色參戰！新世紀福音戰士合作轉蛋2nd登場！
     rate: regular
+  1021:
+    cats: [831, 734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 3
+    name: 穿越電子空間來到這裡的美少女們一同登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 99
+  1022:
+    cats: [831, 734, 648, 620, 450, 503, 352, 160, 108, 107, 106, 77, 76, 448, 447, 446, 445, 444, 201, 145, 132, 130, 238, 239, 240, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 3
+    name: 穿越電子空間來到這裡的美少女們一同登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 99
+  1023:
+    cats: [831, 818, 812, 800, 788, 782, 775, 770, 764, 761, 755, 739, 734, 724, 720, 716, 713, 706, 699, 693, 675, 669, 661, 658, 656, 650, 648, 643, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 570, 547, 544, 535, 534, 526, 524, 523, 496, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 379, 378, 377, 362, 361, 360, 356, 352, 339, 334, 326, 323, 317, 307, 306, 305, 308, 309, 273, 272, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 27
+    name: 限定超激稀有角色「冥佑天女露娜夏」參戰！★點圖確認詳細吧!!
+    rate: uberfest_legend
+    similarity: 99
+  1024:
+    cats: [831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 必出超激稀有角色的白金轉蛋！快來獲得心儀的貓咪吧！
+    rate: platinum
+    similarity: 99
+  1025:
+    cats: [831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 必定可以獲得1隻超激稀有等級以上角色的「傳說轉蛋」！
+    rate: legend
+    similarity: 99
+  1026:
+    cats: [782, 43, 74, 76, 661, 139, 262, 272, 633, 726, 818, 759, 436, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 35
+    name: "「特麗希」參戰！慶祝9週年的特別轉蛋！★點圖確認詳細吧!!"
+    rate: no_legend
+    similarity: 72
+  1027:
+    cats: [170, 618, 72, 108, 506, 136, 227, 317, 800, 683, 362, 811, 485, 521, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 39
+    name: 人氣角色大集合！慶祝農曆新年的特別轉蛋！★點圖確認詳細吧!!
+    rate: no_legend
+    similarity: 70
+  1028:
+    cats: [450, 452, 479, 545, 520, 73, 106, 432, 630, 637, 663, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 66
+    name: 歡慶春節到來！精心準備的特別轉蛋登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 74
+  1029:
+    cats: [449, 464, 482, 494, 72, 535, 656, 661, 655, 689, 695, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 67
+    name: 歡慶春節到來！精心準備的特別轉蛋登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 81
+  1030:
+    cats: [451, 456, 462, 45, 135, 306, 358, 646, 668, 685, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 68
+    name: 歡慶春節到來！精心準備的特別轉蛋登場！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 72
+  1031:
+    cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 54
+    name: 新角色『櫻』參戰！『快打旋風V』稀有轉蛋！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 82
+  1032:
+    cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 55
+    name: 新角色『路克』參戰！『快打旋風V』稀有轉蛋！★點圖確認詳細吧!!
+    rate: regular
+    similarity: 82
 events:
   2018-08-03_310:
     start_on: 2018-08-03
