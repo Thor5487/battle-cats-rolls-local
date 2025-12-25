@@ -2890,7 +2890,7 @@ cats:
     desc: ["蒸し器の中に紛れ込み小籠包になってしまったネコ\n熱い志とスープを薄い皮の内に秘めている\n　\nネコショウロンポウ", "特大せいろで蒸しあげた巨大小籠包\n大きな体に封じ込めた熱々スープは\nバラエティ番組でも大活躍(範囲攻撃)\nネコダイロンポウ"]
     stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20, attack_duration: 53}]
     rarity: 1
-    max_level: 75
+    max_level: 80
     growth: [20, 20, 20, 20, 20, 20, 10, 10]
   204:
     name: [カチカチヤマンズ, 炎護射撃車ウーウー, 豪炎狙撃車ウーウー]
@@ -4572,6 +4572,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+        ultra: 1
+      immune_slow:
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
   353:
     name: [ネコ仙人, ネコ老師, 仮面のネコ仙人]
     desc: ["豆大福１個でにゃんこ軍団に入った伝説の仙人\n最近物忘れが激しいが、武術の極意は忘れない\n素早い連撃で波動を放つ(範囲攻撃)\nネコセンニン", "アレ１個でなんちゃら軍団に入った伝説の老師\n最近物忘れが激しいが、アレの極意は忘れない\n素早いアレでアレを放つ(範囲攻撃)\nネコロウシ", "空から落ちてきた古代のお面を着け呪われた伝説の仙人\n古代武術の極意をマスターし、太古の記憶が蘇った！\n古代種にめっぽう強く、たまに呪いの波動を放つ\nカメンノネコセンニン"]
@@ -7263,6 +7273,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_angel: {}
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   644:
     name: [ネコ超人, ネコ超人Ⅱ, 真ネコ超人]
     desc: ["運命を覆すために現れたヒトを超越したネコ\n素早く敵に近づき、長い尻尾で攻撃する\n古代種に超ダメージを与える(全方位攻撃)\nネコチョウジン", "自らの意志に従い戦いに突き進むネコ\nマッスルパワーで自由を追い求める\n古代種に超ダメージを与える(全方位攻撃)\nネコチョウジンツー", "遺伝子に刻まれた「人類ネコ化計画」の遂行\n永遠回帰の末、永きに渡る歳月を経て今動き出す\n古代種に超ダメージを与える(全方位攻撃)\nシンネコチョウジン"]
@@ -7289,7 +7313,7 @@ cats:
     desc: ["縁起のいい真っ赤な爆竹ネコ\n爆音で厄を払い幸運を呼び込む事業を営んでいる\n赤い敵に超ダメージを与え、たまに攻撃を無効化\nバクチクネコ", "爆竹の中の爆竹である爆竹王となったネコ\nどの爆竹よりも強力な音と光を放ちお祝いする\n赤い敵に超ダメージを与え、たまに攻撃を無効化\nバクチクネコビルダー"]
     stat: [{health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 300, attack_cooldown: 18, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 14, trigger_effects_0: 1, against_red: 1, massive_damage: 1, dodge_chance: 20, dodge_duration: 60, attack_duration: 47}, {health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 300, attack_cooldown: 18, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 14, trigger_effects_0: 1, against_red: 1, massive_damage: 1, dodge_chance: 20, dodge_duration: 60, attack_duration: 47}]
     rarity: 1
-    max_level: 75
+    max_level: 80
     growth: [20, 20, 20, 20, 20, 20, 10, 10]
   648:
     name: [狩猟娘テルン, 狩猟娘テルンζ, 大狩猟娘テルンζ]
@@ -7747,9 +7771,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   713:
-    name: [カオルガ, カオランパサラン]
-    desc: ["ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n進化させると…", "ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n必ず小烈波を放ち、たまに敵をふっとばす(範囲攻撃)"]
-    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 33}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 20, surge_level: 6, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, attack_duration: 165}]
+    name: [カオルガ, カオランパサラン, カオランタタラン]
+    desc: ["ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n進化させると…", "ネコなのか何なのか、\nまったく正体不明の謎のキャラクター\n必ず小烈波を放ち、たまに敵をふっとばす(範囲攻撃)", "ネコなのか戦いに敗れた武士の亡霊なのか、\nまったく正体不明の謎のキャラクター。超生命体特効を持ち\nたまに敵をふっとばし、必ず小烈波を放つ(範囲攻撃)"]
+    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 33}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 20, surge_level: 6, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, attack_duration: 165}, {health: 1800, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 30, colossus_slayer: 1, surge_level: 8, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, immune_surge: 1, attack_duration: 165}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7877,7 +7901,7 @@ cats:
     desc: ["タマゴのような形をした謎の物体\n長い歳月を経て土がこびりつき風化している\n「N204」と小さく刻まれているように見えるが…\nフルビタタマゴ", "赤いボディを現したタマゴのような物体\n内部に微かな生命反応があるようだ\n赤い敵と属性を持たない敵にめっぽう強い\nアカイタマゴ", "激しくシシを舞うおめでたいキャラクター\n縁起の良い噛みつき攻撃は\n赤と属性を持たない敵にめっぽう強く、超獣特効を持つ"]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 1, weaken_duration: 120, weaken_multiplier: 50}, {health: 500, knockbacks: 3, speed: 10, cost: 450, production_cooldown: 240, attack_cooldown: 31, range: 300, width: 320, damage_0: 240, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_knockback: 1, attack_duration: 60}]
     rarity: 1
-    max_level: 65
+    max_level: 70
     growth: [20, 20, 20, 20, 20, 20, 10]
   732:
     name: [暁のイザナギ, 暁光のイザナギ]
@@ -8618,6 +8642,27 @@ cats:
     name: [ニャンコオー, 超グレートニャンコオーDX]
     desc: ["にゃんこレンジャーの超科学力で創り出されたロボ\nネコたちの気まぐれな心がひとつになると合体可能！\n赤、黒、悪魔にめっぽう強く、一瞬遅くする爆波を放つ", "５匹の平和を願う強き思いが更なる力を呼び覚ます\n超グレートニャンコオーDXここに見参！！！\n赤、黒、悪魔にめっぽう強く、一瞬遅くする爆波を放つ\nチョウグレートニャンコオーデラックス"]
     stat: [{health: 1900, knockbacks: 2, speed: 6, cost: 3000, production_cooldown: 2000, attack_cooldown: 245, range: 450, width: 320, area_effect: 1, damage_0: 1300, attack_time_0: 106, trigger_effects_0: 1, against_red: 1, against_black: 1, against_aku: 1, strong: 1, slow_chance: 100, slow_duration: 60, savage_blow_chance: 15, savage_blow_modifier: 200, explosion_chance: 100, explosion_range: 1800, immune_weaken: 1, immune_surge: 1, immune_explosion: 1, attack_duration: 205}, {health: 2200, knockbacks: 2, speed: 6, cost: 3000, production_cooldown: 2000, attack_cooldown: 245, range: 450, width: 320, area_effect: 1, damage_0: 1600, attack_time_0: 106, trigger_effects_0: 1, against_red: 1, against_black: 1, against_aku: 1, strong: 1, slow_chance: 100, slow_duration: 60, savage_blow_chance: 15, savage_blow_modifier: 200, explosion_chance: 100, explosion_range: 1800, immune_weaken: 1, immune_surge: 1, immune_explosion: 1, attack_duration: 205}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  838:
+    name: [幼騎士ルーノ, 満月の騎士ルーノス]
+    desc: ["自分の使命を知らぬまま騎士道に憧れを抱く少年\n召喚能力を持ち、黒い敵と天使と古代種と悪魔に\n打たれ強く、たまにふっとばす(全方位攻撃)\nヨウキシルーノ", "人々の願いを背負い、戦場に希望をもたらす不屈の騎士\n召喚能力を持ち、黒い敵と天使と古代種と悪魔に打たれ強く\n必ずふっとばし、たまに渾身の一撃を放つ(全方位攻撃)\nマンゲツノキシルーノス"]
+    stat: [{health: 1800, knockbacks: 1, speed: 13, cost: 600, production_cooldown: 280, attack_cooldown: 55, range: 150, width: 320, area_effect: 1, damage_0: 580, long_range_0: 250, long_range_offset_0: -570, attack_time_0: 44, trigger_effects_0: 1, against_black: 1, against_angel: 1, against_aku: 1, against_relic: 1, resistant: 1, knockback_chance: 50, conjure: 839, immune_knockback: 1, immune_slow: 1, immune_curse: 1, immune_surge: 1, attack_duration: 120}, {health: 4600, knockbacks: 2, speed: 9, cost: 2300, production_cooldown: 280, attack_cooldown: 55, range: 250, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 350, long_range_offset_0: -670, attack_time_0: 44, trigger_effects_0: 1, against_black: 1, against_angel: 1, against_aku: 1, against_relic: 1, resistant: 1, knockback_chance: 100, savage_blow_chance: 10, savage_blow_modifier: 200, conjure: 840, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_surge: 1, attack_duration: 120}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  839:
+    name: [839-1]
+    desc: [精霊：敵をふっとばして小烈波を放ちます]
+    stat: [{health: 100, knockbacks: 1, range: 600, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, surge_level: 3, surge_mini: 100, surge_range: 1200, surge_range_offset: 1200, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  840:
+    name: [840-1]
+    desc: [精霊：敵をふっとばして小烈波を放ちます]
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, surge_level: 5, surge_mini: 100, surge_range: 1600, surge_range_offset: 1200, kamikaze: 2, attack_duration: 85}]
     rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
@@ -14160,6 +14205,45 @@ gacha:
     series_id: 68
     name: 13周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!
     rate: regular
+  1031:
+    cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 54
+    name: 新キャラ『ジュリ』参戦！『ストリートファイター6』ガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  1032:
+    cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 55
+    name: 新キャラ『キャミィ』参戦！『ストリートファイター6』ガチャ！★詳細はバナーをタップ!!
+    rate: regular
+  1033:
+    cats: [838, 831, 818, 812, 800, 782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: 限定キャラ「幼天女ルーナ」参戦！★超激レア出現率アップの「超ネコ祭」開催中!!
+    rate: uberfest_legend
+    similarity: 99
+  1034:
+    cats: [838, 831, 818, 812, 811, 800, 788, 782, 780, 775, 770, 764, 761, 759, 755, 521, 485, 436, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: 新限定キャラ「幼天女ルーナ」参戦！★超激レア出現率が最大アップの特別なガチャ！
+    similarity: 95
+  1035:
+    cats: [838, 831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: 超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！
+    rate: legend
+    similarity: 99
+  1036:
+    cats: [838, 831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: 超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！
+    rate: platinum
+    similarity: 99
+  1037:
+    cats: [450, 464, 456, 73, 171, 620, 632, 428, 397, 770, 197, 812, 356, 825, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 期間限定キャラも登場する、特別仕様の新年ガチャ！★詳細はバナーをタップ!!
+    rate: regular
+    similarity: 68
 events:
   2018-09-15_320:
     start_on: 2018-09-15
