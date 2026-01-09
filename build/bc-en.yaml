@@ -13345,27 +13345,23 @@ gacha:
   1015:
     cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 28
-    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    name: New unit Sorceress Sidmi added! Spooky beauties from beyond!
     rate: regular
-    similarity: 98
   1016:
     cats: [825, 726, 683, 608, 545, 524, 523, 496, 448, 447, 446, 445, 444, 378, 377, 359, 358, 337, 336, 335, 201, 145, 132, 130, 238, 239, 240, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 28
-    name: NEW hero Ninja Girl Tomoe! Strong vs Traitless and Aku! ★ Tap banner for info!
+    name: New unit Sorceress Sidmi added! Spooky beauties from beyond!
     rate: regular
-    similarity: 98
   1017:
     cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 54
-    name: Sakura joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    name: Juri joins from Street Fighter 6! Tap for info!
     rate: regular
-    similarity: 82
   1018:
     cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 829, 830, 830, 577, 577, 581, 581, 581, 580, 580, 580, 579, 579, 579, 578, 578, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 55
-    name: Luke joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    name: Cammy joins from Street Fighter 6! Tap for info!
     rate: regular
-    similarity: 82
   1019:
     cats: [816, 815, 413, 414, 416, 548, 550, 551, 410, 411, 490, 407, 408, 409, 553, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 37
@@ -13439,15 +13435,13 @@ gacha:
   1031:
     cats: [511, 828, 682, 576, 575, 572, 518, 517, 516, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 54
-    name: Sakura joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    name: Juri joins from Street Fighter 6! Tap for info!
     rate: regular
-    similarity: 82
   1032:
     cats: [511, 827, 681, 574, 573, 515, 514, 513, 512, 829, 830, 577, 581, 580, 579, 578, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
     series_id: 55
-    name: Luke joins from STREET FIGHTER V CHAMPION EDITION! Tap for info!
+    name: Cammy joins from Street Fighter 6! Tap for info!
     rate: regular
-    similarity: 82
 events:
   2018-06-06_245:
     start_on: 2018-06-06
@@ -32198,6 +32192,172 @@ events:
     version: '150000'
     name: The Almighties, supreme beings of Catkind! ★ Tap banner for info!
     id: 991
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-09_1031:
+    start_on: 2026-01-09
+    end_on: 2026-01-26
+    version: '150002'
+    name: Juri joins from Street Fighter 6! Tap for info!
+    id: 1031
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-09_1032:
+    start_on: 2026-01-09
+    end_on: 2026-01-26
+    version: '150002'
+    name: Cammy joins from Street Fighter 6! Tap for info!
+    id: 1032
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-09_946:
+    start_on: 2026-01-09
+    end_on: 2026-01-13
+    version: '150002'
+    name: Hanasaka Cat with Conjurer evolved form joins! ★Tap banner for info!
+    id: 946
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-13_942:
+    start_on: 2026-01-13
+    end_on: 2026-01-16
+    version: '150002'
+    name: Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!
+    id: 942
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-16_1007:
+    start_on: 2026-01-16
+    end_on: 2026-01-19
+    version: '150002'
+    name: Limited unit Netherworld Nymph Lunacia added! ★Tap for details!
+    id: 1007
+    rare: 6470
+    supa: 2600
+    uber: 900
+    legend: 30
+  2026-01-16_1031:
+    start_on: 2026-01-16
+    end_on: 2026-01-26
+    version: '150002'
+    name: Juri joins from Street Fighter 6! Tap for info!
+    id: 1031
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-16_1032:
+    start_on: 2026-01-16
+    end_on: 2026-01-26
+    version: '150002'
+    name: Cammy joins from Street Fighter 6! Tap for info!
+    id: 1032
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-19_1004:
+    start_on: 2026-01-19
+    end_on: 2026-01-23
+    version: '150002'
+    name: Conjurer hero Komori joins the fight! ★Tap for details!
+    id: 1004
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-19_1031:
+    start_on: 2026-01-19
+    end_on: 2026-01-26
+    version: '150002'
+    name: Juri joins from Street Fighter 6! Tap for info!
+    id: 1031
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-19_1032:
+    start_on: 2026-01-19
+    end_on: 2026-01-26
+    version: '150002'
+    name: Cammy joins from Street Fighter 6! Tap for info!
+    id: 1032
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-23_1016:
+    start_on: 2026-01-23
+    end_on: 2026-01-26
+    version: '150002'
+    name: New unit Sorceress Sidmi added! Spooky beauties from beyond!
+    id: 1016
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-23_1031:
+    start_on: 2026-01-23
+    end_on: 2026-01-26
+    version: '150002'
+    name: Juri joins from Street Fighter 6! Tap for info!
+    id: 1031
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-23_1032:
+    start_on: 2026-01-23
+    end_on: 2026-01-26
+    version: '150002'
+    name: Cammy joins from Street Fighter 6! Tap for info!
+    id: 1032
+    rare: 6970
+    supa: 2500
+    uber: 500
+    guaranteed: true
+    legend: 30
+  2026-01-26_943:
+    start_on: 2026-01-26
+    end_on: 2026-01-30
+    version: '150002'
+    name: Conjure spirits with new hero Akechi Mitsuhide! Tap banner for info!
+    id: 943
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-26_979:
+    start_on: 2026-01-26
+    end_on: 2026-01-30
+    version: '150002'
+    name: New Conjurer Unit Mighty Morta-Loncha, with Explosive attacks! ★Tap for details!
+    id: 979
+    rare: 6970
+    supa: 2500
+    uber: 500
+    legend: 30
+  2026-01-26_986:
+    start_on: 2026-01-26
+    end_on: 2026-01-30
+    version: '150002'
+    name: Mystery creature Mamoluga awaits your summoning! ★ Tap banner for info!
+    id: 986
     rare: 6970
     supa: 2500
     uber: 500
