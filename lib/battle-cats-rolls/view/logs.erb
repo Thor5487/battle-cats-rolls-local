@@ -1,7 +1,14 @@
 <%= erb :form %>
 
 <%= header(1, "Event data links for BC#{route.lang.upcase}") %>
-<ul><li>Links are removed because they no longer work</li></ul>
+<ul>
+  <% %w[gatya.tsv item.tsv sale.tsv].each do |file| %>
+    <li>
+      <a href="<%= route.event_url(file: file) %>"><%= file %></a>
+      (cached for <%= route.tsv_expires_in %> seconds)
+    </li>
+  <% end %>
+</ul>
 
 <%= header(1, "Known bugs for 8.6+") %><p></p>
 <ol>
@@ -9,6 +16,11 @@
 </ol>
 
 <%= header(1, "What's changed?") %><p></p>
+
+<%= header(2, "2026-01-18") %>
+<ul>
+  <li>We serve the tsv files again, cached for 1 hour.</li>
+</ul>
 
 <%= header(2, "2025-11-09") %>
 <ul>

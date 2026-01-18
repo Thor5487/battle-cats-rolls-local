@@ -5,7 +5,6 @@ require_relative 'crystal_ball'
 require_relative 'gacha_pool'
 require_relative 'gacha'
 require_relative 'owned'
-require_relative 'aws_auth'
 require_relative 'find_cat'
 require_relative 'cat'
 require_relative 'stat'
@@ -138,6 +137,10 @@ module BattleCatsRolls
     end
 
     def tsv_expires_in
+      3600
+    end
+
+    def jwt_expires_in
       600
     end
 
@@ -658,8 +661,15 @@ module BattleCatsRolls
       uri(path: "//#{web_host}/cats/#{cat.id}")
     end
 
-    def event_url *args, **options
-      AwsAuth.event_url(lang, *args, base_uri: event_base_uri, **options)
+    def event_url file: 'gatya.tsv',
+      base_uri: "#{request.scheme}://#{seek_host}/seek",
+      kind: ''
+      case lang
+      when 'en', 'tw', 'jp', 'kr'
+        "#{base_uri}/#{lang}#{kind}/#{file}"
+      else
+        raise "Unknown language: #{lang}"
+      end
     end
 
     private
@@ -738,10 +748,6 @@ module BattleCatsRolls
           # And switch to "Customize..." under "Predicted".
           ball.gacha.dig(custom, 'rate') || 'regular', :rate, index)
       end
-    end
-
-    def event_base_uri
-      "#{request.scheme}://#{seek_host}/seek"
     end
 
     def query_string query

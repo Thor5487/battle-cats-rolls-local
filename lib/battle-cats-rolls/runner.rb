@@ -165,8 +165,10 @@ module BattleCatsRolls
 
       require_relative 'tsv_reader'
 
-      file_url = NyankoAuth.event_url(lang, file: file, jwt: jwt)
-      reader = TsvReader.download(file_url)
+      tsv = NyankoAuth.request(
+        "https://bc-seek.godfat.org/seek/#{lang}/#{file}")
+        # "http://localhost:8080/seek/#{lang}/#{file}")
+      reader = TsvReader.new(tsv)
 
       file_name = yield(reader)
       dir_path = data_path(dir)
