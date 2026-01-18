@@ -4,8 +4,8 @@ require_relative 'route'
 require_relative 'request'
 require_relative 'seek_seed'
 require_relative 'cache'
-require_relative 'aws_auth'
 require_relative 'aws_cf'
+require_relative 'runner'
 require_relative 'stat'
 require_relative 'talent'
 require_relative 'filter'
@@ -48,36 +48,17 @@ module BattleCatsRolls
       end
 
       def request_tsv lang, file
-        aws = aws_auth(lang, file)
-        request = Net::HTTP::Get.new(aws.uri)
+        runner = Runner.new(*Runner.locale(lang))
 
-        aws.headers.each do |key, value|
-          request[key] = value
-        end
-
-        response = Net::HTTP.start(
-          aws.uri.hostname,
-          aws.uri.port,
-          use_ssl: true) do |http|
-          http.request(request)
-        end
-
-        response.body
+        NyankoAuth.request(
+          NyankoAuth.event_url(lang, file: file, jwt: jwt(runner)))
       end
 
-      def aws_auth lang, file
-        prefix =
-          case lang
-          when 'jp'
-            ''
-          else
-            lang
-          end
+      def jwt runner
+        key = "#{runner.lang}/jwt"
 
-        url =
-          "https://nyanko-events-prd.s3.ap-northeast-1.amazonaws.com/battlecats#{prefix}_production/#{file}"
-
-        AwsAuth.new(:get, url)
+        cache[key] ||
+          cache.store(key, runner.jwt, expires_in: route.jwt_expires_in)
       end
 
       def throttle_ip
@@ -232,16 +213,6 @@ module BattleCatsRolls
           get "/seek#{prefix}/#{file}" do
             headers 'Content-Type' => 'text/plain; charset=utf-8'
             body serve_tsv(lang, file)
-          end
-
-          get "/seek#{prefix}/curl/#{file}" do
-            headers 'Content-Type' => 'text/plain; charset=utf-8'
-            body "#{aws_auth(lang, file).to_curl}\n"
-          end
-
-          get "/seek#{prefix}/json/#{file}" do
-            headers 'Content-Type' => 'application/json; charset=utf-8'
-            body JSON.dump(aws_auth(lang, file).headers)
           end
         end
       end
