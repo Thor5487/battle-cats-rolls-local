@@ -141,7 +141,7 @@ module BattleCatsRolls
     end
 
     def jwt_expires_in
-      600
+      3599
     end
 
     def throttle_ip_expires_in
