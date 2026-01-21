@@ -131,13 +131,18 @@ module BattleCatsRolls
     end
 
     def uri_for_number_td cat
-      pos = if route.pos == cat.number && cat.rerolled
+      # Rotate between regular and rerolled when it's not 1A
+      # For 1A rerolled or not should be determined only by the last cat
+      pos = if route.pos == cat.number && cat.rerolled && cat.number != '1A'
         "#{cat.number}R"
       else
         cat.number
       end
 
-      "#{route.uri(query: {pos: pos, last: 0})}#N#{cat.number}"
+      # For 1A we want to keep the last cat
+      last = 0 if cat.number != '1A'
+
+      "#{route.uri(query: {pos: pos, last: last})}#N#{cat.number}"
     end
 
     def score_tds cat, other_cat
