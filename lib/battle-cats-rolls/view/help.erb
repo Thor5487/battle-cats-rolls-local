@@ -99,6 +99,24 @@
 
 <%= erb :table, cats: arg[:help].pick(arg[:help].guaranteed_tracks, 1, 0, true) %>
 
+<%= header(2, 'Marking the next position') %>
+<ul>
+  <li>
+    When we want to plan a few sequence of guaranteed rolls, to avoid
+    confusion, we likely do not want to advance the tracks just yet.
+  </li>
+  <li>
+    Marking the next position can come handy in this case. We can click on
+    the label of the position, for example 11B, to mark that as the next
+    position.
+  </li>
+  <li>
+    Highlighting following that, will start from 11B rather than 1A in that
+    case. This should help us visualize the paths better with multiple
+    tabs opened for each of the guaranteed rolls.
+  </li>
+</ul>
+
 <%= header(2, 'Switch tracks') %>
 <ul>
   <li>Switching tracks will happen whenever you made any guaranteed rolls in a <a href="#what-is-a-guaranteed-event">guaranteed event</a>. Note that platinum gacha <strong>IS NOT</strong> a guaranteed event.</li>
