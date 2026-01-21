@@ -122,9 +122,12 @@ module BattleCatsRolls
 
     def number_td cat, other_cat
       rowspan = 2 + [cat.rerolled, other_cat&.rerolled].compact.size
+      link = route.uri(query: {pos: cat.number, last: 0})
 
       <<~HTML
-        <td rowspan="#{rowspan}" id="N#{cat.number}">#{cat.number}</td>
+        <td rowspan="#{rowspan}" id="N#{cat.number}">
+          <a href="#{link}#N#{cat.number}">#{cat.number}</a>
+        </td>
       HTML
     end
 
@@ -218,6 +221,10 @@ module BattleCatsRolls
 
     def selected_lang lang_name
       'selected="selected"' if route.lang == lang_name
+    end
+
+    def selected_pos pos
+      'selected="selected"' if route.pos == pos
     end
 
     def selected_version version_name

@@ -17,6 +17,38 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2026-01-21") %>
+<ul>
+  <li>
+    We no longer highlight the path from 1B. This is replaced by the following
+    next position marker feature.
+  </li>
+  <li>
+    We can now click on the position label to mark the next position.
+    <ul>
+      <li>
+        When a next position is marked, highlighting will start from that
+        particular position rather than 1A. This removes the last cat as well,
+        because last cat is supposed to be 0A, which is not applicable when
+        the next position is beyond 1A.
+      </li>
+      <li>
+        When we advance tracks by clicking on a particular cat, we set the
+        last cat as usual, and we also reset the next position back to 1A.
+      </li>
+      <li>
+        This means the next position marker is mutual exclusive to the last
+        cat feature.
+      </li>
+      <li>
+        NOTE: For now we cannot mark the next position with a rerolled cat.
+        This means highlighting with a specific next position with a rerolled
+        cat will not highlight properly. This will be fixed next.
+      </li>
+    </ul>
+  </li>
+</ul>
+
 <%= header(2, "2026-01-18") %>
 <ul>
   <li>We serve the tsv files again, cached for 1 hour.</li>
