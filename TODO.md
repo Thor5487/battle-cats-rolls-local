@@ -13,7 +13,9 @@
 
 ## Bugs
 
-* Make it possible to mark the next position with the rerolled cat.
+* The default 1A highlighting next position does not respect the last cat,
+  therefore when it's a dupe it's not using the rerolled cat. Path
+  highlighting works but not the dumb next position highlighting.
 * If there's a non-existing cat in a gacha, for now we show nothing because
   tracking can't be done due to missing rarity data. However, it'll be useful
   to show the gacha data so we know it's not just an empty gacha but a gacha
