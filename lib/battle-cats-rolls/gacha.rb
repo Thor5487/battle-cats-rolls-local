@@ -113,6 +113,10 @@ module BattleCatsRolls
         else
           next_position.picked_label = :next_position
         end
+      elsif next_position = dig_cats_from(cats, position.delete_suffix('R'))
+        # We might be switching to an event which doesn't have a rerolled cat
+        # In that case we fall back to the regular position
+        next_position.picked_label = :next_position
       end
     end
 
