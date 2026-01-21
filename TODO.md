@@ -13,6 +13,7 @@
 
 ## Bugs
 
+* Make it possible to mark the next position with the rerolled cat.
 * If there's a non-existing cat in a gacha, for now we show nothing because
   tracking can't be done due to missing rarity data. However, it'll be useful
   to show the gacha data so we know it's not just an empty gacha but a gacha
@@ -60,12 +61,6 @@
 * Use browser timezone offset to calculate local time
 * Normal gacha banners and tracks
 * Client-side seed seeker
-* Either add a way to mark a specific position, or memorize the next position
-  somehow (undecided yet, probably need to play around to see which works
-  better)
-* Pathing should start from the marked position
-* Expand the last rolled cat feature so that it also memorize the position
-  (just seed alone is not enough to mark the position)
 
 ## Architecture
 

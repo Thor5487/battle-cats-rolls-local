@@ -66,6 +66,7 @@ module BattleCatsRolls
 
     def prepare_tracks
       gacha.pool.add_future_ubers(ubers) if ubers > 0
+      gacha.position = pos
 
       if last.nonzero?
         gacha.last_roll = Cat.new(id: last)
@@ -91,8 +92,8 @@ module BattleCatsRolls
 
       if pick = request.params_coercion_with_nil('pick', :to_s)
         gacha.finish_picking(cats, pick, guaranteed_rolls)
-      elsif next_position = cats.dig(0, 0)
-        next_position.picked_label = :next_position
+      else
+        gacha.mark_next_position(cats)
       end
 
       found_cats =
@@ -170,6 +171,10 @@ module BattleCatsRolls
 
     def ui_lang
       @ui_lang = if ui.empty? then lang else ui end
+    end
+
+    def pos
+      @pos ||= request.params_coercion_with_nil('pos', :to_s) || '1A'
     end
 
     def version
@@ -654,7 +659,7 @@ module BattleCatsRolls
     end
 
     def uri_to_roll cat
-      uri(query: {seed: cat.slot_fruit.seed, last: cat.id})
+      uri(query: {seed: cat.slot_fruit.seed, last: cat.id, pos: '1A'})
     end
 
     def uri_to_cat cat
@@ -765,7 +770,7 @@ module BattleCatsRolls
 
     def default_query query={}, include_filters: false
       keys = %i[
-        seed last event custom rate c_rare c_supa c_uber level lang ui
+        seed pos last event custom rate c_rare c_supa c_uber level lang ui
         version seeker name theme count find
         no_guaranteed force_guaranteed ubers details
         advanced_filters exclude_talents sum_no_wave dps_no_critical
@@ -817,6 +822,7 @@ module BattleCatsRolls
     def cleanup_query query
       query.compact.select do |key, value|
         if (key == :seed && value == 0) ||
+           (key == :pos && value == '1A') ||
            (key == :lang && value == 'en') ||
            (key == :ui && value == '') ||
            (key == :version && value == default_version) ||
