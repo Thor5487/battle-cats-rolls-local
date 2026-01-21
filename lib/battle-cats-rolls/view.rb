@@ -122,13 +122,22 @@ module BattleCatsRolls
 
     def number_td cat, other_cat
       rowspan = 2 + [cat.rerolled, other_cat&.rerolled].compact.size
-      link = route.uri(query: {pos: cat.number, last: 0})
 
       <<~HTML
         <td rowspan="#{rowspan}" id="N#{cat.number}">
-          <a href="#{link}#N#{cat.number}">#{cat.number}</a>
+          <a href="#{uri_for_number_td(cat)}">#{cat.number}</a>
         </td>
       HTML
+    end
+
+    def uri_for_number_td cat
+      pos = if route.pos == cat.number && cat.rerolled
+        "#{cat.number}R"
+      else
+        cat.number
+      end
+
+      "#{route.uri(query: {pos: pos, last: 0})}#N#{cat.number}"
     end
 
     def score_tds cat, other_cat

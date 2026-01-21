@@ -86,13 +86,7 @@ module BattleCatsRolls
     # This can see A and B are passing each other:
     # https://bc.godfat.org/?seed=2390649859&event=2019-06-06_318
     def finish_picking cats, pick, guaranteed_rolls=pool.guaranteed_rolls
-      located = cats.dig(*index_and_track(pick))
-      picked =
-        if pick.include?('R')
-          located.rerolled
-        else
-          located
-        end
+      picked = dig_cats_from(cats, pick)
 
       return unless picked # Users can give arbitrary input
       return unless picked.guaranteed if pick.include?('G')
@@ -113,7 +107,7 @@ module BattleCatsRolls
     end
 
     def mark_next_position cats
-      if next_position = cats.dig(*index_and_track(position))
+      if next_position = dig_cats_from(cats, position)
         next_position.picked_label = :next_position
       end
     end
@@ -270,6 +264,16 @@ module BattleCatsRolls
       end
     end
 
+    def dig_cats_from cats, marker
+      located = cats.dig(*index_and_track(marker))
+
+      if marker.include?('R')
+        located.rerolled
+      else
+        located
+      end
+    end
+
     def index_and_track marker
       index = marker.to_i - 1
       track = (marker[/\A\d+(\w)/, 1] || 'A').ord - 'A'.ord
@@ -304,7 +308,7 @@ module BattleCatsRolls
     # https://bc.godfat.org/?seed=650315141&last=50&event=2020-09-11_433&pick=2BGX#N2B
     # https://bc.godfat.org/?seed=3626964723&last=49&event=2020-09-11_433&pick=2BGX#N2B
     def fill_picking_backtrack cats, number, which_cat=:itself
-      cat = last_roll || cats.dig(*index_and_track(position))
+      cat = last_roll || dig_cats_from(cats, position)
 
       fill_picking_backtrack_from(cat, number, which_cat)
     end
