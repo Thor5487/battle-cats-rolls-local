@@ -148,7 +148,7 @@ module BattleCatsRolls
     def uri_for_backtrack steps
       route.uri(query: {
         seed: route.gacha.backtrack_seed(route.seed, steps),
-        last: 0})
+        last: 0, pos: '1A'})
     end
 
     def score_tds cat, other_cat
