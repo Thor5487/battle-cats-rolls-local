@@ -32,13 +32,16 @@
         <%= score_tds(a, prev_b) %>
 
         <% if prev_b %>
-          <%= cat_tds(prev_b) %>
-          <%= seed_tds(prev_b.slot_fruit, prev_b) %>
-
-        <% elsif show_details %>
-          <td colspan="5"></td>
+        <%= cat_tds(prev_b) %>
+        <%= seed_tds(prev_b.slot_fruit, prev_b) %>
         <% else %>
-          <td colspan="3"></td>
+        <% if show_details %>
+        <td colspan="5">
+        <% else %>
+        <td colspan="3">
+        <% end %>
+          <a href="<%= uri_for_backtrack(2) %>">Backtrack</a>
+        </td>
         <% end %>
       </tr>
 

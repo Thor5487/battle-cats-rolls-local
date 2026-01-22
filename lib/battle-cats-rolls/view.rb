@@ -145,6 +145,12 @@ module BattleCatsRolls
       "#{route.uri(query: {pos: pos, last: last})}#N#{cat.number}"
     end
 
+    def uri_for_backtrack steps
+      route.uri(query: {
+        seed: route.gacha.backtrack_seed(route.seed, steps),
+        last: 0})
+    end
+
     def score_tds cat, other_cat
       rowspan =
         if other_cat&.rerolled

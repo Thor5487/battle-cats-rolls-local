@@ -49,7 +49,6 @@
     * Within 3 years ago...
   So it expands like "Customize..." when selecting those past ones.
   To avoid timezone offset, possibly keep 1 day more worth of banners.
-* Retreat seed
 * Multi-select for finding cats
 * Show multiple banners of tracks horizontally so we can look at
   different events at the same time.
