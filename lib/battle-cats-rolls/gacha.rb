@@ -120,6 +120,10 @@ module BattleCatsRolls
       end
     end
 
+    def backtrack_seed base_seed, steps
+      steps.times.inject(base_seed){ |seed| retreat_seed(seed) }
+    end
+
     private
 
     def pick_cats rarity
