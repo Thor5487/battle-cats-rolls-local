@@ -1526,7 +1526,7 @@ cats:
     growth: [20, 20, 10, 10, 10]
   100:
     name: [Crazed Titan Cat, Crazed M. Titan Cat, Manic Jamiera Cat]
-    desc: ["Blessed with extreme attack power\nand ridiculous amounts of health (Area Attack)\nCrazed Version grants Wave Attacks.", "Blessed with extreme attack power\nExtreme attack power and health.\nCrazed Version grants Wave Attacks.", "Once manic, none can withstand his godlike\ndefense or offense, or outrun his godspeed.\nHis wave attacks occur more frequently too!"]
+    desc: ["Blessed with extreme attack power\nand ridiculous amounts of health (Area Attack)\nCrazed Version grants Wave Attacks.", "Blessed with extreme attack power\nand an impressive health pool.\nCrazed Version grants Wave Attacks.", "Once manic, none can withstand his godlike\ndefense or offense, or outrun his godspeed.\nHis wave attacks occur more frequently too!"]
     stat: [{health: 3600, knockbacks: 1, speed: 11, cost: 1300, production_cooldown: 465, range: 150, width: 320, area_effect: 1, damage_0: 1184, attack_time_0: 47, wave_chance: 10, wave_level: 10, attack_duration: 80}, {health: 3600, knockbacks: 1, speed: 11, cost: 1300, production_cooldown: 465, range: 150, width: 320, area_effect: 1, damage_0: 1184, attack_time_0: 47, wave_chance: 10, wave_level: 10, attack_duration: 80}, {health: 4400, knockbacks: 1, speed: 11, cost: 1300, production_cooldown: 465, range: 150, width: 320, area_effect: 1, damage_0: 1184, attack_time_0: 47, wave_chance: 15, wave_level: 10, attack_duration: 80}]
     rarity: 3
     max_level: 50
@@ -1964,7 +1964,7 @@ cats:
         minmax: [[2, 20]]
   139:
     name: [Princess Kaguya, The Death Moon, The Chaos Moon, Ultra Kaguya]
-    desc: ["Beautiful Cat on assignment from the Moon.\nHer true nature is still top secret…\nMight slow Angel/Metal enemies. (Area Atk)", "A prototype of one of many Ancient Cat\nWeapons made from stolen blueprints.\nMight slow Angel/Metal enemies. (Area Atk)", "Almost annihilated the galaxy once… Oops.\nThat can happens when you design an AI with\nno conscience. Slows Angels/Metal (Area Atk)", "As a royal of the moon kingdom, singlehandedly\nended a grueling space war. Metal Killer, Area\nAttacks might Slow Angels and Metal enemies."]
+    desc: ["Beautiful Cat on assignment from the Moon.\nHer true nature is still top secret…\nMight slow Angel/Metal enemies. (Area Atk)", "A prototype of one of many Ancient Cat\nWeapons made from stolen blueprints.\nMight slow Angel/Metal enemies. (Area Atk)", "Almost annihilated the galaxy once… Oops.\nThat can happen when you design an AI with\nno conscience. Area Attack Slows Angels/Metal.", "As a royal of the moon kingdom, singlehandedly\nended a grueling space war. Metal Killer, Area\nAttacks might Slow Angels and Metal enemies."]
     stat: [{health: 450, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, attack_duration: 35}, {health: 2200, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 425, width: 320, area_effect: 1, damage_0: 2400, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 50, slow_duration: 110, attack_duration: 160}, {health: 2800, knockbacks: 4, speed: 7, cost: 3200, production_cooldown: 2250, attack_cooldown: 90, range: 455, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 98, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 100, slow_duration: 110, attack_duration: 160}, {health: 800, knockbacks: 3, speed: 8, cost: 400, production_cooldown: 240, attack_cooldown: 20, range: 280, width: 320, area_effect: 1, damage_0: 250, attack_time_0: 6, trigger_effects_0: 1, against_angel: 1, against_metal: 1, slow_chance: 20, slow_duration: 70, metal_killer: 12, attack_duration: 35}]
     rarity: 4
     max_level: 130
@@ -2750,7 +2750,7 @@ cats:
     desc: ["Celebrating The Battle Cats' Taiwan version,\nthis Cat got too excited and steamed itself in a basket.\nIs that meat inside, or PURE PASSION?!", "Celebrating The Battle Cats' Taiwan version,\ngrew bigger to satisfy more hungry people. There's\nno basis to rumors he's got pizza filling inside."]
     stat: [{health: 110, knockbacks: 3, speed: 9, cost: 50, production_cooldown: 75, attack_cooldown: 15, range: 140, width: 320, damage_0: 8, attack_time_0: 10, attack_duration: 30}, {health: 450, knockbacks: 3, speed: 6, cost: 500, production_cooldown: 240, attack_cooldown: 20, range: 300, width: 320, area_effect: 1, damage_0: 65, attack_time_0: 20, attack_duration: 53}]
     rarity: 1
-    max_level: 75
+    max_level: 80
     growth: [20, 20, 20, 20, 20, 20, 10, 10]
   204:
     name: [Kachi-Kachi, Fire Squad Kachiyama, Kachiyama Assault Brigade]
@@ -4194,6 +4194,16 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
+      savage_blow:
+        max_level: 10
+        minmax: [[3, 30], [200, 200]]
+        ultra: 1
+      immune_slow:
+        ultra: 1
+      reduce_cost:
+        max_level: 10
+        minmax: [[50, 500]]
+        ultra: 1
   353:
     name: [Hermit Cat, Grandmaster Cat, Masked Grandmaster Cat]
     desc: ["A legendary sage who infiltrated the Cat Base.\nMemory might be going, but true strength cannot be\nforgotten. Rapid area attacks fire powerful waves.", "Captured an enemy base with nothing but one sweet \nrice cake. Imagine what happens when he gets angry.\nRapid area attacks fire powerful waves.", "Sage bewitched by an ancient mask fallen from\nthe sky, imbued with forbidden battle techniques.\nStrong vs Relics, with chance of Curse Wave!"]
@@ -6639,6 +6649,20 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+    talent:
+      against_angel: {}
+      survive:
+        max_level: 10
+        minmax: [[10, 100]]
+      resistant_freeze:
+        max_level: 10
+        minmax: [[16, 70]]
+      increase_health:
+        max_level: 10
+        minmax: [[2, 20]]
+      increase_damage:
+        max_level: 10
+        minmax: [[2, 20]]
   644:
     name: [Superfeline, Superfeline II, True Superfeline]
     desc: ["Transcended mortality to turn the tides of destiny.\nSwiftly closes in on its target to attack with its long tail.\nDelivers massive damage to Relics. (Omnistrike)", "Cat who charges into battle of its own free will.\nSeeks freedom through sheer physical power.\nDelivers massive damage to Relics. (Omnistrike)", "The genetic embodiment of \"Humanity Catified.\"\nAfter years of biorecombination, it awakens.\nDeals Massive damage to Relics. (Omnistrike)"]
@@ -6665,8 +6689,8 @@ cats:
     desc: ["A very red, very lucky Cat. Responsible for warding\naway evil and bringing fortune with its clangor.\nDeals Massive damage to Red, might Dodge attacks.", "The king of all Firecracker Cats. Creates the loudest\nsounds and brightest lights of any Firecracker Cat.\nDeals Massive damage to Red, might Dodge attacks."]
     stat: [{health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 300, attack_cooldown: 18, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 14, trigger_effects_0: 1, against_red: 1, massive_damage: 1, dodge_chance: 20, dodge_duration: 60, attack_duration: 47}, {health: 300, knockbacks: 4, speed: 10, cost: 650, production_cooldown: 300, attack_cooldown: 18, range: 170, width: 320, area_effect: 1, damage_0: 140, attack_time_0: 14, trigger_effects_0: 1, against_red: 1, massive_damage: 1, dodge_chance: 20, dodge_duration: 60, attack_duration: 47}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 80
+    growth: [20, 20, 20, 20, 20, 20, 10, 10]
   648:
     name: [Huntress Terun, Huntress Terun ζ, Divine Huntress Terun ζ]
     desc: ["Invited along on a hunt, her life was forever changed.\nHounds her prey with blasts from her Lightning Bow.\nColossus Slayer, Area Attacks Slow Red/Aliens", "Supernaturally calm and clever, she strikes without\nfail at the weakest point of her gargantuan quarry.\nColossus Slayer, Area Attacks Slow Red/Aliens", "Intelligent hunter who hunts gigantic prey without\nsleep or food, almost never fainting from hunger.\nColossus Slayer, Strong against Red/Aliens."]
@@ -6858,7 +6882,7 @@ cats:
     growth: [20]
   675:
     name: [Mighty Carrowsell, Extraterrestrial Envanz, Extradimensional Envanz]
-    desc: ["A grand show put on by a variety of performers.\nEnraptures audiences with expectation-defying acts.\nColossus Slayer, Curses and Slows Black/Zombies.", "An alien, disc-like ship that abducts the world's cows.\nWhy? To dissect and study them, of course!\nColossus Slayer, Curses and Slows Black and zombies.", "Saucer from a future where our world is long dead,\nhere to preserve the DNA of Earth life. Colossus \nSlayer, Tough vs. Black/Zombie, may Curse/Slow."]
+    desc: ["A grand show put on by a variety of performers.\nEnraptures audiences with expectation-defying acts.\nColossus Slayer, Curses and may Slow Black/Zombies.", "An alien, disc-like ship that abducts the world's cows.\nWhy? To dissect and study them, of course!\nColossus Slayer, Curses and may Slow Black/Zombies.", "Saucer from a future where our world is long dead,\nhere to preserve the DNA of Earth life. Colossus \nSlayer, Curses, may Slow, Tough vs. Black/Zombie."]
     stat: [{health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, zombie_killer: 1, colossus_slayer: 1, immune_toxic: 1, attack_duration: 211}, {health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 750, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 750, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 750, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, zombie_killer: 1, colossus_slayer: 1, immune_toxic: 1, attack_duration: 211}, {health: 4400, knockbacks: 4, speed: 5, cost: 3000, production_cooldown: 2300, attack_cooldown: 83, range: 400, width: 320, area_effect: 1, damage_0: 1000, long_range_0: 1, long_range_offset_0: 400, attack_time_0: 85, trigger_effects_0: 1, damage_1: 1000, long_range_1: 435, long_range_offset_1: -470, attack_time_1: 89, trigger_effects_1: 1, damage_2: 1000, long_range_2: 470, long_range_offset_2: -540, attack_time_2: 93, trigger_effects_2: 1, against_black: 1, against_zombie: 1, resistant: 1, slow_chance: 50, slow_duration: 120, curse_chance: 100, curse_duration: 240, zombie_killer: 1, colossus_slayer: 1, immune_toxic: 1, attack_duration: 211}]
     rarity: 4
     max_level: 130
@@ -7095,9 +7119,9 @@ cats:
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
   713:
-    name: [Kaoluga, Kaolan Pasalan]
-    desc: ["Not sure if this is a Cat...\nThere's just something about\nthat head-to-body proportion...", "Someone tell me - how can this be?!\nSeems like this one has 100% chance of\nMini-Surge with occasional Knockback."]
-    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 33}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 20, surge_level: 6, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, attack_duration: 165}]
+    name: [Kaoluga, Kaolan Pasalan, Kaolan Tatalan]
+    desc: ["Not sure if this is a Cat...\nThere's just something about\nthat head-to-body proportion...", "Someone tell me - how can this be?!\nSeems like this one has 100% chance of\nMini-Surge with occasional Knockback.", "Is it a Cat or a fallen warrior? Seems like this one\nis a Colossus Slayer with Area Attacks that\nmight Knockback, with 100% Mini-Surge."]
+    stat: [{health: 500, knockbacks: 5, speed: 4, cost: 3000, production_cooldown: 500, attack_cooldown: 35, range: 140, width: 320, damage_0: 150, attack_time_0: 20, trigger_effects_0: 1, attack_duration: 33}, {health: 1200, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 20, surge_level: 6, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, attack_duration: 165}, {health: 1800, knockbacks: 1, speed: 4, cost: 3000, production_cooldown: 5000, attack_cooldown: 180, range: 710, width: 320, area_effect: 1, damage_0: 3000, attack_time_0: 50, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 30, colossus_slayer: 1, surge_level: 8, surge_mini: 100, surge_range: 600, surge_range_offset: 3600, immune_surge: 1, attack_duration: 165}]
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
@@ -7225,8 +7249,8 @@ cats:
     desc: ["An otherworldly artifact in the shape of an egg,\ncoated in the grime of countless centuries.\nA small inscription reads \"N204\".", "A mysterious lifeform that takes the form of a red egg.\nSigns of life appear to be coming from the inside.\nStrong against Red and Traitless enemies.", "Dances the night away as a mystical lion.\nWith one chomp, its jaws bring great luck.\nBehemoth Slayer, strong against Red and Traitless."]
     stat: [{health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1}, {health: 100, knockbacks: 1, speed: 5, cost: 120, production_cooldown: 100, attack_cooldown: 220, range: 100, width: 320, damage_0: 2, attack_time_0: 32, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 1, weaken_duration: 120, weaken_multiplier: 50}, {health: 500, knockbacks: 3, speed: 10, cost: 450, production_cooldown: 240, attack_cooldown: 31, range: 300, width: 320, damage_0: 240, attack_time_0: 28, trigger_effects_0: 1, against_red: 1, against_white: 1, strong: 1, weaken_chance: 50, weaken_duration: 120, weaken_multiplier: 50, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_knockback: 1, attack_duration: 60}]
     rarity: 1
-    max_level: 60
-    growth: [20, 20, 20, 20, 20, 20]
+    max_level: 70
+    growth: [20, 20, 20, 20, 20, 20, 10]
   732:
     name: [Daybreaker Izanagi, Dawnbringer Izanagi]
     desc: ["The prelude to all that ever was, descended from a\nhigher plane. Manifests desires and Conjures to the\nbattlefield, Insane damage to Traited (Long-Range)", "Silent observer of the ephemeral realms for eons.\nManifests desires and Conjures to the battlefield,\ndeals Insane damage to Traited (Long-Range)"]
@@ -7899,6 +7923,27 @@ cats:
     rarity: 4
     max_level: 130
     growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  838:
+    name: [Squire Luno, Lunos the Luminous]
+    desc: ["Youth with dreams of chivalry. His true destiny is\nunknown. Conjurer, Tough vs., Omnistrikes may \nKnockback Black/Angels/Aku/Relics.", "Knight bearing the people's hopes. Conjurer, Tough\nvs., 100% Knockback, may deal a Savage Blow to\nBlack/Angels/Aku/Relics with Omnistrikes."]
+    stat: [{health: 1800, knockbacks: 1, speed: 13, cost: 600, production_cooldown: 280, attack_cooldown: 55, range: 150, width: 320, area_effect: 1, damage_0: 580, long_range_0: 250, long_range_offset_0: -570, attack_time_0: 44, trigger_effects_0: 1, against_black: 1, against_angel: 1, against_aku: 1, against_relic: 1, resistant: 1, knockback_chance: 50, conjure: 839, immune_knockback: 1, immune_slow: 1, immune_curse: 1, immune_surge: 1, attack_duration: 120}, {health: 4600, knockbacks: 2, speed: 9, cost: 2300, production_cooldown: 280, attack_cooldown: 55, range: 250, width: 320, area_effect: 1, damage_0: 1650, long_range_0: 350, long_range_offset_0: -670, attack_time_0: 44, trigger_effects_0: 1, against_black: 1, against_angel: 1, against_aku: 1, against_relic: 1, resistant: 1, knockback_chance: 100, savage_blow_chance: 10, savage_blow_modifier: 200, conjure: 840, immune_knockback: 1, immune_freeze: 1, immune_slow: 1, immune_weaken: 1, immune_curse: 1, immune_surge: 1, attack_duration: 120}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  839:
+    name: [839-1]
+    desc: ['Spirit: Knockback, unleashes Mini-Surges.']
+    stat: [{health: 100, knockbacks: 1, range: 600, width: 320, area_effect: 1, damage_0: 900, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, surge_level: 3, surge_mini: 100, surge_range: 1200, surge_range_offset: 1200, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
+  840:
+    name: [840-1]
+    desc: ['Spirit: Knockback, unleashes Mini-Surges.']
+    stat: [{health: 100, knockbacks: 1, range: 800, width: 320, area_effect: 1, damage_0: 2700, attack_time_0: 41, trigger_effects_0: 1, against_red: 1, against_float: 1, against_black: 1, against_angel: 1, against_alien: 1, against_zombie: 1, against_aku: 1, against_relic: 1, against_white: 1, against_metal: 1, knockback_chance: 100, surge_level: 5, surge_mini: 100, surge_range: 1600, surge_range_offset: 1200, kamikaze: 2, attack_duration: 85}]
+    rarity: 4
+    max_level: 60
+    growth: [20, 20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -13442,6 +13487,64 @@ gacha:
     series_id: 55
     name: Cammy joins from Street Fighter 6! Tap for info!
     rate: regular
+  1033:
+    cats: [838, 831, 818, 812, 800, 782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    rate: uberfest_legend
+    similarity: 99
+  1034:
+    cats: [838, 831, 818, 812, 811, 800, 788, 782, 780, 775, 770, 764, 761, 759, 755, 521, 485, 436, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 42
+    name: New unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    similarity: 95
+  1035:
+    cats: [838, 831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  1036:
+    cats: [838, 831, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 98
+  1037:
+    cats: [450, 464, 456, 73, 171, 620, 632, 428, 397, 770, 197, 812, 356, 825, 315, 315, 315, 315, 315, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 16
+    name: 2020 New Year's Limited Edition Capsules!★ With 11-Draw Guarantee!
+    rate: regular
+    similarity: 63
+  1038:
+    cats: [841, 842, 843, 844, 845, 846, 847, 848, 848, 848, 848, 848, 848, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 74
+    name: "【Limited】 Crash Fever Collab Capsules! ★ Tap banner for info!"
+    rate: no_legend
+    similarity: 81
+  1039:
+    cats: [838, 818, 812, 800, 782, 780, 775, 770, 764, 761, 755, 734, 732, 724, 720, 716, 713, 699, 693, 691, 675, 669, 661, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 595, 586, 570, 547, 535, 534, 530, 526, 524, 523, 496, 520, 506, 503, 497, 440, 437, 432, 428, 418, 402, 397, 381, 378, 377, 362, 361, 360, 356, 352, 339, 326, 323, 319, 317, 307, 306, 305, 308, 309, 273, 272, 270, 35, 43, 44, 45, 58, 60, 72, 73, 74, 76, 77, 84, 85, 86, 87, 88, 106, 107, 108, 125, 126, 135, 136, 137, 138, 139, 144, 159, 160, 169, 170, 171, 172, 178, 195, 196, 197, 204, 213, 227, 262, 241, 258, 259, 260, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 19
+    name: Limited unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    rate: uberfest_legend
+    similarity: 99
+  1040:
+    cats: [838, 818, 812, 811, 800, 788, 782, 780, 775, 770, 764, 761, 759, 755, 521, 485, 436, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 610, 595, 586, 570, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 273, 272, 270, 262, 260, 259, 258, 241, 227, 213, 204, 197, 196, 195, 178, 172, 171, 170, 169, 160, 159, 144, 139, 138, 137, 136, 135, 126, 125, 108, 107, 106, 88, 87, 86, 85, 84, 77, 76, 74, 73, 72, 60, 58, 45, 44, 43, 35, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 31, 32, 33, 34]
+    series_id: 42
+    name: New unit Celestial Child Luna added! ★Uber Rare drop rate UP!
+    similarity: 96
+  1041:
+    cats: [838, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 739, 734, 732, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 587, 586, 494, 482, 479, 464, 462, 456, 452, 451, 450, 449, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 46
+    name: Get a Guaranteed Uber or Legend Rare from the Legend Capsules!
+    rate: legend
+    similarity: 99
+  1042:
+    cats: [838, 818, 812, 800, 788, 782, 780, 775, 770, 764, 761, 755, 734, 724, 720, 716, 713, 706, 699, 693, 691, 687, 675, 669, 661, 658, 656, 650, 648, 643, 642, 635, 634, 633, 632, 626, 621, 620, 619, 618, 613, 610, 595, 586, 570, 560, 547, 544, 535, 534, 530, 526, 520, 506, 503, 497, 442, 440, 437, 432, 428, 418, 402, 398, 397, 381, 379, 362, 361, 360, 356, 352, 339, 334, 323, 319, 317, 307, 306, 305, 287, 284, 270, 35, 169, 170, 171, 172, 241, 43, 44, 45, 58, 60, 144, 72, 73, 74, 125, 126, 159, 76, 77, 106, 107, 108, 160, 84, 85, 86, 87, 88, 178, 135, 136, 137, 138, 139, 204, 195, 196, 197, 213, 227, 262, 258, 259, 260, 272, 273]
+    series_id: 21
+    name: Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!
+    rate: platinum
+    similarity: 99
 events:
   2018-06-06_245:
     start_on: 2018-06-06
