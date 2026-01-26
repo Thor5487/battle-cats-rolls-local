@@ -17,6 +17,19 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2026-01-26") %>
+<ul>
+  <li>
+    Fixed site crashing when last cat is a duplicated cat of the next cat by
+    checking if there's actually a rerolled cat. Only duplicated rare cat
+    would have a rerolled cat, so this was crashing for super rare and uber,
+    and also legend rare even when it's more rare. This was broken by
+    <a href="https://gitlab.com/godfat/battle-cats-rolls/-/commit/4e00e45fad25a4a4b7c24eb0ea75a843ccb3ff5e">4e00e45fad25a4a4b7c24eb0ea75a843ccb3ff5e</a>
+    and fixed by
+    FILL THE COMMIT LINK
+  </li>
+</ul>
+
 <%= header(2, "2026-01-22") %>
 <ul>
   <li>

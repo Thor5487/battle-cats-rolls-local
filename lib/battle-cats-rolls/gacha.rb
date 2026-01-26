@@ -108,7 +108,8 @@ module BattleCatsRolls
 
     def mark_next_position cats
       if next_position = dig_cats_from(cats, position)
-        if last_roll && last_roll.id == next_position.id
+        if last_roll && last_roll.id == next_position.id &&
+          next_position.rerolled # Only rare would have a rerolled cat
           next_position.rerolled.picked_label = :next_position
         else
           next_position.picked_label = :next_position
