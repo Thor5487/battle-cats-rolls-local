@@ -8666,6 +8666,76 @@ cats:
     rarity: 4
     max_level: 60
     growth: [20, 20, 20, 20, 20, 20]
+  841:
+    name: [竈門炭治郎, 竈門炭治郎CC]
+    desc: ["アニメ「鬼滅の刃」から参戦！鬼となった妹を救い\n家族の仇を討つため鬼殺隊へ入隊した心優しき少年\n浮きと天使に超ダメージを与え、必ず爆波を放つ(遠方範囲)\nカマドタンジロウ", "アニメ「鬼滅の刃」から参戦！水の呼吸・壱ノ型\n「水面斬り」で強固な鬼の頸を一撃で斬り落とす\n浮きと天使に超ダメージを与え、必ず爆波を放つ(遠方範囲)\nカマドタンジロウシーシー"]
+    stat: [{health: 2000, knockbacks: 4, speed: 12, cost: 3000, production_cooldown: 2100, attack_cooldown: 80, range: 600, width: 320, area_effect: 1, damage_0: 600, long_range_0: 450, long_range_offset_0: 400, attack_time_0: 25, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, survive_chance: 100, explosion_chance: 100, explosion_range: 2400, immune_slow: 1, immune_surge: 1, attack_duration: 93}, {health: 2300, knockbacks: 4, speed: 12, cost: 3000, production_cooldown: 2100, attack_cooldown: 80, range: 600, width: 320, area_effect: 1, damage_0: 720, long_range_0: 450, long_range_offset_0: 400, attack_time_0: 25, trigger_effects_0: 1, against_float: 1, against_angel: 1, massive_damage: 1, survive_chance: 100, explosion_chance: 100, explosion_range: 2400, immune_slow: 1, immune_surge: 1, attack_duration: 93}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  842:
+    name: ["竈門禰\U000E0100豆子", "竈門禰\U000E0100豆子CC"]
+    desc: ["アニメ「鬼滅の刃」から参戦！傷口に鬼の血が入り込み\n鬼に変貌した少女。属性を持たない敵とエイリアンと\nゾンビしか攻撃できないが必ずふっとばす(範囲攻撃)\nカマドネズコ", "アニメ「鬼滅の刃」から参戦！鬼の力は炭治郎や他の人間を\n守るために使われる。属性を持たない敵とエイリアンと\nゾンビしか攻撃できないが必ずふっとばす(範囲攻撃)\nカマドネズコシーシー"]
+    stat: [{health: 3500, knockbacks: 2, speed: 14, cost: 1800, production_cooldown: 900, attack_cooldown: 40, range: 210, width: 320, area_effect: 1, damage_0: 1200, attack_time_0: 10, damage_1: 1200, attack_time_1: 25, trigger_effects_1: 1, against_alien: 1, against_zombie: 1, against_white: 1, against_only: 1, knockback_chance: 100, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 100, zombie_killer: 1, immune_slow: 1, immune_curse: 1, attack_duration: 55}, {health: 4500, knockbacks: 2, speed: 14, cost: 1800, production_cooldown: 900, attack_cooldown: 40, range: 210, width: 320, area_effect: 1, damage_0: 1500, attack_time_0: 10, damage_1: 1500, attack_time_1: 25, trigger_effects_1: 1, against_alien: 1, against_zombie: 1, against_white: 1, against_only: 1, knockback_chance: 100, survive_chance: 100, strengthen_threshold: 50, strengthen_modifier: 100, zombie_killer: 1, immune_slow: 1, immune_curse: 1, attack_duration: 55}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  843:
+    name: [我妻善逸, 我妻善逸CC]
+    desc: ["アニメ「鬼滅の刃」から参戦！炭治郎と同期の鬼殺隊剣士\n怖がりで極度の恐怖状態に陥ると失神し覚醒する\nゾンビに超ダメージを与える(全方位攻撃)\nアガツマゼンイツ", "アニメ「鬼滅の刃」から参戦！雷の呼吸・壱ノ型\n「霹靂一閃」で目にも留まらぬ高速の居合斬りを放つ\nゾンビに超ダメージを与える(全方位攻撃)\nアガツマゼンイツシーシー"]
+    stat: [{health: 4500, knockbacks: 2, speed: 12, cost: 2850, production_cooldown: 1500, attack_cooldown: 155, range: 220, width: 320, area_effect: 1, damage_0: 4000, long_range_0: 470, long_range_offset_0: -870, attack_time_0: 47, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_freeze: 1, attack_duration: 121}, {health: 5000, knockbacks: 2, speed: 12, cost: 2850, production_cooldown: 1500, attack_cooldown: 155, range: 220, width: 320, area_effect: 1, damage_0: 4550, long_range_0: 470, long_range_offset_0: -870, attack_time_0: 47, trigger_effects_0: 1, against_zombie: 1, massive_damage: 1, zombie_killer: 1, immune_freeze: 1, attack_duration: 121}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  844:
+    name: [嘴平伊之助, 嘴平伊之助CC]
+    desc: ["アニメ「鬼滅の刃」から参戦！炭治郎と同期の鬼殺隊士\n山育ちのため非常に勘が鋭く、察知力に優れている(全方位)\n超獣特効を持ち、黒と悪魔に打たれ強く、たまにふっとばす\nハシビライノスケ", "アニメ「鬼滅の刃」から参戦！獣の呼吸・参ノ牙\n「喰い裂き」で敵の懐に潜り込んで攻撃する(全方位)\n超獣特効を持ち、黒と悪魔に打たれ強く、たまにふっとばす\nハシビライノスケシーシー"]
+    stat: [{health: 4000, knockbacks: 2, speed: 35, cost: 2100, production_cooldown: 1400, attack_cooldown: 65, range: 350, width: 320, area_effect: 1, damage_0: 1050, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, against_aku: 1, resistant: 1, knockback_chance: 50, break_shield_chance: 30, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_freeze: 1, immune_toxic: 1, attack_duration: 60}, {health: 4800, knockbacks: 2, speed: 35, cost: 2100, production_cooldown: 1400, attack_cooldown: 65, range: 350, width: 320, area_effect: 1, damage_0: 1350, long_range_0: 450, long_range_offset_0: -550, attack_time_0: 5, trigger_effects_0: 1, against_black: 1, against_aku: 1, resistant: 1, knockback_chance: 50, break_shield_chance: 30, behemoth_slayer: 1, behemoth_dodge_chance: 5, behemoth_dodge_duration: 30, immune_freeze: 1, immune_toxic: 1, attack_duration: 60}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  845:
+    name: [冨岡義勇, 冨岡義勇CC]
+    desc: ["アニメ「鬼滅の刃」から参戦！鬼殺隊の水柱\n竈門兄妹を鬼殺隊へと導いた寡黙な剣士(遠方範囲)\n属性を持たない敵と赤にめっぽう強く、必ず動きを遅くする\nトミオカギユウ", "アニメ「鬼滅の刃」から参戦！水の呼吸・肆ノ型\n「打ち潮」で大海の荒波のように相手を斬りつける(遠方範囲)\n属性を持たない敵と赤にめっぽう強く、必ず動きを遅くする\nトミオカギユウシーシー"]
+    stat: [{health: 3920, knockbacks: 4, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 84, range: 430, width: 320, area_effect: 1, damage_0: 940, long_range_0: 1, long_range_offset_0: 430, attack_time_0: 27, damage_1: 940, long_range_1: 1, long_range_offset_1: 430, attack_time_1: 32, damage_2: 470, long_range_2: 330, long_range_offset_2: 350, attack_time_2: 43, trigger_effects_2: 1, against_red: 1, against_white: 1, strong: 1, slow_chance: 100, slow_duration: 120, immune_slow: 1, immune_curse: 1, immune_surge: 1, attack_duration: 111}, {health: 4900, knockbacks: 4, speed: 10, cost: 3100, production_cooldown: 2000, attack_cooldown: 84, range: 430, width: 320, area_effect: 1, damage_0: 1180, long_range_0: 1, long_range_offset_0: 430, attack_time_0: 27, damage_1: 1180, long_range_1: 1, long_range_offset_1: 430, attack_time_1: 32, damage_2: 590, long_range_2: 330, long_range_offset_2: 350, attack_time_2: 43, trigger_effects_2: 1, against_red: 1, against_white: 1, strong: 1, slow_chance: 100, slow_duration: 150, immune_slow: 1, immune_curse: 1, immune_surge: 1, attack_duration: 111}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  846:
+    name: [胡蝶しのぶ, 胡蝶しのぶCC]
+    desc: ["アニメ「鬼滅の刃」から参戦！鬼殺隊の蟲柱。鬼を殺せる\n毒を作った、薬学に精通している剣士。超賢者特効を持ち\nたまに浮き、メタル、天使の攻撃力を下げる(遠方範囲)\nコチョウシノブ", "アニメ「鬼滅の刃」から参戦！蟲の呼吸・蝶ノ舞\n「戯れ」で瞬時に毒の刃を複数突き刺す。超賢者特効を持ち\nたまに浮き、メタル、天使の攻撃力を下げる(遠方範囲)\nコチョウシノブシーシー"]
+    stat: [{health: 2900, knockbacks: 3, speed: 10, cost: 2200, production_cooldown: 1500, range: 390, width: 320, area_effect: 1, damage_0: 500, long_range_0: 290, long_range_offset_0: 350, attack_time_0: 49, trigger_effects_0: 1, damage_1: 500, long_range_1: 290, long_range_offset_1: 350, attack_time_1: 57, trigger_effects_1: 1, against_float: 1, against_angel: 1, against_metal: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, survive_chance: 100, critical_chance: 10, sage_slayer: 1, immune_slow: 1, attack_duration: 140}, {health: 3200, knockbacks: 3, speed: 10, cost: 2200, production_cooldown: 1500, range: 390, width: 320, area_effect: 1, damage_0: 600, long_range_0: 290, long_range_offset_0: 350, attack_time_0: 49, trigger_effects_0: 1, damage_1: 600, long_range_1: 290, long_range_offset_1: 350, attack_time_1: 57, trigger_effects_1: 1, against_float: 1, against_angel: 1, against_metal: 1, weaken_chance: 50, weaken_duration: 150, weaken_multiplier: 50, survive_chance: 100, critical_chance: 10, sage_slayer: 1, immune_slow: 1, attack_duration: 140}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  847:
+    name: ["煉\U000E0101獄杏寿郎", "煉\U000E0101獄杏寿郎CC"]
+    desc: ["アニメ「鬼滅の刃」から参戦！鬼殺隊の炎柱\n明朗快活ではっきりとした物言いをする剣士(全方位)\n黒とエイリアンにめっぽう強く、体力減少で攻撃力上昇\nレンゴクキョウジュロウ", "アニメ「鬼滅の刃」から参戦！炎の呼吸・弐ノ型\n「昇り炎天」で猛炎の如く瞬時に斬り上げる(全方位)\n黒とエイリアンにめっぽう強く、体力減少で攻撃力上昇\nレンゴクキョウジュロウシーシー"]
+    stat: [{health: 5500, knockbacks: 3, speed: 36, cost: 2600, production_cooldown: 2300, attack_cooldown: 40, range: 380, width: 320, area_effect: 1, damage_0: 800, long_range_0: 430, long_range_offset_0: -730, attack_time_0: 10, trigger_effects_0: 1, against_black: 1, against_alien: 1, strong: 1, strengthen_threshold: 33, strengthen_modifier: 150, break_barrier_chance: 100, immune_weaken: 1, attack_duration: 61}, {health: 6300, knockbacks: 3, speed: 36, cost: 2600, production_cooldown: 2300, attack_cooldown: 40, range: 380, width: 320, area_effect: 1, damage_0: 950, long_range_0: 430, long_range_offset_0: -730, attack_time_0: 10, trigger_effects_0: 1, against_black: 1, against_alien: 1, strong: 1, strengthen_threshold: 33, strengthen_modifier: 150, break_barrier_chance: 100, immune_weaken: 1, attack_duration: 61}]
+    rarity: 4
+    max_level: 130
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5, 5]
+  848:
+    name: [ちび鱗滝左近次, ちび鱗滝左近次CC]
+    desc: ["アニメ「鬼滅の刃」から参戦！\n鬼殺隊員の入隊希望者を育てる「育手」の男性\nエイリアンとゾンビに打たれ強い(範囲攻撃)\nチビウロコダキサコンジ", "アニメ「鬼滅の刃」から参戦！\n炭治郎に剣を教え育て上げ、最終選別に送り出す\nエイリアンとゾンビに打たれ強い(範囲攻撃)\nチビウロコダキサコンジシーシー"]
+    stat: [{health: 1880, knockbacks: 2, speed: 11, cost: 730, production_cooldown: 320, attack_cooldown: 30, range: 150, width: 320, area_effect: 1, damage_0: 240, attack_time_0: 30, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, resistant: 1, immune_warp: 1, attack_duration: 80}, {health: 2350, knockbacks: 2, speed: 11, cost: 730, production_cooldown: 320, attack_cooldown: 30, range: 150, width: 320, area_effect: 1, damage_0: 300, attack_time_0: 30, trigger_effects_0: 1, against_alien: 1, against_zombie: 1, resistant: 1, immune_warp: 1, attack_duration: 80}]
+    rarity: 3
+    max_level: 120
+    growth: [20, 20, 20, 20, 20, 20, 10, 10, 5, 5, 5, 5]
+  849:
+    name: [ネコ炭治郎, ネコ炭治郎CC]
+    desc: ["憧れの鬼殺隊へ入隊するため鍛錬に励むネコ\n判断が遅く、着る服を選んでいるうちに日が暮れる\nたまに赤い敵の動きを遅くする(範囲攻撃)\nネコタンジロウ", "強くなるために呼吸法を体得したネコ\n居心地の良い場所で集中すると寝息に変わる\nたまに赤い敵の動きを遅くする(範囲攻撃)\nネコタンジロウシーシー"]
+    stat: [{health: 620, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 250, attack_cooldown: 60, range: 160, width: 320, area_effect: 1, damage_0: 170, attack_time_0: 20, trigger_effects_0: 1, against_red: 1, slow_chance: 50, slow_duration: 75, attack_duration: 78}, {health: 620, knockbacks: 2, speed: 10, cost: 440, production_cooldown: 250, attack_cooldown: 60, range: 160, width: 320, area_effect: 1, damage_0: 170, attack_time_0: 20, trigger_effects_0: 1, against_red: 1, slow_chance: 50, slow_duration: 75, attack_duration: 78}]
+    rarity: 2
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
+  850:
+    name: ["ネコ禰\U000E0100豆子", "ネコ禰\U000E0100豆子CC"]
+    desc: ["昼夜逆転生活を送るうち、自分を鬼だと思い始めたネコ\n箱から出ている足には日焼け止めを塗っている\nたまに浮いてる敵をふっとばす(範囲攻撃)\nネコネズコ", "鬼となっても強い想いで兄を守る少女に憧れるネコ\n一人っ子なので相棒となる兄っぽいネコを探している\nたまに浮いてる敵をふっとばす(範囲攻撃)\nネコネズコシーシー"]
+    stat: [{health: 620, knockbacks: 2, speed: 10, cost: 390, production_cooldown: 260, range: 220, width: 320, area_effect: 1, damage_0: 50, attack_time_0: 5, trigger_effects_0: 1, against_float: 1, knockback_chance: 40, attack_duration: 50}, {health: 460, knockbacks: 3, speed: 10, cost: 390, production_cooldown: 260, attack_cooldown: 65, range: 300, width: 320, area_effect: 1, damage_0: 100, attack_time_0: 10, trigger_effects_0: 1, against_float: 1, knockback_chance: 40, attack_duration: 40}]
+    rarity: 1
+    max_level: 50
+    growth: [20, 20, 20, 20, 20]
 gacha:
   0:
     cats: [154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31]
@@ -14237,6 +14307,11 @@ gacha:
     series_id: 16
     name: 期間限定キャラも登場する、特別仕様の新年ガチャ！★詳細はバナーをタップ!!
     rate: regular
+  1038:
+    cats: [841, 842, 843, 844, 845, 846, 847, 848, 848, 848, 848, 848, 848, 524, 523, 496, 378, 377, 326, 308, 309, 200, 199, 198, 154, 153, 152, 151, 150, 149, 148, 147, 146, 62, 59, 57, 56, 53, 52, 51, 50, 49, 48, 47, 42, 41, 40, 39, 38, 37, 36, 34, 33, 32, 31]
+    series_id: 74
+    name: アニメ「鬼滅の刃」のコラボ限定キャラが登場!!★詳細はバナーをタップ!!
+    rate: no_legend
 events:
   2018-09-15_320:
     start_on: 2018-09-15
