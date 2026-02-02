@@ -22,7 +22,7 @@ module BattleCatsRolls
     def self.tw
       @tw ||= [
         'tw',
-        '15.0.0',
+        '15.1.0',
         'jp.co.ponos.battlecatstw'
       ]
     end
