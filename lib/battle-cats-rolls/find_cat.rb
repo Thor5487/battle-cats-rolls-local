@@ -37,6 +37,7 @@ module BattleCatsRolls
         784, # "Koneko",
         788, # "Netherworld Nymph Lunacia",
         811, # "Agent Staal",
+        838, # "Squire Luno",
       ].freeze
     end
 
