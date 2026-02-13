@@ -5,7 +5,7 @@ require_relative 'cat'
 
 module BattleCatsRolls
   class FindCat < Struct.new(:gacha, :ids)
-    Max = 999
+    Max = 500
 
     def self.exclusives
       @exclusives ||= [
