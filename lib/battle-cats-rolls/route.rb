@@ -284,7 +284,7 @@ module BattleCatsRolls
           1,
           [
             request.params_coercion_with_nil('count', :to_i) || 100,
-            FindCat::Max
+            TrackMaxCount
           ].min
         ].max
     end
