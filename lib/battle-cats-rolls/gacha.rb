@@ -281,7 +281,7 @@ module BattleCatsRolls
       located = cats.dig(*index_and_track(marker))
 
       if marker.include?('R')
-        located.rerolled
+        located&.rerolled # Users can give arbitrary input
       else
         located
       end
@@ -321,7 +321,7 @@ module BattleCatsRolls
     # https://bc.godfat.org/?seed=650315141&last=50&event=2020-09-11_433&pick=2BGX#N2B
     # https://bc.godfat.org/?seed=3626964723&last=49&event=2020-09-11_433&pick=2BGX#N2B
     def fill_picking_backtrack cats, number, which_cat=:itself
-      cat = last_roll || dig_cats_from(cats, position)
+      cat = last_roll || dig_cats_from(cats, position) || cats.dig(0, 0)
 
       fill_picking_backtrack_from(cat, number, which_cat)
     end
