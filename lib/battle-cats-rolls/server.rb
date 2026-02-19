@@ -120,8 +120,15 @@ module BattleCatsRolls
         break if Task.shutting_down
 
         Runner.build(lang)
-      rescue Date::Error, Errno::ECONNRESET => e
-        puts "WARN: Ignoring error for #{lang}: <#{e.class}> #{e.message}"
+      rescue Date::Error => e
+        puts "WARN: Ignoring for #{lang}: <#{e.class}> #{e.message}"
+      rescue Errno::ECONNRESET => e
+        puts "WARN: Retrying for #{lang}: <#{e.class}> #{e.message}"
+        begin
+          Runner.build(lang)
+        rescue Errno::ECONNRESET => e
+          puts "WARN: Retried. Ignoring for #{lang}: <#{e.class}> #{e.message}"
+        end
       end
 
       next if Task.shutting_down
