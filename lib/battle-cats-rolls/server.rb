@@ -112,8 +112,7 @@ module BattleCatsRolls
     require_relative 'runner'
 
     Task.create(__method__) do
-      # sleep(11 * 60)
-      sleep(61 * 60) # Delay longer for now, see how it'll go
+      sleep(61 * 60)
 
       next if Task.shutting_down
 
@@ -121,7 +120,7 @@ module BattleCatsRolls
         break if Task.shutting_down
 
         Runner.build(lang)
-      rescue Date::Error => e
+      rescue Date::Error, Errno::ECONNRESET => e
         puts "WARN: Ignoring error for #{lang}: <#{e.class}> #{e.message}"
       end
 
