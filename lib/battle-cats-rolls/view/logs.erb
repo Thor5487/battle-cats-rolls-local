@@ -17,6 +17,14 @@
 
 <%= header(1, "What's changed?") %><p></p>
 
+<%= header(2, "2026-02-19") %>
+<ul>
+  <li>
+    If position is out of range, assuming 1A. This fixed a crash for people
+    setting a position &gt;500 from when the max count can be 999.
+  </li>
+</ul>
+
 <%= header(2, "2026-02-14") %>
 <ul><li>Reduced the max count from 999 to 500 to reduce server load.</li></ul>
 
