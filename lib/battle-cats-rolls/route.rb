@@ -155,7 +155,7 @@ module BattleCatsRolls
         when 'tw', 'jp', 'kr'
           value
         else
-          'en'
+          'tw'
         end
     end
 

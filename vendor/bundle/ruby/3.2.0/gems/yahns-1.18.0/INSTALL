@@ -1,0 +1,13 @@
+yahns is available as a RubyGem from RubyGems.org
+
+	gem install yahns
+
+No tarballs are currently provided.
+
+You may also install yahns from the git source, see the HACKING document for
+more details.
+
+Debian GNU/kFreeBSD:
+
+For now, you will need to define SENDFILE_BROKEN=1 in the env before
+running yahns.

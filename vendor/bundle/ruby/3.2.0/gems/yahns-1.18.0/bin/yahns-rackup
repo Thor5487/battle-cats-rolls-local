@@ -1,0 +1,10 @@
+#!/this/will/be/overwritten/or/wrapped/anyways/do/not/worry/ruby
+# -*- encoding: binary -*-
+# Copyright (C) 2013-2016 all contributors <yahns-public@yhbt.net>
+# License: GPL-3.0+ (https://www.gnu.org/licenses/gpl-3.0.txt)
+# frozen_string_literal: true
+require 'yahns/rackup_handler'
+ARGV.grep(/\A(?:-s|--server)/)[0] and abort "--server has no effect for #$0"
+ARGV[0, 0] = %w(-s yahns)
+Rack::Handler.register('yahns', 'Yahns::RackupHandler')
+Rack::Server.start

@@ -1,0 +1,68 @@
+= sleepy_penguin - Linux I/O events for Ruby
+
+sleepy_penguin provides access to newer, Linux-only system calls to wait
+on events from traditionally non-I/O sources.  Bindings to the eventfd,
+timerfd, inotify, and epoll interfaces are provided.  Experimental support
+for kqueue on FreeBSD (and likely OpenBSD/NetBSD) is also provided.
+
+== Features
+
+* Thread-safe blocking operations for all versions of Matz Ruby
+
+* IO-like objects are backwards-compatible with IO.select.
+
+* High-level Epoll interface is fork-safe and GC-safe
+
+* Unlike portable event frameworks, the Linux-only epoll interfaces
+  allow using edge-triggered or one-shot notifications for possibly
+  improved performance.  Likewise, the kqueue interface supports
+  one-shot notifiactions, too.
+
+* Fully-documented and user-friendly API
+
+== Install
+
+If you're using a packaged Ruby distribution, make sure you have a C
+compiler and the matching Ruby development libraries and headers.
+
+If you use RubyGems:
+
+    gem install sleepy_penguin
+
+Otherwise grab the latest tarball from:
+
+https://yhbt.net/sleepy_penguin/files/
+
+Unpack it, and run "ruby setup.rb"
+
+== Development
+
+You can get the latest source via git from the following locations:
+
+  https://yhbt.net/sleepy_penguin.git
+  https://repo.or.cz/sleepy_penguin.git (mirror)
+
+You may browse the code from the web and download the latest snapshot
+tarballs here:
+
+* https://yhbt.net/sleepy_penguin.git
+* https://repo.or.cz/w/sleepy_penguin.git (gitweb)
+
+Inline patches (from "git format-patch") to the mailing list are
+preferred because they allow code review and comments in the reply to
+the patch.
+
+We will adhere to mostly the same conventions for patch submissions as
+git itself.  See the Documentation/SubmittingPatches document
+distributed with git on on patch submission guidelines to follow.  Just
+don't email the git mailing list or maintainer with sleepy_penguin patches.
+
+== Contact
+
+All feedback (bug reports, user/development discussion, patches, pull
+requests) go to the mailing list: mailto:sleepy-penguin@yhbt.net
+
+* Mailing list archives: https://yhbt.net/sleepy-penguin/
+
+* Also available over NNTP:
+  nntp://news.public-inbox.org/inbox.comp.lang.ruby.sleepy-penguin

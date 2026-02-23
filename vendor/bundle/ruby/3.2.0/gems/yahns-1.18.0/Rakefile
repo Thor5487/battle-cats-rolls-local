@@ -1,0 +1,193 @@
+# Copyright (C) 2013-2016 all contributors <yahns-public@yhbt.net>
+# License: GPL-3.0+ (https://www.gnu.org/licenses/gpl-3.0.txt)
+require 'tempfile'
+include Rake::DSL
+
+apidoc = {
+  'doc/Yahns.html' => 'lib/yahns.rb',
+  'doc/Yahns/ProxyPass.html' => 'lib/yahns/proxy_pass.rb'
+}
+
+task apidoc.keys[0] => apidoc.values do
+  rdoc = ENV['rdoc'] || 'rdoc'
+  system("git", "set-file-times", *(apidoc.values))
+  sh "#{rdoc} -f dark216" # dark216 requires olddoc 1.7+
+
+  apidoc.each do |dst, src|
+    src = File.stat(src)
+    File.utime(src.atime, src.mtime, dst)
+  end
+end
+
+gendocs = %W(NEWS NEWS.atom.xml #{apidoc.keys[0]})
+task html: apidoc.keys[0]
+task rsync_docs: gendocs do
+  dest = ENV["RSYNC_DEST"] || "yhbt.net:/srv/yhbt/yahns/"
+  top = %w(INSTALL HACKING README COPYING)
+
+  # git-set-file-times is distributed with rsync,
+  # Also available at: https://yhbt.net/git-set-file-times
+  # on Debian systems: /usr/share/doc/rsync/scripts/git-set-file-times.gz
+  sh("git", "set-file-times", "Documentation", "examples", *top)
+  make = ENV['MAKE'] || 'make'
+  sh(%Q(#{make} -C Documentation))
+
+  do_gzip = lambda do |txt|
+    gz = "#{txt}.gz"
+    tmp = "#{gz}.#$$"
+    sh("gzip --rsyncable -9 < #{txt} > #{tmp}")
+    st = File.stat(txt)
+    File.utime(st.atime, st.mtime, tmp) # make nginx gzip_static happy
+    File.rename(tmp, gz)
+    gz
+  end
+
+  files = `git ls-files Documentation/*.txt`.split(/\n/)
+  files.concat(top)
+  files.concat(gendocs)
+  files.concat(%w(doc/Yahns.html))
+  files.concat(%w(yahns yahns-rackup yahns_config).map! { |x|
+    "Documentation/#{x}.txt"
+  })
+  gzfiles = files.map { |txt| do_gzip.call(txt) }
+  files.concat(gzfiles)
+
+  sh("rsync --chmod=Fugo=r -av #{files.join(' ')} #{dest}")
+
+  examples = `git ls-files examples`.split(/\n/)
+  gzex = examples.map { |txt| do_gzip.call(txt) }
+  examples.concat(gzex)
+
+  sh("rsync --chmod=Fugo=r -av #{examples.join(' ')} #{dest}/examples/")
+
+  rdoc = apidoc.keys.grep(%r{\Adoc/Yahns/})
+  gzex = rdoc.map { |txt| do_gzip.call(txt) }
+  examples.concat(gzex)
+  sh("rsync --chmod=Fugo=r -av #{rdoc.join(' ')} #{dest}/Yahns/")
+end
+
+def tags
+  timefmt = '%Y-%m-%dT%H:%M:%SZ'
+  @tags ||= `git tag -l`.split(/\n/).map do |tag|
+    if %r{\Av[\d\.]+} =~ tag
+      header, subject, body = `git cat-file tag #{tag}`.split(/\n\n/, 3)
+      header = header.split(/\n/)
+      tagger = header.grep(/\Atagger /).first
+      body ||= "initial"
+      time = Time.at(tagger.split(/ /)[-2].to_i).utc
+      {
+        time_obj: time,
+        time: time.strftime(timefmt),
+        tagger_name: %r{^tagger ([^<]+)}.match(tagger)[1].strip,
+        tagger_email: %r{<([^>]+)>}.match(tagger)[1].strip,
+        id: `git rev-parse refs/tags/#{tag}`.chomp!,
+        tag: tag,
+        subject: subject,
+        body: body,
+      }
+    end
+  end.compact.sort { |a,b| b[:time] <=> a[:time] }
+end
+
+def xml(dst, tag, text = nil, attrs = nil)
+  if Hash === text
+    attrs = text
+    text = nil
+  end
+  if attrs
+    attrs = attrs.map { |k,v| "#{k}=#{v.encode(xml: :attr)}" }
+    attrs = "\n#{attrs.join("\n")}"
+  end
+  case text
+  when nil
+    if block_given?
+      dst << "<#{tag}#{attrs}>"
+      yield
+      dst << "</#{tag}>"
+    else
+      dst << "<#{tag}#{attrs}/>"
+    end
+  else
+    dst << "<#{tag}#{attrs}>#{text.encode(xml: :text)}</#{tag}>"
+  end
+end
+
+desc 'prints news as an Atom feed'
+task "NEWS.atom.xml" do
+  require 'uri'
+  cgit_uri = URI('https://yhbt.net/yahns.git')
+  uri = URI('https://yhbt.net/yahns/')
+  new_tags = tags[0,10]
+  time = nil
+  project_name = 'yahns'
+  short_desc = File.readlines('README')[0].split(' - ')[0]
+  new_tags = tags[0,10]
+  atom_uri = uri.dup
+  atom_uri.path += 'NEWS.atom.xml'
+  news_uri = uri.dup
+  news_uri.path += 'NEWS.html'
+  dst = ''
+  xml(dst, 'feed', xmlns: 'http://www.w3.org/2005/Atom') do
+    xml(dst, 'id', atom_uri.to_s)
+    xml(dst, 'title', "#{project_name} news")
+    xml(dst, 'subtitle', short_desc)
+    xml(dst, 'link', rel: 'alternate', type: 'text/html', href: news_uri.to_s)
+    xml(dst, 'updated', new_tags.empty? ? '1970-01-01:00:00:00Z'
+                                      : new_tags[0][:time])
+    new_tags.each do |tag|
+      xml(dst, 'entry') do
+        xml(dst, 'title', tag[:subject])
+        xml(dst, 'updated', tag[:time])
+        xml(dst, 'published', tag[:time])
+        xml(dst, 'author') do
+          xml(dst, 'name', tag[:tagger_name])
+          xml(dst, 'email', tag[:tagger_email])
+        end
+        uri = cgit_uri.dup
+        uri.path += '/tag/'
+        uri.query = "id=#{tag[:tag]}"
+        uri = uri.to_s
+        xml(dst, 'link', rel: 'alternate', type: 'text/html', href: uri)
+        xml(dst, 'id', uri)
+        xml(dst, 'content', type: 'xhtml') do
+          xml(dst, 'div', xmlns: 'http://www.w3.org/1999/xhtml') do
+            xml(dst, 'pre', tag[:body])
+          end # div
+        end # content
+      end # entry
+    end # new_tags.each
+  end # feed
+
+  fp = Tempfile.new('NEWS.atom.xml', '.')
+  fp.sync = true
+  fp.write(dst)
+  fp.chmod 0644
+  File.utime(time, time, fp.path) if time
+  File.rename(fp.path, 'NEWS.atom.xml')
+  fp.close!
+end
+
+desc 'prints news as a text file'
+task 'NEWS' do
+  fp = Tempfile.new('NEWS', '.')
+  fp.sync = true
+  time = nil
+  tags.each do |tag|
+    time ||= tag[:time_obj]
+    line = tag[:subject] + ' / ' + tag[:time].sub(/T.*/, '')
+    fp.puts line
+    fp.puts('-' * line.length)
+    fp.puts
+    fp.puts tag[:body]
+    fp.puts
+  end
+  fp.write("Unreleased\n\n") unless fp.size > 0
+  fp.puts "COPYRIGHT"
+  fp.puts "---------"
+  fp.puts "Copyright (C) 2013-2017 all contributors <yahns-public@yhbt.net>"
+  fp.puts "License: GPL-3.0+ <https://www.gnu.org/licenses/gpl-3.0.txt>"
+  fp.chmod 0644
+  File.utime(time, time, fp.path) if time
+  File.rename(fp.path, 'NEWS')
+  fp.close!
+end

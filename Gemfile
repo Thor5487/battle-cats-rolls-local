@@ -28,3 +28,6 @@ group :test do
   gem 'pork'
   gem 'muack'
 end
+
+gem "rackup", "~> 2.3"
+gem "webrick", "~> 1.9"
