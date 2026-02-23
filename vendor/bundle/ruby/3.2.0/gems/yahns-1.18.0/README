@@ -1,0 +1,156 @@
+yahns - sleepy, multi-threaded, non-blocking application server for Ruby
+------------------------------------------------------------------------
+
+A Free Software, multi-threaded, non-blocking network application server
+designed for low _idle_ power consumption.  It is primarily optimized
+for applications with occasional users which see little or no traffic.
+yahns currently hosts Rack/HTTP applications, but may eventually support
+other application types.  Unlike some existing servers, yahns is
+extremely sensitive to fatal bugs in the applications it hosts.
+
+Features
+--------
+
+* _zero_ wakeups when all clients are idle
+* idle client connections may live forever if there is no FD pressure
+* suitable for slow clients, fast clients, or a mixture of both
+* HTTP/0.9 support
+* HTTP/1.1 persistent connections and pipelining
+* HTTPS for HTTP/1.1 support
+* decodes HTTP chunked encoding for requests
+* parses HTTP/1.1 trailers in requests
+* supports streaming responses with lazy buffering for slow clients
+* optional streaming input for fast clients
+* able to host multiple applications with different settings
+* uses epoll/kqueue to scale to many idle connections
+* abuses epoll/kqueue as a load balancer between threads within a process
+* optional multi-process support (in addition to threads)
+* fairly balances new clients between multiple processes (on Linux)
+
+Disclaimer
+----------
+
+yahns is extremely sensitive to fatal bugs in the apps it hosts.  There
+is no (and never will be) any built-in "watchdog"-type feature to kill
+stuck processes/threads.  Each yahns process may be handling thousands
+of clients; unexpectedly killing the process will abort _all_ of those
+connections.  Lives may be lost!
+
+yahns hackers are not responsible for your application/library bugs.
+Use an application server which is tolerant of buggy applications
+if you cannot be bothered to fix all your fatal bugs.
+
+Supported Platforms
+-------------------
+
+yahns is developed primarily for modern GNU/Linux systems.
+
+We support kqueue on FreeBSD (and possibly OpenBSD and NetBSD).
+Non-Free systems/dependencies will never be supported.
+
+Supported Ruby implementations:
+* (Matz) Ruby 2.0.0 and later (we develop (and host our website) on trunk)
+
+Contact
+-------
+
+We are happy to see feedback of all types via plain-text email.
+Please send comments, user/dev discussion, patches, bug reports,
+and pull requests to our public inbox at:
+
+	yahns-public@yhbt.net
+
+Please use reply-to-all as we do not require any sort of subscription.
+We archive all of our mail publically at:
+
+	https://yhbt.net/yahns-public/
+	nntp://news.public-inbox.org/inbox.comp.lang.ruby.yahns
+
+Atom feed: https://yhbt.net/yahns-public/new.atom
+
+This README is our homepage, we would rather be working on HTTP servers
+all day than worrying about the next browser vulnerability because
+HTML/CSS/JS is too complicated for us.
+
+* https://yhbt.net/yahns.git/about/
+
+Hacking
+-------
+
+We use git and follow the same development model as git itself
+(email-oriented, benevolent dictator).
+
+	git clone https://yhbt.net/yahns.git
+
+Please use git-format-patch(1) and git-send-email(1) distributed with
+the git(7) suite for generating and sending patches.  Please format
+pull requests with the git-request-pull(1) script (also distributed
+with git(7)) and send them via email.
+
+See https://www.git-scm.com/ for more information on git.
+
+Design
+------
+
+yahns is designed to optimally use multiple threads with non-blocking I/O.
+The event loop is not a traditional single-threaded design with a mutex
+slapped on as an afterthought, but designed from the beginning to utilize
+multiple threads.
+
+* two classes of long-lived, persistent threads
+  1. blocking acceptors
+  2. non-blocking event loop workers
+* epoll (or kqueue) acts as a queue (by using one-shot notifications)
+* acceptors accept new clients and put them in the queue
+* workers pull clients off the queue, rearming them to epoll on EAGAIN
+
+The end result is clients transition freely and fairly between threads
+and will always be able to find the next idle thread to run on.
+
+The design inspiration from the name "kqueue" when working on another
+project.
+
+In addition to multiple threads, yahns optionally supports multiple
+processes to work around low FD limits as well as contention in the:
+
+* kernel (socket (de)allocation from accept/close, mmap/sbrk locks)
+* standard C library (malloc/free)
+* Ruby VM (GVL, GC)
+* application it hosts
+
+Copyright
+---------
+
+Copyright 2013-2016, all contributors (see git repo).
+License: GPL-3.0+ <https://www.gnu.org/licenses/gpl-3.0.txt>
+
+yahns is copyrighted Free Software by all contributors, see logs in
+revision control for names and email addresses of all of them.  yahns
+contains code from Mongrel, unicorn, and Rainbows! which may also be
+licensed under the GPLv2 or later.
+
+yahns is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 3 of the License, or (at your
+option) any later version.
+
+yahns is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, see https://www.gnu.org/licenses/gpl-3.0.txt
+
+Additional permission under GNU GPL version 3 section 7:
+
+    If you modify this program, or any covered work, by linking or
+    combining it with the OpenSSL project's OpenSSL library (or a
+    modified version of that library), containing parts covered by the
+    terms of the OpenSSL or SSLeay licenses, the copyright holder(s)
+    grants you additional permission to convey the resulting work.
+    Corresponding Source for a non-source form of such a combination
+    shall include the source code for the parts of OpenSSL used as well
+    as that of the covered work.
+
+lrg nabgure ubeevoyl-anzrq freire :>

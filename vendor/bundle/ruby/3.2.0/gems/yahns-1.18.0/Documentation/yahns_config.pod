@@ -1,0 +1,674 @@
+=head1 NAME
+
+yahns_config - configuration file description for L<yahns(1)>
+
+=head1 DESCRIPTION
+
+Since yahns is a Ruby application server, its configuration file is
+implemented in Ruby syntax, making it dependent on the version of
+Ruby it is running under.
+
+=head1 TOP-LEVEL DIRECTIVES
+
+=over
+
+=item app :TYPE, *APP_ARGUMENTS, &BLOCK
+
+This defines an application context for yahns to run.  :TYPE defines
+the type of application it runs.  yahns will eventually support
+application types other than :rack, but for now, only :rack is
+supported.
+
+The &BLOCK given configures the which sockets the app listens on,
+buffering and logging settings.
+
+An app with the same :TYPE and APP_ARGUMENTS may be defined multiple
+times with different &BLOCK contents (with different listeners and
+buffering settings).
+
+See the L</APP-LEVEL DIRECTIVES> section for details on what goes into
+the &BLOCK.
+
+This directive may be specified multiple times for different or
+identical applications.
+
+If the "working_directory" directive is used, all app directives may
+only be specified after setting "working_directory".
+
+For Rack HTTP applications, see L</RACK APP ARGUMENTS> for more
+information.
+
+=item before_exec &BLOCK
+
+This runs &BLOCK before Kernel#exec (L<execve(2)> wrapper).  The command
+array to be passed to Kernel#exec may be modified within this hook:
+
+  before_exec do |cmd|
+    # you may modify ENV here inside the child process
+    ENV["MALLOC_ARENA_MAX"] = ENV["MALLOC_ARENA_TEST"] = "1"
+
+    # You may change to a different installation of Ruby or yahns
+    # by doing an in-place modification of cmd:
+    cmd.replace(%W(/another/install/of/yahns -c cfg.rb))
+  end
+
+Default: (none)
+
+=item client_expire_threshold {INTEGER|FLOAT}
+
+yahns will start expiring idle clients when it hits this threshold.
+If the threshold is a floating point number, it is that fraction of
+the soft open file limit (RLIMIT_NOFILE ir `ulimit -S -n` in shell).
+Thus if the soft open file limit is 1024 (a typical value) and the
+client_expire_threshold is 0.3, yahns will start expiring clients once
+it hits 307 clients (0.3 * 1024).
+
+If given a positive integer, yahns will start expiring clients once it
+its this absolute threshold of connected clients.
+
+If given a negative integer, yahns will start expiring clients once it
+reaches N clients away from the the soft file limit.  That is, if
+client_expire_threshold is -666 and the soft open file limit is 1024,
+it will start expiring once it hits 358 clients.
+
+Clients are expired when the configured client_timeout for their
+app context is hit.
+
+Default: 0.5
+
+=item logger LOGGER
+
+Sets LOGGER as the default logger of the process.  The new
+LOGGER must respond to the following methods:
+
+  debug, info, warn, error, fatal
+
+The default logger will log its output to the path specified
+by stderr_path.  If you're running yahns daemonized, then
+you must specify a path to prevent error messages from going
+to /dev/null
+
+A per-APP &BLOCK logger may also be configured inside an app &BLOCK.
+
+Default: Logger.new($stderr)
+
+=item pid PATHNAME
+
+Sets the path of the PID file for use with management/init scripts.
+
+Default: none
+
+=item queue [NAME] &BLOCK
+
+As a top-level directive, this configures or defines a queue.
+If no NAME is specified, a default queue (named :default) is
+assumed.  See the L</QUEUE-LEVEL DIRECTIVES> section for details.
+
+A &BLOCK must be given if used as a top-level directive.  This
+behaves slightly differently inside an app &BLOCK.  This may also
+be given without a block to associate an app block with a named
+queue.
+
+Usually, only one queue is necessary.  Each queue corresponds to
+an epoll or kqueue descriptor and worker thread pool.
+
+Default: NAME defaults to :default
+
+=item stderr_path PATHNAME
+
+Allow redirecting $stderr to a given path.  Unlike doing this from
+the shell, this allows the yahns process to know the path its
+writing to and rotate the file if it is used for logging.  The
+file will be opened with the O_APPEND flag and writes
+synchronized to the kernel (but not necessarily to _disk_) so
+multiple processes can safely append to it.
+
+If you are daemonizing and using the default logger, it is important
+to specify this as errors will otherwise be lost to /dev/null.
+Some applications/libraries may also triggering warnings that go to
+stderr, and they will end up here.
+
+Default: /dev/null if daemonized, controlling terminal if not
+
+=item stdout_path PATHNAME
+
+Same as stderr_path, except for $stdout.  Not many applications
+write to $stdout, but any that do will have their output written here.
+It is safe to point this to the same location a stderr_path.
+Like stderr_path, this defaults to /dev/null when daemonized.
+
+Default: /dev/null if daemonized, controlling terminal if not
+
+=item working_directory PATHNAME
+
+Sets the working directory for the process.  This ensures SIGUSR2 will
+start a new instance of yahns in this directory.  This may be
+a symlink, a common scenario for Capistrano users.  Unlike
+all other yahns configuration directives, this binds immediately
+for error checking and cannot be undone by unsetting it in the
+configuration file and reloading.
+
+This must be specified before any "app" directives
+
+Default: / if daemonized, current working directory if not
+
+=back
+
+=head2 QUEUE-LEVEL DIRECTIVES
+
+=over
+
+=item max_events INTEGER
+
+This controls the number of events a worker thread will fetch at
+once via L<epoll_wait(2)> or L<kevent(2)>.
+There is no good reason to change this
+unless you use very few (e.g. 1) worker_threads.  Leaving this at
+1 will give the fairest load balancing behavior with epoll or kqueue.
+
+Default: 1
+
+=item worker_threads INTEGER
+
+This controls the number of threads for application processing.
+Each queue has its own thread pool.  Increase this number if your
+applications are able to use more threads effectively or if either
+(or both) input/output buffering are disabled.  Lower this number if
+you do not need multi-thread concurrency at all.
+
+Default: 7
+
+=back
+
+=head2 APP-LEVEL DIRECTIVES
+
+=over
+
+=item atfork_prepare, atfork_parent, atfork_child
+
+These are identical to the methods defined in WORKER_PROCESSES-LEVEL
+DIRECTIVES, however they are available inside the app blocks for
+convenience in case it is easier to organize per-app hooks.
+
+Default: (none)
+
+=item check_client_connection BOOLEAN
+
+When enabled, yahns will check the client connection by writing
+the beginning of the HTTP headers before calling the application.
+
+This can prevent calling the application for clients who have
+disconnected while their connection was waiting for a free
+worker thread.
+
+This only affects clients connecting over Unix domain sockets and
+TCP via loopback (127.*.*.*).  It is unlikely to detect disconnects
+if the client is on a remote host (even on a fast LAN).
+
+This has no effect for (rare) HTTP/0.9 clients.
+
+Default: false
+
+=item client_body_buffer_size INTEGER
+
+This controls the maximum size of a request body before it is
+buffered to the filesystem (instead of memory).  This has no effect
+if input_buffering is false.  This also governs the size of an
+individual L<read(2)> system call when reading a request body.
+
+There is generally no need to change this value and this directive
+may be removed in the future.
+
+Default: 8192 bytes (8 kilobytes)
+
+=item client_header_buffer_size INTEGER
+
+This controls the size of a single L<read(2)> syscall for reading
+client request headers.  Increase this as needed if your application
+uses large cookies or long URLs.  Lowering this may reduce GC and
+memory allocator overhead.
+
+Default: 4000 bytes
+
+=item client_max_body_size {INTEGER|nil}
+
+This controls the maximum request body size before a client is
+rejected with an HTTP 413 error.
+
+Setting this to nil will allow unlimited-sized inputs.
+
+Default: 1048576 bytes (one megabyte)
+
+=item client_timeout SECONDS
+
+Defines the timeout expiring idle connections.
+
+If input_buffering is false or :lazy, this defines the maximum
+amount of time a worker thread will wait synchronously for a client
+request body.
+
+If output_buffering is false, this defines the maximum amount of
+time a worker thread will wait synchronously for a client socket
+to become writable.
+
+It makes sense to lower this to a low value (e.g. 5 seconds) if
+either output or input buffering are disabled.  The default value
+of 15 seconds is suitable for configurations with both input and
+output buffering enabled and assumes all application dispatch
+finishes in less than 15 seconds.
+
+Default: 15 (seconds)
+
+=item errors {IO|PATHNAME}
+
+For Rack applications, this controls the env["rack.errors"]
+destination.  If given a PATHNAME, it will be a writable file
+opened with O_APPEND without userspace buffering, making it suitable
+for concurrent appends by multiple processes and threads, as well as
+making it eligible for reopening via SIGUSR1 after log rotation.
+
+Default: $stderr
+
+=item input_buffering {:lazy|true|false}[, OPTIONS]
+
+This controls buffering of the HTTP request body.
+
+=over
+
+=item true
+
+Fully buffers the request before application dispatch.  This is
+most suitable for slow and untrusted clients which may trickle
+the request to the server.
+
+=item :lazy
+
+Provides streaming, but rewindable input.  This is suitable
+for fast, trusted clients and is fully-compatible with Rack 1.x
+specifications.  :lazy buffering may also be suitable for slow and
+untrusted clients if you are able and willing to run a queue with
+many worker threads.
+
+=item false
+
+Disable input buffering completely.  This violates the
+Rack 1.x spec and is only suitable for fast, trusted clients or
+queues with many worker threads.
+
+HTTP request headers are always buffered in memory.
+
+Do not be tempted to disable any buffering because it improves
+numbers on a synthetic benchmark over a fast connection.
+Slow, real-world clients can easily overwhelm servers without both
+input and output buffering.
+
+=back
+
+Default: true
+
+The following OPTIONS may be specified for input_buffering:
+
+=over
+
+=item tmpdir: DIRECTORY
+
+Specify an alternative temporary directory of input_buffering is
+:lazy or true.  This can be used in case the normal temporary
+directory is too small or busy to be used for input buffering.
+
+Default: Dir.tmpdir (usually from TMPDIR env or /tmp)
+
+=back
+
+=item listen ADDRESS [, OPTIONS]
+
+Adds an ADDRESS to the existing listener set.  May be specified more
+than once.  ADDRESS may be an Integer port number for a TCP port, an
+"IP_ADDRESS:PORT" for TCP listeners or a pathname for UNIX domain sockets.
+
+  # listen to port 3000 on all TCP interfaces
+  listen 3000
+
+  # listen to port 3000 on the loopback interface
+  listen "127.0.0.1:3000"
+
+  # listen on the given Unix domain socket
+  listen "/path/to/.unicorn.sock"
+
+  # listen to port 3000 on the IPv6 loopback interface
+  listen "[::1]:3000"
+
+When using Unix domain sockets, be sure:
+
+=over
+
+=item 1. the path matches the one used by nginx
+
+=item 2. uses the same filesystem namespace as the nginx process
+
+=back
+
+For systemd users using PrivateTmp=true (for either nginx or yahns),
+this means Unix domain sockets must not be placed in /tmp
+
+The following OPTIONS may be specified (but are generally not needed):
+
+=over
+
+=item backlog: INTEGER
+
+This is the backlog of the L<listen(2)> syscall.
+
+Some operating systems allow negative values here to specify the
+maximum allowable value.  In most cases, this number is only
+recommendation and there are other OS-specific tunables and
+variables that can affect this number.  See the L<listen(2)>
+syscall documentation of your OS for the exact semantics of
+this.
+
+If you are running unicorn on multiple machines, lowering this number
+can help your load balancer detect when a machine is overloaded
+and give requests to a different machine.
+
+Default: 1024
+
+=item ipv6only: BOOLEAN
+
+This option makes IPv6-capable TCP listeners IPv6-only and unable
+to receive IPv4 queries on dual-stack systems.  A separate IPv4-only
+listener is required if this is true.
+
+Enabling this option for the IPv6-only listener and having a
+separate IPv4 listener is recommended if you wish to support IPv6
+on the same TCP port.  Otherwise, the value of env["REMOTE_ADDR"]
+will appear as an ugly IPv4-mapped-IPv6 address for IPv4 clients
+(e.g ":ffff:10.0.0.1" instead of just "10.0.0.1").
+
+Default: Operating-system dependent
+
+=item sndbuf / rcvbuf: INTEGER
+
+Maximum receive and send buffer sizes (in bytes) of sockets.
+
+These correspond to the SO_RCVBUF and SO_SNDBUF settings which
+can be set via the L<setsockopt(2)> syscall.  Some kernels
+(e.g. Linux 2.4+) have intelligent auto-tuning mechanisms and
+there is no need (and it is sometimes detrimental) to specify them.
+
+See the socket API documentation of your operating system
+to determine the exact semantics of these settings and
+other operating system-specific knobs where they can be
+specified.
+
+Defaults: operating system defaults
+
+=item reuseport: BOOLEAN
+
+This enables multiple, independently-started yahns instances to
+bind to the same port (as long as all the processes enable this).
+
+This option must be used when yahns first binds the listen socket.
+It cannot be enabled when a socket is inherited via SIGUSR2
+(but it will remain on if inherited), and it cannot be enabled
+directly via SIGHUP.
+
+Note: there is a chance of connections being dropped if
+one of the yahns instances is stopped while using this.
+
+This is supported on *BSD systems and Linux 3.9 or later.
+
+ref: L<https://lwn.net/Articles/542629/>
+
+Default: false (unset)
+
+=item ssl_ctx: OpenSSL::SSL::SSLContext Ruby object
+
+To enable TLS connections, you must configure this yourself.
+See documentation for OpenSSL::SSL::SSLContext
+for more information:
+
+L<https://docs.ruby-lang.org/en/trunk/OpenSSL/SSL/SSLContext.html>
+
+Default: none
+
+An example which seems to work is:
+
+  require 'openssl'
+  ssl_ctx = OpenSSL::SSL::SSLContext.new
+  ssl_ctx.cert = OpenSSL::X509::Certificate.new(
+    File.read('/etc/ssl/certs/example.crt')
+  )
+  ssl_ctx.extra_chain_cert = [
+    OpenSSL::X509::Certificate.new(
+      File.read('/etc/ssl/certs/chain.crt')
+    )
+  ]
+  ssl_ctx.key = OpenSSL::PKey::RSA.new(
+    File.read('/etc/ssl/private/example.key')
+  )
+
+  # use defaults provided by Ruby on top of OpenSSL,
+  # but disable client certificate verification as it is rare for servers:
+  ssl_ctx.set_params(verify_mode: OpenSSL::SSL::VERIFY_NONE)
+
+  # Built-in session cache (only useful if worker_processes is nil or 1)
+  ssl_ctx.session_cache_mode = OpenSSL::SSL::SSLContext::SESSION_CACHE_SERVER
+
+  app(:rack, "/path/to/my/app/config.ru") do
+    listen 443, ssl_ctx: ssl_ctx
+  end
+
+yahns gives you full control of of how OpenSSL::SSL::SSLContext is
+configured.  To avoid bugs, yahns only ensures
+OpenSSL::SSL::SSLContext#session_id_context is set (if not previously
+set by the user) and calls OpenSSL::SSL::SSLContext#setup before
+spawning threads to avoid race conditions.  yahns itself does not and
+will not enforce any opinion on the compatibility/performance/security
+trade-offs regarding TLS configuration.
+
+=item umask: MODE
+
+Sets the file mode creation mask for UNIX sockets.  If specified,
+this is usually in octal notation.
+
+Typically UNIX domain sockets are created with more liberal
+file permissions than the rest of the application.  By default,
+we create UNIX domain sockets to be readable and writable by
+all local users to give them the same accessibility as
+locally-bound TCP listeners.
+
+This has no effect on TCP listeners.
+
+Default: 0000 (world-read/writable)
+
+=back
+
+=item logger LOGGER
+
+Configures a logger within the current app &BLOCK.
+This behaves the same as the logger directive described in
+TOP-LEVEL DIRECTIVES
+
+Default: uses the top-level logger
+
+=item output_buffering BOOLEAN [, OPTIONS]
+
+This enables or disables buffering of the HTTP response.  If enabled,
+buffering is only performed lazily.  In other words, buffering only
+happens if socket buffers (in the kernel) are filled up, and yahns
+will continously try to flush the buffered data to the socket while
+it is buffering.
+
+Disabling output buffering is only recommended if ALL clients
+connecting to this application context are fast, trusted or
+you are willing and able to run many worker threads.
+
+Do not be tempted to disable any buffering because it improves
+numbers on a synthetic benchmark over a fast connection.
+Slow, real-world clients can easily overwhelm servers without both
+input and output buffering.
+
+If output buffering is disabled, client_timeout controls the maximum
+amount of time a worker thread will wait synchronously.
+
+Default: true
+
+The following OPTIONS may be specified for output_buffering:
+
+=over
+
+=item tmpdir: DIRECTORY
+
+Specify an alternative temporary directory of output_buffering is
+enabled.  This can be used in case the normal temporary directory
+is too small or busy to be used for output buffering.
+
+Default: Dir.tmpdir (usually from TMPDIR env or /tmp)
+
+=back
+
+=item persistent_connections BOOLEAN
+
+Enable or disables persistent connections and pipelining for HTTP
+connections.  Persistent connections only expire when the global
+client_expire_threshold is hit and a client hits its client_timeout.
+
+Default: true
+
+=item user USER [,GROUP]
+
+Runs application process(es) as the specified USER and GROUP.
+
+If using worker_processes, this only affects the workers and the
+master stays running as the user who started it.  This switch will
+occur before calling the atfork_child hook(s).
+
+GROUP is optional and will not change if unspecified.
+
+Default: none (no user switching is done)
+
+=item queue [NAME or &BLOCK]
+
+If given a NAME-only, this will associate this app &BLOCK with an
+existing queue.
+
+If given a &BLOCK-only, this will create an anonymous queue for this
+application context only.  If given a &BLOCK, this takes the same
+parameters (worker_threads and max_events) as described in
+L</QUEUE-LEVEL DIRECTIVES>.
+
+NAME and &BLOCK may not be combined inside an app &BLOCK.
+
+Default: uses the global, :default queue if none is specified
+
+=item shutdown_timeout SECONDS
+
+This defines the timeout for gracefully exiting the process if there
+are still connected clients.  This should generally be higher or equal
+to the app with the highest client_timeout value.
+
+Increase this if your application has slow endpoints which may take
+longer than the default timeout.
+
+Default: max client_timeout value of all apps in the process
+
+=item worker_processes INTEGER [&BLOCK]
+
+This directive allows yahns to use a master/worker configuration to
+use multiple processes.  Specifying any numeric value (including 1)
+here means yahns will enable yahns to use a master/worker process
+model instead of a single process.
+
+If an optional &BLOCK is given, it may be used to configure
+L<pthread_atfork(3)>-style hooks.
+See L</WORKER_PROCESSES-LEVEL DIRECTIVES> for details.
+
+Using worker_processes is strongly recommended if your application
+relies on using a SIGCHLD handler for reaping forked processes.
+Without worker_processes, yahns must reserve SIGCHLD for rolling
+back SIGUSR2 upgrades, leading to conflicts if the appplication
+expects to handle SIGCHLD.
+
+Default: nil (single process, no master/worker separation)
+
+=back
+
+=head2 WORKER_PROCESSES-LEVEL DIRECTIVES
+
+Note: all of the atfork_* hooks described here are available inside the
+"app" blocks, too.
+
+=over
+
+=item atfork_prepare &BLOCK
+
+This &BLOCK is executed in the parent before L<fork(2)> operation.
+This may be useful for app directives which specify "preload: true"
+to disconnect from databases or otherwise close open file descriptors
+to prevent them from being shared with the children.
+
+Default: none
+
+=item atfork_parent &BLOCK
+
+This &BLOCK is executed in the parent after the L<fork(2)> operation.
+
+Default: none
+
+=item atfork_child &BLOCK
+
+This &BLOCK is executed in the child after the L<fork(2)> operation.
+
+This may be useful for app directives which specify "preload: true"
+to reconnect to databases or reopen closed file descriptors which
+were closed in the atfork_prepare hook.
+
+Default: none
+
+=back
+
+=head1 RACK APP ARGUMENTS
+
+Rack applications take a PATHNAME to the L<rackup(1)> config file
+(e.g.  "config.ru") as its first argument.
+
+The only supported keyword argument is:
+
+=over
+
+=item preload: BOOLEAN
+
+preload: only makes sense if worker_processes are configured.
+Preloading an app allows memory to be saved under a copy-on-write GC,
+but will often require atfork_* hooks to be registered when configuring
+worker_processes.  preload: defaults to false for maximum out-of-the-box
+compatibility.
+
+=back
+
+=head2 RACK APP EXAMPLE
+
+  app(:rack, "/path/to/config.ru", preload: false) do
+    # APP-LEVEL DIRECTIVES GO HERE
+  end
+
+=head1 EXAMPLES
+
+See the examples/ directory in the git source tree.
+
+  git clone https://yhbt.net/yahns.git
+
+=head1 CONTACT
+
+All feedback welcome via plain-text mail to L<mailto:yahns-public@yhbt.net>
+No subscription is necessary to email us.
+Mail archives are available at L<https://yhbt.net/yahns-public/>
+
+=head1 COPYRIGHT
+
+Copyright (C) 2013-2016 all contributors L<mailto:yahns-public@yhbt.net>
+License: GPL-3.0+ L<https://www.gnu.org/licenses/gpl-3.0.txt>
+
+=head1 SEE ALSO
+
+L<yahns(1)>

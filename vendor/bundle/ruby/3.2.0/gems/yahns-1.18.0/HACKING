@@ -1,0 +1,55 @@
+development dependencies
+------------------------
+
+* minitest RubyGem (version 4 or 5, standard in Ruby 2.0+)
+* curl - https://curl.haxx.se/ - we don't trust our own Ruby abilities :>
+* dd(1) - standard POSIX tool - to feed curl
+* ab - https://httpd.apache.org/ - for concurrent testing
+* GNU make - https://www.gnu.org/software/make/
+* git - https://www.git-scm.com/
+* ruby - https://www.ruby-lang.org/en/
+
+	git clone https://yhbt.net/yahns.git
+
+tests
+-----
+
+* make test - run each test in a separate process (parallelize using -j)
+* make test-mt - run tests-multithreaded in one process
+* make coverage - "make test" with coverage output
+* make coverage-mt - "make test-mt" with coverage output
+* ruby test/covshow.rb - show coverage output from previous test run
+
+For non-GNU users, GNU make may be installed as "gmake".
+
+test environment
+----------------
+
+N - specify the number of threads for *-mt targets (minitest parallelize_me!)
+RUBY - specify an alternative ruby(1) runtime
+V - set to 1 for verbose test output (may be mangled if multithreaded)
+
+documentation
+-------------
+
+We use pod2man(1) distributed with Perl 5 for generating manpages.
+
+installing from git
+-------------------
+
+* make install-gem
+
+contact
+-------
+
+We use git(7) and develop yahns using email like git.git hackers do.
+Please send patches via git-send-email(1) to us at <yahns-public@yhbt.net>.
+Pull requests should be formatted using git-request-pull(1).
+
+All mail is archived publically at: https://yhbt.net/yahns-public/
+Anonymous contributions will always be welcome.
+No subscription is necessary to email us.
+Please remember to reply-to-all as we do not encourage subscription.
+
+Copyright (C) 2013-2016 all contributors <yahns-public@yhbt.net>
+License: GPL-3.0+ <https://www.gnu.org/licenses/gpl-3.0.txt>

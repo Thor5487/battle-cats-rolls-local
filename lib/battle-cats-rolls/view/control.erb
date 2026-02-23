@@ -7,6 +7,7 @@
     type="number" id="seed_input" name="seed"
     value="<%= route.seed %>"
     onclick="this.select()">
+  <input type="button" value="紀錄" onclick="saveMySeed()" style="margin-left: 5px; cursor: pointer; padding: 5px 8px; background-color: #ffffff; border: 1.5px solid #767676; border-radius: 3px; box-sizing: border-box;">
 
   <label for="details_input" title="Show gacha information and seed values used to determine the rarities and slots">Details:
     <input type="checkbox" id="details_input" name="details"
@@ -60,3 +61,35 @@
 <% else %>
 <%= hidden_inputs('seed', 'details', 'count', 'last') %>
 <% end %>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var seedInput = document.getElementById('seed_input');
+        var savedSeed = localStorage.getItem('my_battle_cats_seed');
+        
+        // 1. 自動填入種子碼 (若為 0 或空值)
+        if (seedInput && (seedInput.value === '0' || seedInput.value === '') && savedSeed) {
+            seedInput.value = savedSeed;
+            
+            // 2. 自動觸發 Roll 動作：找到最近的 form 並提交
+            // 這樣你一開網頁，它就會直接幫你計算好轉蛋軌道
+            var form = seedInput.closest('form');
+            if (form) {
+                form.submit();
+            } else {
+                // 如果沒找到 form，嘗試點擊那顆 Roll 按鈕
+                var rollBtn = document.querySelector('input[type="submit"][value="Roll"]');
+                if (rollBtn) { rollBtn.click(); }
+            }
+        }
+    });
+
+    function saveMySeed() {
+        var seedInput = document.getElementById('seed_input');
+        if (seedInput && seedInput.value !== '' && seedInput.value !== '0') {
+            localStorage.setItem('my_battle_cats_seed', seedInput.value);
+            alert('✅ 已紀錄種子碼：' + seedInput.value);
+        } else {
+            alert('❌ 請先輸入有效的種子碼');
+        }
+    }
+</script>

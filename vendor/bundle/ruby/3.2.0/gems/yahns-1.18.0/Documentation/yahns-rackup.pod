@@ -1,0 +1,182 @@
+=head1 NAME
+
+yahns-rackup - a rackup-like command to launch yahns
+
+=head1 SYNOPSIS
+
+yahns-rackup [-E RACK_ENV] [-O worker_threads=NUM] [RACKUP_FILE]
+
+=head1 DESCRIPTION
+
+A L<rackup(1)>-like command to launch Rack applications using yahns.
+It is expected to start in your application root (APP_ROOT).
+
+=head1 RACKUP FILE
+
+This defaults to "config.ru" in APP_ROOT.  It should be the same
+file used by L<rackup(1)> and other Rack launchers, it uses the
+*Rack::Builder* DSL documented at:
+
+L<http://www.rubydoc.info/github/rack/rack/Rack/Builder>
+
+=head1 YAHNS OPTIONS
+
+=over
+
+=item -O client_timeout=SECONDS
+
+Defines the timeout expiring idle connections.
+
+Increase this if your application takes longer to run than the
+default timeout.  Lower this if you run out of FDs.
+
+Default: 15 (seconds)
+
+=item -O listen=ADDRESS[,ADDRESS...]
+
+Listens on a given ADDRESS.  ADDRESS may be in the form of
+HOST:PORT or PATH, HOST:PORT is taken to mean a TCP socket
+and PATH is meant to be a path to a UNIX domain socket.
+Defaults to "0.0.0.0:9292" (all addresses on TCP port 9292).
+Multiple addresses may be separated with commas.
+
+For systemd users, a special value of "inherit" may be specified
+to inherit FDs using the LISTEN_FDS and LISTEN_PID environment
+variables described in L<sd_listen_fds(3)>
+
+=item -O stderr_path=PATHNAME
+
+Allow redirecting $stderr to a given path.  Unlike doing this from
+the shell, this allows the yahns process to know the path its
+writing to and rotate the file if it is used for logging.  The
+file will be opened with the O_APPEND flag and writes
+synchronized to the kernel (but not necessarily to _disk_) so
+multiple processes can safely append to it.
+
+If you are daemonizing and using the default logger, it is important
+to specify this as errors will otherwise be lost to /dev/null.
+Some applications/libraries may also triggering warnings that go to
+stderr, and they will end up here.
+
+Default: /dev/null if daemonized, controlling terminal if not
+
+=item -O stdout_path=PATH
+
+Same as stderr_path, except for $stdout.  Not many applications
+write to $stdout, but any that do will have their output written here.
+It is safe to point this to the same location a stderr_path.
+Like stderr_path, this defaults to /dev/null when daemonized.
+
+Default: /dev/null if daemonized, controlling terminal if not
+
+=item -O worker_threads=INTEGER
+
+This controls the number of threads for application processing.
+Each queue has its own thread pool.  Increase this number if your
+applications are able to use more threads effectively or if either
+(or both) input/output buffering are disabled.  Lower this number if
+you do not need multi-thread concurrency at all.
+
+Default: 7
+
+=back
+
+=head1 RACKUP OPTIONS
+
+=over
+
+=item -D, --daemonize
+
+Run daemonized in the background.  The process is detached from
+the controlling terminal and stdin is redirected to /dev/null.
+Unless specified via stderr_path and stdout_path, stderr and stdout will
+also be redirected to "/dev/null".
+
+=item -E, --env RACK_ENV
+
+Run under the given RACK_ENV.  See the L</RACK ENVIRONMENT> section
+for more details.
+
+=item -o, --host HOST
+
+Listen on a TCP socket belonging to HOST, default is
+"0.0.0.0" (all addresses).
+If specified multiple times on the command-line, only the
+last-specified value takes effect.
+This option only exists for compatibility with the L<rackup(1)> command,
+use of "-l"/"--listen" switch is recommended instead.
+
+=item -p, --port PORT
+
+Listen on the specified TCP PORT, default is 9292.
+If specified multiple times on the command-line, only the last-specified
+value takes effect.
+This option only exists for compatibility with the L<rackup(1)> command,
+use of "-l"/"--listen" switch is recommended instead.
+
+=back
+
+=head1 RUBY OPTIONS
+
+=over
+
+=item -e, --eval LINE
+
+Evaluate a LINE of Ruby code.  This evaluation happens
+immediately as the command-line is being parsed.
+
+=item -d, --debug
+
+Turn on debug mode, the $DEBUG variable is set to true.
+
+=item -w, --warn
+
+Turn on verbose warnings, the $VERBOSE variable is set to true.
+
+=item -I, --include PATH
+
+Specify $LOAD_PATH.  PATH will be prepended to $LOAD_PATH.
+The ':' character may be used to delimit multiple directories.
+This directive may be used more than once.  Modifications to
+$LOAD_PATH take place immediately and in the order they were
+specified on the command-line.
+
+=item -r, --require LIBRARY
+
+Require a specified LIBRARY before executing the application.  The
+"require" statement will be executed immediately and in the order
+they were specified on the command-line.
+
+=back
+
+=head1 SIGNALS
+
+See L<yahns(1)>
+
+=head1 FILES
+
+See Rack documentation for a description of the rackup file format.
+
+=head1 ENVIRONMENT VARIABLES
+
+The RACK_ENV variable is set by the aforementioned -E switch.
+If RACK_ENV is already set, it will be used unless -E is used.
+See rackup documentation for more details.
+
+=head1 CONTACT
+
+All feedback welcome via plain-text mail to L<mailto:yahns-public@yhbt.net>
+No subscription is necessary to email us.
+Mail archives are available at L<https://yhbt.net/yahns-public/>
+
+=head1 COPYRIGHT
+
+Copyright (C) 2013-2016 all contributors L<mailto:yahns-public@yhbt.net>
+License: GPL-3.0+ L<https://www.gnu.org/licenses/gpl-3.0.txt>
+
+=head1 SEE ALSO
+
+L<yahns(1)>, L<yahns_config(5)>,
+L<Rack::Builder RDoc|http://www.rubydoc.info/github/rack/rack/Rack/Builder>,
+L<Rack RDoc|http://www.rubydoc.info/github/rack/rack/>,
+L<Rackup HowTo|https://github.com/rack/rack/wiki/tutorial-rackup-howto>

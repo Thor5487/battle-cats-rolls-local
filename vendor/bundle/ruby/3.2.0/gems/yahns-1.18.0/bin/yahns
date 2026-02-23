@@ -1,0 +1,32 @@
+#!/this/will/be/overwritten/or/wrapped/anyways/do/not/worry/ruby
+# -*- encoding: binary -*-
+# Copyright (C) 2013-2016 all contributors <yahns-public@yhbt.net>
+# License: GPL-3.0+ (https://www.gnu.org/licenses/gpl-3.0.txt)
+# frozen_string_literal: true
+require 'yahns/daemon'
+require 'optparse'
+config_file = daemonize = nil
+OptionParser.new("", 24, "  ") do |opts|
+  cmd = File.basename($0)
+  opts.banner = "Usage: #{cmd} [options]"
+  opts.separator "#{cmd} options:"
+  opts.on("-D", "--daemonize", "run daemonized in the background") do |d|
+    daemonize = !!d
+  end
+  opts.on("-c", "--config-file FILE", "yahns config file") do |f|
+    config_file = f
+  end
+  opts.separator "Common options:"
+  opts.on_tail("-h", "--help", "Show this message") do
+    puts opts.to_s
+    exit
+  end
+  opts.on_tail("-v", "--version", "Show version") do
+    puts "#{cmd} v#{Yahns::VERSION}"
+    exit
+  end
+  opts.parse!(ARGV)
+end
+server = Yahns::Server.new(Yahns::Config.new(config_file))
+Yahns::Daemon.daemon(server) if daemonize
+server.start.join

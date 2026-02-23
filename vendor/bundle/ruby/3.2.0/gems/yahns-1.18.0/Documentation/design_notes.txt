@@ -1,0 +1,105 @@
+event queues in yahns
+---------------------
+
+There are currently 2 classes of queues and 2 classes of thread pools
+in yahns.
+
+While non-blocking I/O with epoll or kqueue is a cheap way to handle
+thousands of socket connections, multi-threading is required for many
+existing APIs, including Rack and standard POSIX filesystem interfaces.
+
+listen queue + accept() thread pool
+-----------------------------------
+
+Like all TCP servers, there is a standard listen queue for every listen
+socket we have inside the kernel.
+
+Each listen queue has a dedicated thread pool running _blocking_
+accept(2) (or accept4(2)) syscall in a loop.  We use dedicated threads
+and blocking accept to benefit from "wake-one" behavior in the Linux
+kernel.  By default, this thread pool only has one thread per-process, doing
+nothing but accepting sockets and injecting into to the event queue
+(used by epoll or kqueue) so a worker thread pool can pick them up.
+
+This design makes EPOLLEXCLUSIVE in Linux 4.5+ unnecessary to us,
+our listen sockets are never registered with epoll or kqueue.
+
+worker thread pool
+------------------
+
+This is where all the interesting application dispatch happens in
+yahns.  A descriptor returned by epoll_create1(2) (or kqueue(2)) is
+the heart of event queue.  This design allows clients to migrate
+between different threads as they become active, preventing
+head-of-line blocking in traditional designs where a client is
+pinned to a thread (at the cost of weaker cache locality).
+
+The critical component for implementing this thread pool is "one-shot"
+notifications in the epoll and kqueue APIs, allowing them to be used as
+readiness queues for feeding the thread pool.  Used correctly, this
+allows us to guarantee exclusive access to a client socket without
+additional locks managed in userspace.
+
+Idle threads will sit performing epoll_wait(2) (or kevent(2))
+indefinitely until a client socket is reported as "ready" by the kernel.
+
+queue flow
+----------
+
+Once a client is accept(2)-ed, it is immediately pushed into the worker
+thread pool (via EPOLL_CTL_ADD or EV_ADD).  This mimics the effect of
+TCP_DEFER_ACCEPT (in Linux) and the "dataready" accept filter (in
+FreeBSD) from the perspective of the epoll_wait(2)/kevent(2) caller.
+No explicit locking controlled from userspace is necessary.
+
+TCP_DEFER_ACCEPT/"dataready"/"httpready" themselves are not used as it
+has some documented and unresolved issues (and adds latency).
+
+  https://bugs.launchpad.net/ubuntu/+source/apache2/+bug/134274
+  http://labs.apnic.net/blabs/?p=57
+
+Denial-of-Service and head-of-line blocking mitigation
+------------------------------------------------------
+
+As mentioned before, traditional uses of multi-threaded event loops may
+suffer from head-of-line blocking because clients on a busy thread may
+not be able to migrate to a non-busy thread.  In yahns, a client
+automatically migrates to the next available thread in the worker thread
+pool.
+
+yahns can safely yield a client after every HTTP request, forcing the
+client to be rescheduled (via epoll/kqueue) after any existing clients
+have completed processing.
+
+"Yielding" a client is accomplished by re-arming the already "ready"
+socket by using EPOLL_CTL_MOD (with EPOLLONESHOT) with a one-shot
+notification requeues the descriptor at the end of the internal
+epoll (or kevent) ready queue; achieving a similar effect to
+yielding a thread (via sched_yield or Thread.pass) in a purely
+multi-threaded design.
+
+Once the client is yielded, epoll_wait or kevent is called again to
+pull the next client off the ready queue.
+
+Output buffering notes
+----------------------
+
+yahns will not read data from a client socket if there is any outgoing
+data buffered by yahns.  This prevents clients from performing a DoS
+sending a barrage of requests but not reading them (this should be
+obvious behavior for any server!).
+
+If outgoing data cannot fit into the kernel socket buffer, we buffer to
+the filesystem immediately to avoid putting pressure on malloc (or the
+Ruby GC).  This also allows use of the sendfile(2) syscall to avoid
+extra copies into the kernel.
+
+Input buffering notes (for Rack)
+--------------------------------
+
+As seen by the famous "Slowloris" example, slow clients can ruin some
+HTTP servers.  By default, yahns will use non-blocking I/O to
+fully-buffer an HTTP request before allowing the Rack 1.x application
+dispatch to block a thread.  This unfortunately means we double the
+amount of data copied, but prevents us from being hogged by slow clients
+due to the synchronous nature of Rack 1.x API for handling uploads.

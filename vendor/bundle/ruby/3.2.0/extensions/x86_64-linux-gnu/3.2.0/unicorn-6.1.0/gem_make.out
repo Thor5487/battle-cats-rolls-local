@@ -1,0 +1,23 @@
+current directory: /home/thor5487/battle-cats-rolls/vendor/bundle/ruby/3.2.0/gems/unicorn-6.1.0/ext/unicorn_http
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+checking for rb_hash_clear() in ruby.h... yes
+checking if String#-@ (str_uminus) dedupes... yes
+checking if Hash#[]= (rb_hash_aset) dedupes... yes
+checking for epoll_create1() in sys/epoll.h... yes
+creating Makefile
+
+current directory: /home/thor5487/battle-cats-rolls/vendor/bundle/ruby/3.2.0/gems/unicorn-6.1.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20260223-2504-xh9z3t sitelibdir\=./.gem.20260223-2504-xh9z3t clean
+
+current directory: /home/thor5487/battle-cats-rolls/vendor/bundle/ruby/3.2.0/gems/unicorn-6.1.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20260223-2504-xh9z3t sitelibdir\=./.gem.20260223-2504-xh9z3t
+compiling httpdate.c
+compiling unicorn_http.c
+linking shared-object unicorn_http.so
+
+current directory: /home/thor5487/battle-cats-rolls/vendor/bundle/ruby/3.2.0/gems/unicorn-6.1.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20260223-2504-xh9z3t sitelibdir\=./.gem.20260223-2504-xh9z3t install
+/usr/bin/install -c -m 0755 unicorn_http.so ./.gem.20260223-2504-xh9z3t
+
+current directory: /home/thor5487/battle-cats-rolls/vendor/bundle/ruby/3.2.0/gems/unicorn-6.1.0/ext/unicorn_http
+make DESTDIR\= sitearchdir\=./.gem.20260223-2504-xh9z3t sitelibdir\=./.gem.20260223-2504-xh9z3t clean

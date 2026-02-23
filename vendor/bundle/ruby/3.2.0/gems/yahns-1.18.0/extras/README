@@ -1,0 +1,16 @@
+yahns extras
+------------
+
+This is random crap used to power one of the top websites in the galaxy:
+
+	https://YHBT.net/
+
+The code in this extras directory is officially part of yahns but may
+be useful to some (even outside of yahns).  There are no guarantees
+of future API compatibility at all.
+
+Copyright
+---------
+
+Copyright (C) 2013-2016 all contributors <yahns-public@yhbt.net>
+License: GPL-3.0+ <https://www.gnu.org/licenses/gpl-3.0.txt>

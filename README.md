@@ -29,7 +29,7 @@
 安裝核心工具與依賴套件 (包含 Git、Ruby 與底層 C 語言編譯工具)：
 
 ```Bash
-    sudo apt install -y git ruby-full build-essential patch zlib1g-dev liblzma-dev libicu-dev
+    sudo apt install -y git ruby-full build-essential patch zlib1g-dev liblzma-dev libicu-dev clang
 ```
 階段三：專案安裝與設定
 環境打底完成後，接著將專案原始碼下載到本地並安裝套件。
@@ -40,7 +40,7 @@
 ```
 進入專案資料夾：
 ```Bash
-    cd battle-cats-rolls
+    cd battle-cats-rolls-local
 ```
 安裝 Ruby 專屬套件管理員 (Bundler)：
 ```Bash
@@ -48,7 +48,11 @@
 ```
 安裝所有專案所需套件 (根據 Gemfile 自動下載)：
 ```Bash
+    bundle config set --local path 'vendor/bundle'
     bundle install
+    bundle add rackup webrick
+    ./Seeker/bin/build-VampireFlower.sh
+    ./Seeker/bin/build-8.6.sh
 ```
 階段四：建置遊戲資料庫與啟動伺服器
 最後一步，抓取最新的轉蛋池資料並啟動你的伺服器！

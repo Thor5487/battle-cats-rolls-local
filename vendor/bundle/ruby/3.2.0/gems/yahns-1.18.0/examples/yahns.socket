@@ -1,0 +1,17 @@
+# ==> /etc/systemd/system/yahns.socket <==
+[Unit]
+Description = yahns sockets
+
+[Socket]
+
+# yahns can handle an arbitrary number of listen sockets,
+# so I prefer to keep listeners for IPv4 and IPv6 separate
+# to avoid ugly IPv4-mapped-IPv6 addresses for IPv4 clients:
+# (e.g ":ffff:10.0.0.1" instead of just "10.0.0.1").
+ListenStream = 0.0.0.0:443
+BindIPv6Only = ipv6-only
+ListenStream = [::]:443
+Service = yahns@1.service
+
+[Install]
+WantedBy = sockets.target
