@@ -1,305 +1,72 @@
-# Battle Cats Rolls <https://bc.godfat.org/>
+# 貓咪大戰爭預測伺服器 - 從零開始架設指南
 
-## How to install the Ruby server
+本指南將帶領你從一台全新的 Windows 電腦開始，透過 WSL2 (Windows Subsystem for Linux) 打造專屬的《貓咪大戰爭》本地端預測伺服器。
 
-The simplest and easiest way to install all dependencies including the
-optional ones:
+---
 
-    gem install bundler
-    bundle install
+## 階段一：系統環境準備 (Windows WSL2)
 
-### Selective about optional dependencies
+若你的 Windows 尚未安裝 Linux 子系統，請依照以下步驟啟用：
 
-If you would like to avoid installing unnecessary dependencies:
+1. 對著 Windows 的「開始」按鈕點擊右鍵，選擇 **「終端機 (系統管理員)」** 或 **「Windows PowerShell (系統管理員)」**。
+2. 輸入以下指令並按下 Enter：
 
-    gem install bundler
-    bundle config set without 'build:cache:test'
-    bundle install
+```powershell
+wsl --install
+```
+重新啟動電腦 以完成安裝。
 
-And you should pick a caching strategy by choosing one:
+重開機後，開啟 Ubuntu 應用程式，並依照畫面提示設定你的 UNIX 帳號名稱與密碼（輸入密碼時畫面不會顯示字元，直接輸入完按 Enter 即可）。
 
-* Set up memcached and run `gem install dalli`
-* Use LRU cache so run `gem install lru_redux`
+階段二：基礎開發環境建置 (Ubuntu)
+進入 Ubuntu 終端機後，我們需要安裝 Ruby 語言及相關的編譯工具。
 
-Lastly if you want to build the data:
+更新系統軟體清單：
 
-    gem install nokogiri
+```Bash
+sudo apt update && sudo apt upgrade -y
+```
+安裝核心工具與依賴套件 (包含 Git、Ruby 與底層 C 語言編譯工具)：
 
-### `sleepy_penguin` compile error on Mac
+```Bash
+sudo apt install -y git ruby-full build-essential patch zlib1g-dev liblzma-dev libicu-dev
+```
+階段三：專案安裝與設定
+環境打底完成後，接著將專案原始碼下載到本地並安裝套件。
 
-If you hit into a compile error looks like this while compiling
-`sleepy_penguin` on Mac:
+將專案 Clone 到本地 (請將網址替換為你自己的 GitHub 倉庫網址)：
+```Bash
+git clone https://github.com/Thor5487/battle-cats-rolls-local
+```
+進入專案資料夾：
+```Bash
+cd battle-cats-rolls
+```
+安裝 Ruby 專屬套件管理員 (Bundler)：
+```Bash
+sudo gem install bundler
+```
+安裝所有專案所需套件 (根據 Gemfile 自動下載)：
+```Bash
+bundle install
+```
+階段四：建置遊戲資料庫與啟動伺服器
+最後一步，抓取最新的轉蛋池資料並啟動你的伺服器！
 
-    kqueue.c:408:19: error: incompatible function pointer types passing
+下載並解析台版 (BCTW) 轉蛋資料：
 
-You can pass `-Wno-incompatible-function-pointer-types` to the C compiler to
-ignore this error. You can do this by running:
+```Bash
+ruby bin/build.rb tw
+```
+啟動伺服器：
 
-    gem install sleepy_penguin -- --with-cflags=-Wno-incompatible-function-pointer-types
+```Bash
+bundle exec rackup -p 8080 -o 0.0.0.0
+```
+當終端機顯示 Rackup::Handler::WEBrick::Server#start 且沒有報錯時，恭喜你架設成功！
+請打開瀏覽器前往 👉 http://localhost:8080 即可開始使用。
 
-When you run `bundle install` it should reuse gems installed via `gem install`.
-If it's not reusing the gems, see the next section about setting up Ruby
-environment. If you prefer to do this via `bundle install`, you can pass the
-flag by setting:
 
-    bundle config build.sleepy_penguin --with-cflags=-Wno-incompatible-function-pointer-types
+把這段內容貼上去推送到 GitHub 後，你的專案首頁就會有一份排版漂亮、步驟清晰，而且語法高亮完全正常的完美說明書了！
 
-This will create a `.bundle/config` file remembering this flag and next time
-when you run `bundle install` it'll pass it to `sleepy_penguin`.
-
-### Setting up Ruby environment
-
-I try not to be too prescriptive about how to set up Ruby environment because
-I have some personal preference which I know it's not for everyone. However,
-apparently there are many people who are not familiar with Ruby to set it up,
-and they can use some help and instructions. Here are my recommendations:
-
-* Install Ruby with your preferred package manager.
-  * If you want to install a specific Ruby version which is not supported by
-    the package manager you preferred, try
-    [`ruby-install`](https://github.com/postmodern/ruby-install)
-    * Note that you might also be able to install `ruby-install` by your
-      preferred package manager.
-* To avoid installing to system path, you can use `--user-install` for `gem`:
-  * `gem install --user-install bundler`
-  * Note that in this case you need to set up `PATH` to point to the `bin`
-    path for the executable to be globally accessible. Check this document:
-    [I installed gems with --user-install and their commands are not available](https://guides.rubygems.org/faqs/#i-installed-gems-with---user-install-and-their-commands-are-not-available)
-* To tell `bundler` to install to the same path, you also need to configure it:
-  * `bundle config set path ~/.gem`
-  * This is sort of documented at:
-    [Remembering Options](https://bundler.io/man/bundle-config.1.html#REMEMBERING-OPTIONS)
-* Ruby finds gems in `GEM_HOME` environment variable. If gems cannot be found
-  when running the server, you can debug via `gem env`, and set `GEM_HOME`
-  accordingly if the default doesn't work for you.
-* If you prefer to use `bundler` to control the paths for you, then you can
-  also use `bundle exec COMMAND` where `COMMAND` is any scripts which
-  eventually run a Ruby script like `bin/server`.
-
-### Updating Ruby dependencies
-
-Normally I update everything, not really pining the version at all because
-it's pretty minimal and most versions are compatible and working. So I do:
-
-    gem update
-    gem cleanup
-
-Every once in a while. However, if you prefer to pin the versions, or use
-bundler to install and update, you can also run:
-
-    bundle update
-    gem cleanup
-
-## How to build the VampireFlower seed seeker:
-
-First install [clang](https://clang.llvm.org), then:
-
-    ./Seeker/bin/build-VampireFlower.sh
-
-This should build the seed seeker at: `Seeker/Seeker-VampireFlower`, which
-will be used by the Ruby server.
-
-## How to build the forgothowtoreddid seed seeker:
-
-First install [clang++](https://clang.llvm.org), then:
-
-    ./Seeker/bin/build-8.6.sh
-
-This should build the seed seeker at: `Seeker/Seeker-8.6`, which will be used
-by the Ruby server.
-
-## (Deprecated) How to build the 8.5 and 8.4 seed seeker:
-
-First install [GHC](https://www.haskell.org/ghc/), then:
-
-    ./Seeker/bin/build.sh
-
-This should build the seed seeker at: `Seeker/Seeker`, which will be used
-by the Ruby server.
-
-## How to run the server locally:
-
-    ./bin/server
-
-## Production with memcached, nginx, varnish, systemd and socket activation:
-
-### Set up memcached
-
-Nothing special needed. Just install and run it:
-
-    sudo systemctl enable memcached
-    sudo systemctl start memcached
-
-### Set up nginx
-
-Take `config/nginx.conf` as an example to set up nginx, and start it with
-systemd:
-
-    sudo systemctl enable nginx
-    sudo systemctl start nginx
-
-### Set up varnish
-
-Take `config/varnish.vcl` as an example to set up varnish, and start it with
-systemd:
-
-    sudo systemctl enable varnish
-    sudo systemctl start varnish
-
-Note that you might want to change the systemd service to bind it only to
-`localhost` instead of `0.0.0.0`.
-
-### Other various setup
-
-Tweak the paths in `config/battlecatsrolls@.service` accordingly and run:
-
-    sudo ./bin/install # Read the contents before you run it!
-
-Note that this also:
-
-* Set up a bcat user to run for the application server
-* Set up Git config so auto-updater can work properly
-* Set up sudoer so `bin/rsync-data` can work properly
-
-### Read logs
-
-Read the whole logs:
-
-    ./bin/log
-
-Watch the logs in realtime:
-
-    ./bin/log -f
-
-Read the last 2000 lines of logs:
-
-    ./bin/log -e -n 2000
-
-### Restart with zero down time
-
-This will start a temporary server taking requests while shutting down
-the old server. When the old server is properly restarted, the temporary
-server will be shut down.
-
-    sudo ./bin/restart-zero-down
-
-### Forceful restart
-
-Sometimes the application server is broken anyway, we want to restart
-immediately. In this case you can run this to force it to restart now.
-
-    sudo ./bin/hard-restart
-
-### Uninstallation
-
-    sudo ./bin/uninstall # Read the contents before you run it!
-
-## Environment variables defined in `.env` file
-
-In order to build data from the event data, some keys and secrets must be
-set to access the data. It's intended that this repository does not share
-any of the keys and secrets. If you would like to build data, or access the
-latest event data, you have to figure out the keys and secrets on your own.
-
-If you only want to run the server locally, the data is already built and
-populated in the repository. You can just run it without any keys or secrets.
-You can create an empty `.env` file or ignore it. Showing tracks does not
-require any of the keys or secrets.
-
-## How to build data:
-
-Build everything:
-
-    env (cat .env) ruby bin/build.rb
-
-Build BCEN data:
-
-    env (cat .env) ruby bin/build.rb en
-
-Build BCTW data:
-
-    env (cat .env) ruby bin/build.rb tw
-
-Build BCJP data:
-
-    env (cat .env) ruby bin/build.rb jp
-
-Build BCKR data:
-
-    env (cat .env) ruby bin/build.rb kr
-
-## Thanks:
-
-### Tracking discovery for 7.2+
-
-* [Seed Tracking TBC 7.3 Public Release](https://old.reddit.com/r/BattleCatsCheats/comments/9jvdcg/seed_tracking_tbc_73_public_release/)
-
-### The spreadsheet 2.0
-
-* [[Cheating] Rare Ticket Forecasting Spreadsheet v2.0](https://old.reddit.com/r/battlecats/comments/8mhun4/cheating_rare_ticket_forecasting_spreadsheet_v20/)
-
-### Finding my seed and providing information
-
-* [[Cheating] Seed calculation here!](https://old.reddit.com/r/battlecats/comments/8cbs2i/cheating_seed_calculation_here/e0r8l9v/)
-
-### How it works
-
-* [[Tutorial] [Cheating] (Almost) Everything you could possibly want to know about the gacha system in v5.10.](https://old.reddit.com/r/battlecats/comments/64geym/tutorial_cheating_almost_everything_you_could/)
-
-### Decrypting the app data
-
-* [Is there anyone able to access BC files? Your help is needed!](https://old.reddit.com/r/battlecats/comments/41e4l1/is_there_anyone_able_to_access_bc_files_your_help/cz3npr2)
-* [Unit upgrade cost spreadsheet?](https://old.reddit.com/r/battlecats/comments/3em0bw/unit_upgrade_cost_spreadsheet/cthqo3f)
-* [FX File Explorer](https://play.google.com/store/apps/details?id=nextapp.fx)
-
-### Event data
-
-* [[BCEN] New Event Data - Last Half of October 2017](https://old.reddit.com/r/battlecats/comments/75w399/bcen_new_event_data_last_half_of_october_2017/dostwfb)
-* [[BCEN] New Event Data - First Half of July 2018](https://old.reddit.com/r/battlecats/comments/8vikts/bcen_new_event_data_first_half_of_july_2018/e1sc33v/)
-* [[Cheating] Rare Ticket Forecasting - Seed Request Thread](https://www.reddit.com/r/battlecats/comments/7t2dlb/cheating_rare_ticket_forecasting_seed_request/dtb3q0w/)
-* [How to retrieve and decipher Battle Cats event data](https://old.reddit.com/r/battlecats/comments/3tf03s/how_to_retrieve_and_decipher_battle_cats_event/)
-
-### Other references
-
-* [[Tutorial] [Cheating] (Almost) Rare Ticket draw Forcasting Spreadsheet](https://www.reddit.com/r/battlecats/comments/7llv80/tutorial_cheating_almost_rare_ticket_draw/)
-* [[Cheating] Seed finder and draw strategy manager](https://old.reddit.com/r/battlecats/comments/8cbuyw/cheating_seed_finder_and_draw_strategy_manager/)
-* [[BCEN] All cat data for Battle Cats 7.2](https://old.reddit.com/r/battlecats/comments/96ogif/bcen_all_cat_data_for_battle_cats_72/)
-  * [unit&lt;num&gt;.csv columns](https://pastebin.com/JrCTPnUV)
-
-### Helpful relevant source code
-
-* [Battle Cats Ultimate](https://github.com/battlecatsultimate/BCU_java_util_common)
-* [Normal gacha tracking](https://github.com/ampuri/bc-normal-seed-tracking)
-  * [Normal gacha data](https://github.com/ampuri/bc-normal-seed-tracking/blob/master/src/utils/bannerData.tsx)
-* [The Battle Cats Modding Library](https://codeberg.org/fieryhenry/tbcml)
-  * [Download server data](https://codeberg.org/fieryhenry/tbcml/src/branch/master/src/tbcml/server_handler.py)
-
-## CONTRIBUTORS:
-
-* clam
-* fieryhenry
-* forgothowtoreddid (@reddid)
-* Lin Jen-Shin (@godfat)
-* MandarinSmell
-* ThanksFëanor
-* @VampireFlower
-* yuki2nd
-* 占庭 盧 (@lzt00275)
-
-## LICENSE:
-
-Apache License 2.0
-
-Copyright (c) 2018-2025, Lin Jen-Shin (godfat)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-<http://www.apache.org/licenses/LICENSE-2.0>
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+確認沒問題的話，你準備好要在遊戲裡開抽，進行我們的「種子碼 (Seed) 定位」實戰了嗎？
