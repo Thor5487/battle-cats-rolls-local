@@ -12,7 +12,7 @@
 2. 輸入以下指令並按下 Enter：
 
 ```powershell
-    wsl --install
+wsl --install
 ```
 重新啟動電腦 以完成安裝。
 
@@ -24,34 +24,34 @@
 更新系統軟體清單：
 
 ```Bash
-    sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 ```
 安裝核心工具與依賴套件 (包含 Git、Ruby 與底層 C 語言編譯工具)：
 
 ```Bash
-    sudo apt install -y git ruby-full build-essential patch zlib1g-dev liblzma-dev libicu-dev clang
+sudo apt install -y git ruby-full build-essential patch zlib1g-dev liblzma-dev libicu-dev clang
 ```
 階段三：專案安裝與設定
 環境打底完成後，接著將專案原始碼下載到本地並安裝套件。
 
 將專案 Clone 到本地 (請將網址替換為你自己的 GitHub 倉庫網址)：
 ```Bash
-    git clone https://github.com/Thor5487/battle-cats-rolls-local
+git clone https://github.com/Thor5487/battle-cats-rolls-local
 ```
 進入專案資料夾：
 ```Bash
-    cd battle-cats-rolls-local
+cd battle-cats-rolls-local
 ```
 安裝 Ruby 專屬套件管理員 (Bundler)：
 ```Bash
-    sudo gem install bundler
+sudo gem install bundler
 ```
 安裝所有專案所需套件 (根據 Gemfile 自動下載)：
 ```Bash
-    bundle config set --local path 'vendor/bundle'
-    bundle install
-    ./Seeker/bin/build-VampireFlower.sh
-    ./Seeker/bin/build-8.6.sh
+bundle config set --local path 'vendor/bundle'
+bundle install
+./Seeker/bin/build-VampireFlower.sh
+./Seeker/bin/build-8.6.sh
 ```
 階段四：建置遊戲資料庫與啟動伺服器
 最後一步，抓取最新的轉蛋池資料並啟動你的伺服器！
@@ -59,12 +59,12 @@
 下載並解析台版 (BCTW) 轉蛋資料：
 
 ```Bash
-    ruby bin/build.rb tw
+ruby bin/build.rb tw
 ```
 啟動伺服器：
 
 ```Bash
-    bundle exec rackup -p 8080 -o 0.0.0.0
+bundle exec rackup -p 8080 -o 0.0.0.0
 ```
 當終端機顯示 Rackup::Handler::WEBrick::Server#start 且沒有報錯時，恭喜你架設成功！
 請打開瀏覽器前往 👉 http://localhost:8080 即可開始使用。
