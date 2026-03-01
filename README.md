@@ -47,15 +47,13 @@
 階段四：建置遊戲資料庫與啟動伺服器
 最後一步，抓取最新的轉蛋池資料並啟動你的伺服器！
 
-下載並解析台版 (BCTW) 轉蛋資料：
+連結遠端轉蛋資料：
     
-    ruby bin/build.rb tw
+    git remote add upstream https://gitlab.com/godfat/battle-cats-rolls.git
+    
 啟動伺服器：
-方法一:
-    
-    bundle exec rackup -p 8080 -o 0.0.0.0
-方法二:
-將"貓戰種子碼.bat"移至桌面上，點開即可。
+
+將"貓戰種子碼.bat"移至桌面上，點開即可，以後只要使用都點擊.bat即可，前面步驟不用再重複。
 
 當終端機顯示 Rackup::Handler::WEBrick::Server#start 且沒有報錯時，恭喜你架設成功！
 請打開瀏覽器前往 👉 http://localhost:8080 即可開始使用。
