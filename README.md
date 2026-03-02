@@ -45,13 +45,6 @@
     ./Seeker/bin/build-VampireFlower.sh
     ./Seeker/bin/build-8.6.sh
 階段四：建置遊戲資料庫與啟動伺服器
-最後一步，抓取最新的轉蛋池資料並啟動你的伺服器！
-
-連結遠端轉蛋資料：
-    
-    git remote add upstream https://gitlab.com/godfat/battle-cats-rolls.git
-    
-啟動伺服器：
 
 將"貓戰種子碼.bat"移至桌面上，點開即可，以後只要使用都點擊.bat即可，前面步驟不用再重複。
 
