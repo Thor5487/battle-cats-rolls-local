@@ -52,7 +52,7 @@ module BattleCatsRolls
     end
 
     def verify_png result
-      if result.start_with?("\x89PNG".b)
+      if result.force_encoding('ASCII-8BIT').start_with?("\x89PNG".b)
         result
       else
         raise ArgumentError.new('Decrypted data not PNG')
