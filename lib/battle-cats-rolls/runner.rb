@@ -20,17 +20,55 @@ module BattleCatsRolls
     end
 
     def self.tw
+      env_ver = ENV['TW_VERSION']
+      version = (env_ver && !env_ver.empty?) ? env_ver : fetch_apkpure_version('jp.co.ponos.battlecatstw', '15.2.0')
+
       @tw ||= [
         'tw',
-        '15.1.0',
+        version,
         'jp.co.ponos.battlecatstw'
       ]
+    end
+
+    def self.fetch_apkpure_version(package_name, initial_fallback)
+      require 'open3'
+      
+      # 【記憶系統 1】先嘗試讀取上一次成功的記憶
+      version_file = File.join(Root, '.last_version_tw')
+      last_known_version = File.exist?(version_file) ? File.read(version_file).strip : initial_fallback
+      
+      begin
+        url = "https://apkpure.com/p/#{package_name}"
+        cmd = %Q{wget -q -O- -L --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" "#{url}"}
+        html, _status = Open3.capture2(cmd)
+        
+        if html =~ /"(?:softwareVersion|version)"\s*:\s*"(\d+\.\d+\.\d+)"/
+          latest_version = $1
+          puts "[System] 🕷️ 爬蟲成功！最新 Android 版本號為: #{latest_version}"
+          
+          # 【記憶系統 2】如果檔案不存在，或是發現新版本，就強制寫入！
+          if !File.exist?(version_file) || latest_version != last_known_version
+            File.write(version_file, latest_version)
+            puts "[System] 💾 已將版本 #{latest_version} 安全記錄至 #{version_file}"
+          end
+          
+          return latest_version
+        else
+          puts "[System] ⚠️ 爬蟲被擋或找不到版本號，啟動記憶退路..."
+        end
+      rescue => e
+        puts "[System] ⚠️ 爬蟲執行發生錯誤 (#{e.message})，啟動記憶退路..."
+      end
+      
+      # 【記憶系統 3】如果上面任何一步失敗，就回傳上一次成功的記憶！
+      puts "[System] 🔄 退回使用上一次成功運作的版本: #{last_known_version}"
+      last_known_version
     end
 
     def self.jp
       @jp ||= [
         'jp',
-        '15.1.1',
+        '15.2.1',
         'jp.co.ponos.battlecats'
       ]
     end

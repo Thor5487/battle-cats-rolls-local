@@ -349,7 +349,7 @@ module BattleCatsRolls
         52 => 'resistant_toxic',
         # unused
         28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
-        42 => 'witch_slayer', 43 => 'eva_angel_slayer',
+        42 => 'witch_slayer', 43 => 'eva_angel_slayer', 68 => 'unknown',
       }
     end
 
