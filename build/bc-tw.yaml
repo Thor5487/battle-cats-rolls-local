@@ -4175,7 +4175,7 @@ cats:
       increase_damage:
         max_level: 10
         minmax: [[2, 20]]
-      unknown:
+      unknown_ability_68:
         ultra: 1
       resistant_surge:
         max_level: 10

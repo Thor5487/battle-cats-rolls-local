@@ -125,7 +125,7 @@ module BattleCatsRolls
 
     def transform_skills named_data
       group_skills(named_data).inject({}) do |result, skill|
-        result[talent_types.fetch(skill['abilityID'])] = {
+        result[talent_types[skill['abilityID']] || "unknown_ability_#{skill['abilityID']}"] = {
           'max_level' => skill['MAXLv'],
           'minmax' => skill['minmax'],
           'ultra' => skill['limit']
@@ -349,7 +349,7 @@ module BattleCatsRolls
         52 => 'resistant_toxic',
         # unused
         28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
-        42 => 'witch_slayer', 43 => 'eva_angel_slayer', 68 => 'unknown',
+        42 => 'witch_slayer', 43 => 'eva_angel_slayer',
       }
     end
 
