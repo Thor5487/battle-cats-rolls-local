@@ -346,10 +346,10 @@ module BattleCatsRolls
         19 => 'resistant_freeze', 20 => 'resistant_slow',
         18 => 'resistant_weaken', 30 => 'resistant_curse',
         22 => 'resistant_wave', 54 => 'resistant_surge',
-        52 => 'resistant_toxic',
+        52 => 'resistant_toxic', 68=> 'counter_surge',
         # unused
         28 => 'increase_knockbacks', 9 => 'warp', 24 => 'resistant_warp',
-        42 => 'witch_slayer', 43 => 'eva_angel_slayer',
+        42 => 'witch_slayer', 43 => 'eva_angel_slayer', 
       }
     end
 
