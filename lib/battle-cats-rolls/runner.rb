@@ -44,7 +44,7 @@ module BattleCatsRolls
         
         if html =~ /"(?:softwareVersion|version)"\s*:\s*"(\d+\.\d+\.\d+)"/
           latest_version = $1
-          puts "[System] 🕷️ 爬蟲成功！最新 Android 版本號為: #{latest_version}"
+          puts "[System] 🕷️ 爬蟲成功！Latest Version: #{latest_version}"
           
           # 【記憶系統 2】如果檔案不存在，或是發現新版本，就強制寫入！
           if !File.exist?(version_file) || latest_version != last_known_version

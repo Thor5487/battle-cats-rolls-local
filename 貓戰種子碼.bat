@@ -17,7 +17,7 @@ echo ---------------------------------------------------------
 echo ✅ 編譯完成！正在啟動伺服器...
 
 :: 【第二階段】用 start 另開一個背景進程來跑伺服器 (這樣才不會卡住後面的開網頁指令)
-start wsl bash -c "cd ~/battle-cats-rolls-local && bundle exec rackup -p 8080 -o 0.0.0.0"
+start wsl bash -c "cd ~/battle-cats-rolls-local && bundle exec bin/server"
 
 :: 給伺服器 3 秒鐘的啟動暖機時間
 timeout /t 3 /nobreak > NUL
